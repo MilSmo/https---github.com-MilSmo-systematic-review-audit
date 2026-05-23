@@ -1,0 +1,2205 @@
+[
+  {
+    "standard": "PRISMA_2020",
+    "section": "Title",
+    "topic": "Title",
+    "item_id": "PRISMA_2020_1",
+    "item_label": "1",
+    "checklist_item": "Identify the report as a systematic review.",
+    "sections_to_search": [
+      "Title",
+      "Front matter",
+      "Abstract",
+      "Header",
+      "Citation"
+    ],
+    "query_template": "Does the title (or header) explicitly identify the report as a systematic review (and/or meta-analysis)? Provide evidence from the title.",
+    "keywords": [
+      "systematic review",
+      "meta-analysis",
+      "review",
+      "systematic literature review",
+      "evidence synthesis",
+      "systematic reviews",
+      "systematic scoping review",
+      "meta analysis",
+      "metaanalysis",
+      "quantitative synthesis",
+      "qualitative synthesis",
+      "review protocol",
+      "overview of reviews",
+      "umbrella review"
+    ],
+    "evidence_requirements": [
+      "Title contains explicit phrase indicating systematic review (or equivalent)."
+    ],
+    "decision_rules": {
+      "YES": "Title explicitly identifies the report as a systematic review (or meta-analysis).",
+      "PARTIAL": "Title implies a review but does not clearly state systematic review/meta-analysis.",
+      "NO": "Title does not indicate it is a systematic review.",
+      "NA": "Not applicable (rare; typically always applicable)."
+    },
+    "query_template_expanded": "Does the title (or header) explicitly identify the report as a systematic review (and/or meta-analysis)? Provide evidence from the title. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Title contains explicit phrase indicating systematic review (or equivalent).",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Abstract",
+    "topic": "Abstract",
+    "item_id": "PRISMA_2020_2",
+    "item_label": "2",
+    "checklist_item": "See the PRISMA 2020 for Abstracts checklist (Table 2).",
+    "sections_to_search": [
+      "Abstract",
+      "Structured abstract",
+      "Summary"
+    ],
+    "query_template": "Does the abstract contain the key PRISMA-Abstract elements (objective, eligibility, information sources, risk of bias, results, limitations, registration)? Summarize which elements are present and which are missing, with evidence.",
+    "keywords": [
+      "objective",
+      "aim",
+      "eligibility",
+      "inclusion criteria",
+      "databases",
+      "search",
+      "risk of bias",
+      "results",
+      "registration",
+      "PROSPERO",
+      "structured abstract",
+      "background",
+      "objectives",
+      "methods",
+      "eligibility criteria",
+      "information sources",
+      "search dates",
+      "synthesis",
+      "meta-analysis",
+      "limitations",
+      "funding",
+      "certainty of evidence",
+      "GRADE"
+    ],
+    "evidence_requirements": [
+      "Abstract includes structured elements or clearly reports core methods and results; ideally mentions registration."
+    ],
+    "decision_rules": {
+      "YES": "Abstract substantially follows PRISMA for Abstracts with most required elements present.",
+      "PARTIAL": "Abstract reports some required elements but important parts are missing (e.g., search sources/dates, registration, RoB).",
+      "NO": "Abstract lacks core systematic review reporting elements.",
+      "NA": "Not applicable (typically applicable)."
+    },
+    "query_template_expanded": "Does the abstract contain the key PRISMA-Abstract elements (objective, eligibility, information sources, risk of bias, results, limitations, registration)? Summarize which elements are present and which are missing, with evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Abstract includes structured elements or clearly reports core methods and results; ideally mentions registration.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Introduction",
+    "topic": "Rationale",
+    "item_id": "PRISMA_2020_3",
+    "item_label": "3",
+    "checklist_item": "Describe the rationale for the review in the context of existing knowledge.",
+    "sections_to_search": [
+      "Introduction",
+      "Background",
+      "Rationale",
+      "Abstract"
+    ],
+    "query_template": "Do the authors explain why the review is needed, referencing gaps/inconsistencies in existing knowledge? Provide evidence.",
+    "keywords": [
+      "rationale",
+      "background",
+      "gap",
+      "limited evidence",
+      "inconsistent",
+      "unclear",
+      "previous studies",
+      "need for review",
+      "context",
+      "existing knowledge",
+      "previous reviews",
+      "evidence gap",
+      "knowledge gap",
+      "inconsistent evidence",
+      "conflicting evidence",
+      "uncertain",
+      "why this review",
+      "there is a need",
+      "to our knowledge"
+    ],
+    "evidence_requirements": [
+      "Explicit motivation for the review linked to existing literature/gaps."
+    ],
+    "decision_rules": {
+      "YES": "Clear rationale grounded in existing knowledge and an identified gap/need.",
+      "PARTIAL": "Some rationale given but weakly linked to existing evidence or vague.",
+      "NO": "No rationale or only generic statements without context.",
+      "NA": "Not applicable (typically applicable)."
+    },
+    "query_template_expanded": "Do the authors explain why the review is needed, referencing gaps/inconsistencies in existing knowledge? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Explicit motivation for the review linked to existing literature/gaps.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Introduction",
+    "topic": "Objectives",
+    "item_id": "PRISMA_2020_4",
+    "item_label": "4",
+    "checklist_item": "Provide an explicit statement of the objective(s) or question(s) the review addresses.",
+    "sections_to_search": [
+      "Introduction",
+      "Objectives",
+      "Research question",
+      "Abstract",
+      "Background"
+    ],
+    "query_template": "Are the objectives or research questions explicitly stated (e.g., using PICO/PECO)? Provide evidence.",
+    "keywords": [
+      "objective",
+      "aim",
+      "research question",
+      "PICO",
+      "PECO",
+      "we aimed to",
+      "this review investigates",
+      "objectives",
+      "aims",
+      "purpose",
+      "research questions",
+      "review question",
+      "review questions",
+      "we aim to",
+      "our aim was",
+      "our objective was",
+      "we sought to",
+      "the aim of this review",
+      "the objective of this review",
+      "the purpose of this review",
+      "this review aims",
+      "this systematic review aimed",
+      "PICOS"
+    ],
+    "evidence_requirements": [
+      "Explicit objective/question statement; ideally structured (population/intervention/comparator/outcome)."
+    ],
+    "evidence_requirements_expanded": [
+      "Explicit objective/question statement; ideally structured (population/intervention/comparator/outcome).",
+      "Explicit objective/question statement; ideally structured.",
+      "Accept aims/objectives/questions expressed with PICO, PECO, PICOS, or equivalent population–exposure/intervention–outcome framing.",
+      "Do not mark YES for only a general topic statement without an explicit aim/objective/question.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ],
+    "decision_rules": {
+      "YES": "Explicit objective(s) or question(s) stated clearly.",
+      "PARTIAL": "General aim stated but lacks specificity (e.g., missing components).",
+      "NO": "Objectives/questions not explicitly stated.",
+      "NA": "Not applicable (typically applicable)."
+    },
+    "query_template_expanded": "Are the objectives or research questions explicitly stated (e.g., using PICO/PECO)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item."
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Eligibility criteria",
+    "item_id": "PRISMA_2020_5",
+    "item_label": "5",
+    "checklist_item": "Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses.",
+    "sections_to_search": [
+      "Methods",
+      "Eligibility criteria",
+      "Study selection",
+      "Supplementary material",
+      "Inclusion criteria",
+      "Exclusion criteria",
+      "Methods of the review"
+    ],
+    "query_template": "Do the authors specify inclusion and exclusion criteria and how studies were grouped for syntheses? Provide evidence.",
+    "keywords": [
+      "eligibility",
+      "inclusion criteria",
+      "exclusion criteria",
+      "criteria",
+      "PICO",
+      "PECO",
+      "study design",
+      "population",
+      "intervention",
+      "outcomes",
+      "grouped",
+      "synthesis groups",
+      "eligible",
+      "selection criteria",
+      "criteria for inclusion",
+      "criteria for exclusion",
+      "PICOS",
+      "participants",
+      "exposure",
+      "comparator",
+      "control",
+      "outcome",
+      "publication type",
+      "language restriction",
+      "date restriction",
+      "grouped for synthesis",
+      "comparison groups"
+    ],
+    "evidence_requirements": [
+      "Inclusion/exclusion criteria stated; grouping approach for syntheses described if multiple syntheses exist."
+    ],
+    "decision_rules": {
+      "YES": "Clear inclusion/exclusion criteria and grouping for syntheses described.",
+      "PARTIAL": "Criteria mentioned but incomplete (e.g., missing study design/outcomes) or grouping not described.",
+      "NO": "Eligibility criteria not reported.",
+      "NA": "Not applicable (rare; e.g., no synthesis grouping needed—still usually applicable)."
+    },
+    "query_template_expanded": "Do the authors specify inclusion and exclusion criteria and how studies were grouped for syntheses? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Inclusion/exclusion criteria stated; grouping approach for syntheses described if multiple syntheses exist.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Information sources",
+    "item_id": "PRISMA_2020_6",
+    "item_label": "6",
+    "checklist_item": "Specify all databases, registers, websites, organisations, reference lists and other sources searched or consulted to identify studies. Specify the date when each source was last searched or consulted.",
+    "sections_to_search": [
+      "Methods",
+      "Search strategy",
+      "Information sources",
+      "Supplementary material",
+      "Literature search",
+      "Data sources"
+    ],
+    "query_template": "Which information sources were searched/consulted (databases/registers/websites/etc.) and are the last-search dates provided for each? Provide evidence.",
+    "keywords": [
+      "database",
+      "databases",
+      "register",
+      "trial registry",
+      "website",
+      "grey literature",
+      "reference list",
+      "handsearch",
+      "last searched",
+      "search date",
+      "consulted",
+      "information sources",
+      "searched",
+      "searches",
+      "MEDLINE",
+      "PubMed",
+      "Embase",
+      "CINAHL",
+      "Web of Science",
+      "Scopus",
+      "Cochrane",
+      "CENTRAL",
+      "PsycINFO",
+      "ClinicalTrials.gov",
+      "WHO ICTRP",
+      "gray literature",
+      "organisation",
+      "organization",
+      "reference lists",
+      "citation searching",
+      "date of search"
+    ],
+    "evidence_requirements": [
+      "List of sources AND dates of last search/consultation."
+    ],
+    "decision_rules": {
+      "YES": "All sources listed and last-search dates provided.",
+      "PARTIAL": "Sources listed but dates missing/partial; or dates given but sources incomplete.",
+      "NO": "Information sources not clearly specified.",
+      "NA": "Not applicable (typically applicable)."
+    },
+    "query_template_expanded": "Which information sources were searched/consulted (databases/registers/websites/etc.) and are the last-search dates provided for each? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "List of sources AND dates of last search/consultation.",
+      "Must identify sources searched or consulted and last-search dates; source names alone are only PARTIAL.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Search strategy",
+    "item_id": "PRISMA_2020_7",
+    "item_label": "7",
+    "checklist_item": "Present the full search strategies for all databases, registers and websites, including any filters and limits used.",
+    "sections_to_search": [
+      "Methods",
+      "Search strategy",
+      "Supplementary material",
+      "Appendix",
+      "Literature search"
+    ],
+    "query_template": "Do the authors present the full search strategies (queries/strings) for all sources, including filters/limits? Provide evidence.",
+    "keywords": [
+      "search strategy",
+      "search string",
+      "query",
+      "MeSH",
+      "keywords",
+      "Boolean",
+      "filters",
+      "limits",
+      "appendix",
+      "supplementary",
+      "full search strategy",
+      "search strings",
+      "search terms",
+      "Emtree",
+      "truncation",
+      "wildcard",
+      "date limits",
+      "language limits",
+      "database syntax",
+      "supplementary table"
+    ],
+    "evidence_requirements": [
+      "Full search strings/strategies for each database/register/website; filters/limits documented."
+    ],
+    "decision_rules": {
+      "YES": "Full search strategies for all sources provided (often in appendix/supplement).",
+      "PARTIAL": "Partial strategy provided (e.g., one database only) or missing filters/limits.",
+      "NO": "No full search strategy reported.",
+      "NA": "Not applicable (typically applicable)."
+    },
+    "query_template_expanded": "Do the authors present the full search strategies (queries/strings) for all sources, including filters/limits? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Full search strings/strategies for each database/register/website; filters/limits documented.",
+      "Full reproducible search strings are required; a short list of search terms is usually PARTIAL.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Selection process",
+    "item_id": "PRISMA_2020_8",
+    "item_label": "8",
+    "checklist_item": "Specify the methods used to decide whether a study met the inclusion criteria of the review, including how many reviewers screened each record and each report retrieved, whether they worked independently, and if applicable, details of automation tools used in the process.",
+    "sections_to_search": [
+      "Methods",
+      "Study selection",
+      "Screening",
+      "Supplementary material",
+      "Selection process"
+    ],
+    "query_template": "Is the study selection/screening process described (number of reviewers, independence, conflict resolution, and any automation tools)? Provide evidence.",
+    "keywords": [
+      "screening",
+      "study selection",
+      "two reviewers",
+      "independently",
+      "titles and abstracts",
+      "full text",
+      "disagreements",
+      "third reviewer",
+      "automation",
+      "Rayyan",
+      "Covidence",
+      "title and abstract",
+      "full-text review",
+      "reviewers",
+      "independent reviewers",
+      "independently screened",
+      "duplicate screening",
+      "resolved by consensus",
+      "arbitration",
+      "machine learning",
+      "EndNote"
+    ],
+    "evidence_requirements": [
+      "Who screened records/full texts, independence, and (if used) automation tool details."
+    ],
+    "decision_rules": {
+      "YES": "Number of reviewers, independence, and process details clearly reported; automation tools described if used.",
+      "PARTIAL": "Selection process mentioned but missing key details (e.g., independence or number of reviewers).",
+      "NO": "Selection process not described.",
+      "NA": "Not applicable (typically applicable)."
+    },
+    "query_template_expanded": "Is the study selection/screening process described (number of reviewers, independence, conflict resolution, and any automation tools)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Who screened records/full texts, independence, and (if used) automation tool details.",
+      "Look for number of reviewers, independence, screening stages, conflict resolution, and automation tools.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Data collection process",
+    "item_id": "PRISMA_2020_9",
+    "item_label": "9",
+    "checklist_item": "Specify the methods used to collect data from reports, including how many reviewers collected data from each report, whether they worked independently, any processes for obtaining or confirming data from study investigators, and if applicable, details of automation tools used in the process.",
+    "sections_to_search": [
+      "Methods",
+      "Data extraction",
+      "Data collection",
+      "Supplementary material",
+      "Data abstraction"
+    ],
+    "query_template": "Is the data extraction/collection process described (reviewers, independence, verification with authors, automation tools)? Provide evidence.",
+    "keywords": [
+      "data extraction",
+      "data collection",
+      "two reviewers",
+      "independently",
+      "extracted",
+      "pilot form",
+      "contacted authors",
+      "verification",
+      "automation",
+      "extracted data",
+      "data abstraction",
+      "extraction form",
+      "standardized form",
+      "piloted form",
+      "independently extracted",
+      "duplicate extraction",
+      "verified",
+      "checked",
+      "study investigators",
+      "missing information",
+      "software"
+    ],
+    "evidence_requirements": [
+      "Description of extraction process and roles; mention contacting investigators if applicable."
+    ],
+    "decision_rules": {
+      "YES": "Extraction process clearly described including reviewer setup and any verification/automation.",
+      "PARTIAL": "Extraction mentioned but lacks key details (reviewer count/independence/verification).",
+      "NO": "No extraction/data collection process described.",
+      "NA": "Not applicable (rare)."
+    },
+    "query_template_expanded": "Is the data extraction/collection process described (reviewers, independence, verification with authors, automation tools)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Description of extraction process and roles; mention contacting investigators if applicable.",
+      "Look for number of data collectors, independence/verification, author contact, and automation tools.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Data items",
+    "item_id": "PRISMA_2020_10a",
+    "item_label": "10a",
+    "checklist_item": "List and define all outcomes for which data were sought. Specify whether all results that were compatible with each outcome domain in each study were sought (e.g. for all measures, time points, analyses), and if not, the methods used to decide which results to collect.",
+    "sections_to_search": [
+      "Methods",
+      "Outcomes",
+      "Data items",
+      "Supplementary material",
+      "Data extraction"
+    ],
+    "query_template": "Do the authors list/define all outcomes and describe whether all compatible results were sought (measures/time points/analyses) or how they selected results? Provide evidence.",
+    "keywords": [
+      "outcomes",
+      "primary outcome",
+      "secondary outcome",
+      "endpoint",
+      "time point",
+      "measures",
+      "compatible results",
+      "selected results",
+      "outcome measures",
+      "endpoints",
+      "time points",
+      "follow-up",
+      "measurement",
+      "scale",
+      "domain",
+      "all results",
+      "selective outcome",
+      "outcome definition"
+    ],
+    "evidence_requirements": [
+      "Outcomes defined; rules for selecting results across measures/time points stated if relevant."
+    ],
+    "decision_rules": {
+      "YES": "All outcomes defined and approach to selecting results described.",
+      "PARTIAL": "Outcomes listed but not defined; or selection approach missing.",
+      "NO": "Outcomes for which data were sought not clearly listed/defined.",
+      "NA": "Not applicable (rare)."
+    },
+    "query_template_expanded": "Do the authors list/define all outcomes and describe whether all compatible results were sought (measures/time points/analyses) or how they selected results? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Outcomes defined; rules for selecting results across measures/time points stated if relevant.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Data items",
+    "item_id": "PRISMA_2020_10b",
+    "item_label": "10b",
+    "checklist_item": "List and define all other variables for which data were sought (e.g. participant and intervention characteristics, funding sources). Describe any assumptions made about any missing or unclear information.",
+    "sections_to_search": [
+      "Methods",
+      "Data items",
+      "Data extraction",
+      "Supplementary material",
+      "Study characteristics"
+    ],
+    "query_template": "Do the authors list/define additional variables extracted (e.g., participant/intervention characteristics, funding) and describe assumptions for missing/unclear information? Provide evidence.",
+    "keywords": [
+      "variables",
+      "characteristics",
+      "participant characteristics",
+      "intervention characteristics",
+      "study characteristics",
+      "funding source",
+      "assumptions",
+      "missing data",
+      "unclear",
+      "data items",
+      "patient characteristics",
+      "exposure characteristics",
+      "comparator characteristics",
+      "setting",
+      "country",
+      "sample size",
+      "age",
+      "sex",
+      "unclear information",
+      "not reported"
+    ],
+    "evidence_requirements": [
+      "Variables list/definitions; stated assumptions for missing/unclear data."
+    ],
+    "decision_rules": {
+      "YES": "Other variables and assumptions for missing/unclear info clearly described.",
+      "PARTIAL": "Variables mentioned but not defined, or assumptions not described.",
+      "NO": "No clear description of other variables or assumptions.",
+      "NA": "Not applicable (rare)."
+    },
+    "query_template_expanded": "Do the authors list/define additional variables extracted (e.g., participant/intervention characteristics, funding) and describe assumptions for missing/unclear information? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Variables list/definitions; stated assumptions for missing/unclear data.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Study risk of bias assessment",
+    "item_id": "PRISMA_2020_11",
+    "item_label": "11",
+    "checklist_item": "Specify the methods used to assess risk of bias in the included studies, including details of the tool(s) used, how many reviewers assessed each study and whether they worked independently, and if applicable, details of automation tools used in the process.",
+    "sections_to_search": [
+      "Methods",
+      "Risk of bias",
+      "Quality assessment",
+      "Supplementary material",
+      "Critical appraisal"
+    ],
+    "query_template": "Are methods for assessing risk of bias described (tool used, reviewers, independence, automation tools if any)? Provide evidence.",
+    "keywords": [
+      "risk of bias",
+      "quality assessment",
+      "RoB",
+      "Cochrane RoB",
+      "ROBINS-I",
+      "QUADAS",
+      "Newcastle-Ottawa",
+      "two reviewers",
+      "independently",
+      "automation",
+      "bias assessment",
+      "methodological quality",
+      "critical appraisal",
+      "RoB 2",
+      "QUADAS-2",
+      "NOS",
+      "JBI",
+      "CASP",
+      "AMSTAR",
+      "independently assessed"
+    ],
+    "evidence_requirements": [
+      "Named RoB tool/approach; reviewer process; automation if used."
+    ],
+    "decision_rules": {
+      "YES": "RoB assessment methods fully described including tool and reviewer details.",
+      "PARTIAL": "RoB assessment mentioned but missing key details (tool or reviewer process).",
+      "NO": "No RoB assessment method described.",
+      "NA": "Not applicable (rare; most reviews should assess bias)."
+    },
+    "query_template_expanded": "Are methods for assessing risk of bias described (tool used, reviewers, independence, automation tools if any)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Named RoB tool/approach; reviewer process; automation if used.",
+      "Named risk-of-bias tool plus reviewer process is needed for YES.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Effect measures",
+    "item_id": "PRISMA_2020_12",
+    "item_label": "12",
+    "checklist_item": "Specify for each outcome the effect measure(s) (e.g. risk ratio, mean difference) used in the synthesis or presentation of results.",
+    "sections_to_search": [
+      "Methods",
+      "Statistical analysis",
+      "Synthesis",
+      "Results",
+      "Data synthesis"
+    ],
+    "query_template": "Do the authors specify effect measures for each outcome (e.g., RR, OR, MD, SMD) used in synthesis/presentation? Provide evidence.",
+    "keywords": [
+      "effect measure",
+      "risk ratio",
+      "odds ratio",
+      "mean difference",
+      "standardized mean difference",
+      "hazard ratio",
+      "risk difference",
+      "CI",
+      "effect size",
+      "effect measures",
+      "relative risk",
+      "RR",
+      "OR",
+      "HR",
+      "MD",
+      "SMD",
+      "prevalence",
+      "proportion",
+      "correlation",
+      "confidence interval",
+      "credible interval"
+    ],
+    "evidence_requirements": [
+      "Explicit effect measure(s) stated per outcome or clearly for outcomes analyzed."
+    ],
+    "decision_rules": {
+      "YES": "Effect measures are specified for each outcome (or clearly for outcome categories).",
+      "PARTIAL": "Effect measures mentioned but not mapped to outcomes or incompletely specified.",
+      "NO": "Effect measures not specified.",
+      "NA": "Not applicable (e.g., purely qualitative narrative without effect estimates)."
+    },
+    "query_template_expanded": "Do the authors specify effect measures for each outcome (e.g., RR, OR, MD, SMD) used in synthesis/presentation? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Explicit effect measure(s) stated per outcome or clearly for outcomes analyzed.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Synthesis methods",
+    "item_id": "PRISMA_2020_13a",
+    "item_label": "13a",
+    "checklist_item": "Describe the processes used to decide which studies were eligible for each synthesis (e.g. tabulating the study intervention characteristics and comparing against the planned groups for each synthesis (item #5)).",
+    "sections_to_search": [
+      "Methods",
+      "Synthesis",
+      "Data synthesis",
+      "Results",
+      "Eligibility criteria"
+    ],
+    "query_template": "Do the authors describe how they decided which studies contributed to each synthesis (e.g., grouping decisions)? Provide evidence.",
+    "keywords": [
+      "eligible for synthesis",
+      "contributed studies",
+      "grouping",
+      "synthesis groups",
+      "decision process",
+      "tabulated characteristics",
+      "included in synthesis",
+      "contributed to synthesis",
+      "grouped",
+      "planned groups",
+      "comparison groups",
+      "intervention characteristics",
+      "outcome domains",
+      "study characteristics",
+      "mapping studies"
+    ],
+    "evidence_requirements": [
+      "Process/criteria for mapping included studies into each synthesis/group."
+    ],
+    "decision_rules": {
+      "YES": "Clear process described for assigning studies to each synthesis.",
+      "PARTIAL": "Some mention of grouping but unclear process/criteria.",
+      "NO": "No description of how studies were chosen for each synthesis.",
+      "NA": "Not applicable (single narrative synthesis with no grouping; still often partially applicable)."
+    },
+    "query_template_expanded": "Do the authors describe how they decided which studies contributed to each synthesis (e.g., grouping decisions)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Process/criteria for mapping included studies into each synthesis/group.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Synthesis methods",
+    "item_id": "PRISMA_2020_13b",
+    "item_label": "13b",
+    "checklist_item": "Describe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions.",
+    "sections_to_search": [
+      "Methods",
+      "Data handling",
+      "Synthesis",
+      "Supplementary material",
+      "Statistical analysis"
+    ],
+    "query_template": "Do the authors describe data preparation methods (handling missing stats, conversions, transformations) used before synthesis? Provide evidence.",
+    "keywords": [
+      "data preparation",
+      "missing data",
+      "imputation",
+      "conversion",
+      "transformation",
+      "standard error",
+      "standard deviation",
+      "calculated",
+      "extracted",
+      "prepared data",
+      "missing summary statistics",
+      "converted",
+      "confidence interval",
+      "median to mean",
+      "unit conversion",
+      "data harmonization"
+    ],
+    "evidence_requirements": [
+      "Explicit description of conversions/handling missing summary statistics if performed."
+    ],
+    "decision_rules": {
+      "YES": "Data preparation methods clearly described where relevant.",
+      "PARTIAL": "Mentions preparation but lacks detail on what/how.",
+      "NO": "No data preparation methods described (when such steps are implied).",
+      "NA": "Not applicable (no preparation needed or no quantitative synthesis)."
+    },
+    "query_template_expanded": "Do the authors describe data preparation methods (handling missing stats, conversions, transformations) used before synthesis? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Explicit description of conversions/handling missing summary statistics if performed.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Synthesis methods",
+    "item_id": "PRISMA_2020_13c",
+    "item_label": "13c",
+    "checklist_item": "Describe any methods used to tabulate or visually display results of individual studies and syntheses.",
+    "sections_to_search": [
+      "Methods",
+      "Results",
+      "Figures",
+      "Tables",
+      "Supplementary material"
+    ],
+    "query_template": "Do the authors describe how they tabulated or visually displayed results (tables, forest plots, etc.)? Provide evidence.",
+    "keywords": [
+      "table",
+      "tabulate",
+      "forest plot",
+      "funnel plot",
+      "figure",
+      "visual display",
+      "summary table",
+      "plot",
+      "tabulated",
+      "tables",
+      "evidence table",
+      "graph",
+      "harvest plot",
+      "matrix",
+      "narrative summary"
+    ],
+    "evidence_requirements": [
+      "Description of presentation/visualization methods for results."
+    ],
+    "decision_rules": {
+      "YES": "Methods for tabulation/visual display described.",
+      "PARTIAL": "Figures/tables exist but methods for constructing/presenting are not described.",
+      "NO": "No description of tabulation/visual display methods.",
+      "NA": "Not applicable (no results presented beyond text)."
+    },
+    "query_template_expanded": "Do the authors describe how they tabulated or visually displayed results (tables, forest plots, etc.)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Description of presentation/visualization methods for results.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Synthesis methods",
+    "item_id": "PRISMA_2020_13d",
+    "item_label": "13d",
+    "checklist_item": "Describe any methods used to synthesise results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used.",
+    "sections_to_search": [
+      "Methods",
+      "Statistical analysis",
+      "Synthesis",
+      "Results",
+      "Data synthesis"
+    ],
+    "query_template": "Do the authors describe synthesis methods and rationale, and if meta-analysis was done: models, heterogeneity assessment, and software? Provide evidence.",
+    "keywords": [
+      "meta-analysis",
+      "random effects",
+      "fixed effect",
+      "heterogeneity",
+      "I2",
+      "tau2",
+      "Cochran Q",
+      "software",
+      "RevMan",
+      "R",
+      "Stata",
+      "model",
+      "synthesis",
+      "synthesis methods",
+      "data synthesis",
+      "random-effects",
+      "fixed-effect",
+      "inverse variance",
+      "Mantel-Haenszel",
+      "DerSimonian",
+      "Hartung-Knapp",
+      "I²",
+      "tau²",
+      "metafor",
+      "rationale"
+    ],
+    "evidence_requirements": [
+      "Synthesis method + rationale; if meta-analysis, model/heterogeneity/software explicitly stated."
+    ],
+    "decision_rules": {
+      "YES": "Synthesis methods and rationale reported; meta-analysis details reported if applicable.",
+      "PARTIAL": "Synthesis described but missing key meta-analysis details (model/heterogeneity/software) or missing rationale.",
+      "NO": "No clear synthesis method description.",
+      "NA": "Not applicable (if no synthesis performed at all)."
+    },
+    "query_template_expanded": "Do the authors describe synthesis methods and rationale, and if meta-analysis was done: models, heterogeneity assessment, and software? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Synthesis method + rationale; if meta-analysis, model/heterogeneity/software explicitly stated.",
+      "If meta-analysis was conducted, model, heterogeneity metrics, and software are all important evidence.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Synthesis methods",
+    "item_id": "PRISMA_2020_13e",
+    "item_label": "13e",
+    "checklist_item": "Describe any methods used to explore possible causes of heterogeneity among study results (e.g. subgroup analysis, meta-regression).",
+    "sections_to_search": [
+      "Methods",
+      "Synthesis",
+      "Subgroup analysis",
+      "Results",
+      "Meta-regression"
+    ],
+    "query_template": "Do the authors describe methods to explore heterogeneity (subgroup analysis, meta-regression, etc.)? Provide evidence.",
+    "keywords": [
+      "heterogeneity",
+      "subgroup analysis",
+      "meta-regression",
+      "moderator",
+      "sensitivity",
+      "explore causes",
+      "stratified",
+      "sources of heterogeneity",
+      "explore heterogeneity",
+      "subgroup analyses",
+      "metaregression",
+      "interaction",
+      "effect modification",
+      "stratified analysis",
+      "sensitivity analysis"
+    ],
+    "evidence_requirements": [
+      "Description of heterogeneity exploration methods if heterogeneity considered."
+    ],
+    "decision_rules": {
+      "YES": "Heterogeneity exploration methods clearly described.",
+      "PARTIAL": "Heterogeneity is mentioned but methods to explore causes are unclear.",
+      "NO": "No heterogeneity exploration methods described (when relevant).",
+      "NA": "Not applicable (no quantitative synthesis or no heterogeneity exploration planned)."
+    },
+    "query_template_expanded": "Do the authors describe methods to explore heterogeneity (subgroup analysis, meta-regression, etc.)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Description of heterogeneity exploration methods if heterogeneity considered.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Synthesis methods",
+    "item_id": "PRISMA_2020_13f",
+    "item_label": "13f",
+    "checklist_item": "Describe any sensitivity analyses conducted to assess robustness of the synthesised results.",
+    "sections_to_search": [
+      "Methods",
+      "Sensitivity analysis",
+      "Results",
+      "Supplementary material",
+      "Synthesis"
+    ],
+    "query_template": "Do the authors describe sensitivity analyses to assess robustness of syntheses? Provide evidence.",
+    "keywords": [
+      "sensitivity analysis",
+      "robustness",
+      "leave-one-out",
+      "exclude",
+      "alternative model",
+      "risk of bias sensitivity",
+      "sensitivity analyses",
+      "robust",
+      "influence analysis",
+      "excluding studies",
+      "exclude high risk",
+      "assumptions",
+      "post hoc"
+    ],
+    "evidence_requirements": [
+      "Planned or conducted sensitivity analysis methods described."
+    ],
+    "decision_rules": {
+      "YES": "Sensitivity analysis methods described (and/or clearly reported as done).",
+      "PARTIAL": "Sensitivity analysis mentioned but not described.",
+      "NO": "No sensitivity analysis methods described (when relevant).",
+      "NA": "Not applicable (no synthesis or sensitivity analysis not relevant)."
+    },
+    "query_template_expanded": "Do the authors describe sensitivity analyses to assess robustness of syntheses? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Planned or conducted sensitivity analysis methods described.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Reporting bias assessment",
+    "item_id": "PRISMA_2020_14",
+    "item_label": "14",
+    "checklist_item": "Describe any methods used to assess risk of bias due to missing results in a synthesis (arising from reporting biases).",
+    "sections_to_search": [
+      "Methods",
+      "Reporting bias",
+      "Publication bias",
+      "Results",
+      "Synthesis"
+    ],
+    "query_template": "Do the authors describe methods to assess reporting bias/publication bias/missing results bias (e.g., funnel plot, Egger test)? Provide evidence.",
+    "keywords": [
+      "reporting bias",
+      "publication bias",
+      "missing results",
+      "funnel plot",
+      "Egger",
+      "trim and fill",
+      "selective reporting",
+      "small-study effects",
+      "Egger's test",
+      "Begg",
+      "p-curve",
+      "Doi plot"
+    ],
+    "evidence_requirements": [
+      "Methods to assess reporting bias in syntheses described."
+    ],
+    "decision_rules": {
+      "YES": "Reporting bias assessment methods clearly described.",
+      "PARTIAL": "Reporting bias mentioned but methods not described.",
+      "NO": "No reporting bias assessment methods described (when relevant).",
+      "NA": "Not applicable (no synthesis where reporting bias assessment would apply)."
+    },
+    "query_template_expanded": "Do the authors describe methods to assess reporting bias/publication bias/missing results bias (e.g., funnel plot, Egger test)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Methods to assess reporting bias in syntheses described.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Methods",
+    "topic": "Certainty assessment",
+    "item_id": "PRISMA_2020_15",
+    "item_label": "15",
+    "checklist_item": "Describe any methods used to assess certainty (or confidence) in the body of evidence for an outcome.",
+    "sections_to_search": [
+      "Methods",
+      "Certainty of evidence",
+      "GRADE",
+      "Results",
+      "Quality of evidence"
+    ],
+    "query_template": "Do the authors describe methods to assess certainty/confidence in the body of evidence (e.g., GRADE)? Provide evidence.",
+    "keywords": [
+      "certainty of evidence",
+      "confidence",
+      "GRADE",
+      "quality of evidence",
+      "evidence certainty",
+      "rating",
+      "confidence in evidence",
+      "GRADE approach",
+      "Summary of Findings",
+      "SoF table",
+      "rated down",
+      "imprecision",
+      "inconsistency",
+      "indirectness",
+      "publication bias"
+    ],
+    "evidence_requirements": [
+      "Named certainty framework (e.g., GRADE) and how applied."
+    ],
+    "decision_rules": {
+      "YES": "Certainty assessment method(s) described clearly.",
+      "PARTIAL": "Certainty mentioned (e.g., 'low certainty') but methods/framework not described.",
+      "NO": "No certainty assessment methods described.",
+      "NA": "Not applicable (rare; some narrative reviews may omit)."
+    },
+    "query_template_expanded": "Do the authors describe methods to assess certainty/confidence in the body of evidence (e.g., GRADE)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Named certainty framework (e.g., GRADE) and how applied.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Results",
+    "topic": "Study selection",
+    "item_id": "PRISMA_2020_16a",
+    "item_label": "16a",
+    "checklist_item": "Describe the results of the search and selection process, from the number of records identified in the search to the number of studies included in the review, ideally using a flow diagram (see Fig 1).",
+    "sections_to_search": [
+      "Results",
+      "Study selection",
+      "PRISMA flow diagram",
+      "Methods",
+      "Flow diagram"
+    ],
+    "query_template": "Do the authors report the search/selection numbers (records identified, screened, excluded, included), ideally with a flow diagram? Provide evidence.",
+    "keywords": [
+      "flow diagram",
+      "PRISMA",
+      "records identified",
+      "screened",
+      "full-text assessed",
+      "excluded",
+      "included",
+      "study selection",
+      "PRISMA flow",
+      "records screened",
+      "duplicates removed",
+      "full texts assessed",
+      "included studies",
+      "screening results",
+      "selection process"
+    ],
+    "evidence_requirements": [
+      "Counts across selection stages and/or PRISMA flow diagram."
+    ],
+    "decision_rules": {
+      "YES": "Selection results reported with counts; flow diagram present or equivalent detailed description.",
+      "PARTIAL": "Some counts reported but incomplete chain (e.g., missing exclusions/full-text stage).",
+      "NO": "No clear reporting of selection counts/process results.",
+      "NA": "Not applicable (typically applicable)."
+    },
+    "query_template_expanded": "Do the authors report the search/selection numbers (records identified, screened, excluded, included), ideally with a flow diagram? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Counts across selection stages and/or PRISMA flow diagram.",
+      "Counts should cover identification, screening, eligibility/full-text review, and inclusion stages.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Results",
+    "topic": "Study selection",
+    "item_id": "PRISMA_2020_16b",
+    "item_label": "16b",
+    "checklist_item": "Cite studies that might appear to meet the inclusion criteria, but which were excluded, and explain why they were excluded.",
+    "sections_to_search": [
+      "Results",
+      "Study selection",
+      "Excluded studies",
+      "Supplementary material",
+      "Appendix"
+    ],
+    "query_template": "Do the authors cite potentially eligible excluded studies and provide reasons for exclusion? Provide evidence.",
+    "keywords": [
+      "excluded studies",
+      "reasons for exclusion",
+      "full-text excluded",
+      "did not meet criteria",
+      "appendix excluded",
+      "excluded full-text",
+      "excluded with reasons",
+      "wrong population",
+      "wrong intervention",
+      "wrong outcome",
+      "wrong design"
+    ],
+    "evidence_requirements": [
+      "List/table of excluded full-text studies with reasons OR narrative with citations and reasons."
+    ],
+    "decision_rules": {
+      "YES": "Excluded-but-seemingly-eligible studies are cited and reasons explained.",
+      "PARTIAL": "Reasons for exclusion described but without citing studies, or only partial list.",
+      "NO": "No reporting of excluded studies with reasons.",
+      "NA": "Not applicable (rare)."
+    },
+    "query_template_expanded": "Do the authors cite potentially eligible excluded studies and provide reasons for exclusion? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "List/table of excluded full-text studies with reasons OR narrative with citations and reasons.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Results",
+    "topic": "Study characteristics",
+    "item_id": "PRISMA_2020_17",
+    "item_label": "17",
+    "checklist_item": "Cite each included study and present its characteristics.",
+    "sections_to_search": [
+      "Results",
+      "Study characteristics",
+      "Tables",
+      "Supplementary material"
+    ],
+    "query_template": "Do the authors cite each included study and present key characteristics (e.g., design, population, interventions, outcomes)? Provide evidence.",
+    "keywords": [
+      "study characteristics",
+      "included studies",
+      "table 1",
+      "baseline",
+      "design",
+      "population",
+      "intervention",
+      "setting",
+      "characteristics of included studies",
+      "baseline characteristics",
+      "study design",
+      "participants",
+      "exposure",
+      "comparator",
+      "country",
+      "sample size",
+      "follow-up"
+    ],
+    "evidence_requirements": [
+      "Citations of included studies plus characteristics table/narrative."
+    ],
+    "decision_rules": {
+      "YES": "Included studies are cited and their characteristics are presented.",
+      "PARTIAL": "Some characteristics presented but incomplete or missing citations/coverage.",
+      "NO": "No clear presentation of included study characteristics.",
+      "NA": "Not applicable (rare)."
+    },
+    "query_template_expanded": "Do the authors cite each included study and present key characteristics (e.g., design, population, interventions, outcomes)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Citations of included studies plus characteristics table/narrative.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Results",
+    "topic": "Risk of bias in studies",
+    "item_id": "PRISMA_2020_18",
+    "item_label": "18",
+    "checklist_item": "Present assessments of risk of bias for each included study.",
+    "sections_to_search": [
+      "Results",
+      "Risk of bias",
+      "Quality assessment",
+      "Supplementary material",
+      "Figures"
+    ],
+    "query_template": "Are risk of bias assessments presented for each included study (tables/figures/narrative)? Provide evidence.",
+    "keywords": [
+      "risk of bias",
+      "RoB",
+      "quality assessment",
+      "low risk",
+      "high risk",
+      "unclear",
+      "ROBINS-I",
+      "Cochrane",
+      "figure",
+      "critical appraisal",
+      "unclear risk",
+      "some concerns",
+      "quality scores",
+      "domain",
+      "per study",
+      "traffic light plot"
+    ],
+    "evidence_requirements": [
+      "Per-study RoB results (at least summarized per domain/study)."
+    ],
+    "decision_rules": {
+      "YES": "RoB assessments are presented for each included study.",
+      "PARTIAL": "RoB presented only in aggregate or incomplete per-study reporting.",
+      "NO": "No RoB assessments presented.",
+      "NA": "Not applicable (rare)."
+    },
+    "query_template_expanded": "Are risk of bias assessments presented for each included study (tables/figures/narrative)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Per-study RoB results (at least summarized per domain/study).",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Results",
+    "topic": "Results of individual studies",
+    "item_id": "PRISMA_2020_19",
+    "item_label": "19",
+    "checklist_item": "For all outcomes, present, for each study: (a) summary statistics for each group (where appropriate) and (b) an effect estimate and its precision (e.g. confidence/credible interval), ideally using structured tables or plots.",
+    "sections_to_search": [
+      "Results",
+      "Figures",
+      "Tables",
+      "Supplementary material",
+      "Results of individual studies"
+    ],
+    "query_template": "For each outcome, do the authors present per-study results: summary stats and effect estimate with precision (CI/CrI), ideally in tables/plots? Provide evidence.",
+    "keywords": [
+      "summary statistics",
+      "effect estimate",
+      "confidence interval",
+      "credible interval",
+      "forest plot",
+      "per study",
+      "table",
+      "outcome",
+      "individual studies",
+      "study-level",
+      "outcome results",
+      "mean",
+      "standard deviation",
+      "events",
+      "total",
+      "risk ratio",
+      "odds ratio"
+    ],
+    "evidence_requirements": [
+      "Per-study outcome results and effect estimates with precision where appropriate."
+    ],
+    "decision_rules": {
+      "YES": "Per-study results for outcomes include summary stats and effect estimates with precision.",
+      "PARTIAL": "Some per-study results reported but missing precision/effect estimates or incomplete outcomes.",
+      "NO": "Per-study results not presented as required.",
+      "NA": "Not applicable (e.g., no quantitative outcomes available)."
+    },
+    "query_template_expanded": "For each outcome, do the authors present per-study results: summary stats and effect estimate with precision (CI/CrI), ideally in tables/plots? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Per-study outcome results and effect estimates with precision where appropriate.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Results",
+    "topic": "Results of syntheses",
+    "item_id": "PRISMA_2020_20a",
+    "item_label": "20a",
+    "checklist_item": "For each synthesis, briefly summarise the characteristics and risk of bias among contributing studies.",
+    "sections_to_search": [
+      "Results",
+      "Synthesis",
+      "Risk of bias",
+      "Tables",
+      "Meta-analysis"
+    ],
+    "query_template": "For each synthesis, do the authors summarize characteristics and risk of bias of contributing studies? Provide evidence.",
+    "keywords": [
+      "synthesis",
+      "contributing studies",
+      "characteristics",
+      "risk of bias",
+      "summary",
+      "included in meta-analysis",
+      "meta-analysis included",
+      "studies contributing",
+      "subgroup"
+    ],
+    "evidence_requirements": [
+      "Summary of contributing-study characteristics and RoB per synthesis."
+    ],
+    "decision_rules": {
+      "YES": "Characteristics and RoB among contributing studies are summarized for each synthesis.",
+      "PARTIAL": "Some summary provided but missing either characteristics or RoB, or not per synthesis.",
+      "NO": "No such summaries provided.",
+      "NA": "Not applicable (no synthesis performed)."
+    },
+    "query_template_expanded": "For each synthesis, do the authors summarize characteristics and risk of bias of contributing studies? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Summary of contributing-study characteristics and RoB per synthesis.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Results",
+    "topic": "Results of syntheses",
+    "item_id": "PRISMA_2020_20b",
+    "item_label": "20b",
+    "checklist_item": "Present results of all statistical syntheses conducted. If meta-analysis was done, present for each the summary estimate and its precision (e.g. confidence/credible interval) and measures of statistical heterogeneity. If comparing groups, describe the direction of the effect.",
+    "sections_to_search": [
+      "Results",
+      "Meta-analysis",
+      "Synthesis",
+      "Figures",
+      "Tables"
+    ],
+    "query_template": "Are results of statistical syntheses presented, and for each meta-analysis: summary estimate, precision, heterogeneity, and effect direction (if group comparisons)? Provide evidence.",
+    "keywords": [
+      "meta-analysis",
+      "summary estimate",
+      "pooled",
+      "confidence interval",
+      "heterogeneity",
+      "I2",
+      "tau2",
+      "forest plot",
+      "direction of effect",
+      "statistical synthesis",
+      "pooled estimate",
+      "overall effect",
+      "credible interval",
+      "I²",
+      "tau²",
+      "favours",
+      "favors"
+    ],
+    "evidence_requirements": [
+      "Pooled estimates with CI/CrI; heterogeneity metrics; narrative of effect direction if applicable."
+    ],
+    "decision_rules": {
+      "YES": "All statistical synthesis results are presented with required details.",
+      "PARTIAL": "Synthesis results presented but missing key details (precision/heterogeneity/direction).",
+      "NO": "Statistical synthesis results not adequately presented.",
+      "NA": "Not applicable (no statistical syntheses)."
+    },
+    "query_template_expanded": "Are results of statistical syntheses presented, and for each meta-analysis: summary estimate, precision, heterogeneity, and effect direction (if group comparisons)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Pooled estimates with CI/CrI; heterogeneity metrics; narrative of effect direction if applicable.",
+      "For meta-analyses, look for summary estimate, precision interval, heterogeneity, and effect direction.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Results",
+    "topic": "Results of syntheses",
+    "item_id": "PRISMA_2020_20c",
+    "item_label": "20c",
+    "checklist_item": "Present results of all investigations of possible causes of heterogeneity among study results.",
+    "sections_to_search": [
+      "Results",
+      "Subgroup analysis",
+      "Meta-regression",
+      "Supplementary material",
+      "Heterogeneity"
+    ],
+    "query_template": "Do the authors present results of heterogeneity investigations (subgroups/meta-regression)? Provide evidence.",
+    "keywords": [
+      "heterogeneity",
+      "subgroup",
+      "meta-regression",
+      "moderator",
+      "interaction",
+      "investigation results",
+      "heterogeneity investigation",
+      "subgroup results",
+      "subgroup analysis",
+      "moderator analysis",
+      "interaction test",
+      "P for interaction",
+      "regression coefficient",
+      "stratified results",
+      "sources of heterogeneity"
+    ],
+    "evidence_requirements": [
+      "Reported findings from heterogeneity exploration analyses."
+    ],
+    "decision_rules": {
+      "YES": "Results of heterogeneity investigations are presented.",
+      "PARTIAL": "Heterogeneity investigations mentioned but results incomplete/unclear.",
+      "NO": "No results reported for heterogeneity investigations (if claimed).",
+      "NA": "Not applicable (no heterogeneity investigations conducted)."
+    },
+    "query_template_expanded": "Do the authors present results of heterogeneity investigations (subgroups/meta-regression)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Reported findings from heterogeneity exploration analyses.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Results",
+    "topic": "Results of syntheses",
+    "item_id": "PRISMA_2020_20d",
+    "item_label": "20d",
+    "checklist_item": "Present results of all sensitivity analyses conducted to assess the robustness of the synthesised results.",
+    "sections_to_search": [
+      "Results",
+      "Sensitivity analysis",
+      "Supplementary material",
+      "Synthesis"
+    ],
+    "query_template": "Do the authors present results of sensitivity analyses assessing robustness? Provide evidence.",
+    "keywords": [
+      "sensitivity analysis",
+      "robustness",
+      "leave-one-out",
+      "alternative assumptions",
+      "excluding studies",
+      "risk of bias sensitivity",
+      "sensitivity analysis results",
+      "sensitivity analyses",
+      "alternative model",
+      "influence analysis",
+      "results unchanged",
+      "materially changed"
+    ],
+    "evidence_requirements": [
+      "Sensitivity analysis results reported (tables/plots/narrative)."
+    ],
+    "decision_rules": {
+      "YES": "Sensitivity analysis results are presented.",
+      "PARTIAL": "Sensitivity analysis referenced but results incomplete/unclear.",
+      "NO": "No sensitivity analysis results presented (if conducted).",
+      "NA": "Not applicable (no sensitivity analyses)."
+    },
+    "query_template_expanded": "Do the authors present results of sensitivity analyses assessing robustness? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Sensitivity analysis results reported (tables/plots/narrative).",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Results",
+    "topic": "Reporting biases",
+    "item_id": "PRISMA_2020_21",
+    "item_label": "21",
+    "checklist_item": "Present assessments of risk of bias due to missing results (arising from reporting biases) for each synthesis assessed.",
+    "sections_to_search": [
+      "Results",
+      "Reporting bias",
+      "Publication bias",
+      "Supplementary material",
+      "Figures"
+    ],
+    "query_template": "Are reporting bias/publication bias assessments presented for each assessed synthesis (e.g., funnel plot, tests)? Provide evidence.",
+    "keywords": [
+      "publication bias",
+      "reporting bias",
+      "missing results",
+      "funnel plot",
+      "Egger",
+      "Begg",
+      "small-study effects",
+      "trim and fill",
+      "selective reporting",
+      "asymmetry"
+    ],
+    "evidence_requirements": [
+      "Reported bias assessments per synthesis where assessed."
+    ],
+    "decision_rules": {
+      "YES": "Reporting bias assessments are presented for each assessed synthesis.",
+      "PARTIAL": "Some assessment presented but not per synthesis or incomplete details.",
+      "NO": "No reporting bias assessments presented.",
+      "NA": "Not applicable (no syntheses assessed / not assessable)."
+    },
+    "query_template_expanded": "Are reporting bias/publication bias assessments presented for each assessed synthesis (e.g., funnel plot, tests)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Reported bias assessments per synthesis where assessed.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Results",
+    "topic": "Certainty of evidence",
+    "item_id": "PRISMA_2020_22",
+    "item_label": "22",
+    "checklist_item": "Present assessments of certainty (or confidence) in the body of evidence for each outcome assessed.",
+    "sections_to_search": [
+      "Results",
+      "Certainty of evidence",
+      "GRADE",
+      "Supplementary material",
+      "Summary of findings"
+    ],
+    "query_template": "Do the authors present certainty/confidence assessments (e.g., GRADE) for each assessed outcome? Provide evidence.",
+    "keywords": [
+      "GRADE",
+      "certainty of evidence",
+      "confidence",
+      "quality of evidence",
+      "summary of findings",
+      "SoF table",
+      "confidence in evidence",
+      "high certainty",
+      "moderate certainty",
+      "low certainty",
+      "very low certainty",
+      "per outcome"
+    ],
+    "evidence_requirements": [
+      "Per-outcome certainty ratings (often in SoF tables)."
+    ],
+    "decision_rules": {
+      "YES": "Certainty assessments are presented for each assessed outcome.",
+      "PARTIAL": "Certainty mentioned but not per outcome or missing presentation.",
+      "NO": "No certainty assessments presented.",
+      "NA": "Not applicable (no certainty assessment performed)."
+    },
+    "query_template_expanded": "Do the authors present certainty/confidence assessments (e.g., GRADE) for each assessed outcome? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Per-outcome certainty ratings (often in SoF tables).",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Discussion",
+    "topic": "Discussion",
+    "item_id": "PRISMA_2020_23a",
+    "item_label": "23a",
+    "checklist_item": "Provide a general interpretation of the results in the context of other evidence.",
+    "sections_to_search": [
+      "Discussion",
+      "Conclusion",
+      "Interpretation"
+    ],
+    "query_template": "Do the authors interpret the results in the context of other evidence/literature? Provide evidence.",
+    "keywords": [
+      "interpretation",
+      "in the context of",
+      "previous studies",
+      "consistent with",
+      "contrary to",
+      "literature",
+      "evidence",
+      "interpreted",
+      "context of other evidence",
+      "previous reviews",
+      "inconsistent with",
+      "similar to",
+      "clinical relevance"
+    ],
+    "evidence_requirements": [
+      "Discussion compares/contrasts findings with existing evidence."
+    ],
+    "decision_rules": {
+      "YES": "General interpretation is provided and contextualized with other evidence.",
+      "PARTIAL": "Interpretation present but minimal context with other evidence.",
+      "NO": "No meaningful interpretation/context provided.",
+      "NA": "Not applicable (rare)."
+    },
+    "query_template_expanded": "Do the authors interpret the results in the context of other evidence/literature? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Discussion compares/contrasts findings with existing evidence.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Discussion",
+    "topic": "Discussion",
+    "item_id": "PRISMA_2020_23b",
+    "item_label": "23b",
+    "checklist_item": "Discuss any limitations of the evidence included in the review.",
+    "sections_to_search": [
+      "Discussion",
+      "Limitations",
+      "Strengths and limitations"
+    ],
+    "query_template": "Do the authors discuss limitations of the included evidence (e.g., study quality, bias, heterogeneity, applicability)? Provide evidence.",
+    "keywords": [
+      "limitations",
+      "included evidence",
+      "quality of evidence",
+      "risk of bias",
+      "heterogeneity",
+      "generalizability",
+      "applicability",
+      "limitations of evidence",
+      "study limitations",
+      "imprecision",
+      "indirectness"
+    ],
+    "evidence_requirements": [
+      "Explicit limitations related to included studies/evidence."
+    ],
+    "decision_rules": {
+      "YES": "Limitations of included evidence are discussed clearly.",
+      "PARTIAL": "Some limitations mentioned but incomplete or vague.",
+      "NO": "No discussion of limitations of included evidence.",
+      "NA": "Not applicable (rare)."
+    },
+    "query_template_expanded": "Do the authors discuss limitations of the included evidence (e.g., study quality, bias, heterogeneity, applicability)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Explicit limitations related to included studies/evidence.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Discussion",
+    "topic": "Discussion",
+    "item_id": "PRISMA_2020_23c",
+    "item_label": "23c",
+    "checklist_item": "Discuss any limitations of the review processes used.",
+    "sections_to_search": [
+      "Discussion",
+      "Limitations",
+      "Methods",
+      "Strengths and limitations"
+    ],
+    "query_template": "Do the authors discuss limitations of their review process (e.g., search scope, language restrictions, screening limitations)? Provide evidence.",
+    "keywords": [
+      "limitations",
+      "review process",
+      "search limitations",
+      "language restriction",
+      "publication bias",
+      "screening",
+      "data extraction",
+      "review limitations",
+      "limitations of the review",
+      "methodological limitations",
+      "publication restriction",
+      "screening limitations",
+      "data extraction limitations",
+      "missed studies"
+    ],
+    "evidence_requirements": [
+      "Explicit limitations about the review methodology/process."
+    ],
+    "decision_rules": {
+      "YES": "Limitations of the review processes are discussed clearly.",
+      "PARTIAL": "Process limitations mentioned but incomplete/vague.",
+      "NO": "No discussion of review process limitations.",
+      "NA": "Not applicable (rare)."
+    },
+    "query_template_expanded": "Do the authors discuss limitations of their review process (e.g., search scope, language restrictions, screening limitations)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Explicit limitations about the review methodology/process.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Discussion",
+    "topic": "Discussion",
+    "item_id": "PRISMA_2020_23d",
+    "item_label": "23d",
+    "checklist_item": "Discuss implications of the results for practice, policy, and future research.",
+    "sections_to_search": [
+      "Discussion",
+      "Conclusion",
+      "Implications",
+      "Future research"
+    ],
+    "query_template": "Do the authors discuss implications for practice/policy and/or future research? Provide evidence.",
+    "keywords": [
+      "implications",
+      "practice",
+      "policy",
+      "future research",
+      "recommend",
+      "suggest",
+      "clinical",
+      "guidelines",
+      "clinical implications",
+      "research implications",
+      "recommendations",
+      "decision-making",
+      "further studies",
+      "future studies"
+    ],
+    "evidence_requirements": [
+      "Implications for at least one of: practice, policy, future research."
+    ],
+    "decision_rules": {
+      "YES": "Implications are discussed (practice/policy/future research).",
+      "PARTIAL": "Implications mentioned but very limited or only generic statements.",
+      "NO": "No implications discussed.",
+      "NA": "Not applicable (rare)."
+    },
+    "query_template_expanded": "Do the authors discuss implications for practice/policy and/or future research? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Implications for at least one of: practice, policy, future research.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Other information",
+    "topic": "Registration and protocol",
+    "item_id": "PRISMA_2020_24a",
+    "item_label": "24a",
+    "checklist_item": "Provide registration information for the review, including register name and registration number, or state that the review was not registered.",
+    "sections_to_search": [
+      "Methods",
+      "Other information",
+      "Footnotes",
+      "Abstract",
+      "Registration",
+      "Protocol"
+    ],
+    "query_template": "Is registration information provided (register name and number), or do the authors explicitly state the review was not registered? Provide evidence.",
+    "keywords": [
+      "registration",
+      "registered",
+      "PROSPERO",
+      "registration number",
+      "protocol registration",
+      "not registered",
+      "CRD",
+      "INPLASY",
+      "Open Science Framework",
+      "OSF",
+      "unregistered"
+    ],
+    "evidence_requirements": [
+      "Register name + ID OR explicit statement 'not registered'."
+    ],
+    "decision_rules": {
+      "YES": "Register and registration number provided OR explicit statement that it was not registered.",
+      "PARTIAL": "Mentions registration/protocol but missing register name/number and no explicit 'not registered' statement.",
+      "NO": "No registration statement at all.",
+      "NA": "Not applicable (typically applicable)."
+    },
+    "query_template_expanded": "Is registration information provided (register name and number), or do the authors explicitly state the review was not registered? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Register name + ID OR explicit statement 'not registered'.",
+      "Registration number and register name OR explicit statement of no registration satisfies the item.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Other information",
+    "topic": "Registration and protocol",
+    "item_id": "PRISMA_2020_24b",
+    "item_label": "24b",
+    "checklist_item": "Indicate where the review protocol can be accessed, or state that a protocol was not prepared.",
+    "sections_to_search": [
+      "Methods",
+      "Other information",
+      "Supplementary material",
+      "Protocol",
+      "Registration"
+    ],
+    "query_template": "Do the authors indicate where the protocol can be accessed (URL/DOI/supplement) or state that no protocol was prepared? Provide evidence.",
+    "keywords": [
+      "protocol",
+      "accessible",
+      "available at",
+      "supplementary",
+      "DOI",
+      "OSF",
+      "not prepared",
+      "no protocol",
+      "review protocol",
+      "protocol available",
+      "URL",
+      "published protocol",
+      "PROSPERO"
+    ],
+    "evidence_requirements": [
+      "Protocol access info OR explicit statement no protocol was prepared."
+    ],
+    "decision_rules": {
+      "YES": "Protocol access is indicated OR explicit statement that no protocol was prepared.",
+      "PARTIAL": "Protocol mentioned but access details missing and no explicit 'no protocol' statement.",
+      "NO": "No protocol access or statement.",
+      "NA": "Not applicable (typically applicable)."
+    },
+    "query_template_expanded": "Do the authors indicate where the protocol can be accessed (URL/DOI/supplement) or state that no protocol was prepared? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Protocol access info OR explicit statement no protocol was prepared.",
+      "Protocol access location OR explicit statement that no protocol was prepared satisfies the item.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Other information",
+    "topic": "Registration and protocol",
+    "item_id": "PRISMA_2020_24c",
+    "item_label": "24c",
+    "checklist_item": "Describe and explain any amendments to information provided at registration or in the protocol.",
+    "sections_to_search": [
+      "Methods",
+      "Other information",
+      "Protocol",
+      "Supplementary material",
+      "Registration"
+    ],
+    "query_template": "Do the authors describe and explain amendments/changes from the registered protocol (or state none)? Provide evidence.",
+    "keywords": [
+      "amendment",
+      "deviation",
+      "changed",
+      "protocol deviation",
+      "updated",
+      "modification",
+      "no amendments",
+      "amendments",
+      "deviations",
+      "changed from protocol",
+      "changes to protocol",
+      "post hoc",
+      "no deviations"
+    ],
+    "evidence_requirements": [
+      "Description of amendments OR explicit statement that no amendments occurred."
+    ],
+    "decision_rules": {
+      "YES": "Amendments are described and explained, or explicitly stated that there were none.",
+      "PARTIAL": "Changes implied but not described/explained clearly.",
+      "NO": "No mention of amendments or deviations at all.",
+      "NA": "Not applicable (if no registration/protocol exists; still can be NA)."
+    },
+    "query_template_expanded": "Do the authors describe and explain amendments/changes from the registered protocol (or state none)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Description of amendments OR explicit statement that no amendments occurred.",
+      "Amendments described and explained OR explicit statement of no amendments satisfies the item.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Other information",
+    "topic": "Support",
+    "item_id": "PRISMA_2020_25",
+    "item_label": "25",
+    "checklist_item": "Describe sources of financial or non-financial support for the review, and the role of the funders or sponsors in the review.",
+    "sections_to_search": [
+      "Funding",
+      "Acknowledgements",
+      "Competing interests",
+      "Other information",
+      "Footnotes"
+    ],
+    "query_template": "Do the authors report sources of support (funding/non-financial) and the role of funders/sponsors? Provide evidence.",
+    "keywords": [
+      "funding",
+      "support",
+      "sponsor",
+      "grant",
+      "role of the funder",
+      "financial support",
+      "non-financial support",
+      "grant number",
+      "role of funder",
+      "role of sponsor",
+      "no funding",
+      "funders had no role",
+      "acknowledgements"
+    ],
+    "evidence_requirements": [
+      "Funding/support statement and role of funder (or explicit statement of no role/no funding)."
+    ],
+    "decision_rules": {
+      "YES": "Support sources and funder/sponsor role are described (or explicitly stated none/no role).",
+      "PARTIAL": "Funding/support mentioned but role of funder not described.",
+      "NO": "No support/funding information reported.",
+      "NA": "Not applicable (typically applicable)."
+    },
+    "query_template_expanded": "Do the authors report sources of support (funding/non-financial) and the role of funders/sponsors? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Funding/support statement and role of funder (or explicit statement of no role/no funding).",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Other information",
+    "topic": "Competing interests",
+    "item_id": "PRISMA_2020_26",
+    "item_label": "26",
+    "checklist_item": "Declare any competing interests of review authors.",
+    "sections_to_search": [
+      "Competing interests",
+      "Conflict of interest",
+      "Disclosures",
+      "Footnotes",
+      "Declarations"
+    ],
+    "query_template": "Do the authors declare competing interests/conflicts of interest (or explicitly state none)? Provide evidence.",
+    "keywords": [
+      "competing interests",
+      "conflict of interest",
+      "COI",
+      "disclosure",
+      "no competing interests",
+      "none declared",
+      "conflicts of interest",
+      "declaration of interests",
+      "authors declare",
+      "financial relationships"
+    ],
+    "evidence_requirements": [
+      "COI statement including 'none' if applicable."
+    ],
+    "decision_rules": {
+      "YES": "COI/competing interests declared or explicitly stated none.",
+      "PARTIAL": "Disclosure exists but unclear/incomplete (e.g., missing for some authors).",
+      "NO": "No COI/competing interests statement.",
+      "NA": "Not applicable (typically applicable)."
+    },
+    "query_template_expanded": "Do the authors declare competing interests/conflicts of interest (or explicitly state none)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "COI statement including 'none' if applicable.",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  },
+  {
+    "standard": "PRISMA_2020",
+    "section": "Other information",
+    "topic": "Availability of data, code, and other materials",
+    "item_id": "PRISMA_2020_27",
+    "item_label": "27",
+    "checklist_item": "Report which of the following are publicly available and where they can be found: template data collection forms; data extracted from included studies; data used for all analyses; analytic code; any other materials used in the review.",
+    "sections_to_search": [
+      "Data availability",
+      "Supplementary material",
+      "Open data",
+      "Footnotes",
+      "Code availability"
+    ],
+    "query_template": "Do the authors report what data/code/materials are publicly available and where (links/repositories/supplements)? Provide evidence.",
+    "keywords": [
+      "data availability",
+      "code availability",
+      "repository",
+      "GitHub",
+      "OSF",
+      "Zenodo",
+      "supplementary",
+      "extracted data",
+      "analysis code",
+      "materials",
+      "materials availability",
+      "available data",
+      "Figshare",
+      "supplementary data",
+      "data collection forms",
+      "not publicly available",
+      "available upon request"
+    ],
+    "evidence_requirements": [
+      "Statement describing availability and locations for data/code/materials (or explicit statement not available)."
+    ],
+    "decision_rules": {
+      "YES": "Availability of data/code/materials is reported with locations or explicit availability statements.",
+      "PARTIAL": "Mentions availability but missing where/what exactly is available.",
+      "NO": "No data/code/materials availability statement.",
+      "NA": "Not applicable (typically applicable)."
+    },
+    "query_template_expanded": "Do the authors report what data/code/materials are publicly available and where (links/repositories/supplements)? Provide evidence. Search for exact phrases, synonyms, nearby section headings, and explicit negative statements. Return concise evidence quotes with section names and explain whether the evidence satisfies the checklist item.",
+    "evidence_requirements_expanded": [
+      "Statement describing availability and locations for data/code/materials (or explicit statement not available).",
+      "Prefer explicit statements over inferred evidence.",
+      "Accept evidence from the primary target sections first, then abstract/supplementary material if relevant.",
+      "Use section headings, nearby context, and exact terminology to judge whether the item is fully reported.",
+      "If information is absent, distinguish between not reported and not applicable.",
+      "When evidence is partial, identify the missing element needed for a YES decision."
+    ]
+  }
+]
