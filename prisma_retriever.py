@@ -4,7 +4,7 @@ import json
 import re
 from dataclasses import dataclass, asdict
 from pathlib import Path
-from typing import Dict, List, Optional, Any
+from typing import Dict, List, Optional, Any, Set
 
 import faiss
 from sentence_transformers import SentenceTransformer, CrossEncoder
@@ -18,6 +18,7 @@ class RetrieverConfig:
     normalize_embeddings: bool = True
     initial_top_k: int = 50
     final_top_k: int = 10
+    max_query_keywords: int = 12
 
 
 class PrismaFaissRetriever:
@@ -138,52 +139,91 @@ class PrismaFaissRetriever:
     def build_dense_query_text(self, item: Dict[str, Any]) -> str:
         parts = []
 
-        if item.get("checklist_item"):
-            parts.append(item["checklist_item"])
+        for field in (
+            "checklist_item",
+            "query_template",
+            "query_template_expanded",
+            "topic",
+            "section",
+        ):
+            value = (item.get(field) or "").strip()
+            if value:
+                parts.append(value)
 
-        if item.get("query_template"):
-            parts.append(item["query_template"])
+        if item.get("evidence_requirements"):
+            parts.append(
+                "Evidence requirements: " + " ".join(item["evidence_requirements"])
+            )
+        if item.get("evidence_requirements_expanded"):
+            parts.append(
+                "Expanded evidence guidance: "
+                + " ".join(item["evidence_requirements_expanded"])
+            )
 
-        strong_keywords = self._select_strong_keywords(item.get("keywords") or [])
-        if strong_keywords:
-            parts.append("Important evidence phrases: " + ", ".join(strong_keywords[:8]))
+        key_phrases = self._select_query_keywords(item)
+        if key_phrases:
+            parts.append(
+                "Important evidence phrases: "
+                + ", ".join(key_phrases[: self.config.max_query_keywords])
+            )
 
         return " ".join(parts).strip()
 
+    def _select_query_keywords(self, item: Dict[str, Any]) -> List[str]:
+        raw_keywords = item.get("keywords") or []
+        tokens = []
+        seen = set()
+
+        for kw in raw_keywords:
+            cleaned = self._clean_keyword(kw)
+            if not cleaned:
+                continue
+            lowered = cleaned.lower()
+            if lowered not in seen:
+                tokens.append(cleaned)
+                seen.add(lowered)
+
+        # Backfill with informative keyphrases extracted from checklist/query text
+        combined_text = " ".join(
+            str(item.get(k, "") or "")
+            for k in (
+                "checklist_item",
+                "query_template",
+                "query_template_expanded",
+                "topic",
+                "section",
+            )
+        )
+        for phrase in self._extract_candidate_phrases(combined_text):
+            lowered = phrase.lower()
+            if lowered not in seen:
+                tokens.append(phrase)
+                seen.add(lowered)
+
+        tokens.sort(key=self._keyword_priority, reverse=True)
+        return tokens
+
     @staticmethod
-    def _select_strong_keywords(keywords: List[str]) -> List[str]:
-        keep = []
-        allowed = [
-            "objective",
-            "objectives",
-            "aim",
-            "aims",
-            "purpose",
-            "research question",
-            "research questions",
-            "review question",
-            "review questions",
-            "we aimed to",
-            "we aim to",
-            "our aim was",
-            "our objective was",
-            "the aim of this review",
-            "the objective of this review",
-            "the purpose of this review",
-            "this review aims",
-            "this systematic review aimed",
-            "pico",
-            "peco",
-            "picos",
-        ]
+    def _clean_keyword(text: str) -> str:
+        text = re.sub(r"\s+", " ", (text or "").strip())
+        text = re.sub(r"^[\-–—•\d\.\)\(]+", "", text).strip()
+        return text
 
-        allowed_set = {x.lower() for x in allowed}
+    @staticmethod
+    def _extract_candidate_phrases(text: str) -> List[str]:
+        text = text or ""
+        # prioritize quoted phrases and multi-word noun-ish spans
+        quoted = re.findall(r'"([^"]{3,80})"', text)
+        spans = re.findall(r"\b[a-zA-Z][a-zA-Z\-]{2,}(?:\s+[a-zA-Z][a-zA-Z\-]{2,}){0,3}\b", text)
+        return [s.strip() for s in quoted + spans if s.strip()]
 
-        for kw in keywords:
-            if kw.lower().strip() in allowed_set:
-                keep.append(kw)
-
-        return keep
+    @staticmethod
+    def _keyword_priority(term: str) -> tuple:
+        words = term.split()
+        long_phrase = 1 if len(words) > 1 else 0
+        has_digit = 1 if re.search(r"\d", term) else 0
+        length_score = min(len(term), 60)
+        return (long_phrase, has_digit, length_score)
 
     # --------------------------
     # Retrieval
@@ -204,7 +244,7 @@ class PrismaFaissRetriever:
         scores, indices = self.index.search(query_vec, top_k)
 
         requested_sections = item.get("sections_to_search") or []
-        keywords = item.get("keywords") or []
+        expanded_keywords = self._expand_keywords(item)
 
         candidates = []
 
@@ -237,7 +277,7 @@ class PrismaFaissRetriever:
 
             keyword_bonus = self._keyword_overlap_bonus(
                 text=text,
-                keywords=keywords,
+                keywords=expanded_keywords,
             )
 
             section_weight_bonus = self._section_weight_bonus(
@@ -260,6 +300,19 @@ class PrismaFaissRetriever:
 
         candidates.sort(key=lambda x: x["adjusted_retrieval_score"], reverse=True)
         return candidates
+
+    def _expand_keywords(self, item: Dict[str, Any]) -> List[str]:
+        terms: Set[str] = set()
+        for kw in self._select_query_keywords(item):
+            terms.add(kw.lower())
+            # lightweight inflection/format variants
+            terms.add(kw.lower().replace("-", " "))
+            terms.add(kw.lower().replace(" ", "-"))
+            if kw.endswith("y"):
+                terms.add(kw[:-1].lower() + "ies")
+            if not kw.endswith("s"):
+                terms.add(kw.lower() + "s")
+        return sorted(t for t in terms if len(t) > 2)
 
     def _rerank(
         self,
@@ -365,48 +418,18 @@ class PrismaFaissRetriever:
         text_l = f" {text.lower()} "
         bonus = 0.0
 
-        strong_phrases = {
-            "we aimed to",
-            "we aim to",
-            "our aim was",
-            "our objective was",
-            "the aim of this review",
-            "the objective of this review",
-            "the purpose of this review",
-            "this review aims",
-            "this systematic review aimed",
-            "research question",
-            "research questions",
-            "review question",
-            "review questions",
-        }
-
-        medium_terms = {
-            "objective",
-            "objectives",
-            "aim",
-            "aims",
-            "purpose",
-            "pico",
-            "peco",
-            "picos",
-        }
-
         for kw in keywords:
             kw_l = kw.lower().strip()
             if not kw_l:
                 continue
+            pattern = r"\b" + re.escape(kw_l) + r"\b"
+            if re.search(pattern, text_l):
+                if " " in kw_l:
+                    bonus += 0.08
+                else:
+                    bonus += 0.03
 
-            if kw_l in strong_phrases:
-                if kw_l in text_l:
-                    bonus += 0.15
-
-            elif kw_l in medium_terms:
-                pattern = r"\b" + re.escape(kw_l) + r"\b"
-                if re.search(pattern, text_l):
-                    bonus += 0.04
-
-        return min(0.45, bonus)
+        return min(0.5, bonus)
 
     @staticmethod
     def _section_weight_bonus(section_weight: float) -> float:
