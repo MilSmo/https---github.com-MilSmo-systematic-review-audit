@@ -1,0 +1,232 @@
+{
+  "item_id": "PRISMA_2020_13a",
+  "item_label": "13a",
+  "checklist_item": "Describe the processes used to decide which studies were eligible for each synthesis (e.g. tabulating the study intervention characteristics and comparing against the planned groups for each synthesis (item #5)).",
+  "semantic_query": "Synthesis methods. Describe the processes used to decide which studies were eligible for each synthesis (e.g. tabulating the study intervention characteristics and comparing against the planned groups for each synthesis (item #5)). the authors describe how they decided which studies contributed to each synthesis (e.g., grouping decisions). Process/criteria for mapping included studies into each synthesis/group\nDescribe the processes used to decide which studies were eligible for each synthesis (e.g. tabulating the study intervention characteristics and comparing against the planned groups for each synthesis (item #5)).\nRelevant terminology: intervention characteristics; tabulated characteristics; contributed to synthesis; eligible for synthesis; included in synthesis; study characteristics; contributed studies; comparison groups; synthesis groups; decision process; outcome domains; mapping studies",
+  "top_evidence": [
+    {
+      "chunk_id": "text_14",
+      "document_title": "1 Institute for Health Services and Health Systems Research, Center for Health Services Research Brandenburg, Brandenburg Medical School Theodor Fontane, Neuruppin, Germany 2 Department of Medical Statistics, University Medical Center Göttingen, Gottingen, Germany 3",
+      "type": "text",
+      "section": "Data Synthesis",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 302,
+      "faiss_score": 0.4597848653793335,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.6097848653793335,
+      "adjusted_retrieval_score_norm": 1.0,
+      "rerank_score": -0.4523107409477234,
+      "rerank_score_norm": 0.7852585267339545,
+      "final_score": 0.924840484356884,
+      "text": "For data synthesis and statistical analyses, we followed the guidance published by the Cochrane EPOC group. 29 For dichotomous outcomes, we used the risk ratio (RR) obtained from statistical analyses adjusting for baseline differences (such as Poisson regressions or logistic regressions) or the ratio of RRs (ie, the RR postintervention/RR preintervention), if possible. For continuous outcomes, we used the absolute change obtained from a statistical analysis that was adjusted for baseline differences (eg, regression models, mixed models or hierarchical models). Alternatively, we used the relative change adjusted for baseline differences in the outcome measures. For ITS studies, if possible, we relied on the results either obtained by a regression including time trends before and after the intervention adjusting for autocorrelation and any periodic changes or auto- regressive integrated moving average (ARIMA) models. If papers with a before- after design did not provide an appropriate analysis or reporting of results to be included in this systematic review, but presented the needed data points in a readable graph or in a table, we re- analysed the data ourselves. We used segmented regression models, specifically ARIMA models with two external variables, to estimate level change and slope parameters associated with the intervention. 30 While level change reflects the sudden, sustained shift of the time series at the time of intervention, the slope parameter represents the change in the slope of the time series after intervention. We used the ' auto. arima' function from the R- package 'forecast' to select the most appropriate ARIMA model based on Akaike Information Criterion (AIC) and Bayesian Information Criterion (BIC). 95% CIs were calculated for all effect measures. The adequacy of the model was assessed using residual plots and Ljung- Box tests to ensure that the model adequately captures the structure of the data. For data synthesis, we used R.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_10",
+      "document_title": "1 Institute for Health Services and Health Systems Research, Center for Health Services Research Brandenburg, Brandenburg Medical School Theodor Fontane, Neuruppin, Germany 2 Department of Medical Statistics, University Medical Center Göttingen, Gottingen, Germany 3",
+      "type": "text",
+      "section": "Design Of Primary Studies",
+      "merged_headings": [],
+      "pages": [
+        2
+      ],
+      "word_count": 137,
+      "faiss_score": 0.5164960622787476,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.5164960622787476,
+      "adjusted_retrieval_score_norm": 0.8435545239006794,
+      "rerank_score": 0.39442944526672363,
+      "rerank_score_norm": 1.0,
+      "final_score": 0.8983104405354416,
+      "text": "We included the following study designs: (Cluster) randomised controlled trials ((C)RCTs) Non- randomised controlled trials (nRCTs) Controlled before- after (CBA) studies. Interrupted time series (ITS) with a clearly defined time point of intervention introduction and at least three data points both before and after the intervention. Health Care . (C)RCTs are often not available to address questions about health system interventions. Therefore, we included other study designs based on the recommendations by the Cochrane Effective Practice and Organisation of Care (EPOC) group. The study design was determined using the Cochrane EPOC group algorithm. 25 No restrictions were placed on language, publication date or publication status of the studies. In case an article published in a language other than English or German was deemed eligible for inclusion based on the abstract screening, we had it translated into German.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_20",
+      "document_title": "1 Institute for Health Services and Health Systems Research, Center for Health Services Research Brandenburg, Brandenburg Medical School Theodor Fontane, Neuruppin, Germany 2 Department of Medical Statistics, University Medical Center Göttingen, Gottingen, Germany 3",
+      "type": "text",
+      "section": "Study Designs",
+      "merged_headings": [],
+      "pages": [
+        4
+      ],
+      "word_count": 116,
+      "faiss_score": 0.5693457126617432,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.5693457126617432,
+      "adjusted_retrieval_score_norm": 0.9321834744397443,
+      "rerank_score": -1.1980879306793213,
+      "rerank_score_norm": 0.5961222425956523,
+      "final_score": 0.8145620432943121,
+      "text": "Two of the studies included had ITS designs, 35 41 and one study had a CBA study design. 37 Moreover, four studies had an uncontrolled before- after study design, 38 40 42 43 and two studies had a cohort study design. 36 39 In the case that in these studies enough data points for an outcome were presented in a readable graph or a table, the available data was re- analysed using an ITS design as described above. In total, outcomes measured and reported in six studies (67%) were re- analysed. All outcomes reported in the included studies, along with information on whether these outcomes could be re- analysed, are presented in online supplemental material 1.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_6",
+      "document_title": "1 Institute for Health Services and Health Systems Research, Center for Health Services Research Brandenburg, Brandenburg Medical School Theodor Fontane, Neuruppin, Germany 2 Department of Medical Statistics, University Medical Center Göttingen, Gottingen, Germany 3",
+      "type": "text",
+      "section": "Population",
+      "merged_headings": [
+        "Eligibility Criteria"
+      ],
+      "pages": [
+        2
+      ],
+      "word_count": 15,
+      "faiss_score": 0.35248124599456787,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.5024812459945679,
+      "adjusted_retrieval_score_norm": 0.8200516539618408,
+      "rerank_score": -0.4766651690006256,
+      "rerank_score_norm": 0.779082009018392,
+      "final_score": 0.8057122782316337,
+      "text": "We included studies dealing with patients irrespective of their condition or the medical treatment received.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_5",
+      "document_title": "1 Institute for Health Services and Health Systems Research, Center for Health Services Research Brandenburg, Brandenburg Medical School Theodor Fontane, Neuruppin, Germany 2 Department of Medical Statistics, University Medical Center Göttingen, Gottingen, Germany 3",
+      "type": "text",
+      "section": "Methods",
+      "merged_headings": [],
+      "pages": [
+        2
+      ],
+      "word_count": 72,
+      "faiss_score": 0.36732029914855957,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.5173202991485596,
+      "adjusted_retrieval_score_norm": 0.8449367704858063,
+      "rerank_score": -1.0073822736740112,
+      "rerank_score_norm": 0.6444870354946133,
+      "final_score": 0.7747793632388887,
+      "text": "Reporting of this systematic review follows the guidelines set forth in the Preferred Reporting Items for Systematic reviews and Meta- Analyses (PRISMA) 2020 Statement 23 (see online supplemental material 2). A priori, the systematic review was registered in the Prospective Register of Systematic Reviews (PROSPERO registration number CRD42022318883) and a protocol was published. 22 When recycling text from the protocol, we followed the recommendations provided by the Text Recycling Research Project. 24",
+      "images": []
+    },
+    {
+      "chunk_id": "text_18",
+      "document_title": "1 Institute for Health Services and Health Systems Research, Center for Health Services Research Brandenburg, Brandenburg Medical School Theodor Fontane, Neuruppin, Germany 2 Department of Medical Statistics, University Medical Center Göttingen, Gottingen, Germany 3",
+      "type": "text",
+      "section": "Study Identification And Selection",
+      "merged_headings": [
+        "Results"
+      ],
+      "pages": [
+        4
+      ],
+      "word_count": 55,
+      "faiss_score": 0.4145491421222687,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.5645491421222687,
+      "adjusted_retrieval_score_norm": 0.9241396177629364,
+      "rerank_score": -1.7250173091888428,
+      "rerank_score_norm": 0.46248787293832394,
+      "final_score": 0.762561507074322,
+      "text": "In total, we located 12 878 records through electronic databases and trial registries, while an additional 642 records were discovered through reference lists of included articles, forward citation searches, and by contacting authors directly. After examining 241 full- text reports, 9 studies 35-43 were subsequently included (see PRISMA flow diagram in online supplemental material 4).",
+      "images": []
+    },
+    {
+      "chunk_id": "text_27",
+      "document_title": "1 Institute for Health Services and Health Systems Research, Center for Health Services Research Brandenburg, Brandenburg Medical School Theodor Fontane, Neuruppin, Germany 2 Department of Medical Statistics, University Medical Center Göttingen, Gottingen, Germany 3",
+      "type": "text",
+      "section": "Risk Of Bias And Certainty Assessment",
+      "merged_headings": [],
+      "pages": [
+        4,
+        5
+      ],
+      "word_count": 290,
+      "faiss_score": 0.4024180471897125,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4024180471897125,
+      "adjusted_retrieval_score_norm": 0.6522455051342305,
+      "rerank_score": -0.15093424916267395,
+      "rerank_score_norm": 0.8616905101301968,
+      "final_score": 0.7255512568828186,
+      "text": "The risk of bias was moderate for results on outcomes for two studies and serious for seven studies (see online supplemental material 6). Across all outcomes examined in the studies, the risk of bias pertaining to the selection of both exposed and non- exposed populations, as well as classification of intervention, deviation from intended intervention, missing data and measurement of outcomes was determined to be low. For two studies, the possibility of bias due to selection of reported results was considered to be low. 35 37 Seven studies were identified as probably having a serious risk of bias mostly due to potential confounding and the selection of reported results. 36 38-43 BMJ Open: first published as 10.1136/bmjopen-2024-090152 on 6 May 2025. Downloaded from http://bmjopen.bmj.com/ Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. Health Care . on August 9, 2026 at Institute for Quality and Efficiency in Authors Study design Country Intervention Outcome(s) Findings *Re- analysed studies. †Step change (also called a level shift): A sudden, sustained change where the time series is shifted either up or down by a given value immediately following the intervention. The step change variable takes the value of 0 prior to the start of the intervention, and one afterwards. 30 ‡Ramp: A change in slope that occurs immediately after the intervention. The ramp variable takes the value of 0 prior (horizontal line) to the start of the intervention and increases by one unit after the date of the intervention. 30 CBA, controlled before- after ; EVAR, endovascular aortic repair; iAAA, intact abdominal aortic aneurysm; ITS, interrupted time series; MVR, minimum vol standards; OpR, open repair; rAAA, ruptured abdominal aortic aneurysm; RR, relative risk. Table 1 Continued",
+      "images": [
+        {
+          "image_id": "figure_4",
+          "path": "C:\\Users\\milsm\\mgr\\31008pipeline_output\\images\\figure_004_Risk_Of_Bias_And_Certainty_Assessment.png",
+          "relative_path": "images\\figure_004_Risk_Of_Bias_And_Certainty_Assessment.png",
+          "caption": "",
+          "section": "Risk Of Bias And Certainty Assessment",
+          "page_number": 5
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_12",
+      "document_title": "1 Institute for Health Services and Health Systems Research, Center for Health Services Research Brandenburg, Brandenburg Medical School Theodor Fontane, Neuruppin, Germany 2 Department of Medical Statistics, University Medical Center Göttingen, Gottingen, Germany 3",
+      "type": "text",
+      "section": "Data Management And Study Selection",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 74,
+      "faiss_score": 0.45014774799346924,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.45014774799346924,
+      "adjusted_retrieval_score_norm": 0.7322882918154001,
+      "rerank_score": -1.2780938148498535,
+      "rerank_score_norm": 0.5758319791636749,
+      "final_score": 0.6775285823872963,
+      "text": "All potentially relevant hits were imported to a reference management software (Rayyan). Duplicate publications were removed. Two reviewers (JS, SP- H) independently screened titles and abstracts of all identified articles. We retrieved the full texts of all potentially relevant articles. Full- text articles were reviewed in detail regarding inclusion criteria by three reviewers (AP, JS, SP- H) in pairs of two authors, independently. In case of disagreement, eligibility was determined by discussion and consensus.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_21",
+      "document_title": "1 Institute for Health Services and Health Systems Research, Center for Health Services Research Brandenburg, Brandenburg Medical School Theodor Fontane, Neuruppin, Germany 2 Department of Medical Statistics, University Medical Center Göttingen, Gottingen, Germany 3",
+      "type": "text",
+      "section": "Study Results",
+      "merged_headings": [],
+      "pages": [
+        4
+      ],
+      "word_count": 79,
+      "faiss_score": 0.25328004360198975,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.40328004360198977,
+      "adjusted_retrieval_score_norm": 0.653691074534121,
+      "rerank_score": -1.0366919040679932,
+      "rerank_score_norm": 0.6370538307003236,
+      "final_score": 0.647868039192292,
+      "text": "The studies covered a broad range of outcomes. Most studies focused on patient- related outcomes, while health system- related outcomes were seldom measured. We chose the following five outcomes, measured and reported in six studies, 35-37 40-42 as outcomes of importance for assessing the effect of minimum volume standards interventions in hospitals: mortality , travel distance , complications , reoperations and length of stay . Table 1 presents the characteristics of interventions and findings for all outcomes of importance.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_30",
+      "document_title": "1 Institute for Health Services and Health Systems Research, Center for Health Services Research Brandenburg, Brandenburg Medical School Theodor Fontane, Neuruppin, Germany 2 Department of Medical Statistics, University Medical Center Göttingen, Gottingen, Germany 3",
+      "type": "text",
+      "section": "Limitations",
+      "merged_headings": [],
+      "pages": [
+        8
+      ],
+      "word_count": 174,
+      "faiss_score": 0.32613590359687805,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.32613590359687805,
+      "adjusted_retrieval_score_norm": 0.5243202249761151,
+      "rerank_score": -0.7104074358940125,
+      "rerank_score_norm": 0.7198027170060027,
+      "final_score": 0.5927390971865758,
+      "text": "While this systematic review was conducted with care, it is not without limitations. Results on outcomes of seven out of nine studies are considered to be at serious risk of bias. The certainty of evidence is very low for mortality (in- hospital; 30 days) and low for complications, reoperations, length of stay and travel distance. The results are based on a relatively small number of studies for most outcomes. This is mostly due to our restriction to only include studies with a robust study design (eg, CBA or ITS studies). Only three of nine (33%) included studies had a thorough study design that could be clearly identified as either a CBA 37 or an ITS. 35 41 Despite the efforts to include grey literature, the search for conference abstracts and contacting authors, there is still a potential for publication bias. Thus, reported outcomes should be interpreted with caution. Nevertheless, our study provides valuable insights into the effects of minimum volume standards and the call for studies researching those effects with a robust study design.",
+      "images": []
+    }
+  ]
+}

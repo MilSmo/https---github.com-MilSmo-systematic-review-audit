@@ -1,0 +1,2553 @@
+{
+  "schema_version": "5.1",
+  "standard": "PRISMA 2020",
+  "description": "PRISMA 2020 checklist for section-aware retrieval and element-level assessment. Element applicability is defined only as REQUIRED or CONDITIONAL. Overall status is calculated deterministically by the pipeline.",
+  "element_statuses": [
+    "PRESENT",
+    "PARTIAL",
+    "MISSING",
+    "NOT_APPLICABLE"
+  ],
+  "overall_statuses": [
+    "FULLY_REPORTED",
+    "PARTIALLY_REPORTED",
+    "NOT_REPORTED",
+    "NOT_APPLICABLE"
+  ],
+  "llm_instructions": [
+    "Evaluate every listed element separately using only the retrieved evidence.",
+    "For every PRESENT or PARTIAL element, provide a verbatim quote and chunk_id.",
+    "Do not infer details that are not explicitly supported.",
+    "For CONDITIONAL elements, return NOT_APPLICABLE only when the condition genuinely does not apply and the manuscript explicitly supports that conclusion.",
+    "Return element-level findings only; the pipeline calculates overall_status and missing_elements."
+  ],
+  "items": [
+    {
+      "standard": "PRISMA_2020",
+      "section": "Title",
+      "topic": "Title",
+      "item_id": "PRISMA_2020_1",
+      "item_label": "1",
+      "checklist_item": "Identify the report as a systematic review.",
+      "semantic_query": "Title. Identify the report as a systematic review. Title or header explicitly identifies the report as a systematic review or meta-analysis. Title contains explicit phrase indicating systematic review (or equivalent)",
+      "keywords": [
+        "systematic review",
+        "meta-analysis",
+        "review",
+        "systematic literature review",
+        "evidence synthesis",
+        "systematic reviews",
+        "systematic scoping review",
+        "meta analysis",
+        "metaanalysis",
+        "quantitative synthesis",
+        "qualitative synthesis",
+        "review protocol",
+        "overview of reviews",
+        "umbrella review"
+      ],
+      "sections_to_search": [
+        "Title",
+        "Front matter",
+        "Abstract",
+        "Header"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_1_e1",
+          "description": "The title identifies the report as a systematic review.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_1_e2",
+          "description": "The title provides key information about the main objective or review question, such as the population and intervention or exposure.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_1_e3",
+          "description": "The title provides relevant supplementary information, such as the analysis method, included study designs, update status, or living-review status.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Abstract",
+      "topic": "Abstract",
+      "item_id": "PRISMA_2020_2",
+      "item_label": "2",
+      "checklist_item": "Report the abstract according to the PRISMA 2020 for Abstracts checklist.",
+      "semantic_query": "Systematic review abstract reporting identification as a systematic review, review objectives, eligibility criteria, information sources and search dates, risk-of-bias methods, synthesis methods, included studies and participants, main outcome results, meta-analysis summary estimates and precision when applicable, direction of effect when groups are compared, evidence limitations, interpretation and implications, funding, and registration.",
+      "keywords": [
+        "systematic review",
+        "meta-analysis",
+        "objective",
+        "aim",
+        "research question",
+        "eligibility criteria",
+        "inclusion criteria",
+        "exclusion criteria",
+        "information sources",
+        "database",
+        "databases",
+        "register",
+        "search date",
+        "last searched",
+        "risk of bias",
+        "quality assessment",
+        "synthesis methods",
+        "data synthesis",
+        "included studies",
+        "participants",
+        "sample size",
+        "summary estimate",
+        "effect estimate",
+        "confidence interval",
+        "credible interval",
+        "direction of effect",
+        "limitations",
+        "inconsistency",
+        "imprecision",
+        "interpretation",
+        "implications",
+        "funding",
+        "registration",
+        "PROSPERO",
+        "registration number"
+      ],
+      "sections_to_search": [
+        "Abstract",
+        "Structured abstract",
+        "Summary"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_2_e1",
+          "description": "The abstract identifies the report as a systematic review.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_2_e2",
+          "description": "The abstract provides an explicit statement of the main objective or review question.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_2_e3",
+          "description": "The abstract specifies the main inclusion and exclusion criteria.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_2_e4",
+          "description": "The abstract identifies the information sources used to identify studies and reports when each source was last searched.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_2_e5",
+          "description": "The abstract specifies the methods used to assess risk of bias in the included studies.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_2_e6",
+          "description": "The abstract specifies the methods used to present and synthesize the results.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_2_e7",
+          "description": "The abstract reports the total number of included studies and participants and summarizes relevant study characteristics.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_2_e8",
+          "description": "The abstract presents results for the main outcomes, preferably including the number of included studies and participants for each outcome.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_2_e9",
+          "description": "When a meta-analysis was conducted, the abstract reports the summary estimate and its confidence or credible interval.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_2_e10",
+          "description": "When groups are compared, the abstract indicates the direction of effect and which group is favored.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_2_e11",
+          "description": "The abstract briefly summarizes important limitations of the included evidence, such as risk of bias, inconsistency, or imprecision.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_2_e12",
+          "description": "The abstract provides a general interpretation of the results and their important implications.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_2_e13",
+          "description": "The abstract specifies the primary source of funding for the review.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_2_e14",
+          "description": "The abstract provides the register name and registration number.",
+          "applicability": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Introduction",
+      "topic": "Rationale",
+      "item_id": "PRISMA_2020_3",
+      "item_label": "3",
+      "checklist_item": "Describe the rationale for the review in the context of existing knowledge.",
+      "semantic_query": "Rationale. Describe the rationale for the review in the context of existing knowledge. Authors explain why the review is needed by referencing gaps or inconsistencies in existing knowledge. Explicit motivation for the review linked to existing literature/gaps",
+      "keywords": [
+        "rationale",
+        "background",
+        "gap",
+        "limited evidence",
+        "inconsistent",
+        "unclear",
+        "previous studies",
+        "need for review",
+        "context",
+        "existing knowledge",
+        "previous reviews",
+        "evidence gap",
+        "knowledge gap",
+        "inconsistent evidence",
+        "conflicting evidence",
+        "uncertain",
+        "why this review",
+        "there is a need",
+        "to our knowledge"
+      ],
+      "sections_to_search": [
+        "Introduction",
+        "Background",
+        "Rationale",
+        "Abstract"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_3_e1",
+          "description": "The current state of knowledge and important uncertainties are described.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_3_e2",
+          "description": "The importance and need for conducting the review are explained.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_3_e3",
+          "description": "When similar systematic reviews exist, the need for the current review is explained; updates or replications identify and cite the previous review.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_3_e4",
+          "description": "For reviews of intervention effects, the proposed mechanism of action of the intervention is briefly described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_3_e5",
+          "description": "For complex interventions or delivery contexts, a logic model is considered to show hypothesised relationships between intervention components and outcomes.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Introduction",
+      "topic": "Objectives",
+      "item_id": "PRISMA_2020_4",
+      "item_label": "4",
+      "checklist_item": "Provide an explicit statement of the objective(s) or question(s) the review addresses.",
+      "semantic_query": "Objectives. Provide an explicit statement of the objective(s) or question(s) the review addresses. Explicit objectives or research questions are stated. Explicit objective/question statement; ideally structured (population/intervention/comparator/outcome)",
+      "keywords": [
+        "objective",
+        "aim",
+        "research question",
+        "PICO",
+        "PECO",
+        "we aimed to",
+        "this review investigates",
+        "objectives",
+        "aims",
+        "purpose",
+        "research questions",
+        "review question",
+        "review questions",
+        "we aim to",
+        "our aim was",
+        "our objective was",
+        "we sought to",
+        "the aim of this review",
+        "the objective of this review",
+        "the purpose of this review",
+        "this review aims",
+        "this systematic review aimed",
+        "PICOS"
+      ],
+      "sections_to_search": [
+        "Introduction",
+        "Objectives",
+        "Research question",
+        "Abstract",
+        "Background"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_4_e1",
+          "description": "All review objectives or questions are explicitly stated using a relevant question-formulation framework.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_4_e2",
+          "description": "For reviews of intervention effects, the planned comparisons are stated using PICO or an appropriate variant.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Eligibility criteria",
+      "item_id": "PRISMA_2020_5",
+      "item_label": "5",
+      "checklist_item": "Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses.",
+      "semantic_query": "Eligibility criteria. Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses. Inclusion and exclusion criteria and grouping of studies for syntheses are specified. Inclusion/exclusion criteria stated; grouping approach for syntheses described if multiple syntheses exist",
+      "keywords": [
+        "eligibility",
+        "inclusion criteria",
+        "exclusion criteria",
+        "criteria",
+        "PICO",
+        "PECO",
+        "study design",
+        "population",
+        "intervention",
+        "outcomes",
+        "grouped",
+        "synthesis groups",
+        "eligible",
+        "selection criteria",
+        "criteria for inclusion",
+        "criteria for exclusion",
+        "PICOS",
+        "participants",
+        "exposure",
+        "comparator",
+        "control",
+        "outcome",
+        "publication type",
+        "language restriction",
+        "date restriction",
+        "grouped for synthesis",
+        "comparison groups"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Eligibility criteria",
+        "Study selection",
+        "Supplementary material",
+        "Inclusion criteria",
+        "Exclusion criteria",
+        "Methods of the review"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_5_e1",
+          "description": "All study characteristics used to determine eligibility are specified, including relevant question-framework components, eligible study designs, settings, and follow-up requirements.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_5_e2",
+          "description": "Eligibility criteria for report characteristics are specified, including dissemination year, language, and publication or report status.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_5_e3",
+          "description": "The review distinguishes exclusion because outcomes were not measured from exclusion because outcome results were not reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_5_e4",
+          "description": "Groups used in each synthesis are specified and linked to the comparisons defined in the review objectives.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_5_e5",
+          "description": "Rationales are provided for notable restrictions on study eligibility.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Information sources",
+      "item_id": "PRISMA_2020_6",
+      "item_label": "6",
+      "checklist_item": "Specify all databases, registers, websites, organisations, reference lists and other sources searched or consulted to identify studies. Specify the date when each source was last searched or consulted.",
+      "semantic_query": "Information sources. Specify all databases, registers, websites, organisations, reference lists and other sources searched or consulted to identify studies. Specify the date when each source was last searched or consulted. Information sources searched or consulted and last-search dates are specified. List of sources AND dates of last search/consultation",
+      "keywords": [
+        "database",
+        "databases",
+        "register",
+        "trial registry",
+        "website",
+        "grey literature",
+        "reference list",
+        "handsearch",
+        "last searched",
+        "search date",
+        "consulted",
+        "information sources",
+        "searched",
+        "searches",
+        "MEDLINE",
+        "PubMed",
+        "Embase",
+        "CINAHL",
+        "Web of Science",
+        "Scopus",
+        "Cochrane",
+        "CENTRAL",
+        "PsycINFO",
+        "ClinicalTrials.gov",
+        "WHO ICTRP",
+        "gray literature",
+        "organisation",
+        "organization",
+        "reference lists",
+        "citation searching",
+        "date of search"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Search strategy",
+        "Information sources",
+        "Supplementary material",
+        "Literature search",
+        "Data sources"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_6_e1",
+          "description": "The date on which each information source was last searched or consulted is reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_6_e2",
+          "description": "For each bibliographic database searched, its name, search interface or platform, and available coverage dates are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_6_e3",
+          "description": "For each study register, regulatory database, or online repository searched, its name and any date restrictions are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_6_e4",
+          "description": "For each website, search engine, or other online source searched, its name and URL are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_6_e5",
+          "description": "Organisations or manufacturers contacted to identify studies are named.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_6_e6",
+          "description": "The types of individuals contacted to identify studies are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_6_e7",
+          "description": "The types of reference lists examined are specified.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_6_e8",
+          "description": "For backward or forward citation searching, the seed reports, citation index or platform, and search date are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_6_e9",
+          "description": "For journals or conference proceedings consulted, source names, dates covered, and search methods are reported.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Search strategy",
+      "item_id": "PRISMA_2020_7",
+      "item_label": "7",
+      "checklist_item": "Present the full search strategies for all databases, registers and websites, including any filters and limits used.",
+      "semantic_query": "Search strategy. Present the full search strategies for all databases, registers and websites, including any filters and limits used. Full search strategies, queries, filters, and limits are presented. Full search strings/strategies for each database/register/website; filters/limits documented",
+      "keywords": [
+        "search strategy",
+        "search string",
+        "query",
+        "MeSH",
+        "keywords",
+        "Boolean",
+        "filters",
+        "limits",
+        "appendix",
+        "supplementary",
+        "full search strategy",
+        "search strings",
+        "search terms",
+        "Emtree",
+        "truncation",
+        "wildcard",
+        "date limits",
+        "language limits",
+        "database syntax",
+        "supplementary table"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Search strategy",
+        "Supplementary material",
+        "Appendix",
+        "Literature search"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_7_e1",
+          "description": "The complete search strategy as actually run is reported for every database, register, website, or other source.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_7_e2",
+          "description": "All search limits are described and justified by reference to the eligibility criteria.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_7_e3",
+          "description": "Published search approaches or filters are cited, and any adaptations are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_7_e4",
+          "description": "Natural-language processing or text-analysis tools used to identify or refine search terms are specified.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_7_e5",
+          "description": "Tools used to translate search strings between sources are specified.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_7_e6",
+          "description": "Any validation of the search strategy is described, including the validation process and validation studies.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_7_e7",
+          "description": "Any peer review of the search strategy is described, including the process and tool used, such as PRESS.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_7_e8",
+          "description": "When the search structure was not based on PICO, the final conceptual structure and explorations used to develop it are described.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Selection process",
+      "item_id": "PRISMA_2020_8",
+      "item_label": "8",
+      "checklist_item": "Specify the methods used to decide whether a study met the inclusion criteria of the review, including how many reviewers screened each record and each report retrieved, whether they worked independently, and if applicable, details of automation tools used in the process.",
+      "semantic_query": "Selection process. Specify the methods used to decide whether a study met the inclusion criteria of the review, including how many reviewers screened each record and each report retrieved, whether they worked independently, and if applicable, details of automation tools used in the process. Study selection and screening process, reviewers, independence, conflict resolution, and automation are described. Who screened records/full texts, independence, and (if used) automation tool details",
+      "keywords": [
+        "screening",
+        "study selection",
+        "two reviewers",
+        "independently",
+        "titles and abstracts",
+        "full text",
+        "disagreements",
+        "third reviewer",
+        "automation",
+        "Rayyan",
+        "Covidence",
+        "title and abstract",
+        "full-text review",
+        "reviewers",
+        "independent reviewers",
+        "independently screened",
+        "duplicate screening",
+        "resolved by consensus",
+        "arbitration",
+        "machine learning",
+        "EndNote"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Study selection",
+        "Screening",
+        "Supplementary material",
+        "Selection process"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_8_e1",
+          "description": "The number of reviewers screening records and full reports is reported for each screening stage.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_8_e2",
+          "description": "Whether reviewers worked independently at each screening stage is reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_8_e3",
+          "description": "Processes used to resolve screening disagreements are described.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_8_e4",
+          "description": "Processes used to obtain or confirm eligibility information from study investigators are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_8_e5",
+          "description": "Methods used to translate abstracts or full articles for eligibility assessment are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_8_e6",
+          "description": "The integration of automation tools into the selection process is described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_8_e7",
+          "description": "Externally derived classifiers are identified by version or reference, their role is described, and records removed before screening are reported in the flow diagram.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_8_e8",
+          "description": "Internally derived classifiers are identified, and their use, training, and validation are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_8_e9",
+          "description": "Machine-learning prioritisation tools and screening stopping or prioritisation rules are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_8_e10",
+          "description": "Crowdsourcing platforms and their integration into study selection are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_8_e11",
+          "description": "Previously screened datasets used to eliminate records are described, including how they were derived.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Data collection process",
+      "item_id": "PRISMA_2020_9",
+      "item_label": "9",
+      "checklist_item": "Specify the methods used to collect data from reports, including how many reviewers collected data from each report, whether they worked independently, any processes for obtaining or confirming data from study investigators, and if applicable, details of automation tools used in the process.",
+      "semantic_query": "Data collection process. Specify the methods used to collect data from reports, including how many reviewers collected data from each report, whether they worked independently, any processes for obtaining or confirming data from study investigators, and if applicable, details of automation tools used in the process. Data extraction and collection process, reviewers, independence, verification, and automation are described. Description of extraction process and roles; mention contacting investigators if applicable",
+      "keywords": [
+        "data extraction",
+        "data collection",
+        "two reviewers",
+        "independently",
+        "extracted",
+        "pilot form",
+        "contacted authors",
+        "verification",
+        "automation",
+        "extracted data",
+        "data abstraction",
+        "extraction form",
+        "standardized form",
+        "piloted form",
+        "independently extracted",
+        "duplicate extraction",
+        "verified",
+        "checked",
+        "study investigators",
+        "missing information",
+        "software"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Data extraction",
+        "Data collection",
+        "Supplementary material",
+        "Data abstraction"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_9_e1",
+          "description": "The number of reviewers collecting data from each report is reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_9_e2",
+          "description": "Whether multiple data collectors worked independently is reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_9_e3",
+          "description": "Processes used to resolve disagreements between data collectors are described.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_9_e4",
+          "description": "Processes used to obtain or confirm data from study investigators are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_9_e5",
+          "description": "Automation tools used for data collection are described, including their use, training, and validation.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_9_e6",
+          "description": "Methods used to translate articles for data collection are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_9_e7",
+          "description": "Software used to extract data from figures is specified.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_9_e8",
+          "description": "Decision rules for selecting data from multiple reports and resolving inconsistencies are described.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Data items",
+      "item_id": "PRISMA_2020_10a",
+      "item_label": "10a",
+      "checklist_item": "List and define all outcomes for which data were sought. Specify whether all results that were compatible with each outcome domain in each study were sought (e.g. for all measures, time points, analyses), and if not, the methods used to decide which results to collect.",
+      "semantic_query": "Data items. List and define all outcomes for which data were sought. Specify whether all results that were compatible with each outcome domain in each study were sought (e.g. for all measures, time points, analyses), and if not, the methods used to decide which results to collect. the authors list/define all outcomes and describe whether all compatible results were sought (measures/time points/analyses) or how they selected results. Outcomes defined; rules for selecting results across measures/time points stated if relevant",
+      "keywords": [
+        "outcomes",
+        "primary outcome",
+        "secondary outcome",
+        "endpoint",
+        "time point",
+        "measures",
+        "compatible results",
+        "selected results",
+        "outcome measures",
+        "endpoints",
+        "time points",
+        "follow-up",
+        "measurement",
+        "scale",
+        "domain",
+        "all results",
+        "selective outcome",
+        "outcome definition"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Outcomes",
+        "Data items",
+        "Supplementary material",
+        "Data extraction"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_10a_e1",
+          "description": "All outcome domains for which data were sought are listed and defined.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_10a_e2",
+          "description": "The time frame of measurement for each outcome domain is specified.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_10a_e3",
+          "description": "Whether all compatible results within each outcome domain were sought is stated.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_10a_e4",
+          "description": "When not all compatible results were sought, the process used to select results is described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_10a_e5",
+          "description": "Changes to outcome-domain inclusion, definitions, or importance are reported with rationales.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_10a_e6",
+          "description": "Changes to processes for selecting results within eligible outcome domains are reported with rationales.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_10a_e7",
+          "description": "The outcomes considered most important for interpreting conclusions and the rationale for their prioritisation are reported.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Data items",
+      "item_id": "PRISMA_2020_10b",
+      "item_label": "10b",
+      "checklist_item": "List and define all other variables for which data were sought (e.g. participant and intervention characteristics, funding sources). Describe any assumptions made about any missing or unclear information.",
+      "semantic_query": "Data items. List and define all other variables for which data were sought (e.g. participant and intervention characteristics, funding sources). Describe any assumptions made about any missing or unclear information. the authors list/define additional variables extracted (e.g., participant/intervention characteristics, funding) and describe assumptions for missing/unclear information. Variables list/definitions; stated assumptions for missing/unclear data",
+      "keywords": [
+        "variables",
+        "characteristics",
+        "participant characteristics",
+        "intervention characteristics",
+        "study characteristics",
+        "funding source",
+        "assumptions",
+        "missing data",
+        "unclear",
+        "data items",
+        "patient characteristics",
+        "exposure characteristics",
+        "comparator characteristics",
+        "setting",
+        "country",
+        "sample size",
+        "age",
+        "sex",
+        "unclear information",
+        "not reported"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Data items",
+        "Data extraction",
+        "Supplementary material",
+        "Study characteristics"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_10b_e1",
+          "description": "All other variables for which data were sought are listed and defined.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_10b_e2",
+          "description": "Assumptions made about missing or unclear study information are described.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_10b_e3",
+          "description": "Any tool used to determine which data items to collect is cited.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Study risk of bias assessment",
+      "item_id": "PRISMA_2020_11",
+      "item_label": "11",
+      "checklist_item": "Specify the methods used to assess risk of bias in the included studies, including details of the tool(s) used, how many reviewers assessed each study and whether they worked independently, and if applicable, details of automation tools used in the process.",
+      "semantic_query": "Study risk of bias assessment. Specify the methods used to assess risk of bias in the included studies, including details of the tool(s) used, how many reviewers assessed each study and whether they worked independently, and if applicable, details of automation tools used in the process. methods for assessing risk of bias described (tool used, reviewers, independence, automation tools if any). Named RoB tool/approach; reviewer process; automation if used",
+      "keywords": [
+        "risk of bias",
+        "quality assessment",
+        "RoB",
+        "Cochrane RoB",
+        "ROBINS-I",
+        "QUADAS",
+        "Newcastle-Ottawa",
+        "two reviewers",
+        "independently",
+        "automation",
+        "bias assessment",
+        "methodological quality",
+        "critical appraisal",
+        "RoB 2",
+        "QUADAS-2",
+        "NOS",
+        "JBI",
+        "CASP",
+        "AMSTAR",
+        "independently assessed"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Risk of bias",
+        "Quality assessment",
+        "Supplementary material",
+        "Critical appraisal"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_11_e1",
+          "description": "Each risk-of-bias tool and version used is specified.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_11_e2",
+          "description": "The domains, components, or items assessed by each risk-of-bias tool are specified.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_11_e3",
+          "description": "Whether an overall risk-of-bias judgement was made and the rules used to derive it are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_11_e4",
+          "description": "Adaptations made to an existing risk-of-bias tool are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_11_e5",
+          "description": "Any newly developed risk-of-bias tool is described and made publicly accessible.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_11_e6",
+          "description": "The number of reviewers assessing risk of bias, their independence, and disagreement-resolution procedures are reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_11_e7",
+          "description": "Processes used to obtain or confirm risk-of-bias information from study investigators are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_11_e8",
+          "description": "Automation tools used for risk-of-bias assessment are described, including use, training, performance, and validation.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Effect measures",
+      "item_id": "PRISMA_2020_12",
+      "item_label": "12",
+      "checklist_item": "Specify for each outcome the effect measure(s) (e.g. risk ratio, mean difference) used in the synthesis or presentation of results.",
+      "semantic_query": "Effect measures. Specify for each outcome the effect measure(s) (e.g. risk ratio, mean difference) used in the synthesis or presentation of results. the authors specify effect measures for each outcome (e.g., RR, OR, MD, SMD) used in synthesis/presentation. Explicit effect measure(s) stated per outcome or clearly for outcomes analyzed",
+      "keywords": [
+        "effect measure",
+        "risk ratio",
+        "odds ratio",
+        "mean difference",
+        "standardized mean difference",
+        "hazard ratio",
+        "risk difference",
+        "CI",
+        "effect size",
+        "effect measures",
+        "relative risk",
+        "RR",
+        "OR",
+        "HR",
+        "MD",
+        "SMD",
+        "prevalence",
+        "proportion",
+        "correlation",
+        "confidence interval",
+        "credible interval"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Statistical analysis",
+        "Synthesis",
+        "Results",
+        "Data synthesis"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_12_e1",
+          "description": "For every outcome or outcome type, the effect measure used in synthesis or presentation is specified.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_12_e2",
+          "description": "Thresholds or ranges used to interpret effect size and their rationale are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_12_e3",
+          "description": "Methods used to re-express synthesized results using another effect measure are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_12_e4",
+          "description": "The choice of effect measure is justified.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Synthesis methods",
+      "item_id": "PRISMA_2020_13a",
+      "item_label": "13a",
+      "checklist_item": "Describe the processes used to decide which studies were eligible for each synthesis (e.g. tabulating the study intervention characteristics and comparing against the planned groups for each synthesis (item #5)).",
+      "semantic_query": "Synthesis methods. Describe the processes used to decide which studies were eligible for each synthesis (e.g. tabulating the study intervention characteristics and comparing against the planned groups for each synthesis (item #5)). the authors describe how they decided which studies contributed to each synthesis (e.g., grouping decisions). Process/criteria for mapping included studies into each synthesis/group",
+      "keywords": [
+        "eligible for synthesis",
+        "contributed studies",
+        "grouping",
+        "synthesis groups",
+        "decision process",
+        "tabulated characteristics",
+        "included in synthesis",
+        "contributed to synthesis",
+        "grouped",
+        "planned groups",
+        "comparison groups",
+        "intervention characteristics",
+        "outcome domains",
+        "study characteristics",
+        "mapping studies"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Synthesis",
+        "Data synthesis",
+        "Results",
+        "Eligibility criteria"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_13a_e1",
+          "description": "The processes used to decide which studies were eligible for each synthesis are described.",
+          "applicability": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Synthesis methods",
+      "item_id": "PRISMA_2020_13b",
+      "item_label": "13b",
+      "checklist_item": "Describe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions.",
+      "semantic_query": "Synthesis methods. Describe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions. the authors describe data preparation methods (handling missing stats, conversions, transformations) used before synthesis. Explicit description of conversions/handling missing summary statistics if performed",
+      "keywords": [
+        "data preparation",
+        "missing data",
+        "imputation",
+        "conversion",
+        "transformation",
+        "standard error",
+        "standard deviation",
+        "calculated",
+        "extracted",
+        "prepared data",
+        "missing summary statistics",
+        "converted",
+        "confidence interval",
+        "median to mean",
+        "unit conversion",
+        "data harmonization"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Data handling",
+        "Synthesis",
+        "Supplementary material",
+        "Statistical analysis"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_13b_e1",
+          "description": "All methods used to prepare collected data for presentation or synthesis, including handling missing statistics and data conversions, are described.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Synthesis methods",
+      "item_id": "PRISMA_2020_13c",
+      "item_label": "13c",
+      "checklist_item": "Describe any methods used to tabulate or visually display results of individual studies and syntheses.",
+      "semantic_query": "Synthesis methods. Describe any methods used to tabulate or visually display results of individual studies and syntheses. the authors describe how they tabulated or visually displayed results (tables, forest plots, etc.). Description of presentation/visualization methods for results",
+      "keywords": [
+        "table",
+        "tabulate",
+        "forest plot",
+        "funnel plot",
+        "figure",
+        "visual display",
+        "summary table",
+        "plot",
+        "tabulated",
+        "tables",
+        "evidence table",
+        "graph",
+        "harvest plot",
+        "matrix",
+        "narrative summary"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Results",
+        "Figures",
+        "Tables",
+        "Supplementary material"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_13c_e1",
+          "description": "The tabular structures used to display results and the data included in them are described.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_13c_e2",
+          "description": "The graphical methods used to display results are described.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_13c_e3",
+          "description": "The basis for ordering or grouping studies within tables or graphs is reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13c_e4",
+          "description": "The rationale for using non-standard graphs is reported.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Synthesis methods",
+      "item_id": "PRISMA_2020_13d",
+      "item_label": "13d",
+      "checklist_item": "Describe any methods used to synthesise results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used.",
+      "semantic_query": "Synthesis methods. Describe any methods used to synthesise results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used. the authors describe synthesis methods and rationale, and if meta-analysis was done: models, heterogeneity assessment, and software. Synthesis method + rationale; if meta-analysis, model/heterogeneity/software explicitly stated",
+      "keywords": [
+        "meta-analysis",
+        "random effects",
+        "fixed effect",
+        "heterogeneity",
+        "I2",
+        "tau2",
+        "Cochran Q",
+        "software",
+        "RevMan",
+        "R",
+        "Stata",
+        "model",
+        "synthesis",
+        "synthesis methods",
+        "data synthesis",
+        "random-effects",
+        "fixed-effect",
+        "inverse variance",
+        "Mantel-Haenszel",
+        "DerSimonian",
+        "Hartung-Knapp",
+        "I²",
+        "tau²",
+        "metafor",
+        "rationale"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Statistical analysis",
+        "Synthesis",
+        "Results",
+        "Data synthesis"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_13d_e1",
+          "description": "Software, packages, and version numbers used for statistical synthesis are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13d_e2",
+          "description": "When meta-analysis was not possible, the alternative synthesis or summary method is described and justified.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13d_e3",
+          "description": "For each meta-analysis, the model and rationale are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13d_e4",
+          "description": "For each meta-analysis, the statistical method used is reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13d_e5",
+          "description": "Methods used to identify or quantify statistical heterogeneity are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13d_e6",
+          "description": "For random-effects meta-analysis, the between-study variance estimator is reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13d_e7",
+          "description": "For random-effects meta-analysis, the method used to calculate confidence intervals for the summary effect is reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13d_e8",
+          "description": "Other relevant random-effects implementation details are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13d_e9",
+          "description": "For Bayesian meta-analysis, prior distributions for quantities of interest are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13d_e10",
+          "description": "Methods used to account for statistical dependency among multiple estimates from the same study are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13d_e11",
+          "description": "Planned syntheses judged impossible or inappropriate are identified and reasons are reported.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Synthesis methods",
+      "item_id": "PRISMA_2020_13e",
+      "item_label": "13e",
+      "checklist_item": "Describe any methods used to explore possible causes of heterogeneity among study results (e.g. subgroup analysis, meta-regression).",
+      "semantic_query": "Synthesis methods. Describe any methods used to explore possible causes of heterogeneity among study results (e.g. subgroup analysis, meta-regression). the authors describe methods to explore heterogeneity (subgroup analysis, meta-regression, etc.). Description of heterogeneity exploration methods if heterogeneity considered",
+      "keywords": [
+        "heterogeneity",
+        "subgroup analysis",
+        "meta-regression",
+        "moderator",
+        "sensitivity",
+        "explore causes",
+        "stratified",
+        "sources of heterogeneity",
+        "explore heterogeneity",
+        "subgroup analyses",
+        "metaregression",
+        "interaction",
+        "effect modification",
+        "stratified analysis",
+        "sensitivity analysis"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Synthesis",
+        "Subgroup analysis",
+        "Results",
+        "Meta-regression"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_13e_e1",
+          "description": "Methods used to explore possible causes of heterogeneity are specified.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13e_e2",
+          "description": "For subgroup analysis or meta-regression, factors, factor levels, and expected direction of effect modification are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13e_e3",
+          "description": "Whether analyses used study-level variables, within-study contrasts, or both is reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13e_e4",
+          "description": "Methods used to compare subgroup effects are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13e_e5",
+          "description": "Informal methods used to explore heterogeneity when meta-analysis was unsuitable are described, including factors and levels.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13e_e6",
+          "description": "Analyses of heterogeneity that were not pre-specified are identified as such.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Synthesis methods",
+      "item_id": "PRISMA_2020_13f",
+      "item_label": "13f",
+      "checklist_item": "Describe any sensitivity analyses conducted to assess robustness of the synthesised results.",
+      "semantic_query": "Synthesis methods. Describe any sensitivity analyses conducted to assess robustness of the synthesised results. the authors describe sensitivity analyses to assess robustness of syntheses. Planned or conducted sensitivity analysis methods described",
+      "keywords": [
+        "sensitivity analysis",
+        "robustness",
+        "leave-one-out",
+        "exclude",
+        "alternative model",
+        "risk of bias sensitivity",
+        "sensitivity analyses",
+        "robust",
+        "influence analysis",
+        "excluding studies",
+        "exclude high risk",
+        "assumptions",
+        "post hoc"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Sensitivity analysis",
+        "Results",
+        "Supplementary material",
+        "Synthesis"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_13f_e1",
+          "description": "Details of every sensitivity analysis performed are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_13f_e2",
+          "description": "Sensitivity analyses that were not pre-specified are identified as such.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Reporting bias assessment",
+      "item_id": "PRISMA_2020_14",
+      "item_label": "14",
+      "checklist_item": "Describe any methods used to assess risk of bias due to missing results in a synthesis (arising from reporting biases).",
+      "semantic_query": "Reporting bias assessment. Describe any methods used to assess risk of bias due to missing results in a synthesis (arising from reporting biases). the authors describe methods to assess reporting bias/publication bias/missing results bias (e.g., funnel plot, Egger test). Methods to assess reporting bias in syntheses described",
+      "keywords": [
+        "reporting bias",
+        "publication bias",
+        "missing results",
+        "funnel plot",
+        "Egger",
+        "trim and fill",
+        "selective reporting",
+        "small-study effects",
+        "Egger's test",
+        "Begg",
+        "p-curve",
+        "Doi plot"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Reporting bias",
+        "Publication bias",
+        "Results",
+        "Synthesis"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_14_e1",
+          "description": "Methods used to assess risk of bias due to missing results are specified.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_14_e2",
+          "description": "For an existing assessment tool, the assessed domains or items and the process for deriving an overall judgement are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_14_e3",
+          "description": "Adaptations made to an existing reporting-bias tool are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_14_e4",
+          "description": "Any newly developed reporting-bias tool is described and made publicly accessible.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_14_e5",
+          "description": "The number of reviewers, their independence, and disagreement-resolution procedures are reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_14_e6",
+          "description": "Processes used to obtain or confirm relevant information from study investigators are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_14_e7",
+          "description": "Automation tools used for reporting-bias assessment are described, including use, training, performance, and validation.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Methods",
+      "topic": "Certainty assessment",
+      "item_id": "PRISMA_2020_15",
+      "item_label": "15",
+      "checklist_item": "Describe any methods used to assess certainty (or confidence) in the body of evidence for an outcome.",
+      "semantic_query": "Certainty assessment. Describe any methods used to assess certainty (or confidence) in the body of evidence for an outcome. the authors describe methods to assess certainty/confidence in the body of evidence (e.g., GRADE). Named certainty framework (e.g., GRADE) and how applied",
+      "keywords": [
+        "certainty of evidence",
+        "confidence",
+        "GRADE",
+        "quality of evidence",
+        "evidence certainty",
+        "rating",
+        "confidence in evidence",
+        "GRADE approach",
+        "Summary of Findings",
+        "SoF table",
+        "rated down",
+        "imprecision",
+        "inconsistency",
+        "indirectness",
+        "publication bias"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Certainty of evidence",
+        "GRADE",
+        "Results",
+        "Quality of evidence"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_15_e1",
+          "description": "The tool or system and version used to assess certainty or confidence are specified.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_15_e2",
+          "description": "Factors considered and criteria used to assess each factor are reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_15_e3",
+          "description": "Decision rules for deriving an overall certainty level and the interpretation of each level are described.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_15_e4",
+          "description": "Review-specific certainty considerations, thresholds, and rationales are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_15_e5",
+          "description": "Adaptations made to an existing certainty-assessment system are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_15_e6",
+          "description": "The number of reviewers, their independence, and disagreement-resolution procedures are reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_15_e7",
+          "description": "Processes used to obtain or confirm relevant information from investigators are described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_15_e8",
+          "description": "Automation tools used to support certainty assessment are described, including use, training, performance, and validation.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_15_e9",
+          "description": "Methods used to report certainty-assessment results, such as Summary of Findings tables, are described.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_15_e10",
+          "description": "The intended interpretation and source guidance for standard phrases incorporating certainty are reported.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Results",
+      "topic": "Study selection",
+      "item_id": "PRISMA_2020_16a",
+      "item_label": "16a",
+      "checklist_item": "Describe the results of the search and selection process, from the number of records identified in the search to the number of studies included in the review, ideally using a flow diagram (see Fig 1).",
+      "semantic_query": "Study selection. Describe the results of the search and selection process, from the number of records identified in the search to the number of studies included in the review, ideally using a flow diagram (see Fig 1). the authors report the search/selection numbers (records identified, screened, excluded, included), ideally with a flow diagram. Counts across selection stages and/or PRISMA flow diagram",
+      "keywords": [
+        "flow diagram",
+        "PRISMA",
+        "records identified",
+        "screened",
+        "full-text assessed",
+        "excluded",
+        "included",
+        "study selection",
+        "PRISMA flow",
+        "records screened",
+        "duplicates removed",
+        "full texts assessed",
+        "included studies",
+        "screening results",
+        "selection process"
+      ],
+      "sections_to_search": [
+        "Results",
+        "Study selection",
+        "PRISMA flow diagram",
+        "Methods",
+        "Flow diagram"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_16a_e1",
+          "description": "The numbers of records identified, removed before screening, screened, and excluded after initial screening are reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_16a_e2",
+          "description": "The numbers of reports sought, not retrieved, assessed for eligibility, and excluded with primary reasons are reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_16a_e3",
+          "description": "The numbers of included studies and included reports are reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_16a_e4",
+          "description": "Ongoing studies and associated reports are reported when applicable.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_16a_e5",
+          "description": "For review updates, current selection results and the number of studies in the previous review are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_16a_e6",
+          "description": "Records excluded by humans and by automation tools are distinguished in the flow diagram.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Results",
+      "topic": "Study selection",
+      "item_id": "PRISMA_2020_16b",
+      "item_label": "16b",
+      "checklist_item": "Cite studies that might appear to meet the inclusion criteria, but which were excluded, and explain why they were excluded.",
+      "semantic_query": "Study selection. Cite studies that might appear to meet the inclusion criteria, but which were excluded, and explain why they were excluded. the authors cite potentially eligible excluded studies and provide reasons for exclusion. List/table of excluded full-text studies with reasons OR narrative with citations and reasons",
+      "keywords": [
+        "excluded studies",
+        "reasons for exclusion",
+        "full-text excluded",
+        "did not meet criteria",
+        "appendix excluded",
+        "excluded full-text",
+        "excluded with reasons",
+        "wrong population",
+        "wrong intervention",
+        "wrong outcome",
+        "wrong design"
+      ],
+      "sections_to_search": [
+        "Results",
+        "Study selection",
+        "Excluded studies",
+        "Supplementary material",
+        "Appendix"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_16b_e1",
+          "description": "Studies that might appear eligible but were excluded are cited and the reason for each exclusion is explained.",
+          "applicability": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Results",
+      "topic": "Study characteristics",
+      "item_id": "PRISMA_2020_17",
+      "item_label": "17",
+      "checklist_item": "Cite each included study and present its characteristics.",
+      "semantic_query": "Study characteristics. Cite each included study and present its characteristics. the authors cite each included study and present key characteristics (e.g., design, population, interventions, outcomes). Citations of included studies plus characteristics table/narrative",
+      "keywords": [
+        "study characteristics",
+        "included studies",
+        "table 1",
+        "baseline",
+        "design",
+        "population",
+        "intervention",
+        "setting",
+        "characteristics of included studies",
+        "baseline characteristics",
+        "study design",
+        "participants",
+        "exposure",
+        "comparator",
+        "country",
+        "sample size",
+        "follow-up"
+      ],
+      "sections_to_search": [
+        "Results",
+        "Study characteristics",
+        "Tables",
+        "Supplementary material"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_17_e1",
+          "description": "Every included study is cited.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_17_e2",
+          "description": "Key characteristics of every included study are presented in a table or figure that supports comparison.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_17_e3",
+          "description": "For intervention reviews, intervention details for every study are summarised in an additional table.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Results",
+      "topic": "Risk of bias in studies",
+      "item_id": "PRISMA_2020_18",
+      "item_label": "18",
+      "checklist_item": "Present assessments of risk of bias for each included study.",
+      "semantic_query": "Risk of bias in studies. Present assessments of risk of bias for each included study. risk of bias assessments presented for each included study (tables/figures/narrative). Per-study RoB results (at least summarized per domain/study)",
+      "keywords": [
+        "risk of bias",
+        "RoB",
+        "quality assessment",
+        "low risk",
+        "high risk",
+        "unclear",
+        "ROBINS-I",
+        "Cochrane",
+        "figure",
+        "critical appraisal",
+        "unclear risk",
+        "some concerns",
+        "quality scores",
+        "domain",
+        "per study",
+        "traffic light plot"
+      ],
+      "sections_to_search": [
+        "Results",
+        "Risk of bias",
+        "Quality assessment",
+        "Supplementary material",
+        "Figures"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_18_e1",
+          "description": "For every included study, domain-level and overall risk-of-bias judgements are presented in tables or figures.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_18_e2",
+          "description": "Justifications for each risk-of-bias judgement are presented.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_18_e3",
+          "description": "Outcome-specific risk-of-bias judgements are displayed alongside study results when applicable.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Results",
+      "topic": "Results of individual studies",
+      "item_id": "PRISMA_2020_19",
+      "item_label": "19",
+      "checklist_item": "For all outcomes, present, for each study: (a) summary statistics for each group (where appropriate) and (b) an effect estimate and its precision (e.g. confidence/credible interval), ideally using structured tables or plots.",
+      "semantic_query": "Results of individual studies. For all outcomes, present, for each study: (a) summary statistics for each group (where appropriate) and (b) an effect estimate and its precision (e.g. confidence/credible interval), ideally using structured tables or plots. For each outcome, do the authors present per-study results: summary stats and effect estimate with precision (CI/CrI), ideally in tables/plots. Per-study outcome results and effect estimates with precision where appropriate",
+      "keywords": [
+        "summary statistics",
+        "effect estimate",
+        "confidence interval",
+        "credible interval",
+        "forest plot",
+        "per study",
+        "table",
+        "outcome",
+        "individual studies",
+        "study-level",
+        "outcome results",
+        "mean",
+        "standard deviation",
+        "events",
+        "total",
+        "risk ratio",
+        "odds ratio"
+      ],
+      "sections_to_search": [
+        "Results",
+        "Figures",
+        "Tables",
+        "Supplementary material",
+        "Results of individual studies"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_19_e1",
+          "description": "For every outcome and study, appropriate group-level summary statistics are reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_19_e2",
+          "description": "For every outcome and study, an effect estimate and measure of precision are reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_19_e3",
+          "description": "When results are presented visually or in text, a tabular display is also provided.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_19_e4",
+          "description": "The source of study-level data is reported when multiple data sources were used.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_19_e5",
+          "description": "Results that were computed or estimated rather than directly reported are identified.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Results",
+      "topic": "Results of syntheses",
+      "item_id": "PRISMA_2020_20a",
+      "item_label": "20a",
+      "checklist_item": "For each synthesis, briefly summarise the characteristics and risk of bias among contributing studies.",
+      "semantic_query": "Results of syntheses. For each synthesis, briefly summarise the characteristics and risk of bias among contributing studies. For each synthesis, do the authors summarize characteristics and risk of bias of contributing studies. Summary of contributing-study characteristics and RoB per synthesis",
+      "keywords": [
+        "synthesis",
+        "contributing studies",
+        "characteristics",
+        "risk of bias",
+        "summary",
+        "included in meta-analysis",
+        "meta-analysis included",
+        "studies contributing",
+        "subgroup"
+      ],
+      "sections_to_search": [
+        "Results",
+        "Synthesis",
+        "Risk of bias",
+        "Tables",
+        "Meta-analysis"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_20a_e1",
+          "description": "For each synthesis, relevant characteristics and risk of bias of contributing studies are briefly summarised.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_20a_e2",
+          "description": "The studies contributing to each synthesis are identified.",
+          "applicability": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Results",
+      "topic": "Results of syntheses",
+      "item_id": "PRISMA_2020_20b",
+      "item_label": "20b",
+      "checklist_item": "Present results of all statistical syntheses conducted. If meta-analysis was done, present for each the summary estimate and its precision (e.g. confidence/credible interval) and measures of statistical heterogeneity. If comparing groups, describe the direction of the effect.",
+      "semantic_query": "Results of syntheses. Present results of all statistical syntheses conducted. If meta-analysis was done, present for each the summary estimate and its precision (e.g. confidence/credible interval) and measures of statistical heterogeneity. If comparing groups, describe the direction of the effect. results of statistical syntheses presented, and for each meta-analysis: summary estimate, precision, heterogeneity, and effect direction (if group comparisons). Pooled estimates with CI/CrI; heterogeneity metrics; narrative of effect direction if applicable",
+      "keywords": [
+        "meta-analysis",
+        "summary estimate",
+        "pooled",
+        "confidence interval",
+        "heterogeneity",
+        "I2",
+        "tau2",
+        "forest plot",
+        "direction of effect",
+        "statistical synthesis",
+        "pooled estimate",
+        "overall effect",
+        "credible interval",
+        "I²",
+        "tau²",
+        "favours",
+        "favors"
+      ],
+      "sections_to_search": [
+        "Results",
+        "Meta-analysis",
+        "Synthesis",
+        "Figures",
+        "Tables"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_20b_e1",
+          "description": "Results of all pre-specified and additional statistical syntheses are reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_20b_e2",
+          "description": "For every meta-analysis, the summary estimate and its precision are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20b_e3",
+          "description": "For every meta-analysis, measures of statistical heterogeneity are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20b_e4",
+          "description": "For other statistical synthesis methods, the synthesized result and precision or equivalent information are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20b_e5",
+          "description": "For synthesis methods without an effect estimate, relevant statistics and a question-consistent interpretation are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20b_e6",
+          "description": "When groups are compared, the direction of effect is described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20b_e7",
+          "description": "For mean-difference syntheses, scale units, limits, direction of benefit, and minimally important difference are reported when applicable.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20b_e8",
+          "description": "For re-expressed standardized mean differences, details of the target instrument are reported.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Results",
+      "topic": "Results of syntheses",
+      "item_id": "PRISMA_2020_20c",
+      "item_label": "20c",
+      "checklist_item": "Present results of all investigations of possible causes of heterogeneity among study results.",
+      "semantic_query": "Results of syntheses. Present results of all investigations of possible causes of heterogeneity among study results. the authors present results of heterogeneity investigations (subgroups/meta-regression). Reported findings from heterogeneity exploration analyses",
+      "keywords": [
+        "heterogeneity",
+        "subgroup",
+        "meta-regression",
+        "moderator",
+        "interaction",
+        "investigation results",
+        "heterogeneity investigation",
+        "subgroup results",
+        "subgroup analysis",
+        "moderator analysis",
+        "interaction test",
+        "P for interaction",
+        "regression coefficient",
+        "stratified results",
+        "sources of heterogeneity"
+      ],
+      "sections_to_search": [
+        "Results",
+        "Subgroup analysis",
+        "Meta-regression",
+        "Supplementary material",
+        "Heterogeneity"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_20c_e1",
+          "description": "Results of every investigation of possible causes of heterogeneity are reported regardless of significance or direction.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20c_e2",
+          "description": "Studies contributing to each subgroup are identified.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20c_e3",
+          "description": "Results are interpreted with attention to the observational nature of heterogeneity analyses and possible confounding.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20c_e4",
+          "description": "For subgroup analyses, interaction-test P values, subgroup estimates, precision, and heterogeneity are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20c_e5",
+          "description": "The difference between subgroup effects and its precision are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20c_e6",
+          "description": "For meta-regression, coefficient P values and precision are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20c_e7",
+          "description": "Meta-regression scatterplots are presented.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20c_e8",
+          "description": "Results of informal heterogeneity investigations are described.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Results",
+      "topic": "Results of syntheses",
+      "item_id": "PRISMA_2020_20d",
+      "item_label": "20d",
+      "checklist_item": "Present results of all sensitivity analyses conducted to assess the robustness of the synthesised results.",
+      "semantic_query": "Results of syntheses. Present results of all sensitivity analyses conducted to assess the robustness of the synthesised results. the authors present results of sensitivity analyses assessing robustness. Sensitivity analysis results reported (tables/plots/narrative)",
+      "keywords": [
+        "sensitivity analysis",
+        "robustness",
+        "leave-one-out",
+        "alternative assumptions",
+        "excluding studies",
+        "risk of bias sensitivity",
+        "sensitivity analysis results",
+        "sensitivity analyses",
+        "alternative model",
+        "influence analysis",
+        "results unchanged",
+        "materially changed"
+      ],
+      "sections_to_search": [
+        "Results",
+        "Sensitivity analysis",
+        "Supplementary material",
+        "Synthesis"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_20d_e1",
+          "description": "Results of every sensitivity analysis are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20d_e2",
+          "description": "The robustness of the main analysis is discussed in light of all sensitivity analyses.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20d_e3",
+          "description": "Original and sensitivity-analysis results, assumptions, and contributing studies are compared in tables.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_20d_e4",
+          "description": "Sensitivity-analysis results are displayed in forest plots.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Results",
+      "topic": "Reporting biases",
+      "item_id": "PRISMA_2020_21",
+      "item_label": "21",
+      "checklist_item": "Present assessments of risk of bias due to missing results (arising from reporting biases) for each synthesis assessed.",
+      "semantic_query": "Reporting biases. Present assessments of risk of bias due to missing results (arising from reporting biases) for each synthesis assessed. reporting bias/publication bias assessments presented for each assessed synthesis (e.g., funnel plot, tests). Reported bias assessments per synthesis where assessed",
+      "keywords": [
+        "publication bias",
+        "reporting bias",
+        "missing results",
+        "funnel plot",
+        "Egger",
+        "Begg",
+        "small-study effects",
+        "trim and fill",
+        "selective reporting",
+        "asymmetry"
+      ],
+      "sections_to_search": [
+        "Results",
+        "Reporting bias",
+        "Publication bias",
+        "Supplementary material",
+        "Figures"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_21_e1",
+          "description": "Risk-of-bias assessments due to missing results are presented for every synthesis assessed.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_21_e2",
+          "description": "When a tool was used, item responses, judgements, and supporting information are presented.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_21_e3",
+          "description": "When a funnel plot was used, the plot, effect estimate, precision measure, and contour milestones are reported as applicable.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_21_e4",
+          "description": "When a funnel-plot asymmetry test was used, the exact P value and relevant statistics are reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_21_e5",
+          "description": "Sensitivity analyses examining missing results are reported and compared with the primary analysis.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_21_e6",
+          "description": "Selective non-reporting assessments are displayed in a study-by-synthesis matrix.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_21_e7",
+          "description": "Studies with missing results are displayed beneath forest plots or in a table.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Results",
+      "topic": "Certainty of evidence",
+      "item_id": "PRISMA_2020_22",
+      "item_label": "22",
+      "checklist_item": "Present assessments of certainty (or confidence) in the body of evidence for each outcome assessed.",
+      "semantic_query": "Certainty of evidence. Present assessments of certainty (or confidence) in the body of evidence for each outcome assessed. the authors present certainty/confidence assessments (e.g., GRADE) for each assessed outcome. Per-outcome certainty ratings (often in SoF tables)",
+      "keywords": [
+        "GRADE",
+        "certainty of evidence",
+        "confidence",
+        "quality of evidence",
+        "summary of findings",
+        "SoF table",
+        "confidence in evidence",
+        "high certainty",
+        "moderate certainty",
+        "low certainty",
+        "very low certainty",
+        "per outcome"
+      ],
+      "sections_to_search": [
+        "Results",
+        "Certainty of evidence",
+        "GRADE",
+        "Supplementary material",
+        "Summary of findings"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_22_e1",
+          "description": "The overall certainty or confidence level is reported for every important outcome.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_22_e2",
+          "description": "Reasons for rating certainty down or up are explained.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_22_e3",
+          "description": "Certainty is communicated wherever results are reported using a section-appropriate format.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_22_e4",
+          "description": "Evidence summary tables such as GRADE Summary of Findings tables are included.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Discussion",
+      "topic": "Discussion",
+      "item_id": "PRISMA_2020_23a",
+      "item_label": "23a",
+      "checklist_item": "Provide a general interpretation of the results in the context of other evidence.",
+      "semantic_query": "Discussion. Provide a general interpretation of the results in the context of other evidence. the authors interpret the results in the context of other evidence/literature. Discussion compares/contrasts findings with existing evidence",
+      "keywords": [
+        "interpretation",
+        "in the context of",
+        "previous studies",
+        "consistent with",
+        "contrary to",
+        "literature",
+        "evidence",
+        "interpreted",
+        "context of other evidence",
+        "previous reviews",
+        "inconsistent with",
+        "similar to",
+        "clinical relevance"
+      ],
+      "sections_to_search": [
+        "Discussion",
+        "Conclusion",
+        "Interpretation"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_23a_e1",
+          "description": "The results are interpreted in the context of other relevant evidence.",
+          "applicability": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Discussion",
+      "topic": "Discussion",
+      "item_id": "PRISMA_2020_23b",
+      "item_label": "23b",
+      "checklist_item": "Discuss any limitations of the evidence included in the review.",
+      "semantic_query": "Discussion. Discuss any limitations of the evidence included in the review. the authors discuss limitations of the included evidence (e.g., study quality, bias, heterogeneity, applicability). Explicit limitations related to included studies/evidence",
+      "keywords": [
+        "limitations",
+        "included evidence",
+        "quality of evidence",
+        "risk of bias",
+        "heterogeneity",
+        "generalizability",
+        "applicability",
+        "limitations of evidence",
+        "study limitations",
+        "imprecision",
+        "indirectness"
+      ],
+      "sections_to_search": [
+        "Discussion",
+        "Limitations",
+        "Strengths and limitations"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_23b_e1",
+          "description": "Limitations of the evidence included in the review are discussed.",
+          "applicability": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Discussion",
+      "topic": "Discussion",
+      "item_id": "PRISMA_2020_23c",
+      "item_label": "23c",
+      "checklist_item": "Discuss any limitations of the review processes used.",
+      "semantic_query": "Discussion. Discuss any limitations of the review processes used. the authors discuss limitations of their review process (e.g., search scope, language restrictions, screening limitations). Explicit limitations about the review methodology/process",
+      "keywords": [
+        "limitations",
+        "review process",
+        "search limitations",
+        "language restriction",
+        "publication bias",
+        "screening",
+        "data extraction",
+        "review limitations",
+        "limitations of the review",
+        "methodological limitations",
+        "publication restriction",
+        "screening limitations",
+        "data extraction limitations",
+        "missed studies"
+      ],
+      "sections_to_search": [
+        "Discussion",
+        "Limitations",
+        "Methods",
+        "Strengths and limitations"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_23c_e1",
+          "description": "Limitations of the review processes are discussed.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_23c_e2",
+          "description": "The potential impact of each review-process limitation is discussed.",
+          "applicability": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Discussion",
+      "topic": "Discussion",
+      "item_id": "PRISMA_2020_23d",
+      "item_label": "23d",
+      "checklist_item": "Discuss implications of the results for practice, policy, and future research.",
+      "semantic_query": "Discussion. Discuss implications of the results for practice, policy, and future research. the authors discuss implications for practice/policy and/or future research. Implications for at least one of: practice, policy, future research",
+      "keywords": [
+        "implications",
+        "practice",
+        "policy",
+        "future research",
+        "recommend",
+        "suggest",
+        "clinical",
+        "guidelines",
+        "clinical implications",
+        "research implications",
+        "recommendations",
+        "decision-making",
+        "further studies",
+        "future studies"
+      ],
+      "sections_to_search": [
+        "Discussion",
+        "Conclusion",
+        "Implications",
+        "Future research"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_23d_e1",
+          "description": "Implications of the results for practice are discussed.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_23d_e2",
+          "description": "Implications of the results for policy are discussed.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_23d_e3",
+          "description": "Explicit recommendations for future research are provided.",
+          "applicability": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Other information",
+      "topic": "Registration and protocol",
+      "item_id": "PRISMA_2020_24a",
+      "item_label": "24a",
+      "checklist_item": "Provide registration information for the review, including register name and registration number, or state that the review was not registered.",
+      "semantic_query": "Registration and protocol. Provide registration information for the review, including register name and registration number, or state that the review was not registered. registration information provided (register name and number), or do the authors explicitly state the review was not registered. Register name + ID OR explicit statement 'not registered'",
+      "keywords": [
+        "registration",
+        "registered",
+        "PROSPERO",
+        "registration number",
+        "protocol registration",
+        "not registered",
+        "CRD",
+        "INPLASY",
+        "Open Science Framework",
+        "OSF",
+        "unregistered"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Other information",
+        "Footnotes",
+        "Abstract",
+        "Registration",
+        "Protocol"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_24a_e1",
+          "description": "The review register name and registration number are reported, or the authors explicitly state that the review was not registered.",
+          "applicability": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Other information",
+      "topic": "Registration and protocol",
+      "item_id": "PRISMA_2020_24b",
+      "item_label": "24b",
+      "checklist_item": "Indicate where the review protocol can be accessed, or state that a protocol was not prepared.",
+      "semantic_query": "Registration and protocol. Indicate where the review protocol can be accessed, or state that a protocol was not prepared. the authors indicate where the protocol can be accessed (URL/DOI/supplement) or state that no protocol was prepared. Protocol access info OR explicit statement no protocol was prepared",
+      "keywords": [
+        "protocol",
+        "accessible",
+        "available at",
+        "supplementary",
+        "DOI",
+        "OSF",
+        "not prepared",
+        "no protocol",
+        "review protocol",
+        "protocol available",
+        "URL",
+        "published protocol",
+        "PROSPERO"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Other information",
+        "Supplementary material",
+        "Protocol",
+        "Registration"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_24b_e1",
+          "description": "A citation, DOI, or link to the review protocol is reported, or the authors explicitly state that no protocol was prepared.",
+          "applicability": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Other information",
+      "topic": "Registration and protocol",
+      "item_id": "PRISMA_2020_24c",
+      "item_label": "24c",
+      "checklist_item": "Describe and explain any amendments to information provided at registration or in the protocol.",
+      "semantic_query": "Registration and protocol. Describe and explain any amendments to information provided at registration or in the protocol. the authors describe and explain amendments/changes from the registered protocol (or state none). Description of amendments OR explicit statement that no amendments occurred",
+      "keywords": [
+        "amendment",
+        "deviation",
+        "changed",
+        "protocol deviation",
+        "updated",
+        "modification",
+        "no amendments",
+        "amendments",
+        "deviations",
+        "changed from protocol",
+        "changes to protocol",
+        "post hoc",
+        "no deviations"
+      ],
+      "sections_to_search": [
+        "Methods",
+        "Other information",
+        "Protocol",
+        "Supplementary material",
+        "Registration"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_24c_e1",
+          "description": "Every amendment to registration or protocol information is described.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_24c_e2",
+          "description": "The reason for each amendment is reported.",
+          "applicability": "CONDITIONAL"
+        },
+        {
+          "element_id": "prisma_2020_24c_e3",
+          "description": "The stage of the review at which each amendment was implemented is reported.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Other information",
+      "topic": "Support",
+      "item_id": "PRISMA_2020_25",
+      "item_label": "25",
+      "checklist_item": "Describe sources of financial or non-financial support for the review, and the role of the funders or sponsors in the review.",
+      "semantic_query": "Support. Describe sources of financial or non-financial support for the review, and the role of the funders or sponsors in the review. the authors report sources of support (funding/non-financial) and the role of funders/sponsors. Funding/support statement and role of funder (or explicit statement of no role/no funding)",
+      "keywords": [
+        "funding",
+        "support",
+        "sponsor",
+        "grant",
+        "role of the funder",
+        "financial support",
+        "non-financial support",
+        "grant number",
+        "role of funder",
+        "role of sponsor",
+        "no funding",
+        "funders had no role",
+        "acknowledgements"
+      ],
+      "sections_to_search": [
+        "Funding",
+        "Acknowledgements",
+        "Competing interests",
+        "Other information",
+        "Footnotes"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_25_e1",
+          "description": "All financial and non-financial support is described, including relevant grant identifiers, or absence of support is explicitly stated.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_25_e2",
+          "description": "The role of funders or sponsors is described, or their lack of involvement is explicitly declared.",
+          "applicability": "REQUIRED"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Other information",
+      "topic": "Competing interests",
+      "item_id": "PRISMA_2020_26",
+      "item_label": "26",
+      "checklist_item": "Declare any competing interests of review authors.",
+      "semantic_query": "Competing interests. Declare any competing interests of review authors. the authors declare competing interests/conflicts of interest (or explicitly state none). COI statement including 'none' if applicable",
+      "keywords": [
+        "competing interests",
+        "conflict of interest",
+        "COI",
+        "disclosure",
+        "no competing interests",
+        "none declared",
+        "conflicts of interest",
+        "declaration of interests",
+        "authors declare",
+        "financial relationships"
+      ],
+      "sections_to_search": [
+        "Competing interests",
+        "Conflict of interest",
+        "Disclosures",
+        "Footnotes",
+        "Declarations"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_26_e1",
+          "description": "All author relationships or activities that could be considered relevant to or influential on the review are disclosed.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_26_e2",
+          "description": "When competing interests existed, how they were managed in review processes is reported.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    },
+    {
+      "standard": "PRISMA_2020",
+      "section": "Other information",
+      "topic": "Availability of data, code, and other materials",
+      "item_id": "PRISMA_2020_27",
+      "item_label": "27",
+      "checklist_item": "Report which of the following are publicly available and where they can be found: template data collection forms; data extracted from included studies; data used for all analyses; analytic code; any other materials used in the review.",
+      "semantic_query": "Availability of data, code, and other materials. Report which of the following are publicly available and where they can be found: template data collection forms; data extracted from included studies; data used for all analyses; analytic code; any other materials used in the review. the authors report what data/code/materials are publicly available and where (links/repositories/supplements). Statement describing availability and locations for data/code/materials (or explicit statement not available)",
+      "keywords": [
+        "data availability",
+        "code availability",
+        "repository",
+        "GitHub",
+        "OSF",
+        "Zenodo",
+        "supplementary",
+        "extracted data",
+        "analysis code",
+        "materials",
+        "materials availability",
+        "available data",
+        "Figshare",
+        "supplementary data",
+        "data collection forms",
+        "not publicly available",
+        "available upon request"
+      ],
+      "sections_to_search": [
+        "Data availability",
+        "Supplementary material",
+        "Open data",
+        "Footnotes",
+        "Code availability"
+      ],
+      "required_elements": [
+        {
+          "element_id": "prisma_2020_27_e1",
+          "description": "The public availability of data-collection forms, extracted data, analysis data, analytic code, and other review materials is reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_27_e2",
+          "description": "For publicly available materials, their location is reported.",
+          "applicability": "REQUIRED"
+        },
+        {
+          "element_id": "prisma_2020_27_e3",
+          "description": "For materials available on request, a responsible contact and the conditions for sharing are reported.",
+          "applicability": "CONDITIONAL"
+        }
+      ]
+    }
+  ],
+  "element_applicability": {
+    "REQUIRED": "Always evaluated and included in deterministic overall-status calculation.",
+    "CONDITIONAL": "Evaluated when applicable; may be returned as NOT_APPLICABLE and then excluded from deterministic overall-status calculation."
+  }
+}

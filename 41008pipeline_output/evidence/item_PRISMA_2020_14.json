@@ -1,0 +1,231 @@
+{
+  "item_id": "PRISMA_2020_14",
+  "item_label": "14",
+  "checklist_item": "Describe any methods used to assess risk of bias due to missing results in a synthesis (arising from reporting biases).",
+  "semantic_query": "Reporting bias assessment. Describe any methods used to assess risk of bias due to missing results in a synthesis (arising from reporting biases). the authors describe methods to assess reporting bias/publication bias/missing results bias (e.g., funnel plot, Egger test). Methods to assess reporting bias in syntheses described\nDescribe any methods used to assess risk of bias due to missing results in a synthesis (arising from reporting biases).\nRelevant terminology: selective reporting; small-study effects; publication bias; missing results; reporting bias; trim and fill; Egger's test; funnel plot; Doi plot; p-curve; Egger; Begg",
+  "top_evidence": [
+    {
+      "chunk_id": "text_12",
+      "document_title": "Follow- up endoscopy rates as an indicator of effectiveness in colon capsule endoscopy: a systematic review and meta- analysis",
+      "type": "text",
+      "section": "Literature Search And Study Selection",
+      "merged_headings": [
+        "Results",
+        "Overall Results"
+      ],
+      "pages": [
+        4
+      ],
+      "word_count": 235,
+      "faiss_score": 0.5681571960449219,
+      "keyword_bonus": 0.27,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.9881571960449219,
+      "adjusted_retrieval_score_norm": 1.0,
+      "rerank_score": 1.5123918056488037,
+      "rerank_score_norm": 0.6617831252582397,
+      "final_score": 0.8816240938403839,
+      "text": "The result yielded a pooled FER of 0.42 (95 CI 0.34 to 0.50) with high heterogeneity (I 2 =93.6%) and a 95% prediction interval of 0.06-0.78, suggesting a wide range of possible true pooled rates. This is summarised in the Forest plot in figure 2. In addition, Egger's test showed a regression intercept at 0.123 (95 CI -0.4579 to 0.7064) with a p value=0.216, indicating no statistically significant evidence of asymmetry. The funnel plot also demonstrates a balanced distribution of effect sizes, suggesting that missing or unpublished studies are unlikely to have systematically influenced the results. Therefore, there is no evidence of publication bias (see online supplemental figure A1). A systematic literature search conducted on 15 August 2024, yielded 3548 articles across three databases. After removing duplicates and irrelevant studies through title and abstract screening, 64 articles were reviewed in full. A Chinese systematic review was identified during the abstract screening stage; however, none of its referenced studies met the inclusion criteria and were therefore excluded. 15 Of these, 46 were excluded for reasons detailed in figure 1, with the most common exclusion being that participants underwent both CCE and colonoscopy as part of diagnostic accuracy studies. Additionally, one study identified through hand- searching was included, resulting in a total of 19 studies 1 2 16-32 with 2850 participants included in the meta- analysis. Among these, one study was retrospective, while the rest were prospective.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_10",
+      "document_title": "Follow- up endoscopy rates as an indicator of effectiveness in colon capsule endoscopy: a systematic review and meta- analysis",
+      "type": "text",
+      "section": "Risk Of Bias",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 235,
+      "faiss_score": 0.450422465801239,
+      "keyword_bonus": 0.19,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.640422465801239,
+      "adjusted_retrieval_score_norm": 0.6409740129542271,
+      "rerank_score": 4.1117377281188965,
+      "rerank_score_norm": 1.0,
+      "final_score": 0.7666331084202476,
+      "text": "To explore potential sources of heterogeneity, metaregression was performed, analysing prespecified subgroups or covariates, including capsule type, different CCE indications, age, sex, and the proportion of participants with adequate bowel cleansing (%) and complete transit rates (%). Both univariate and multivariate random- effects meta- regression models were applied to identify covariates significantly contributing to variability across studies. Further subgroup meta- analyses were performed for covariates demonstrating statistical significance in the meta- regression, and results were visualised using forest to illustrate subgroup effects. Additionally, bubble plots, generated through the 'ggplot2' R package, 13 were performed to demonstrate the relationships between covariates and effect sizes. Sensitivity analysis included a 'leave- one- out' approach, where each study was sequentially removed to assess its impact on the overall results. Additionally, studies with a high risk of bias were excluded to evaluate their influence on pooled estimates. Meta- regression, sensitivity analysis and publication bias assessment (Egger's test) were conducted using the 'metafor' R package. 14 The studies included in this analysis underwent a risk of bias assessment utilising the Risk of Bias In Nonrandomized Studies of Exposure (ROBIN- E) tool across seven domains due to mixed included study types. 10 The risk of bias for each domain was classified as low, moderate, critical, or no information available. Studies receiving a critical risk rating in any domain were considered to have a high risk of bias (see online supplemental table A4).",
+      "images": []
+    },
+    {
+      "chunk_id": "text_13",
+      "document_title": "Follow- up endoscopy rates as an indicator of effectiveness in colon capsule endoscopy: a systematic review and meta- analysis",
+      "type": "text",
+      "section": "Meta-Regression",
+      "merged_headings": [],
+      "pages": [
+        4,
+        5
+      ],
+      "word_count": 440,
+      "faiss_score": 0.3835345208644867,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.3835345208644867,
+      "adjusted_retrieval_score_norm": 0.37574468735178923,
+      "rerank_score": 2.9214775562286377,
+      "rerank_score_norm": 0.8451279331518271,
+      "final_score": 0.5400288233818025,
+      "text": "The influence of covariates on the FER of CCE is summarised in online supplemental table A5. Metaregression analysis identified two significant factors: complete transit rate ( β =-0.020; 95% CI -0.038 to -0.0016; p=0.033) and adequate bowel cleansing rate ( β =-0.031; 95% CI -0.06 to -0.0014; p=0.04). Both factors were inversely associated with FERs, indicating that higher complete transit and bowel cleansing rates correspond to lower FERs. This relationship is visually illustrated in the bubble plots shown in figure 3, where a clear inverse trend is observed using linear regression models. The risk of bias assessments, performed using the ROBIN- E tool, are summarised in online supplemental table A4. Two studies, Triantafyllou et al 24 and Otani et al, 26 were identified as having a high risk of bias, primarily due to biases related to FERs rather than their primary outcomes. Eleven studies were assessed as having a moderate risk of bias in specific domains. Common sources of bias included unclear patient selection criteria, significant patient attrition or loss to follow- up, preselection of cases with good or excellent bowel preparation, retrospective inclusion of high- risk patients with obstructive lesions, variability in bowel preparation protocols, and unclear definitions of CCE indications. The two high- risk studies were included in a sensitivity analysis to assess their impact on the overall findings (see online supplemental figure A4). . Additionally, the analysis revealed that the CCE2 capsule type was linked to an increased risk of reinvestigation, whereas CCE indication was associated with a reduced Academic Search Figure 2 The forest plot of the overall CCE reinvestigation rate. CCE, colon capsule endoscopy. Figure 3 Bubble plot illustrating the relationship between effect size and CCE complete transit rate (left) and adequate bowel cleansing rate (right). Both plots demonstrate an inverse trend, indicating that as the CCE complete transit rate or bowel cleansing rate increases, the reinvestigation rate decreases. CCE, colon capsule endoscopy. reinvestigation risk. In a multivariate meta- regression model assessing five CCE indication subgroups, only the 'All Indications' subgroup demonstrated a statistically significant reduction in reinvestigation risk ( β =-0.93; 95% CI -1.66 to -0.19; p=0.013). While not reaching statistical significance, marginal trends were suggesting an increased reinvestigation risk in the 'Symptomatic and/or Surveillance' ( β =1.013; 95% CI -0.0757 to 2.101, p=0.0682) and 'CRC Screening' ( β =1.00; 95% CI -0.137 to 2.136, p=0.0837) subgroups. The sensitivity analysis using both leave- one- out analysis and filtered out the two high- risk studies showed consistent effect size estimates across all iterations. No single study disproportionately influenced the overall results (see online supplemental figures A2 and A3), demonstrating the robustness of the meta- analysis.",
+      "images": [
+        {
+          "image_id": "figure_7",
+          "path": "C:\\Users\\milsm\\mgr\\41008pipeline_output\\images\\figure_007_Meta-Regression.png",
+          "relative_path": "images\\figure_007_Meta-Regression.png",
+          "caption": "Figure 3 Bubble plot illustrating the relationship between effect size and CCE complete transit rate (left) and adequate bowel cleansing rate (right). Both plots demonstrate an inverse trend, indicating that as the CCE complete transit rate or bowel cleansing rate increases, the reinvestigation rate decreases. CCE, colon capsule endoscopy.",
+          "section": "Meta-Regression",
+          "page_number": 5
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_11",
+      "document_title": "Follow- up endoscopy rates as an indicator of effectiveness in colon capsule endoscopy: a systematic review and meta- analysis",
+      "type": "text",
+      "section": "Statistical Analysis",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 108,
+      "faiss_score": 0.4575367569923401,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4575367569923401,
+      "adjusted_retrieval_score_norm": 0.4521498420821732,
+      "rerank_score": 1.0526766777038574,
+      "rerank_score_norm": 0.6019667643418379,
+      "final_score": 0.5045857648730558,
+      "text": "A random- effects model was employed for meta- analysis and forest plot generation to account for both withinstudy and between- study variability. Statistical significance was set at the 0.05 level, and 95% CIs were calculated. All pooled estimates were calculated from the patient data of included studies using Freeman- Tukey double arcsine transformation, which stabilises variances in proportion data for reliable pooling. Interstudy heterogeneity was assessed using the I ² statistic, with I ² =50%-75% indicating substantial heterogeneity while >75% indicating considerable heterogeneity. 11 The meta- analysis used the 'meta' R package, specifically employing the 'metaprop' function, which calculates study- level effect sizes based on raw proportions. 12",
+      "images": []
+    },
+    {
+      "chunk_id": "text_5",
+      "document_title": "Follow- up endoscopy rates as an indicator of effectiveness in colon capsule endoscopy: a systematic review and meta- analysis",
+      "type": "text",
+      "section": "Methods",
+      "merged_headings": [],
+      "pages": [
+        2
+      ],
+      "word_count": 102,
+      "faiss_score": 0.25472739338874817,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.4047273933887482,
+      "adjusted_retrieval_score_norm": 0.3976257113467931,
+      "rerank_score": 1.3866403102874756,
+      "rerank_score_norm": 0.6454208252705586,
+      "final_score": 0.48435400122011096,
+      "text": "This study protocol was designed following the Preferred Reporting Items for Systematic Reviews and MetaAnalyses (PRISMA) guidelines (PRISMA checklist in the online supplemental file) 9 and is registered with the PROSPERO International Prospective Register of Systematic Reviews (registration number: CRD42024567959). The primary aim of the review was to evaluate the FER following CCE. The secondary aims include exploring contributing factors to the FER to guide future research to reduce this rate further. The FER refers to additional urgent colonoscopy or flexible sigmoidoscopy required after initial CCE due to incomplete procedures, inadequate bowel preparation, or the need for therapeutic interventions or histological biopsies.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_8",
+      "document_title": "Follow- up endoscopy rates as an indicator of effectiveness in colon capsule endoscopy: a systematic review and meta- analysis",
+      "type": "text",
+      "section": "Study Selection",
+      "merged_headings": [],
+      "pages": [
+        2
+      ],
+      "word_count": 177,
+      "faiss_score": 0.35946428775787354,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.35946428775787354,
+      "adjusted_retrieval_score_norm": 0.35089287231028427,
+      "rerank_score": -0.1889134645462036,
+      "rerank_score_norm": 0.44041583955267116,
+      "final_score": 0.3822259108451197,
+      "text": "Titles and abstracts of all retrieved studies were independently screened by pairs of authors, with each set assigned to one of the following pairs: IIL and AR or AA and CT. Discrepancies within each group were resolved through discussion among the respective reviewers. Studies that did not meet the eligibility criteria were excluded. The inclusion criteria for the full- text review were: . Follow- up investigations (reinvestigation) prompted by incomplete procedures, poor bowel preparation, or any detected GI pathology in the terminal ileum or colon. Any clinical indication for CCE. Studies with more than 10 participants. The FER did not need to be explicitly stated as the study's primary or secondary endpoint but could be calculated from the available raw data. Exclusion criteria primarily focused on studies where follow- up investigations were conducted for upper GI findings, as these conditions would not typically be identified during colonoscopy, the gold standard for comparison of CCE FERs. Additionally, studies where all participants underwent both colonoscopy and CCE as part of a diagnostic accuracy study were excluded (see figure 1).",
+      "images": []
+    },
+    {
+      "chunk_id": "text_6",
+      "document_title": "Follow- up endoscopy rates as an indicator of effectiveness in colon capsule endoscopy: a systematic review and meta- analysis",
+      "type": "text",
+      "section": "Eligibility Criteria",
+      "merged_headings": [],
+      "pages": [
+        2
+      ],
+      "word_count": 121,
+      "faiss_score": 0.23814286291599274,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.23814286291599274,
+      "adjusted_retrieval_score_norm": 0.22563203260890646,
+      "rerank_score": 0.5831335783004761,
+      "rerank_score_norm": 0.5408716256517706,
+      "final_score": 0.3359658901739089,
+      "text": "The search included full- text clinical, retrospective, and prospective trials evaluating the use of CCE in patients with any colonic pathology. There were no language restrictions, and all the non- English articles were screened with the intention of being translated and included if they met the predefined inclusion criteria. Both adult and paediatric studies were considered, provided they offered clear documentation of follow- up investigations after the initial CCE. There were no limitations regarding CCE referral indications, patient recruitment criteria, or pathologies investigated in these studies. However, conference abstracts were excluded due to their high risk of bias. Similarly, review articles, systematic reviews, editorials, study protocols, case reports, and small case series or studies with 10 or fewer participants were excluded.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_7",
+      "document_title": "Follow- up endoscopy rates as an indicator of effectiveness in colon capsule endoscopy: a systematic review and meta- analysis",
+      "type": "text",
+      "section": "Information Sources",
+      "merged_headings": [],
+      "pages": [
+        2
+      ],
+      "word_count": 101,
+      "faiss_score": 0.26056718826293945,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.26056718826293945,
+      "adjusted_retrieval_score_norm": 0.2487844957979622,
+      "rerank_score": 0.1695042848587036,
+      "rerank_score_norm": 0.4870517759271988,
+      "final_score": 0.332178043843195,
+      "text": "The literature search was conducted across EMBASE, MEDLINE, and PubMed databases. Additional studies were identified through manual searches of reference lists from the selected publications. The electronic search covered studies published between January 2004 and August 2024, as CCE was unavailable before 2004. Both Medical Subject Headings (MeSH) and non- MeSH terms were included in the search strategy, encompassing keywords such as colonoscopy, sigmoidoscopy, CT scan, conversion, and reinvestigation (see online supplemental table A1 for details). The specific search strings for each database are also provided in the online supplemental appendix. Grey literature and unpublished studies were excluded from the review.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_2",
+      "document_title": "Follow- up endoscopy rates as an indicator of effectiveness in colon capsule endoscopy: a systematic review and meta- analysis",
+      "type": "text",
+      "section": "What This Study Adds",
+      "merged_headings": [],
+      "pages": [
+        1
+      ],
+      "word_count": 150,
+      "faiss_score": 0.24656863510608673,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.24656863510608673,
+      "adjusted_retrieval_score_norm": 0.23433139713614662,
+      "rerank_score": -0.041061144322156906,
+      "rerank_score_norm": 0.4596538137050208,
+      "final_score": 0.31319424293525255,
+      "text": "Additional supplemental material is published online only. To view, please visit the journal online (https:// doi. org/ 10. 1136/ bmjgast- 2025001800). Design A systematic review and meta- analysis were conducted following Preferred Reporting Items for Systematic Reviews and Meta- Analyses guidelines. Data sources Medline, Embase, and PubMed were searched through 15 August 2024. ⇒ This meta- analysis found that 42% of patients undergoing CCE required a follow- up endoscopy-a rate higher than that observed with colonoscopy or CT colonography. Reinvestigation was more frequent with CCE2 capsules, likely due to improved diagnostic performance. Age and sex did not significantly influence follow- up rates, highlighting persistent uncertainty in individual risk factors. Eligibility criteria Studies included reporting FERs after CCE, including subsequent endoscopic procedures and radiological imaging. There were no language restrictions or limitations in CCE referral indications, patient recruitment criteria, or pathologies investigated. Received 24 February 2025 Accepted 10 April 2025 .",
+      "images": []
+    },
+    {
+      "chunk_id": "text_3",
+      "document_title": "Follow- up endoscopy rates as an indicator of effectiveness in colon capsule endoscopy: a systematic review and meta- analysis",
+      "type": "text",
+      "section": "How This Study Might Affect Research, Practice Or Policy",
+      "merged_headings": [],
+      "pages": [
+        1
+      ],
+      "word_count": 244,
+      "faiss_score": 0.30548185110092163,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.30548185110092163,
+      "adjusted_retrieval_score_norm": 0.2951575777933508,
+      "rerank_score": -1.007773518562317,
+      "rerank_score_norm": 0.33386892483613423,
+      "final_score": 0.30870654925832497,
+      "text": "Data extraction and synthesis All studies were independently screened and extracted two times by four reviewers. A random- effects model was used for metaanalysis and meta- regression to identify key contributing factors. ⇒ Refining CCE indications, improving completion rates and bowel preparation, and optimising patient selection could reduce unnecessary follow- up procedures. This identifies a key research gap in CCE and makes clear that the challenge lies not in the tool itself but in how it is applied. These improvements could enhance cost- effectiveness and increase patient satisfaction by minimising invasive testing and streamlining the diagnostic pathway. Results 2850 participants from 19 studies were included in the analysis. Compared with the key performance indicators for FERs in colonoscopy (0.10-0.15) and CT colonography (0.25), the pooled FER for CCE was found to be 0.42 (95% CI 0.34 to 0.50). The meta- regression analysis identified complete transit rates and adequate bowel cleansing quality as factors inversely associated with FERs. Furthermore, the CCE2 capsule demonstrated a higher reinvestigation risk than CCE1, likely due to its improved diagnostic accuracy. Although CCE indications were associated with lower FERs, subgroup analysis did not reach statistical significance with high heterogeneity. Conclusion This study highlights significant FERs for CCE and identifies key contributing factors, emphasising the importance of appropriate patient selection to reduce reinvestigation needs. Future research should focus on improving completion rates, bowel preparation protocols, and refining CCE indications. This will minimise environmental impact and enhance cost- effectiveness and patient satisfaction.",
+      "images": []
+    }
+  ]
+}

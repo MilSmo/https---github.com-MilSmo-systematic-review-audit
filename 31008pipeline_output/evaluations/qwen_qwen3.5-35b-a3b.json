@@ -1,0 +1,1083 @@
+[
+  {
+    "item_id": "PRISMA_2020_1",
+    "item_label": "1",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_1\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_1_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"The effect of minimum volume standards in hospitals (MIVOS): a systematic review.\",\n      \"reason\": \"The title explicitly identifies the report as a systematic review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"The effect of minimum volume standards in hospitals (MIVOS): a systematic review.\",\n      \"reason\": \"The title provides key information about the intervention (minimum volume standards) and population/context (hospitals).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"The effect of minimum volume standards in hospitals (MIVOS): a systematic review.\",\n      \"reason\": \"The title does not provide supplementary information such as analysis method, included study designs, update status, or living-review status.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_1",
+      "elements": [
+        {
+          "element_id": "prisma_2020_1_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "The effect of minimum volume standards in hospitals (MIVOS): a systematic review.",
+          "reason": "The title explicitly identifies the report as a systematic review."
+        },
+        {
+          "element_id": "prisma_2020_1_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "The effect of minimum volume standards in hospitals (MIVOS): a systematic review.",
+          "reason": "The title provides key information about the intervention (minimum volume standards) and population/context (hospitals)."
+        },
+        {
+          "element_id": "prisma_2020_1_e3",
+          "status": "MISSING",
+          "chunk_id": "text_1",
+          "quote": "The effect of minimum volume standards in hospitals (MIVOS): a systematic review.",
+          "reason": "The title does not provide supplementary information such as analysis method, included study designs, update status, or living-review status."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_1_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_2",
+    "item_label": "2",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_3",
+    "item_label": "3",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_4",
+    "item_label": "4",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "The user wants me to evaluate a specific reporting criterion from the PRISMA 2020 guidelines based on provided evidence.\n\n**Criterion Details:**\n- **Standard:** PRISMA_2020\n- **Section:** Introduction\n- **Topic:** Objectives\n- **Item ID:** PRISMA_2020_4\n- **Checklist Item:** \"Provide an explicit statement of the objective(s) or question(s) the review addresses.\"\n- **Required Elements:**\n    1.  `prisma_2020_4_e1`: All review objectives or questions are explicitly stated using a relevant question-formulation framework. (Applicability: REQUIRED)\n    2.  `prisma_2020_4_e2`: For reviews of intervention effects, the planned comparisons are stated using PICO or an appropriate variant. (Applicability: CONDITIONAL)\n\n**Task:**\nEvaluate each element (`prisma_2020_4_e1`, `prisma_2020_4_e2`) as PRESENT, PARTIAL, MISSING, or NOT_APPLICABLE based *only* on the retrieved evidence.\n\n**Retrieved Evidence Analysis:**\nI need to look for explicit statements of objectives or questions in the \"Introduction\" section or elsewhere if that's where they are typically found (though the criterion specifies Section: Introduction). The retrieved chunks include text from various sections like Advisory Board, Methods, Population, Introduction, Study Designs, Outcomes, Limitations, Abstract, Design Of Primary Studies, Certainty Assessment.\n\nLet's examine the chunks specifically looking for the \"Introduction\" section and any explicit statement of objectives/questions.\n\n- `text_3` is labeled \"section\": \"Introduction\".\n  - Text: \"Minimum volume standards are cut- off thresholds for hospitals allowing only those hospitals above a defined threshold to perform a given medical procedure in the future. As a policy tool, minimum volume standards aim at concentrating the procedures for which they are in effect in hospitals with higher volumes. 1 This objective is based on evidence of the volume- outcome Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. Results We included nine studies into our systematic review. Overall, the outcomes reported in the studies are heterogeneous, which did not allow for a meta- analysis, resulting in a narrative analysis of the found evidence. While travel distance increased and length of stay decreased, other reported outcomes such as complications or reoperations were not affected by the introduction of minimum volume standards. Overall, the risk of bias was considered serious for results on outcomes of seven Department of Evidence Based Medicine, Federal Medical Advisory Service, Essen, Germany\"\n  - This chunk seems to contain a mix of Introduction content (\"Minimum volume standards are...\") and Results content (\"Results We included nine studies...\"). It looks like a corrupted or concatenated chunk.\n  - Does it state the review's objective? It describes what minimum volume standards are (\"This objective is based on evidence...\"). It does not explicitly state \"The objective of this review is...\" or \"We aimed to...\". It describes the background/policy tool.\n  - There is no clear explicit statement of the review's specific objective/question in this chunk.\n\n- `text_1` is labeled \"section\": \"Abstract\".\n  - Text: Citation info. No objectives here.\n\n- `text_5` is labeled \"section\": \"Methods\".\n  - Mentions registration and protocol but doesn't explicitly state the objective in the text provided.\n\n- Other chunks (`text_6`, `text_9`, `text_10`, `text_15`, `text_20`, `text_30`, `text_16`) describe methods, population, outcomes, limitations, etc. None seem to be the primary location for stating the review objective (usually Introduction).\n\n**Evaluation of Element 1 (`prisma_2020_4_e1`):**\n- Requirement: Explicit statement of objective(s) or question(s).\n- Evidence: In `text_3` (Introduction), there is a description of minimum volume standards and their aim (\"This objective is based on evidence...\"), but this refers to the policy tool's objective, not necessarily the review's objective. There is no sentence like \"The objective of this systematic review is to assess...\" or \"We sought to determine...\".\n- Conclusion: The explicit statement of the review's objective is likely MISSING in the provided text. The text describes the background and mentions \"This objective\" referring to the policy tool, not the review itself.\n- Status: MISSING.\n\n**Evaluation of Element 2 (`prisma_2020_4_e2`):**\n- Requirement: Planned comparisons stated using PICO or variant (Conditional).\n- Applicability: Since the review appears to be about the effect of minimum volume standards (an intervention/policy), this would apply. However, since the main objective isn't explicitly stated, the comparisons aren't explicitly stated either in the context of PICO.\n- Evidence: `text_6` says \"We included studies dealing with patients irrespective of their condition or the medical treatment received.\" `text_9` says \"We considered all outcomes.\" `text_10` lists study designs.\n- Is there a PICO statement in the Introduction/Objectives section? No.\n- Since the primary objective is missing, the specific comparisons (PICO) are also not explicitly framed as part of the objective statement.\n- Status: MISSING. (Or NOT_APPLICABLE if I can argue it's not an intervention review, but \"minimum volume standards\" implies an intervention/policy. However, usually, if the objective is missing, the PICO breakdown is also missing). Let's check if it applies. It is a systematic review of an intervention (minimum volume standards). So it is applicable. Since the evidence doesn't show it, it is MISSING.\n\nWait, I need to be careful. The instructions say \"Use only the retrieved evidence. Do not infer or assume information that is not explicitly reported.\"\nIn `text_3` (Introduction), the text cuts off abruptly (\"Protected by copyright...\"). It might contain the objective before the cutoff, but I cannot see it. The visible text starts with definitions.\nThere is no explicit \"Objective:\" heading or sentence in the provided Introduction chunk.\nTherefore, `prisma_2020_4_e1` is MISSING.\nConsequently, `prisma_2020_4_e2` is also MISSING because the objective/comparisons aren't stated.\n\nLet's double-check `text_3`.\n\"Minimum volume standards are cut- off thresholds... As a policy tool, minimum volume standards aim at concentrating the procedures... This objective is based on evidence of the volume- outcome [CUT OFF] Results We included nine studies...\"\nIt jumps from background to Results. The actual Objective paragraph seems to be missing from this snippet or obscured by the copyright notice/corruption.\nSo, based *strictly* on the provided text, the objective is not explicitly stated.\n\n**Decision:**\n- `prisma_2020_4_e1`: MISSING. Reason: The Introduction section text provided describes the background of minimum volume standards but does not contain an explicit statement of the systematic review's specific objective or research question.\n- `prisma_2020_4_e2`: MISSING. Reason: As the review objective is not explicitly stated, the planned comparisons (PICO) are not explicitly stated in the provided text.\n\nWait, looking at `text_15` (Certainty Assessment): \"We chose mortality..., travel distance... as outcomes of importance for assessing the effect of minimum volume standards interventions in hospitals.\" This hints at the objective but is in the Methods/Certainty section, not Introduction/Objectives. The criterion asks for the statement in the Introduction (Section: Introduction). Even if it were elsewhere, the instruction says \"Use only the retrieved evidence\". If the evidence shows it elsewhere, does it count for the Introduction criterion? Usually, PRISMA requires it in the Introduction. However, the evaluation task is to evaluate the reporting element based on the evidence. If the evidence shows the objective is stated elsewhere, does it satisfy \"Provide an explicit statement\"? The checklist item says \"Provide an explicit statement...\". It doesn't strictly mandate the section in the item description text provided in the prompt (\"Section: Introduction\" is part of the criterion definition).\nHowever, the prompt defines the criterion with `\"section\": \"Introduction\"`. This implies I should look for it in the Introduction.\nEven if I look broadly, `text_15` states \"assessing the effect of minimum volume standards interventions\", which is close to an objective, but it's buried in the Certainty Assessment section.\nGiven the strict instruction \"Use only the retrieved evidence\" and the criterion specifies Section: Introduction, I must judge based on the Introduction text provided (`text_3`).\n`text_3` does not have the objective.\nSo `e1` is MISSING.\nIf `e1` is MISSING, `e2` (which depends on the objective being stated) is also effectively MISSING (cannot be present if the objective isn't stated).\n\nLet's refine the status for `e2`. It is CONDITIONAL. Does it apply? Yes, it's an intervention/systematic review. Is it reported? No. So MISSING.\n\n**Confidence:**\nSince the Introduction text is fragmented and clearly lacks the objective statement (jumping to Results), confidence is high that it is missing from the provided text.\n\n**Output Formatting:**\nJSON structure required.\n\nOne detail: `text_3` contains \"Results We included nine studies...\". This suggests the chunk is malformed or combines sections. But I must evaluate based on what is visible. Visible text in \"Introduction\" section does not state the objective.\n\nLet's verify if `text_1` (Abstract) has it. \"To cite: ...\". No objective there.\nLet's verify `text_5` (Methods). \"Reporting of this systematic review follows...\". No objective there.\n\nOkay, I will mark both as MISSING.\n\nWait, I should check if there is any other chunk that might be the Introduction.\n`text_3` is the only one labeled \"section\": \"Introduction\".\nText: \"Minimum volume standards are cut- off thresholds... This objective is based on evidence... Results We included...\"\nIt definitely does not state the review's objective explicitly (e.g., \"The objective of this review is to...\"). It discusses the objective of the *policy tool*.\nSo `prisma_2020_4_e1` is MISSING.\n\nFor `prisma_2020_4_e2`: Since the objective is missing, the PICO comparison is not explicitly stated in the context of the objective.\nStatus: MISSING.\n\nWait, is there any chance `text_15` counts? \"outcomes of importance for assessing the effect of minimum volume standards interventions\". This implies the objective. But the criterion specifies Section: Introduction. The instruction says \"Evaluate every supplied reporting element independently... Use only the retrieved evidence.\" It does not explicitly forbid using evidence from other sections if the criterion allows, but the criterion metadata says `\"section\": \"Introduction\"`. Usually, PRISMA Item 4 is in the Introduction. If the evidence provided for the Introduction section doesn't have it, it's missing from the Introduction.\nHowever, often evaluators check the whole document. But I am restricted to \"retrieved evidence\". The retrieved evidence includes chunks from different sections. If the objective is stated in `text_15` (Certainty Assessment), does that satisfy the requirement \"Provide an explicit statement\"? The requirement is generally that the statement exists in the manuscript. The criterion metadata says \"Section: Introduction\". This acts as a filter for where I expect to find it. If I find it elsewhere, is it compliant? PRISMA 2020 Item 4 is specifically under \"Rationale\" or \"Objectives\" in the Introduction.\nGiven the constraint \"Use only the retrieved evidence\", and the fact that `text_3` (Introduction) does not have it, while `text_15` (Certainty Assessment) has a hint (\"assessing the effect...\"), I should probably stick to the Introduction section for this specific criterion evaluation because the criterion is tagged with `\"section\": \"Introduction\"`.\nActually, looking at the instruction: \"Evaluate a single reporting criterion...\". The criterion object has `\"section\": \"Introduction\"`. This implies the expectation is that the statement is in the Introduction.\nIf I find it in Methods, it might be considered Partial or Missing depending on strictness. But since `text_3` is the only Introduction chunk and it lacks it, I will mark it as MISSING.\n\nWait, looking closely at `text_3`: \"This objective is based on evidence of the volume- outcome\". This refers to the policy tool's objective.\nThere is no \"Our objective is...\" sentence.\nSo MISSING is correct.\n\nFinal check on `e2`: \"For reviews of intervention effects...\". Minimum volume standards are an intervention/policy. So it applies. Since the objective isn't stated, the PICO isn't stated. MISSING.\n\nConfidence: High (85-90%) because the text is quite clear on what is present and absent in the Introduction chunk.\n\nOne more thing: `text_15` says \"We chose mortality... as outcomes of importance for assessing the effect of minimum volume standards interventions\". This is very close to an objective statement (\"assessing the effect...\"). However, it is in the Certainty Assessment section. PRISMA Item 4 requires the statement in the Introduction. If the Introduction is missing it, the criterion is not met, even if mentioned later. I will proceed with MISSING.\n\nWait, I need to make sure I don't miss anything in `text_3`.\n\"Minimum volume standards are cut- off thresholds... As a policy tool, minimum volume standards aim at concentrating the procedures... This objective is based on evidence... Results We included nine studies...\"\nIt skips straight to Results. The Objective paragraph is definitely missing from this snippet.\n\nPlan:\n1. Set `prisma_",
+    "parsed": {
+      "raw_response": "The user wants me to evaluate a specific reporting criterion from the PRISMA 2020 guidelines based on provided evidence.\n\n**Criterion Details:**\n- **Standard:** PRISMA_2020\n- **Section:** Introduction\n- **Topic:** Objectives\n- **Item ID:** PRISMA_2020_4\n- **Checklist Item:** \"Provide an explicit statement of the objective(s) or question(s) the review addresses.\"\n- **Required Elements:**\n    1.  `prisma_2020_4_e1`: All review objectives or questions are explicitly stated using a relevant question-formulation framework. (Applicability: REQUIRED)\n    2.  `prisma_2020_4_e2`: For reviews of intervention effects, the planned comparisons are stated using PICO or an appropriate variant. (Applicability: CONDITIONAL)\n\n**Task:**\nEvaluate each element (`prisma_2020_4_e1`, `prisma_2020_4_e2`) as PRESENT, PARTIAL, MISSING, or NOT_APPLICABLE based *only* on the retrieved evidence.\n\n**Retrieved Evidence Analysis:**\nI need to look for explicit statements of objectives or questions in the \"Introduction\" section or elsewhere if that's where they are typically found (though the criterion specifies Section: Introduction). The retrieved chunks include text from various sections like Advisory Board, Methods, Population, Introduction, Study Designs, Outcomes, Limitations, Abstract, Design Of Primary Studies, Certainty Assessment.\n\nLet's examine the chunks specifically looking for the \"Introduction\" section and any explicit statement of objectives/questions.\n\n- `text_3` is labeled \"section\": \"Introduction\".\n  - Text: \"Minimum volume standards are cut- off thresholds for hospitals allowing only those hospitals above a defined threshold to perform a given medical procedure in the future. As a policy tool, minimum volume standards aim at concentrating the procedures for which they are in effect in hospitals with higher volumes. 1 This objective is based on evidence of the volume- outcome Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. Results We included nine studies into our systematic review. Overall, the outcomes reported in the studies are heterogeneous, which did not allow for a meta- analysis, resulting in a narrative analysis of the found evidence. While travel distance increased and length of stay decreased, other reported outcomes such as complications or reoperations were not affected by the introduction of minimum volume standards. Overall, the risk of bias was considered serious for results on outcomes of seven Department of Evidence Based Medicine, Federal Medical Advisory Service, Essen, Germany\"\n  - This chunk seems to contain a mix of Introduction content (\"Minimum volume standards are...\") and Results content (\"Results We included nine studies...\"). It looks like a corrupted or concatenated chunk.\n  - Does it state the review's objective? It describes what minimum volume standards are (\"This objective is based on evidence...\"). It does not explicitly state \"The objective of this review is...\" or \"We aimed to...\". It describes the background/policy tool.\n  - There is no clear explicit statement of the review's specific objective/question in this chunk.\n\n- `text_1` is labeled \"section\": \"Abstract\".\n  - Text: Citation info. No objectives here.\n\n- `text_5` is labeled \"section\": \"Methods\".\n  - Mentions registration and protocol but doesn't explicitly state the objective in the text provided.\n\n- Other chunks (`text_6`, `text_9`, `text_10`, `text_15`, `text_20`, `text_30`, `text_16`) describe methods, population, outcomes, limitations, etc. None seem to be the primary location for stating the review objective (usually Introduction).\n\n**Evaluation of Element 1 (`prisma_2020_4_e1`):**\n- Requirement: Explicit statement of objective(s) or question(s).\n- Evidence: In `text_3` (Introduction), there is a description of minimum volume standards and their aim (\"This objective is based on evidence...\"), but this refers to the policy tool's objective, not necessarily the review's objective. There is no sentence like \"The objective of this systematic review is to assess...\" or \"We sought to determine...\".\n- Conclusion: The explicit statement of the review's objective is likely MISSING in the provided text. The text describes the background and mentions \"This objective\" referring to the policy tool, not the review itself.\n- Status: MISSING.\n\n**Evaluation of Element 2 (`prisma_2020_4_e2`):**\n- Requirement: Planned comparisons stated using PICO or variant (Conditional).\n- Applicability: Since the review appears to be about the effect of minimum volume standards (an intervention/policy), this would apply. However, since the main objective isn't explicitly stated, the comparisons aren't explicitly stated either in the context of PICO.\n- Evidence: `text_6` says \"We included studies dealing with patients irrespective of their condition or the medical treatment received.\" `text_9` says \"We considered all outcomes.\" `text_10` lists study designs.\n- Is there a PICO statement in the Introduction/Objectives section? No.\n- Since the primary objective is missing, the specific comparisons (PICO) are also not explicitly framed as part of the objective statement.\n- Status: MISSING. (Or NOT_APPLICABLE if I can argue it's not an intervention review, but \"minimum volume standards\" implies an intervention/policy. However, usually, if the objective is missing, the PICO breakdown is also missing). Let's check if it applies. It is a systematic review of an intervention (minimum volume standards). So it is applicable. Since the evidence doesn't show it, it is MISSING.\n\nWait, I need to be careful. The instructions say \"Use only the retrieved evidence. Do not infer or assume information that is not explicitly reported.\"\nIn `text_3` (Introduction), the text cuts off abruptly (\"Protected by copyright...\"). It might contain the objective before the cutoff, but I cannot see it. The visible text starts with definitions.\nThere is no explicit \"Objective:\" heading or sentence in the provided Introduction chunk.\nTherefore, `prisma_2020_4_e1` is MISSING.\nConsequently, `prisma_2020_4_e2` is also MISSING because the objective/comparisons aren't stated.\n\nLet's double-check `text_3`.\n\"Minimum volume standards are cut- off thresholds... As a policy tool, minimum volume standards aim at concentrating the procedures... This objective is based on evidence of the volume- outcome [CUT OFF] Results We included nine studies...\"\nIt jumps from background to Results. The actual Objective paragraph seems to be missing from this snippet or obscured by the copyright notice/corruption.\nSo, based *strictly* on the provided text, the objective is not explicitly stated.\n\n**Decision:**\n- `prisma_2020_4_e1`: MISSING. Reason: The Introduction section text provided describes the background of minimum volume standards but does not contain an explicit statement of the systematic review's specific objective or research question.\n- `prisma_2020_4_e2`: MISSING. Reason: As the review objective is not explicitly stated, the planned comparisons (PICO) are not explicitly stated in the provided text.\n\nWait, looking at `text_15` (Certainty Assessment): \"We chose mortality..., travel distance... as outcomes of importance for assessing the effect of minimum volume standards interventions in hospitals.\" This hints at the objective but is in the Methods/Certainty section, not Introduction/Objectives. The criterion asks for the statement in the Introduction (Section: Introduction). Even if it were elsewhere, the instruction says \"Use only the retrieved evidence\". If the evidence shows it elsewhere, does it count for the Introduction criterion? Usually, PRISMA requires it in the Introduction. However, the evaluation task is to evaluate the reporting element based on the evidence. If the evidence shows the objective is stated elsewhere, does it satisfy \"Provide an explicit statement\"? The checklist item says \"Provide an explicit statement...\". It doesn't strictly mandate the section in the item description text provided in the prompt (\"Section: Introduction\" is part of the criterion definition).\nHowever, the prompt defines the criterion with `\"section\": \"Introduction\"`. This implies I should look for it in the Introduction.\nEven if I look broadly, `text_15` states \"assessing the effect of minimum volume standards interventions\", which is close to an objective, but it's buried in the Certainty Assessment section.\nGiven the strict instruction \"Use only the retrieved evidence\" and the criterion specifies Section: Introduction, I must judge based on the Introduction text provided (`text_3`).\n`text_3` does not have the objective.\nSo `e1` is MISSING.\nIf `e1` is MISSING, `e2` (which depends on the objective being stated) is also effectively MISSING (cannot be present if the objective isn't stated).\n\nLet's refine the status for `e2`. It is CONDITIONAL. Does it apply? Yes, it's an intervention/systematic review. Is it reported? No. So MISSING.\n\n**Confidence:**\nSince the Introduction text is fragmented and clearly lacks the objective statement (jumping to Results), confidence is high that it is missing from the provided text.\n\n**Output Formatting:**\nJSON structure required.\n\nOne detail: `text_3` contains \"Results We included nine studies...\". This suggests the chunk is malformed or combines sections. But I must evaluate based on what is visible. Visible text in \"Introduction\" section does not state the objective.\n\nLet's verify if `text_1` (Abstract) has it. \"To cite: ...\". No objective there.\nLet's verify `text_5` (Methods). \"Reporting of this systematic review follows...\". No objective there.\n\nOkay, I will mark both as MISSING.\n\nWait, I should check if there is any other chunk that might be the Introduction.\n`text_3` is the only one labeled \"section\": \"Introduction\".\nText: \"Minimum volume standards are cut- off thresholds... This objective is based on evidence... Results We included...\"\nIt definitely does not state the review's objective explicitly (e.g., \"The objective of this review is to...\"). It discusses the objective of the *policy tool*.\nSo `prisma_2020_4_e1` is MISSING.\n\nFor `prisma_2020_4_e2`: Since the objective is missing, the PICO comparison is not explicitly stated in the context of the objective.\nStatus: MISSING.\n\nWait, is there any chance `text_15` counts? \"outcomes of importance for assessing the effect of minimum volume standards interventions\". This implies the objective. But the criterion specifies Section: Introduction. The instruction says \"Evaluate every supplied reporting element independently... Use only the retrieved evidence.\" It does not explicitly forbid using evidence from other sections if the criterion allows, but the criterion metadata says `\"section\": \"Introduction\"`. Usually, PRISMA Item 4 is in the Introduction. If the evidence provided for the Introduction section doesn't have it, it's missing from the Introduction.\nHowever, often evaluators check the whole document. But I am restricted to \"retrieved evidence\". The retrieved evidence includes chunks from different sections. If the objective is stated in `text_15` (Certainty Assessment), does that satisfy the requirement \"Provide an explicit statement\"? The requirement is generally that the statement exists in the manuscript. The criterion metadata says \"Section: Introduction\". This acts as a filter for where I expect to find it. If I find it elsewhere, is it compliant? PRISMA 2020 Item 4 is specifically under \"Rationale\" or \"Objectives\" in the Introduction.\nGiven the constraint \"Use only the retrieved evidence\", and the fact that `text_3` (Introduction) does not have it, while `text_15` (Certainty Assessment) has a hint (\"assessing the effect...\"), I should probably stick to the Introduction section for this specific criterion evaluation because the criterion is tagged with `\"section\": \"Introduction\"`.\nActually, looking at the instruction: \"Evaluate a single reporting criterion...\". The criterion object has `\"section\": \"Introduction\"`. This implies the expectation is that the statement is in the Introduction.\nIf I find it in Methods, it might be considered Partial or Missing depending on strictness. But since `text_3` is the only Introduction chunk and it lacks it, I will mark it as MISSING.\n\nWait, looking closely at `text_3`: \"This objective is based on evidence of the volume- outcome\". This refers to the policy tool's objective.\nThere is no \"Our objective is...\" sentence.\nSo MISSING is correct.\n\nFinal check on `e2`: \"For reviews of intervention effects...\". Minimum volume standards are an intervention/policy. So it applies. Since the objective isn't stated, the PICO isn't stated. MISSING.\n\nConfidence: High (85-90%) because the text is quite clear on what is present and absent in the Introduction chunk.\n\nOne more thing: `text_15` says \"We chose mortality... as outcomes of importance for assessing the effect of minimum volume standards interventions\". This is very close to an objective statement (\"assessing the effect...\"). However, it is in the Certainty Assessment section. PRISMA Item 4 requires the statement in the Introduction. If the Introduction is missing it, the criterion is not met, even if mentioned later. I will proceed with MISSING.\n\nWait, I need to make sure I don't miss anything in `text_3`.\n\"Minimum volume standards are cut- off thresholds... As a policy tool, minimum volume standards aim at concentrating the procedures... This objective is based on evidence... Results We included nine studies...\"\nIt skips straight to Results. The Objective paragraph is definitely missing from this snippet.\n\nPlan:\n1. Set `prisma_",
+      "parse_error": true
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_5",
+    "item_label": "5",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_6",
+    "item_label": "6",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_7",
+    "item_label": "7",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_8",
+    "item_label": "8",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_9",
+    "item_label": "9",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10a",
+    "item_label": "10a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10b",
+    "item_label": "10b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_11",
+    "item_label": "11",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_11\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_11_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"For quality assessment, the ROBINS- I tool, with additions for CBA and ITS study designs, 28 was independently applied by two reviewers (AP, JS).\",\n      \"reason\": \"The risk-of-bias tool (ROBINS-I) is explicitly specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_27\",\n      \"quote\": \"Across all outcomes examined in the studies, the risk of bias pertaining to the selection of both exposed and non- exposed populations, as well as classification of intervention, deviation from intended intervention, missing data and measurement of outcomes was determined to be low.\",\n      \"reason\": \"Specific domains assessed by the tool (selection, classification, deviation, missing data, measurement) are listed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e3\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_27\",\n      \"quote\": \"The risk of bias was moderate for results on outcomes for two studies and serious for seven studies\",\n      \"reason\": \"Overall risk-of-bias judgements are reported, but the specific rules or algorithms used to derive these overall judgements from domain assessments are not explicitly described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"For quality assessment, the ROBINS- I tool, with additions for CBA and ITS study designs, 28 was independently applied by two reviewers (AP, JS).\",\n      \"reason\": \"Adaptations to the tool ('additions for CBA and ITS study designs') are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"For quality assessment, the ROBINS- I tool, with additions for CBA and ITS study designs, 28 was independently applied by two reviewers (AP, JS).\",\n      \"reason\": \"An existing tool (ROBINS-I) was used; no newly developed risk-of-bias tool was created.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"For quality assessment, the ROBINS- I tool... was independently applied by two reviewers (AP, JS). ... any disagreement was resolved by discussion and consensus.\",\n      \"reason\": \"Number of reviewers (two), independence (independently applied), and disagreement resolution (discussion and consensus) are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence is provided regarding processes used to obtain or confirm risk-of-bias information from study investigators.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e8\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No automation tools for risk-of-bias assessment are described in the retrieved evidence.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_11",
+      "elements": [
+        {
+          "element_id": "prisma_2020_11_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "For quality assessment, the ROBINS- I tool, with additions for CBA and ITS study designs, 28 was independently applied by two reviewers (AP, JS).",
+          "reason": "The risk-of-bias tool (ROBINS-I) is explicitly specified."
+        },
+        {
+          "element_id": "prisma_2020_11_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_27",
+          "quote": "Across all outcomes examined in the studies, the risk of bias pertaining to the selection of both exposed and non- exposed populations, as well as classification of intervention, deviation from intended intervention, missing data and measurement of outcomes was determined to be low.",
+          "reason": "Specific domains assessed by the tool (selection, classification, deviation, missing data, measurement) are listed."
+        },
+        {
+          "element_id": "prisma_2020_11_e3",
+          "status": "PARTIAL",
+          "chunk_id": "text_27",
+          "quote": "The risk of bias was moderate for results on outcomes for two studies and serious for seven studies",
+          "reason": "Overall risk-of-bias judgements are reported, but the specific rules or algorithms used to derive these overall judgements from domain assessments are not explicitly described."
+        },
+        {
+          "element_id": "prisma_2020_11_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "For quality assessment, the ROBINS- I tool, with additions for CBA and ITS study designs, 28 was independently applied by two reviewers (AP, JS).",
+          "reason": "Adaptations to the tool ('additions for CBA and ITS study designs') are described."
+        },
+        {
+          "element_id": "prisma_2020_11_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_13",
+          "quote": "For quality assessment, the ROBINS- I tool, with additions for CBA and ITS study designs, 28 was independently applied by two reviewers (AP, JS).",
+          "reason": "An existing tool (ROBINS-I) was used; no newly developed risk-of-bias tool was created."
+        },
+        {
+          "element_id": "prisma_2020_11_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "For quality assessment, the ROBINS- I tool... was independently applied by two reviewers (AP, JS). ... any disagreement was resolved by discussion and consensus.",
+          "reason": "Number of reviewers (two), independence (independently applied), and disagreement resolution (discussion and consensus) are reported."
+        },
+        {
+          "element_id": "prisma_2020_11_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence is provided regarding processes used to obtain or confirm risk-of-bias information from study investigators."
+        },
+        {
+          "element_id": "prisma_2020_11_e8",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No automation tools for risk-of-bias assessment are described in the retrieved evidence."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_11_e3",
+        "prisma_2020_11_e7",
+        "prisma_2020_11_e8"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_12",
+    "item_label": "12",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13a",
+    "item_label": "13a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13b",
+    "item_label": "13b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_14\",\n      \"quote\": \"If papers with a before- after design did not provide an appropriate analysis or reporting of results to be included in this systematic review, but presented the needed data points in a readable graph or in a table, we re- analysed the data ourselves.\",\n      \"reason\": \"The manuscript explicitly describes methods for preparing data for synthesis, including re-analyzing data from graphs or tables when appropriate summary statistics or analyses were missing, and details the statistical models used for synthesis.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_14",
+          "quote": "If papers with a before- after design did not provide an appropriate analysis or reporting of results to be included in this systematic review, but presented the needed data points in a readable graph or in a table, we re- analysed the data ourselves.",
+          "reason": "The manuscript explicitly describes methods for preparing data for synthesis, including re-analyzing data from graphs or tables when appropriate summary statistics or analyses were missing, and details the statistical models used for synthesis."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13c",
+    "item_label": "13c",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13d",
+    "item_label": "13d",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13e",
+    "item_label": "13e",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13e\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13e_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The Methods section (text_14) does not describe methods used to explore heterogeneity. While the Discussion (text_29) mentions subgroup analyses, it does not describe the methods used to explore heterogeneity in the Methods section.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No factors, factor levels, or expected direction of effect modification are reported for subgroup analyses in the Methods section.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no report on whether analyses used study-level variables, within-study contrasts, or both.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Methods used to compare subgroup effects are not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While 'structured syntheses' are mentioned (text_29), informal methods used to explore heterogeneity are not described, including factors and levels.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"As methods were not described in the Methods section, it is not possible to identify which analyses were not pre-specified.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13e",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13e_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The Methods section (text_14) does not describe methods used to explore heterogeneity. While the Discussion (text_29) mentions subgroup analyses, it does not describe the methods used to explore heterogeneity in the Methods section."
+        },
+        {
+          "element_id": "prisma_2020_13e_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No factors, factor levels, or expected direction of effect modification are reported for subgroup analyses in the Methods section."
+        },
+        {
+          "element_id": "prisma_2020_13e_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no report on whether analyses used study-level variables, within-study contrasts, or both."
+        },
+        {
+          "element_id": "prisma_2020_13e_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Methods used to compare subgroup effects are not reported."
+        },
+        {
+          "element_id": "prisma_2020_13e_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While 'structured syntheses' are mentioned (text_29), informal methods used to explore heterogeneity are not described, including factors and levels."
+        },
+        {
+          "element_id": "prisma_2020_13e_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "As methods were not described in the Methods section, it is not possible to identify which analyses were not pre-specified."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13e_e1",
+        "prisma_2020_13e_e2",
+        "prisma_2020_13e_e3",
+        "prisma_2020_13e_e4",
+        "prisma_2020_13e_e5",
+        "prisma_2020_13e_e6"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13f",
+    "item_label": "13f",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_14",
+    "item_label": "14",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_15",
+    "item_label": "15",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16a",
+    "item_label": "16a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16b",
+    "item_label": "16b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text describes the number of records screened and included (e.g., 'After examining 241 full- text reports, 9 studies... were subsequently included' in text_18) but does not cite specific studies that appeared eligible yet were excluded, nor does it explain the reasons for their exclusion.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text describes the number of records screened and included (e.g., 'After examining 241 full- text reports, 9 studies... were subsequently included' in text_18) but does not cite specific studies that appeared eligible yet were excluded, nor does it explain the reasons for their exclusion."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_16b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_17",
+    "item_label": "17",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_18",
+    "item_label": "18",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_19",
+    "item_label": "19",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_19\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_19_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_21\",\n      \"quote\": \"Table 1 presents the characteristics of interventions and findings for all outcomes of importance.\",\n      \"reason\": \"The text references Table 1 as presenting findings, but the actual table content containing summary statistics for each group is not included in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_21\",\n      \"quote\": \"Table 1 presents the characteristics of interventions and findings for all outcomes of importance.\",\n      \"reason\": \"While the text states Table 1 presents findings, the specific effect estimates and their precision (e.g., confidence intervals) for each study are not visible in the provided text evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_21\",\n      \"quote\": \"Table 1 presents the characteristics of interventions and findings for all outcomes of importance.\",\n      \"reason\": \"The text explicitly confirms that a structured table (Table 1) is used to present the findings for all outcomes of importance.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"We extracted data on the following items: sample size; study design; year(s) of data collection; country/region; data source...\",\n      \"reason\": \"Although 'data source' was listed as an extraction item, the specific sources of study-level data used for the results are not explicitly reported in the provided text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_20\",\n      \"quote\": \"In total, outcomes measured and reported in six studies (67%) were re- analysed.\",\n      \"reason\": \"The text explicitly identifies that outcomes in six studies were re-analysed, indicating that some results were computed/estimated rather than directly reported.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_19",
+      "elements": [
+        {
+          "element_id": "prisma_2020_19_e1",
+          "status": "MISSING",
+          "chunk_id": "text_21",
+          "quote": "Table 1 presents the characteristics of interventions and findings for all outcomes of importance.",
+          "reason": "The text references Table 1 as presenting findings, but the actual table content containing summary statistics for each group is not included in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_19_e2",
+          "status": "MISSING",
+          "chunk_id": "text_21",
+          "quote": "Table 1 presents the characteristics of interventions and findings for all outcomes of importance.",
+          "reason": "While the text states Table 1 presents findings, the specific effect estimates and their precision (e.g., confidence intervals) for each study are not visible in the provided text evidence."
+        },
+        {
+          "element_id": "prisma_2020_19_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_21",
+          "quote": "Table 1 presents the characteristics of interventions and findings for all outcomes of importance.",
+          "reason": "The text explicitly confirms that a structured table (Table 1) is used to present the findings for all outcomes of importance."
+        },
+        {
+          "element_id": "prisma_2020_19_e4",
+          "status": "MISSING",
+          "chunk_id": "text_13",
+          "quote": "We extracted data on the following items: sample size; study design; year(s) of data collection; country/region; data source...",
+          "reason": "Although 'data source' was listed as an extraction item, the specific sources of study-level data used for the results are not explicitly reported in the provided text."
+        },
+        {
+          "element_id": "prisma_2020_19_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_20",
+          "quote": "In total, outcomes measured and reported in six studies (67%) were re- analysed.",
+          "reason": "The text explicitly identifies that outcomes in six studies were re-analysed, indicating that some results were computed/estimated rather than directly reported."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_19_e1",
+        "prisma_2020_19_e2",
+        "prisma_2020_19_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20a",
+    "item_label": "20a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_27\",\n      \"quote\": \"The risk of bias was moderate for results on outcomes for two studies and serious for seven studies (see online supplemental material 6). Across all outcomes examined in the studies, the risk of bias pertaining to the selection of both exposed and non- exposed populations, as well as classification of intervention, deviation from intended intervention, missing data and measurement of outcomes was determined to be low.\",\n      \"reason\": \"Risk of bias is explicitly summarized for the contributing studies in text_27. Relevant characteristics are presented in Table 1 (text_30) which lists study design, country, and intervention for the outcomes of importance.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20a_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_21\",\n      \"quote\": \"We chose the following five outcomes, measured and reported in six studies, 35-37 40-42 as outcomes of importance for assessing the effect of minimum volume standards interventions in hospitals.\",\n      \"reason\": \"The studies contributing to the synthesis are identified by citation numbers (35-37, 40-42) in text_21 and detailed in Table 1 (text_30) with author names and study designs.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_27",
+          "quote": "The risk of bias was moderate for results on outcomes for two studies and serious for seven studies (see online supplemental material 6). Across all outcomes examined in the studies, the risk of bias pertaining to the selection of both exposed and non- exposed populations, as well as classification of intervention, deviation from intended intervention, missing data and measurement of outcomes was determined to be low.",
+          "reason": "Risk of bias is explicitly summarized for the contributing studies in text_27. Relevant characteristics are presented in Table 1 (text_30) which lists study design, country, and intervention for the outcomes of importance."
+        },
+        {
+          "element_id": "prisma_2020_20a_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_21",
+          "quote": "We chose the following five outcomes, measured and reported in six studies, 35-37 40-42 as outcomes of importance for assessing the effect of minimum volume standards interventions in hospitals.",
+          "reason": "The studies contributing to the synthesis are identified by citation numbers (35-37, 40-42) in text_21 and detailed in Table 1 (text_30) with author names and study designs."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20b",
+    "item_label": "20b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20c",
+    "item_label": "20c",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20c_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_29\",\n      \"quote\": \"it is important to note that this effect is statistically significant only in subgroup analyses for endovascular aortic repair 42 and lung cancer surgery for patients aged 70+ years.\",\n      \"reason\": \"The manuscript reports that statistical significance was found 'only' in specific subgroups, implying non-significant results from other investigations were not reported, violating the requirement to report results regardless of significance.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_29\",\n      \"quote\": \"subgroup analyses for endovascular aortic repair 42 and lung cancer surgery for patients aged 70+ years. 35\",\n      \"reason\": \"References (42 and 35) are provided to identify the studies contributing to the specified subgroup analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e3\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_29\",\n      \"quote\": \"Seven studies were identified as probably having a serious risk of bias mostly due to potential confounding and the selection of reported results.\",\n      \"reason\": \"Confounding is discussed in the context of risk of bias, but the text does not explicitly link this interpretation to the results of the heterogeneity investigations (subgroup analyses).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_29\",\n      \"quote\": null,\n      \"reason\": \"No interaction-test P values, subgroup estimates, precision, or heterogeneity statistics are reported in the provided text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_29\",\n      \"quote\": null,\n      \"reason\": \"The difference between subgroup effects and its precision are not reported in the provided text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_29\",\n      \"quote\": \"we conducted structured syntheses without meta- analyses.\",\n      \"reason\": \"The manuscript explicitly states that meta-analyses were not conducted, making meta-regression analyses not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_29\",\n      \"quote\": \"we conducted structured syntheses without meta- analyses.\",\n      \"reason\": \"Since no meta-regression was performed, scatterplots for meta-regression are not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e8\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_29\",\n      \"quote\": \"Notably, volumeoutcome studies employ varying thresholds, a critical aspect contributing to the observed outcome in our review.\",\n      \"reason\": \"The manuscript describes informal investigations into heterogeneity, noting that varying thresholds and country differences contribute to the observed outcomes.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20c_e1",
+          "status": "MISSING",
+          "chunk_id": "text_29",
+          "quote": "it is important to note that this effect is statistically significant only in subgroup analyses for endovascular aortic repair 42 and lung cancer surgery for patients aged 70+ years.",
+          "reason": "The manuscript reports that statistical significance was found 'only' in specific subgroups, implying non-significant results from other investigations were not reported, violating the requirement to report results regardless of significance."
+        },
+        {
+          "element_id": "prisma_2020_20c_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_29",
+          "quote": "subgroup analyses for endovascular aortic repair 42 and lung cancer surgery for patients aged 70+ years. 35",
+          "reason": "References (42 and 35) are provided to identify the studies contributing to the specified subgroup analyses."
+        },
+        {
+          "element_id": "prisma_2020_20c_e3",
+          "status": "PARTIAL",
+          "chunk_id": "text_29",
+          "quote": "Seven studies were identified as probably having a serious risk of bias mostly due to potential confounding and the selection of reported results.",
+          "reason": "Confounding is discussed in the context of risk of bias, but the text does not explicitly link this interpretation to the results of the heterogeneity investigations (subgroup analyses)."
+        },
+        {
+          "element_id": "prisma_2020_20c_e4",
+          "status": "MISSING",
+          "chunk_id": "text_29",
+          "quote": null,
+          "reason": "No interaction-test P values, subgroup estimates, precision, or heterogeneity statistics are reported in the provided text."
+        },
+        {
+          "element_id": "prisma_2020_20c_e5",
+          "status": "MISSING",
+          "chunk_id": "text_29",
+          "quote": null,
+          "reason": "The difference between subgroup effects and its precision are not reported in the provided text."
+        },
+        {
+          "element_id": "prisma_2020_20c_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_29",
+          "quote": "we conducted structured syntheses without meta- analyses.",
+          "reason": "The manuscript explicitly states that meta-analyses were not conducted, making meta-regression analyses not applicable."
+        },
+        {
+          "element_id": "prisma_2020_20c_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_29",
+          "quote": "we conducted structured syntheses without meta- analyses.",
+          "reason": "Since no meta-regression was performed, scatterplots for meta-regression are not applicable."
+        },
+        {
+          "element_id": "prisma_2020_20c_e8",
+          "status": "PRESENT",
+          "chunk_id": "text_29",
+          "quote": "Notably, volumeoutcome studies employ varying thresholds, a critical aspect contributing to the observed outcome in our review.",
+          "reason": "The manuscript describes informal investigations into heterogeneity, noting that varying thresholds and country differences contribute to the observed outcomes."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_20c_e1",
+        "prisma_2020_20c_e3",
+        "prisma_2020_20c_e4",
+        "prisma_2020_20c_e5"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20d",
+    "item_label": "20d",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_21",
+    "item_label": "21",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_22",
+    "item_label": "22",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23a",
+    "item_label": "23a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_29\",\n      \"quote\": \"Overall, considering the evidence for the volume- outcome relationship in hospitals, 44 45 the lack of findings in our systematic review with respect to complication and mortality rates is noteworthy.\",\n      \"reason\": \"The Discussion section explicitly interprets the review's findings by contextualizing them against existing evidence regarding the volume-outcome relationship and noting alignment with another systematic review.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_29",
+          "quote": "Overall, considering the evidence for the volume- outcome relationship in hospitals, 44 45 the lack of findings in our systematic review with respect to complication and mortality rates is noteworthy.",
+          "reason": "The Discussion section explicitly interprets the review's findings by contextualizing them against existing evidence regarding the volume-outcome relationship and noting alignment with another systematic review."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23b",
+    "item_label": "23b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23c",
+    "item_label": "23c",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_30\",\n      \"quote\": \"While this systematic review was conducted with care, it is not without limitations. ... The results are based on a relatively small number of studies for most outcomes. This is mostly due to our restriction to only include studies with a robust study design (eg, CBA or ITS studies). ... there is still a potential for publication bias.\",\n      \"reason\": \"The manuscript explicitly identifies limitations of the review process, including restrictions on study design leading to a small number of studies and potential publication bias despite search efforts.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_30\",\n      \"quote\": \"The certainty of evidence is very low for mortality (in- hospital; 30 days) and low for complications, reoperations, length of stay and travel distance. ... Thus, reported outcomes should be interpreted with caution.\",\n      \"reason\": \"The text discusses the impact of the identified limitations by stating the certainty of evidence levels and advising that outcomes should be interpreted with caution due to potential publication bias and risk of bias.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_30",
+          "quote": "While this systematic review was conducted with care, it is not without limitations. ... The results are based on a relatively small number of studies for most outcomes. This is mostly due to our restriction to only include studies with a robust study design (eg, CBA or ITS studies). ... there is still a potential for publication bias.",
+          "reason": "The manuscript explicitly identifies limitations of the review process, including restrictions on study design leading to a small number of studies and potential publication bias despite search efforts."
+        },
+        {
+          "element_id": "prisma_2020_23c_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_30",
+          "quote": "The certainty of evidence is very low for mortality (in- hospital; 30 days) and low for complications, reoperations, length of stay and travel distance. ... Thus, reported outcomes should be interpreted with caution.",
+          "reason": "The text discusses the impact of the identified limitations by stating the certainty of evidence levels and advising that outcomes should be interpreted with caution due to potential publication bias and risk of bias."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23d",
+    "item_label": "23d",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24a",
+    "item_label": "24a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"A priori, the systematic review was registered in the Prospective Register of Systematic Reviews (PROSPERO registration number CRD42022318883) and a protocol was published.\",\n      \"reason\": \"The text explicitly reports the register name (Prospective Register of Systematic Reviews/PROSPERO) and the registration number (CRD42022318883).\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "A priori, the systematic review was registered in the Prospective Register of Systematic Reviews (PROSPERO registration number CRD42022318883) and a protocol was published.",
+          "reason": "The text explicitly reports the register name (Prospective Register of Systematic Reviews/PROSPERO) and the registration number (CRD42022318883)."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24b",
+    "item_label": "24b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "\n\n{\n  \"item_id\": \"PRISMA_2020_24b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"A priori, the systematic review was registered in the Prospective Register of Systematic Reviews (PROSPERO registration number CRD42022318883) and a protocol was published. 22\",\n      \"reason\": \"The authors explicitly state the PROSPERO registration number and confirm that a protocol was published, indicating where the protocol can be accessed.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "A priori, the systematic review was registered in the Prospective Register of Systematic Reviews (PROSPERO registration number CRD42022318883) and a protocol was published. 22",
+          "reason": "The authors explicitly state the PROSPERO registration number and confirm that a protocol was published, indicating where the protocol can be accessed."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24c",
+    "item_label": "24c",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"As an amendment to the published protocol, we also accepted policies which combined minimum volume standards with certain co- interventions, that is, training of medical staff.\",\n      \"reason\": \"The text explicitly describes an amendment made to the published protocol regarding the inclusion of policies with co-interventions.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The text describes the amendment but does not state the reason or rationale for making this change.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The text does not specify the stage of the review at which the amendment was implemented.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "As an amendment to the published protocol, we also accepted policies which combined minimum volume standards with certain co- interventions, that is, training of medical staff.",
+          "reason": "The text explicitly describes an amendment made to the published protocol regarding the inclusion of policies with co-interventions."
+        },
+        {
+          "element_id": "prisma_2020_24c_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The text describes the amendment but does not state the reason or rationale for making this change."
+        },
+        {
+          "element_id": "prisma_2020_24c_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The text does not specify the stage of the review at which the amendment was implemented."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_24c_e2",
+        "prisma_2020_24c_e3"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_25",
+    "item_label": "25",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "\n\n{\n  \"item_id\": \"PRISMA_2020_25\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_25_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_31\",\n      \"quote\": \"Funding This work was supported by the German Federal Ministry of Education and Research (Grant: 01KG2107). The publication was funded by the Brandenburg Medical School publication fund supported by the Ministry of Science, Research and Cultural Affairs of the State of Brandenburg.\",\n      \"reason\": \"The text explicitly describes financial support sources and includes the specific grant identifier (01KG2107).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_25_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_31\",\n      \"quote\": \"The German Federal Ministry of Education and Research did not take part in developing this study.\",\n      \"reason\": \"The text explicitly describes the role of the funder, stating they did not take part in developing the study.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_25",
+      "elements": [
+        {
+          "element_id": "prisma_2020_25_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_31",
+          "quote": "Funding This work was supported by the German Federal Ministry of Education and Research (Grant: 01KG2107). The publication was funded by the Brandenburg Medical School publication fund supported by the Ministry of Science, Research and Cultural Affairs of the State of Brandenburg.",
+          "reason": "The text explicitly describes financial support sources and includes the specific grant identifier (01KG2107)."
+        },
+        {
+          "element_id": "prisma_2020_25_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_31",
+          "quote": "The German Federal Ministry of Education and Research did not take part in developing this study.",
+          "reason": "The text explicitly describes the role of the funder, stating they did not take part in developing the study."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_26",
+    "item_label": "26",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_26\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_26_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_31\",\n      \"quote\": \"Competing interests None declared.\",\n      \"reason\": \"The document explicitly states that no competing interests were declared, fulfilling the requirement to disclose relevant relationships or activities.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_26_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_31\",\n      \"quote\": \"Competing interests None declared.\",\n      \"reason\": \"As no competing interests were declared, the condition for reporting how they were managed does not apply to this manuscript.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_26",
+      "elements": [
+        {
+          "element_id": "prisma_2020_26_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_31",
+          "quote": "Competing interests None declared.",
+          "reason": "The document explicitly states that no competing interests were declared, fulfilling the requirement to disclose relevant relationships or activities."
+        },
+        {
+          "element_id": "prisma_2020_26_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_31",
+          "quote": "Competing interests None declared.",
+          "reason": "As no competing interests were declared, the condition for reporting how they were managed does not apply to this manuscript."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_27",
+    "item_label": "27",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  }
+]

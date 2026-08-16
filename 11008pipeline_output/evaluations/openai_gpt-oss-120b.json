@@ -1,0 +1,2317 @@
+[
+  {
+    "item_id": "PRISMA_2020_1",
+    "item_label": "1",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_1\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_1_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of the article title is present in the retrieved chunks; therefore it cannot be confirmed that the title identifies the report as a systematic review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The retrieved text does not contain the manuscript title, so it is not possible to verify that the title provides key information about the population, intervention, or review question.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No title is available in the evidence; thus it cannot be determined whether the title includes supplementary details such as analysis method, study designs, update status, or living‑review status.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_1",
+      "elements": [
+        {
+          "element_id": "prisma_2020_1_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of the article title is present in the retrieved chunks; therefore it cannot be confirmed that the title identifies the report as a systematic review."
+        },
+        {
+          "element_id": "prisma_2020_1_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The retrieved text does not contain the manuscript title, so it is not possible to verify that the title provides key information about the population, intervention, or review question."
+        },
+        {
+          "element_id": "prisma_2020_1_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No title is available in the evidence; thus it cannot be determined whether the title includes supplementary details such as analysis method, study designs, update status, or living‑review status."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_1_e1",
+        "prisma_2020_1_e2",
+        "prisma_2020_1_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_2",
+    "item_label": "2",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_2\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_2_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"DESIGN Living systematic review and meta- analysis of observational studies.\",\n      \"reason\": \"The abstract explicitly labels the report as a \\\"Living systematic review\\\", satisfying the requirement to identify the report as a systematic review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"OBJECTIVE To summarise available evidence regarding the performance metrics of validated prognostic models on cardiovascular and kidney outcomes in adults with type 2 diabetes mellitus.\",\n      \"reason\": \"The abstract provides a clear statement of the main objective/review question.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"RESULTS 6529 publications were identified, of which 35 studies reporting on 13 models were included, all of which were developed for general populations with type 2 diabetes but no established cardiovascular disease or chronic kidney disease.\",\n      \"reason\": \"The abstract specifies the main inclusion criterion (studies of general type‑2‑diabetes populations without established CVD/CKD) and implicitly the exclusion of studies with established disease.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"DATA SOURCES Medline, Embase, Central, and the Cochrane Database of Systematic Reviews from 1 January 2020 to 17 January 2024.\",\n      \"reason\": \"The abstract lists the information sources and the date range of the last search for each source.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No mention of the methods used to assess risk of bias is found in the abstract.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"DESIGN Living systematic review and meta- analysis of observational studies.\",\n      \"reason\": \"The abstract states that a meta‑analysis of observational studies was performed, indicating the method used to synthesize results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e7\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"6529 publications were identified, of which 35 studies reporting on 13 models were included...\",\n      \"reason\": \"The abstract reports the total number of included studies (35) and models, but does not provide the total number of participants.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e8\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"Relative to a threshold c statistic of 0.7, RECODe had an acceptable discrimination for cardiovascular mortality (0.79, high certainty), ... UKPDS‑OM2 showed acceptable calibration for cardiovascular mortality (moderate certainty)...\",\n      \"reason\": \"The abstract presents results for the main outcomes (discrimination and calibration metrics) for each model.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e9\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Although a meta‑analysis was performed, the abstract does not provide summary estimates with confidence or credible intervals.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not compare groups; therefore the conditional requirement does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e11\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No brief summary of important limitations of the included evidence is present in the abstract.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e12\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract lacks a general interpretation of the results and their implications.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e13\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Funding information is not reported in the abstract.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e14\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not provide a registration name or number.\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_2",
+      "elements": [
+        {
+          "element_id": "prisma_2020_2_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "DESIGN Living systematic review and meta- analysis of observational studies.",
+          "reason": "The abstract explicitly labels the report as a \"Living systematic review\", satisfying the requirement to identify the report as a systematic review."
+        },
+        {
+          "element_id": "prisma_2020_2_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "OBJECTIVE To summarise available evidence regarding the performance metrics of validated prognostic models on cardiovascular and kidney outcomes in adults with type 2 diabetes mellitus.",
+          "reason": "The abstract provides a clear statement of the main objective/review question."
+        },
+        {
+          "element_id": "prisma_2020_2_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "RESULTS 6529 publications were identified, of which 35 studies reporting on 13 models were included, all of which were developed for general populations with type 2 diabetes but no established cardiovascular disease or chronic kidney disease.",
+          "reason": "The abstract specifies the main inclusion criterion (studies of general type‑2‑diabetes populations without established CVD/CKD) and implicitly the exclusion of studies with established disease."
+        },
+        {
+          "element_id": "prisma_2020_2_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "DATA SOURCES Medline, Embase, Central, and the Cochrane Database of Systematic Reviews from 1 January 2020 to 17 January 2024.",
+          "reason": "The abstract lists the information sources and the date range of the last search for each source."
+        },
+        {
+          "element_id": "prisma_2020_2_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No mention of the methods used to assess risk of bias is found in the abstract."
+        },
+        {
+          "element_id": "prisma_2020_2_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "DESIGN Living systematic review and meta- analysis of observational studies.",
+          "reason": "The abstract states that a meta‑analysis of observational studies was performed, indicating the method used to synthesize results."
+        },
+        {
+          "element_id": "prisma_2020_2_e7",
+          "status": "PARTIAL",
+          "chunk_id": "text_1",
+          "quote": "6529 publications were identified, of which 35 studies reporting on 13 models were included...",
+          "reason": "The abstract reports the total number of included studies (35) and models, but does not provide the total number of participants."
+        },
+        {
+          "element_id": "prisma_2020_2_e8",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "Relative to a threshold c statistic of 0.7, RECODe had an acceptable discrimination for cardiovascular mortality (0.79, high certainty), ... UKPDS‑OM2 showed acceptable calibration for cardiovascular mortality (moderate certainty)...",
+          "reason": "The abstract presents results for the main outcomes (discrimination and calibration metrics) for each model."
+        },
+        {
+          "element_id": "prisma_2020_2_e9",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Although a meta‑analysis was performed, the abstract does not provide summary estimates with confidence or credible intervals."
+        },
+        {
+          "element_id": "prisma_2020_2_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not compare groups; therefore the conditional requirement does not apply."
+        },
+        {
+          "element_id": "prisma_2020_2_e11",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No brief summary of important limitations of the included evidence is present in the abstract."
+        },
+        {
+          "element_id": "prisma_2020_2_e12",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract lacks a general interpretation of the results and their implications."
+        },
+        {
+          "element_id": "prisma_2020_2_e13",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Funding information is not reported in the abstract."
+        },
+        {
+          "element_id": "prisma_2020_2_e14",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not provide a registration name or number."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_2_e5",
+        "prisma_2020_2_e7",
+        "prisma_2020_2_e9",
+        "prisma_2020_2_e11",
+        "prisma_2020_2_e12",
+        "prisma_2020_2_e13",
+        "prisma_2020_2_e14"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_3",
+    "item_label": "3",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_3\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_3_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Type 2 diabetes mellitus affects approximately 537 million adults worldwide... However, substantial variation exists in prognoses across patients living with type 2 diabetes mellitus; factors such as age, sex, glycaemic control, obesity, and pre‑existing cardiovascular and kidney diseases affect an individuals' risk of future cardiovascular and kidney outcomes. ... These models show great promise... However, these prognostic models need to yield valid and reliable risk estimates to inform decision making.\",\n      \"reason\": \"The introduction describes the current state of knowledge (prevalence, burden, existing prognostic models) and highlights important uncertainties (variation in risk, need for valid and reliable estimates).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Therefore, to inform the living guideline—as well as other guidelines—on drugs for type 2 diabetes mellitus, we conducted this living systematic review and meta‑analysis to identify, critically appraise, and summarise the available evidence regarding the performance of validated prognostic models on cardiovascular and kidney outcomes in people with type 2 diabetes mellitus (box 1).\",\n      \"reason\": \"The passage explains why the review is needed: to inform guideline development and to summarise evidence on prognostic model performance.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No statement is found that acknowledges existing systematic reviews on the same topic, nor does the manuscript cite or justify the need for an update or replication of a prior review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review concerns prognostic models (observational studies), not the effects of an intervention; therefore a mechanism of action description is not relevant.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review does not evaluate a complex intervention or delivery context, so a logic model is not applicable.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_3",
+      "elements": [
+        {
+          "element_id": "prisma_2020_3_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Type 2 diabetes mellitus affects approximately 537 million adults worldwide... However, substantial variation exists in prognoses across patients living with type 2 diabetes mellitus; factors such as age, sex, glycaemic control, obesity, and pre‑existing cardiovascular and kidney diseases affect an individuals' risk of future cardiovascular and kidney outcomes. ... These models show great promise... However, these prognostic models need to yield valid and reliable risk estimates to inform decision making.",
+          "reason": "The introduction describes the current state of knowledge (prevalence, burden, existing prognostic models) and highlights important uncertainties (variation in risk, need for valid and reliable estimates)."
+        },
+        {
+          "element_id": "prisma_2020_3_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Therefore, to inform the living guideline—as well as other guidelines—on drugs for type 2 diabetes mellitus, we conducted this living systematic review and meta‑analysis to identify, critically appraise, and summarise the available evidence regarding the performance of validated prognostic models on cardiovascular and kidney outcomes in people with type 2 diabetes mellitus (box 1).",
+          "reason": "The passage explains why the review is needed: to inform guideline development and to summarise evidence on prognostic model performance."
+        },
+        {
+          "element_id": "prisma_2020_3_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No statement is found that acknowledges existing systematic reviews on the same topic, nor does the manuscript cite or justify the need for an update or replication of a prior review."
+        },
+        {
+          "element_id": "prisma_2020_3_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review concerns prognostic models (observational studies), not the effects of an intervention; therefore a mechanism of action description is not relevant."
+        },
+        {
+          "element_id": "prisma_2020_3_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review does not evaluate a complex intervention or delivery context, so a logic model is not applicable."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_3_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_4",
+    "item_label": "4",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_4\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_4_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"OBJECTIVE To summarise available evidence regarding the performance metrics of validated prognostic models on cardiovascular and kidney outcomes in adults with type 2 diabetes mellitus.\",\n      \"reason\": \"The review explicitly states its objective, but the statement is not framed using a recognized question‑formulation framework (e.g., PICO, PICOT).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_4_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review focuses on prognostic model performance rather than intervention effects, so the conditional requirement to state planned comparisons using PICO does not apply.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_4",
+      "elements": [
+        {
+          "element_id": "prisma_2020_4_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_1",
+          "quote": "OBJECTIVE To summarise available evidence regarding the performance metrics of validated prognostic models on cardiovascular and kidney outcomes in adults with type 2 diabetes mellitus.",
+          "reason": "The review explicitly states its objective, but the statement is not framed using a recognized question‑formulation framework (e.g., PICO, PICOT)."
+        },
+        {
+          "element_id": "prisma_2020_4_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review focuses on prognostic model performance rather than intervention effects, so the conditional requirement to state planned comparisons using PICO does not apply."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_4_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_5",
+    "item_label": "5",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_5\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_5_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We included observational studies and post‑hoc analyses of randomised controlled trials that enroled ambulatory adults (≥18 years) with type 2 diabetes mellitus (with or without established cardiovascular disease or chronic kidney disease) and assessed prognostic models with at least two predictors. Specifically, we included validation (internal and external) studies that assessed the performance of models for all cause mortality, cardiovascular mortality, admission to hospital for heart failure, kidney failure, myocardial infarction or stroke, and reported model discrimination or calibration measures.\",\n      \"reason\": \"The eligibility criteria describe study designs, population, setting and outcomes, but do not explicitly state follow‑up duration requirements, so the element is only partially satisfied.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No retrieved passage specifies report‑level eligibility such as publication year, language, or status.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The evidence does not distinguish between studies excluded because outcomes were not measured versus outcomes not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The retrieved text does not specify the groups used in each synthesis nor link them to the review’s predefined comparisons.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We restricted our included studies to those reporting prognostic models validated in three or more cohorts. Studies validating prognostic models used to predict composite outcomes were not eligible for inclusion; for example, studies evaluating the SCORE2‑Diabetes model ... making them ineligible for inclusion.\",\n      \"reason\": \"The passage provides explicit rationales for notable eligibility restrictions (minimum number of cohorts and exclusion of composite‑outcome models).\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_5",
+      "elements": [
+        {
+          "element_id": "prisma_2020_5_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_9",
+          "quote": "We included observational studies and post‑hoc analyses of randomised controlled trials that enroled ambulatory adults (≥18 years) with type 2 diabetes mellitus (with or without established cardiovascular disease or chronic kidney disease) and assessed prognostic models with at least two predictors. Specifically, we included validation (internal and external) studies that assessed the performance of models for all cause mortality, cardiovascular mortality, admission to hospital for heart failure, kidney failure, myocardial infarction or stroke, and reported model discrimination or calibration measures.",
+          "reason": "The eligibility criteria describe study designs, population, setting and outcomes, but do not explicitly state follow‑up duration requirements, so the element is only partially satisfied."
+        },
+        {
+          "element_id": "prisma_2020_5_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No retrieved passage specifies report‑level eligibility such as publication year, language, or status."
+        },
+        {
+          "element_id": "prisma_2020_5_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The evidence does not distinguish between studies excluded because outcomes were not measured versus outcomes not reported."
+        },
+        {
+          "element_id": "prisma_2020_5_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The retrieved text does not specify the groups used in each synthesis nor link them to the review’s predefined comparisons."
+        },
+        {
+          "element_id": "prisma_2020_5_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "We restricted our included studies to those reporting prognostic models validated in three or more cohorts. Studies validating prognostic models used to predict composite outcomes were not eligible for inclusion; for example, studies evaluating the SCORE2‑Diabetes model ... making them ineligible for inclusion.",
+          "reason": "The passage provides explicit rationales for notable eligibility restrictions (minimum number of cohorts and exclusion of composite‑outcome models)."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_5_e1",
+        "prisma_2020_5_e2",
+        "prisma_2020_5_e3",
+        "prisma_2020_5_e4"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_6",
+    "item_label": "6",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_6\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_6_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"this iteration incorporates a search update from 1 January 2020 to 17 January 2024\",\n      \"reason\": \"The passage provides the date range covering the most recent search of the electronic databases, satisfying the requirement to report when each source was last searched.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"Electronic database searches using Medline, Embase, Central, and the Cochrane Database of Systematic Reviews were conducted\",\n      \"reason\": \"Names of the bibliographic databases are reported, but the search interface/platform and coverage dates for each database are not supplied.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No study registers, regulatory databases, or online repositories are mentioned in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No websites, search engines, or other online sources with names or URLs are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not name any organisations or manufacturers contacted to identify studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no description of the types of individuals contacted to identify studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The types of reference lists examined are not specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e8\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No information on backward or forward citation searching (seed reports, citation index, or search date) is provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e9\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report any journals or conference proceedings consulted, nor their coverage dates or search methods.\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_6",
+      "elements": [
+        {
+          "element_id": "prisma_2020_6_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "this iteration incorporates a search update from 1 January 2020 to 17 January 2024",
+          "reason": "The passage provides the date range covering the most recent search of the electronic databases, satisfying the requirement to report when each source was last searched."
+        },
+        {
+          "element_id": "prisma_2020_6_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_9",
+          "quote": "Electronic database searches using Medline, Embase, Central, and the Cochrane Database of Systematic Reviews were conducted",
+          "reason": "Names of the bibliographic databases are reported, but the search interface/platform and coverage dates for each database are not supplied."
+        },
+        {
+          "element_id": "prisma_2020_6_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No study registers, regulatory databases, or online repositories are mentioned in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_6_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No websites, search engines, or other online sources with names or URLs are reported."
+        },
+        {
+          "element_id": "prisma_2020_6_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not name any organisations or manufacturers contacted to identify studies."
+        },
+        {
+          "element_id": "prisma_2020_6_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no description of the types of individuals contacted to identify studies."
+        },
+        {
+          "element_id": "prisma_2020_6_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The types of reference lists examined are not specified."
+        },
+        {
+          "element_id": "prisma_2020_6_e8",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No information on backward or forward citation searching (seed reports, citation index, or search date) is provided."
+        },
+        {
+          "element_id": "prisma_2020_6_e9",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report any journals or conference proceedings consulted, nor their coverage dates or search methods."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_6_e2",
+        "prisma_2020_6_e3",
+        "prisma_2020_6_e4",
+        "prisma_2020_6_e5",
+        "prisma_2020_6_e6",
+        "prisma_2020_6_e7",
+        "prisma_2020_6_e8",
+        "prisma_2020_6_e9"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_7",
+    "item_label": "7",
+    "model": "openai/gpt-oss-120b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_8",
+    "item_label": "8",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_8\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_8_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Pairs of calibrated reviewers (DGR, DS, SD, DG, and JZXC) independently assessed titles and abstracts of identified citations as well as full texts of articles that were deemed potentially eligible using Covidence (Veritas Health Innovation, Melbourne, Australia).\",\n      \"reason\": \"The passage reports that pairs of reviewers (i.e., two reviewers) screened both titles/abstracts and full‑text articles, satisfying the requirement to state the number of reviewers for each screening stage.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Pairs of calibrated reviewers (DGR, DS, SD, DG, and JZXC) independently assessed titles and abstracts of identified citations as well as full texts of articles that were deemed potentially eligible...\",\n      \"reason\": \"The word “independently” explicitly indicates that reviewers worked independently at each screening stage.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Reviewers resolved conflicts through discussion or, if necessary, through adjudication by a third reviewer (FF).\",\n      \"reason\": \"The text describes the process used to resolve disagreements (discussion, then third‑reviewer adjudication).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence is provided that the authors obtained or confirmed eligibility information directly from study investigators.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report any methods for translating abstracts or full‑text articles for eligibility assessment.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e6\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Pairs of calibrated reviewers ... assessed ... using Covidence (Veritas Health Innovation, Melbourne, Australia).\",\n      \"reason\": \"A software tool (Covidence) used for screening is mentioned, but the description does not detail how any automation features of the tool were integrated into the selection process.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No externally derived classifiers, their versions, or pre‑screening record removal are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e8\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript provides no information on internally derived classifiers, their training, or validation.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e9\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of machine‑learning prioritisation tools or stopping rules.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e10\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Crowdsourcing platforms are not described in the provided evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e11\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not describe the use of previously screened datasets to eliminate records.\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_8",
+      "elements": [
+        {
+          "element_id": "prisma_2020_8_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Pairs of calibrated reviewers (DGR, DS, SD, DG, and JZXC) independently assessed titles and abstracts of identified citations as well as full texts of articles that were deemed potentially eligible using Covidence (Veritas Health Innovation, Melbourne, Australia).",
+          "reason": "The passage reports that pairs of reviewers (i.e., two reviewers) screened both titles/abstracts and full‑text articles, satisfying the requirement to state the number of reviewers for each screening stage."
+        },
+        {
+          "element_id": "prisma_2020_8_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Pairs of calibrated reviewers (DGR, DS, SD, DG, and JZXC) independently assessed titles and abstracts of identified citations as well as full texts of articles that were deemed potentially eligible...",
+          "reason": "The word “independently” explicitly indicates that reviewers worked independently at each screening stage."
+        },
+        {
+          "element_id": "prisma_2020_8_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Reviewers resolved conflicts through discussion or, if necessary, through adjudication by a third reviewer (FF).",
+          "reason": "The text describes the process used to resolve disagreements (discussion, then third‑reviewer adjudication)."
+        },
+        {
+          "element_id": "prisma_2020_8_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence is provided that the authors obtained or confirmed eligibility information directly from study investigators."
+        },
+        {
+          "element_id": "prisma_2020_8_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report any methods for translating abstracts or full‑text articles for eligibility assessment."
+        },
+        {
+          "element_id": "prisma_2020_8_e6",
+          "status": "PARTIAL",
+          "chunk_id": "text_12",
+          "quote": "Pairs of calibrated reviewers ... assessed ... using Covidence (Veritas Health Innovation, Melbourne, Australia).",
+          "reason": "A software tool (Covidence) used for screening is mentioned, but the description does not detail how any automation features of the tool were integrated into the selection process."
+        },
+        {
+          "element_id": "prisma_2020_8_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No externally derived classifiers, their versions, or pre‑screening record removal are reported."
+        },
+        {
+          "element_id": "prisma_2020_8_e8",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript provides no information on internally derived classifiers, their training, or validation."
+        },
+        {
+          "element_id": "prisma_2020_8_e9",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of machine‑learning prioritisation tools or stopping rules."
+        },
+        {
+          "element_id": "prisma_2020_8_e10",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Crowdsourcing platforms are not described in the provided evidence."
+        },
+        {
+          "element_id": "prisma_2020_8_e11",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not describe the use of previously screened datasets to eliminate records."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_8_e4",
+        "prisma_2020_8_e5",
+        "prisma_2020_8_e6",
+        "prisma_2020_8_e7",
+        "prisma_2020_8_e8",
+        "prisma_2020_8_e9",
+        "prisma_2020_8_e10",
+        "prisma_2020_8_e11"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_9",
+    "item_label": "9",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_9\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_9_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Pairs of reviewers (DGR, DS, SD, DG, and JZXC) independently extracted data using prepiloted, structured Excel forms.\",\n      \"reason\": \"The text explicitly states that data were extracted by pairs of reviewers, indicating the number of reviewers per report.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Pairs of reviewers (DGR, DS, SD, DG, and JZXC) independently extracted data using prepiloted, structured Excel forms.\",\n      \"reason\": \"The phrase “independently extracted data” confirms that multiple data collectors worked independently.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Reviewers resolved conflicts through discussion or, if necessary, through adjudication by a third reviewer (FF).\",\n      \"reason\": \"The passage describes a clear process for resolving disagreements between data collectors.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence is provided that the authors obtained or confirmed data from study investigators.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e5\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"When studies do not report relevant data in corresponding tabular or narrative formats, we use WebPlotDigitizer v4.7 (Pacifica, CA, USA) to extract values from figures and graphs.\",\n      \"reason\": \"An automation tool (WebPlotDigitizer) is mentioned, but details on training, validation, or broader automation workflow are absent.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript provides no information on methods used to translate articles.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e7\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"When studies do not report relevant data in corresponding tabular or narrative formats, we use WebPlotDigitizer v4.7 (Pacifica, CA, USA) to extract values from figures and graphs.\",\n      \"reason\": \"The specific software (WebPlotDigitizer v4.7) used to extract data from figures is identified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e8\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"If one or more publications reported on the validation of the same model using the same cohort, we included the publication with the largest analytical sample size.\",\n      \"reason\": \"A decision rule for selecting among multiple reports and handling inconsistencies is clearly described.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_9",
+      "elements": [
+        {
+          "element_id": "prisma_2020_9_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Pairs of reviewers (DGR, DS, SD, DG, and JZXC) independently extracted data using prepiloted, structured Excel forms.",
+          "reason": "The text explicitly states that data were extracted by pairs of reviewers, indicating the number of reviewers per report."
+        },
+        {
+          "element_id": "prisma_2020_9_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Pairs of reviewers (DGR, DS, SD, DG, and JZXC) independently extracted data using prepiloted, structured Excel forms.",
+          "reason": "The phrase “independently extracted data” confirms that multiple data collectors worked independently."
+        },
+        {
+          "element_id": "prisma_2020_9_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Reviewers resolved conflicts through discussion or, if necessary, through adjudication by a third reviewer (FF).",
+          "reason": "The passage describes a clear process for resolving disagreements between data collectors."
+        },
+        {
+          "element_id": "prisma_2020_9_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence is provided that the authors obtained or confirmed data from study investigators."
+        },
+        {
+          "element_id": "prisma_2020_9_e5",
+          "status": "PARTIAL",
+          "chunk_id": "text_12",
+          "quote": "When studies do not report relevant data in corresponding tabular or narrative formats, we use WebPlotDigitizer v4.7 (Pacifica, CA, USA) to extract values from figures and graphs.",
+          "reason": "An automation tool (WebPlotDigitizer) is mentioned, but details on training, validation, or broader automation workflow are absent."
+        },
+        {
+          "element_id": "prisma_2020_9_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript provides no information on methods used to translate articles."
+        },
+        {
+          "element_id": "prisma_2020_9_e7",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "When studies do not report relevant data in corresponding tabular or narrative formats, we use WebPlotDigitizer v4.7 (Pacifica, CA, USA) to extract values from figures and graphs.",
+          "reason": "The specific software (WebPlotDigitizer v4.7) used to extract data from figures is identified."
+        },
+        {
+          "element_id": "prisma_2020_9_e8",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "If one or more publications reported on the validation of the same model using the same cohort, we included the publication with the largest analytical sample size.",
+          "reason": "A decision rule for selecting among multiple reports and handling inconsistencies is clearly described."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_9_e4",
+        "prisma_2020_9_e5",
+        "prisma_2020_9_e6"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10a",
+    "item_label": "10a",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_10a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_10a_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"STUDIES Studies validating prognostic models that predicted all cause and cardiovascular mortality, admission to hospital for heart failure, kidney failure, myocardial infarction, or ischaemic stroke in adults with type 2 diabetes mellitus...\",\n      \"reason\": \"The manuscript lists the outcome domains (all‑cause mortality, cardiovascular mortality, heart‑failure admission, kidney failure, myocardial infarction, ischemic stroke) but does not provide explicit definitions for each domain.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No time frame (e.g., follow‑up period) for any of the listed outcome domains is reported in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not state whether all compatible results within each outcome domain were sought.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Because the manuscript does not indicate that only a subset of compatible results were sought, the required description of the selection process is absent.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No changes to outcome‑domain inclusion, definitions, or importance (with rationales) are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No changes to the processes for selecting results within eligible outcome domains (with rationales) are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not identify which outcomes were considered most important for interpreting conclusions nor provide a rationale for their prioritisation.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_10a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_10a_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_2",
+          "quote": "STUDIES Studies validating prognostic models that predicted all cause and cardiovascular mortality, admission to hospital for heart failure, kidney failure, myocardial infarction, or ischaemic stroke in adults with type 2 diabetes mellitus...",
+          "reason": "The manuscript lists the outcome domains (all‑cause mortality, cardiovascular mortality, heart‑failure admission, kidney failure, myocardial infarction, ischemic stroke) but does not provide explicit definitions for each domain."
+        },
+        {
+          "element_id": "prisma_2020_10a_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No time frame (e.g., follow‑up period) for any of the listed outcome domains is reported in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_10a_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not state whether all compatible results within each outcome domain were sought."
+        },
+        {
+          "element_id": "prisma_2020_10a_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Because the manuscript does not indicate that only a subset of compatible results were sought, the required description of the selection process is absent."
+        },
+        {
+          "element_id": "prisma_2020_10a_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No changes to outcome‑domain inclusion, definitions, or importance (with rationales) are reported."
+        },
+        {
+          "element_id": "prisma_2020_10a_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No changes to the processes for selecting results within eligible outcome domains (with rationales) are reported."
+        },
+        {
+          "element_id": "prisma_2020_10a_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not identify which outcomes were considered most important for interpreting conclusions nor provide a rationale for their prioritisation."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_10a_e1",
+        "prisma_2020_10a_e2",
+        "prisma_2020_10a_e3",
+        "prisma_2020_10a_e4",
+        "prisma_2020_10a_e5",
+        "prisma_2020_10a_e6",
+        "prisma_2020_10a_e7"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10b",
+    "item_label": "10b",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_10b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_10b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Reviewers collected information related to the data source, time frame of recruitment, duration of patient follow‑up, characteristics of the validation cohorts (eg, age, sex, body mass index, comorbidities, laboratory values, etc), details of the prognostic model assessed (eg, predictors included, and definition and measurement of the outcome) and measures of model performance (model discrimination ...)\",\n      \"reason\": \"The passage explicitly lists the additional variables (e.g., cohort characteristics, predictor details, outcome definitions) that were sought, fulfilling the requirement to list and define all other data items.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"When studies do not report relevant data in corresponding tabular or narrative formats, we use WebPlotDigitizer v4.7 (Pacifica, CA, USA) to extract values from figures and graphs.\",\n      \"reason\": \"The authors describe how they handle missing or unclear information by extracting values from figures using a specific software, thereby stating an assumption about unavailable data.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Although the methods mention using pre‑piloted Excel forms for data extraction, no citation or reference to a specific tool or guideline for determining which data items to collect is provided.\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_10b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_10b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Reviewers collected information related to the data source, time frame of recruitment, duration of patient follow‑up, characteristics of the validation cohorts (eg, age, sex, body mass index, comorbidities, laboratory values, etc), details of the prognostic model assessed (eg, predictors included, and definition and measurement of the outcome) and measures of model performance (model discrimination ...)",
+          "reason": "The passage explicitly lists the additional variables (e.g., cohort characteristics, predictor details, outcome definitions) that were sought, fulfilling the requirement to list and define all other data items."
+        },
+        {
+          "element_id": "prisma_2020_10b_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "When studies do not report relevant data in corresponding tabular or narrative formats, we use WebPlotDigitizer v4.7 (Pacifica, CA, USA) to extract values from figures and graphs.",
+          "reason": "The authors describe how they handle missing or unclear information by extracting values from figures using a specific software, thereby stating an assumption about unavailable data."
+        },
+        {
+          "element_id": "prisma_2020_10b_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Although the methods mention using pre‑piloted Excel forms for data extraction, no citation or reference to a specific tool or guideline for determining which data items to collect is provided."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_10b_e3"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_11",
+    "item_label": "11",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_11\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_11_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Prediction Model Risk of Bias Assessment Tool (PROBAST)\",\n      \"reason\": \"The specific tool (PROBAST) is named, but no version number or citation is provided, so the requirement is only partially met.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"PROBAST considers four domains: participants, predictors, outcomes, and analysis.\",\n      \"reason\": \"The domains assessed by the PROBAST tool are explicitly listed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"We categorised a study as having an overall high risk of bias if reviewers judged one or more domains to be at high risk of bias, or two or more to be at an unclear risk of bias, otherwise, the study was classified as having a low risk of bias.\",\n      \"reason\": \"An overall risk‑of‑bias judgement is described together with the rules used to derive it.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No description of any adaptations to the PROBAST tool is provided in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review used an existing tool (PROBAST); there is no indication that a newly developed risk‑of‑bias tool was created.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Pairs of reviewers (DGR, DS, SD, DG, and JZXC) independently used ... Disagreements were resolved through discussion between reviewers or, if necessary, adjudication by a third reviewer (FF).\",\n      \"reason\": \"The number of reviewers, their independent assessment, and the procedure for resolving disagreements are clearly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No information is given about contacting study investigators to obtain or confirm risk‑of‑bias information.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The evidence does not mention any automation tools for risk‑of‑bias assessment, indicating that none were used.\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_11",
+      "elements": [
+        {
+          "element_id": "prisma_2020_11_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_10",
+          "quote": "Prediction Model Risk of Bias Assessment Tool (PROBAST)",
+          "reason": "The specific tool (PROBAST) is named, but no version number or citation is provided, so the requirement is only partially met."
+        },
+        {
+          "element_id": "prisma_2020_11_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "PROBAST considers four domains: participants, predictors, outcomes, and analysis.",
+          "reason": "The domains assessed by the PROBAST tool are explicitly listed."
+        },
+        {
+          "element_id": "prisma_2020_11_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "We categorised a study as having an overall high risk of bias if reviewers judged one or more domains to be at high risk of bias, or two or more to be at an unclear risk of bias, otherwise, the study was classified as having a low risk of bias.",
+          "reason": "An overall risk‑of‑bias judgement is described together with the rules used to derive it."
+        },
+        {
+          "element_id": "prisma_2020_11_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No description of any adaptations to the PROBAST tool is provided in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_11_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review used an existing tool (PROBAST); there is no indication that a newly developed risk‑of‑bias tool was created."
+        },
+        {
+          "element_id": "prisma_2020_11_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Pairs of reviewers (DGR, DS, SD, DG, and JZXC) independently used ... Disagreements were resolved through discussion between reviewers or, if necessary, adjudication by a third reviewer (FF).",
+          "reason": "The number of reviewers, their independent assessment, and the procedure for resolving disagreements are clearly reported."
+        },
+        {
+          "element_id": "prisma_2020_11_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No information is given about contacting study investigators to obtain or confirm risk‑of‑bias information."
+        },
+        {
+          "element_id": "prisma_2020_11_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The evidence does not mention any automation tools for risk‑of‑bias assessment, indicating that none were used."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_11_e1",
+        "prisma_2020_11_e4",
+        "prisma_2020_11_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_12",
+    "item_label": "12",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_12\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_12_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"For each model and outcome, using a random effects model, the reported discrimination measures were pooled, reported as c statistics.\",\n      \"reason\": \"The manuscript explicitly states that for every model and outcome the effect measure (c statistic) used in the synthesis is specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"We rated certainty in relation to an acceptable discrimination threshold informed by clinician intuition. We selected a threshold of 0.7 to represent clinician intuition, based on a previous systematic review...\",\n      \"reason\": \"A threshold (c‑statistic = 0.7) and its rationale (clinician intuition) are reported for interpreting the effect size.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence is provided that the authors described methods to re‑express the synthesized results using a different effect measure.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not contain an explicit justification for choosing the c statistic (or other effect measures) as the metric for synthesis.\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_12",
+      "elements": [
+        {
+          "element_id": "prisma_2020_12_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "For each model and outcome, using a random effects model, the reported discrimination measures were pooled, reported as c statistics.",
+          "reason": "The manuscript explicitly states that for every model and outcome the effect measure (c statistic) used in the synthesis is specified."
+        },
+        {
+          "element_id": "prisma_2020_12_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "We rated certainty in relation to an acceptable discrimination threshold informed by clinician intuition. We selected a threshold of 0.7 to represent clinician intuition, based on a previous systematic review...",
+          "reason": "A threshold (c‑statistic = 0.7) and its rationale (clinician intuition) are reported for interpreting the effect size."
+        },
+        {
+          "element_id": "prisma_2020_12_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence is provided that the authors described methods to re‑express the synthesized results using a different effect measure."
+        },
+        {
+          "element_id": "prisma_2020_12_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not contain an explicit justification for choosing the c statistic (or other effect measures) as the metric for synthesis."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_12_e3",
+        "prisma_2020_12_e4"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13a",
+    "item_label": "13a",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"STUDIES Studies validating prognostic models that predicted all cause and cardiovascular mortality, admission to hospital for heart failure, kidney failure, myocardial infarction, or ischaemic stroke in adults with type 2 diabetes mellitus, including people with established cardiovascular disease or chronic kidney disease, or both. Risk models evaluating composite outcomes were not eligible.\",\n      \"reason\": \"The manuscript explicitly states the eligibility criteria used to determine which studies could be included in each synthesis (i.e., validation of specific prognostic models for defined outcomes), thereby describing the process for deciding study eligibility.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "STUDIES Studies validating prognostic models that predicted all cause and cardiovascular mortality, admission to hospital for heart failure, kidney failure, myocardial infarction, or ischaemic stroke in adults with type 2 diabetes mellitus, including people with established cardiovascular disease or chronic kidney disease, or both. Risk models evaluating composite outcomes were not eligible.",
+          "reason": "The manuscript explicitly states the eligibility criteria used to determine which studies could be included in each synthesis (i.e., validation of specific prognostic models for defined outcomes), thereby describing the process for deciding study eligibility."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13b",
+    "item_label": "13b",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"We followed guidance from Debray et al and colleagues to estimate the standard error for discrimination statistics for studies in which the authors did not report the 95% CI. Extracted data from all calibration plots assessing the same model on the same outcome were re‑plotted and calibration was assessed through visual inspection of these reconstructed plots...\",\n      \"reason\": \"The methods section explicitly describes how missing summary statistics were handled (estimating standard errors when 95% CIs were absent) and how data were converted/reconstructed (re‑plotting calibration plots and extracting values). These constitute the required description of data‑preparation methods.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "We followed guidance from Debray et al and colleagues to estimate the standard error for discrimination statistics for studies in which the authors did not report the 95% CI. Extracted data from all calibration plots assessing the same model on the same outcome were re‑plotted and calibration was assessed through visual inspection of these reconstructed plots...",
+          "reason": "The methods section explicitly describes how missing summary statistics were handled (estimating standard errors when 95% CIs were absent) and how data were converted/reconstructed (re‑plotting calibration plots and extracting values). These constitute the required description of data‑preparation methods."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13c",
+    "item_label": "13c",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13c_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No description of the tabular structures or the data they contain is provided in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"Extracted data from all calibration plots assessing the same model on the same outcome were re‑ plotted and calibration was assessed through visual inspection of these reconstructed plots, considering people at low and high risk.\",\n      \"reason\": \"The methods describe the use of calibration plots (graphical displays) and how they were reconstructed and inspected, but do not comprehensively describe all graphical methods used (e.g., forest plots).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The evidence does not report any basis for ordering or grouping studies within tables or graphs.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No non‑standard graphs are mentioned; therefore the rationale for using such graphs does not apply.\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13c_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No description of the tabular structures or the data they contain is provided in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_13c_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_11",
+          "quote": "Extracted data from all calibration plots assessing the same model on the same outcome were re‑ plotted and calibration was assessed through visual inspection of these reconstructed plots, considering people at low and high risk.",
+          "reason": "The methods describe the use of calibration plots (graphical displays) and how they were reconstructed and inspected, but do not comprehensively describe all graphical methods used (e.g., forest plots)."
+        },
+        {
+          "element_id": "prisma_2020_13c_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The evidence does not report any basis for ordering or grouping studies within tables or graphs."
+        },
+        {
+          "element_id": "prisma_2020_13c_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No non‑standard graphs are mentioned; therefore the rationale for using such graphs does not apply."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13c_e1",
+        "prisma_2020_13c_e2",
+        "prisma_2020_13c_e3"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13d",
+    "item_label": "13d",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13d_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"STATA SE (v18) was used to perform all analyses.\",\n      \"reason\": \"The software name and version are explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"A meta‑analysis was performed; the criterion only applies when meta‑analysis is not possible.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e3\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"using restricted maximum likelihood random effects models with Hartung‑Knapp‑Sidik‑Jonkman corrections.\",\n      \"reason\": \"The model (restricted maximum likelihood random‑effects) is reported, but no explicit rationale for choosing this model is provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"Using the 'metan' function, ... pooled estimates and 95% confidence intervals (CIs) ... using restricted maximum likelihood random effects models with Hartung‑Knapp‑Sidik‑Jonkman corrections.\",\n      \"reason\": \"Statistical method (metan function, REML random‑effects with HK‑SJ corrections) is clearly described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"We assessed heterogeneity through visual inspection of the individual point estimates and their 95% CIs.\",\n      \"reason\": \"A method for identifying/quantifying heterogeneity (visual inspection of point estimates and CIs) is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"using restricted maximum likelihood random effects models\",\n      \"reason\": \"The between‑study variance estimator (restricted maximum likelihood) is specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e7\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"with Hartung‑Knapp‑Sidik‑Jonkman corrections\",\n      \"reason\": \"The method for calculating confidence intervals for the summary effect (HK‑SJ corrections) is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e8\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"Using the 'metan' function, ... pooled estimates ... using restricted maximum likelihood random effects models with Hartung‑Knapp‑Sidik‑Jonkman corrections.\",\n      \"reason\": \"Additional implementation details (software function, estimator, CI correction) are provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No Bayesian meta‑analysis is described in the evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e10\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report any method for handling statistical dependency among multiple estimates from the same study.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e11\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No planned syntheses are identified as impossible or inappropriate in the provided text.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13d_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "STATA SE (v18) was used to perform all analyses.",
+          "reason": "The software name and version are explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "A meta‑analysis was performed; the criterion only applies when meta‑analysis is not possible."
+        },
+        {
+          "element_id": "prisma_2020_13d_e3",
+          "status": "PARTIAL",
+          "chunk_id": "text_11",
+          "quote": "using restricted maximum likelihood random effects models with Hartung‑Knapp‑Sidik‑Jonkman corrections.",
+          "reason": "The model (restricted maximum likelihood random‑effects) is reported, but no explicit rationale for choosing this model is provided."
+        },
+        {
+          "element_id": "prisma_2020_13d_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "Using the 'metan' function, ... pooled estimates and 95% confidence intervals (CIs) ... using restricted maximum likelihood random effects models with Hartung‑Knapp‑Sidik‑Jonkman corrections.",
+          "reason": "Statistical method (metan function, REML random‑effects with HK‑SJ corrections) is clearly described."
+        },
+        {
+          "element_id": "prisma_2020_13d_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "We assessed heterogeneity through visual inspection of the individual point estimates and their 95% CIs.",
+          "reason": "A method for identifying/quantifying heterogeneity (visual inspection of point estimates and CIs) is reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "using restricted maximum likelihood random effects models",
+          "reason": "The between‑study variance estimator (restricted maximum likelihood) is specified."
+        },
+        {
+          "element_id": "prisma_2020_13d_e7",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "with Hartung‑Knapp‑Sidik‑Jonkman corrections",
+          "reason": "The method for calculating confidence intervals for the summary effect (HK‑SJ corrections) is reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e8",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "Using the 'metan' function, ... pooled estimates ... using restricted maximum likelihood random effects models with Hartung‑Knapp‑Sidik‑Jonkman corrections.",
+          "reason": "Additional implementation details (software function, estimator, CI correction) are provided."
+        },
+        {
+          "element_id": "prisma_2020_13d_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No Bayesian meta‑analysis is described in the evidence."
+        },
+        {
+          "element_id": "prisma_2020_13d_e10",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report any method for handling statistical dependency among multiple estimates from the same study."
+        },
+        {
+          "element_id": "prisma_2020_13d_e11",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No planned syntheses are identified as impossible or inappropriate in the provided text."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13d_e3",
+        "prisma_2020_13d_e10"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13e",
+    "item_label": "13e",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13e\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13e_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"We assessed heterogeneity through visual inspection of the individual point estimates and their 95% CIs. To explore the observed heterogeneity, we conducted prespecified subgroup analyses to evaluate the effect of high versus low risk of bias on model performance...\",\n      \"reason\": \"The authors explicitly state they assessed heterogeneity by visual inspection and by conducting prespecified subgroup analyses, thereby specifying methods used to explore possible causes of heterogeneity.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"…prespecified subgroup analyses to evaluate the effect of high versus low risk of bias on model performance…\",\n      \"reason\": \"The factor (risk of bias) and its two levels (high vs low) are reported, but the expected direction of effect modification is not described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence is provided indicating whether the heterogeneity analyses used study‑level variables, within‑study contrasts, or both.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not describe the statistical methods used to compare subgroup effects.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Meta‑analysis was performed; the authors do not mention any situation where meta‑analysis was unsuitable, so informal heterogeneity exploration methods are not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"All heterogeneity analyses described are labelled as prespecified; no non‑pre‑specified analyses are reported, making this element not applicable.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13e",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13e_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "We assessed heterogeneity through visual inspection of the individual point estimates and their 95% CIs. To explore the observed heterogeneity, we conducted prespecified subgroup analyses to evaluate the effect of high versus low risk of bias on model performance...",
+          "reason": "The authors explicitly state they assessed heterogeneity by visual inspection and by conducting prespecified subgroup analyses, thereby specifying methods used to explore possible causes of heterogeneity."
+        },
+        {
+          "element_id": "prisma_2020_13e_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_12",
+          "quote": "…prespecified subgroup analyses to evaluate the effect of high versus low risk of bias on model performance…",
+          "reason": "The factor (risk of bias) and its two levels (high vs low) are reported, but the expected direction of effect modification is not described."
+        },
+        {
+          "element_id": "prisma_2020_13e_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence is provided indicating whether the heterogeneity analyses used study‑level variables, within‑study contrasts, or both."
+        },
+        {
+          "element_id": "prisma_2020_13e_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not describe the statistical methods used to compare subgroup effects."
+        },
+        {
+          "element_id": "prisma_2020_13e_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Meta‑analysis was performed; the authors do not mention any situation where meta‑analysis was unsuitable, so informal heterogeneity exploration methods are not applicable."
+        },
+        {
+          "element_id": "prisma_2020_13e_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "All heterogeneity analyses described are labelled as prespecified; no non‑pre‑specified analyses are reported, making this element not applicable."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13e_e2",
+        "prisma_2020_13e_e3",
+        "prisma_2020_13e_e4"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13f",
+    "item_label": "13f",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13f\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13f_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence in the retrieved text that any sensitivity analyses were described; the methods and results sections do not report details of sensitivity analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13f_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript provides no indication of sensitivity analyses that were not pre‑specified; such identification is absent from the retrieved evidence.\"\n    }\n  ],\n  \"confidence\": 80\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13f",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13f_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence in the retrieved text that any sensitivity analyses were described; the methods and results sections do not report details of sensitivity analyses."
+        },
+        {
+          "element_id": "prisma_2020_13f_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript provides no indication of sensitivity analyses that were not pre‑specified; such identification is absent from the retrieved evidence."
+        }
+      ],
+      "confidence": 80,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13f_e1",
+        "prisma_2020_13f_e2"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_14",
+    "item_label": "14",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_14\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_14_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No description of methods used to assess risk of bias due to missing results (reporting bias) is provided in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Pairs of reviewers (DGR, DS, SD, DG, and JZXC) independently used the Prediction Model Risk of Bias Assessment Tool (PROBAST) to assess the risk of bias of the individual cohorts at the outcome level. ... PROBAST considers four domains: participants, predictors, outcomes, and analysis. Domains were rated as low, high, or unclear risk of bias. We categorised a study as having an overall high risk of bias if reviewers judged one or more domains to be at high risk of bias, or two or more to be an unclear risk of bias, otherwise the study was classified as having a low risk of bias.\",\n      \"reason\": \"The excerpt specifies the existing tool (PROBAST), lists its domains, and explains how an overall judgement was derived.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The authors used the standard PROBAST tool without describing any adaptations; therefore adaptations are not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No newly developed reporting‑bias tool is mentioned in the evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Pairs of reviewers (DGR, DS, SD, DG, and JZXC) independently used ... Disagreements were resolved through discussion between reviewers or, if necessary, adjudication by a third reviewer (FF).\",\n      \"reason\": \"The passage reports the number of reviewers, their independent assessment, and the procedure for resolving disagreements.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No processes for obtaining or confirming information from study investigators are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No automation tools for reporting‑bias assessment are mentioned.\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_14",
+      "elements": [
+        {
+          "element_id": "prisma_2020_14_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No description of methods used to assess risk of bias due to missing results (reporting bias) is provided in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_14_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Pairs of reviewers (DGR, DS, SD, DG, and JZXC) independently used the Prediction Model Risk of Bias Assessment Tool (PROBAST) to assess the risk of bias of the individual cohorts at the outcome level. ... PROBAST considers four domains: participants, predictors, outcomes, and analysis. Domains were rated as low, high, or unclear risk of bias. We categorised a study as having an overall high risk of bias if reviewers judged one or more domains to be at high risk of bias, or two or more to be an unclear risk of bias, otherwise the study was classified as having a low risk of bias.",
+          "reason": "The excerpt specifies the existing tool (PROBAST), lists its domains, and explains how an overall judgement was derived."
+        },
+        {
+          "element_id": "prisma_2020_14_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The authors used the standard PROBAST tool without describing any adaptations; therefore adaptations are not applicable."
+        },
+        {
+          "element_id": "prisma_2020_14_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No newly developed reporting‑bias tool is mentioned in the evidence."
+        },
+        {
+          "element_id": "prisma_2020_14_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Pairs of reviewers (DGR, DS, SD, DG, and JZXC) independently used ... Disagreements were resolved through discussion between reviewers or, if necessary, adjudication by a third reviewer (FF).",
+          "reason": "The passage reports the number of reviewers, their independent assessment, and the procedure for resolving disagreements."
+        },
+        {
+          "element_id": "prisma_2020_14_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No processes for obtaining or confirming information from study investigators are described."
+        },
+        {
+          "element_id": "prisma_2020_14_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No automation tools for reporting‑bias assessment are mentioned."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_14_e1",
+        "prisma_2020_14_e6",
+        "prisma_2020_14_e7"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_15",
+    "item_label": "15",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_15\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_15_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"In order to assess the credibility of the risk prediction models, we evaluated the certainty of the evidence using GRADE.\",\n      \"reason\": \"The tool (GRADE) is named, but no version number is provided, so the requirement is only partially met.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"Certainty may be decreased due to issues related to risk of bias, imprecision, inconsistency, indirectness, and publication bias.\",\n      \"reason\": \"Factors considered for certainty are listed, but detailed criteria for each factor are not described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No decision rules for deriving an overall certainty level or interpretation of each level are reported in the supplied evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"We selected a threshold of 0.7 to represent clinician intuition, based on a previous systematic review of studies evaluating discrimination of clinicians in disease areas similar to diabetes.\",\n      \"reason\": \"A review‑specific certainty threshold and its rationale are explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No description of adaptations to the GRADE system (or any other system) is found.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Pairs of reviewers (DGR, DS, SD, DG, and JZXC) independently used the Prediction Model Risk of Bias Assessment Tool (PROBAST) ... Disagreements were resolved through discussion between reviewers or, if necessary, adjudication by a third reviewer (FF).\",\n      \"reason\": \"The number of reviewers, their independent assessment, and the procedure for resolving disagreements are clearly described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No processes for obtaining or confirming information from investigators are mentioned.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e8\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Automation tools supporting certainty assessment are not described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e9\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report how certainty‑assessment results are presented (e.g., Summary of Findings tables).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e10\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No intended interpretation or source guidance for standard certainty phrases is provided.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_15",
+      "elements": [
+        {
+          "element_id": "prisma_2020_15_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_13",
+          "quote": "In order to assess the credibility of the risk prediction models, we evaluated the certainty of the evidence using GRADE.",
+          "reason": "The tool (GRADE) is named, but no version number is provided, so the requirement is only partially met."
+        },
+        {
+          "element_id": "prisma_2020_15_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_13",
+          "quote": "Certainty may be decreased due to issues related to risk of bias, imprecision, inconsistency, indirectness, and publication bias.",
+          "reason": "Factors considered for certainty are listed, but detailed criteria for each factor are not described."
+        },
+        {
+          "element_id": "prisma_2020_15_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No decision rules for deriving an overall certainty level or interpretation of each level are reported in the supplied evidence."
+        },
+        {
+          "element_id": "prisma_2020_15_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "We selected a threshold of 0.7 to represent clinician intuition, based on a previous systematic review of studies evaluating discrimination of clinicians in disease areas similar to diabetes.",
+          "reason": "A review‑specific certainty threshold and its rationale are explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_15_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No description of adaptations to the GRADE system (or any other system) is found."
+        },
+        {
+          "element_id": "prisma_2020_15_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Pairs of reviewers (DGR, DS, SD, DG, and JZXC) independently used the Prediction Model Risk of Bias Assessment Tool (PROBAST) ... Disagreements were resolved through discussion between reviewers or, if necessary, adjudication by a third reviewer (FF).",
+          "reason": "The number of reviewers, their independent assessment, and the procedure for resolving disagreements are clearly described."
+        },
+        {
+          "element_id": "prisma_2020_15_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No processes for obtaining or confirming information from investigators are mentioned."
+        },
+        {
+          "element_id": "prisma_2020_15_e8",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Automation tools supporting certainty assessment are not described."
+        },
+        {
+          "element_id": "prisma_2020_15_e9",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report how certainty‑assessment results are presented (e.g., Summary of Findings tables)."
+        },
+        {
+          "element_id": "prisma_2020_15_e10",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No intended interpretation or source guidance for standard certainty phrases is provided."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_15_e1",
+        "prisma_2020_15_e2",
+        "prisma_2020_15_e3",
+        "prisma_2020_15_e5",
+        "prisma_2020_15_e7",
+        "prisma_2020_15_e8",
+        "prisma_2020_15_e9",
+        "prisma_2020_15_e10"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16a",
+    "item_label": "16a",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16a_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"The systematic search yielded 6529 unique citations and 224 potentially relevant full texts. Ultimately, 35 studies were eligible...\",\n      \"reason\": \"The number of records identified (6529) and the number of full‑text articles screened (224) are reported, but the counts of records removed before screening and excluded after initial screening are not provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence was found reporting the numbers of reports sought, not retrieved, assessed for eligibility, or excluded with primary reasons.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e3\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"Ultimately, 35 studies were eligible by reporting on the internal or external validation of 13 prognostic models across 52 validation cohorts (figure 1).\",\n      \"reason\": \"The number of included studies (35) is reported, but the number of included reports is not explicitly stated.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The retrieved evidence contains no mention of ongoing studies or associated reports; therefore the element does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Although the review is described as an update of a previous systematic review, the manuscript does not provide the current selection results together with the number of studies included in the previous review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that the flow diagram distinguishes records excluded by humans versus automation tools.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16a_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_13",
+          "quote": "The systematic search yielded 6529 unique citations and 224 potentially relevant full texts. Ultimately, 35 studies were eligible...",
+          "reason": "The number of records identified (6529) and the number of full‑text articles screened (224) are reported, but the counts of records removed before screening and excluded after initial screening are not provided."
+        },
+        {
+          "element_id": "prisma_2020_16a_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence was found reporting the numbers of reports sought, not retrieved, assessed for eligibility, or excluded with primary reasons."
+        },
+        {
+          "element_id": "prisma_2020_16a_e3",
+          "status": "PARTIAL",
+          "chunk_id": "text_13",
+          "quote": "Ultimately, 35 studies were eligible by reporting on the internal or external validation of 13 prognostic models across 52 validation cohorts (figure 1).",
+          "reason": "The number of included studies (35) is reported, but the number of included reports is not explicitly stated."
+        },
+        {
+          "element_id": "prisma_2020_16a_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The retrieved evidence contains no mention of ongoing studies or associated reports; therefore the element does not apply."
+        },
+        {
+          "element_id": "prisma_2020_16a_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Although the review is described as an update of a previous systematic review, the manuscript does not provide the current selection results together with the number of studies included in the previous review."
+        },
+        {
+          "element_id": "prisma_2020_16a_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that the flow diagram distinguishes records excluded by humans versus automation tools."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_16a_e1",
+        "prisma_2020_16a_e2",
+        "prisma_2020_16a_e3",
+        "prisma_2020_16a_e5",
+        "prisma_2020_16a_e6"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16b",
+    "item_label": "16b",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No retrieved text provides a list of studies that appeared eligible but were excluded, nor explanations for each exclusion. The available sections describe the selection process and overall numbers of screened and included studies, but do not cite excluded studies or give reasons.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No retrieved text provides a list of studies that appeared eligible but were excluded, nor explanations for each exclusion. The available sections describe the selection process and overall numbers of screened and included studies, but do not cite excluded studies or give reasons."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_16b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_17",
+    "item_label": "17",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_17\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_17_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence shows that every included study is individually cited. The retrieved text contains a long reference list but does not demonstrate citation of each study that was included in the review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript provides aggregate summary statistics (median cohort size, age, etc.) but does not present a table or figure containing the key characteristics of each included study for comparison.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We included observational studies and post‑hoc analyses of randomised controlled trials that enrolled ambulatory adults ... and assessed prognostic models.\",\n      \"reason\": \"The review focuses on prognostic model validation, not on interventions; therefore the conditional requirement for intervention details does not apply.\"\n    }\n  ],\n  \"confidence\": 80\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_17",
+      "elements": [
+        {
+          "element_id": "prisma_2020_17_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence shows that every included study is individually cited. The retrieved text contains a long reference list but does not demonstrate citation of each study that was included in the review."
+        },
+        {
+          "element_id": "prisma_2020_17_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript provides aggregate summary statistics (median cohort size, age, etc.) but does not present a table or figure containing the key characteristics of each included study for comparison."
+        },
+        {
+          "element_id": "prisma_2020_17_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_9",
+          "quote": "We included observational studies and post‑hoc analyses of randomised controlled trials that enrolled ambulatory adults ... and assessed prognostic models.",
+          "reason": "The review focuses on prognostic model validation, not on interventions; therefore the conditional requirement for intervention details does not apply."
+        }
+      ],
+      "confidence": 80,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_17_e1",
+        "prisma_2020_17_e2"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_18",
+    "item_label": "18",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_18\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_18_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_16\",\n      \"quote\": \"Online supplemental appendix 4 presents the risk of bias assessments for each validation cohort and respective outcome across the 35 synthesised studies, leading to 119 separate risk of bias assessments.\",\n      \"reason\": \"The statement confirms that a supplemental table/figure provides risk‑of‑bias assessments for each included study (each validation cohort) at the domain level and overall, satisfying the requirement.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No retrieved text gives study‑specific justifications for the individual risk‑of‑bias judgments; only the overall assessment method is described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e3\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_16\",\n      \"quote\": \"Online supplemental appendix 4 presents the risk of bias assessments for each validation cohort and respective outcome across the 35 synthesised studies...\",\n      \"reason\": \"The evidence shows outcome‑specific risk‑of‑bias judgments are reported, but it does not demonstrate that these judgments are displayed alongside the study results within the manuscript, so the requirement is only partially met.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_18",
+      "elements": [
+        {
+          "element_id": "prisma_2020_18_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_16",
+          "quote": "Online supplemental appendix 4 presents the risk of bias assessments for each validation cohort and respective outcome across the 35 synthesised studies, leading to 119 separate risk of bias assessments.",
+          "reason": "The statement confirms that a supplemental table/figure provides risk‑of‑bias assessments for each included study (each validation cohort) at the domain level and overall, satisfying the requirement."
+        },
+        {
+          "element_id": "prisma_2020_18_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No retrieved text gives study‑specific justifications for the individual risk‑of‑bias judgments; only the overall assessment method is described."
+        },
+        {
+          "element_id": "prisma_2020_18_e3",
+          "status": "PARTIAL",
+          "chunk_id": "text_16",
+          "quote": "Online supplemental appendix 4 presents the risk of bias assessments for each validation cohort and respective outcome across the 35 synthesised studies...",
+          "reason": "The evidence shows outcome‑specific risk‑of‑bias judgments are reported, but it does not demonstrate that these judgments are displayed alongside the study results within the manuscript, so the requirement is only partially met."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_18_e2",
+        "prisma_2020_18_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_19",
+    "item_label": "19",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_19\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_19_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No retrieved passage provides group‑level summary statistics (e.g., means, proportions) for each study and outcome. The evidence only describes pooled analyses and methodological details.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript reports pooled effect estimates (c‑statistics) and confidence intervals, but there is no evidence that an effect estimate with its precision is presented for every individual study and outcome.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_20\",\n      \"quote\": \"… RECODe probably has acceptable discrimination (moderate certainty) (table 1 ; online supplemental appendix 5). … No studies evaluated the calibration of FHS through calibration plots (table 2 ; online supplemental appendix 6).\",\n      \"reason\": \"The text explicitly refers to tables (table 1, table 2) that accompany the narrative description of results, satisfying the requirement that a tabular display is provided when results are presented in text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not state the source(s) of study‑level data when multiple data sources were used, nor does it indicate that only a single source was employed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"We followed guidance from Debray et al. and colleagues to estimate the standard error for discrimination statistics for studies in which the authors did not report the 95% CI.\",\n      \"reason\": \"The authors explicitly identify that standard errors were estimated (computed) for studies lacking reported confidence intervals, thereby meeting the conditional requirement to flag computed/estimated results.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_19",
+      "elements": [
+        {
+          "element_id": "prisma_2020_19_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No retrieved passage provides group‑level summary statistics (e.g., means, proportions) for each study and outcome. The evidence only describes pooled analyses and methodological details."
+        },
+        {
+          "element_id": "prisma_2020_19_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript reports pooled effect estimates (c‑statistics) and confidence intervals, but there is no evidence that an effect estimate with its precision is presented for every individual study and outcome."
+        },
+        {
+          "element_id": "prisma_2020_19_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_20",
+          "quote": "… RECODe probably has acceptable discrimination (moderate certainty) (table 1 ; online supplemental appendix 5). … No studies evaluated the calibration of FHS through calibration plots (table 2 ; online supplemental appendix 6).",
+          "reason": "The text explicitly refers to tables (table 1, table 2) that accompany the narrative description of results, satisfying the requirement that a tabular display is provided when results are presented in text."
+        },
+        {
+          "element_id": "prisma_2020_19_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not state the source(s) of study‑level data when multiple data sources were used, nor does it indicate that only a single source was employed."
+        },
+        {
+          "element_id": "prisma_2020_19_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "We followed guidance from Debray et al. and colleagues to estimate the standard error for discrimination statistics for studies in which the authors did not report the 95% CI.",
+          "reason": "The authors explicitly identify that standard errors were estimated (computed) for studies lacking reported confidence intervals, thereby meeting the conditional requirement to flag computed/estimated results."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_19_e1",
+        "prisma_2020_19_e2",
+        "prisma_2020_19_e4"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20a",
+    "item_label": "20a",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_15\",\n      \"quote\": \"The cohorts included a median of 4329 patients (range 125- 94 946). The median of mean ages was 61.4 years (range of means 50.9- 70.7), median of mean HbA 1C was 7.4% (range of means 6.1% to 8.7%) and a median of 54% of participants were male (range 0- 100%). Among the cohorts enrolling participants from a single country, the most common countries were the United States (n=9), Italy (n=8), and China (n=7) (Online supplemental appendix 3).\",\n      \"reason\": \"Provides a brief summary of key characteristics of the synthesised studies. Risk‑of‑bias summary is given in text_16, which reports numbers of low/high risk assessments and common limitations, further fulfilling the element.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20a_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"The systematic search yielded 6529 unique citations and 224 potentially relevant full texts. Ultimately, 35 studies were eligible by reporting on the internal or external validation of 13 prognostic models across 52 validation cohorts (figure 1).\",\n      \"reason\": \"Explicitly states the number and identity of studies (35) that contributed to the syntheses and refers to a figure that lists them, thereby identifying the studies contributing to each synthesis.\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_15",
+          "quote": "The cohorts included a median of 4329 patients (range 125- 94 946). The median of mean ages was 61.4 years (range of means 50.9- 70.7), median of mean HbA 1C was 7.4% (range of means 6.1% to 8.7%) and a median of 54% of participants were male (range 0- 100%). Among the cohorts enrolling participants from a single country, the most common countries were the United States (n=9), Italy (n=8), and China (n=7) (Online supplemental appendix 3).",
+          "reason": "Provides a brief summary of key characteristics of the synthesised studies. Risk‑of‑bias summary is given in text_16, which reports numbers of low/high risk assessments and common limitations, further fulfilling the element."
+        },
+        {
+          "element_id": "prisma_2020_20a_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "The systematic search yielded 6529 unique citations and 224 potentially relevant full texts. Ultimately, 35 studies were eligible by reporting on the internal or external validation of 13 prognostic models across 52 validation cohorts (figure 1).",
+          "reason": "Explicitly states the number and identity of studies (35) that contributed to the syntheses and refers to a figure that lists them, thereby identifying the studies contributing to each synthesis."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20b",
+    "item_label": "20b",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence in the retrieved chunks shows that the results of all pre‑specified and additional statistical syntheses (e.g., pooled estimates, confidence intervals) are actually presented; the available text only describes the methods used for synthesis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript mentions that meta‑analyses were performed (text_11) but does not provide any summary estimate with its precision (e.g., confidence interval) for those analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No heterogeneity statistics (e.g., I², τ²) are reported in any of the retrieved excerpts.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review only describes meta‑analysis of discrimination statistics; no other statistical synthesis methods are mentioned.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"All syntheses reported involve effect estimates (summary statistics); there is no synthesis without an effect estimate described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review does not compare groups of interventions; it evaluates prognostic model performance, so direction of effect is not relevant.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No mean‑difference syntheses are reported in the retrieved material.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review does not present re‑expressed standardized mean differences.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence in the retrieved chunks shows that the results of all pre‑specified and additional statistical syntheses (e.g., pooled estimates, confidence intervals) are actually presented; the available text only describes the methods used for synthesis."
+        },
+        {
+          "element_id": "prisma_2020_20b_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript mentions that meta‑analyses were performed (text_11) but does not provide any summary estimate with its precision (e.g., confidence interval) for those analyses."
+        },
+        {
+          "element_id": "prisma_2020_20b_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No heterogeneity statistics (e.g., I², τ²) are reported in any of the retrieved excerpts."
+        },
+        {
+          "element_id": "prisma_2020_20b_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review only describes meta‑analysis of discrimination statistics; no other statistical synthesis methods are mentioned."
+        },
+        {
+          "element_id": "prisma_2020_20b_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "All syntheses reported involve effect estimates (summary statistics); there is no synthesis without an effect estimate described."
+        },
+        {
+          "element_id": "prisma_2020_20b_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review does not compare groups of interventions; it evaluates prognostic model performance, so direction of effect is not relevant."
+        },
+        {
+          "element_id": "prisma_2020_20b_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No mean‑difference syntheses are reported in the retrieved material."
+        },
+        {
+          "element_id": "prisma_2020_20b_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review does not present re‑expressed standardized mean differences."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_20b_e1",
+        "prisma_2020_20b_e2",
+        "prisma_2020_20b_e3"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20c",
+    "item_label": "20c",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_23\",\n      \"quote\": \"We did not identify any significant effect modification on model discrimination (online supplemental appendix 7) or model calibration (online supplemental appendix 8) based on overall risk of bias. Similarly, we did not identify any evidence of publication bias (online supplemental appendix 9).\",\n      \"reason\": \"The authors report the results of investigations of possible causes of heterogeneity (effect modification by risk of bias and publication bias), explicitly stating that no significant modification or bias was found.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not list which individual studies belong to each subgroup (e.g., high vs low risk of bias) for the heterogeneity investigations.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No explicit interpretation is provided that acknowledges the observational nature of the heterogeneity analyses or potential confounding.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Interaction‑test P values, subgroup estimates, precision measures, or heterogeneity statistics for the subgroup analyses are not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The difference between subgroup effects and its precision are not presented.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No meta‑regression analyses are described, nor are coefficient P values or precision reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No meta‑regression scatterplots are provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e8\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"We assessed heterogeneity through visual inspection of the individual point estimates and their 95% CIs. To explore the observed heterogeneity, we conducted prespecified subgroup analyses to evaluate the effect of high versus low risk of bias on model performance and relied on studies at low risk of bias if a significant difference was observed.\",\n      \"reason\": \"The authors describe informal heterogeneity investigations (visual inspection of point estimates and confidence intervals) as part of their analysis.\"\n    }\n  ],\n  \"confidence\": 80\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_23",
+          "quote": "We did not identify any significant effect modification on model discrimination (online supplemental appendix 7) or model calibration (online supplemental appendix 8) based on overall risk of bias. Similarly, we did not identify any evidence of publication bias (online supplemental appendix 9).",
+          "reason": "The authors report the results of investigations of possible causes of heterogeneity (effect modification by risk of bias and publication bias), explicitly stating that no significant modification or bias was found."
+        },
+        {
+          "element_id": "prisma_2020_20c_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not list which individual studies belong to each subgroup (e.g., high vs low risk of bias) for the heterogeneity investigations."
+        },
+        {
+          "element_id": "prisma_2020_20c_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No explicit interpretation is provided that acknowledges the observational nature of the heterogeneity analyses or potential confounding."
+        },
+        {
+          "element_id": "prisma_2020_20c_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Interaction‑test P values, subgroup estimates, precision measures, or heterogeneity statistics for the subgroup analyses are not reported."
+        },
+        {
+          "element_id": "prisma_2020_20c_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The difference between subgroup effects and its precision are not presented."
+        },
+        {
+          "element_id": "prisma_2020_20c_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No meta‑regression analyses are described, nor are coefficient P values or precision reported."
+        },
+        {
+          "element_id": "prisma_2020_20c_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No meta‑regression scatterplots are provided."
+        },
+        {
+          "element_id": "prisma_2020_20c_e8",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "We assessed heterogeneity through visual inspection of the individual point estimates and their 95% CIs. To explore the observed heterogeneity, we conducted prespecified subgroup analyses to evaluate the effect of high versus low risk of bias on model performance and relied on studies at low risk of bias if a significant difference was observed.",
+          "reason": "The authors describe informal heterogeneity investigations (visual inspection of point estimates and confidence intervals) as part of their analysis."
+        }
+      ],
+      "confidence": 80,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_20c_e2",
+        "prisma_2020_20c_e3",
+        "prisma_2020_20c_e4",
+        "prisma_2020_20c_e5",
+        "prisma_2020_20c_e6",
+        "prisma_2020_20c_e7"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20d",
+    "item_label": "20d",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20d_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No retrieved text reports results of any sensitivity analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No discussion of robustness of the main analysis in relation to sensitivity analyses is present.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No tables comparing original and sensitivity‑analysis results, assumptions, or contributing studies are provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No forest plots displaying sensitivity‑analysis results are found.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20d_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No retrieved text reports results of any sensitivity analysis."
+        },
+        {
+          "element_id": "prisma_2020_20d_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No discussion of robustness of the main analysis in relation to sensitivity analyses is present."
+        },
+        {
+          "element_id": "prisma_2020_20d_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No tables comparing original and sensitivity‑analysis results, assumptions, or contributing studies are provided."
+        },
+        {
+          "element_id": "prisma_2020_20d_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No forest plots displaying sensitivity‑analysis results are found."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_20d_e1",
+        "prisma_2020_20d_e2",
+        "prisma_2020_20d_e3",
+        "prisma_2020_20d_e4"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_21",
+    "item_label": "21",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_21\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_21_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_23\",\n      \"quote\": \"We did not identify any evidence of publication bias (online supplemental appendix 9).\",\n      \"reason\": \"The manuscript mentions an overall assessment of publication bias but does not present risk‑of‑bias assessments due to missing results for each individual synthesis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Pairs of reviewers ... independently used the Prediction Model Risk of Bias Assessment Tool (PROBAST) to assess the risk of bias of the individual cohorts at the outcome level.\",\n      \"reason\": \"A tool (PROBAST) is reported and overall judgments (low/high) are described, but detailed item‑level responses and supporting information are not provided in the retrieved text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No funnel plot, effect estimate, precision measure, or contour milestones are presented in the available evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report any funnel‑plot asymmetry test, so the required statistics are not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No sensitivity analyses addressing missing results are described in the retrieved excerpts.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no study‑by‑synthesis matrix displaying selective non‑reporting assessments in the provided text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not show studies with missing results beneath forest plots or in a dedicated table.\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_21",
+      "elements": [
+        {
+          "element_id": "prisma_2020_21_e1",
+          "status": "MISSING",
+          "chunk_id": "text_23",
+          "quote": "We did not identify any evidence of publication bias (online supplemental appendix 9).",
+          "reason": "The manuscript mentions an overall assessment of publication bias but does not present risk‑of‑bias assessments due to missing results for each individual synthesis."
+        },
+        {
+          "element_id": "prisma_2020_21_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_10",
+          "quote": "Pairs of reviewers ... independently used the Prediction Model Risk of Bias Assessment Tool (PROBAST) to assess the risk of bias of the individual cohorts at the outcome level.",
+          "reason": "A tool (PROBAST) is reported and overall judgments (low/high) are described, but detailed item‑level responses and supporting information are not provided in the retrieved text."
+        },
+        {
+          "element_id": "prisma_2020_21_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No funnel plot, effect estimate, precision measure, or contour milestones are presented in the available evidence."
+        },
+        {
+          "element_id": "prisma_2020_21_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report any funnel‑plot asymmetry test, so the required statistics are not applicable."
+        },
+        {
+          "element_id": "prisma_2020_21_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No sensitivity analyses addressing missing results are described in the retrieved excerpts."
+        },
+        {
+          "element_id": "prisma_2020_21_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no study‑by‑synthesis matrix displaying selective non‑reporting assessments in the provided text."
+        },
+        {
+          "element_id": "prisma_2020_21_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not show studies with missing results beneath forest plots or in a dedicated table."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_21_e1",
+        "prisma_2020_21_e2",
+        "prisma_2020_21_e3",
+        "prisma_2020_21_e5",
+        "prisma_2020_21_e6",
+        "prisma_2020_21_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_22",
+    "item_label": "22",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_22\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_22_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"Relative to a threshold c statistic of 0.7, RECODe had an acceptable discrimination for cardiovascular mortality (0.79, **high certainty**), probably has an acceptable discrimination for myocardial infarction (0.72, **moderate certainty**) and stroke (0.71, **moderate certainty**), and may have an acceptable discrimination for kidney failure (0.76, **low certainty**). ... High certainty evidence suggests that UKPDS‑OM2 has unacceptable discrimination for myocardial infarction (0.64) and stroke (0.65).\",\n      \"reason\": \"The abstract reports a certainty level (high, moderate, low) for each important outcome, demonstrating that overall certainty is provided for every outcome.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"GRADE rates certainty drawn on the performance of prognostic models, starting as high for a body of evidence informed by observational studies. Certainty may be decreased due to issues related to risk of bias, imprecision, inconsistency, indirectness, and publication bias.\",\n      \"reason\": \"General reasons for downgrading certainty are described (risk of bias, imprecision, etc.), but the manuscript does not give outcome‑specific explanations for why a particular rating was increased or decreased.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"Relative to a threshold c statistic of 0.7, RECODe had an acceptable discrimination for cardiovascular mortality (0.79, **high certainty**), ... High certainty evidence suggests that UKPDS‑OM2 has unacceptable discrimination for myocardial infarction (0.64) and stroke (0.65).\",\n      \"reason\": \"Certainty levels are reported alongside the results in the abstract and in outcome‑specific sections (e.g., “high certainty evidence indicates”), using a format appropriate to the results presentation.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of GRADE Summary of Findings tables or other evidence‑summary tables is present in the retrieved excerpts, despite the authors stating that GRADE was used.\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_22",
+      "elements": [
+        {
+          "element_id": "prisma_2020_22_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "Relative to a threshold c statistic of 0.7, RECODe had an acceptable discrimination for cardiovascular mortality (0.79, **high certainty**), probably has an acceptable discrimination for myocardial infarction (0.72, **moderate certainty**) and stroke (0.71, **moderate certainty**), and may have an acceptable discrimination for kidney failure (0.76, **low certainty**). ... High certainty evidence suggests that UKPDS‑OM2 has unacceptable discrimination for myocardial infarction (0.64) and stroke (0.65).",
+          "reason": "The abstract reports a certainty level (high, moderate, low) for each important outcome, demonstrating that overall certainty is provided for every outcome."
+        },
+        {
+          "element_id": "prisma_2020_22_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_13",
+          "quote": "GRADE rates certainty drawn on the performance of prognostic models, starting as high for a body of evidence informed by observational studies. Certainty may be decreased due to issues related to risk of bias, imprecision, inconsistency, indirectness, and publication bias.",
+          "reason": "General reasons for downgrading certainty are described (risk of bias, imprecision, etc.), but the manuscript does not give outcome‑specific explanations for why a particular rating was increased or decreased."
+        },
+        {
+          "element_id": "prisma_2020_22_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "Relative to a threshold c statistic of 0.7, RECODe had an acceptable discrimination for cardiovascular mortality (0.79, **high certainty**), ... High certainty evidence suggests that UKPDS‑OM2 has unacceptable discrimination for myocardial infarction (0.64) and stroke (0.65).",
+          "reason": "Certainty levels are reported alongside the results in the abstract and in outcome‑specific sections (e.g., “high certainty evidence indicates”), using a format appropriate to the results presentation."
+        },
+        {
+          "element_id": "prisma_2020_22_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of GRADE Summary of Findings tables or other evidence‑summary tables is present in the retrieved excerpts, despite the authors stating that GRADE was used."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_22_e2",
+        "prisma_2020_22_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23a",
+    "item_label": "23a",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_24\",\n      \"quote\": \"Among the 13 identified prognostic models, RECODe has the most acceptable discriminatory performance and calibration across the evaluated outcomes; this finding aligns with a previous systematic review.\",\n      \"reason\": \"The authors explicitly interpret their results (RECODe performance) and relate them to prior evidence by stating the finding aligns with a previous systematic review, fulfilling the requirement to interpret results in the context of other relevant evidence.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_24",
+          "quote": "Among the 13 identified prognostic models, RECODe has the most acceptable discriminatory performance and calibration across the evaluated outcomes; this finding aligns with a previous systematic review.",
+          "reason": "The authors explicitly interpret their results (RECODe performance) and relate them to prior evidence by stating the finding aligns with a previous systematic review, fulfilling the requirement to interpret results in the context of other relevant evidence."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23b",
+    "item_label": "23b",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_26\",\n      \"quote\": \"Potential limitations of this systematic review stem from current limitations of prognosis literature. Firstly, although the discriminatory performance of prognostic models can be quantitatively assessed by pooling the reported c statistics in each study, the methods used to assess the calibration of each model vary substantially... Secondly, the included studies assessed model calibration among patients with relatively low cardiovascular risk, limiting assessment of model calibration across the full spectrum of risk... Thirdly, we were unable to assess on the predictive model performance the influence of several potential sources of heterogeneity... Fourthly, our review excluded prognostic models solely evaluating composite outcomes... Finally, our review assessed model performance relative to a threshold inferred by clinician intuition and did not directly compare performance between different models.\",\n      \"reason\": \"The passage explicitly discusses multiple limitations of the evidence included in the review, satisfying the required element.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_26",
+          "quote": "Potential limitations of this systematic review stem from current limitations of prognosis literature. Firstly, although the discriminatory performance of prognostic models can be quantitatively assessed by pooling the reported c statistics in each study, the methods used to assess the calibration of each model vary substantially... Secondly, the included studies assessed model calibration among patients with relatively low cardiovascular risk, limiting assessment of model calibration across the full spectrum of risk... Thirdly, we were unable to assess on the predictive model performance the influence of several potential sources of heterogeneity... Fourthly, our review excluded prognostic models solely evaluating composite outcomes... Finally, our review assessed model performance relative to a threshold inferred by clinician intuition and did not directly compare performance between different models.",
+          "reason": "The passage explicitly discusses multiple limitations of the evidence included in the review, satisfying the required element."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23c",
+    "item_label": "23c",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23c_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No retrieved chunk explicitly discusses limitations of the review processes.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23c_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No retrieved chunk discusses the potential impact of review-process limitations.\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23c_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No retrieved chunk explicitly discusses limitations of the review processes."
+        },
+        {
+          "element_id": "prisma_2020_23c_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No retrieved chunk discusses the potential impact of review-process limitations."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_23c_e1",
+        "prisma_2020_23c_e2"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23d",
+    "item_label": "23d",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23d_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_26\",\n      \"quote\": \"Models identified by our systematic review, such as RECODe, should help the development and updating of clinical practice guidelines, health technology assessments, and subsequently clinicians, patients, policy makers and payers in informing individual decision making. ... These models enable appropriate risk stratification for patients with type 2 diabetes mellitus, ... facilitating evidence informed shared decision making.\",\n      \"reason\": \"The passage explicitly discusses how the review’s results can be used to inform clinical practice, guideline development, and decision‑making by clinicians, indicating clear practice implications.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23d_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_26\",\n      \"quote\": \"Models identified by our systematic review, such as RECODe, should help the development and updating of clinical practice guidelines, health technology assessments, and subsequently clinicians, patients, policy makers and payers in informing individual decision making.\",\n      \"reason\": \"The text mentions policy makers and health technology assessments, suggesting relevance to policy, but does not provide a detailed discussion of specific policy implications; therefore the coverage is partial.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23d_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_26\",\n      \"quote\": \"Future research is needed to directly compare promising models... Future research should investigate the usefulness of adding trustworthy prognostic models for diabetes... Future research should focus on validating identified prognostic models in cohorts of adults at higher risk. Finally, our review was unable to assess the clinical usefulness of using risk stratification... Future research should evaluate the benefit of these identified prognostic models in clinical practice and their impact on patient important outcomes.\",\n      \"reason\": \"The passage provides explicit, concrete recommendations for multiple areas of future research, satisfying the requirement.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23d_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_26",
+          "quote": "Models identified by our systematic review, such as RECODe, should help the development and updating of clinical practice guidelines, health technology assessments, and subsequently clinicians, patients, policy makers and payers in informing individual decision making. ... These models enable appropriate risk stratification for patients with type 2 diabetes mellitus, ... facilitating evidence informed shared decision making.",
+          "reason": "The passage explicitly discusses how the review’s results can be used to inform clinical practice, guideline development, and decision‑making by clinicians, indicating clear practice implications."
+        },
+        {
+          "element_id": "prisma_2020_23d_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_26",
+          "quote": "Models identified by our systematic review, such as RECODe, should help the development and updating of clinical practice guidelines, health technology assessments, and subsequently clinicians, patients, policy makers and payers in informing individual decision making.",
+          "reason": "The text mentions policy makers and health technology assessments, suggesting relevance to policy, but does not provide a detailed discussion of specific policy implications; therefore the coverage is partial."
+        },
+        {
+          "element_id": "prisma_2020_23d_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_26",
+          "quote": "Future research is needed to directly compare promising models... Future research should investigate the usefulness of adding trustworthy prognostic models for diabetes... Future research should focus on validating identified prognostic models in cohorts of adults at higher risk. Finally, our review was unable to assess the clinical usefulness of using risk stratification... Future research should evaluate the benefit of these identified prognostic models in clinical practice and their impact on patient important outcomes.",
+          "reason": "The passage provides explicit, concrete recommendations for multiple areas of future research, satisfying the requirement."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_23d_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24a",
+    "item_label": "24a",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"We prospectively registered our protocol on PROSPERO (CRD42023423075).\",\n      \"reason\": \"The text explicitly provides both the register name (PROSPERO) and the registration number (CRD42023423075), satisfying the requirement.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "We prospectively registered our protocol on PROSPERO (CRD42023423075).",
+          "reason": "The text explicitly provides both the register name (PROSPERO) and the registration number (CRD42023423075), satisfying the requirement."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24b",
+    "item_label": "24b",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"We prospectively registered our protocol on PROSPERO (CRD42023423075).\",\n      \"reason\": \"The authors provide a specific PROSPERO registration number, which serves as a citation/link to the review protocol, satisfying the requirement to indicate where the protocol can be accessed.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "We prospectively registered our protocol on PROSPERO (CRD42023423075).",
+          "reason": "The authors provide a specific PROSPERO registration number, which serves as a citation/link to the review protocol, satisfying the requirement to indicate where the protocol can be accessed."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24c",
+    "item_label": "24c",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24c_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence in the retrieved text describes any amendment to the registration or protocol.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence provides the reason for any amendment, as no amendments are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence indicates the stage of the review at which any amendment was implemented.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24c_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence in the retrieved text describes any amendment to the registration or protocol."
+        },
+        {
+          "element_id": "prisma_2020_24c_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence provides the reason for any amendment, as no amendments are reported."
+        },
+        {
+          "element_id": "prisma_2020_24c_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence indicates the stage of the review at which any amendment was implemented."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_24c_e1",
+        "prisma_2020_24c_e2",
+        "prisma_2020_24c_e3"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_25",
+    "item_label": "25",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_25\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_25_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_26\",\n      \"quote\": \"Funding We do not declare a specific grant for this research from any funding agency in the public, commercial, or not- for- profit sectors.\",\n      \"reason\": \"The statement explicitly declares that no financial or non‑financial support was received, satisfying the requirement to describe all support (or its absence).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_25_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_26\",\n      \"quote\": \"Funding We do not declare a specific grant for this research from any funding agency in the public, commercial, or not- for- profit sectors.\",\n      \"reason\": \"By stating that no grant or funding was received, the manuscript implicitly declares that funders had no role in the review, meeting the requirement to describe the role (or lack thereof) of funders/sponsors.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_25",
+      "elements": [
+        {
+          "element_id": "prisma_2020_25_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_26",
+          "quote": "Funding We do not declare a specific grant for this research from any funding agency in the public, commercial, or not- for- profit sectors.",
+          "reason": "The statement explicitly declares that no financial or non‑financial support was received, satisfying the requirement to describe all support (or its absence)."
+        },
+        {
+          "element_id": "prisma_2020_25_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_26",
+          "quote": "Funding We do not declare a specific grant for this research from any funding agency in the public, commercial, or not- for- profit sectors.",
+          "reason": "By stating that no grant or funding was received, the manuscript implicitly declares that funders had no role in the review, meeting the requirement to describe the role (or lack thereof) of funders/sponsors."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_26",
+    "item_label": "26",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_26\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_26_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_26\",\n      \"quote\": \"Declaration of AI All authors have completed the ICMJE uniform disclosure form at www.icmje.org/disclosure-of-interest/ and declare: no support from any organisation for the submitted work; no financial relationships with any organisations that might have an interest in the submitted work in the previous three years; no other relationships or activities that could appear to have influenced the submitted work.\",\n      \"reason\": \"The authors explicitly disclose that they have no financial support, no relevant financial relationships, and no other activities that could influence the review, satisfying the requirement to disclose all potential competing interests.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_26_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_26\",\n      \"quote\": \"Declaration of AI ... and declare: no support from any organisation for the submitted work; no financial relationships ...; no other relationships or activities that could appear to have influenced the submitted work.\",\n      \"reason\": \"Since the authors report no competing interests, there is no need to describe how any such interests were managed; therefore the conditional element does not apply.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_26",
+      "elements": [
+        {
+          "element_id": "prisma_2020_26_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_26",
+          "quote": "Declaration of AI All authors have completed the ICMJE uniform disclosure form at www.icmje.org/disclosure-of-interest/ and declare: no support from any organisation for the submitted work; no financial relationships with any organisations that might have an interest in the submitted work in the previous three years; no other relationships or activities that could appear to have influenced the submitted work.",
+          "reason": "The authors explicitly disclose that they have no financial support, no relevant financial relationships, and no other activities that could influence the review, satisfying the requirement to disclose all potential competing interests."
+        },
+        {
+          "element_id": "prisma_2020_26_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_26",
+          "quote": "Declaration of AI ... and declare: no support from any organisation for the submitted work; no financial relationships ...; no other relationships or activities that could appear to have influenced the submitted work.",
+          "reason": "Since the authors report no competing interests, there is no need to describe how any such interests were managed; therefore the conditional element does not apply."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_27",
+    "item_label": "27",
+    "model": "openai/gpt-oss-120b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_27\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_27_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_27\",\n      \"quote\": \"All data relevant to the study are included in the article or uploaded as supplementary information.\",\n      \"reason\": \"The manuscript states that all relevant data are provided, but it does not explicitly mention the public availability of data‑collection forms, analytic code, or other review materials required by the element.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_27_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_27\",\n      \"quote\": \"All data relevant to the study are included in the article or uploaded as supplementary information.\",\n      \"reason\": \"The location of the publicly available data is clearly reported (within the article or as supplementary material).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_27_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript indicates that data are publicly available; there is no indication that any materials are only available on request, so the conditional requirement does not apply.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_27",
+      "elements": [
+        {
+          "element_id": "prisma_2020_27_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_27",
+          "quote": "All data relevant to the study are included in the article or uploaded as supplementary information.",
+          "reason": "The manuscript states that all relevant data are provided, but it does not explicitly mention the public availability of data‑collection forms, analytic code, or other review materials required by the element."
+        },
+        {
+          "element_id": "prisma_2020_27_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_27",
+          "quote": "All data relevant to the study are included in the article or uploaded as supplementary information.",
+          "reason": "The location of the publicly available data is clearly reported (within the article or as supplementary material)."
+        },
+        {
+          "element_id": "prisma_2020_27_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript indicates that data are publicly available; there is no indication that any materials are only available on request, so the conditional requirement does not apply."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_27_e1"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  }
+]

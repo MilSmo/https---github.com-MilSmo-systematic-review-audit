@@ -1,0 +1,356 @@
+## BMJ Open
+
+To cite: Scharfe J, PfistererHeise S, Pachanov A, et al .  The effect of minimum volume standards in hospitals (MIVOS): a systematic review. BMJ Open 2025; 15 :e090152. doi:10.1136/ bmjopen-2024-090152
+
+- Prepublication history and additional supplemental material for this paper are available online. To view these files, please visit the journal online (https://doi.org/10.1136/ bmjopen-2024-090152).
+
+Received 18 June 2024 Accepted 31 March 2025
+
+<!-- image -->
+
+[Check for updates](http://crossmark.crossref.org/dialog/?doi=10.1136/bmjopen-2024-090152&domain=pdf&date_stamp=2025-05-06)
+
+© Author(s) (or their employer(s)) 2025. Re-  use permitted under CC BY-  NC. No commercial re-  use. See rights and permissions. Published by BMJ Group.
+
+1 Institute for Health Services and Health Systems Research, Center for Health Services Research Brandenburg, Brandenburg Medical School Theodor Fontane, Neuruppin, Germany 2 Department of Medical Statistics, University Medical Center Göttingen, Gottingen, Germany 3
+
+Department of Evidence Based Medicine, Federal Medical Advisory Service, Essen, Germany
+
+## Correspondence to
+
+Ms Stefanie Pfisterer-  Heise; stefanie.  heise@  mhb-  fontane.  de
+
+<!-- image -->
+
+[BMJGroup](http://bmjopen.bmj.com/)
+
+## The effect of minimum volume standards in hospitals (MIVOS): a systematic review
+
+<!-- image -->
+
+Julia Scharfe , 1 Stefanie Pfisterer-  Heise , 1 Alexander Pachanov, 1 Charlotte Mareike Kugler, 1 Tim Mathes, 2 Zhentian Zhang, 2 Johannes Morche, 3 Dawid Pieper 1
+
+## ABSTRACT
+
+Objectives The relationship between the volume of medical procedures conducted in hospitals and the resulting health outcomes has been described for various surgical and non-  surgical medical interventions. As a policy response to this, several countries have implemented minimum volume standards. However, there is currently a lack of systematically compiled evidence assessing their impact. To close this research gap, we conducted a systematic review on the effects of minimum volume standards in hospitals.
+
+Design Systematic review using the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) approach.
+
+Data sources MEDLINE, PubMed Central and Bookshelf (PubMed), EMBASE (Elsevier), CENTRAL (Cochrane Library), CINHAL (EBSCO), EconLIT (EBSCO), PDQ-  Evidence for Informed Health Policymaking, Health Systems Evidence and three trial registries were searched until June 2023. Additionally, manual searches were conducted.
+
+Eligibility criteria for selecting studies For inclusion in this review, studies must investigate the effects of minimum volume standards. We accepted all categories of outcomes. Following the Cochrane Effective Practice and Organisation of Care (EPOC) criteria, only a strict set of study designs, namely randomised controlled trials, non-  randomised controlled trials, controlled before-  after studies and interrupted time series studies, were included. No restrictions were placed on language, publication date or publication status.
+
+Data extraction and synthesis Two reviewers independently screened titles and abstracts for eligibility, reviewed the full texts and performed data extraction of the included articles. Risk of bias was assessed using the 'Risk Of Bias In Non-  Randomised Studies-of Interventions' (ROBINS-  I) tool. Certainty of evidence was rated using the GRADE approach. For data synthesis and statistical analyses, we adhered to the EPOC guidance.
+
+Results We included nine studies into our systematic review. Overall, the outcomes reported in the studies are heterogeneous, which did not allow for a meta-  analysis, resulting in a narrative analysis of the found evidence. While travel distance increased and length of stay decreased, other reported outcomes such as complications or reoperations were not affected by the introduction of minimum volume standards. Overall, the risk of bias was considered serious for results on outcomes of seven
+
+## STRENGTHS AND LIMITATIONS OF THIS STUDY
+
+- ⇒ Systematically  collated  evidence  on  the  effects  of minimum volume standards in hospitals.
+- ⇒ Inclusion of studies with robust study design instead of  focusing  on  mere  associations  in  observational studies.
+- ⇒ Even after re-  analysis, only nine studies could be included in this systematic review, of which results on outcomes of seven studies are considered to be at serious risk of bias. The certainty of evidence is very low for mortality and low for complications, reoperations, travel distance and length of stay.
+- ⇒ There  is  a  lack  of  research  regarding  the  effects of  minimum  volume  standards  with  robust  study designs, such as randomised controlled trials, controlled  before-  after  studies  and  interrupted  time series  studies  with  at  least  six  data  points  (three before and three after the intervention).
+
+out of the nine included studies and moderate for the remaining two. The certainty of evidence was rated low for complications, reoperations, length of stay and travel distance and very low for mortality (in-  hospital; 30 days). Conclusion This systematic review does not provide conclusive evidence on the effects of minimum volume standards in hospitals regarding any outcomes. The certainty of evidence for mortality (in-  hospital; 30 days) is very low and low for complications, reoperations and travel distance. The results are based on a relatively small number of studies for most outcomes. There is a need for studies researching the effects of minimum volume standards based on a robust study design. PROSPERO registration number CRD42022318883.
+
+## INTRODUCTION
+
+Minimum volume standards are cut-  off thresholds  for  hospitals  allowing  only  those hospitals above a defined threshold to perform  a  given  medical  procedure  in  the future.  As  a  policy  tool,  minimum  volume standards  aim  at  concentrating  the  procedures  for  which  they  are  in  effect  in  hospitals  with  higher  volumes. 1 This  objective  is based  on  evidence  of  the  volume-  outcome Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.
+
+Health Care  .
+
+relationship according to which higher case volumes are associated with improved outcomes. 2  3 In  fact,  evidence for a volume-  outcome relationship has been accumulated for  various  medical  interventions  including  surgeries, dialysis, perinatal as well as intensive care. 4-14
+
+Based on these findings, minimum volume standards have  been  introduced  in  numerous  countries,  particularly for highly specialised surgical procedures. 15 16 Still, criticism remains. First, some studies have raised doubts about the underlying proposed volume-  outcome relationship. 17  18 Furthermore,  uniform  international  guidance for  minimum  volume  standards  is  seldom  established, resulting, for example, in different cut-  off thresholds and different  regulatory  approaches  across  different  countries. 15 Last,  different  effects  of  minimum  volume  standards  have  been  discussed  in  the  literature,  including adverse effects such as an expansion of indications as well as a threat to emergency care. 19
+
+At the same time, there is no reported systematic review collating  evidence  on  the  effects  of  minimum  volume standards  in  hospitals.  In  Germany,  a  rapid  review  was published in 2012 by the Institute for Quality and Efficiency in Healthcare (IQWiG). In total, 10 studies were included in this report. The majority of them were beforeafter studies with only one time point of data collection before  and  one  after  the  implementation  of  minimum volume standards. As two time points in total, however, do not allow for the calculation of time trends, the authors' conclusion was that 'all studies showed a design-  related potential for bias as well as methodological shortcomings that limited the validity of the results'. 20-22
+
+Hence, despite  the  ongoing  debate  about  the  advantages and disadvantages of minimum volume standards, there  has  been  no  systematic  review  on  the  effects  of minimum volume standards in hospitals. This systematic review aims to address this research gap.
+
+## METHODS
+
+Reporting of this systematic review follows the guidelines set forth in the Preferred Reporting Items for Systematic reviews  and  Meta-  Analyses  (PRISMA)  2020  Statement 23 (see online supplemental material 2). A priori, the systematic review was registered in the Prospective Register of Systematic  Reviews  (PROSPERO  registration  number CRD42022318883) and a protocol was published. 22 When recycling text from the protocol, we followed the recommendations  provided  by  the  Text  Recycling  Research Project. 24
+
+## Eligibility criteria
+
+## Population
+
+We included studies dealing with patients irrespective of their condition or the medical treatment received.
+
+## Intervention
+
+The  intervention  was  minimum  volume  standards  in hospitals,  defined  as  a  minimum  of  specific  healthcare procedures (or, specifically, treatments), usually defined by a cut-  off, in a given time frame and region. There were no  restrictions  with  respect  to  the  regulator  (eg,  state authority, regional authority or professional association), the year of implementation, selected standards or cut-  off points and consequences in case of non-  compliance (eg, non-  reimbursement for the performed procedure). We exclusively  took  into  account  enforceable  policies  and disregarded mere recommendations, such as those from medical  societies.  As  an  amendment  to  the  published protocol,  we  also  accepted  policies  which  combined minimum  volume  standards  with  certain  co-  interventions, that is, training of medical staff.
+
+## Comparator
+
+The  comparator  was  no  minimum  volume  standard  in hospitals.
+
+## Outcomes
+
+We considered all outcomes. This includes patient-  related outcomes as well as health system-  related outcomes.
+
+## Design of primary studies
+
+We included the following study designs:
+
+- (Cluster) randomised controlled trials ((C)RCTs)
+- Non-  randomised controlled trials (nRCTs)
+- Controlled before-  after (CBA) studies.
+- Interrupted time series (ITS) with a clearly defined time point of intervention introduction and at least  three  data  points  both  before  and  after  the intervention.
+
+(C)RCTs are often not available to  address  questions about health system interventions. Therefore, we included other  study  designs  based  on  the  recommendations  by the Cochrane Effective Practice and Organisation of Care (EPOC) group. The study design was determined using the Cochrane EPOC group algorithm. 25
+
+No restrictions  were  placed  on  language,  publication date or publication status of the studies. In case an article published in a language other than English or German was deemed eligible for inclusion based on the abstract screening, we had it translated into German.
+
+## Information sources and search strategies
+
+The search strategy was developed by the research team in collaboration with an experienced librarian and checked by an expert according to the Peer Review of Electronic Search  Strategies  guideline. 26 The  search  strategies  are provided in online supplemental material 3.
+
+A  comprehensive  search  of  nine  major  databases/ search engines from their date of inception to 15 June 2023  was  performed.  The  following  databases  were searched to identify relevant studies: MEDLINE, PubMedCentral and Bookshelf (via PubMed),  Embase  (via EMBASE), CENTRAL (via Cochrane Library), CINHAL (via EBSCO),  EconLit (via EBSCO),  PDQ-  Evidence for  Informed  Health  Policymaking  and  Health  Systems Evidence.  We  also  searched  manually  for  additional studies  by  cross-  checking  the  reference  lists  of  relevant Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.
+
+Health Care  .
+
+systematic  reviews  and  all  included  primary  studies. Furthermore, we searched the following trial registries: clinicaltrials.  gov,  German  Clinical  Study  Register  and International  Clinical  Trials  Registry  Platform.  We  also contacted experts for additional studies and conducted a  hand  search  of  available  abstracts  from  conference reports.
+
+## Data management and study selection
+
+All potentially relevant hits were imported to a reference management software  (Rayyan).  Duplicate  publications were removed. Two reviewers (JS, SP-  H) independently screened titles and abstracts of all identified articles. We retrieved the full texts of all potentially relevant articles. Full-  text articles were reviewed in detail regarding inclusion  criteria  by  three  reviewers  (AP,  JS,  SP-  H)  in  pairs of two authors, independently. In case of disagreement, eligibility was determined by discussion and consensus.
+
+## Data collection and quality assessment
+
+A standardised data extraction tool was developed in Excel and calibrated within the team. Using a random sample of three of the included studies, the data extraction form was pilot-  tested and revised, as necessary. Data extraction begun  when  high  inter-  rater  reliability  ( κ ≥ 0.60)  was achieved. 27
+
+Two  authors  (AP,  JS)  independently  performed  data extraction  of  the  included  articles.  Subsequently,  both reviewers checked each other's versions for completeness and accuracy. Discrepancies were resolved by discussion. We extracted  data  on  the  following  items:  sample  size; study design; year(s) of data collection; country/region; data source; procedure or treatment (disease); definition of  minimum  volume  standard;  outcomes;  (unadjusted and adjusted) effect measures with corresponding confidence intervals and/or p values; statistical  models;  and adjusting variables.
+
+For quality assessment, the ROBINS-  I tool, with additions for CBA and ITS study designs, 28 was independently applied by two reviewers (AP, JS). For both data collection and quality assessment, any disagreement was resolved by discussion and consensus.
+
+## Data synthesis
+
+For  data  synthesis  and  statistical  analyses,  we  followed the guidance published by the Cochrane EPOC group. 29 For dichotomous outcomes, we used the risk ratio (RR) obtained  from  statistical  analyses  adjusting  for  baseline  differences  (such  as  Poisson  regressions  or  logistic regressions) or the ratio of RRs (ie, the RR postintervention/RR  preintervention),  if  possible.  For  continuous outcomes,  we  used  the  absolute  change  obtained  from a statistical analysis that was adjusted for baseline differences  (eg,  regression  models,  mixed  models  or  hierarchical models). Alternatively, we used the relative change adjusted for baseline differences in the outcome measures. For ITS studies, if possible, we relied on the results either obtained  by  a  regression  including  time  trends  before and after the intervention adjusting for autocorrelation and  any  periodic  changes  or  auto-  regressive  integrated moving average (ARIMA) models.
+
+If papers with a before-  after design did not provide an appropriate analysis or reporting of results to be included in this systematic review, but presented the needed data points in a readable graph or in a table, we re-  analysed the data  ourselves.  We  used  segmented  regression  models, specifically  ARIMA  models  with  two  external  variables, to estimate level change and slope parameters associated with  the  intervention. 30 While  level  change  reflects  the sudden, sustained shift of the time series at the time of intervention, the slope parameter represents the change in the slope of the time series after intervention. We used the '  auto.  arima'  function  from  the  R-  package  'forecast' to  select  the  most  appropriate  ARIMA model based on Akaike Information Criterion (AIC) and Bayesian Information Criterion (BIC). 95% CIs were calculated for all effect measures. The adequacy of the model was assessed using  residual  plots  and  Ljung-  Box  tests  to  ensure  that the model adequately captures the structure of the data. For data synthesis, we used R.
+
+## Certainty assessment
+
+The certainty of evidence was evaluated by two reviewers (JS, AP) independently, based on the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) approach 31-33 using the GRADEpro GDT software. We chose mortality  (in-  hospital;  30  days),  travel  distance,  complications, reoperations and length of stay as outcomes of importance for assessing the effect of minimum volume standards interventions in hospitals. As strongly recommended in the GRADE handbook, 31 researchers  must  base  the  choice  of outcomes on what is important regarding the focus of the systematic review, not on what outcomes are measured and for which evidence is available. Acknowledging the absence of evidence for a significant outcome is preferable to disregarding it. Therefore, we also chose to add two outcomes from  the  developed  Core  Outcome  Set  for  studies  on centralisation of healthcare services, 34 'routine/experience of surgeons' and 'quality of the medical indication'. Among all  the  groups  of  interest-  holders  investigated,  including patient  representatives,  representatives  of  statutory  health insurance  funds,  representatives  of  medical  societies  and health  services  researchers,  these  outcomes  received  the highest approval rates, which pertains to the significance of outcomes concerning centralisation.
+
+## Advisory board
+
+At the beginning of our systematic review, we established a project advisory board comprising representatives from health services research and decision-  makers. The primary  objectives  of  this  advisory  board  were  to  offer technical  guidance  on  content-  related  matters  and  to ensure the timely dissemination of research results.
+
+## Patient and public involvement
+
+Patients  or  the  public  were  not  involved  in  the  design, conduct  or  reporting  of  our  research.  Both  patient Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.
+
+representatives  and  the  public  were  involved  in  the dissemination of our research findings.
+
+## RESULTS
+
+## Study identification and selection
+
+In total, we located 12  878 records through electronic databases and trial registries, while an additional 642 records were  discovered  through  reference  lists  of  included articles,  forward  citation  searches,  and  by  contacting authors directly. After examining 241 full-  text reports, 9 studies 35-43 were subsequently included (see PRISMA flow diagram in online supplemental material 4).
+
+## Study and patient characteristics
+
+Three studies used data from the Netherlands, 36 40 43 each two from Canada 35 41 and Switzerland, 38 39 followed by one study from the USA 37 and Spain. 42 All data were sourced from administrative databases. Across all  nine  included studies, the total number of patients was 334 197.
+
+The  studies  focused  on  various  surgical  procedures subject  to  minimum  volume  standards,  including  lung cancer  surgeries, 35 bariatric  surgeries, 37 oesophagectomies, 36 liver  resections, 38 gastrectomies 40  43 and  abdominal aortic aneurysm repairs. 42 For pancreatic resections, this systematic review included two studies originating in two different countries with differing minimum volume standards. 39  41 All  study  characteristics  including  study designs,  countries,  patient  characteristics  and  diseases are presented in online supplemental material 1. Furthermore, the characteristics of the various minimum volume standards across the countries included in this systematic review can be found in online supplemental material 5.
+
+## Study designs
+
+Two of the studies included had ITS designs, 35 41 and one study had a CBA study design. 37 Moreover, four studies had  an  uncontrolled  before-  after  study  design, 38  40  42  43 and two studies had a cohort study design. 36 39 In the case that in these studies enough data points for an outcome were presented in a readable graph or a table, the available data was re-  analysed using an ITS design as described above. In total, outcomes measured and reported in six studies (67%) were re-  analysed. All outcomes reported in the included studies, along with information on whether these  outcomes  could  be  re-  analysed,  are  presented  in online supplemental material 1.
+
+## Study results
+
+The  studies  covered  a  broad  range  of  outcomes.  Most studies focused on patient-  related outcomes, while health system-  related  outcomes  were  seldom measured. We  chose  the  following  five  outcomes,  measured  and reported  in  six  studies, 35-37  40-42 as  outcomes  of  importance for assessing the effect of minimum volume standards interventions in hospitals: mortality , travel  distance , complications , reoperations and length of stay . Table 1 presents the  characteristics  of  interventions  and  findings  for  all outcomes of importance.
+
+## Mortality
+
+Three studies measured the impact of minimum volume standards in hospitals on mortality (in-  hospital; 30  days), 35  41  42 while  one  study  focused  on  6 month mortality. 36 Only one study reported a significant reduction  of  the  short-  term  mortality  rate. 42 While  the  effect size for mortality varies among the individual studies, the direction of the effect is  consistent:  since  the  introduction  of  minimum  volume  standards,  the  mortality  rate for the procedures included in the respective studies has decreased. The evidence collated in this systematic review is  very  uncertain  about  the  effect  of  minimum  volume standards on short-  term mortality (in-  hospital;  30  days) (very low certainty of evidence).
+
+## Travel distance
+
+The  distance  travelled  to  treating  hospitals  increased significantly in both studies. 35 40 Minimum volume standards in hospitals may result in a large increase in travel distance (low certainty of evidence).
+
+## Complications and reoperations
+
+Complications 35 37 and reoperations 35 37 were each reported  by  two  studies,  respectively.  The  number  of complications and reoperations was not affected by the introduction of minimum volume standards in hospitals. The evidence suggests that minimum volume standards in hospitals may result in little to no difference in complication or reoperation rates (low certainty of evidence).
+
+## Length of stay
+
+The mean length of stay decreased significantly in one study. 35 Minimum  volume  standards  in  hospitals  may result  in  a  reduction  of  the  mean  length  of  stay  (low certainty of evidence).
+
+## Routine/experience of surgeons and quality of the medical indication
+
+There were no studies investigating the effects of minimum  volume  standards  on  routine/experience  of surgeons and quality of medical indication.
+
+## Risk of bias and certainty assessment
+
+The risk  of  bias  was  moderate  for  results  on  outcomes for two studies and serious for seven studies (see online supplemental material 6).
+
+Across all outcomes examined in the studies, the risk of bias pertaining to the selection of both exposed and non-  exposed populations, as well as classification of intervention,  deviation  from  intended  intervention,  missing data and measurement of outcomes was determined to be low. For two studies, the possibility of bias due to selection of  reported results  was  considered to be low. 35 37 Seven studies were identified as probably having a serious risk of bias mostly due to potential confounding and the selection of reported results. 36 38-43
+
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.
+
+Health Care  .
+
+<!-- image -->
+
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.
+
+|                                                                                              | Findings                                                                                                                                           | OR=0.98; 95% CI 0.95 to 1.01) OR=1.03; 95% CI 0.96 to 1.10 OR=1.00; 95% CI 0.90 to 1.10) Increase by 4% /year (95% CI 0% to 8%) Decrease by 7% /year (95% CI 5% to 9%)                                                                                                                                                                                                          | Step†: 0.13; 95% CI -2.81 to 3.06 Ramp‡: 0.08; 95% CI -0.99 to 1.15 RR=1.14; 95% CI 0.95 to 1.33                                                                                                                                                              | RR=0.90; 95% CI 0.64 to 1.17 Step†: 1.36; 95% CI -2.25 to 4.97 Ramp‡: Increase by 1.77 km/year (95% CI 0.15 to 3.38)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | -0.08, p=0.53 days): days): days): Step†: 3.34; 95% CI -12.00 to 18.68 Ramp‡: -3.44.16; 95% CI -10.30 to 3.43 Step†: 0.16; 95% CI -24.00 to 24.31 Ramp‡: -2.87; 95% CI -13.67 to 7.94 Step†: Decrease by 6.06 deaths/year (95% CI -10.55 to -1.57)                                                                  |
+|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| interventions and findings for outcomes of importance (measured and reported in six studies) | Country Intervention Outcome(s) Regionalisation of lung cancer surgeries to 14 designated high- volume hospitals. Mortality (in hospital; 30 days) | ► MVR Level 1 centres: minimum 150 anatomic pulmonary resections/year. Level 2 centres: minimum 50 anatomic pulmonary resections/year. ► Other criteria: certified surgeons, 24- hour operating room availability, dedicated thoracic units, cancer centre affiliations, and an interdisciplinary team Complications Reoperations Travel distance Length of stay MVR: Mortality | ► As of 2006 minimum 10 oesophagectomies/year ► As of 2011 minimum 20 oesophagectomies/year (6 month) Centres for Medicare & Medicaid Services' restriction of bariatric surgery to centres of excellence. Accreditation required: Complications Reoperations | ► MVR of >125 bariatric surgeries/year ► Other structural measures and processes of care Centralisation of surgical treatment for oesophageal, pancreatic and gastric cancer ► MVR: ► 10 resections/year initially for oesophageal and pancreatic cancer (2005-2006) and gastric cancer (2012) ► 20 resections/year in 2011 for oesophageal and pancreatic cancer and in 2013 for gastric cancer Median travel distance Quality Improvement Interventions in Ontario in 1999: ► publication in a medical journal of an Ontario volume- outcomes study ► report on standards for major pancreas surgery - Minimum volume standard of 10 major pancreatic surgeries/year Mortality (operative) | - Operative mortality is ≤5% - audit and feedback exercise with surgeons Centralisation of abdominal aortic aneurysm (AAA) repairs in 10 selected hospitals: ► MVR of >30 AAA repairs/year Mortality (in hospital; within rAAA OpR Mortality (in hospital; within rAAA EVAR Mortality (in hospital; within iAAA OpR |
+| Characteristics of                                                                           | design Canada                                                                                                                                      | Netherlands                                                                                                                                                                                                                                                                                                                                                                     | USA                                                                                                                                                                                                                                                           | Netherlands Canada                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Spain                                                                                                                                                                                                                                                                                                               |
+| Table 1                                                                                      | Authors Study Bendzsak et al . 2017 35 ITS                                                                                                         | Dikken et al . 2012 36 ITS*                                                                                                                                                                                                                                                                                                                                                     | Dimick et al . 2013 37 CBA                                                                                                                                                                                                                                    | Luijten et al . 2022 40 ITS* Simunovic et al . 2010 41 ITS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Tripodi et al . 2020 42 ITS*                                                                                                                                                                                                                                                                                        |
+
+Health Care  .
+
+BMJ Open: first published as 10.1136/bmjopen-2024-090152 on 6 May 2025. Downloaded from http://bmjopen.bmj.com/
+
+on August 9, 2026
+
+at Institute for Quality and Efficiency in Authors Study design Country Intervention Outcome(s) Findings *Re-  analysed studies. †Step change (also called a level shift): A sudden, sustained change where the time series is shifted either up or down by a given value immediately following the intervention. The step change variable takes the value of 0 prior to the start of the intervention, and one afterwards. 30 ‡Ramp: A change in slope that occurs immediately after the intervention. The ramp variable takes the value of 0 prior (horizontal line) to the start of the intervention and increases by one unit after the date of the intervention. 30 CBA, controlled before-  after ; EVAR, endovascular aortic repair; iAAA, intact abdominal aortic aneurysm; ITS, interrupted time series; MVR, minimum  vol standards; OpR, open repair; rAAA, ruptured abdominal aortic aneurysm; RR, relative  risk. Table 1 Continued
+
+## GRADE
+
+The  overall  rating  for  certainty  in  estimates  was  very low  for  the  outcome  mortality  (in-  hospital;  30  days). The  outcomes  complications,  reoperations,  length  of stay and travel distance were rated as of low certainty of evidence. We also included two outcomes resulting from our  development  of  a  core  outcome  set  for  studies  on centralisation of healthcare services: routine/experience of  surgeons  and  quality  of  the  medical  indication.  The GRADE assessments are reported in the summary of findings table (table 2).
+
+## DISCUSSION
+
+This article presents a rigorous systematic review, including a re-  analysis of observational studies, to evaluate the  effects  of  minimum  volume  standards  in  hospitals. Due to the scarcity of the articles and the heterogeneity of  the  data,  we  conducted  structured  syntheses  without meta-  analyses.  This  led  to  the  conclusion  that  there  is not enough evidence regarding the effects of minimum volume standards in hospitals, yet.
+
+The vast majority of outcomes included in this study are patient-  related.  As  minimum  volume  standards  impact the entire health system and can have a number of effects both at the process level and the health system level, this is  a  noteworthy  result.  This  is  also  the  reason  why  we included two outcomes of our currently developed core outcome set  for  studies  on  centralisation  of  healthcare services into our summary of findings table (table 2).
+
+While there is a consistent trend of decreasing mortality rates  in  all  reported  studies  following  the  introduction of  minimum  volume  standards,  it  is  important  to  note that this effect is statistically significant only in subgroup analyses for endovascular aortic repair 42 and lung cancer surgery  for  patients  aged  70+  years. 35 As  expected,  the distance between the patient's residence and the treating hospital  statistically  significantly  increased  during  the process of centralisation through the implementation of minimum volume standards in both studies. 35 40
+
+Overall, considering the evidence for the volume-  outcome relationship  in  hospitals, 44  45 the  lack  of  findings  in  our systematic review with respect to complication and mortality rates  is  noteworthy.  More  precisely,  evidence  whether  the introduction of minimum volume standards based on the volume-  outcome  relationship,  leads  to  improved  complication and mortality rates, is still lacking. Notably, volumeoutcome studies employ varying thresholds, a critical aspect contributing to the observed outcome in our review. The determination of minimum volume cut-  offs poses a formidable challenge and lacks empirical grounding. Bearing in mind that the certainty of the evidence is considered low or very low, a possible explanation may be that the thresholds for the minimum volume standards collated in this systematic review are still too low.
+
+There is  no  international  consensus  on  what  level  of minimum volume standards  for  certain  medical  procedures yields the best results in terms of treatment quality.
+
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.
+
+Health Care  .
+
+<!-- image -->
+
+| Number of studies                                                                        | No. of participants (study designs)   | Effect                                                                                                                                                                                                                                                                                                                                                                                                                           | Certainty                                                                                      | Importance                         |
+|------------------------------------------------------------------------------------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|------------------------------------|
+|                                                                                          |                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                  | Certainty rating Reason for rating                                                             |                                    |
+| Mortality (in-hospital; 30 days)                                                         | Mortality (in-hospital; 30 days)      | Mortality (in-hospital; 30 days)                                                                                                                                                                                                                                                                                                                                                                                                 | Mortality (in-hospital; 30 days)                                                               | Mortality (in-hospital; 30 days)   |
+| 3 studies (Bendzsak et al ., 35 2017, Simunovic et al . 41 2010 Tripodi et al . 42 2020] | n=23,842 (ITS)                        | While the effect size for mortality varies among the individual studies, the direction of the effect is consistent: since the introduction of minimum volume standards, the mortality rate for the procedures included in the respective studies has decreased. The evidence collated in this systematic review is very uncertain about the effect of minimum volume standards on short- term mortality (in- hospital; 30 days). | ⊕ ◯◯◯ VERY LOW -2 for risk of bias -1 for inconsistency -2 for indirectness -1 for imprecision | CRITICAL                           |
+| Complications                                                                            | Complications                         | Complications                                                                                                                                                                                                                                                                                                                                                                                                                    | Complications                                                                                  | Complications                      |
+| 2 studies (Bendzsak et al . 35 2017 Dimick et al . 37 2013]                              | n = 289,893 (CBA, ITS)                | The evidence suggests that minimum volume standards in hospitals may result in little to no difference in complication rates.                                                                                                                                                                                                                                                                                                    | ⊕⊕ ◯◯ LOW -1 for risk of bias -1 for imprecision                                               | CRITICAL                           |
+| Reoperations                                                                             | Reoperations                          | Reoperations                                                                                                                                                                                                                                                                                                                                                                                                                     | Reoperations                                                                                   | Reoperations                       |
+| 2 studies (Bendzsak et al . 35 2017 Dimick et al . 37 2013]                              | n = 289,893 (CBA, ITS)                | The evidence suggests that minimum volume standards in hospitals may result in little to no difference in reoperation rates.                                                                                                                                                                                                                                                                                                     | ⊕⊕ ◯◯ LOW -1 for risk of bias -1 for imprecision                                               | CRITICAL                           |
+| Travel distance                                                                          | Travel distance                       | Travel distance                                                                                                                                                                                                                                                                                                                                                                                                                  | Travel distance                                                                                | Travel distance                    |
+| 2 studies (Bendzsak et al . 35 2017 Luijten et al . 40 2021]                             | n = 23,384 (ITS)                      | The distance travelled to treating hospitals increased significantly in both studies. Minimum volume standards in hospitals may result in a large increase in travel distance.                                                                                                                                                                                                                                                   | ⊕⊕ ◯◯ LOW -2 for risk of bias                                                                  | IMPORTANT                          |
+| Routine/experience of the surgeons                                                       | Routine/experience of the surgeons    | Routine/experience of the surgeons                                                                                                                                                                                                                                                                                                                                                                                               | Routine/experience of the surgeons                                                             | Routine/experience of the surgeons |
+| 0 studies                                                                                |                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                  |                                                                                                | IMPORTANT                          |
+| Quality of the medical indication                                                        | Quality of the medical indication     | Quality of the medical indication                                                                                                                                                                                                                                                                                                                                                                                                | Quality of the medical indication                                                              | Quality of the medical indication  |
+| 0 studies                                                                                |                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                  |                                                                                                | IMPORTANT                          |
+| Length of stay                                                                           | Length of stay                        | Length of stay                                                                                                                                                                                                                                                                                                                                                                                                                   | Length of stay                                                                                 | Length of stay                     |
+| 1 study 47-53                                                                            | n=16,641 (ITS)                        | The mean length of stay decreased significantly in one study. Minimum volume standards in hospitals may result in a reduction of the mean length of stay.                                                                                                                                                                                                                                                                        | ⊕⊕ ◯◯ LOW -1 for risk of bias, -1 for imprecision                                              | NOT IMPORTANT                      |
+
+For example, this systematic review included two studies originating  in  two  different  countries  with  differing minimum volume standards. 39 41 Additionally, minimum volume standards are often introduced together with other quality-  enhancing measures in medical care in hospitals. Here, the table 'Minimum Volume Standards' in online supplemental material 5 provides a further overview of which additional measures were implemented simultaneously  with  the  introduction  of  the  respective  minimum volume  standards.  This  makes  it  difficult  to  attribute effects to the minimum volume standards intervention.
+
+It  is  both  surprising  and  concerning  that,  in  all  studies in which the adherence to minimum volume standards in hospitals  was  assessed,  a  considerable  number  of  procedures associated with minimum volume standards were still conducted  in  hospitals  with  case  numbers  well  below  the minimum volume threshold. 35 39-41 43 Furthermore, it seems remarkable that there is a considerable amount of volumeoutcome studies, while there is a limited focus on the effects of minimum volume standards, even though these regulations are widely employed in various countries to centralise healthcare services. 15 From this already comparatively small Health Care  .
+
+number  of  studies  on  minimum  volume  standards,  even fewer have been conducted with a robust study design.
+
+This  finding  is  in  line  with  the  results  of  a  systematic review  on  minimum volume standards in day surgery. 20  46 Although the authors a priori had not put any limitations on  the  study  design,  they  finally  concluded:  'The  retrospective study design can at best show correlations between surgeon/hospital  volumes  and  day  surgery  outcomes'. 46 However, to evaluate the effects of minimum volume standards in hospitals, study designs as recommended by EPOC should  be  employed.  Particularly,  as  (C)RCTs  and  nRCTs cannot be conducted in the context of minimum volume standards,  controlled  before-  after  studies  or  interrupted time series studies with at least three data points prior and post-  intervention are needed. Although both study designs are increasingly discussed, they remain relatively unknown and are therefore not widely used. CBA studies are more challenging to design, as they require a comparable control group. In contrast, ITS designs are more feasible in many cases; however, too few observation points are often used. 21 Given  that  most  studies  rely  on  registry  or  administrative data, increasing the number of observation points is generally feasible and could enhance the use of ITS analyses.
+
+## LIMITATIONS
+
+While this systematic review was conducted with care, it is not without limitations. Results on outcomes of seven out of nine studies are considered to be at serious risk of bias. The certainty of evidence is very low for mortality (in-  hospital; 30 days) and low for complications, reoperations, length of stay and travel distance. The results are based on a relatively small number of studies for most outcomes. This is mostly due to our restriction to only include studies with a robust study design (eg, CBA or ITS studies). Only three of nine (33%) included studies had a thorough study design that could be clearly identified as either a CBA 37 or an ITS. 35 41 Despite the efforts to include grey literature, the search for conference abstracts  and  contacting  authors,  there  is  still  a  potential for  publication  bias.  Thus,  reported  outcomes  should  be interpreted with caution. Nevertheless, our study provides valuable insights into the effects of minimum volume standards and the call for studies researching those effects with a robust study design.
+
+## CONCLUSION
+
+There  is  strong  evidence  for  the  existence  of  a  volumeoutcome relationship in healthcare, which provides the rationale for the implementation of minimum volume standards in hospitals. Those standards have been widely implemented, if not with the same cut-  off values in various countries worldwide. 15 Yet, there is a considerable lack of evidence for the effects of the minimum volume standards already in place. To ascertain the effectiveness of the implemented minimum volume standards, we recommend conducting evaluations of existing minimum volume standards as part of the respective implementation process. Those evaluations should be based on robust study designs, such as ITS or CBA study designs.
+
+Contributors JS: Conceptualisation, methodology, investigation, data curation, writing - original draft, visualisation, project administration. SP-  H: Conceptualisation, methodology, investigation, writing - review and editing, visualisation. AP: Conceptualisation, methodology, investigation, writing - review and editing, visualisation. CMK: Conceptualisation, writing - review and editing. TM: Conceptualisation, methodology, formal analysis, data curation, writing review and editing, funding acquisition. ZZ: Formal analysis, data curation, writing - review and editing. JM: Conceptualisation, writing - review and editing. DP: Conceptualisation, methodology, investigation, resources, writing - review and editing, supervision, funding acquisition. DP is responsible for the overall content as guarantor.
+
+Funding This work was supported by the German Federal Ministry of Education and Research (Grant: 01KG2107). The German Federal Ministry of Education and Research did not take part in developing this study. The publication was funded by the Brandenburg Medical School publication fund supported by the Ministry of Science, Research and Cultural Affairs of the State of Brandenburg.
+
+Competing interests None declared.
+
+Patient and public involvement Patients and/or the public were involved in the design, conduct, reporting or dissemination plans of this research. Refer to the Methods section for further details.
+
+Patient consent for publication Not applicable.
+
+Ethics approval Not applicable.
+
+Provenance and peer review Not commissioned; externally peer reviewed.
+
+Data availability statement Data are available upon reasonable request. The data that support the findings of this study are available from the corresponding author (JS) upon reasonable request.
+
+Supplemental material This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-  reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.
+
+Open access This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-  NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-  commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-  commercial. See: http://creativecommons.org/licenses/by-nc/4.0/.
+
+## ORCID iDs
+
+Julia Scharfe http://orcid.org/0000-0003-0998-8038 Stefanie Pfisterer-  Heise http://orcid.org/0000-0002-0138-4865
+
+## REFERENCES
+
+- 1 Kilsdonk MJ, Siesling S, van Dijk BAC, et al . What drives centralisation in cancer care? PLoS One 2018;13:e0195673.
+- 2 Luft HS, Hunt SS, Maerki SC. The volume-  outcome relationship: practice-  makes-  perfect or selective-  referral patterns? Health Serv Res 1987;22:157-82.
+- 3  Luft HS, Bunker JP , Enthoven AC. Should operations be regionalized? The empirical relation between surgical volume and mortality. N Engl J Med 1979;301:1364-9.
+- 4  Hentschker C, Mennicken R. The Volume-  Outcome Relationship Revisited: Practice Indeed Makes Perfect. Health Serv Res 2018;53:15-34.
+- 5  Kanhere MH, Kanhere HA, Cameron A, et al . Does patient volume affect clinical outcomes in adult intensive care units? Intensive Care Med 2012;38:741-51.
+- 6  Kovoor JG, Ma N, Tivey DR, et al . In-  hospital survival after pancreatoduodenectomy is greater in high-  volume hospitals versus lower-  volume hospitals: a meta-  analysis. ANZ J Surg 2022;92:77-85.
+
+Health Care  .
+
+<!-- image -->
+
+- 7  Morche J, Mathes T, Jacobs A, et al . Relationship between volume and outcome for gastroschisis: A systematic review. J Pediatr Surg 2022;57:763-85.
+- 8 Nguyen Y-  L, Wallace DJ, Yordanov Y, et al . The Volume-  Outcome Relationship in Critical Care: A Systematic Review and Metaanalysis. Chest 2015;148:79-92.
+- 9  Pieper D, Mathes T, Marshall MR. A systematic review of the impact of center volume in dialysis. BMC Res Notes 2015;8:812.
+- 10  Pieper D, Mathes T, Neugebauer E, et al . State of evidence on the relationship between high-  volume hospitals and outcomes in surgery: a systematic review of systematic reviews. J Am Coll Surg 2013;216:1015-25.
+- 11 Rashidian A, Omidvari AH, Vali Y, et al . The effectiveness of regionalization of perinatal care services--a systematic review. Public Health (Fairfax ) 2014;128:872-85.
+- 12 Walther F , Küster DB, Bieber A, et al . Impact of regionalisation and case-  volume on neonatal and perinatal mortality: an umbrella review. BMJ Open 2020;10:e037135.
+- 13  Gooiker GA, van Gijn W, Wouters MWJM, et al . Systematic review and meta-  analysis of the volume-  outcome relationship in pancreatic surgery. Br J Surg 2011;98:485-94.
+- 14 Zevin B, Aggarwal R, Grantcharov TP . Volume-  outcome association in bariatric surgery: a systematic review. Ann Surg 2012;256:60-71.
+- 15  Morche J, Renner D, Pietsch B, et al . International comparison of minimum volume standards for hospitals. Health Policy 2018;122:1165-76.
+- 16  Vogel JFA, Barkhausen M, Pross CM, et al . Defining minimum volume thresholds to increase quality of care: a new patient-  oriented approach using mixed integer programming. Eur J Health Econ 2022;23:1085-104.
+- 17  Glance LG, Dick AW, Osler TM, et al . The relation between surgeon volume and outcome following off-  pump vs on-  pump coronary artery bypass graft surgery. Chest 2005;128:829-37.
+- 18 Shackley P , Slack R, Booth A, et al . Is there a positive volumeoutcome relationship in peripheral vascular surgery? Results of a systematic review. Eur J Vasc Endovasc Surg 2000;20:326-35.
+- 19  Pieper D, Neugebauer E. Leserbrief zu "Mindestmengen in der Medizin - gemeinsames Symposium der DGCH und des BDC". 2014. Available: https://www.bdc.de/leserbrief-zu-mindestmengen-in-dermedizin-gemeinsames-symposium-der-dgch-und-des-bdc
+- 20 Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen. Literaturrecherche und Evidenzprüfung zur Überprüfung der Auswirkungen der Regelungen über Mindestmengen gemäß der Richtlinie des G-  BA über die ambulante Behandlung im Krankenhaus. 2012. Available: https://www.iqwig.de/download/v11-01\_rapid-report\_evidenz\_zu\_auswirkungen\_der\_mindestmengenreg elung\_nach\_116b\_sgbv.pdf
+- 21 Bernal JL, Cummins S, Gasparrini A. Interrupted time series regression for the evaluation of public health interventions: a tutorial. Int J Epidemiol 2017;46:348-55.
+- 22 Scharfe J, Pfisterer-  Heise S, Kugler CM, et al . The effect of minimum volume standards in hospitals (MIVOS) - protocol of a systematic review. Syst Rev 2023;12:11.
+- 23  Page MJ, McKenzie JE, Bossuyt PM, et al . The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021;372:n71.
+- 24  Susanne Hall CM, Pemberton M. Text recycling research project. 2021.
+- 25  Cochrane Effective Practice and Organisation of Care Group. What study designs can be considered for inclusion in an EPOC review and what should they be called? 2017. Available: http://epoc. cochrane.org/sites/epoc.cochrane.org/files/public/uploads/EPOC% 20Study%20Designs%20About.pdf
+- 26  McGowan J, Sampson M, Salzwedel DM, et al . PRESS Peer Review of Electronic Search Strategies: 2015 Guideline Statement. J Clin Epidemiol 2016;75:40-6.
+- 27  Landis JR, Koch GG. The measurement of observer agreement for categorical data. Biometrics 1977;33:159-74.
+- 28  Sterne JA, Hernán MA, Reeves BC, et al . ROBINS-  I: a tool for assessing risk of bias in non-  randomised studies of interventions. BMJ 2016;355:i4919.
+- 29  Cochrane Effective Practice and Organisation of Care (EPOC). EPOC resources for review authors. 2017.
+- 30 Schaffer AL, Dobbins TA, Pearson S-  A. Interrupted time series analysis using autoregressive integrated moving average (ARIMA) models: a guide for evaluating large-  scale health interventions. BMC Med Res Methodol 2021;21:58.
+- 31 Meneses-  Echavez JF, Bidonde J, Yepes-  Nuñez JJ, et al . Evidence to decision frameworks enabled structured and explicit development of healthcare recommendations. J Clin Epidemiol 2022;150:51-62.
+- 32  Murad MH, Mustafa RA, Schünemann HJ, et al . Rating the certainty in evidence in the absence of a single estimate of effect. Evid Based Med 2017;22:85-7.
+- 33  Santesso N, Glenton C, Dahm P , et al . GRADE guidelines 26: informative statements to communicate the findings of systematic reviews of interventions. J Clin Epidemiol 2020;119:126-35.
+- 34 Pfisterer-  Heise S, Scharfe J, Kugler CM, et al . Protocol for the development of a core outcome set for studies on centralisation of healthcare services. BMJ Open 2023;13:e068138.
+- 35  Bendzsak AM, Baxter NN, Darling GE, et al . Regionalization and Outcomes of Lung Cancer Surgery in Ontario, Canada. J Clin Oncol 2017;35:2772-80.
+- 36  Dikken JL, Dassen AE, Lemmens VEP , et al . Effect of hospital volume on postoperative mortality and survival after oesophageal and gastric cancer surgery in the Netherlands between 1989 and 2009. Eur J Cancer 2012;48:1004-13.
+- 37  Dimick JB, Nicholas LH, Ryan AM, et al . Bariatric surgery complications before vs after implementation of a national policy restricting coverage to centers of excellence. JAMA 2013;309:792-9.
+- 38  Haak F, Soysal S, Deutschmann E, et al . Incidence of Liver Resection Following the Introduction of Caseload Requirements for Liver Surgery in Switzerland. World J Surg 2022;46:1457-64.
+- 39 Kuemmerli C, Schneider MA, Joliat G-  R, et al . Trends in pancreatic surgery in Switzerland: a survey and nationwide analysis over two decades. Langenbecks Arch Surg 2022;407:3423-35.
+- 40  Luijten JCHBM, Nieuwenhuijzen GAP , Sosef MN, et al . Impact of nationwide centralization of oesophageal, gastric, and pancreatic surgery on travel distance and experienced burden in the Netherlands. Eur J Surg Oncol 2022;48:348-55.
+- 41  Simunovic M, Urbach D, Major D, et al . Assessing the volumeoutcome hypothesis and region-  level quality improvement interventions: pancreas cancer surgery in two Canadian Provinces. Ann Surg Oncol 2010;17:2537-44.
+- 42 Tripodi P , Mestres G, Riambau V, et al . Impact of Centralisation on Abdominal Aortic Aneurysm Repair Outcomes: Early Experience in Catalonia. Eur J Vasc Endovasc Surg 2020;60:531-8.
+- 43  van Putten M, Nelen SD, Lemmens VEPP , et al . Overall survival before and after centralization of gastric cancer surgery in the Netherlands. Br J Surg 2018;105:1807-15.
+- 44 Koh YX, Zhao Y, Tan IE-  H, et al . The impact of hospital volume on liver resection: A systematic review and Bayesian network metaanalysis. Surgery 2024;175:393-403.
+- 45 Roessler M, Walther F , Eberlein-  Gonska M, et al . Exploring relationships between in-  hospital mortality and hospital case volume using random forest: results of a cohort study based on a nationwide sample of German hospitals, 2016-  2018. BMC Health Serv Res 2022;22:1.
+- 46  Stanak M, Strohmaier C. Minimum volume standards in day surgery: a systematic review. BMC Health Serv Res 2020;20:886.
+- 47  Katz JN, Barrett J, Mahomed NN, et al . Association between hospital and surgeon procedure volume and the outcomes of total knee replacement. J Bone Joint Surg Am 2004;86:1909-16.
+- 48 Kreder HJ, Grosso P , Williams JI, et al . Provider volume and other predictors of outcome after total knee arthroplasty: a population study in Ontario. Can J Surg 2003;46:15-22.
+- 49  Maman SR, Andreae MH, Gaber-  Baylis LK, et al . Medicaid insurance status predicts postoperative mortality after total knee arthroplasty in state inpatient databases. J Comp Eff Res 2019;8:1213-28.
+- 50  Norton EC, Garfinkel SA, McQuay LJ, et al . The effect of hospital volume on the in-  hospital complication rate in knee replacement patients. Health Serv Res 1998;33:1191-210.
+- 51  Schulze Raestrup U, Smektala R. Are there relevant minimum procedure volumes in trauma and orthopedic surgery? Zentralbl Chir 2006;131:483-92.
+- 52  Singh JA, Kwoh CK, Boudreau RM, et al . Hospital volume and surgical outcomes after elective hip/knee arthroplasty: a riskadjusted analysis of a large regional database. Arthritis Rheum 2011;63:2531-9.
+- 53 Wei M-  H, Lin Y-  L, Shi H-  Y , et al . Effects of provider patient volume and comorbidity on clinical and economic outcomes for total knee arthroplasty: a population-  based study. J Arthroplasty 2010;25:906-12.
+
+Health Care  .
