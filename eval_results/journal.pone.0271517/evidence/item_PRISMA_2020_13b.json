@@ -1,0 +1,223 @@
+{
+  "item_id": "PRISMA_2020_13b",
+  "item_label": "13b",
+  "checklist_item": "Describe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions.",
+  "semantic_query": "Synthesis methods. Describe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions. the authors describe data preparation methods (handling missing stats, conversions, transformations) used before synthesis. Explicit description of conversions/handling missing summary statistics if performed\nDescribe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions.\nRelevant terminology: missing summary statistics; confidence interval; standard deviation; data harmonization; data preparation; unit conversion; standard error; median to mean; prepared data; missing data; transformation; imputation",
+  "top_evidence": [
+    {
+      "chunk_id": "text_13",
+      "document_title": "1 Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland, 2 Broad Institute of MIT and Harvard, Cambridge, MA, United States of America, 3 Center for Genomic Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA, United States of America,",
+      "type": "text",
+      "section": "Data Extraction",
+      "merged_headings": [],
+      "pages": [
+        6,
+        7
+      ],
+      "word_count": 234,
+      "faiss_score": 0.2706494629383087,
+      "keyword_bonus": 0.11,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.3806494629383087,
+      "adjusted_retrieval_score_norm": 1.0,
+      "rerank_score": -4.089865684509277,
+      "rerank_score_norm": 0.6037661879080848,
+      "final_score": 0.8613181657678297,
+      "text": "Two authors (HMO and LTL) independently extracted the data from the original articles. Extracted values were (1) study setting (year, location, population, age of individuals, if intervention population consisted only of adults or if the intervention population included adults and children); (2) intervention details (randomization level, follow-up length, type of intervention, other interventions, case or index case definition); (3) outcome measure of Influenza Like Illness (if available), outcome measures (number of infected and not infected per intervention arm, covariate adjusted odds ratio effect estimates with respective standard errors); (4) adherence to protocol (e.g., if the study reports non-compliance in treatment, if the study reports that individuals in the control group used a face mask); and (5) main findings for the effects of face mask intervention from the study in addition the conclusion of the paper and supporting evidence for the finding. Three other reviewers (MP, JK, and RS) checked the extracted data for errors. Wecontacted the corresponding author of Aiello 2010 and 2012 [19,20] and Larson et al., [21] to confirm our interpretation of their data and also asked if they were able to provide us with the covariate unadjusted risk ratio for the source control estimates. Unfortunately, the data was no longer available. Furthermore, we contacted the authors of Abaluck et al., [22], and they provided us with the code and the instructions on how to estimate the covariate adjusted odds ratio estimates.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_15",
+      "document_title": "1 Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland, 2 Broad Institute of MIT and Harvard, Cambridge, MA, United States of America, 3 Center for Genomic Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA, United States of America,",
+      "type": "text",
+      "section": "Data Analysis",
+      "merged_headings": [],
+      "pages": [
+        7
+      ],
+      "word_count": 310,
+      "faiss_score": 0.15201623737812042,
+      "keyword_bonus": 0.11,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.2620162373781204,
+      "adjusted_retrieval_score_norm": 0.6796983400476803,
+      "rerank_score": -4.39034366607666,
+      "rerank_score_norm": 0.5588327992031973,
+      "final_score": 0.6373954007521112,
+      "text": "The results for all the outcomes were expressed as risk ratio estimates (RR), odds ratio estimates (OR), and 95% confidence intervals for the effect estimates. We combined the estimates using a random-effects meta-analysis, based on the assumption that it was likely that methodological and clinical heterogeneity affected the results. We estimated the between-study variance by using the DerSimonian and Laird method of moments -estimator. We calculated the 95% confidence intervals using the Wald method. Furthermore, to account for differences at the baseline that were present despite the randomization, a subset of papers had provided covariate and intracluster correlated adjusted odds ratio estimates of the intervention effect. Therefore, the adjusted analyses are shown in odds ratio scale. Weassessed the homogeneity of the study-specific effect sizes using the ξ 2 test and quantified statistical inconsistency by using the I 2 statistic [24]. We used a subgroup analysis to explore heterogeneity in the estimates of the face mask effects according to the following: source control, adherence to protocol, study populations, and study settings. We ran metaregressions to evaluate how the type of setting, age, non-compliance to treatment (not using a face mask despite being in the treatment arm) or non-compliance to control (using a face mask despite being in the control arm) was associated with the effects of the intervention. Finally, we computed meta-analyses with leave-one-out analysis to account for a potential bias created by any single study. Weevaluated the small study effects by generating a contour-enhanced funnel plot to examine the bias in the results of the meta-analysis as intervention effects from smaller studies tend to differ from those estimated in larger ones, which can result from reporting biases, methodological or clinical heterogeneity, or other factors. Weconducted all our analyses using the meta , metafor , nnt , and dmetar packages in R version 4.02 and using meta in Stata version 17.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_10",
+      "document_title": "1 Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland, 2 Broad Institute of MIT and Harvard, Cambridge, MA, United States of America, 3 Center for Genomic Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA, United States of America,",
+      "type": "text",
+      "section": "Methods",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 86,
+      "faiss_score": 0.08841455727815628,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.23841455727815627,
+      "adjusted_retrieval_score_norm": 0.6159754051111538,
+      "rerank_score": -3.822523593902588,
+      "rerank_score_norm": 0.6437444452557493,
+      "final_score": 0.6256945691617622,
+      "text": "This systematic review was reported according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses [17]. Our review question was: For the individuals at risk of contracting respiratory infections, does a face mask intervention reduce the risk for respiratory infections of those individuals in the intervention arm compared with those individuals that are not part of the face mask intervention? Our review protocol was registered on PROSPERO in November 2020 (registration number CRD42020205523), and it was updated on May 12, 2022 and September 22, 2022.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_16",
+      "document_title": "1 Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland, 2 Broad Institute of MIT and Harvard, Cambridge, MA, United States of America, 3 Center for Genomic Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA, United States of America,",
+      "type": "text",
+      "section": "Patient And Public Involvement",
+      "merged_headings": [],
+      "pages": [
+        7
+      ],
+      "word_count": 70,
+      "faiss_score": 0.17862191796302795,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.17862191796302795,
+      "adjusted_retrieval_score_norm": 0.45453933578798283,
+      "rerank_score": -2.491987705230713,
+      "rerank_score_norm": 0.8427123894613024,
+      "final_score": 0.5903999045736447,
+      "text": "Our study did not involve patients or public participants because we used secondary data. To enhance readability and reproducibility we have asked and received feedback from members of the public and the scientific community. This feedback has provided us with insight into how to clarify the representation of analyses in the manuscript. Neither patients nor the public were involved in the design, conduct, reporting or dissemination plans of our research.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_27",
+      "document_title": "1 Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland, 2 Broad Institute of MIT and Harvard, Cambridge, MA, United States of America, 3 Center for Genomic Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA, United States of America,",
+      "type": "text",
+      "section": "Supporting Information",
+      "merged_headings": [],
+      "pages": [
+        15,
+        16
+      ],
+      "word_count": 74,
+      "faiss_score": 0.19502714276313782,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.19502714276313782,
+      "adjusted_retrieval_score_norm": 0.49883232968200986,
+      "rerank_score": -4.211635112762451,
+      "rerank_score_norm": 0.5855568235362572,
+      "final_score": 0.5291859025309964,
+      "text": "S1 Checklist. PRISMA 2020 abstract checklist. (DOCX) S2 Checklist. PRISMA 2020 checklist. (DOCX) S1 Fig. Funnel plot odds ratio estimates. (PDF) S2 Fig. Risk ratio estimates in adults. (PDF) S3 Fig. Leave-one-out analysis using risk ratio estimates. (PDF) S4 Fig. Leave-one-out analysis using odds ratio estimates. (PDF) S1 Table. Description of individual studies that are part of the manuscript. (ZIP) S2 Table. Meta-regression analysis. (DOCX) S1 File. R code for face mask paper. (ZIP)",
+      "images": []
+    },
+    {
+      "chunk_id": "text_25",
+      "document_title": "1 Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland, 2 Broad Institute of MIT and Harvard, Cambridge, MA, United States of America, 3 Center for Genomic Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA, United States of America,",
+      "type": "text",
+      "section": "Limitations",
+      "merged_headings": [],
+      "pages": [
+        14,
+        15
+      ],
+      "word_count": 237,
+      "faiss_score": 0.19480833411216736,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.19480833411216736,
+      "adjusted_retrieval_score_norm": 0.49824156117018004,
+      "rerank_score": -4.419506549835205,
+      "rerank_score_norm": 0.5544717901707125,
+      "final_score": 0.5179221413203664,
+      "text": "Our analysis has the following three limitations. The first is that the populations studied here had residual heterogeneity: because respiratory infections are time- population and exposuredependent, it is possible that differences in follow-up times and in symptom assessments (influenza-like illness, respiratory illness, or COVID-19) have affected the power to detect associations. Second, while all the articles reported the numbers in the intervention and control arms, we did not have access to the original data with covariates and thus could not perform a full analysis with all the covariate adjusted odds ratio estimates or by adjusting withinstudy variables. As discussed, we also did not have access to the covariate unadjusted values for the secondary transmission (source control) in one of the articles [35]. Our study may also suffer from the potential bias caused by intracluster correlation as the clustered nature of original studies had not been addressed in the unadjusted effect estimates that were provided by the studies. As a work-around, we performed a meta-analysis including the within-study covariate adjusted odds ratios. However, this method comes with limitations of its own as, in practice, no studies had exactly the same covariate definitions, which biases the estimates. Third, the mask types and instructions for mask use together with follow-up times and type of study population varied by study, which likely increases between-study heterogeneity. We accounted for some of the biases through a subgroup analysis by age, setting, and noncompliance.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_8",
+      "document_title": "1 Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland, 2 Broad Institute of MIT and Harvard, Cambridge, MA, United States of America, 3 Center for Genomic Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA, United States of America,",
+      "type": "text",
+      "section": "Trial Registration",
+      "merged_headings": [],
+      "pages": [
+        2
+      ],
+      "word_count": 3,
+      "faiss_score": 0.10322539508342743,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.10322539508342743,
+      "adjusted_retrieval_score_norm": 0.2509738395373827,
+      "rerank_score": -1.440176010131836,
+      "rerank_score_norm": 1.0,
+      "final_score": 0.5131329956992987,
+      "text": "PROSPEROregistration number CRD42020205523.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_3",
+      "document_title": "1 Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland, 2 Broad Institute of MIT and Harvard, Cambridge, MA, United States of America, 3 Center for Genomic Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA, United States of America,",
+      "type": "text",
+      "section": "Design",
+      "merged_headings": [],
+      "pages": [
+        1
+      ],
+      "word_count": 19,
+      "faiss_score": 0.11522900313138962,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.11522900313138962,
+      "adjusted_retrieval_score_norm": 0.28338276684273256,
+      "rerank_score": -2.2134692668914795,
+      "rerank_score_norm": 0.8843619545512109,
+      "final_score": 0.4937254825406999,
+      "text": "Systematic review and meta-analysis. We evaluated the risk of bias using the Cochrane Risk of Bias 2 tool (ROB2).",
+      "images": []
+    },
+    {
+      "chunk_id": "text_5",
+      "document_title": "1 Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland, 2 Broad Institute of MIT and Harvard, Cambridge, MA, United States of America, 3 Center for Genomic Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA, United States of America,",
+      "type": "text",
+      "section": "Eligibility Criteria For Selecting Studies",
+      "merged_headings": [],
+      "pages": [
+        1
+      ],
+      "word_count": 34,
+      "faiss_score": 0.13630050420761108,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.13630050420761108,
+      "adjusted_retrieval_score_norm": 0.3402743900834462,
+      "rerank_score": -2.9458773136138916,
+      "rerank_score_norm": 0.7748378713478448,
+      "final_score": 0.4923716085259856,
+      "text": "Weincluded randomized controlled trials investigating the use of face mask intervention in mitigating the risk of spreading respiratory infections across different exposure settings. Competing interests: The authors have declared that no competing interests exist.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_21",
+      "document_title": "1 Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland, 2 Broad Institute of MIT and Harvard, Cambridge, MA, United States of America, 3 Center for Genomic Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA, United States of America,",
+      "type": "text",
+      "section": "Face Masks And Respiratory Infections",
+      "merged_headings": [],
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "word_count": 900,
+      "faiss_score": 0.10783021152019501,
+      "keyword_bonus": 0.11,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.217830211520195,
+      "adjusted_retrieval_score_norm": 0.5603990681770927,
+      "rerank_score": -6.007408142089844,
+      "rerank_score_norm": 0.317017454589431,
+      "final_score": 0.4752155034214111,
+      "text": "While our meta-analysis using the covariate unadjusted risk ratio estimates found no statistically significant association between a face mask intervention and reduced respiratory infections over all studies and subgroups RR = 0.9772 [0.8582-1.1128], p = 0.728, I 2 = 81.6%, pheterogeneity < 0.0001, Fig 3), our subgroup analysis revealed that a face mask intervention reduced respiratory infections in a community setting (RR = 0.890 [0.812-0.975], p = 0.0125, I 2 = 54.0%, p-heterogeneity = 0.0422, Fig 3) and when the intervention group consisted only of adults (RR = 0.8795 [0.7861-0.9839], p = 0.0249, I 2 = 49.0%, p-heterogeneity = 0.0560, S2 Fig). The results of our other subgroup analyses (hospital, household, or source control) were not statistically significant. Moreover, our meta-regression results using the adjusted odds ratios also showed between-setting heterogeneity and the effects were affected by non-compliance when controls also used masks (S2 Table). This result is in line with the general notion of infection transmission being context, setting, and population dependent. Our systematic review showed that the studies had baseline differences after randomization. Furthermore, the baseline differences and the between-setting heterogeneity were reflected in high I 2 heterogeneity estimate values and low heterogeneity p-values in our analyses using covariate unadjusted relative risk effect estimates (Fig 3). Thus, to account for the baseline differences in our meta-analysis, we performed analyses using the covariate adjusted odds ratio estimates from those studies that had accounted for the baseline differences between the study arms. Our analysis using the adjusted odds ratio estimates (when available) did not find a statistically significant effect of a face mask intervention (OR = 0.9177 [0.8132-1.0356], p = 0.1637, I 2 = 48.4%, p-heterogeneity = 0.0115, Fig 4). Similarly to our results from the subgroup analysis based on the covariate unadjusted risk ratios, we found that face mask intervention reduced respiratory infections in a community setting (OR = 0.8770 [0.7736-0.9942], p = 0.0402, I 2 = 50.1% p-heterogeneity = 0.0506) (Fig 4). However, in the setting focusing on adults only the results were not statistically significant (OR = 0.8822 [0.7692-1.0116], p = 0.0728, I 2 = 47.5% p-heterogeneity = 0.0548). In addition to the substantial differences resulting from unadjusted versus covariate adjusted estimates, it is also possible that individual studies may also bias the estimates of the meta-analysis. Thus, we performed a meta-analysis through a leave-one-out analysis to https://doi.org/10.1371/journal.pone.0271517.g003 Fig 3. Effect of face masks across 17 studies with covariate unadjusted risk ratio estimates and subgroup analysis by community setting. Pooled effects across 17 studies of unadjusted risk ratio estimates for which the numbers of infected for each intervention arm were available using a random-effects metaanalysis model. TE = treatment effect and seTE = standard error of treatment effect, p-value = ξ 2 is the p-value for the test of homogeneity of study-specific effect sizes. examine if a particular study causes a systematic association toward a given direction (S3 Fig for risk ratios). The effect sizes were all systematically at RR < 1 but not statistically significant when any single study was left out. Furthermore, when using covariate adjusted effect estimates our leave-one-out analysis found that one study, [38], biased the results towards a null effect-a face mask intervention did reduce respiratory infections (OR = 0.8892 [0.80610.9810], p = 0.0192 I 2 = 28.8%, p-heterogeneity = 0.1282, S4 Fig) when study [38] was excluded from the analysis. Moreover, the trial in [38] coincided with a mask and hand washing campaign in the study location (Thailand) and there was higher level mask and handwashing in the control arm and an additional increase in reported symptoms in the study arm with combined hand washing and face mask intervention. Furthermore, one of the largest studies, [28], had a significant level of not adhering to protocol (non-compliance) in the control arm, with 49% of the controls using face masks. In addition, the second largest study, which had the longest follow-up time, had a substantial https://doi.org/10.1371/journal.pone.0271517.g004 Fig 4. Effect of face masks across 18 studies using covariate adjusted odds ratios. Pooled effects across all 18 studies using a random-effects meta-analysis model. Seven of the 18 studies provided data for adjusted odds ratio estimates. For those studies that did not report adjusted odds ratio estimates we calculated unadjusted odds ratio estimates using the numbers of infected reported in the paper. TE = treatment effect and seTE = standard error of treatment effect, pvalue = ξ 2 is the p-value for the test of homogeneity of study-specific effect sizes. difference in rates of infection and benefit of masks when measured as secondary attack rates by intervention group [35]. We were in contact with the author of the study but could not explore the possible causes because we did not have access to the secondary transmission values or covariates. In 11 of the studies the intervention consisted solely of face mask use, while in seven articles the intervention also included guidance on appropriate hand hygiene together with the face mask use. This subgroup analysis for the face mask with hand hygiene guidance does not find support for a face mask intervention (OR = 0.8910 [0.6815 -1.1649], p = 0.3987, I 2 = 66.5%, pheterogeneity = 0.0065). However, in this subgroup analysis we find that a face mask intervention combined with hand hygiene reduced respiratory infections (OR = 0.7968 [0.7038-0.9021], p = 0.0003, I 2 = 0%, p-heterogeneity = 0.4366) when [38] was excluded from the analysis.",
+      "images": []
+    }
+  ]
+}

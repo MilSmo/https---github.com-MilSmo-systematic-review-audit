@@ -8,8 +8,10 @@ import mimetypes
 import os
 import re
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, asdict
 from pathlib import Path
+from threading import local
 from typing import Any, Dict, List, Optional, Set, Tuple
 
 from docling.datamodel.base_models import InputFormat
@@ -734,7 +736,7 @@ MARGINALIA_PATTERNS = re.compile(
     r"|(?:academic\s+|handling\s+)?editor\s*:"
     r"|received\s*:|revised\s*:|accepted\s*:|published\s*:"
     r"|open access|check for updates"
-    r"|ĂĹ \s*\d{4}|creative commons)",
+    r"|ÄÂÄš \s*\d{4}|creative commons)",
     re.I,
 )
 
@@ -753,6 +755,7 @@ FRONT_MATTER_START_PATTERN = re.compile(
 CALLOUT_HEADING_PATTERNS = re.compile(
     r"^\s*("
     r"what (is|this|was) [\w\s]+|"
+    r"how this study might affect[\w\s,/&\-]*|"
     r"key (messages|points|findings)|"
     r"summary (box|points)|"
     r"(box|panel)\s*\d*\s*[:.\-]?.*|"
@@ -1043,6 +1046,61 @@ def _marginalia_columns(
     return marginal
 
 
+def _callout_columns(
+    entries: List[Dict[str, Any]],
+    marginal_columns: Set[int],
+    cfg: LayoutConfig,
+) -> Set[int]:
+    """
+    Detect a dedicated side column containing a summary/key-points panel.
+
+    Such panels do not necessarily span multiple article columns. A common
+    journal layout uses a normal-width right-hand column headed, for example,
+    "WHAT IS ALREADY KNOWN ON THIS TOPIC". Geometry alone therefore makes the
+    panel look like ordinary Abstract or Introduction text.
+
+    Only the first few entries are inspected and a specific callout heading is
+    required. This avoids treating an ordinary body column beginning with a
+    generic heading such as METHODS as a callout.
+    """
+    if not cfg.detect_callouts:
+        return set()
+
+    by_column: Dict[int, List[Dict[str, Any]]] = defaultdict(list)
+
+    for entry in entries:
+        if entry.get("spanning") or entry.get("marginalia"):
+            continue
+        by_column[int(entry.get("column", 0))].append(entry)
+
+    callout_columns: Set[int] = set()
+
+    for column, column_entries in by_column.items():
+        if column in marginal_columns:
+            continue
+
+        ordered_entries = sorted(
+            (
+                entry
+                for entry in column_entries
+                if entry.get("text")
+                and entry.get("kind") in {"heading", "text"}
+            ),
+            key=lambda entry: (
+                entry.get("top", 0.0),
+                entry.get("x0", 0.0),
+            ),
+        )
+
+        if any(
+            CALLOUT_HEADING_PATTERNS.match(entry["text"].strip())
+            for entry in ordered_entries[:4]
+        ):
+            callout_columns.add(column)
+
+    return callout_columns
+
+
 def _group_spanning(
     spanning: List[Dict[str, Any]],
     page_height: float,
@@ -1169,6 +1227,24 @@ def _order_page_entries(
         entry["spanning"] = len(columns) > 1 and occupied >= 2
         entry["marginalia"] = (not entry["spanning"]) and best in marginal_columns
 
+    dedicated_callout_columns = _callout_columns(
+        entries=entries,
+        marginal_columns=marginal_columns,
+        cfg=cfg,
+    )
+
+    for entry in entries:
+        if (
+            not entry["spanning"]
+            and not entry["marginalia"]
+            and entry["column"] in dedicated_callout_columns
+        ):
+            entry["callout"] = True
+            entry["callout_column"] = True
+            entry["span_group"] = (
+                f"p{page_no}_c{entry['column']}_callout"
+            )
+
     spanning = sorted(
         (e for e in entries if e["spanning"]),
         key=lambda e: (e["top"], e["x0"]),
@@ -1259,6 +1335,7 @@ def order_document_items(
             "spanning": False,
             "marginalia": False,
             "callout": False,
+            "callout_column": False,
             "span_group": None,
         }
         order += 1
@@ -1519,6 +1596,93 @@ def _finalise_blocks(
     return finalised
 
 
+def collapse_chunk_section_metadata(
+    chunks: List[Dict[str, Any]],
+    document_title: str,
+) -> None:
+    """
+    Store the complete section hierarchy in `section` only.
+
+    During parsing, `heading_path` and `merged_headings` remain useful for
+    assigning content, tables, and images. Before the chunks are saved, their
+    values are combined into a single section label such as
+    "Abstract > Objectives", and both auxiliary fields are removed.
+    """
+    title_key = clean_text(document_title).casefold()
+
+    for chunk in chunks:
+        section = clean_text(str(chunk.get("section", "") or ""))
+        raw_path = str(chunk.get("heading_path", "") or "")
+        raw_merged = chunk.get("merged_headings", []) or []
+
+        path_parts = [
+            clean_text(part)
+            for part in raw_path.split(">")
+            if clean_text(part)
+        ]
+        merged_parts = [
+            clean_text(part)
+            for heading in raw_merged
+            for part in str(heading).split(">")
+            if clean_text(part)
+        ]
+
+        # The article title is an identifier, not a section in the reporting
+        # hierarchy. Keep it only for its own title/authors chunk.
+        if section.casefold() != title_key:
+            path_parts = [
+                part
+                for part in path_parts
+                if part.casefold() != title_key
+            ]
+            merged_parts = [
+                part
+                for part in merged_parts
+                if part.casefold() != title_key
+            ]
+
+        path_parts = [
+            part for part in path_parts
+            if part.casefold() != "unknown"
+        ]
+        merged_parts = [
+            part for part in merged_parts
+            if part.casefold() != "unknown"
+        ]
+
+        if not path_parts:
+            path_parts = [section] if section else []
+        elif section and path_parts[-1].casefold() != section.casefold():
+            path_parts.append(section)
+
+        existing = {part.casefold() for part in path_parts}
+        new_merged = [
+            part
+            for part in merged_parts
+            if part.casefold() not in existing
+        ]
+
+        # Carried headings describe parents of the leaf section, so insert
+        # them immediately before the last path component.
+        if path_parts:
+            combined = path_parts[:-1] + new_merged + path_parts[-1:]
+        else:
+            combined = new_merged
+
+        unique_parts: List[str] = []
+        seen: Set[str] = set()
+        for part in combined:
+            key = part.casefold()
+            if key in seen:
+                continue
+            seen.add(key)
+            unique_parts.append(part)
+
+        chunk["section"] = " > ".join(unique_parts) or section or "Unknown"
+        chunk.pop("heading_path", None)
+        chunk.pop("merged_headings", None)
+
+
 def build_chunks_from_layout(
     doc: Any,
     ordered: List[Dict[str, Any]],
@@ -1594,7 +1758,16 @@ def build_chunks_from_layout(
                     if entry["text"]
                     else "Callout"
                 )
-                path = [h for _, h in heading_stack] + [heading]
+                # A dedicated side column is an independent document region,
+                # not a subsection of whichever body heading happened to be
+                # processed immediately before it (for example, Abstract or
+                # Introduction). An inline/spanning callout may still retain
+                # the surrounding body section in its heading path.
+                path = (
+                    [heading]
+                    if entry.get("callout_column")
+                    else [h for _, h in heading_stack] + [heading]
+                )
                 active_callout = _new_block("callout", heading, path, page)
                 active_callout_key = key
                 if kind in {"heading", "text"}:
@@ -1695,9 +1868,12 @@ def chunk_markdown(
     """
     Create exactly one chunk for each complete Markdown section.
 
-    Fallback parser, used with --parse-mode markdown. Headings that carry no
-    body text are no longer discarded: they are carried forward and attached
-    to the next chunk through `merged_headings`.
+    Used by --parse-mode markdown and by the automatic fallback when Docling's
+    Markdown reading order is more reliable than its provenance boxes.
+    Recognised key-points headings become independent callout chunks, while
+    editorial material before the first heading becomes a marginalia chunk.
+    Headings that carry no body text are carried forward and attached to the
+    next ordinary text chunk through `merged_headings`.
 
     max_words and overlap_words are retained for CLI compatibility,
     but are intentionally not used.
@@ -1705,7 +1881,7 @@ def chunk_markdown(
     sections = re.split(r"\n(?=#{1,6}\s+)", markdown)
 
     chunks: List[Dict[str, Any]] = []
-    chunk_number = 0
+    type_counters: Dict[str, int] = defaultdict(int)
     section_occurrences: Dict[str, int] = {}
     heading_stack: List[Tuple[int, str]] = []
     carried: List[str] = []
@@ -1732,6 +1908,9 @@ def chunk_markdown(
             section = "Unknown"
             body = section_text
 
+        # Image placeholders belong to the separate image records and should
+        # not become literal chunk text.
+        body = re.sub(r"<!--.*?-->", " ", body, flags=re.S)
         text = clean_text(body)
 
         if not text:
@@ -1739,19 +1918,42 @@ def chunk_markdown(
                 carried.append(section)
             continue
 
+        chunk_type = "text"
+
+        if (
+            first_line.startswith("#")
+            and CALLOUT_HEADING_PATTERNS.match(raw_heading.strip())
+        ):
+            chunk_type = "callout"
+        elif (
+            section == "Unknown"
+            and MARGINALIA_PATTERNS.search(text)
+        ):
+            chunk_type = "marginalia"
+            section = "Front Matter"
+
         occurrence = section_occurrences.get(section, 0)
         section_occurrences[section] = occurrence + 1
 
-        heading_path = " > ".join(h for _, h in heading_stack) or section
+        heading_path = (
+            section
+            if chunk_type in {"callout", "marginalia"}
+            else " > ".join(h for _, h in heading_stack) or section
+        )
+
+        chunk_index = type_counters[chunk_type]
+        type_counters[chunk_type] += 1
 
         chunks.append(
             {
-                "chunk_id": f"text_{chunk_number}",
-                "type": "text",
+                "chunk_id": f"{chunk_type}_{chunk_index}",
+                "type": chunk_type,
                 "section": section,
                 "heading": section,
                 "heading_path": heading_path,
-                "merged_headings": carried,
+                "merged_headings": (
+                    carried if chunk_type == "text" else []
+                ),
                 "section_index": section_index,
                 "section_occurrence": occurrence,
                 "pages": [],
@@ -1761,8 +1963,6 @@ def chunk_markdown(
             }
         )
         carried = []
-
-        chunk_number += 1
 
     if carried and chunks:
         chunks[-1]["merged_headings"] = chunks[-1]["merged_headings"] + carried
@@ -1812,10 +2012,14 @@ def extract_and_attach_images(
 
     remaining_by_section: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
     for chunk in chunks:
-        if chunk.get("type") == "text":
+        if chunk.get("type") in {"text", "callout"}:
             remaining_by_section[str(chunk.get("section", "Unknown"))].append(chunk)
 
-    text_chunks = [chunk for chunk in chunks if chunk.get("type") == "text"]
+    text_chunks = [
+        chunk
+        for chunk in chunks
+        if chunk.get("type") in {"text", "callout"}
+    ]
 
     current_section = "Unknown"
     last_text_chunk = text_chunks[0] if text_chunks else None
@@ -1860,6 +2064,41 @@ def extract_and_attach_images(
         len(chunk.get("images", []))
         for chunk in chunks
     )
+
+
+def _markdown_has_callout_headings(markdown: str) -> bool:
+    """Return True when Markdown exposes a recognised key-points section."""
+    headings = re.findall(
+        r"(?m)^#{1,6}\s+(.+?)\s*$",
+        markdown,
+    )
+    return any(
+        CALLOUT_HEADING_PATTERNS.match(heading.strip())
+        for heading in headings
+    )
+
+
+def _build_markdown_chunks(
+    doc: Any,
+    markdown: str,
+    images_dir: Path,
+    max_words: int,
+    overlap_words: int,
+) -> Tuple[List[Dict[str, Any]], int]:
+    text_chunks = chunk_markdown(
+        markdown,
+        max_words,
+        overlap_words,
+    )
+    table_chunks = extract_tables(doc)
+    chunks = text_chunks + table_chunks
+
+    num_images = extract_and_attach_images(
+        doc=doc,
+        chunks=chunks,
+        images_dir=images_dir,
+    )
+    return chunks, num_images
 
 
 def _image_to_data_url(image_path: str | Path) -> str:
@@ -2006,7 +2245,7 @@ def convert_pdf(
     output_dir: Path,
     max_words: int,
     overlap_words: int,
-    parse_mode: str = "layout",
+    parse_mode: str = "auto",
     layout_config: Optional[LayoutConfig] = None,
 ) -> Dict[str, Any]:
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -2046,7 +2285,10 @@ def convert_pdf(
 
     images_dir = output_dir / "images"
 
-    if parse_mode == "layout":
+    requested_parse_mode = parse_mode
+    effective_parse_mode = parse_mode
+
+    if parse_mode in {"auto", "layout"}:
         ordered = order_document_items(doc, layout_config)
         chunks = build_chunks_from_layout(
             doc=doc,
@@ -2055,20 +2297,43 @@ def convert_pdf(
             cfg=layout_config,
         )
         num_images = sum(len(c.get("images", [])) for c in chunks)
-    else:
-        text_chunks = chunk_markdown(
-            markdown,
-            max_words,
-            overlap_words,
-        )
-        table_chunks = extract_tables(doc)
-        chunks = text_chunks + table_chunks
 
-        num_images = extract_and_attach_images(
-            doc=doc,
-            chunks=chunks,
-            images_dir=images_dir,
+        layout_callouts = sum(
+            chunk.get("type") == "callout"
+            for chunk in chunks
         )
+        should_fallback = (
+            parse_mode == "auto"
+            and _markdown_has_callout_headings(markdown)
+            and layout_callouts == 0
+        )
+
+        if should_fallback:
+            print(
+                "    Layout boxes did not identify callout regions; "
+                "using Docling's Markdown reading order instead."
+            )
+            chunks, num_images = _build_markdown_chunks(
+                doc=doc,
+                markdown=markdown,
+                images_dir=images_dir,
+                max_words=max_words,
+                overlap_words=overlap_words,
+            )
+            effective_parse_mode = "markdown_fallback"
+    else:
+        chunks, num_images = _build_markdown_chunks(
+            doc=doc,
+            markdown=markdown,
+            images_dir=images_dir,
+            max_words=max_words,
+            overlap_words=overlap_words,
+        )
+    collapse_chunk_section_metadata(
+        chunks=chunks,
+        document_title=document_title,
+    )
+
     for chunk in chunks:
         chunk["document_title"] = document_title
     print(f"{document_title}: {len(chunks)} chunks, {num_images} images")
@@ -2081,7 +2346,8 @@ def convert_pdf(
         "source_file": str(pdf_path.resolve()),
         "document_title": document_title,
         "markdown_file": str(markdown_path.resolve()),
-        "parse_mode": parse_mode,
+        "requested_parse_mode": requested_parse_mode,
+        "parse_mode": effective_parse_mode,
         "num_chunks": len(chunks),
         "num_text_chunks": counts["text"],
         "num_table_chunks": counts["table"],
@@ -2117,16 +2383,12 @@ def convert_pdf(
 # ---------------------------------------------------------------------------
 
 DEFAULT_MODELS = [
-    # Closed
-    "openai/gpt-5",
-    "anthropic/claude-sonnet-4.5",
-    "google/gemini-3.5-flash",
-    # Open-weight
-    "google/gemma-4-31b-it",
+    "z-ai/glm-5.3-flash",
     "qwen/qwen3.5-35b-a3b",
-    "deepseek/deepseek-v3.2",
-    "openai/gpt-oss-120b",
-    "mistralai/mistral-small-2603",
+    "google/gemini-3.5-flash-lite",
+    "anthropic/claude-sonnet-4.5",
+    "openai/gpt-5.4-nano",
+    "mistralai/mistral-medium-3-5",
 ]
 
 SYSTEM_PROMPT = """
@@ -2155,7 +2417,11 @@ Instructions:
 6. REQUIRED elements must never be marked NOT_APPLICABLE.
 7. CONDITIONAL elements may be marked NOT_APPLICABLE only when the reporting requirement genuinely does not apply to the manuscript and the evidence supports that conclusion.
 8. Do not calculate the overall reporting status or missing elements. Those are calculated by the evaluation pipeline.
-9. Return valid JSON only.
+9. Return exactly one JSON object whose top-level keys are item_id, elements, and confidence.
+10. Do not wrap the result inside required_output, output, response, result, or any other object.
+11. Do not repeat the input, criterion, retrieved_evidence, or output template.
+12. Return valid JSON only, without Markdown code fences or explanatory text.
+13. Note that abstarct section may not be explicitly labeled as "Abstract" in the manuscript. It may be part of the introduction or background section. Use your best judgment to identify the abstract content based on the provided evidence.
 """
 
 def load_checklist(
@@ -2306,28 +2572,43 @@ def build_model_input(
             ),
         },
         "retrieved_evidence": compact_evidence,
-        "required_output": {
-            "item_id": checklist_item.get("item_id"),
-            "elements": [
-                {
-                    "element_id": "...",
-                    "status": (
-                        "PRESENT | PARTIAL | MISSING | "
-                        "NOT_APPLICABLE"
-                    ),
-                    "chunk_id": "... or null",
-                    "quote": "verbatim evidence or null",
-                    "reason": "concise explanation",
-                }
-            ],
-            "confidence": "integer 0-100",
-        },
     }
 
-    return json.dumps(
-        request,
-        ensure_ascii=False,
-        indent=2,
+    output_template = {
+        "item_id": checklist_item.get("item_id"),
+        "elements": [
+            {
+                "element_id": "copy the supplied element_id exactly",
+                "status": (
+                    "PRESENT | PARTIAL | MISSING | "
+                    "NOT_APPLICABLE"
+                ),
+                "chunk_id": "supporting chunk_id or null",
+                "quote": "verbatim evidence or null",
+                "reason": "concise explanation",
+            }
+        ],
+        "confidence": "integer 0-100",
+    }
+
+    return (
+        "Evaluate the input data below.\n\n"
+        "OUTPUT CONTRACT:\n"
+        "Return the JSON object shown below directly as the entire "
+        "response. Do not wrap it in required_output, output, "
+        "response, result, or any other key. Return one element for "
+        "every supplied element_id.\n"
+        + json.dumps(
+            output_template,
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n\nINPUT DATA:\n"
+        + json.dumps(
+            request,
+            ensure_ascii=False,
+            indent=2,
+        )
     )
 
 
@@ -2642,10 +2923,17 @@ def ask_model(
     max_tokens: int,
     image_input_supported: Optional[bool],
     max_images: int,
+    reasoning_effort: str,
 ) -> Dict[str, Any]:
     available_images = collect_evidence_images(evidence_payload)
     has_images = bool(available_images)
     should_send_images = has_images and image_input_supported is not False
+    reasoning_config = {
+        "effort": reasoning_effort,
+        # The model still reasons, but the reasoning trace is omitted from
+        # the response. Reasoning-token usage is unaffected.
+        "exclude": True,
+    }
 
     if should_send_images:
         user_content: Any = build_multimodal_user_content(
@@ -2676,6 +2964,7 @@ def ask_model(
             ],
             temperature=0.1,
             max_tokens=max_tokens,
+            extra_body={"reasoning": reasoning_config},
         )
         multimodal_used = images_sent > 0
         multimodal_fallback_error = None
@@ -2703,6 +2992,7 @@ def ask_model(
             ],
             temperature=0.1,
             max_tokens=max_tokens,
+            extra_body={"reasoning": reasoning_config},
         )
         multimodal_used = False
         images_sent = 0
@@ -2722,6 +3012,7 @@ def ask_model(
         "images_available_count": len(available_images),
         "images_sent": images_sent,
         "image_input_supported": image_input_supported,
+        "reasoning_effort": reasoning_effort,
         "multimodal_used": multimodal_used,
         "multimodal_fallback_error": (
             multimodal_fallback_error
@@ -2742,63 +3033,136 @@ def evaluate_models(
     max_tokens: int,
     max_images: int,
     debug_retrieval: bool,
+    max_workers: int,
+    reasoning_effort: str,
 ) -> Dict[str, Any]:
-    client = OpenAI(base_url=base_url, api_key=api_key)
-    image_support = discover_image_input_support(client, models)
+    metadata_client = OpenAI(base_url=base_url, api_key=api_key)
+    image_support = discover_image_input_support(metadata_client, models)
     evaluations_dir = output_dir / "evaluations"
     evidence_dir = output_dir / "evidence"
     evaluations_dir.mkdir(parents=True, exist_ok=True)
     evidence_dir.mkdir(parents=True, exist_ok=True)
 
     all_evidence: List[Dict[str, Any]] = []
-    model_results: Dict[str, List[Dict[str, Any]]] = {
-        model: [] for model in models
-    }
+    prepared_items: List[
+        Tuple[int, Dict[str, Any], Dict[str, Any], str]
+    ] = []
 
-    for position, item in enumerate(items, start=1):
-        print(f"[{position}/{len(items)}] Retrieving evidence for {item.get('item_id')}")
+    # Retrieval uses shared embedding/reranking models and is therefore kept
+    # sequential. The network-bound LLM calls below are run concurrently.
+    for item_index, item in enumerate(items):
+        position = item_index + 1
+        print(
+            f"[{position}/{len(items)}] Retrieving evidence for "
+            f"{item.get('item_id')}"
+        )
         evidence = retriever.query(item, debug=debug_retrieval)
         all_evidence.append(evidence)
         evidence_file = evidence_dir / f"item_{item.get('item_id')}.json"
         evidence_file.write_text(
-            json.dumps(evidence, indent=2, ensure_ascii=False), encoding="utf-8"
+            json.dumps(evidence, indent=2, ensure_ascii=False),
+            encoding="utf-8",
         )
-        model_input = build_model_input(
-            document_title,
-            item,
-            evidence,
+        prepared_items.append(
+            (
+                item_index,
+                item,
+                evidence,
+                build_model_input(document_title, item, evidence),
+            )
         )
 
-        for model in models:
-            print(f"    Evaluating with {model}")
-            try:
-                answer = ask_model(
-                    client,
-                    model,
-                    model_input,
-                    evidence,
-                    max_tokens,
-                    image_input_supported=image_support.get(model),
-                    max_images=max_images,
-                )
-                answer["parsed"] = add_deterministic_status(
-                    item=item,
-                    parsed_result=answer.get("parsed"),
-                )
-                row = {
-                    "item_id": item.get("item_id"),
-                    "item_label": item.get("item_label"),
-                    "model": model,
-                    **answer,
-                }
-            except Exception as exc:
-                row = {
-                    "item_id": item.get("item_id"),
-                    "item_label": item.get("item_label"),
-                    "model": model,
-                    "error": f"{type(exc).__name__}: {exc}",
-                }
-            model_results[model].append(row)
+    # One client per worker thread avoids sharing mutable client state while
+    # still reusing each thread's HTTP connection pool across requests.
+    worker_state = local()
+
+    def get_worker_client() -> OpenAI:
+        client = getattr(worker_state, "client", None)
+        if client is None:
+            client = OpenAI(base_url=base_url, api_key=api_key)
+            worker_state.client = client
+        return client
+
+    def evaluate_one(
+        item_index: int,
+        item: Dict[str, Any],
+        evidence: Dict[str, Any],
+        model_input: str,
+        model: str,
+    ) -> Tuple[int, str, Dict[str, Any]]:
+        try:
+            answer = ask_model(
+                get_worker_client(),
+                model,
+                model_input,
+                evidence,
+                max_tokens,
+                image_input_supported=image_support.get(model),
+                max_images=max_images,
+                reasoning_effort=reasoning_effort,
+            )
+            answer["parsed"] = add_deterministic_status(
+                item=item,
+                parsed_result=answer.get("parsed"),
+            )
+            row = {
+                "item_id": item.get("item_id"),
+                "item_label": item.get("item_label"),
+                "model": model,
+                **answer,
+            }
+        except Exception as exc:
+            row = {
+                "item_id": item.get("item_id"),
+                "item_label": item.get("item_label"),
+                "model": model,
+                "reasoning_effort": reasoning_effort,
+                "error": f"{type(exc).__name__}: {exc}",
+            }
+        return item_index, model, row
+
+    # Preallocate slots so completion order never changes output order.
+    ordered_results: Dict[str, List[Optional[Dict[str, Any]]]] = {
+        model: [None] * len(items) for model in models
+    }
+    total_jobs = len(prepared_items) * len(models)
+    worker_count = min(max_workers, total_jobs) if total_jobs else 1
+
+    print(
+        f"Evaluating {total_jobs} item-model combinations "
+        f"with {worker_count} parallel workers..."
+    )
+
+    with ThreadPoolExecutor(max_workers=worker_count) as executor:
+        futures = [
+            executor.submit(
+                evaluate_one,
+                item_index,
+                item,
+                evidence,
+                model_input,
+                model,
+            )
+            for item_index, item, evidence, model_input in prepared_items
+            for model in models
+        ]
+
+        for completed, future in enumerate(
+            as_completed(futures),
+            start=1,
+        ):
+            item_index, model, row = future.result()
+            ordered_results[model][item_index] = row
+            outcome = "error" if "error" in row else "done"
+            print(
+                f"    [{completed}/{total_jobs}] {outcome}: "
+                f"{row.get('item_id')} / {model}"
+            )
+
+    model_results: Dict[str, List[Dict[str, Any]]] = {
+        model: [row for row in rows if row is not None]
+        for model, rows in ordered_results.items()
+    }
 
     for model, rows in model_results.items():
         safe_name = model.replace("/", "_").replace(":", "_")
@@ -2811,6 +3175,7 @@ def evaluate_models(
         "standard": checklist_config.get("standard"),
         "schema_version": checklist_config.get("schema_version"),
         "models": models,
+        "reasoning_effort": reasoning_effort,
         "image_input_support": image_support,
         "num_checklist_items": len(items),
         "evidence": all_evidence,
@@ -2842,17 +3207,27 @@ def main() -> None:
         )
     )
     parser.add_argument("pdf", type=Path, help="Input manuscript PDF")
-    parser.add_argument("checklist", type=Path, help="Checklist JSON")
+    parser.add_argument(
+        "checklist",
+        nargs="?",
+        type=Path,
+        help=(
+            "Checklist JSON. Required for a full evaluation, but not with "
+            "--parse-only or --skip-evaluation."
+        ),
+    )
     parser.add_argument("-o", "--output-dir", type=Path, default=Path("pipeline_output"))
     parser.add_argument("--max-words", type=int, default=450)
     parser.add_argument("--overlap-words", type=int, default=60)
     parser.add_argument(
         "--parse-mode",
-        choices=("layout", "markdown"),
-        default="layout",
+        choices=("auto", "layout", "markdown"),
+        default="auto",
         help=(
-            "layout: rebuild reading order from page geometry (default). "
-            "markdown: legacy export_to_markdown chunking."
+            "auto: use layout boxes, but fall back to Markdown when known "
+            "callout headings are missed (default). layout: always rebuild "
+            "reading order from page geometry. markdown: always follow "
+            "Docling's exported Markdown order."
         ),
     )
     parser.add_argument(
@@ -2885,7 +3260,25 @@ def main() -> None:
     parser.add_argument("--reranker-model", default=RetrieverConfig.reranker_model_name)
     parser.add_argument("--models", type=parse_models, default=DEFAULT_MODELS)
     parser.add_argument("--base-url", default="https://openrouter.ai/api/v1")
-    parser.add_argument("--max-tokens", type=int, default=3000)
+    parser.add_argument("--max-tokens", type=int, default=8000)
+    parser.add_argument(
+        "--reasoning-effort",
+        choices=("none", "minimal", "low", "medium", "high", "max"),
+        default="low",
+        help=(
+            "Reasoning effort for all selected models (default: low). "
+            "The setting is recorded in every evaluation result."
+        ),
+    )
+    parser.add_argument(
+        "--evaluation-workers",
+        type=int,
+        default=8,
+        help=(
+            "Maximum number of concurrent item-model API calls "
+            "(default: 8). Reduce this if the provider rate-limits requests."
+        ),
+    )
     parser.add_argument(
         "--max-images-per-request",
         type=int,
@@ -2897,19 +3290,42 @@ def main() -> None:
     )
     parser.add_argument("--api-key-env", default="OPENROUTER_API_KEY")
     parser.add_argument("--debug-retrieval", action="store_true")
-    parser.add_argument(
+    run_mode = parser.add_mutually_exclusive_group()
+    run_mode.add_argument(
+        "--parse-only",
+        action="store_true",
+        help=(
+            "Only parse the PDF and create Markdown, chunks, and extracted "
+            "images. Do not load a checklist, build FAISS, or call models."
+        ),
+    )
+    run_mode.add_argument(
         "--skip-evaluation",
         action="store_true",
-        help="Only parse, chunk, and build the FAISS index.",
+        help=(
+            "Parse and chunk the PDF and build the FAISS index, but do not "
+            "load a checklist or call models."
+        ),
     )
     args = parser.parse_args()
 
     if not args.pdf.is_file():
         raise FileNotFoundError(f"PDF not found: {args.pdf}")
-    if not args.checklist.is_file():
+
+    checklist_required = not (
+        args.parse_only or args.skip_evaluation
+    )
+    if checklist_required and args.checklist is None:
+        parser.error(
+            "the checklist argument is required unless --parse-only or "
+            "--skip-evaluation is used"
+        )
+    if args.checklist is not None and not args.checklist.is_file():
         raise FileNotFoundError(f"Checklist not found: {args.checklist}")
     if args.max_images_per_request < 1:
         raise ValueError("--max-images-per-request must be at least 1")
+    if args.evaluation_workers < 1:
+        raise ValueError("--evaluation-workers must be at least 1")
 
     layout_config = LayoutConfig(
         column_gap_ratio=args.column_gap_ratio,
@@ -2919,7 +3335,8 @@ def main() -> None:
     )
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    print("1/4 Parsing PDF and creating chunks...")
+    total_steps = 1 if args.parse_only else (2 if args.skip_evaluation else 4)
+    print(f"1/{total_steps} Parsing PDF and creating chunks...")
     converted = convert_pdf(
         args.pdf,
         args.output_dir,
@@ -2936,7 +3353,14 @@ def main() -> None:
         f"images={converted['num_images']}"
     )
 
-    print("2/4 Building FAISS index...")
+    if args.parse_only:
+        print("Parsing complete.")
+        print(f"Markdown: {converted['markdown_path']}")
+        print(f"Chunks:   {converted['chunks_path']}")
+        print(f"Images:   {converted['num_images']}")
+        return
+
+    print(f"2/{total_steps} Building FAISS index...")
     retriever_config = RetrieverConfig(
         embedding_model_name=args.embedding_model,
         reranker_model_name=args.reranker_model,
@@ -2946,15 +3370,16 @@ def main() -> None:
     retriever = PrismaFaissRetriever(args.output_dir / "faiss_store", retriever_config)
     retriever.build(converted["chunks_path"])
 
-    print("3/4 Loading checklist...")
-    checklist_config, items = load_checklist(args.checklist)
-
     if args.skip_evaluation:
-        print("4/4 Evaluation skipped.")
+        print("Indexing complete; evaluation skipped.")
         print(f"Markdown: {converted['markdown_path']}")
         print(f"Chunks:   {converted['chunks_path']}")
         print(f"Index:    {retriever.store_dir}")
         return
+
+    print("3/4 Loading checklist...")
+    assert args.checklist is not None
+    checklist_config, items = load_checklist(args.checklist)
 
     api_key = os.getenv(args.api_key_env)
     if not api_key:
@@ -2975,6 +3400,8 @@ def main() -> None:
         max_tokens=args.max_tokens,
         max_images=args.max_images_per_request,
         debug_retrieval=args.debug_retrieval,
+        max_workers=args.evaluation_workers,
+        reasoning_effort=args.reasoning_effort,
     )
 
     print("Done.")

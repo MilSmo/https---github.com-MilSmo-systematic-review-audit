@@ -1,0 +1,2342 @@
+[
+  {
+    "item_id": "PRISMA_2020_1",
+    "item_label": "1",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_1\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_1_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided document title and evidence chunks do not contain the actual article title identifying the report as a systematic review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided evidence does not include the title of the report to evaluate key information about the main objective or review question.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided evidence does not include the title of the report to evaluate supplementary information such as analysis methods or study designs.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_1",
+      "elements": [
+        {
+          "element_id": "prisma_2020_1_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided document title and evidence chunks do not contain the actual article title identifying the report as a systematic review."
+        },
+        {
+          "element_id": "prisma_2020_1_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided evidence does not include the title of the report to evaluate key information about the main objective or review question."
+        },
+        {
+          "element_id": "prisma_2020_1_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided evidence does not include the title of the report to evaluate supplementary information such as analysis methods or study designs."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_1_e1",
+        "prisma_2020_1_e2",
+        "prisma_2020_1_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_2",
+    "item_label": "2",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_2\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_2_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"Given the rising prevalence of AMR, which is expected to pose a challenge to current empirical antibiotic treatment strategies, we sought to summarize the available data on knowledge, attitudes, and practices regarding AMR in Ethiopia. Articles were searched in international electronic databases. Microsoft Excel spreadsheet and STATA software version 16 were used for data extraction and analysis, respectively. The Preferred Reporting Items for Systematic Reviews and Meta-Analysis 2020 checklist was followed.\",\n      \"reason\": \"The abstract identifies the review as a systematic review and meta-analysis by summarizing available data and following the PRISMA 2020 checklist.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"we sought to summarize the available data on knowledge, attitudes, and practices regarding AMR in Ethiopia.\",\n      \"reason\": \"The abstract explicitly states the main objective of summarizing available data on knowledge, attitudes, and practices regarding AMR in Ethiopia.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not specify the main inclusion and exclusion criteria.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e4\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"Articles were searched in international electronic databases.\",\n      \"reason\": \"The abstract mentions searching international electronic databases but fails to report when each source was last searched.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"The methodological quality of the studies included was assessed by the Joana Briggs Institute critical appraisal checklists.\",\n      \"reason\": \"The abstract specifies the JBI critical appraisal checklists were used to assess the methodological quality/risk of bias of included studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"The random-effect meta-analysis model was used to estimate Der Simonian-Laird's pooled effect. Statistical heterogeneity of the meta-analysis was checked through Higgins and Thompson's I 2 statistics and Cochran's Q test.\",\n      \"reason\": \"The abstract specifies the statistical methods and models used to synthesize the results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e7\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"Fourteen studies with a total of 4476 participants met the inclusion criteria.\",\n      \"reason\": \"The abstract reports the total number of included studies (14) and participants (4476).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e8\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"Overall, the pooled prevalence of good AMR knowledge was 51.53% [(95% confidence interval (CI): 37.85, 65.21), I 2 = 99.0%, P < 0.001]. The pooled prevalence of favorable attitudes and good practices were 63.43% [(95% CI: 42.66, 84.20), I 2 = 99.6, P < 0.001], and 48.85% [(95% CI: 38.68, 59.01), I 2 = 93.1, P < 0.001] respectively.\",\n      \"reason\": \"The abstract presents results for the main outcomes including pooled prevalence estimates and confidence intervals.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e9\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"Overall, the pooled prevalence of good AMR knowledge was 51.53% [(95% confidence interval (CI): 37.85, 65.21)...] The pooled prevalence of favorable attitudes and good practices were 63.43% [(95% CI: 42.66, 84.20)...] and 48.85% [(95% CI: 38.68, 59.01)...] respectively.\",\n      \"reason\": \"A meta-analysis was conducted, and the abstract reports the summary estimates along with their 95% confidence intervals.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review estimates pooled prevalences rather than comparing distinct intervention or exposure groups where a direction of effect and favored group would apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e11\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not summarize important limitations of the included evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e12\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"In conclusion, there is a significant knowledge and practice gap on AMR among the general public, patients, and livestock producers. As a result, we call for greater educational interventions to raise awareness and build a strong national AMR narrative.\",\n      \"reason\": \"The abstract provides a general interpretation of the results and highlights important implications for educational interventions.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e13\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not specify the primary source of funding for the review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e14\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not provide the review register name and registration number.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_2",
+      "elements": [
+        {
+          "element_id": "prisma_2020_2_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "Given the rising prevalence of AMR, which is expected to pose a challenge to current empirical antibiotic treatment strategies, we sought to summarize the available data on knowledge, attitudes, and practices regarding AMR in Ethiopia. Articles were searched in international electronic databases. Microsoft Excel spreadsheet and STATA software version 16 were used for data extraction and analysis, respectively. The Preferred Reporting Items for Systematic Reviews and Meta-Analysis 2020 checklist was followed.",
+          "reason": "The abstract identifies the review as a systematic review and meta-analysis by summarizing available data and following the PRISMA 2020 checklist."
+        },
+        {
+          "element_id": "prisma_2020_2_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "we sought to summarize the available data on knowledge, attitudes, and practices regarding AMR in Ethiopia.",
+          "reason": "The abstract explicitly states the main objective of summarizing available data on knowledge, attitudes, and practices regarding AMR in Ethiopia."
+        },
+        {
+          "element_id": "prisma_2020_2_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not specify the main inclusion and exclusion criteria."
+        },
+        {
+          "element_id": "prisma_2020_2_e4",
+          "status": "PARTIAL",
+          "chunk_id": "text_1",
+          "quote": "Articles were searched in international electronic databases.",
+          "reason": "The abstract mentions searching international electronic databases but fails to report when each source was last searched."
+        },
+        {
+          "element_id": "prisma_2020_2_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "The methodological quality of the studies included was assessed by the Joana Briggs Institute critical appraisal checklists.",
+          "reason": "The abstract specifies the JBI critical appraisal checklists were used to assess the methodological quality/risk of bias of included studies."
+        },
+        {
+          "element_id": "prisma_2020_2_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "The random-effect meta-analysis model was used to estimate Der Simonian-Laird's pooled effect. Statistical heterogeneity of the meta-analysis was checked through Higgins and Thompson's I 2 statistics and Cochran's Q test.",
+          "reason": "The abstract specifies the statistical methods and models used to synthesize the results."
+        },
+        {
+          "element_id": "prisma_2020_2_e7",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "Fourteen studies with a total of 4476 participants met the inclusion criteria.",
+          "reason": "The abstract reports the total number of included studies (14) and participants (4476)."
+        },
+        {
+          "element_id": "prisma_2020_2_e8",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "Overall, the pooled prevalence of good AMR knowledge was 51.53% [(95% confidence interval (CI): 37.85, 65.21), I 2 = 99.0%, P < 0.001]. The pooled prevalence of favorable attitudes and good practices were 63.43% [(95% CI: 42.66, 84.20), I 2 = 99.6, P < 0.001], and 48.85% [(95% CI: 38.68, 59.01), I 2 = 93.1, P < 0.001] respectively.",
+          "reason": "The abstract presents results for the main outcomes including pooled prevalence estimates and confidence intervals."
+        },
+        {
+          "element_id": "prisma_2020_2_e9",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "Overall, the pooled prevalence of good AMR knowledge was 51.53% [(95% confidence interval (CI): 37.85, 65.21)...] The pooled prevalence of favorable attitudes and good practices were 63.43% [(95% CI: 42.66, 84.20)...] and 48.85% [(95% CI: 38.68, 59.01)...] respectively.",
+          "reason": "A meta-analysis was conducted, and the abstract reports the summary estimates along with their 95% confidence intervals."
+        },
+        {
+          "element_id": "prisma_2020_2_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review estimates pooled prevalences rather than comparing distinct intervention or exposure groups where a direction of effect and favored group would apply."
+        },
+        {
+          "element_id": "prisma_2020_2_e11",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not summarize important limitations of the included evidence."
+        },
+        {
+          "element_id": "prisma_2020_2_e12",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "In conclusion, there is a significant knowledge and practice gap on AMR among the general public, patients, and livestock producers. As a result, we call for greater educational interventions to raise awareness and build a strong national AMR narrative.",
+          "reason": "The abstract provides a general interpretation of the results and highlights important implications for educational interventions."
+        },
+        {
+          "element_id": "prisma_2020_2_e13",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not specify the primary source of funding for the review."
+        },
+        {
+          "element_id": "prisma_2020_2_e14",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not provide the review register name and registration number."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_2_e3",
+        "prisma_2020_2_e4",
+        "prisma_2020_2_e11",
+        "prisma_2020_2_e13",
+        "prisma_2020_2_e14"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_3",
+    "item_label": "3",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_3\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_3_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"Antimicrobial resistance (AMR) is a silent pandemic that has claimed millions of lives, and resulted in long-term disabilities, limited treatment options, and high economic costs associated with the healthcare burden.\",\n      \"reason\": \"The current state of knowledge and burden regarding antimicrobial resistance is described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"We have undertaken this systematic review and meta-analysis to estimate the pooled prevalence of good knowledge, favorable attitudes, and good practices toward AMR and/or identify factors associated with them.\",\n      \"reason\": \"The importance and need for conducting the review to summarize knowledge, attitudes, practices, and associated factors regarding AMR are explained.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_19\",\n      \"quote\": \"This systematic review and meta-analysis is the first of its kind and presents the most comprehensive assessment of the level of good knowledge, favorable attitudes, and good practices toward AMR.\",\n      \"reason\": \"The text states that this review is the first of its kind, addressing existing knowledge gaps.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"This review evaluates knowledge, attitudes, and practices (KAP) toward AMR, not intervention effects.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"This review evaluates observational prevalence data on KAP, not complex interventions or delivery contexts requiring a logic model.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_3",
+      "elements": [
+        {
+          "element_id": "prisma_2020_3_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "Antimicrobial resistance (AMR) is a silent pandemic that has claimed millions of lives, and resulted in long-term disabilities, limited treatment options, and high economic costs associated with the healthcare burden.",
+          "reason": "The current state of knowledge and burden regarding antimicrobial resistance is described."
+        },
+        {
+          "element_id": "prisma_2020_3_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "We have undertaken this systematic review and meta-analysis to estimate the pooled prevalence of good knowledge, favorable attitudes, and good practices toward AMR and/or identify factors associated with them.",
+          "reason": "The importance and need for conducting the review to summarize knowledge, attitudes, practices, and associated factors regarding AMR are explained."
+        },
+        {
+          "element_id": "prisma_2020_3_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_19",
+          "quote": "This systematic review and meta-analysis is the first of its kind and presents the most comprehensive assessment of the level of good knowledge, favorable attitudes, and good practices toward AMR.",
+          "reason": "The text states that this review is the first of its kind, addressing existing knowledge gaps."
+        },
+        {
+          "element_id": "prisma_2020_3_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "This review evaluates knowledge, attitudes, and practices (KAP) toward AMR, not intervention effects."
+        },
+        {
+          "element_id": "prisma_2020_3_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "This review evaluates observational prevalence data on KAP, not complex interventions or delivery contexts requiring a logic model."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_4",
+    "item_label": "4",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_4\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_4_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Wehave undertaken this systematic review and meta-analysis to estimate the pooled prevalence of good knowledge, favorable attitudes, and good practices toward AMR and/or identify factors associated with them.\",\n      \"reason\": \"The review objectives are explicitly stated, defining the goal to estimate pooled prevalence of KAP toward AMR and/or identify associated factors.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_4_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"This is a systematic review of observational studies reporting prevalence (KAP), not an intervention effects review, so planned comparisons using PICO are not applicable.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_4",
+      "elements": [
+        {
+          "element_id": "prisma_2020_4_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "Wehave undertaken this systematic review and meta-analysis to estimate the pooled prevalence of good knowledge, favorable attitudes, and good practices toward AMR and/or identify factors associated with them.",
+          "reason": "The review objectives are explicitly stated, defining the goal to estimate pooled prevalence of KAP toward AMR and/or identify associated factors."
+        },
+        {
+          "element_id": "prisma_2020_4_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "This is a systematic review of observational studies reporting prevalence (KAP), not an intervention effects review, so planned comparisons using PICO are not applicable."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_5",
+    "item_label": "5",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_5\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_5_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Population/Participants : Weincluded primary studies involving various participants (patients, the general population, healthcare workers, livestock producers, and tertiary-level students). Condition : This systematic review and meta-analysis considered studies that had measured the outcome of interest based on knowledge, attitudes, and practices toward AMRand /or factors associated with them. Context/settings : All observational epidemiological studies (case-control, cohort, and cross-sectional) conducted in Ethiopia\",\n      \"reason\": \"The study specifies the population, condition, and eligible study designs and settings for inclusion.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"published in English between January 2010 and December 2022 in international and domestic peerreviewed journals were included. Furthermore, studies without full-text access; ... studies not available as free full-text; ... and unpublished data were excluded.\",\n      \"reason\": \"Report characteristics such as language, dissemination window (publication years), and publication/report status are specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review evaluates prevalence of knowledge, attitudes, and practices rather than specific intervention effects where outcome measurement vs reporting distinction is typically relevant.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_1\",\n      \"quote\": \"Overall, the pooled prevalence of good AMR knowledge was 51.53% ... The pooled prevalence of favorable attitudes and good practices were 63.43% ... and 48.85% ... respectively.\",\n      \"reason\": \"The synthesis groups (knowledge, attitudes, and practices) are specified and linked to review objectives.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No notable or unusual restrictions on study eligibility were applied requiring a specific separate rationale beyond standard systematic review criteria.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_5",
+      "elements": [
+        {
+          "element_id": "prisma_2020_5_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Population/Participants : Weincluded primary studies involving various participants (patients, the general population, healthcare workers, livestock producers, and tertiary-level students). Condition : This systematic review and meta-analysis considered studies that had measured the outcome of interest based on knowledge, attitudes, and practices toward AMRand /or factors associated with them. Context/settings : All observational epidemiological studies (case-control, cohort, and cross-sectional) conducted in Ethiopia",
+          "reason": "The study specifies the population, condition, and eligible study designs and settings for inclusion."
+        },
+        {
+          "element_id": "prisma_2020_5_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "published in English between January 2010 and December 2022 in international and domestic peerreviewed journals were included. Furthermore, studies without full-text access; ... studies not available as free full-text; ... and unpublished data were excluded.",
+          "reason": "Report characteristics such as language, dissemination window (publication years), and publication/report status are specified."
+        },
+        {
+          "element_id": "prisma_2020_5_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review evaluates prevalence of knowledge, attitudes, and practices rather than specific intervention effects where outcome measurement vs reporting distinction is typically relevant."
+        },
+        {
+          "element_id": "prisma_2020_5_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_1",
+          "quote": "Overall, the pooled prevalence of good AMR knowledge was 51.53% ... The pooled prevalence of favorable attitudes and good practices were 63.43% ... and 48.85% ... respectively.",
+          "reason": "The synthesis groups (knowledge, attitudes, and practices) are specified and linked to review objectives."
+        },
+        {
+          "element_id": "prisma_2020_5_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No notable or unusual restrictions on study eligibility were applied requiring a specific separate rationale beyond standard systematic review criteria."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_6",
+    "item_label": "6",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_6\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_6_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The search was double-blinded and conducted from 1 st , October to 31 st , December 2022, by two authors (BW and MO).\",\n      \"reason\": \"The text explicitly reports the search dates from October 1 to December 31, 2022.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The search typically included the following electronic bibliographic databases: Excerpta Medica database, PubMed, Web of Science, African Journal of Online, Google Scholar, Google, and Cochrane Library\",\n      \"reason\": \"The names of the databases are reported, but search interfaces/platforms and specific coverage dates for each individual database are not fully detailed (only a general publication restriction of January 2010 to December 2022 is mentioned).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No study registers or regulatory databases were searched.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"Google Scholar, Google\",\n      \"reason\": \"Search engines/websites such as Google Scholar and Google are named.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No organizations or manufacturers were contacted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No specific individuals were contacted to identify studies beyond checking authors' files.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e7\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The reference lists of included studies identified through the search were scanned to ensure literature saturation.\",\n      \"reason\": \"Reference lists of included studies were specified as being examined.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Backward or forward citation searching was not performed as a primary search method.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Specific journals or conference proceedings were not individually consulted or hand-searched.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_6",
+      "elements": [
+        {
+          "element_id": "prisma_2020_6_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "The search was double-blinded and conducted from 1 st , October to 31 st , December 2022, by two authors (BW and MO).",
+          "reason": "The text explicitly reports the search dates from October 1 to December 31, 2022."
+        },
+        {
+          "element_id": "prisma_2020_6_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_5",
+          "quote": "The search typically included the following electronic bibliographic databases: Excerpta Medica database, PubMed, Web of Science, African Journal of Online, Google Scholar, Google, and Cochrane Library",
+          "reason": "The names of the databases are reported, but search interfaces/platforms and specific coverage dates for each individual database are not fully detailed (only a general publication restriction of January 2010 to December 2022 is mentioned)."
+        },
+        {
+          "element_id": "prisma_2020_6_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No study registers or regulatory databases were searched."
+        },
+        {
+          "element_id": "prisma_2020_6_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "Google Scholar, Google",
+          "reason": "Search engines/websites such as Google Scholar and Google are named."
+        },
+        {
+          "element_id": "prisma_2020_6_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No organizations or manufacturers were contacted."
+        },
+        {
+          "element_id": "prisma_2020_6_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No specific individuals were contacted to identify studies beyond checking authors' files."
+        },
+        {
+          "element_id": "prisma_2020_6_e7",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "The reference lists of included studies identified through the search were scanned to ensure literature saturation.",
+          "reason": "Reference lists of included studies were specified as being examined."
+        },
+        {
+          "element_id": "prisma_2020_6_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Backward or forward citation searching was not performed as a primary search method."
+        },
+        {
+          "element_id": "prisma_2020_6_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Specific journals or conference proceedings were not individually consulted or hand-searched."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_6_e2"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_7",
+    "item_label": "7",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_7\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_7_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The PubMed search terms with their Boolean operators of this study were supplied as an additional file ( S1 Table ).\",\n      \"reason\": \"The search strategy for PubMed is referenced as an additional file, but full search strategies for all other databases (Web of Science, Embase/Excerpta Medica, etc.) are not fully presented in the text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The literature search was limited to studies published in the English language between January 2010 and December 2022 which explored Ethiopians' knowledge, attitudes, and practices toward AMR and/or factors associated with them.\",\n      \"reason\": \"Search limits regarding language and publication dates are explicitly described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No published search filters or approaches were cited as being adapted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Natural-language processing or text-analysis tools were not used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No tools used to translate search strings between sources are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No validation of the search strategy is described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No peer review of the search strategy (such as PRESS) is described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The search structure was based on standard concepts/domains.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_7",
+      "elements": [
+        {
+          "element_id": "prisma_2020_7_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_5",
+          "quote": "The PubMed search terms with their Boolean operators of this study were supplied as an additional file ( S1 Table ).",
+          "reason": "The search strategy for PubMed is referenced as an additional file, but full search strategies for all other databases (Web of Science, Embase/Excerpta Medica, etc.) are not fully presented in the text."
+        },
+        {
+          "element_id": "prisma_2020_7_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "The literature search was limited to studies published in the English language between January 2010 and December 2022 which explored Ethiopians' knowledge, attitudes, and practices toward AMR and/or factors associated with them.",
+          "reason": "Search limits regarding language and publication dates are explicitly described."
+        },
+        {
+          "element_id": "prisma_2020_7_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No published search filters or approaches were cited as being adapted."
+        },
+        {
+          "element_id": "prisma_2020_7_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Natural-language processing or text-analysis tools were not used."
+        },
+        {
+          "element_id": "prisma_2020_7_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No tools used to translate search strings between sources are reported."
+        },
+        {
+          "element_id": "prisma_2020_7_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No validation of the search strategy is described."
+        },
+        {
+          "element_id": "prisma_2020_7_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No peer review of the search strategy (such as PRESS) is described."
+        },
+        {
+          "element_id": "prisma_2020_7_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The search structure was based on standard concepts/domains."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_7_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_8",
+    "item_label": "8",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_8\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_8_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"Two authors (BW and MO) independently screened the titles and abstracts that were obtained by the search against the inclusion criteria. ... The screened articles were then subjected to a full article review by two independent authors (TM and AK).\",\n      \"reason\": \"The number of reviewers screening records (titles and abstracts) and full reports is explicitly reported for each screening stage.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"Two authors (BW and MO) independently screened the titles and abstracts... The screened articles were then subjected to a full article review by two independent authors (TM and AK).\",\n      \"reason\": \"It is explicitly reported that reviewers worked independently at each screening stage.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"Disagreements about whether a study should be included were resolved by discussion.\",\n      \"reason\": \"The process used to resolve screening disagreements (discussion) is described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"Where more information was required to answer queries regarding eligibility, the remaining authors were involved.\",\n      \"reason\": \"Methods used to obtain or confirm eligibility information from study investigators or additional authors are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review restricted searches to English-language publications, so translation of non-English articles was not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"The articles that were found through the electronic database searches were exported to the reference management software, EndNote X7, where duplicate studies were then eliminated.\",\n      \"reason\": \"Automation tools (EndNote X7) used in the selection process for deduplication are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Externally derived classifiers were not used in the study selection process.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Internally derived classifiers were not used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Machine-learning prioritisation tools were not used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Crowdsourcing platforms were not used in the study selection process.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e11\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Previously screened datasets were not used to eliminate records.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_8",
+      "elements": [
+        {
+          "element_id": "prisma_2020_8_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "Two authors (BW and MO) independently screened the titles and abstracts that were obtained by the search against the inclusion criteria. ... The screened articles were then subjected to a full article review by two independent authors (TM and AK).",
+          "reason": "The number of reviewers screening records (titles and abstracts) and full reports is explicitly reported for each screening stage."
+        },
+        {
+          "element_id": "prisma_2020_8_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "Two authors (BW and MO) independently screened the titles and abstracts... The screened articles were then subjected to a full article review by two independent authors (TM and AK).",
+          "reason": "It is explicitly reported that reviewers worked independently at each screening stage."
+        },
+        {
+          "element_id": "prisma_2020_8_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "Disagreements about whether a study should be included were resolved by discussion.",
+          "reason": "The process used to resolve screening disagreements (discussion) is described."
+        },
+        {
+          "element_id": "prisma_2020_8_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "Where more information was required to answer queries regarding eligibility, the remaining authors were involved.",
+          "reason": "Methods used to obtain or confirm eligibility information from study investigators or additional authors are described."
+        },
+        {
+          "element_id": "prisma_2020_8_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review restricted searches to English-language publications, so translation of non-English articles was not applicable."
+        },
+        {
+          "element_id": "prisma_2020_8_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "The articles that were found through the electronic database searches were exported to the reference management software, EndNote X7, where duplicate studies were then eliminated.",
+          "reason": "Automation tools (EndNote X7) used in the selection process for deduplication are described."
+        },
+        {
+          "element_id": "prisma_2020_8_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Externally derived classifiers were not used in the study selection process."
+        },
+        {
+          "element_id": "prisma_2020_8_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Internally derived classifiers were not used."
+        },
+        {
+          "element_id": "prisma_2020_8_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Machine-learning prioritisation tools were not used."
+        },
+        {
+          "element_id": "prisma_2020_8_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Crowdsourcing platforms were not used in the study selection process."
+        },
+        {
+          "element_id": "prisma_2020_8_e11",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Previously screened datasets were not used to eliminate records."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_9",
+    "item_label": "9",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_9\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_9_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Two authors (BW and MO) working independently abstracted the relevant data from studies by using a standardized Microsoft Excel spreadsheet.\",\n      \"reason\": \"The number of reviewers (two authors) collecting data is explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Two authors (BW and MO) working independently abstracted the relevant data from studies\",\n      \"reason\": \"It is reported that the data collectors worked independently.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"In the case of disagreements between the two data extractors, a third author (TM) was involved in adjudicating unresolved disagreements through discussion and re-checking of the original articles.\",\n      \"reason\": \"The process for resolving disagreements between data collectors is clearly described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of processes used to obtain or confirm missing data from study investigators.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No automation tools were used for data collection.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Article translation methods are not applicable as searches were restricted to English.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No software was used to extract data from figures.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no indication of multiple reports for the same study requiring decision rules.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_9",
+      "elements": [
+        {
+          "element_id": "prisma_2020_9_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Two authors (BW and MO) working independently abstracted the relevant data from studies by using a standardized Microsoft Excel spreadsheet.",
+          "reason": "The number of reviewers (two authors) collecting data is explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_9_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Two authors (BW and MO) working independently abstracted the relevant data from studies",
+          "reason": "It is reported that the data collectors worked independently."
+        },
+        {
+          "element_id": "prisma_2020_9_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "In the case of disagreements between the two data extractors, a third author (TM) was involved in adjudicating unresolved disagreements through discussion and re-checking of the original articles.",
+          "reason": "The process for resolving disagreements between data collectors is clearly described."
+        },
+        {
+          "element_id": "prisma_2020_9_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of processes used to obtain or confirm missing data from study investigators."
+        },
+        {
+          "element_id": "prisma_2020_9_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No automation tools were used for data collection."
+        },
+        {
+          "element_id": "prisma_2020_9_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Article translation methods are not applicable as searches were restricted to English."
+        },
+        {
+          "element_id": "prisma_2020_9_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No software was used to extract data from figures."
+        },
+        {
+          "element_id": "prisma_2020_9_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no indication of multiple reports for the same study requiring decision rules."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_9_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10a",
+    "item_label": "10a",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_10a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_10a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"The outcome measurements of this review were reported in terms of the percentages of participants with a good level of knowledge, favorable attitudes, and good practices toward AMR. Furthermore, associated factors were narrated in texts\",\n      \"reason\": \"The outcome domains (knowledge, attitudes, and practices toward AMR, and associated factors) are listed and defined.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The time frame of measurement for each outcome domain is not specified in the text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no statement clarifying whether all compatible results within each outcome domain were sought.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Since element e3 is not reported as partial/missing due to a specific selection method, and no incomplete result search is described, this conditional element does not apply based on the text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No changes to outcome-domain inclusion, definitions, or importance are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No changes to processes for selecting results within eligible outcome domains are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Prioritization of specific outcomes for interpreting conclusions with rationales is not reported.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_10a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_10a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "The outcome measurements of this review were reported in terms of the percentages of participants with a good level of knowledge, favorable attitudes, and good practices toward AMR. Furthermore, associated factors were narrated in texts",
+          "reason": "The outcome domains (knowledge, attitudes, and practices toward AMR, and associated factors) are listed and defined."
+        },
+        {
+          "element_id": "prisma_2020_10a_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The time frame of measurement for each outcome domain is not specified in the text."
+        },
+        {
+          "element_id": "prisma_2020_10a_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no statement clarifying whether all compatible results within each outcome domain were sought."
+        },
+        {
+          "element_id": "prisma_2020_10a_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Since element e3 is not reported as partial/missing due to a specific selection method, and no incomplete result search is described, this conditional element does not apply based on the text."
+        },
+        {
+          "element_id": "prisma_2020_10a_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No changes to outcome-domain inclusion, definitions, or importance are reported."
+        },
+        {
+          "element_id": "prisma_2020_10a_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No changes to processes for selecting results within eligible outcome domains are reported."
+        },
+        {
+          "element_id": "prisma_2020_10a_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Prioritization of specific outcomes for interpreting conclusions with rationales is not reported."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_10a_e2",
+        "prisma_2020_10a_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10b",
+    "item_label": "10b",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_10b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_10b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"The first author's last name, sample characteristics, year of publication, study design, study setting, timing and procedures of data collection, response rates, and outcome measures were collected.\",\n      \"reason\": \"The manuscript lists and defines the variables for which data were sought, including author name, sample characteristics, year of publication, study design, study setting, data collection timing/procedures, response rates, and outcome measures.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not describe any assumptions made about missing or unclear study information.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"For data extraction, Joana Briggs Institute (JBI) adopted data collection formats suitable for meta-analysis were employed [23].\",\n      \"reason\": \"The tool used to determine which data items to collect (Joana Briggs Institute data collection formats) is explicitly cited.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_10b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_10b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "The first author's last name, sample characteristics, year of publication, study design, study setting, timing and procedures of data collection, response rates, and outcome measures were collected.",
+          "reason": "The manuscript lists and defines the variables for which data were sought, including author name, sample characteristics, year of publication, study design, study setting, data collection timing/procedures, response rates, and outcome measures."
+        },
+        {
+          "element_id": "prisma_2020_10b_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not describe any assumptions made about missing or unclear study information."
+        },
+        {
+          "element_id": "prisma_2020_10b_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "For data extraction, Joana Briggs Institute (JBI) adopted data collection formats suitable for meta-analysis were employed [23].",
+          "reason": "The tool used to determine which data items to collect (Joana Briggs Institute data collection formats) is explicitly cited."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_10b_e2"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_11",
+    "item_label": "11",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_11\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_11_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"To assess the quality of the studies, the JBI critical appraisal checklists for cross-sectional study (analytical or descriptive) were employed [25].\",\n      \"reason\": \"The JBI critical appraisal checklists are specified as the tool used for quality/risk of bias assessment.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"In this manner, the following major components were evaluated for studies reporting descriptive cross-sectional data only [26, 27]: Q1) Was the sample frame appropriate... [listing Q1-Q9]. In addition, the JBI checklist assessed the following major components for the analytical cross-sectional studies [28-39]: Q1) Were the criteria for inclusion... [listing Q1-Q8].\",\n      \"reason\": \"The specific components/questions evaluated by the JBI checklist for both descriptive and analytical cross-sectional studies are detailed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"An Overall score was calculated by counting the number of 'yes's in each row. For the final decision, the number of \\\"yes\\\" responses was counted for individual articles. After being evaluated against these criteria, articles with an overall appraisal score of 7 or higher were included in the quantitative analysis.\",\n      \"reason\": \"An overall score based on counting 'yes' responses was used, and a threshold score of 7 or higher was used for inclusion.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": \"null\",\n      \"reason\": \"Standard JBI tools were used without described adaptations.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": \"null\",\n      \"reason\": \"No newly developed risk-of-bias tool was used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"Two authors (BW, and MO) independently assessed the methodological quality of each study... Disagreements were resolved by consulting with a third independent author (AK) when this occurred.\",\n      \"reason\": \"The number of reviewers (two), their independence, and the disagreement-resolution procedure involving a third author are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": \"null\",\n      \"reason\": \"There is no mention of contacting study investigators to obtain or confirm risk-of-bias information.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": \"null\",\n      \"reason\": \"No automation tools were used for the risk-of-bias assessment.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_11",
+      "elements": [
+        {
+          "element_id": "prisma_2020_11_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "To assess the quality of the studies, the JBI critical appraisal checklists for cross-sectional study (analytical or descriptive) were employed [25].",
+          "reason": "The JBI critical appraisal checklists are specified as the tool used for quality/risk of bias assessment."
+        },
+        {
+          "element_id": "prisma_2020_11_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "In this manner, the following major components were evaluated for studies reporting descriptive cross-sectional data only [26, 27]: Q1) Was the sample frame appropriate... [listing Q1-Q9]. In addition, the JBI checklist assessed the following major components for the analytical cross-sectional studies [28-39]: Q1) Were the criteria for inclusion... [listing Q1-Q8].",
+          "reason": "The specific components/questions evaluated by the JBI checklist for both descriptive and analytical cross-sectional studies are detailed."
+        },
+        {
+          "element_id": "prisma_2020_11_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "An Overall score was calculated by counting the number of 'yes's in each row. For the final decision, the number of \"yes\" responses was counted for individual articles. After being evaluated against these criteria, articles with an overall appraisal score of 7 or higher were included in the quantitative analysis.",
+          "reason": "An overall score based on counting 'yes' responses was used, and a threshold score of 7 or higher was used for inclusion."
+        },
+        {
+          "element_id": "prisma_2020_11_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": "null",
+          "reason": "Standard JBI tools were used without described adaptations."
+        },
+        {
+          "element_id": "prisma_2020_11_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": "null",
+          "reason": "No newly developed risk-of-bias tool was used."
+        },
+        {
+          "element_id": "prisma_2020_11_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "Two authors (BW, and MO) independently assessed the methodological quality of each study... Disagreements were resolved by consulting with a third independent author (AK) when this occurred.",
+          "reason": "The number of reviewers (two), their independence, and the disagreement-resolution procedure involving a third author are reported."
+        },
+        {
+          "element_id": "prisma_2020_11_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": "null",
+          "reason": "There is no mention of contacting study investigators to obtain or confirm risk-of-bias information."
+        },
+        {
+          "element_id": "prisma_2020_11_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": "null",
+          "reason": "No automation tools were used for the risk-of-bias assessment."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_12",
+    "item_label": "12",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_12\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_12_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"The outcome measurements of this review were reported in terms of the percentages of participants with a good level of knowledge, favorable attitudes, and good practices toward AMR.\",\n      \"reason\": \"The manuscript specifies the effect measure (percentages/pooled prevalence) used for each outcome (knowledge, attitudes, and practices toward AMR).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no indication of specific thresholds or ranges used to interpret effect size beyond standard statistical significance.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review did not re-express synthesized results using another effect measure.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No explicit justification for the choice of effect measure is provided in the text.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_12",
+      "elements": [
+        {
+          "element_id": "prisma_2020_12_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "The outcome measurements of this review were reported in terms of the percentages of participants with a good level of knowledge, favorable attitudes, and good practices toward AMR.",
+          "reason": "The manuscript specifies the effect measure (percentages/pooled prevalence) used for each outcome (knowledge, attitudes, and practices toward AMR)."
+        },
+        {
+          "element_id": "prisma_2020_12_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no indication of specific thresholds or ranges used to interpret effect size beyond standard statistical significance."
+        },
+        {
+          "element_id": "prisma_2020_12_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review did not re-express synthesized results using another effect measure."
+        },
+        {
+          "element_id": "prisma_2020_12_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No explicit justification for the choice of effect measure is provided in the text."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13a",
+    "item_label": "13a",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13a_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The text describes eligibility criteria for study inclusion in the review overall, but does not describe the specific processes used to decide which studies were eligible for each individual synthesis (e.g., matching intervention/population characteristics to planned synthesis groups).\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13a_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The text describes eligibility criteria for study inclusion in the review overall, but does not describe the specific processes used to decide which studies were eligible for each individual synthesis (e.g., matching intervention/population characteristics to planned synthesis groups)."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13a_e1"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13b",
+    "item_label": "13b",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The text describes methods for data extraction, heterogeneity testing, and meta-analysis, but does not explicitly describe methods required to prepare data for presentation or synthesis, such as handling missing summary statistics or data conversions.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The text describes methods for data extraction, heterogeneity testing, and meta-analysis, but does not explicitly describe methods required to prepare data for presentation or synthesis, such as handling missing summary statistics or data conversions."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13b_e1"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13c",
+    "item_label": "13c",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13c_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Results were presented in the form of tables, texts, and figures.\",\n      \"reason\": \"The text mentions that results were presented in tables (and includes Table 1 and Table 2), but the specific tabular structures and data included in them are not fully described in the methods.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"The heterogeneity of the results was visually examined via the forest plots with pooled estimates.\",\n      \"reason\": \"The manuscript describes the use of graphical methods (forest plots and funnel plots) to display results and examine heterogeneity and publication bias.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report the basis or rationale for ordering or grouping studies within tables or graphs.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Standard graphs (forest plots and funnel plots) were used, so non-standard graphs were not utilized.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13c_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_10",
+          "quote": "Results were presented in the form of tables, texts, and figures.",
+          "reason": "The text mentions that results were presented in tables (and includes Table 1 and Table 2), but the specific tabular structures and data included in them are not fully described in the methods."
+        },
+        {
+          "element_id": "prisma_2020_13c_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "The heterogeneity of the results was visually examined via the forest plots with pooled estimates.",
+          "reason": "The manuscript describes the use of graphical methods (forest plots and funnel plots) to display results and examine heterogeneity and publication bias."
+        },
+        {
+          "element_id": "prisma_2020_13c_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report the basis or rationale for ordering or grouping studies within tables or graphs."
+        },
+        {
+          "element_id": "prisma_2020_13c_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Standard graphs (forest plots and funnel plots) were used, so non-standard graphs were not utilized."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13c_e1",
+        "prisma_2020_13c_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13d",
+    "item_label": "13d",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13d_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"The extracted data were imported from a Microsoft Excel spreadsheet into STATA MP 16 statistical software (StataCorp LP, 4905 Lakeway Drive, College Station, TX 7845, USA) for analysis.\",\n      \"reason\": \"The software, specific package, and version number used for statistical synthesis are explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Meta-analysis was performed, so alternative non-meta-analytic synthesis methods are not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"The random-effect meta-analysis model was used to estimate Der Simonian and Laird's pooled effect due to the presence of considerable statistical heterogeneity\",\n      \"reason\": \"The meta-analysis model and the rationale for its choice are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"The random-effect meta-analysis model was used to estimate Der Simonian and Laird's pooled effect due to the presence of considerable statistical heterogeneity\",\n      \"reason\": \"The statistical method (DerSimonian and Laird) is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"The heterogeneity of the results was visually examined via the forest plots with pooled estimates. Thus, its presence was confirmed subjectively with a lack of overlap between the confidence interval (CI). In addition, the statistical heterogeneity was explored more formally by using Cochran's Q test (x 2 ) at P-value < 0.10 indicating significant heterogeneity, and Higgins and Thompson's I 2 statistics, were employed to estimate the percentages of the betweenstudy variability\",\n      \"reason\": \"Methods used to identify and quantify statistical heterogeneity (visual inspection, Cochran's Q test, and I-squared statistics) are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"The random-effect meta-analysis model was used to estimate Der Simonian and Laird's pooled effect\",\n      \"reason\": \"The between-study variance estimator (DerSimonian and Laird) is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The specific method used to calculate confidence intervals for the summary effect in the random-effects meta-analysis is not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No other specialized random-effects implementation details apply or are missing beyond standard reporting.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Bayesian meta-analysis was not performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e10\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Methods to account for statistical dependency among multiple estimates from the same study (if any) are not described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e11\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_20\",\n      \"quote\": \"The determinant factors meta-analysis was not pooled due to limited studies that investigated factors associated with KAP of AMR.\",\n      \"reason\": \"A planned synthesis judged impossible/inappropriate (determinant factors meta-analysis) is identified and the reason is reported.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13d_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "The extracted data were imported from a Microsoft Excel spreadsheet into STATA MP 16 statistical software (StataCorp LP, 4905 Lakeway Drive, College Station, TX 7845, USA) for analysis.",
+          "reason": "The software, specific package, and version number used for statistical synthesis are explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Meta-analysis was performed, so alternative non-meta-analytic synthesis methods are not applicable."
+        },
+        {
+          "element_id": "prisma_2020_13d_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "The random-effect meta-analysis model was used to estimate Der Simonian and Laird's pooled effect due to the presence of considerable statistical heterogeneity",
+          "reason": "The meta-analysis model and the rationale for its choice are reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "The random-effect meta-analysis model was used to estimate Der Simonian and Laird's pooled effect due to the presence of considerable statistical heterogeneity",
+          "reason": "The statistical method (DerSimonian and Laird) is reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "The heterogeneity of the results was visually examined via the forest plots with pooled estimates. Thus, its presence was confirmed subjectively with a lack of overlap between the confidence interval (CI). In addition, the statistical heterogeneity was explored more formally by using Cochran's Q test (x 2 ) at P-value < 0.10 indicating significant heterogeneity, and Higgins and Thompson's I 2 statistics, were employed to estimate the percentages of the betweenstudy variability",
+          "reason": "Methods used to identify and quantify statistical heterogeneity (visual inspection, Cochran's Q test, and I-squared statistics) are reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "The random-effect meta-analysis model was used to estimate Der Simonian and Laird's pooled effect",
+          "reason": "The between-study variance estimator (DerSimonian and Laird) is reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The specific method used to calculate confidence intervals for the summary effect in the random-effects meta-analysis is not reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No other specialized random-effects implementation details apply or are missing beyond standard reporting."
+        },
+        {
+          "element_id": "prisma_2020_13d_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Bayesian meta-analysis was not performed."
+        },
+        {
+          "element_id": "prisma_2020_13d_e10",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Methods to account for statistical dependency among multiple estimates from the same study (if any) are not described."
+        },
+        {
+          "element_id": "prisma_2020_13d_e11",
+          "status": "PRESENT",
+          "chunk_id": "text_20",
+          "quote": "The determinant factors meta-analysis was not pooled due to limited studies that investigated factors associated with KAP of AMR.",
+          "reason": "A planned synthesis judged impossible/inappropriate (determinant factors meta-analysis) is identified and the reason is reported."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13d_e7",
+        "prisma_2020_13d_e10"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13e",
+    "item_label": "13e",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13e\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13e_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Subgroup meta-analysis based on the participants as covariates, meta-regression, and sensitivity analyses were also performed to investigate the source of statistical heterogeneity.\",\n      \"reason\": \"Methods used to explore possible causes of heterogeneity (subgroup analysis and meta-regression) are specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_15\",\n      \"quote\": \"random-effects meta-regression using sample size and year of publication as covariates were performed to explore the source of heterogeneity\",\n      \"reason\": \"Factors and factor levels used in meta-regression are reported (sample size and year of publication), but expected directions of effect modification are not explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_15\",\n      \"quote\": \"random-effects meta-regression using sample size and year of publication as covariates were performed to explore the source of heterogeneity\",\n      \"reason\": \"It is reported that study-level variables (sample size and year of publication) were used for meta-regression.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Methods used to formally compare subgroup effects are not described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Informal methods for exploring heterogeneity were not needed because formal meta-analysis and meta-regression were performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no statement identifying whether specific heterogeneity analyses were pre-specified or post-hoc.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13e",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13e_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Subgroup meta-analysis based on the participants as covariates, meta-regression, and sensitivity analyses were also performed to investigate the source of statistical heterogeneity.",
+          "reason": "Methods used to explore possible causes of heterogeneity (subgroup analysis and meta-regression) are specified."
+        },
+        {
+          "element_id": "prisma_2020_13e_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_15",
+          "quote": "random-effects meta-regression using sample size and year of publication as covariates were performed to explore the source of heterogeneity",
+          "reason": "Factors and factor levels used in meta-regression are reported (sample size and year of publication), but expected directions of effect modification are not explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_13e_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_15",
+          "quote": "random-effects meta-regression using sample size and year of publication as covariates were performed to explore the source of heterogeneity",
+          "reason": "It is reported that study-level variables (sample size and year of publication) were used for meta-regression."
+        },
+        {
+          "element_id": "prisma_2020_13e_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Methods used to formally compare subgroup effects are not described."
+        },
+        {
+          "element_id": "prisma_2020_13e_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Informal methods for exploring heterogeneity were not needed because formal meta-analysis and meta-regression were performed."
+        },
+        {
+          "element_id": "prisma_2020_13e_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no statement identifying whether specific heterogeneity analyses were pre-specified or post-hoc."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13e_e2",
+        "prisma_2020_13e_e4",
+        "prisma_2020_13e_e6"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13f",
+    "item_label": "13f",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13f\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13f_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_16\",\n      \"quote\": \"A leave-out-one sensitivity analysis was conducted to assess the impact of each study on the pooled level of good knowledge about, favorable attitudes and good practices toward AMR while gradually excluding each study. Results showed that the combined effects did not significantly change as a result of the excluded study ( Table 4 ).\",\n      \"reason\": \"The manuscript describes the details of the leave-one-out sensitivity analysis performed to assess robustness.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13f_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Subgroup meta-analysis based on the participants as covariates, meta-regression, and sensitivity analyses were also performed to investigate the source of statistical heterogeneity.\",\n      \"reason\": \"The text states that sensitivity analyses were performed to investigate sources of statistical heterogeneity, and there is no indication that any sensitivity analyses were post-hoc/unpre-specified.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13f",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13f_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_16",
+          "quote": "A leave-out-one sensitivity analysis was conducted to assess the impact of each study on the pooled level of good knowledge about, favorable attitudes and good practices toward AMR while gradually excluding each study. Results showed that the combined effects did not significantly change as a result of the excluded study ( Table 4 ).",
+          "reason": "The manuscript describes the details of the leave-one-out sensitivity analysis performed to assess robustness."
+        },
+        {
+          "element_id": "prisma_2020_13f_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Subgroup meta-analysis based on the participants as covariates, meta-regression, and sensitivity analyses were also performed to investigate the source of statistical heterogeneity.",
+          "reason": "The text states that sensitivity analyses were performed to investigate sources of statistical heterogeneity, and there is no indication that any sensitivity analyses were post-hoc/unpre-specified."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_14",
+    "item_label": "14",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_14\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_14_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Publication or dissemination bias was examined subjectively using funnel plots and objectively using the nonparametric rank correlation test of Begg\",\n      \"reason\": \"The methods used to assess risk of bias due to missing results (publication bias) are specified using funnel plots and Begg's test.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Standard statistical tests for publication bias (funnel plots, Egger's/Begg's tests) do not use an assessment tool with domains/items and an overall judgement.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No existing reporting-bias assessment tool was adapted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No newly developed reporting-bias tool was used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The number of reviewers, their independence, and disagreement-resolution procedures for reporting-bias assessment are not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of obtaining or confirming missing results from study investigators.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No automation tools were used for reporting-bias assessment.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_14",
+      "elements": [
+        {
+          "element_id": "prisma_2020_14_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Publication or dissemination bias was examined subjectively using funnel plots and objectively using the nonparametric rank correlation test of Begg",
+          "reason": "The methods used to assess risk of bias due to missing results (publication bias) are specified using funnel plots and Begg's test."
+        },
+        {
+          "element_id": "prisma_2020_14_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Standard statistical tests for publication bias (funnel plots, Egger's/Begg's tests) do not use an assessment tool with domains/items and an overall judgement."
+        },
+        {
+          "element_id": "prisma_2020_14_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No existing reporting-bias assessment tool was adapted."
+        },
+        {
+          "element_id": "prisma_2020_14_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No newly developed reporting-bias tool was used."
+        },
+        {
+          "element_id": "prisma_2020_14_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The number of reviewers, their independence, and disagreement-resolution procedures for reporting-bias assessment are not reported."
+        },
+        {
+          "element_id": "prisma_2020_14_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of obtaining or confirming missing results from study investigators."
+        },
+        {
+          "element_id": "prisma_2020_14_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No automation tools were used for reporting-bias assessment."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_14_e5"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_15",
+    "item_label": "15",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_15\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_15_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of certainty or confidence assessment methods (such as GRADE) in the retrieved text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No factors or criteria used to assess certainty are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No decision rules for deriving overall certainty levels are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No certainty assessment was performed, so review-specific considerations do not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No certainty assessment was performed, so adaptations to a system do not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Reviewer number, independence, and disagreement resolution for certainty assessment are not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No certainty assessment was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No automation tools for certainty assessment were used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e9\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No methods for reporting certainty-assessment results (like Summary of Findings tables) are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No certainty assessment was performed.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_15",
+      "elements": [
+        {
+          "element_id": "prisma_2020_15_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of certainty or confidence assessment methods (such as GRADE) in the retrieved text."
+        },
+        {
+          "element_id": "prisma_2020_15_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No factors or criteria used to assess certainty are reported."
+        },
+        {
+          "element_id": "prisma_2020_15_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No decision rules for deriving overall certainty levels are described."
+        },
+        {
+          "element_id": "prisma_2020_15_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No certainty assessment was performed, so review-specific considerations do not apply."
+        },
+        {
+          "element_id": "prisma_2020_15_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No certainty assessment was performed, so adaptations to a system do not apply."
+        },
+        {
+          "element_id": "prisma_2020_15_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Reviewer number, independence, and disagreement resolution for certainty assessment are not reported."
+        },
+        {
+          "element_id": "prisma_2020_15_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No certainty assessment was performed."
+        },
+        {
+          "element_id": "prisma_2020_15_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No automation tools for certainty assessment were used."
+        },
+        {
+          "element_id": "prisma_2020_15_e9",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No methods for reporting certainty-assessment results (like Summary of Findings tables) are described."
+        },
+        {
+          "element_id": "prisma_2020_15_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No certainty assessment was performed."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_15_e1",
+        "prisma_2020_15_e2",
+        "prisma_2020_15_e3",
+        "prisma_2020_15_e6",
+        "prisma_2020_15_e9"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16a",
+    "item_label": "16a",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"Through systematic and manual searching, 700 primary articles were found. Due to duplication, 610 articles were removed. The remaining 90 were screened based on their title and abstract, with 60 being eliminated as unrelated to our study.\",\n      \"reason\": \"The numbers of records identified, removed before screening, screened, and excluded after initial screening are explicitly reported in the text and flow diagram.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_14\",\n      \"quote\": \"Fig 1. PRISMA flow diagram explaining the selection of primary studies.\",\n      \"reason\": \"The flow diagram (Fig 1) reports the number of full-text articles assessed for eligibility and excluded with primary reasons.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"Finally, 30 full-text primary articles were evaluated against eligibility criteria, and 14 were selected for quantitative analysis ( Fig 1).\",\n      \"reason\": \"The number of included studies is reported in both text and the flow diagram.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of ongoing studies in the review, so this conditional requirement is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"This is a primary systematic review, not an update, so reporting previous review results is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Automation tools were not reported as being used for record exclusion in the search process.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "Through systematic and manual searching, 700 primary articles were found. Due to duplication, 610 articles were removed. The remaining 90 were screened based on their title and abstract, with 60 being eliminated as unrelated to our study.",
+          "reason": "The numbers of records identified, removed before screening, screened, and excluded after initial screening are explicitly reported in the text and flow diagram."
+        },
+        {
+          "element_id": "prisma_2020_16a_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_14",
+          "quote": "Fig 1. PRISMA flow diagram explaining the selection of primary studies.",
+          "reason": "The flow diagram (Fig 1) reports the number of full-text articles assessed for eligibility and excluded with primary reasons."
+        },
+        {
+          "element_id": "prisma_2020_16a_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "Finally, 30 full-text primary articles were evaluated against eligibility criteria, and 14 were selected for quantitative analysis ( Fig 1).",
+          "reason": "The number of included studies is reported in both text and the flow diagram."
+        },
+        {
+          "element_id": "prisma_2020_16a_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of ongoing studies in the review, so this conditional requirement is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_16a_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "This is a primary systematic review, not an update, so reporting previous review results is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_16a_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Automation tools were not reported as being used for record exclusion in the search process."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16b",
+    "item_label": "16b",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript mentions that reasons for excluding articles were recorded, and the PRISMA flow diagram notes general categories of excluded full-text articles (e.g., different outcomes and population, data inconsistency), but it does not cite the specific studies that were excluded with their individual reasons.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript mentions that reasons for excluding articles were recorded, and the PRISMA flow diagram notes general categories of excluded full-text articles (e.g., different outcomes and population, data inconsistency), but it does not cite the specific studies that were excluded with their individual reasons."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_16b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_17",
+    "item_label": "17",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_17\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_17_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"A total of 14 published studies involving 4476 study subjects were included in this systematic review and meta-analysis. ... [26-39]\",\n      \"reason\": \"All 14 included studies are cited appropriately throughout the text and references.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_0\",\n      \"quote\": \"Table 1. The characteristics of the studies included in the systematic review and meta-analysis.\",\n      \"reason\": \"Key characteristics of every included study are presented in Table 1.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"This is an observational prevalence/epidemiological review (KAP toward AMR), not an intervention review.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_17",
+      "elements": [
+        {
+          "element_id": "prisma_2020_17_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "A total of 14 published studies involving 4476 study subjects were included in this systematic review and meta-analysis. ... [26-39]",
+          "reason": "All 14 included studies are cited appropriately throughout the text and references."
+        },
+        {
+          "element_id": "prisma_2020_17_e2",
+          "status": "PRESENT",
+          "chunk_id": "table_0",
+          "quote": "Table 1. The characteristics of the studies included in the systematic review and meta-analysis.",
+          "reason": "Key characteristics of every included study are presented in Table 1."
+        },
+        {
+          "element_id": "prisma_2020_17_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "This is an observational prevalence/epidemiological review (KAP toward AMR), not an intervention review."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_18",
+    "item_label": "18",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_18\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_18_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The retrieved evidence mentions that risk of bias was assessed using JBI checklists and refers to supporting files (S2A Table, S2B Table), but domain-level or overall risk-of-bias judgements for each included study are not presented in the main text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The retrieved text mentions the criteria used for quality assessment and states that articles scoring 7 or higher were included, but specific justifications for each individual study's risk-of-bias judgements are not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review presents pooled prevalence estimates for overall knowledge, attitudes, and practices, rather than evaluating interventions with outcome-specific risk-of-bias judgements displayed alongside study results.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_18",
+      "elements": [
+        {
+          "element_id": "prisma_2020_18_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The retrieved evidence mentions that risk of bias was assessed using JBI checklists and refers to supporting files (S2A Table, S2B Table), but domain-level or overall risk-of-bias judgements for each included study are not presented in the main text."
+        },
+        {
+          "element_id": "prisma_2020_18_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The retrieved text mentions the criteria used for quality assessment and states that articles scoring 7 or higher were included, but specific justifications for each individual study's risk-of-bias judgements are not reported."
+        },
+        {
+          "element_id": "prisma_2020_18_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review presents pooled prevalence estimates for overall knowledge, attitudes, and practices, rather than evaluating interventions with outcome-specific risk-of-bias judgements displayed alongside study results."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_18_e1",
+        "prisma_2020_18_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_19",
+    "item_label": "19",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_19\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_19_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_17\",\n      \"quote\": \"Baxeh et al. (2014) 72.21 (67.73, 76.68)\",\n      \"reason\": \"The forest plots (figures 4, 5, and 6 in chunk text_17) present individual study summary statistics (effect sizes as percentages) for each included study.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_17\",\n      \"quote\": \"Baxeh et al. (2014) 72.21 (67.73, 76.68)\",\n      \"reason\": \"The forest plots (figures 4, 5, and 6 in chunk text_17) provide effect estimates and confidence intervals as measures of precision for each study.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_17\",\n      \"quote\": \"Fig 2. The forest plot of pooled prevalence. (Panel A) Good level of AMR knowledge. (Panel B) Favorable attitudes towards AMR. (Panel C) Good AMR practices.\",\n      \"reason\": \"Results are presented visually via forest plots and also summarized in tables such as Table 2.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Multiple data sources were not used for study-level data; all data came from standard published primary studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no indication that study-level results were computed or estimated rather than directly extracted from the primary reports.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_19",
+      "elements": [
+        {
+          "element_id": "prisma_2020_19_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_17",
+          "quote": "Baxeh et al. (2014) 72.21 (67.73, 76.68)",
+          "reason": "The forest plots (figures 4, 5, and 6 in chunk text_17) present individual study summary statistics (effect sizes as percentages) for each included study."
+        },
+        {
+          "element_id": "prisma_2020_19_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_17",
+          "quote": "Baxeh et al. (2014) 72.21 (67.73, 76.68)",
+          "reason": "The forest plots (figures 4, 5, and 6 in chunk text_17) provide effect estimates and confidence intervals as measures of precision for each study."
+        },
+        {
+          "element_id": "prisma_2020_19_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_17",
+          "quote": "Fig 2. The forest plot of pooled prevalence. (Panel A) Good level of AMR knowledge. (Panel B) Favorable attitudes towards AMR. (Panel C) Good AMR practices.",
+          "reason": "Results are presented visually via forest plots and also summarized in tables such as Table 2."
+        },
+        {
+          "element_id": "prisma_2020_19_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Multiple data sources were not used for study-level data; all data came from standard published primary studies."
+        },
+        {
+          "element_id": "prisma_2020_19_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no indication that study-level results were computed or estimated rather than directly extracted from the primary reports."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20a",
+    "item_label": "20a",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_0\",\n      \"quote\": \"Table 1. The characteristics of the studies included in the systematic review and meta-analysis.\",\n      \"reason\": \"The characteristics and risk of bias (appraisal scores) of contributing studies are presented in Table 1.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20a_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_0\",\n      \"quote\": \"Table 1. The characteristics of the studies included in the systematic review and meta-analysis.\",\n      \"reason\": \"The studies contributing to each synthesis are explicitly identified by author and citation in Table 1 and Table 2.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20a_e1",
+          "status": "PRESENT",
+          "chunk_id": "table_0",
+          "quote": "Table 1. The characteristics of the studies included in the systematic review and meta-analysis.",
+          "reason": "The characteristics and risk of bias (appraisal scores) of contributing studies are presented in Table 1."
+        },
+        {
+          "element_id": "prisma_2020_20a_e2",
+          "status": "PRESENT",
+          "chunk_id": "table_0",
+          "quote": "Table 1. The characteristics of the studies included in the systematic review and meta-analysis.",
+          "reason": "The studies contributing to each synthesis are explicitly identified by author and citation in Table 1 and Table 2."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20b",
+    "item_label": "20b",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"We found that the overall pooled level of good knowledge regarding AMR was only 51.53% [(95% CI: 37.85, 65.21), I 2 = 99.0%, P < 0.001]. Furthermore, an overall pooled level of favorable attitudes and AMR practices were 63.43% [(95% CI: 42.66, 84.20), I 2 = 99.6, P < 0.001] and 48.85% [(95% CI: 38.68, 59.01), I 2 = 93.1, P < 0.001], respectively\",\n      \"reason\": \"The results of all statistical syntheses (knowledge, attitudes, and practices) conducted are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"We found that the overall pooled level of good knowledge regarding AMR was only 51.53% [(95% CI: 37.85, 65.21), I 2 = 99.0%, P < 0.001].\",\n      \"reason\": \"Summary estimates and precision (confidence intervals) are reported for the meta-analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"I 2 = 99.0%, P < 0.001\",\n      \"reason\": \"Measures of statistical heterogeneity (I-squared and p-values) are reported for the meta-analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No other non-meta-analytic statistical synthesis methods were used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"All statistical syntheses included effect estimates (pooled prevalence proportions).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The study performed prevalence syntheses rather than direct group comparisons requiring direction of effect descriptions.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The synthesis evaluated proportions/percentages rather than mean-differences.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No re-expressed standardized mean differences were calculated.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "We found that the overall pooled level of good knowledge regarding AMR was only 51.53% [(95% CI: 37.85, 65.21), I 2 = 99.0%, P < 0.001]. Furthermore, an overall pooled level of favorable attitudes and AMR practices were 63.43% [(95% CI: 42.66, 84.20), I 2 = 99.6, P < 0.001] and 48.85% [(95% CI: 38.68, 59.01), I 2 = 93.1, P < 0.001], respectively",
+          "reason": "The results of all statistical syntheses (knowledge, attitudes, and practices) conducted are reported."
+        },
+        {
+          "element_id": "prisma_2020_20b_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "We found that the overall pooled level of good knowledge regarding AMR was only 51.53% [(95% CI: 37.85, 65.21), I 2 = 99.0%, P < 0.001].",
+          "reason": "Summary estimates and precision (confidence intervals) are reported for the meta-analyses."
+        },
+        {
+          "element_id": "prisma_2020_20b_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "I 2 = 99.0%, P < 0.001",
+          "reason": "Measures of statistical heterogeneity (I-squared and p-values) are reported for the meta-analyses."
+        },
+        {
+          "element_id": "prisma_2020_20b_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No other non-meta-analytic statistical synthesis methods were used."
+        },
+        {
+          "element_id": "prisma_2020_20b_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "All statistical syntheses included effect estimates (pooled prevalence proportions)."
+        },
+        {
+          "element_id": "prisma_2020_20b_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The study performed prevalence syntheses rather than direct group comparisons requiring direction of effect descriptions."
+        },
+        {
+          "element_id": "prisma_2020_20b_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The synthesis evaluated proportions/percentages rather than mean-differences."
+        },
+        {
+          "element_id": "prisma_2020_20b_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No re-expressed standardized mean differences were calculated."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20c",
+    "item_label": "20c",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_15\",\n      \"quote\": \"As shown in Table 3, these covariates were not found to be the source of heterogeneity.\",\n      \"reason\": \"The results of meta-regression investigations for sources of heterogeneity are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_1\",\n      \"quote\": \"Healthcare workers [26, 29, 38, 39]\",\n      \"reason\": \"Studies contributing to each subgroup are explicitly listed in the subgroup analysis table.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No specific observational heterogeneity analyses or confounding interpretations were highlighted beyond standard meta-regression/subgroup reporting.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_1\",\n      \"quote\": \"Healthcare workers [26, 29, 38, 39] | 4 | 1291 | 74.21(65.44, 82.98) | 92.9% | < 0.001\",\n      \"reason\": \"Subgroup estimates, precision (95% CI), and heterogeneity (I2 and P-values) are reported in Table 2.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Differences between subgroup effects and their precision are not explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_2\",\n      \"quote\": \"Sample size | -.056044 | .0518812 | -1. 08 | 0. 305 | -. 1716426 | .0595545\",\n      \"reason\": \"Meta-regression coefficients, t-values, p-values, and 95% confidence intervals are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Meta-regression scatterplots are not presented.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Informal heterogeneity investigations were not separately described beyond visual inspection of forest plots mentioned generally.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_15",
+          "quote": "As shown in Table 3, these covariates were not found to be the source of heterogeneity.",
+          "reason": "The results of meta-regression investigations for sources of heterogeneity are reported."
+        },
+        {
+          "element_id": "prisma_2020_20c_e2",
+          "status": "PRESENT",
+          "chunk_id": "table_1",
+          "quote": "Healthcare workers [26, 29, 38, 39]",
+          "reason": "Studies contributing to each subgroup are explicitly listed in the subgroup analysis table."
+        },
+        {
+          "element_id": "prisma_2020_20c_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No specific observational heterogeneity analyses or confounding interpretations were highlighted beyond standard meta-regression/subgroup reporting."
+        },
+        {
+          "element_id": "prisma_2020_20c_e4",
+          "status": "PRESENT",
+          "chunk_id": "table_1",
+          "quote": "Healthcare workers [26, 29, 38, 39] | 4 | 1291 | 74.21(65.44, 82.98) | 92.9% | < 0.001",
+          "reason": "Subgroup estimates, precision (95% CI), and heterogeneity (I2 and P-values) are reported in Table 2."
+        },
+        {
+          "element_id": "prisma_2020_20c_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Differences between subgroup effects and their precision are not explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_20c_e6",
+          "status": "PRESENT",
+          "chunk_id": "table_2",
+          "quote": "Sample size | -.056044 | .0518812 | -1. 08 | 0. 305 | -. 1716426 | .0595545",
+          "reason": "Meta-regression coefficients, t-values, p-values, and 95% confidence intervals are reported."
+        },
+        {
+          "element_id": "prisma_2020_20c_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Meta-regression scatterplots are not presented."
+        },
+        {
+          "element_id": "prisma_2020_20c_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Informal heterogeneity investigations were not separately described beyond visual inspection of forest plots mentioned generally."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_20c_e5",
+        "prisma_2020_20c_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20d",
+    "item_label": "20d",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20d_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_16\",\n      \"quote\": \"A leave-out-one sensitivity analysis was conducted to assess the impact of each study on the pooled level of good knowledge about, favorable attitudes and good practices toward AMR while gradually excluding each study. Results showed that the combined effects did not significantly change as a result of the excluded study ( Table 4 ).\",\n      \"reason\": \"The results of the leave-out-one sensitivity analyses are explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_16\",\n      \"quote\": \"Results showed that the combined effects did not significantly change as a result of the excluded study ( Table 4 ).\",\n      \"reason\": \"The robustness of the main analysis is discussed in light of the sensitivity analysis results indicating no significant change.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_3\",\n      \"quote\": \"Table 4. Sensitivity analysis of pooled prevalence with each study removed one by one.\",\n      \"reason\": \"Table 4 compares original/combined and sensitivity-analysis results, showing the omitted study, estimates, and confidence intervals.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_16\",\n      \"quote\": null,\n      \"reason\": \"Sensitivity analyses were conducted and presented via a leave-one-out table (Table 4) rather than forest plots, so forest plots for sensitivity analyses were not required or used.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20d_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_16",
+          "quote": "A leave-out-one sensitivity analysis was conducted to assess the impact of each study on the pooled level of good knowledge about, favorable attitudes and good practices toward AMR while gradually excluding each study. Results showed that the combined effects did not significantly change as a result of the excluded study ( Table 4 ).",
+          "reason": "The results of the leave-out-one sensitivity analyses are explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_20d_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_16",
+          "quote": "Results showed that the combined effects did not significantly change as a result of the excluded study ( Table 4 ).",
+          "reason": "The robustness of the main analysis is discussed in light of the sensitivity analysis results indicating no significant change."
+        },
+        {
+          "element_id": "prisma_2020_20d_e3",
+          "status": "PRESENT",
+          "chunk_id": "table_3",
+          "quote": "Table 4. Sensitivity analysis of pooled prevalence with each study removed one by one.",
+          "reason": "Table 4 compares original/combined and sensitivity-analysis results, showing the omitted study, estimates, and confidence intervals."
+        },
+        {
+          "element_id": "prisma_2020_20d_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_16",
+          "quote": null,
+          "reason": "Sensitivity analyses were conducted and presented via a leave-one-out table (Table 4) rather than forest plots, so forest plots for sensitivity analyses were not required or used."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_21",
+    "item_label": "21",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_21\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_21_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_17\",\n      \"quote\": \"Publication bias was assessed using funnel plots and by the regression-based test of Egger at P < 0.05. On visual inspection, the funnel plot showed slight asymmetrical distribution ... However, the formal Egger linear regression test was not statistically significant ... corroborating the absence of evidence of small study effects.\",\n      \"reason\": \"Assessments of risk of bias due to missing results (publication bias) are presented for the syntheses performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No specific tool other than funnel plots and statistical tests was used for assessing missing results/reporting bias.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_17\",\n      \"quote\": \"Publication bias was assessed using funnel plots and by the regression-based test of Egger at P < 0.05. On visual inspection, the funnel plot showed slight asymmetrical distribution ( Fig 3A ... to 3C ).\",\n      \"reason\": \"Funnel plots are presented with effect estimate (prevalence), precision measure (standard error), and confidence limits.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_17\",\n      \"quote\": \"However, the formal Egger linear regression test was not statistically significant for a good level of AMR knowledge (t = 0.58, P = 0.571), favorable AMR attitude (t = -0.98, P = 0.357), and good AMR practices (t = 0.14, P = 0.900)\",\n      \"reason\": \"Exact P values and relevant statistics for the funnel-plot asymmetry test (Egger's test) are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Sensitivity analyses were conducted for overall robustness (leave-one-out) rather than specifically examining missing results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"A study-by-synthesis matrix for selective non-reporting assessments was not used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Studies with missing results were not displayed beneath forest plots or in a dedicated table for missing results.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_21",
+      "elements": [
+        {
+          "element_id": "prisma_2020_21_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_17",
+          "quote": "Publication bias was assessed using funnel plots and by the regression-based test of Egger at P < 0.05. On visual inspection, the funnel plot showed slight asymmetrical distribution ... However, the formal Egger linear regression test was not statistically significant ... corroborating the absence of evidence of small study effects.",
+          "reason": "Assessments of risk of bias due to missing results (publication bias) are presented for the syntheses performed."
+        },
+        {
+          "element_id": "prisma_2020_21_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No specific tool other than funnel plots and statistical tests was used for assessing missing results/reporting bias."
+        },
+        {
+          "element_id": "prisma_2020_21_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_17",
+          "quote": "Publication bias was assessed using funnel plots and by the regression-based test of Egger at P < 0.05. On visual inspection, the funnel plot showed slight asymmetrical distribution ( Fig 3A ... to 3C ).",
+          "reason": "Funnel plots are presented with effect estimate (prevalence), precision measure (standard error), and confidence limits."
+        },
+        {
+          "element_id": "prisma_2020_21_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_17",
+          "quote": "However, the formal Egger linear regression test was not statistically significant for a good level of AMR knowledge (t = 0.58, P = 0.571), favorable AMR attitude (t = -0.98, P = 0.357), and good AMR practices (t = 0.14, P = 0.900)",
+          "reason": "Exact P values and relevant statistics for the funnel-plot asymmetry test (Egger's test) are reported."
+        },
+        {
+          "element_id": "prisma_2020_21_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Sensitivity analyses were conducted for overall robustness (leave-one-out) rather than specifically examining missing results."
+        },
+        {
+          "element_id": "prisma_2020_21_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "A study-by-synthesis matrix for selective non-reporting assessments was not used."
+        },
+        {
+          "element_id": "prisma_2020_21_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Studies with missing results were not displayed beneath forest plots or in a dedicated table for missing results."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 5,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_22",
+    "item_label": "22",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_22\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_22_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report assessments of certainty or confidence in the body of evidence (e.g., using GRADE) for the assessed outcomes.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There are no explanations of reasons for rating certainty up or down because certainty assessments were not performed or reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Certainty of evidence is not communicated alongside the results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence summary tables such as GRADE Summary of Findings tables are included in the manuscript.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_22",
+      "elements": [
+        {
+          "element_id": "prisma_2020_22_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report assessments of certainty or confidence in the body of evidence (e.g., using GRADE) for the assessed outcomes."
+        },
+        {
+          "element_id": "prisma_2020_22_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There are no explanations of reasons for rating certainty up or down because certainty assessments were not performed or reported."
+        },
+        {
+          "element_id": "prisma_2020_22_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Certainty of evidence is not communicated alongside the results."
+        },
+        {
+          "element_id": "prisma_2020_22_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence summary tables such as GRADE Summary of Findings tables are included in the manuscript."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_22_e1",
+        "prisma_2020_22_e2",
+        "prisma_2020_22_e3",
+        "prisma_2020_22_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23a",
+    "item_label": "23a",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_19\",\n      \"quote\": \"About the general population, this review's finding was lower than a research report from Japan, where approximately half of the public had adequate knowledge and awareness about AMR[17]; the Western region of Saudi Arabia (55%) [45, 46]; the general rural population in low-income and middle-income in South-East Asia: Chiang Rai, Thailand (74.8%), and Salvan (62.5%) [47].\",\n      \"reason\": \"The manuscript provides a general interpretation of the results by comparing them with findings from other relevant studies and regions.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_19",
+          "quote": "About the general population, this review's finding was lower than a research report from Japan, where approximately half of the public had adequate knowledge and awareness about AMR[17]; the Western region of Saudi Arabia (55%) [45, 46]; the general rural population in low-income and middle-income in South-East Asia: Chiang Rai, Thailand (74.8%), and Salvan (62.5%) [47].",
+          "reason": "The manuscript provides a general interpretation of the results by comparing them with findings from other relevant studies and regions."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23b",
+    "item_label": "23b",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_20\",\n      \"quote\": \"The majority of the studies included in the current meta-analysis were conducted in the Amhara region. It is evident that it may lack national representativeness because little information was found in the remaining regions of Ethiopia... Furthermore, the results of this review should be interpreted with caution due to significant heterogeneity in pooled effect estimates. The determinant factors meta-analysis was not pooled due to limited studies that investigated factors associated with KAP of AMR.\",\n      \"reason\": \"The manuscript discusses the limitations of the evidence included in the review, specifically mentioning lack of regional representation, significant heterogeneity, and limited studies for determinant factors.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_20",
+          "quote": "The majority of the studies included in the current meta-analysis were conducted in the Amhara region. It is evident that it may lack national representativeness because little information was found in the remaining regions of Ethiopia... Furthermore, the results of this review should be interpreted with caution due to significant heterogeneity in pooled effect estimates. The determinant factors meta-analysis was not pooled due to limited studies that investigated factors associated with KAP of AMR.",
+          "reason": "The manuscript discusses the limitations of the evidence included in the review, specifically mentioning lack of regional representation, significant heterogeneity, and limited studies for determinant factors."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23c",
+    "item_label": "23c",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_20\",\n      \"quote\": \"The limitations of this systematic review have also been acknowledged. The majority of the studies included in the current meta-analysis were conducted in the Amhara region. It is evident that it may lack national representativeness because little information was found in the remaining regions of Ethiopia... Furthermore, the results of this review should be interpreted with caution due to significant heterogeneity in pooled effect estimates. The determinant factors meta-analysis was not pooled due to limited studies that investigated factors associated with KAP of AMR.\",\n      \"reason\": \"The review discusses the limitations of the review processes and studies included, such as regional concentration, heterogeneity, and inability to pool determinant factors.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_20\",\n      \"quote\": \"It is evident that it may lack national representativeness because little information was found in the remaining regions of Ethiopia... Furthermore, the results of this review should be interpreted with caution due to significant heterogeneity in pooled effect estimates.\",\n      \"reason\": \"The potential impact of the limitations (e.g., lack of national representativeness and need for cautious interpretation due to heterogeneity) is discussed.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_20",
+          "quote": "The limitations of this systematic review have also been acknowledged. The majority of the studies included in the current meta-analysis were conducted in the Amhara region. It is evident that it may lack national representativeness because little information was found in the remaining regions of Ethiopia... Furthermore, the results of this review should be interpreted with caution due to significant heterogeneity in pooled effect estimates. The determinant factors meta-analysis was not pooled due to limited studies that investigated factors associated with KAP of AMR.",
+          "reason": "The review discusses the limitations of the review processes and studies included, such as regional concentration, heterogeneity, and inability to pool determinant factors."
+        },
+        {
+          "element_id": "prisma_2020_23c_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_20",
+          "quote": "It is evident that it may lack national representativeness because little information was found in the remaining regions of Ethiopia... Furthermore, the results of this review should be interpreted with caution due to significant heterogeneity in pooled effect estimates.",
+          "reason": "The potential impact of the limitations (e.g., lack of national representativeness and need for cautious interpretation due to heterogeneity) is discussed."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23d",
+    "item_label": "23d",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23d_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The retrieved text discusses the findings, knowledge gaps, and policy/research recommendations, but does not explicitly discuss specific implications of the results for clinical practice.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23d_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_21\",\n      \"quote\": \"Responding to AMR threats requires policymakers, researchers, intersectoral and multidisciplinary collaboration, and local and international stakeholders to assess the population's KAP toward AMR.\",\n      \"reason\": \"The text discusses implications for policymakers regarding AMR threats and KAP assessments.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23d_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_21\",\n      \"quote\": \"Furthermore,the current review provides an opportunity to conduct a national wide survey to address the limitations identified in the review.\",\n      \"reason\": \"Explicit recommendations for future research (conducting a nationwide survey) are provided.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23d_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The retrieved text discusses the findings, knowledge gaps, and policy/research recommendations, but does not explicitly discuss specific implications of the results for clinical practice."
+        },
+        {
+          "element_id": "prisma_2020_23d_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_21",
+          "quote": "Responding to AMR threats requires policymakers, researchers, intersectoral and multidisciplinary collaboration, and local and international stakeholders to assess the population's KAP toward AMR.",
+          "reason": "The text discusses implications for policymakers regarding AMR threats and KAP assessments."
+        },
+        {
+          "element_id": "prisma_2020_23d_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_21",
+          "quote": "Furthermore,the current review provides an opportunity to conduct a national wide survey to address the limitations identified in the review.",
+          "reason": "Explicit recommendations for future research (conducting a nationwide survey) are provided."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_23d_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24a",
+    "item_label": "24a",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"The study protocol was developed and registered in an international database, the Prospective Register of Systematic Reviews, by the University of York Centre for Reviews and Dissemination (available at: https : //www . crd . york . ac . uk/prospero/ #recordDetails , identifier: CRD42022380207)\",\n      \"reason\": \"The review register name (Prospective Register of Systematic Reviews / PROSPERO) and registration number (CRD42022380207) are explicitly reported.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "The study protocol was developed and registered in an international database, the Prospective Register of Systematic Reviews, by the University of York Centre for Reviews and Dissemination (available at: https : //www . crd . york . ac . uk/prospero/ #recordDetails , identifier: CRD42022380207)",
+          "reason": "The review register name (Prospective Register of Systematic Reviews / PROSPERO) and registration number (CRD42022380207) are explicitly reported."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24b",
+    "item_label": "24b",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"The study protocol was developed and registered in an international database, the Prospective Register of Systematic Reviews, by the University of York Centre for Reviews and Dissemination (available at: https : //www . crd . york . ac . uk/prospero/ #recordDetails , identifier: CRD42022380207)\",\n      \"reason\": \"The review protocol registration database, access link, and identifier (CRD42022380207) are explicitly reported.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "The study protocol was developed and registered in an international database, the Prospective Register of Systematic Reviews, by the University of York Centre for Reviews and Dissemination (available at: https : //www . crd . york . ac . uk/prospero/ #recordDetails , identifier: CRD42022380207)",
+          "reason": "The review protocol registration database, access link, and identifier (CRD42022380207) are explicitly reported."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24c",
+    "item_label": "24c",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24c_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Besides, a protocol amendment was made regarding the title, and records were submitted online to the CRD editorial team.\",\n      \"reason\": \"The text mentions that a protocol amendment was made regarding the title, but it does not fully describe all details of the amendment.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The reason for the protocol amendment regarding the title is not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The stage of the review at which the amendment was implemented is not reported.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24c_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_3",
+          "quote": "Besides, a protocol amendment was made regarding the title, and records were submitted online to the CRD editorial team.",
+          "reason": "The text mentions that a protocol amendment was made regarding the title, but it does not fully describe all details of the amendment."
+        },
+        {
+          "element_id": "prisma_2020_24c_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The reason for the protocol amendment regarding the title is not reported."
+        },
+        {
+          "element_id": "prisma_2020_24c_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The stage of the review at which the amendment was implemented is not reported."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_24c_e1",
+        "prisma_2020_24c_e2",
+        "prisma_2020_24c_e3"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_25",
+    "item_label": "25",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_25\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_25_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The retrieved text does not contain any description of financial or non-financial support, grant identifiers, or a statement regarding the absence of support.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_25_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The retrieved text does not describe the role of funders or sponsors, nor does it declare their lack of involvement.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_25",
+      "elements": [
+        {
+          "element_id": "prisma_2020_25_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The retrieved text does not contain any description of financial or non-financial support, grant identifiers, or a statement regarding the absence of support."
+        },
+        {
+          "element_id": "prisma_2020_25_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The retrieved text does not describe the role of funders or sponsors, nor does it declare their lack of involvement."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_25_e1",
+        "prisma_2020_25_e2"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_26",
+    "item_label": "26",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_26\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_26_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Competing interests: The authors have declared that no competing interests exist\",\n      \"reason\": \"The authors explicitly declared whether competing interests exist.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_26_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Competing interests: The authors have declared that no competing interests exist\",\n      \"reason\": \"Since the authors declared that no competing interests existed, how competing interests were managed is not applicable.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_26",
+      "elements": [
+        {
+          "element_id": "prisma_2020_26_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Competing interests: The authors have declared that no competing interests exist",
+          "reason": "The authors explicitly declared whether competing interests exist."
+        },
+        {
+          "element_id": "prisma_2020_26_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_2",
+          "quote": "Competing interests: The authors have declared that no competing interests exist",
+          "reason": "Since the authors declared that no competing interests existed, how competing interests were managed is not applicable."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_27",
+    "item_label": "27",
+    "model": "google/gemini-3.5-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_27\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_27_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_22\",\n      \"quote\": \"S1 Checklist. PRISMA 2020 checklist. (DOCX) S1 Table. Search details. (DOCX) S2 Table. JBI's critical appraisal tools: (A) Descriptive cross-sectional studies. (B) Analyti- cal cross-sectional studies. (DOCX) S1 File. Data extraction sheet. (XLSX)\",\n      \"reason\": \"The availability of review materials, including the PRISMA checklist, search details, critical appraisal tools, and data extraction sheet, is reported in the supporting information.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_27_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_22\",\n      \"quote\": \"S1 Checklist. PRISMA 2020 checklist. (DOCX) S1 Table. Search details. (DOCX) S2 Table. JBI's critical appraisal tools: (A) Descriptive cross-sectional studies. (B) Analyti- cal cross-sectional studies. (DOCX) S1 File. Data extraction sheet. (XLSX)\",\n      \"reason\": \"The location of the publicly available supplementary materials is reported as supporting information files attached to the article.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_27_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"All relevant materials are reported as publicly available in supplementary files, making conditional reporting for materials available only on request inapplicable.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_27",
+      "elements": [
+        {
+          "element_id": "prisma_2020_27_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_22",
+          "quote": "S1 Checklist. PRISMA 2020 checklist. (DOCX) S1 Table. Search details. (DOCX) S2 Table. JBI's critical appraisal tools: (A) Descriptive cross-sectional studies. (B) Analyti- cal cross-sectional studies. (DOCX) S1 File. Data extraction sheet. (XLSX)",
+          "reason": "The availability of review materials, including the PRISMA checklist, search details, critical appraisal tools, and data extraction sheet, is reported in the supporting information."
+        },
+        {
+          "element_id": "prisma_2020_27_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_22",
+          "quote": "S1 Checklist. PRISMA 2020 checklist. (DOCX) S1 Table. Search details. (DOCX) S2 Table. JBI's critical appraisal tools: (A) Descriptive cross-sectional studies. (B) Analyti- cal cross-sectional studies. (DOCX) S1 File. Data extraction sheet. (XLSX)",
+          "reason": "The location of the publicly available supplementary materials is reported as supporting information files attached to the article."
+        },
+        {
+          "element_id": "prisma_2020_27_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "All relevant materials are reported as publicly available in supplementary files, making conditional reporting for materials available only on request inapplicable."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  }
+]
