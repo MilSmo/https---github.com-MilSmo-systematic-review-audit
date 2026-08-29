@@ -21,6 +21,7 @@ from docling.document_converter import (
     PdfFormatOption,
 )
 from docling_core.types.doc import PictureItem, SectionHeaderItem
+from docling_core.types.doc.labels import DocItemLabel
 from openai import OpenAI
 
 import faiss
@@ -813,97 +814,206 @@ TITLE_STOP_HEADINGS = {
 
 def _is_plausible_title(text: str) -> bool:
     text = clean_text(text)
+    text = re.sub(r"(?<=\w)-\s+(?=\w)", "-", text)
+    text = re.sub(r"\s+([,.;:?!])", r"\1", text)
     words = text.split()
     compact = re.sub(r"[^a-z]", "", text.lower())
 
-    if not 4 <= len(words) <= 60:
+    if not 3 <= len(words) <= 80:
         return False
-    if not 20 <= len(text) <= 500:
+    if not 15 <= len(text) <= 600:
         return False
     if compact in TITLE_STOP_HEADINGS:
         return False
     if TITLE_METADATA_PATTERN.search(text):
         return False
-    if not re.search(r"[A-Za-z]", text):
+    if not any(character.isalpha() for character in text):
         return False
 
     return True
+
+
+def _clean_document_title(text: str) -> str:
+    text = clean_text(text)
+    text = re.sub(r"(?<=\w)-\s+(?=\w)", "-", text)
+    text = re.sub(r"\s+([,.;:?!])", r"\1", text)
+    return text.strip(" |").strip()
+
+
+def _title_item_geometry(
+    element: Any,
+    doc: Any,
+) -> Tuple[Optional[int], Optional[float], Optional[float]]:
+    """Return page number, top ratio and width ratio for a Docling item."""
+    provenance = list(getattr(element, "prov", None) or [])
+    if not provenance:
+        return None, None, None
+
+    provenance = provenance[0]
+    page_no = getattr(provenance, "page_no", None)
+    try:
+        page_no = int(page_no) if page_no is not None else None
+    except (TypeError, ValueError):
+        page_no = None
+
+    page_width, page_height = _page_size(doc, page_no)
+    bbox = getattr(provenance, "bbox", None)
+    if bbox is None or page_width <= 0 or page_height <= 0:
+        return page_no, None, None
+
+    coordinates = _bbox_top_left(bbox, page_height)
+    if coordinates is None:
+        return page_no, None, None
+
+    left, top, right, _bottom = coordinates
+    return page_no, top / page_height, (right - left) / page_width
 
 
 def extract_document_title(
     doc: Any,
     markdown: str = "",
 ) -> str:
-    """Extract the article title from document content, never its filename."""
+    """Extract an article title using Docling labels, then safe fallbacks."""
+    candidates: Dict[str, Tuple[float, int, str, str]] = {}
 
-    # Best source: one or more consecutive items explicitly labelled as title.
-    explicit_parts: List[str] = []
-    collecting_title = False
+    def add_candidate(
+        text: str,
+        source_score: float,
+        order: int,
+        source: str,
+        top: Optional[float] = None,
+        width: Optional[float] = None,
+    ) -> None:
+        text = _clean_document_title(text)
+        if not _is_plausible_title(text):
+            return
 
-    for element, _level in doc.iterate_items():
-        label = _label_of(element)
-        text = clean_text(str(getattr(element, "text", "") or ""))
+        score = source_score
+        word_count = len(text.split())
 
-        if label == "title":
-            collecting_title = True
-            if text:
-                explicit_parts.append(text)
-        elif collecting_title:
-            break
+        if top is not None:
+            if 0.06 <= top <= 0.50:
+                score += 30
+            elif top < 0.06:
+                score -= 20
+            elif top > 0.65:
+                score -= 35
 
-    explicit_title = clean_text(" ".join(explicit_parts))
-    if explicit_title:
-        return explicit_title
+        if width is not None:
+            if width >= 0.50:
+                score += 15
+            elif width < 0.20:
+                score -= 10
 
-    # Docling may export a title as H1 even when the item label is not `title`.
-    markdown_h1 = re.search(
-        r"(?m)^#(?!#)\s+(.+?)\s*$",
-        markdown,
-    )
-    if markdown_h1:
-        title = clean_text(markdown_h1.group(1))
-        if _is_plausible_title(title):
-            return title
+        if 6 <= word_count <= 30:
+            score += 15
+        elif word_count > 45:
+            score -= 20
 
-    # Final document-based fallback: choose the strongest plausible candidate
-    # from the front matter on page 1, stopping before the abstract/body.
-    candidates: List[Tuple[int, int, str]] = []
+        if text.count(",") >= 4 and word_count <= 35:
+            score -= 25
+        if re.search(r"\bet\s+al\.?\b", text, re.I):
+            score -= 40
 
+        key = text.casefold()
+        candidate = (score, -order, text, source)
+        if key not in candidates or candidate > candidates[key]:
+            candidates[key] = candidate
+
+    # 1. Native Docling TitleItem / DocItemLabel.TITLE candidates.
+    title_group: List[Tuple[int, Any, str]] = []
+
+    def flush_title_group() -> None:
+        if not title_group:
+            return
+
+        text = " ".join(part[2] for part in title_group)
+        first_order, first_item, _first_text = title_group[0]
+        _page, top, width = _title_item_geometry(first_item, doc)
+        add_candidate(
+            text,
+            source_score=150,
+            order=first_order,
+            source="docling_title",
+            top=top,
+            width=width,
+        )
+        title_group.clear()
+
+    for order, item in enumerate(getattr(doc, "texts", []) or []):
+        label = getattr(item, "label", None)
+        is_title = label == DocItemLabel.TITLE or _label_of(item) == "title"
+        text = _clean_document_title(str(getattr(item, "text", "") or ""))
+        page_no, _top, _width = _title_item_geometry(item, doc)
+
+        if is_title and text and page_no in {None, 1}:
+            title_group.append((order, item, text))
+        else:
+            flush_title_group()
+
+    flush_title_group()
+
+    # 2. Docling Markdown may serialize the article title as H1 or H2.
+    for match in re.finditer(r"(?m)^(#{1,2})\s+(.+?)\s*$", markdown):
+        level = len(match.group(1))
+        add_candidate(
+            match.group(2),
+            source_score=120 if level == 1 else 95,
+            order=match.start(),
+            source=f"markdown_h{level}",
+        )
+
+    # 3. Page-one layout fallback when Docling missed the TITLE label.
     for order, (element, _level) in enumerate(doc.iterate_items()):
-        if order >= 80:
+        if order >= 120:
             break
 
         label = _label_of(element)
         if label in SKIP_LABELS:
             continue
 
-        text = clean_text(str(getattr(element, "text", "") or ""))
+        text = _clean_document_title(
+            str(getattr(element, "text", "") or "")
+        )
         if not text:
             continue
 
-        compact = re.sub(r"[^a-z]", "", text.lower())
-        if compact in TITLE_STOP_HEADINGS:
-            break
-
-        provenance = list(getattr(element, "prov", None) or [])
-        if provenance:
-            page_no = getattr(provenance[0], "page_no", None)
-            try:
-                if page_no is not None and int(page_no) > 1:
-                    break
-            except (TypeError, ValueError):
-                pass
-
-        if not _is_plausible_title(text):
+        page_no, top, width = _title_item_geometry(element, doc)
+        if page_no is not None and page_no != 1:
+            continue
+        if label not in {"title", "section_header"} and top is not None and top > 0.55:
             continue
 
-        # A section-header classification is stronger than ordinary text.
-        # Length helps distinguish an article title from short author names.
-        label_bonus = 1000 if label == "section_header" else 0
-        candidates.append((label_bonus + len(text), -order, text))
+        source_score = {
+            "title": 140,
+            "section_header": 75,
+            "text": 20,
+            "paragraph": 20,
+        }.get(label, 15)
+
+        add_candidate(
+            text,
+            source_score=source_score,
+            order=order,
+            source=f"docling_{label}",
+            top=top,
+            width=width,
+        )
 
     if candidates:
-        return max(candidates)[2]
+        ranked = sorted(candidates.values(), reverse=True)
+        score, _negative_order, title, source = ranked[0]
+
+        if os.environ.get("DEBUG_TITLE_EXTRACTION") == "1":
+            print("\nTitle candidates:")
+            for candidate_score, _order, candidate_title, candidate_source in ranked[:10]:
+                print(
+                    f"  {candidate_score:6.1f} | "
+                    f"{candidate_source:24s} | {candidate_title}"
+                )
+            print(f"Selected title ({source}, score={score:.1f}): {title}")
+
+        return title
 
     raise ValueError(
         "Could not extract the article title from the document. "
@@ -2385,10 +2495,10 @@ def convert_pdf(
 DEFAULT_MODELS = [
     "z-ai/glm-5.3-flash",
     "qwen/qwen3.5-35b-a3b",
-    "google/gemini-3.5-flash-lite",
-    "anthropic/claude-sonnet-4.5",
+    "google/gemini-3.1-flash-lite",
+    "openai/gpt-5-mini",
+    "deepseek/deepseek-chat-v3.1",
     "openai/gpt-5.4-nano",
-    "mistralai/mistral-medium-3-5",
 ]
 
 SYSTEM_PROMPT = """
