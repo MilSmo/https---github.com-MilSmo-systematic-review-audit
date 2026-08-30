@@ -1,0 +1,301 @@
+{
+  "item_id": "PRISMA_2020_18",
+  "item_label": "18",
+  "checklist_item": "Present assessments of risk of bias for each included study.",
+  "semantic_query": "Risk of bias in studies. Present assessments of risk of bias for each included study. risk of bias assessments presented for each included study (tables/figures/narrative). Per-study RoB results (at least summarized per domain/study)\nPresent assessments of risk of bias for each included study.\nRelevant terminology: quality assessment; critical appraisal; traffic light plot; quality scores; some concerns; risk of bias; unclear risk; high risk; per study; low risk; ROBINS-I; Cochrane",
+  "top_evidence": [
+    {
+      "chunk_id": "text_20",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Critical Appraisal",
+      "merged_headings": [],
+      "pages": [
+        16,
+        17,
+        18
+      ],
+      "word_count": 820,
+      "faiss_score": 0.6689054369926453,
+      "keyword_bonus": 0.4100000000000001,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 1.0789054369926454,
+      "adjusted_retrieval_score_norm": 1.0,
+      "rerank_score": 4.439449310302734,
+      "rerank_score_norm": 1.0,
+      "final_score": 1.0,
+      "text": "Assessment of bias. Out of the 16 articles included in this review, 15 were assessed using the PROBAST tool, while one clinical trial was excluded as it did not meet the criteria for PROBAST evaluation. Among the 15 studies, the overall risk of bias was high in 8 studies (53%), primarily due to issues with participant selection methods. Only one study (7%) was rated as having a low risk of bias. The remaining six studies (40%) were deemed to have an unclear risk of bias, largely due to insufficient information about how the analysis was conducted, particularly the handling of missing data. Notably, 12 studies (80%) exhibited an unclear risk of bias in the analysis domain. Additional sources of unclear risk of bias were identified in specific domains, including 2 studies (13%) with unclear risk related to participant selection, 3 studies (20%) with unclear bias in predictors, and 2 studies (13%) with unclear risk in the outcome domain. Fig 6 summarizes overall risk of bias across articles. S1 Table summarizes the individual results of the critical appraisal in each article. Model validation and data processing. S1 Table details the validation approaches and methods of feature selection used in model development. Among the 16 studies, four models underwent both internal and external validation (25%), Fig 6. Risk of bias across studies. Summary of the risk of bias assessment for included studies using the PROBAST tool. Abbreviations: PROBAST, prediction model risk of bias assessment tool. https://doi.org/10.1371/journal.pdig.0001009.g006 while the remaining articles conducted only internal validation. Notably, one article did not perform any validation, as their primary aim was to compare population characteristics rather than assess performance metrics. The most common method of internal validation was a random split of training and test sets (n = 9, 56%), while the most common method for external validation was geographical splitting (n = 5, 31%). Calibration was not assessed in 12 studies (75%), and missing data were not properly handled in 8 studies (50%). The number of potential variables/features for model development varied significantly, ranging from 13 to 26,000. However, the number of final variables was relatively consistent across articles generally ranging from 13 to 19. The selection method for candidate predictors was primarily based on prior knowledge (n = 7, 44%). However, the approach for selecting final predictors was frequently unspecified in six studies (38%), with the Least Absolute Shrinkage and Selection Operator (LASSO) used in two studies (13%). Applicability and reproducibility. Among the 15 studies evaluated using PROBAST, the majority of studies (n = 9 studies, 60%) were rated as having high concern for overall applicability to clinical practice in primary care. These concerns were mainly due to the irrelevance of the setting and participant selection (n = 7 studies, 47%) and the lack of applicability of certain predictors in primary care (n = 6 studies, 40%). One study (7%) also showed applicability concerns due to issues with outcome definitions. Additionally, 11 studies (73%) had unclear applicability due to insufficient reporting on patient-, provider-, or system-related outcomes. Fig 7 shows overall applicability assessment. MI-CLAIM checklist assessment. Part 1 (Study Design): All the 16 studies (100%) clearly stated the research question and clinical problem. Nearly all (n = 15, 94%) described cohort characteristics, and representativeness to clinical settings reflecting a good adherence to study design standards. Part 2 (Data and Optimization): Most studies (n = 15, 94%) detailed data origin and format, and (n = 13, 81%) provided details on the models evaluated. However, only 56%(n = 9) reported on training-test set independence, while data transformations are rarely addressed (n = 3, 19%), indicating gaps in data handling transparency. Part 3 (Model Performance): Most articles (n = 15, 94%) presented baseline-to-model performance comparisons and 88% (n = 14) specifying algorithm performance metrics. Clinical utility metrics are noted in 69% (n = 11) with minor gaps in clarity. Overall, model performance documentation is comprehensive, particularly for baseline comparisons. Fig 7. Concerns regarding applicability. Assessment of concerns related to the applicability of included studies using the PROBAST framework. Abbreviations: PROBAST, prediction model risk of bias assessment tool. https://doi.org/10.1371/journal.pdig.0001009.g007 Part 4 (Percentage of Model Code Sharing): Overall, model code sharing is limited. Only 7% of studies (n = 1) fully shared their models' codes, while most studies (n = 10, 62%) restrict access or do not share their code as shown in S1 Fig. Summary of MI-CLAIM checklist is shown in S1 Fig. Cross-mapping of model effectiveness and applicability. To visualize how often models achieved in terms of predictive performance and clinical applicability, we developed a matrix mapping these two dimensions (Table 5). The majority of studies (n = 7, 44%) fell into the moderate effectiveness/ high or unclear applicability quadrant, indicating limited readiness for clinical use, while only three models (19%) demonstrated both high effectiveness and low applicability concern. These findings underscore the need to improve the predictive performance of future models while using primary care-based metrics.",
+      "images": [
+        {
+          "image_id": "figure_24",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\pdig.0001009\\images\\figure_024_Critical_Appraisal.png",
+          "relative_path": "images\\figure_024_Critical_Appraisal.png",
+          "caption": "Fig 6. Risk of bias across studies. Summary of the risk of bias assessment for included studies using the PROBAST tool. Abbreviations: PROBAST, prediction model risk of bias assessment tool.",
+          "section": "Critical Appraisal",
+          "page_number": 16
+        },
+        {
+          "image_id": "figure_25",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\pdig.0001009\\images\\figure_025_Critical_Appraisal.png",
+          "relative_path": "images\\figure_025_Critical_Appraisal.png",
+          "caption": "",
+          "section": "Critical Appraisal",
+          "page_number": 17
+        },
+        {
+          "image_id": "figure_26",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\pdig.0001009\\images\\figure_026_Critical_Appraisal.png",
+          "relative_path": "images\\figure_026_Critical_Appraisal.png",
+          "caption": "Fig 7. Concerns regarding applicability. Assessment of concerns related to the applicability of included studies using the PROBAST framework. Abbreviations: PROBAST, prediction model risk of bias assessment tool.",
+          "section": "Critical Appraisal",
+          "page_number": 17
+        },
+        {
+          "image_id": "figure_27",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\pdig.0001009\\images\\figure_027_Critical_Appraisal.png",
+          "relative_path": "images\\figure_027_Critical_Appraisal.png",
+          "caption": "",
+          "section": "Critical Appraisal",
+          "page_number": 18
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_10",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Quality Assessment",
+      "merged_headings": [],
+      "pages": [
+        5
+      ],
+      "word_count": 114,
+      "faiss_score": 0.4686321020126343,
+      "keyword_bonus": 0.19,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.8086321020126342,
+      "adjusted_retrieval_score_norm": 0.7323587336682413,
+      "rerank_score": 1.332817792892456,
+      "rerank_score_norm": 0.7307195562080298,
+      "final_score": 0.7317850215571673,
+      "text": "We used the Prediction Model Risk of Bias Assessment Tool (PROBAST) for quality assessment [18]. Data extracted via CHARMS was appraised with PROBAST, which evaluates risk of bias and applicability in prognostic model studies across four domains: participants (e.g., selection bias), model predictors (e.g., bias from inconsistencies in predictor definitions and selection), outcome (e.g., bias due to outcome misclassification), and analysis (e.g., bias from inappropriate statistical methods in model development). To streamline this process, we implemented the ready-to-use template by ­ Fernandez-Felix et al., 2023 [19]. Additionally, we applied the Consolidated Standards of Reporting Trials-Artificial Intelligence (CONSORT-AI) guidelines to assess the quality of clinical trials involving AI, ensuring comprehensive adherence to reporting standards [20].",
+      "images": []
+    },
+    {
+      "chunk_id": "text_23",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Most Current Ml Models Have High Risk Of Bias",
+      "merged_headings": [],
+      "pages": [
+        19
+      ],
+      "word_count": 176,
+      "faiss_score": 0.515009880065918,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.665009880065918,
+      "adjusted_retrieval_score_norm": 0.5901351829874355,
+      "rerank_score": 2.9024906158447266,
+      "rerank_score_norm": 0.8667775959220975,
+      "final_score": 0.6869600275145672,
+      "text": "Our analysis revealed a spectrum of bias risks ranging from uncertain to high across most studies, primarily driven by participant selection, model overfitting, and lack of external validation. Specifically, selection bias emerged as a significant concern in 56% (n = 9) of the included studies, often due to single-center data, non-random participant selection, or exclusion of participants with incomplete data. Notably, only 25% (n = 4) of the studies conducted external validation, a critical step in mitigating the risk of overfitting and enhancing model generalizability. This observation aligns with previous findings on the prevalence of this issue in similar research contexts [43,44]. Another common source of bias was inadequate reporting on handling missing data. Only five studies (31%) reported their approach to missing data, while three studies (19%) included only participants with complete data. This oversight is a common issue in ML predictive model development. As Nijman et al. [45] noted, most ML models developed between 2018 and 2019 lacked adequate strategies for handling missing data, which can introduce significant non-reporting bias and undermine model reliability.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_13",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Results > Study Selection",
+      "merged_headings": [],
+      "pages": [
+        6
+      ],
+      "word_count": 92,
+      "faiss_score": 0.4211016297340393,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.5711016297340393,
+      "adjusted_retrieval_score_norm": 0.4971414622429062,
+      "rerank_score": -0.9106459617614746,
+      "rerank_score_norm": 0.5362578338895709,
+      "final_score": 0.5108321923192388,
+      "text": "Fig 1 shows the PRISMA flow diagram for the study selection process in this review. Our initial search across seven databases yielded 4,536 references, with one additional study manually included through citation tracking due to its relevance to our inclusion criteria. After removing duplicates, 2361 unique records remained for title and abstract screening. Following the first round of screening, 122 studies were selected for full-text review. Ultimately, 16 articles met the eligibility criteria and were included for data extraction. Fig 1 provides a breakdown of exclusion reasons. S1 Checklist shows PRISMA checklist.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_22",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Ml Methods Are Effective In Detecting Af Using Ehr In Primary Care",
+      "merged_headings": [],
+      "pages": [
+        18,
+        19
+      ],
+      "word_count": 459,
+      "faiss_score": 0.353057861328125,
+      "keyword_bonus": 0.22000000000000003,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.573057861328125,
+      "adjusted_retrieval_score_norm": 0.4990786429903817,
+      "rerank_score": -1.6165714263916016,
+      "rerank_score_norm": 0.4750687545493484,
+      "final_score": 0.49067518203602,
+      "text": "For a thorough evaluation of predictive models' performance, two key metrics-calibration and discrimination-are essential. Calibration assesses how well predicted probabilities align with observed outcomes, while discrimination, often measured by AUC or C-index, reflects a model's ability to differentiate between high- and low-risk individuals [39]. Both metrics range from 0 to 1, with higher values (closer to 1.0) indicating better performance. C-index above 0.75 suggests strong discrimination [39]. However, for utility in clinical practice, discrimination above 0.9 is required for regulatory considerations [40,41]. In this review, 81% of studies (n = 13) reported an AUC above 0.75, demonstrating strong discrimination. However, the lack of reported calibration metrics limits a comprehensive assessment of model accuracy. A meta-analysis was not feasible due to high risk of bias in many studies and substantial heterogeneity in both performance metrics and the datasets used to develop ML models. As a result, cross-study comparisons were inappropriate. Instead, we evaluated model performance relative to control groups within each study. When compared to the performance (discrimination) of control groups, half of the models (50%, n = 8) in this review outperformed the controls with supervised models accounting for 63% (n = 5) of these superior models. In contrast, models based on unsupervised learning methods or deep learning models showed only moderate performance. Notably, combining machine learning models (both supervised and unsupervised) with clinical tools, such as CHARGE-AF or ICD codes for AF, significantly improved model performance (discrimination). This indicates that optimal results are achieved when predictive models are used in conjunction with established clinical tools. Table 5. Matrix mapping study-level performance against PROBAST-rated applicability: number (percentage). Performance was classified as high, moderate, or low based on Area-Under-Curve and demonstrated superiority to control. High performance: AUC ≥ 0.9 and superiority to control. Moderate performance: AUC ≥ 0.9 or superiority to control (but not both). Low performance: Neither AUC ≥ 0.9 nor superiority demonstrated. Applicability tiers were derived from PROBAST. https://doi.org/10.1371/journal.pdig.0001009.t005 These findings underscore the considerable potential of ML models for AF screening in primary care. Compared to traditional models like CHADS2 (C-index 0.674) and CHARGE-AF (C-index 0.71) [7] or in head-to-head comparisons with control groups, ML models in this review demonstrated superior diagnostic performance, improving the identification of high-risk patients and contributing to better clinical outcomes. For the healthcare system, ML models in this review significantly reduced the NNS to 12, as shown in the prospective clinical trial in this review, Hill et al.'s [36], compared to 70 with conventional methods [7]. At a population level, applying such models could improve resource utilization and reduce the burden on primary care. Hill et al. [42] further demonstrated this, in another article, through cost-effectiveness analyses, showing substantial health benefits with an incremental gain of 80,669 QALYs, linked to fewer AF-related complications.",
+      "images": [
+        {
+          "image_id": "figure_28",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\pdig.0001009\\images\\figure_028_Ml_Methods_Are_Effective_In_Detecting_Af_Using_Ehr.png",
+          "relative_path": "images\\figure_028_Ml_Methods_Are_Effective_In_Detecting_Af_Using_Ehr.png",
+          "caption": "",
+          "section": "Ml Methods Are Effective In Detecting Af Using Ehr In Primary Care",
+          "page_number": 19
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_12",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Data Synthesis And Analysis",
+      "merged_headings": [],
+      "pages": [
+        5,
+        6
+      ],
+      "word_count": 103,
+      "faiss_score": 0.5314637422561646,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.5314637422561646,
+      "adjusted_retrieval_score_norm": 0.45788959005921936,
+      "rerank_score": -0.8030714988708496,
+      "rerank_score_norm": 0.5455823060535623,
+      "final_score": 0.4885820406572394,
+      "text": "Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis. This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures, with a particular focus on model performance metrics such as sensitivity, specificity, positive predictive value, accuracy, ROC-AUC, PRC-AUC, and F1 score. We also explored sources of variation across studies, including differences in study design, methodology, populations, interventions, control groups, and outcomes. Bias assessment was reported in accordance with PROBAST, utilizing the template developed by Fernandez-Felix et al., 2023 [19].",
+      "images": [
+        {
+          "image_id": "figure_8",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\pdig.0001009\\images\\figure_008_Data_Synthesis_And_Analysis.png",
+          "relative_path": "images\\figure_008_Data_Synthesis_And_Analysis.png",
+          "caption": "",
+          "section": "Data Synthesis And Analysis",
+          "page_number": 6
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_30",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Supporting Information > S1 Appendix. Search Strategy.",
+      "merged_headings": [],
+      "pages": [
+        21
+      ],
+      "word_count": 58,
+      "faiss_score": 0.33332380652427673,
+      "keyword_bonus": 0.08,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.41332380652427675,
+      "adjusted_retrieval_score_norm": 0.34090016523870015,
+      "rerank_score": 0.4092101752758026,
+      "rerank_score_norm": 0.6506619543432346,
+      "final_score": 0.4493167914252872,
+      "text": "(DOCX) S1 Fig. Summary of MICLAIM checklist. (DOCX) S1 Table. Data extraction (CHARMS) and risk of bias evaluations (PROBAST) for each study. (XLSX) S2 Table. Summary of atrial fibrillation predictors included across the reviewed ML models. (DOCX) S1 Protocol. Full registered protocol for the review (PROSPERO CRD42023390603). (PDF) S1 Checklist. Completed PRISMA 2020 checklist for systematic reviews. (DOCX)",
+      "images": []
+    },
+    {
+      "chunk_id": "text_2",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Abstract",
+      "merged_headings": [],
+      "pages": [
+        1,
+        2
+      ],
+      "word_count": 465,
+      "faiss_score": 0.2404279112815857,
+      "keyword_bonus": 0.19,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4304279112815857,
+      "adjusted_retrieval_score_norm": 0.3578377009266206,
+      "rerank_score": -0.041613709181547165,
+      "rerank_score_norm": 0.6115848848554784,
+      "final_score": 0.4466492153017208,
+      "text": "Atrial fibrillation (AF) increases the risk of stroke, heart failure and mortality. Current screening guidelines fail to detect AF effectively, and existing models have limited applicability in primary care. Electronic health records (EHRs) provide an opportunity to apply machine learning (ML) for automated AF detection; however, their performance relative to standard care remains unclear. We conducted a systematic review to evaluate the effectiveness, quality, and applicability of EHR-based ML models for detecting AF in primary care. The review is informed by Joanna Briggs Institute and Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA) guidelines. We searched seven databases from inception to May 2023. Eligible studies involved adults in primary care where ML models using EHRs were compared to standard care. The primary outcome was the detection of undiagnosed AF; secondary outcomes examined impacts on patients, healthcare providers, and systems. Data were extracted using CHARMS, risk of bias and applicability were evaluated through PROBAST and MI-CLAIM checklists. This review was registered in International Prospective Register of Systematic Reviews (CRD42023390603). From 4,536 references screened, 16 studies were included. Among these, 14 (87%) were retrospective cohort studies, one (6%) was prospective, and one (6%) was a randomized controlled trial. Random forest classifiers were the most common ML model (7 studies, 43%). Only 4 studies (25%) underwent external validation, and 8 (53%) were at high risk of bias. Model discrimination (AUROC) ranged from 0.71 to 0.948, with 8 (50%) outperforming controls. Combining ML with clinical tools (3 studies, 19%) significantly improved discrimination compared to ML models alone. Reviewed January 25, 2025 October 14, 2025 Data availability statement : All relevant data are within the manuscript and its Supporting Information files. Funding: The author(s) received no specific funding for this work. models identified gout as a nontraditional predictor of AF and demonstrated that dynamic measures of BMI, blood pressure, and heart failure diagnosis were stronger predictors than static measures. EHR-based ML models show promise for improving AF detection in primary care compared to standard care. Their clinical applicability, however, is limited by insufficient external validation, high risk of bias, and variable performance. Future research should prioritize external validation, evaluation in clinical trials and the integration of predictors routinely available in primary care. Competing interests: Dr. AbbasgholizadehRahimi is Canada Research Chair (Tier II) in AI and Advanced Digital Primary Health Care, received salary support from a Research Scholar Junior 1 Career Development Award from the Fonds de Recherche du Québec-Santé (FRQS) during a portion of this study, and her research program is supported by the Natural Sciences Research Council (NSERC) Discovery (grant 2020-05246). Dr Sharma has received support from the Fonds de Recherche Santé Québec (FRSQ) Junior 2 clinician scholars' program, Canadian Institute of Health Research (Grant #175095), Roche Diagnostics, Boehringer-Ingelheim, Novartis, Janssen, Novo Nordisk, Servier, Novartis, AstraZeneca, and Takeda.",
+      "images": [
+        {
+          "image_id": "figure_3",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\pdig.0001009\\images\\figure_003_Abstract.png",
+          "relative_path": "images\\figure_003_Abstract.png",
+          "caption": "",
+          "section": "Abstract",
+          "page_number": 1
+        },
+        {
+          "image_id": "figure_4",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\pdig.0001009\\images\\figure_004_Abstract.png",
+          "relative_path": "images\\figure_004_Abstract.png",
+          "caption": "",
+          "section": "Abstract",
+          "page_number": 2
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_9",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Data Extraction",
+      "merged_headings": [],
+      "pages": [
+        5
+      ],
+      "word_count": 255,
+      "faiss_score": 0.44021010398864746,
+      "keyword_bonus": 0.08,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.5202101039886474,
+      "adjusted_retrieval_score_norm": 0.4467455458382807,
+      "rerank_score": -2.767982006072998,
+      "rerank_score_norm": 0.3752653661700793,
+      "final_score": 0.4217274829544102,
+      "text": "We used the Checklist for Critical Appraisal and Data Extraction for Systematic Reviews of Prediction Modeling Studies (CHARMS) for data extraction (Moons et al., 2014). The CHARMS checklist is structured to systematically extract data from primary studies reporting on prediction models as well as to assess potential sources of bias in ML method selection. Key categories extracted included study information (e.g., data source), participant details (e.g., population characteristics), outcomes (e.g., outcome type and blinding of assessment), candidate predictors (e.g., predictor type), model development (e.g., sample size, handling of missing data, and predictor selection), model performance (e.g., calibration, classification measures), and model evaluation (e.g., internal vs. external validation). In addition to these criteria, we captured further details on study design, such as the clinical question, ML method, control groups, intended use of results, validation processes, and clinical outcomes (e.g., patient-related, provider-related, and healthcare system-related). For each study, we also documented the final variables used to develop the ML models. We customized and tested the data extraction framework on several initial articles to ensure comprehensiveness and consistency. We specifically reported on the highest-performing AI systems in AF detection, whether their performance was achieved by an ML model alone or in combination with other tools, and compared it against control groups. In this context, we identified model discrimination-the ability to accurately distinguish between individuals with and without AF-as a key metric to measure the performance of ML models. Significance was defined as by a P value < 0.05 or non-­ overlapping confidence intervals as reported in each article.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_28",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Limitations",
+      "merged_headings": [],
+      "pages": [
+        20,
+        21
+      ],
+      "word_count": 123,
+      "faiss_score": 0.3848622441291809,
+      "keyword_bonus": 0.03,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.41486224412918093,
+      "adjusted_retrieval_score_norm": 0.34242362070196075,
+      "rerank_score": -2.3372600078582764,
+      "rerank_score_norm": 0.41260001953344655,
+      "final_score": 0.3669853602929808,
+      "text": "This study has several limitations. Our search strategy excluded ML methods that rely on ECG, imaging, laboratory tests, and wearable devices, which may have narrowed the scope of our analysis. A meta-analysis was not possible due to substantial variations in performance metrics and follow-up durations, limiting cross-study comparisons. Furthermore, the predominance of retrospective single-center cohort designs and North American data registries also restricted the generalizability of our findings. Regarding missing data, we recorded unreported items as 'not reported' or 'unclear' in our extraction sheet. Due to the extent and variability of missing data, we did not impute values or contact study authors but instead chose to retain these studies and highlight the issue as a gap and a limitation in the current literature.",
+      "images": [
+        {
+          "image_id": "figure_30",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\pdig.0001009\\images\\figure_030_Limitations.png",
+          "relative_path": "images\\figure_030_Limitations.png",
+          "caption": "",
+          "section": "Limitations",
+          "page_number": 21
+        }
+      ]
+    }
+  ]
+}

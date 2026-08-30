@@ -1,0 +1,257 @@
+{
+  "item_id": "PRISMA_2020_20d",
+  "item_label": "20d",
+  "checklist_item": "Present results of all sensitivity analyses conducted to assess the robustness of the synthesised results.",
+  "semantic_query": "Results of syntheses. Present results of all sensitivity analyses conducted to assess the robustness of the synthesised results. the authors present results of sensitivity analyses assessing robustness. Sensitivity analysis results reported (tables/plots/narrative)\nPresent results of all sensitivity analyses conducted to assess the robustness of the synthesised results.\nRelevant terminology: sensitivity analysis results; risk of bias sensitivity; alternative assumptions; sensitivity analysis; sensitivity analyses; influence analysis; materially changed; excluding studies; alternative model; results unchanged; leave-one-out; robustness",
+  "top_evidence": [
+    {
+      "chunk_id": "text_12",
+      "document_title": "Current state of research and objective",
+      "type": "text",
+      "section": "Sensitivity Analyses",
+      "merged_headings": [],
+      "pages": [
+        6
+      ],
+      "word_count": 142,
+      "faiss_score": 0.6308449506759644,
+      "keyword_bonus": 0.11,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.7408449506759643,
+      "adjusted_retrieval_score_norm": 1.0,
+      "rerank_score": -0.518762469291687,
+      "rerank_score_norm": 0.7525095594469329,
+      "final_score": 0.9133783458064265,
+      "text": "Sensitivity analyses were performed using alternative pre-post correlation coefficients of r = 0.2 and r = 0.8 to examine the robustness of our findings. The upper value was determined via specification analysis, conducted by AC, by plotting the (1) sample-size (Additional file 6 , Fig. 1) and (2) inverse variance weighted means (Additional file 6 , Fig. 2), and CIs of Hedges' g along the grid of correlation coefficients (i.e. r ∈ [-1,1]) across studies. Visual inspection of both plots showed an inflection point in the weighted estimates around r = 0.8, marking the first pronounced change in effect magnitude and precision. For methodological completeness, r = 0.2 was chosen as a symmetrical lower-bound value but was deemed rather unrealistic based on methodological findings that suggest pre-post correlations are usually ≥ 0.5 [117, 118]. This was also supported by the specification plots.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_23",
+      "document_title": "Current state of research and objective",
+      "type": "text",
+      "section": "Results Of Sensitivity Analyses",
+      "merged_headings": [],
+      "pages": [
+        13
+      ],
+      "word_count": 62,
+      "faiss_score": 0.47875648736953735,
+      "keyword_bonus": 0.08,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.7087564873695373,
+      "adjusted_retrieval_score_norm": 0.9482633825957625,
+      "rerank_score": -0.6398747563362122,
+      "rerank_score_norm": 0.7390427663716688,
+      "final_score": 0.8750361669173297,
+      "text": "The sensitivity analysis excluding Arcelus et al. [104] resulted in a similar pooled effect estimate for the Global Score (Hedges' g = - 0.20, 95% CI - 0.33 to - 0.08). Excluding Krohmer et al. [102] in a further sensitivity analysis resulted in no change of the pooled Global Score symptom reduction (Hedges' g = - 0.17, 95% CI - 0.30 to",
+      "images": []
+    },
+    {
+      "chunk_id": "text_11",
+      "document_title": "Current state of research and objective",
+      "type": "text",
+      "section": "Data Synthesis",
+      "merged_headings": [],
+      "pages": [
+        6
+      ],
+      "word_count": 71,
+      "faiss_score": 0.387419730424881,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.537419730424881,
+      "adjusted_retrieval_score_norm": 0.6720150575613546,
+      "rerank_score": 1.7070186138153076,
+      "rerank_score_norm": 1.0,
+      "final_score": 0.7868097874148805,
+      "text": "Results were displayed in outcome tables, synthesised narratively and summarised in a 'Summary of Findings' table. Due to the expected clinical and methodological diversity across studies, initially no meta-analysis of effect estimates was planned. Therefore, the synthesis was intended to follow the Synthesis Without Meta-analysis (SWiM) reporting guideline [109]. However, following the previous amendment of PROMs, a meta-analysis of effect estimates was possible, as studies were deemed to be sufficiently similar.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_13",
+      "document_title": "Current state of research and objective",
+      "type": "text",
+      "section": "Statistical Analyses",
+      "merged_headings": [],
+      "pages": [
+        6,
+        7
+      ],
+      "word_count": 344,
+      "faiss_score": 0.25452566146850586,
+      "keyword_bonus": 0.16,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4145256614685059,
+      "adjusted_retrieval_score_norm": 0.4738714641418314,
+      "rerank_score": -1.660141110420227,
+      "rerank_score_norm": 0.6255966726070259,
+      "final_score": 0.5269752871046495,
+      "text": "We conducted a within-group meta-analysis assessing pre-post change scores of the EDE-Q Global Score (primary analysis) and the EDE-Q subscales (secondary analyses). All statistical analyses were performed in R (version 4.5.2) [98] using the metafor package (version 4.8.0) [110]. The code for the meta-analysis was written by RSS and independently reviewed by MK and AC. Assuming that the included studies estimated different but related effects of waiting time, we used randomeffects models for all analyses to estimate the mean of the underlying distribution of effects and to account for unexplained heterogeneity [111-113]. Following current best-practice recommendations [113, 114], betweenstudy variance was estimated using a restricted maximum likelihood method [115]. An inverse variance weighting scheme was applied. For all studies, Cohen's d [116] was calculated using the SD within. A pre-post correlation coefficient of r = 0.5 was assumed, consistent with prior methodological findings [117, 118] and similar metaanalyses [68, 69]. Effects of waiting time were analysed using Hedges' g to correct for small sample sizes [119], with 95% confidence intervals (CIs) calculated using the Wald method [120]. Negative values indicate symptom improvement, whereas positive values indicate symptom deterioration. Forest plots were generated to present results. Statistical heterogeneity was assessed using τ 2 and I 2 statistics [121]. For the interpretation of I 2 , the proposed thresholds by Deeks et al. [113] were applied. The ability to detect true between-study heterogeneity was limited due to the within-group design, the use of a single outcome measure and the small number of studies. Thus, the estimated magnitude of heterogeneity was interpreted with caution. For the primary analysis of the Global Score, multiple subgroup and sensitivity analyses were performed. As Arcelus et al. [104] was the only NRSI, and risk of bias was rated as critical, this study was excluded in a further sensitivity analysis to assess its influence on the pooled effect estimates. Krohmer et al. [102] and Lewer et al. [122] adopted measures including an exposure component during baseline assessment. While these Fig. 1 PRISMA 2020 flow diagram. Figure adapted from Page et al. [71]",
+      "images": [
+        {
+          "image_id": "figure_8",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\s40337-026-01660-4\\images\\figure_008_Statistical_Analyses.png",
+          "relative_path": "images\\figure_008_Statistical_Analyses.png",
+          "caption": "Fig. 1 PRISMA 2020 flow diagram. Figure adapted from Page et al. [71]",
+          "section": "Statistical Analyses",
+          "page_number": 7
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_19",
+      "document_title": "Current state of research and objective",
+      "type": "text",
+      "section": "Results Of Risk Of Bias Assessment",
+      "merged_headings": [],
+      "pages": [
+        10,
+        11
+      ],
+      "word_count": 396,
+      "faiss_score": 0.3806973099708557,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.5306973099708557,
+      "adjusted_retrieval_score_norm": 0.6611764177754891,
+      "rerank_score": -4.99916934967041,
+      "rerank_score_norm": 0.25432135886520485,
+      "final_score": 0.5187771471568896,
+      "text": "Overall risk of bias was rated as high for all included RCTs (Fig. 2) and as critical for the one NRSI (Fig. 3). It is to be noted that in both RoB 2 (Domain 4) and ROBINS-I (Domain 6), bias in measurement of the outcome is, by definition, considered high when using PROMs in a wait-list controlled trial, as outcomes are self-assessed by participants who are aware of their group allocation. This knowledge is likely to influence outcome assessment, particularly given that participants in the IG are expected to show greater symptom improvement than those in the WLCG. Consequently, the overall risk of bias was rated as high by the algorithm, which defines the overall risk as high if at least one domain is judged to be at high risk. Importantly, for Arcelus et al. [104], the critical risk judgement in Domain 5 resulted from uncertainty due to insufficient reporting. Had the signalling questions been answered solely based on information inferred from CBT-BI: Cognitive-Behavioural Body Image Therapy (group setting); CBT-Eb: enhanced Cognitive-Behavioural Therapy (broad form, individual setting); CBTEf: enhanced Cognitive-Behavioural Therapy (focused form, individual setting); CBT-S: shortened Cognitive-Behavioural Therapy followed by booster sessions after active treatment (group setting); DBT-GSH: guided self-help adaptation of Dialectical Behaviour Therapy (individual setting); EFT: Emotion-Focused Therapy (individual setting); ERST: Emotion Regulation Skills Training (group setting); iCBT: internet-based therapist-supported Cognitive-Behavioural Therapy (individual setting); IPT-BN10: shortened Interpersonal Psychotherapy for Bulimia Nervosa (10 sessions, individual setting); IPT-BN16: conventional Interpersonal Psychotherapy for Bulimia Nervosa (16-20 sessions, individual setting); ME: guided stand-alone mirror exposure (individual setting); PROM: patient-reported outcome measure; WLCG: waiting list control group the reported tables, a low risk of bias would have been assigned, resulting in a serious rather than critical overall risk judgement. A conservative approach was chosen to ensure that uncertainty arising from incomplete reporting was appropriately reflected in the assessment. Detailed justifications for each assessment are provided in Additional file 10, Tables 1 and 2. Table 2 (continued) EDE-Q Global Scores and subscales for the WLCGs are displayed in Additional file 11 Table 1, and EDE-Q OBEs and OBEDs for Glisenti et al. [131] in Additional file 11, Table 2. For contextualisation, it is noted that IGs were reported to show statistically significant pre-post reductions in ED symptoms or significantly greater improvements than waiting-list controls, whereas changes in the WLCG were little to absent [101, 102, 104, 122, 128, 130-132].",
+      "images": []
+    },
+    {
+      "chunk_id": "text_21",
+      "document_title": "Current state of research and objective",
+      "type": "text",
+      "section": "Results Of Individual Studies",
+      "merged_headings": [],
+      "pages": [
+        11
+      ],
+      "word_count": 222,
+      "faiss_score": 0.3369921147823334,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.4869921147823334,
+      "adjusted_retrieval_score_norm": 0.5907100030876528,
+      "rerank_score": -4.839717864990234,
+      "rerank_score_norm": 0.2720511879530012,
+      "final_score": 0.47917941779052475,
+      "text": "Baseline EDE-Q mean scores varied considerably across studies, with Global Scores ranging from 3.08 to 4.65, Restraint from 1.82 to 4.14, Weight Concern from 3.52 to 5.12, Shape Concern from 4.06 to 5.45, and Eating Concern from 2.27 to 4.67. Across most studies, small decreases in symptoms were observed for the Global Score, Restraint, Weight Concern, and Eating Concern (maximum mean reductions of - 0.32, - 0.54, - 0.10, and - 0.93, respectively). In contrast, findings for Shape Concern were more ambiguous, with half of the studies reporting slight decreases (up to - 0.39) [102, 129, 130, 132] and the remainder reporting slight increases (up to 0.37) [101, 104, 122, 128]. Notable deviations included small increases across all EDE-Q scales except Eating Concern in Arcelus et al. [104], with mean changes ranging from 0.31 to 0.58, and minimal changes across all scales in Lewer et al. [122], with MDs ranging from - 0.06 to 0.05. For the primary and most secondary analyses, heterogeneity was not detected or negligible (I 2 = 0.00% for Restraint; I 2 = 0.01% for the Global Score and Weight Concern; I 2 = 0.02% for Shape Concern). In contrast, heterogeneity for Eating Concern was higher but still considered low (I 2 = 39.53%). However, in small meta-analyses, I 2 may underestimate heterogeneity by up to 28% [143].",
+      "images": []
+    },
+    {
+      "chunk_id": "text_24",
+      "document_title": "Current state of research and objective",
+      "type": "text",
+      "section": "Risk Of Publication Bias",
+      "merged_headings": [],
+      "pages": [
+        13,
+        14
+      ],
+      "word_count": 118,
+      "faiss_score": 0.3928101062774658,
+      "keyword_bonus": 0.08,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.47281010627746584,
+      "adjusted_retrieval_score_norm": 0.5678441792857066,
+      "rerank_score": -4.592778205871582,
+      "rerank_score_norm": 0.299509056783474,
+      "final_score": 0.4739268864099252,
+      "text": "Visual inspection of the funnel plot for the primary analysis of the Global Score (Fig. 9) and the secondary analyses of the subscales did not suggest pronounced asymmetry. Fig. 8 Forest plot for the secondary analysis of the EDE-Q subscale Eating Concern Fig. 9 Funnel plot for the primary analysis of the EDE-Q Global Score Most studies were distributed around the pooled effect estimate and lay within the pseudo-95% confidence limits. The minor asymmetry observed may be attributable to other factors, such as true heterogeneity or chance, and cannot reliably be interpreted as evidence for publication bias. For the secondary analyses of the subscales and the sensitivity analyses, the funnel plots can be found in Additional file 14.",
+      "images": [
+        {
+          "image_id": "figure_15",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\s40337-026-01660-4\\images\\figure_015_Risk_Of_Publication_Bias.png",
+          "relative_path": "images\\figure_015_Risk_Of_Publication_Bias.png",
+          "caption": "Fig. 8 Forest plot for the secondary analysis of the EDE-Q subscale Eating Concern",
+          "section": "Risk Of Publication Bias",
+          "page_number": 14
+        },
+        {
+          "image_id": "figure_16",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\s40337-026-01660-4\\images\\figure_016_Risk_Of_Publication_Bias.png",
+          "relative_path": "images\\figure_016_Risk_Of_Publication_Bias.png",
+          "caption": "Fig. 9 Funnel plot for the primary analysis of the EDE-Q Global Score",
+          "section": "Risk Of Publication Bias",
+          "page_number": 14
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_14",
+      "document_title": "Current state of research and objective",
+      "type": "text",
+      "section": "Risk Of Bias Domains",
+      "merged_headings": [],
+      "pages": [
+        7,
+        8
+      ],
+      "word_count": 169,
+      "faiss_score": 0.36600083112716675,
+      "keyword_bonus": 0.08,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.44600083112716676,
+      "adjusted_retrieval_score_norm": 0.5246192607817984,
+      "rerank_score": -4.431601524353027,
+      "rerank_score_norm": 0.31743071503578785,
+      "final_score": 0.45210326977069476,
+      "text": "X Fig. 2 Risk of bias in randomised trials assessed with RoB 2. Traffic light plot generated using robvis [142] tasks were not designed as interventions, they confronted participants with their body and body perception, which might elicit anxiety or discomfort in individuals with EDs. Following a CBT approach, an anxiety-reducing effect could not be ruled out. Krohmer et al. [102] were therefore excluded in an additional sensitivity analysis. Lewer et al. [122] did not report Global Scores. criteria, of whom 283 were waitlisted. The interventions participants were waiting to receive encompassed various forms of psychotherapy delivered in weekly individual or group settings, including one GSH intervention [128] and one internet-based programme with personalised structured writing assignments and feedback [129]. Most of the studies were RCTs, except for one NRSI using a gender- and diagnosis-matched design [104]. All of the studies included participants with BED. EDNOS was represented in three studies [104, 128, 130] and BN in two studies [104, 130]. None of the studies included participants with AN.",
+      "images": [
+        {
+          "image_id": "figure_9",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\s40337-026-01660-4\\images\\figure_009_Risk_Of_Bias_Domains.png",
+          "relative_path": "images\\figure_009_Risk_Of_Bias_Domains.png",
+          "caption": "Fig. 2 Risk of bias in randomised trials assessed with RoB 2. Traffic light plot generated using robvis [142]",
+          "section": "Risk Of Bias Domains",
+          "page_number": 7
+        }
+      ]
+    },
+    {
+      "chunk_id": "table_2",
+      "document_title": "Current state of research and objective",
+      "type": "table",
+      "section": "Results Of Risk Of Bias Assessment",
+      "merged_headings": [],
+      "pages": [
+        11
+      ],
+      "word_count": 95,
+      "faiss_score": 0.3302960991859436,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.4802960991859436,
+      "adjusted_retrieval_score_norm": 0.5799139361730418,
+      "rerank_score": -5.705666542053223,
+      "rerank_score_norm": 0.17576408172802555,
+      "final_score": 0.43846148711728605,
+      "text": "Table 2 (continued)\n\n| First author, year   | WLCG characteristics                                                                                                                                                                                                                                                                  |\n|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Schlup et al., 2009  | Participants randomised to the WLCG entered the treat- ment condition (i.e. CBT-S) after completion of an 8-week waiting period. No further procedures or contacts between baseline assessments (i.e. semi-structured interview and PROMs) and post-waiting assessments are described |\n| Wagner et al., 2016  | Participants randomised to the WLCG started treatment (i.e. iCBT) after a 16-week waiting period. No further procedures or contacts between baseline assessments (i.e. semi-structured interview and PROMs) and post-waiting assessments are described                                |",
+      "images": []
+    },
+    {
+      "chunk_id": "text_20",
+      "document_title": "Current state of research and objective",
+      "type": "text",
+      "section": "Results Of Statistical Analyses",
+      "merged_headings": [],
+      "pages": [
+        11
+      ],
+      "word_count": 193,
+      "faiss_score": 0.2575380504131317,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.40753805041313174,
+      "adjusted_retrieval_score_norm": 0.46260525434271316,
+      "rerank_score": -3.9358747005462646,
+      "rerank_score_norm": 0.3725518816900786,
+      "final_score": 0.43108657391429106,
+      "text": "Eight of the nine included studies (n = 273) reported the EDE-Q Global Score and subscales and were considered in the meta-analysis [101, 102, 104, 122, 128-130, 132]. Seven studies reported the Global Score and were included in the primary analysis [101, 102, 104, 128-130, 132]. The pooled effect estimate was Hedges' g = - 0.17 (95% CI - 0.30 to - 0.05), indicating a small symptom reduction (Fig. 4). Across the seven studies assessing Restraint [101, 104, 122, 128-130, 132], a small symptom reduction was found (Hedges' g = - 0.09, 95% CI - 0.21 to 0.04) (Fig. 5). Weight Concern (Fig. 6) and Shape Concern (Fig. 7) scores were reported by eight studies [101, 102, 104, 122, 128-130, 132]. The pooled effect estimates were again small (Hedges' g = - 0.10, 95% CI - 0.21 to 0.02, and Hedges' g = - 0.11, 95% CI - 0.23 to 0.01, respectively). The largest pooled effect estimate was observed for Eating Concern [101, 104, 122, 128-130, 132]. Pooling the results of seven studies yielded a pooled effect estimate of Hedges' g = - 0.21 (95% CI - 0.38 to - 0.04) (Fig. 8).",
+      "images": []
+    }
+  ]
+}

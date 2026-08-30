@@ -1,0 +1,270 @@
+{
+  "item_id": "PRISMA_2020_20c",
+  "item_label": "20c",
+  "checklist_item": "Present results of all investigations of possible causes of heterogeneity among study results.",
+  "semantic_query": "Results of syntheses. Present results of all investigations of possible causes of heterogeneity among study results. the authors present results of heterogeneity investigations (subgroups/meta-regression). Reported findings from heterogeneity exploration analyses\nPresent results of all investigations of possible causes of heterogeneity among study results.\nRelevant terminology: heterogeneity investigation; sources of heterogeneity; regression coefficient; investigation results; moderator analysis; stratified results; subgroup analysis; P for interaction; subgroup results; interaction test; meta-regression; heterogeneity",
+  "top_evidence": [
+    {
+      "chunk_id": "text_14",
+      "document_title": "Ameta-evaluation of the quality of reporting and execution in ecological meta-analyses",
+      "type": "text",
+      "section": "Compliance With Execution Criteria",
+      "merged_headings": [],
+      "pages": [
+        11,
+        12,
+        13
+      ],
+      "word_count": 1390,
+      "faiss_score": 0.4858541190624237,
+      "keyword_bonus": 0.19999999999999998,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.6858541190624237,
+      "adjusted_retrieval_score_norm": 1.0,
+      "rerank_score": -2.8658387660980225,
+      "rerank_score_norm": 0.33191336591099624,
+      "final_score": 0.7661696780688487,
+      "text": "The low compliance with Execution criteria suggests that most meta-analyses do not follow recommended methods. One of the advantages of meta-analysis is that effect sizes are conventionally weighted by the precision of the observed effect size. The PRISMA-EcoEvo guidelines recommend using a weighted analysis because weighting generally yields more precise estimates of effects that unweighted analyses [2]. However, our compilation of reviews showed that the percentage of papers that weighted effect sizes varied widely (from 33% to 93%). By reanalyzing the meta-analyses from Pappalardo et al. [1], we found that only 42% weighted by the inverse of the variance (as recommended by [2]), 6% weighted by sample size, 16% used some non-traditional weight, and 36% of the meta-analyses did not weight effect sizes in any way to account for variation in their precision or quality. Several papers used unweighted analyses because of incomplete reporting in the primary publications (e.g., the original papers did not report standard deviations or sample sizes), and the meta-analysts did not want to greatly reduce the number of studies by excluding the studies without estimates of variance. New imputation techniques to estimate variances can provide an effective alternative to conducting an unweighted meta-analyses [58]. Under some situations, however, unweighted analyses can provide results as reliable as those obtained using weighted analyses, e.g., when among-study variance is large relative to within-study variances (Song et al, pers. comm.) or when effect sizes and their variances are independent and follow a normal distribution [58]. Conducting a sensitivity analysis with a smaller dataset that compares results from unweighted and weighted meta-analyses can be a way to check if results are robust to that decision [59]. Acentral purpose of ecological meta-analysis is to quantify heterogeneity and explore its causes. A fixed-effects model, which assumes no heterogeneity among true effect sizes, has been discouraged for ecological meta-analysis [60] and its use seems to be declining [27]. Pappalardo et al. [1] found that random-effects and mixed-effects models were the most popular in their review. Given that heterogeneity in ecological and evolutionary meta-analyses is high [27], it is encouraging we found high compliance in exploring the causes of heterogeneity (either by conducting statistical analysis of moderators or by graphical visualizations). However, our compilation showed high variability on providing metrics quantifying heterogeneity (e.g., using Q or I 2 statistics), with most reviews (seven of nine) reporting very low to moderate compliance on quantifying heterogeneity. Acommon approach when meta-analysts explore heterogeneity is to evaluate individual covariates one at a time, rather than in a single analysis. This is an invalid approach because these explanatory variables may not be independent or because failure to simultaneously account for a factor may give rise to spurious results (e.g., via Simpson's paradox). A multifactorial analysis of moderators, which would address this issue, was reported only in a few metaanalyses. Gates [10] also mentioned that most meta-analyses did not correct for multiple testing when conducting subgroup analyses. This deficiency could reflect limitations imposed by available software. For example, MetaWin, a commonly used software in older meta-analyses, did not allow multifactorial analyses. Additionally, Nakagawa & Santos [23] noted that metaanalytic data are often sparse and including all moderators in the model may greatly reduce sample sizes, making such analyses problematic [see 61]. However, given the increase in data availability, and an increase in the sophistication of software capable of including multiple moderators (e.g., the R package metafor [62]), multifactorial analysis are more feasible and should become more common. Sensitivity analyses evaluate the robustness of a meta-analysis to methodological choices, for example, by exploring how results change when removing influential points, altering the weighting schemes, or calculating different types of effect sizes. Sensitivity analyses can also be used to explore the consequences of non-independence [63]. Across reviews, we observed that a low percentage of meta-analyses reported conducting a sensitivity analysis. Although analysis for publication bias can be considered a type of sensitivity analysis, we followed previous reviews (e.g., [7]) and quantified them as separate criteria. It is possible that some researchers may have run additional explorations that could be considered sensitivity analyses in earlier stages of a publication, but these were not stated explicitly in their final manuscripts or supplementary information. We encourage authors of meta-analyses to include the results of sensitivity analyses, to showcase the different types of limitations related to their dataset, and to quantify if different methodological choices affect their conclusions. This will enhance the robustness of their meta-analysis. Ageneral problem in scientific research is that significant results are more likely to be published. For meta-analysis, this may bias the meta-analyst towards discovering more significant effect sizes, which in turn may bias the conclusion of the meta-analysis. Meta-analysis has tools to identify the existence of publication bias (e.g., via a funnel plot) and to assess its impact (e.g., by calculating a fail-safe number), but these methods have pros and cons, and meta-analysts are discouraged from relying on only one approach [12,23]. Despite the availability of methods, compliance for assessing publication bias was low ( < 50%) in nine of the twelve reviews that quantified this criterion. Adifferent type of publication bias in meta-analysis of ecology and evolution arises from temporal trends in effect sizes. For example, a decrease in the magnitude of effect sizes over time has been observed in various areas of ecology and evolution [64,65], although the existence of such a general trend has been debated [66]. Possible non-biological causes for the decrease in the magnitude of effect sizes with time are time-lags, selective reporting, shifts in the choice of research organisms, and changes in statistical methods (reviewed in [65]). Not accounting for temporal trends may give a false sense that conclusions from meta-analyses are invariant through time [67]. Instead, meta-analyses should explore temporal trends, which would also help identify additional sources of heterogeneity in the effect sizes. Koricheva et al. [65] described graphical and statical methods available to analyze temporal trends and included examples analyzing real datasets. The simplest graphical method is a plot of effect sizes versus publication year. Another option is a cumulative meta-analysis, in which mean effect sizes are calculated starting with the oldest publication and adding in other studies chronologically [65]. The temporal effect can also be assessed in a statistical model by incorporating publication year as a moderator [65]. In the ecological meta-analyses reviewed by Pappalardo et al. [1], 40% of meta-analyses reported the range in publication years of the original papers and this time span averaged 41 years (min = 1, median = 34, max = 115). In their review, Cadotte et al. [8] found an average time span of 15 years and a maximum of 65 years. Despite the wide time span reported in many of the meta-analyses reviewed, the percent of meta-analyses that addressed temporal trends in effect size was very low (ranging from 1 to 8%). Methods for detecting and quantifying the effects of publication bias, such as regression or correlation-based approaches for analyzing the asymmetry of funnel plots, may encounter challenges in ecology and evolution due to heterogeneity and non-independence, two characteristics commonly associated with data in ecology and evolution [24]. To address this issue, Nakagawa et al. [24] proposed using what they referred to as 'conditional residuals' from hierarchical models instead of observed effect sizes in analyzing funnel plots. This approach accounts for heterogeneity and non-independence by subtracting the fixed effects and random effects that model the heterogeneity and non-independence from the observed effect sizes. AReporting criterion that we could not include in the main analysis was associated with the method used to obtain the uncertainty interval associated with the mean effect size-only one review paper assessed this criterion [1]. However, the method used to obtain an uncertainty interval (e.g., based upon a t-distribution or a z-distribution, or by bootstrapping) can affect the coverage and thus the inferences from the analyses. For example, when replication is low, the use of the bootstrap or z-distribution will generate confidence intervals that are much too narrow, resulting in more significant effects than expected [1]. 39% of the meta-analysis reviewed by Pappalardo et al. [1] did not specify this information, even though it can have dramatic effects on statistical inference. Furthermore, of the meta-analyses that did report their method, a vast majority ( > 90%) used either the bootstrap or z-distribution [1], which can lead to artificially small confidence intervals.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_9",
+      "document_title": "Ameta-evaluation of the quality of reporting and execution in ecological meta-analyses",
+      "type": "text",
+      "section": "Results > Overlap Between Review Papers",
+      "merged_headings": [],
+      "pages": [
+        7
+      ],
+      "word_count": 151,
+      "faiss_score": 0.4037854075431824,
+      "keyword_bonus": 0.06,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.6137854075431823,
+      "adjusted_retrieval_score_norm": 0.8535911297884617,
+      "rerank_score": -1.7162994146347046,
+      "rerank_score_norm": 0.5302380008324133,
+      "final_score": 0.7404175346538447,
+      "text": "The overlap between review papers was generally low. For Reporting criteria, the median number of shared papers was 2 and the mean was 3; for Execution criteria, the median number of shared papers was 2 and the mean was 4.7. In S2 Appendix we include the overlap matrices for each quality criterion that show the number of papers that overlapped between each review paper, and the distribution of the number of shared papers (S1 and S2 Figs). The two instances with largest overlap were: 1) overlap of 77 papers between Koricheva & Gurevitch [7] and Senior et al. [27], representing a 23.9% overlap for the 'Meta-analytical model', 'The software used', 'Quantified heterogeneity in effect sizes', 'Tested for publication bias', and 'Multifactorial analysis of moderators criteria' criteria; 2) overlap of 74 papers between Koricheva & Gurevitch [7] and Cadotte et al. [8], representing 30.8% overlap for the 'Controlled for phylogenetic non-independence' criterion.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_4",
+      "document_title": "Ameta-evaluation of the quality of reporting and execution in ecological meta-analyses",
+      "type": "text",
+      "section": "Introduction",
+      "merged_headings": [],
+      "pages": [
+        1,
+        2
+      ],
+      "word_count": 697,
+      "faiss_score": 0.4427652657032013,
+      "keyword_bonus": 0.03,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4727652657032013,
+      "adjusted_retrieval_score_norm": 0.5671062016050274,
+      "rerank_score": 1.0065590143203735,
+      "rerank_score_norm": 1.0,
+      "final_score": 0.7186190310432679,
+      "text": "Meta-analyses evaluate summary statistics from primary studies to obtain aggregate effects, assess the heterogeneity of those effects, and ascertain possible causes of the observed heterogeneity. For example, meta-analysis has been used to quantify the strength of density-dependence [3], to assess the response of ecosystems to climate change [4], and to evaluate the Funding: During the development of this project CWOreceived support from the National Science Foundation (DEB-1655426 and OCE-1851032); BH, PP and CWO were supported by a grant from the US Department of Energy, Office of Science, Biological and Environmental Research Program (DE-SC-0010632). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. Data Availability Statement: All the data files and Rcode used to analyze and report data are provided in the Supporting information. Competing interests: The authors have declared that no competing interests exist. performance of different management strategies [5]. Through synthesis, meta-analysis not only advances basic ecological theory, but also facilitates the application of ecological data to inform environmental policy [6]. Moreover, meta-analysis can help identify knowledge gaps, and thus direct new research endeavors [7]. Along with these benefits, the number of published meta-analyses is rapidly increasing [8,9], due to increased data availability, and pressing ecological questions that require synthetic research. Despite their importance and wide application, the quality of meta-analyses is highly variable [1,7,10,11]. If the quality of meta-analyses is poor, it is hard to know if 'biological metaanalysis embodies 'mega-enlightenment', a 'mega-mistake', or something in between' [12]. One issue that can prevent readers from evaluating the overall quality of a published metaanalysis is the lack of details describing each step in the meta-analysis. We refer to this as reporting quality, which is the degree to which the meta-analysis explicitly reports the steps taken to conduct the meta-analysis, including details about the methods used to identify studies and extract data, the meta-analytic model, the number of effect sizes, and the sources of non-independence [7]. Good reporting quality means also that the meta-analysis provides the data used and describes each step of analysis in sufficient detail to replicate the results. Poor reporting quality hinders the readers from assessing if the meta-analysis was executed properly and if the results are reliable. Reporting quality it does not refer to whether those steps were the best available-only that the author(s) was explicit about the steps taken. The quality of a meta-analysis also is affected by how well the study is implemented. We refer to this proper implementation as execution quality, which is the extent to which the analyses conform to expert recommendation. Examples of recommended execution steps are weighing effect sizes by study precision, testing for publication bias, quantifying heterogeneity in effect sizes, exploring temporal changes in effect size, controlling for phylogenetic non-independence (if applicable), and conducting sensitivity analyses [7]. New methodological guidelines specifically designed for ecology and evolutionary biology [PRISMA-EcoEvo, 2] provide authors, reviewers, and editors with a checklist of items with the goal of improving the overall quality of ecological meta-analysis. Wide adoption of these guidelines could greatly improve the quality of meta-analyses in ecology and evolutionary biology. Assessing the current compliance with recommended steps for reporting and execution in ecological meta-analyses and identifying places that need improvements can help guide the meta-analytic community towards more robust inference and reduce controversy. In this paper, we reviewed the literature assessing the quality of ecological meta-analyses, collected new data to evaluate current practices, and highlight the areas that need more work. First, we compiled information from 18 studies in the last 20 years (between 2002 and 2022) that reviewed the quality of meta-analyses in ecology, evolution and related fields. These papers provided different insights on the compliance with different standards of reporting quality and with recommended execution steps that should be part of a meta-analysis. Second, we evaluated the recognition and treatment of non-independence for the ecological meta-analyses included in Pappalardo et al. [1], and extracted new data on quality criteria to compare it with the other reviews. Finally, we summarized the level of compliance for different quality criteria across these 18 previous meta-analysis reviews and the new data taken from papers reviewed in Pappalardo et al [1].",
+      "images": []
+    },
+    {
+      "chunk_id": "text_10",
+      "document_title": "Ameta-evaluation of the quality of reporting and execution in ecological meta-analyses",
+      "type": "text",
+      "section": "Compliance With Reporting And Execution Criteria",
+      "merged_headings": [],
+      "pages": [
+        7,
+        8
+      ],
+      "word_count": 338,
+      "faiss_score": 0.4343302547931671,
+      "keyword_bonus": 0.06,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4943302547931671,
+      "adjusted_retrieval_score_norm": 0.6109158607792876,
+      "rerank_score": -1.358534812927246,
+      "rerank_score_norm": 0.5919614502568431,
+      "final_score": 0.604281817096432,
+      "text": "In our compilation of the 19 meta-analysis reviews from 18 papers, we found wide variability in the compliance within and between the different quality criteria. We did not observe any clear differences among different subdisciplines (S3 and S4 Figs, S4 Appendix), nor did we observe any temporal trends in compliance (S5 and S6 Figs, S4 Appendix). In general, we observed better compliance in Reporting (Fig 2) than Execution (Fig 3). Across reviews, we observed high to moderate compliance with Reporting criteria such as: providing the list of references (Fig 2F), specifying the meta-analytic model (Fig 2D), detailing inclusion/exclusion criteria (Fig 2C), and identifying the packages (Fig 2J) and software (Fig 2K) used. On the other hand, Reporting criteria exhibited very low to moderate compliance in including full details on the literature search (Fig 2B), providing the data used to calculate effect sizes (Fig 2E), and providing the analytic code (Fig 2G) and functions used (Fig 2H). For the Execution criteria, there was lower compliance with criteria such as conducting sensitivity analyses (Fig 3A), controlling for phylogenetic non-independence (Fig 3B), exploring temporal changes in effect sizes (Fig 3D), conducting a multifactorial analysis of moderators (vs. multiple single factor analyses) (Fig 3E), and testing for publication bias (Fig 3G). In contrast, most papers explored the possible causes of heterogeneity (Fig 3C). For the Execution criteria of weighting effect sizes by study precision (Fig 3H) and quantifying heterogeneity in https://doi.org/10.1371/journal.pone.0292606.g002 Percent of papers complying with each Reporting criterion Fig 2. Percent of papers complying with reporting criteria. The percent of papers complying with each criterion is plotted for each synthesis paper. The colors indicate the overall performance for each criterion coded as: 'High' (percentage compliance � 75%), 'moderate' (50 � percentage compliance < 75), 'low' (25 � percentage compliance < 50), and 'very low' (percent compliance < 25%). The Review ID corresponds to the papers listed in Table 1. effect sizes (Fig 3F), compliance was highly variable (ranging from 33% to 92% for weighting and 22% to 100% for quantifying heterogeneity).",
+      "images": [
+        {
+          "image_id": "figure_5",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\journal.pone.0292606\\images\\figure_005_Compliance_With_Reporting_And_Execution_Criteria.png",
+          "relative_path": "images\\figure_005_Compliance_With_Reporting_And_Execution_Criteria.png",
+          "caption": "Percent of papers complying with each Reporting criterion",
+          "section": "Compliance With Reporting And Execution Criteria",
+          "page_number": 8
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_13",
+      "document_title": "Ameta-evaluation of the quality of reporting and execution in ecological meta-analyses",
+      "type": "text",
+      "section": "Number Of Papers",
+      "merged_headings": [],
+      "pages": [
+        10,
+        11
+      ],
+      "word_count": 678,
+      "faiss_score": 0.5013185739517212,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.5013185739517212,
+      "adjusted_retrieval_score_norm": 0.6251127555358753,
+      "rerank_score": -1.9334766864776611,
+      "rerank_score_norm": 0.4927694243137798,
+      "final_score": 0.5787925896081418,
+      "text": "Fig 4. Relationship between the number of papers and the number of effect sizes included in ecological meta-analysis. The relationship between the number of papers and the number of effect sizes based on our re-analysis of meta-analyses in Pappalardo et al. [1]. The colors indicate when the source of non-independence was not mentioned (yellow) or was acknowledged at the sample level (orange), study level (black) or both (blue). Note that the axes are on log scales to accommodate two studies with an extreme number of effect sizes. One is a study reporting 52 papers that did not specify the number of effect sizes but provided a dataset with 46,347 rows [47]. The other is a study that analyzed 1,785 papers and reported a total of 32,567 effects for one of their meta-analyses [48]. The dashed line is the one-to-one line (x = y). https://doi.org/10.1371/journal.pone.0292606.g004 available, reproducibility will improve. Achieving computational reproducibility will help ensure results are robust, transparent, and credible. This is particularly important for researchers working in applied science and conservation where stakes are high, and transparency can help maintain public trust [52]. Having commonly accepted guidelines for meta-analysis could improve the quality of meta-analyses, although empirical research on this topic often gives mixed results. Even before the PRISMA guidelines were initially developed [in 2009 by 17], systematic reviews in the medical field showed higher reporting quality compared with meta-analyses in ecology [10,26]. This was likely due to the early guidelines for systematic reviews in the medical field using a standard set of methods developed by the Cochrane Collaboration [53] and to ecological studies often being more complex and varied in terms of the types of questions, sources of data, and experimental design. How much the PRISMA guidelines improved the quality of reporting in medical meta-analysis is not clear. Some papers report a moderate increase in reporting quality after the publication of PRISMA guidelines [54], while others report no change [55, only reviewed abstracts]. Two syntheses of medical meta-analyses found that reporting quality improved after journals endorsed and implemented PRISMA guidelines https://doi.org/10.1371/journal.pone.0292606.g005 Fig 5. Percent of papers that acknowledged non-independence, addressed it, and which methods they used to deal with non-independence. (A) Percent of papers that acknowledged at least one type of independence in their data ('yes') or did not acknowledge non-independence ('no'). (B) For the papers that did acknowledge non-independence, the sources of non-independence were classified as 'study' or 'sample'. (C) The percent of papers that addressed at least one type of non-independence ('yes'), or did not address non-independence ('no'). (D) For the papers that did address nonindependence, we show the methods used to address non-independence, classified as: 'Choose', when the authors chose one value from multiple nonindependent values; 'average', when the non-independent values were averaged; 'model', when the authors accounted for non-independence within the meta-analytic model, and 'tested' when the authors tested for the effects of non-independence. The papers that used more than one method (or source) were counted in each category, so the percentages between levels of panels B and D sum to greater than 100%. [56,57]. In their review of meta-analyses in ecology and evolution, O'Dea et al. [2] showed that meta-analyses that reported to have followed specific guidelines tended to have higher quality ratings. Lodi et al. [16], in their review of meta-analyses from freshwater ecology, found higher quality in more recent years and suggested that previous papers on reporting guidelines were the reason for the improvement. The recently published PRISMA Eco-Evo guidelines [2] could generate even bigger impacts on the quality of reporting if journals required those guidelines during the submission of meta-analyses. Some journals such as PLOS ONE already have a structure in place to detect if certain key aspects of meta-analysis are present (e.g., a PRISMA plot). We suggest that introducing the PRISMA Eco-Evo guidelines to a journal's submission process will greatly benefit the discipline, especially if the journal publishes a large number of meta-analyses as is the case for Ecology Letters, Global Change Biology, Ecology, Oecologia and American Naturalist (the top five according to our compilation, S5 Appendix).",
+      "images": [
+        {
+          "image_id": "figure_8",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\journal.pone.0292606\\images\\figure_008_Number_Of_Papers.png",
+          "relative_path": "images\\figure_008_Number_Of_Papers.png",
+          "caption": "Fig 5. Percent of papers that acknowledged non-independence, addressed it, and which methods they used to deal with non-independence. (A) Percent of papers that acknowledged at least one type of independence in their data ('yes') or did not acknowledge non-independence ('no'). (B) For the papers that did acknowledge non-independence, the sources of non-independence were classified as 'study' or 'sample'. (C) The percent of papers that addressed at least one type of non-independence ('yes'), or did not address non-independence ('no'). (D) For the papers that did address nonindependence, we show the methods used to address non-independence, classified as: 'Choose', when the authors chose one value from multiple nonindependent values; 'average', when the non-independent values were averaged; 'model', when the authors accounted for non-independence within the meta-analytic model, and 'tested' when the authors tested for the effects of non-independence. The papers that used more than one method (or source) were counted in each category, so the percentages between levels of panels B and D sum to greater than 100%.",
+          "section": "Number Of Papers",
+          "page_number": 11
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_2",
+      "document_title": "Ameta-evaluation of the quality of reporting and execution in ecological meta-analyses",
+      "type": "text",
+      "section": "Abstract",
+      "merged_headings": [],
+      "pages": [
+        1
+      ],
+      "word_count": 256,
+      "faiss_score": 0.43359458446502686,
+      "keyword_bonus": 0.03,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4635945844650269,
+      "adjusted_retrieval_score_norm": 0.5484757994395496,
+      "rerank_score": -1.2260265350341797,
+      "rerank_score_norm": 0.6148224822030355,
+      "final_score": 0.5716971384067697,
+      "text": "Quantitatively summarizing results from a collection of primary studies with meta-analysis can help answer ecological questions and identify knowledge gaps. The accuracy of the answers depends on the quality of the meta-analysis. We reviewed the literature assessing the quality of ecological meta-analyses to evaluate current practices and highlight areas that need improvement. From each of the 18 review papers that evaluated the quality of metaanalyses, we calculated the percentage of meta-analyses that met criteria related to specific steps taken in the meta-analysis process (i.e., execution) and the clarity with which those steps were articulated (i.e., reporting). We also re-evaluated all the meta-analyses available from Pappalardo et al. [1] to extract new information on ten additional criteria and to assess how the meta-analyses recognized and addressed non-independence. In general, we observed better performance for criteria related to reporting than for criteria related to execution; however, there was a wide variation among criteria and meta-analyses. Meta-analyses had low compliance with regard to correcting for phylogenetic non-independence, exploring temporal trends in effect sizes, and conducting a multifactorial analysis of moderators (i.e., explanatory variables). In addition, although most meta-analyses included multiple effect sizes per study, only 66% acknowledged some type of non-independence. The types of non-independence reported were most often related to the design of the original experiment (e.g., the use of a shared control) than to other sources (e.g., phylogeny). We suggest that providing specific training and encouraging authors to follow the PRISMA EcoEvo checklist recently developed by O'Dea et al. [2] can improve the quality of ecological metaanalyses.",
+      "images": [
+        {
+          "image_id": "figure_3",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\journal.pone.0292606\\images\\figure_003_Abstract.png",
+          "relative_path": "images\\figure_003_Abstract.png",
+          "caption": "",
+          "section": "Abstract",
+          "page_number": 1
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_7",
+      "document_title": "Ameta-evaluation of the quality of reporting and execution in ecological meta-analyses",
+      "type": "text",
+      "section": "Compliance With Reporting And Execution Criteria",
+      "merged_headings": [],
+      "pages": [
+        5
+      ],
+      "word_count": 307,
+      "faiss_score": 0.49424833059310913,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.49424833059310913,
+      "adjusted_retrieval_score_norm": 0.6107494303086906,
+      "rerank_score": -2.8146204948425293,
+      "rerank_score_norm": 0.34074981412403155,
+      "final_score": 0.5162495646440599,
+      "text": "Our final list of criteria for analysis is presented in Table 2, where we detail which paper contributed data to each criterion. Because different review papers used slightly different criteria (or different names to refer to similar criteria), we matched similar criteria and provided details on which information was extracted for each review paper in S3 Appendix. We obtained the proportion of the meta-analyses that complied with a particular criterion (data are available in the supplementary data file 'compilation-of-previous-review-papers'). For the final analysis, we included only those criteria for which we could gather information from at least two review papers. In addition, because we had access to the full set of meta-analyses reviewed by Pappalardo et al. [1], we expanded on their results by adding additional criteria detailed below and highlighted in Table 2 and S3 Appendix. Pappalardo et al. [1] analyzed 96 meta-analyses related to global change (PRISMA diagram available in their S1 Fig). For the criteria related to Reporting, we collected new information on: inclusion/exclusion criteria, the number of papers and the number of effect size estimates, the types of non-independence, and if the software, specific functions, and code used for the analyses were provided (when applicable). For the criteria related to Execution, we compiled new data to evaluate if the publication explored temporal changes in effects, conducted sensitivity analyses, controlled for phylogenetic nonindependence, and tested for publication bias. More details on the calculations for each criterion are provided in S3 Appendix. Wecompiled the percentage of meta-analyses in each review paper that complied with each Reporting and Execution criterion. We classified performance for each criterion as 'high' when the percentage of papers complying with a criterion was � 75%, 'moderate' when compliance was � 50% but < 75%, 'low' when compliance was � 25% but < 50%, and 'very low' when compliance was < 25%.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_11",
+      "document_title": "Ameta-evaluation of the quality of reporting and execution in ecological meta-analyses",
+      "type": "text",
+      "section": "Non-Independence",
+      "merged_headings": [],
+      "pages": [
+        8
+      ],
+      "word_count": 216,
+      "faiss_score": 0.4687810242176056,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4687810242176056,
+      "adjusted_retrieval_score_norm": 0.5590121441110167,
+      "rerank_score": -2.370570659637451,
+      "rerank_score_norm": 0.4173596503526548,
+      "final_score": 0.5094337712955901,
+      "text": "In our review of the meta-analyses compiled by Pappalardo et al. [1], we found that in all meta-analyses but one, the number of effect sizes was larger than the number of papers (Fig 4). This variation was often of several orders of magnitude (Fig 4, note the log scale in both axis). This suggests the possibility of non-independence as effect sizes derived from the same source paper are more likely to be more similar than are those coming from different papers. 66% of the meta-analyses acknowledged some type of non-independence (Fig 5A). The source of nonindependence acknowledged most often (68% of the time) was related to the design of the original experiment (e.g., a common control used for different treatments) and how data were collected (Fig 5B). Acknowledging non-independence from other sources of correlation (e.g., multiple effect sizes per publication) was less common (36% of the time, Fig 5B). Most papers (98%) that acknowledged non-independence took steps to address it (Fig 5C). The most common ways that non-independence was addressed (Fig 5D) were: choose (55%) and average (32%). Only 11% tested for the effects of non-independence, and only 16% explicitly modeled a potential source of non-independence. A few papers used a combination of these approaches (which is why the percentages sum to slightly more than 100%).",
+      "images": []
+    },
+    {
+      "chunk_id": "text_12",
+      "document_title": "Ameta-evaluation of the quality of reporting and execution in ecological meta-analyses",
+      "type": "text",
+      "section": "Discussion > Compliance With Reporting Criteria",
+      "merged_headings": [],
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "word_count": 405,
+      "faiss_score": 0.43833327293395996,
+      "keyword_bonus": 0.03,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.46833327293396,
+      "adjusted_retrieval_score_norm": 0.5581025294087084,
+      "rerank_score": -3.023270606994629,
+      "rerank_score_norm": 0.30475238848896985,
+      "final_score": 0.4694299800867999,
+      "text": "Even though there was overall good compliance for Reporting criteria (e.g., providing the list of primary papers included in the meta-analysis), many issues remain widespread. Meta- Percent of papers complying with each Execution criterion https://doi.org/10.1371/journal.pone.0292606.g003 Fig 3. Percent of papers complying with execution criteria (i.e., recommendations during data analysis). The percent of papers complying with each criterion is plotted for each synthesis paper. The colors indicate the overall performance for each criterion coded as: 'High' (percentage compliance � 75%), 'moderate' (50 � percentage compliance < 75), 'low' (25 � percentage compliance < 50), and 'very low' (percent compliance < 25%). The Review ID corresponds to the papers listed in Table 1. In panel (A), Roberts [26] evaluated sensitivity analysis, and found 0% of papers reporting it. analysis papers were less consistent in their reporting of information that can critically affect the results of a meta-analysis (e.g., the inclusion/exclusion criteria [49]). Even minimal information such as the number of papers and effect sizes were not always included; for example, the review by Cadotte et al. [8] showed that fewer than 50% of the meta-analyses reported this basic information. Many of these meta-analyses are not reproducible because relatively few of the meta-analyses provided the data used to conduct their analyses (e.g., effect sizes, variances, moderators). Making the data available benefits the research community by supporting metaresearch or integrative research that combines the data in some novel way without having to redo the data extraction [50]. Many studies also failed to specify the model used to analyze the data (e.g., random-effects model). To remedy this issue, we suggest academic journals adopt standard checklists for reporting items, such as the PRISMA-EcoEvo checklist [Tables 1 and 2]. Similarly, for the meta-analyses that reported using a programming language, very few reported the specific functions or the code used for data analysis, which are essential for reproducibility. Failure to share code is not exclusive to meta-analysis; even for research articles published in ecological journals that encourage or mandate code-sharing, only 27% provide all or some of the code used for the analyses [51]. To encourage code and data sharing, journals can develop incentives. Some cover the fee for publishing data in a repository. Discounts on open access fees could further encourage authors to share code and data. Most data repositories provide a separate DOI for the dataset so it can be properly cited. Most importantly, as reporting practices improve and data become",
+      "images": [
+        {
+          "image_id": "figure_6",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\journal.pone.0292606\\images\\figure_006_Compliance_With_Reporting_Criteria.png",
+          "relative_path": "images\\figure_006_Compliance_With_Reporting_Criteria.png",
+          "caption": "",
+          "section": "Compliance With Reporting Criteria",
+          "page_number": 9
+        },
+        {
+          "image_id": "figure_7",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\journal.pone.0292606\\images\\figure_007_Compliance_With_Reporting_Criteria.png",
+          "relative_path": "images\\figure_007_Compliance_With_Reporting_Criteria.png",
+          "caption": "",
+          "section": "Compliance With Reporting Criteria",
+          "page_number": 10
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_15",
+      "document_title": "Ameta-evaluation of the quality of reporting and execution in ecological meta-analyses",
+      "type": "text",
+      "section": "Non-Independence",
+      "merged_headings": [],
+      "pages": [
+        13,
+        14
+      ],
+      "word_count": 573,
+      "faiss_score": 0.35702717304229736,
+      "keyword_bonus": 0.03,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.3870271730422974,
+      "adjusted_retrieval_score_norm": 0.3929277403011411,
+      "rerank_score": -1.7498059272766113,
+      "rerank_score_norm": 0.5244572792949236,
+      "final_score": 0.4389630789489649,
+      "text": "Non-independence is common in biological meta-analyses; if not addressed properly, nonindependence can produce spurious results [68]. In particular, not properly accounting for non-independence often leads to wrong estimates of standard errors and thus invalid statistical inference. Non-independence may occur at the sampling level, such as through using a shared control or taking repeated measurements of the same individuals over time. Nonindependence at the study level may occur by comparing species that are close phylogenetically or systems that are close spatially. Our review of the meta-analyses compiled by Pappalardo et al. [1] showed a higher percent of papers (66%) that acknowledged some source of non-independence, compared with reviews by Archmiller et al. [18] and O'Dea et al. [2], which reported 44% and 14% respectively. Most non-independence arose at the sampling level, due, for example, to using a shared control or taking repeated measurements on replicates. In these cases, most meta-analysts addressed the non-independence before doing the analysis (one of the solutions mentioned in [63]), by either choosing a subset of the data (55%) or using the average of the non-independent measurements (32%). We did not observe any meta-analyses that tried to explicitly model the covariance of the sample-level non-independence even though formulae for covariance have been derived for many forms of non-independence [69,70]. In contrast, non-independence arising from study-level correlation are much less recognized and addressed in meta-analyses. Only 14% of the meta-analyses from Pappalardo et al. [1] attempted to address study-level non-independence by applying a multilevel model (e.g., using study ID as a random effect in the meta-analytic model). Including study effects in a multilevel model is one the simplest solutions, and different levels can be included in the model to account for non-independence due to other sources (e.g., species effects, discussed below) [12]. Studylevel non-independence may arise in multiple ways in ecological meta-analyses [63]. In fact, we found that the number of effects far exceeds the number of papers in the meta-analyses we examined and many of the studies that have a large ratio of number of effect sizes to number of papers did not acknowledge sources of non-independence (Fig 4). Given that studies from the same source paper are more likely to share similar environments or methodology, it is very likely that study-level non-independence is common. Thus, the relatively low proportion of published meta-analyses addressing study-level non-independence is a source of concern. Study-level non-independence frequently arises from phylogeny. Closely related species may have similar traits that could be associated with similar responses; thus, data from different species may not be independent. In paired analysis of the same dataset using traditional and phylogenetic meta-analyses, Chamberlain et al. [20] reported that 40% of random-effects meta-analyses changed from significant when not adjusting for phylogeny to non-significant when a phylogenetic meta-analysis was used. The influence of phylogenetic relatedness on the outcome of meta-analysis has also been studied using simulations. Cinar et al. [71] found that under moderately strong phylogenetic relatedness, failing to account for species-level variance generated biased estimates of mean effects and led to poor coverage (i.e., confidence intervals that were too small). This is troubling given that all the meta-analysis reviews found very low compliance with respect to controlling for phylogenetic non-independence. In some cases, a phylogenetic analysis may not be possible because a reliable phylogeny is not available. However, in those cases, taxonomic information (e.g., family or genus) can be used as a moderator in the analysis (e.g., as done in [35]).",
+      "images": []
+    }
+  ]
+}

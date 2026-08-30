@@ -1,0 +1,2225 @@
+[
+  {
+    "item_id": "PRISMA_2020_1",
+    "item_label": "1",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_1\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_1_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"marginalia_0\",\n      \"quote\": \"Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review.\",\n      \"reason\": \"The title explicitly identifies the report as a systematic review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"marginalia_0\",\n      \"quote\": \"Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records?\",\n      \"reason\": \"The title conveys the review question, including the intervention (machine learning using EHRs), target condition (undiagnosed atrial fibrillation), and setting/population (primary care).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The title does not report supplementary information such as analysis method (e.g., meta-analysis), included study designs, or update/living-review status.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_1",
+      "elements": [
+        {
+          "element_id": "prisma_2020_1_e1",
+          "status": "PRESENT",
+          "chunk_id": "marginalia_0",
+          "quote": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review.",
+          "reason": "The title explicitly identifies the report as a systematic review."
+        },
+        {
+          "element_id": "prisma_2020_1_e2",
+          "status": "PRESENT",
+          "chunk_id": "marginalia_0",
+          "quote": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records?",
+          "reason": "The title conveys the review question, including the intervention (machine learning using EHRs), target condition (undiagnosed atrial fibrillation), and setting/population (primary care)."
+        },
+        {
+          "element_id": "prisma_2020_1_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The title does not report supplementary information such as analysis method (e.g., meta-analysis), included study designs, or update/living-review status."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_1_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 8,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_2",
+    "item_label": "2",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_2\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_2_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"We conducted a systematic review to evaluate the effectiveness, quality, and applicability of EHR-based ML models for detecting AF in primary care.\",\n      \"reason\": \"The abstract explicitly identifies the report as a systematic review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"We conducted a systematic review to evaluate the effectiveness, quality, and applicability of EHR-based ML models for detecting AF in primary care.\",\n      \"reason\": \"The abstract states the main objective/review question explicitly.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Eligible studies involved adults in primary care where ML models using EHRs were compared to standard care.\",\n      \"reason\": \"Key inclusion criteria (population, setting, comparison) are specified in the abstract.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"We searched seven databases from inception to May 2023.\",\n      \"reason\": \"Information sources (seven databases) and last search date (May 2023) are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"risk of bias and applicability were evaluated through PROBAST and MI-CLAIM checklists\",\n      \"reason\": \"The abstract specifies the risk of bias assessment methods.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e6\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Data were extracted using CHARMS, risk of bias and applicability were evaluated through PROBAST and MI-CLAIM checklists.\",\n      \"reason\": \"Data extraction is mentioned but the abstract does not explicitly describe how results were presented/synthesized (e.g., narrative synthesis).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e7\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"From 4,536 references screened, 16 studies were included. Among these, 14 (87%) were retrospective cohort studies, one (6%) was prospective, and one (6%) was a randomized controlled trial.\",\n      \"reason\": \"Number of included studies and study designs are reported, but the total number of participants is not given in the abstract.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e8\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Model discrimination (AUROC) ranged from 0.71 to 0.948, with 8 (50%) outperforming controls.\",\n      \"reason\": \"Results for the main outcome (AF detection performance) are reported with study counts.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Model discrimination (AUROC) ranged from 0.71 to 0.948\",\n      \"reason\": \"No meta-analysis was conducted; results are reported as ranges, so no summary estimate with CI applies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e10\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Combining ML with clinical tools (3 studies, 19%) significantly improved discrimination compared to ML models alone.\",\n      \"reason\": \"When groups are compared, the direction of effect and favored group (combined ML + clinical tools) are indicated.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e11\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Their clinical applicability, however, is limited by insufficient external validation, high risk of bias, and variable performance.\",\n      \"reason\": \"The abstract summarizes important limitations including risk of bias and lack of external validation.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e12\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"EHR-based ML models show promise for improving AF detection in primary care compared to standard care. ... Future research should prioritize external validation, evaluation in clinical trials and the integration of predictors routinely available in primary care.\",\n      \"reason\": \"The abstract provides interpretation of results and implications for future research.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e13\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Funding: The author(s) received no specific funding for this work.\",\n      \"reason\": \"The funding source (none) is stated in the abstract/front-matter text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e14\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"This review was registered in International Prospective Register of Systematic Reviews (CRD42023390603).\",\n      \"reason\": \"The abstract provides both the register name (PROSPERO) and registration number.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_2",
+      "elements": [
+        {
+          "element_id": "prisma_2020_2_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "We conducted a systematic review to evaluate the effectiveness, quality, and applicability of EHR-based ML models for detecting AF in primary care.",
+          "reason": "The abstract explicitly identifies the report as a systematic review."
+        },
+        {
+          "element_id": "prisma_2020_2_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "We conducted a systematic review to evaluate the effectiveness, quality, and applicability of EHR-based ML models for detecting AF in primary care.",
+          "reason": "The abstract states the main objective/review question explicitly."
+        },
+        {
+          "element_id": "prisma_2020_2_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Eligible studies involved adults in primary care where ML models using EHRs were compared to standard care.",
+          "reason": "Key inclusion criteria (population, setting, comparison) are specified in the abstract."
+        },
+        {
+          "element_id": "prisma_2020_2_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "We searched seven databases from inception to May 2023.",
+          "reason": "Information sources (seven databases) and last search date (May 2023) are reported."
+        },
+        {
+          "element_id": "prisma_2020_2_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "risk of bias and applicability were evaluated through PROBAST and MI-CLAIM checklists",
+          "reason": "The abstract specifies the risk of bias assessment methods."
+        },
+        {
+          "element_id": "prisma_2020_2_e6",
+          "status": "PARTIAL",
+          "chunk_id": "text_2",
+          "quote": "Data were extracted using CHARMS, risk of bias and applicability were evaluated through PROBAST and MI-CLAIM checklists.",
+          "reason": "Data extraction is mentioned but the abstract does not explicitly describe how results were presented/synthesized (e.g., narrative synthesis)."
+        },
+        {
+          "element_id": "prisma_2020_2_e7",
+          "status": "PARTIAL",
+          "chunk_id": "text_2",
+          "quote": "From 4,536 references screened, 16 studies were included. Among these, 14 (87%) were retrospective cohort studies, one (6%) was prospective, and one (6%) was a randomized controlled trial.",
+          "reason": "Number of included studies and study designs are reported, but the total number of participants is not given in the abstract."
+        },
+        {
+          "element_id": "prisma_2020_2_e8",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Model discrimination (AUROC) ranged from 0.71 to 0.948, with 8 (50%) outperforming controls.",
+          "reason": "Results for the main outcome (AF detection performance) are reported with study counts."
+        },
+        {
+          "element_id": "prisma_2020_2_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_2",
+          "quote": "Model discrimination (AUROC) ranged from 0.71 to 0.948",
+          "reason": "No meta-analysis was conducted; results are reported as ranges, so no summary estimate with CI applies."
+        },
+        {
+          "element_id": "prisma_2020_2_e10",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Combining ML with clinical tools (3 studies, 19%) significantly improved discrimination compared to ML models alone.",
+          "reason": "When groups are compared, the direction of effect and favored group (combined ML + clinical tools) are indicated."
+        },
+        {
+          "element_id": "prisma_2020_2_e11",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Their clinical applicability, however, is limited by insufficient external validation, high risk of bias, and variable performance.",
+          "reason": "The abstract summarizes important limitations including risk of bias and lack of external validation."
+        },
+        {
+          "element_id": "prisma_2020_2_e12",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "EHR-based ML models show promise for improving AF detection in primary care compared to standard care. ... Future research should prioritize external validation, evaluation in clinical trials and the integration of predictors routinely available in primary care.",
+          "reason": "The abstract provides interpretation of results and implications for future research."
+        },
+        {
+          "element_id": "prisma_2020_2_e13",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Funding: The author(s) received no specific funding for this work.",
+          "reason": "The funding source (none) is stated in the abstract/front-matter text."
+        },
+        {
+          "element_id": "prisma_2020_2_e14",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "This review was registered in International Prospective Register of Systematic Reviews (CRD42023390603).",
+          "reason": "The abstract provides both the register name (PROSPERO) and registration number."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_2_e6",
+        "prisma_2020_2_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 10,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_3",
+    "item_label": "3",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_3\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_3_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Despite the high prevalence and significant risks associated with AF, current primary care screening methods remain inadequate globally... While evidence on this approach is expanding, it remains unclear how these EHR-based models perform compared to standard care. Many studies lack direct comparisons, and questions remain about the generalizability of ML models in primary care due to variability in validation methods and dataset limitations.\",\n      \"reason\": \"The Introduction describes current knowledge (AF burden, existing screening approaches, CHARGE-AF limitations, EHR-based ML evidence) and explicitly identifies key uncertainties.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Given the high risks associated with untreated AF and the limitations of current screening methods, a more reliable, efficient, and integrated approach is urgently needed in primary care... A systematic synthesis of current evidence is therefore necessary to assess the benefits and limitations of ML-based tools for AF screening using EHR.\",\n      \"reason\": \"The need and importance of the review are clearly explained, linking gaps in existing screening and ML evidence to the rationale for a systematic synthesis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e3\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Himmelreich et al.'s systematic review also identified the Cohorts for Heart and Aging Research in Genomic Epidemiology for Atrial Fibrillation (CHARGE-AF) model as the most successful for predicting incident AF over a five-year window.\",\n      \"reason\": \"A prior systematic review (Himmelreich et al.) is cited and its limitations discussed, implicitly motivating the new review; however, the manuscript does not explicitly state that the current review updates or replicates that prior review or articulate the need relative to it.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"This is a review of diagnostic/prediction model effectiveness, not an intervention effects review, so no mechanism of action of an intervention needs describing.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review evaluates ML prediction models for detection rather than a complex intervention, so a logic model of intervention components is not applicable.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_3",
+      "elements": [
+        {
+          "element_id": "prisma_2020_3_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Despite the high prevalence and significant risks associated with AF, current primary care screening methods remain inadequate globally... While evidence on this approach is expanding, it remains unclear how these EHR-based models perform compared to standard care. Many studies lack direct comparisons, and questions remain about the generalizability of ML models in primary care due to variability in validation methods and dataset limitations.",
+          "reason": "The Introduction describes current knowledge (AF burden, existing screening approaches, CHARGE-AF limitations, EHR-based ML evidence) and explicitly identifies key uncertainties."
+        },
+        {
+          "element_id": "prisma_2020_3_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Given the high risks associated with untreated AF and the limitations of current screening methods, a more reliable, efficient, and integrated approach is urgently needed in primary care... A systematic synthesis of current evidence is therefore necessary to assess the benefits and limitations of ML-based tools for AF screening using EHR.",
+          "reason": "The need and importance of the review are clearly explained, linking gaps in existing screening and ML evidence to the rationale for a systematic synthesis."
+        },
+        {
+          "element_id": "prisma_2020_3_e3",
+          "status": "PARTIAL",
+          "chunk_id": "text_4",
+          "quote": "Himmelreich et al.'s systematic review also identified the Cohorts for Heart and Aging Research in Genomic Epidemiology for Atrial Fibrillation (CHARGE-AF) model as the most successful for predicting incident AF over a five-year window.",
+          "reason": "A prior systematic review (Himmelreich et al.) is cited and its limitations discussed, implicitly motivating the new review; however, the manuscript does not explicitly state that the current review updates or replicates that prior review or articulate the need relative to it."
+        },
+        {
+          "element_id": "prisma_2020_3_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "This is a review of diagnostic/prediction model effectiveness, not an intervention effects review, so no mechanism of action of an intervention needs describing."
+        },
+        {
+          "element_id": "prisma_2020_3_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review evaluates ML prediction models for detection rather than a complex intervention, so a logic model of intervention components is not applicable."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_3_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 9,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_4",
+    "item_label": "4",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_4\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_4_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"We conducted a systematic review to evaluate the effectiveness, quality, and applicability of EHR-based ML models for detecting AF in primary care.\",\n      \"reason\": \"The abstract explicitly states the review's objective(s), echoed in the Discussion ('We conducted a systematic review to assess the effectiveness of ML methods in detecting new cases of AF using EHR in primary care settings').\"\n    },\n    {\n      \"element_id\": \"prisma_2020_4_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The PICOS (population, intervention, comparator, outcome) framework [16] was used to develop the inclusion and exclusion criteria for suitable studies.\",\n      \"reason\": \"PICOS is reported as the framework for eligibility criteria, and the abstract describes population, comparator (standard care), and outcomes, but the planned comparison is not explicitly stated as a structured PICO statement in the objectives; the retrieved evidence lacks a full explicit PICO-formulated objective in the Introduction.\"\n    }\n  ],\n  \"confidence\": 78\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_4",
+      "elements": [
+        {
+          "element_id": "prisma_2020_4_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "We conducted a systematic review to evaluate the effectiveness, quality, and applicability of EHR-based ML models for detecting AF in primary care.",
+          "reason": "The abstract explicitly states the review's objective(s), echoed in the Discussion ('We conducted a systematic review to assess the effectiveness of ML methods in detecting new cases of AF using EHR in primary care settings')."
+        },
+        {
+          "element_id": "prisma_2020_4_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_5",
+          "quote": "The PICOS (population, intervention, comparator, outcome) framework [16] was used to develop the inclusion and exclusion criteria for suitable studies.",
+          "reason": "PICOS is reported as the framework for eligibility criteria, and the abstract describes population, comparator (standard care), and outcomes, but the planned comparison is not explicitly stated as a structured PICO statement in the objectives; the retrieved evidence lacks a full explicit PICO-formulated objective in the Introduction."
+        }
+      ],
+      "confidence": 78,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_4_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 9,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_5",
+    "item_label": "5",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_5\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_5_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"We included peer-reviewed publications in English using the PICOS framework. Population : Studies involving adult populations (aged >18 years) were included. Intervention : Oly studies that developed and/or applied ML methods using data from EHRs or primary care databases to detect new cases of AF within a primary care context were included.\",\n      \"reason\": \"The Eligibility Criteria section fully specifies PICOS components including population, intervention, comparison, outcomes, and settings, with explicit exclusions (e.g., pediatric, ER, inpatient settings).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"We included peer-reviewed publications in English using the PICOS framework.\",\n      \"reason\": \"Language (English) and publication status (peer-reviewed) are specified, but no dissemination year restriction is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The evidence does not distinguish exclusion because outcomes were not measured from exclusion because outcome results were not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e4\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures, with a particular focus on model performance metrics such as sensitivity, specificity, positive predictive value, accuracy, ROC-AUC, PRC-AUC, and F1 score.\",\n      \"reason\": \"Grouping for the narrative synthesis is described (by study characteristics and performance metrics), but the groups are not explicitly linked to comparisons defined in the review objectives.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e5\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Studies that utilized ML models developed exclusively with variables from ECGs, imaging data, or wearable devices without being integrated into EHR were excluded. However, studies that incorporated these models as clinical variables within EHR-based ML models... were included.\",\n      \"reason\": \"Some restrictions (e.g., EHR-integration requirement, setting restrictions) are stated with implicit rationale, but explicit rationales for notable restrictions are not systematically provided.\"\n    }\n  ],\n  \"confidence\": 88\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_5",
+      "elements": [
+        {
+          "element_id": "prisma_2020_5_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "We included peer-reviewed publications in English using the PICOS framework. Population : Studies involving adult populations (aged >18 years) were included. Intervention : Oly studies that developed and/or applied ML methods using data from EHRs or primary care databases to detect new cases of AF within a primary care context were included.",
+          "reason": "The Eligibility Criteria section fully specifies PICOS components including population, intervention, comparison, outcomes, and settings, with explicit exclusions (e.g., pediatric, ER, inpatient settings)."
+        },
+        {
+          "element_id": "prisma_2020_5_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_7",
+          "quote": "We included peer-reviewed publications in English using the PICOS framework.",
+          "reason": "Language (English) and publication status (peer-reviewed) are specified, but no dissemination year restriction is reported."
+        },
+        {
+          "element_id": "prisma_2020_5_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The evidence does not distinguish exclusion because outcomes were not measured from exclusion because outcome results were not reported."
+        },
+        {
+          "element_id": "prisma_2020_5_e4",
+          "status": "PARTIAL",
+          "chunk_id": "text_12",
+          "quote": "This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures, with a particular focus on model performance metrics such as sensitivity, specificity, positive predictive value, accuracy, ROC-AUC, PRC-AUC, and F1 score.",
+          "reason": "Grouping for the narrative synthesis is described (by study characteristics and performance metrics), but the groups are not explicitly linked to comparisons defined in the review objectives."
+        },
+        {
+          "element_id": "prisma_2020_5_e5",
+          "status": "PARTIAL",
+          "chunk_id": "text_7",
+          "quote": "Studies that utilized ML models developed exclusively with variables from ECGs, imaging data, or wearable devices without being integrated into EHR were excluded. However, studies that incorporated these models as clinical variables within EHR-based ML models... were included.",
+          "reason": "Some restrictions (e.g., EHR-integration requirement, setting restrictions) are stated with implicit rationale, but explicit rationales for notable restrictions are not systematically provided."
+        }
+      ],
+      "confidence": 88,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_5_e2",
+        "prisma_2020_5_e3",
+        "prisma_2020_5_e4",
+        "prisma_2020_5_e5"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 7,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_6",
+    "item_label": "6",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 9,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_7",
+    "item_label": "7",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_7\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_7_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"The search strategy was applied to Ovid-MEDLINE and ... translated to other databases (Ovid-MEDLINE, Embase, CINAHL, Cochrane CENTRAL, Web of Science, IEEE Xplore, Scopus) after validation and revision with the team. The relevant search strategy can be found in S1 Appendix.\",\n      \"reason\": \"Full search strategies for all seven databases are reported in the S1 Appendix, with the MEDLINE strategy translated to other databases.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"conducted a comprehensive search of electronic databases from the date of inception to May 2023\",\n      \"reason\": \"A date limit (inception to May 2023) is stated, but limits are not explicitly justified by reference to the eligibility criteria, and no other filters/limits are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No published search filters or hedges are cited, and no adaptations of published search approaches are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No use of natural-language processing or text-analysis tools to identify or refine search terms is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Translation of the search between databases is mentioned but no specific tools used for translation are specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Although 'validation and revision with the team' is mentioned, no formal validation process or validation studies of the search strategy are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No peer review of the search strategy (e.g., PRESS) is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e8\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"PICOS framework is mentioned for eligibility criteria (text_5), but no description of a non-PICO conceptual structure or explorations to develop the search is provided.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_7",
+      "elements": [
+        {
+          "element_id": "prisma_2020_7_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "The search strategy was applied to Ovid-MEDLINE and ... translated to other databases (Ovid-MEDLINE, Embase, CINAHL, Cochrane CENTRAL, Web of Science, IEEE Xplore, Scopus) after validation and revision with the team. The relevant search strategy can be found in S1 Appendix.",
+          "reason": "Full search strategies for all seven databases are reported in the S1 Appendix, with the MEDLINE strategy translated to other databases."
+        },
+        {
+          "element_id": "prisma_2020_7_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_6",
+          "quote": "conducted a comprehensive search of electronic databases from the date of inception to May 2023",
+          "reason": "A date limit (inception to May 2023) is stated, but limits are not explicitly justified by reference to the eligibility criteria, and no other filters/limits are described."
+        },
+        {
+          "element_id": "prisma_2020_7_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No published search filters or hedges are cited, and no adaptations of published search approaches are described."
+        },
+        {
+          "element_id": "prisma_2020_7_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No use of natural-language processing or text-analysis tools to identify or refine search terms is reported."
+        },
+        {
+          "element_id": "prisma_2020_7_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Translation of the search between databases is mentioned but no specific tools used for translation are specified."
+        },
+        {
+          "element_id": "prisma_2020_7_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Although 'validation and revision with the team' is mentioned, no formal validation process or validation studies of the search strategy are described."
+        },
+        {
+          "element_id": "prisma_2020_7_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No peer review of the search strategy (e.g., PRESS) is reported."
+        },
+        {
+          "element_id": "prisma_2020_7_e8",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "PICOS framework is mentioned for eligibility criteria (text_5), but no description of a non-PICO conceptual structure or explorations to develop the search is provided."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_7_e2",
+        "prisma_2020_7_e3",
+        "prisma_2020_7_e4",
+        "prisma_2020_7_e5",
+        "prisma_2020_7_e6",
+        "prisma_2020_7_e7",
+        "prisma_2020_7_e8"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_8",
+    "item_label": "8",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_8\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_8_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Two independent reviewers (DC & CS) screened all the articles' titles and abstracts using the predetermined eligibility criteria. After excluding irrelevant articles and duplicates, selected articles were moved to full-text review to further assess their relevance.\",\n      \"reason\": \"Two reviewers screened titles/abstracts and the same reviewers proceeded to full-text review; number of reviewers per stage is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Reviewers conducted their assessments independently, with decisions blinded from one another.\",\n      \"reason\": \"Independence and blinding of reviewers during screening is explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Any disagreements were resolved by consulting a third reviewer (SAR).\",\n      \"reason\": \"Disagreement resolution via a third reviewer is described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of contacting study investigators to obtain or confirm eligibility information.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Only English-language publications were included (text_7), so no translation of non-English articles was needed; no translation process is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Covidence software was used to facilitate the screening and selection process.\",\n      \"reason\": \"Automation/screening software (Covidence) is described as part of the selection process.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_15\",\n      \"quote\": \"Marked as ineligible by automation tools (n = 0)\",\n      \"reason\": \"The PRISMA flow diagram (figure_10) reports zero records removed by automation tools before screening, so no externally derived classifier was used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of internally derived classifiers used in the study selection process.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of ML prioritisation tools or stopping/prioritisation rules in screening; Covidence was used only to facilitate manual screening.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of crowdsourcing platforms used in study selection.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e11\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of previously screened datasets used to eliminate records.\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_8",
+      "elements": [
+        {
+          "element_id": "prisma_2020_8_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Two independent reviewers (DC & CS) screened all the articles' titles and abstracts using the predetermined eligibility criteria. After excluding irrelevant articles and duplicates, selected articles were moved to full-text review to further assess their relevance.",
+          "reason": "Two reviewers screened titles/abstracts and the same reviewers proceeded to full-text review; number of reviewers per stage is reported."
+        },
+        {
+          "element_id": "prisma_2020_8_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Reviewers conducted their assessments independently, with decisions blinded from one another.",
+          "reason": "Independence and blinding of reviewers during screening is explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_8_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Any disagreements were resolved by consulting a third reviewer (SAR).",
+          "reason": "Disagreement resolution via a third reviewer is described."
+        },
+        {
+          "element_id": "prisma_2020_8_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of contacting study investigators to obtain or confirm eligibility information."
+        },
+        {
+          "element_id": "prisma_2020_8_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Only English-language publications were included (text_7), so no translation of non-English articles was needed; no translation process is reported."
+        },
+        {
+          "element_id": "prisma_2020_8_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Covidence software was used to facilitate the screening and selection process.",
+          "reason": "Automation/screening software (Covidence) is described as part of the selection process."
+        },
+        {
+          "element_id": "prisma_2020_8_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_15",
+          "quote": "Marked as ineligible by automation tools (n = 0)",
+          "reason": "The PRISMA flow diagram (figure_10) reports zero records removed by automation tools before screening, so no externally derived classifier was used."
+        },
+        {
+          "element_id": "prisma_2020_8_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of internally derived classifiers used in the study selection process."
+        },
+        {
+          "element_id": "prisma_2020_8_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of ML prioritisation tools or stopping/prioritisation rules in screening; Covidence was used only to facilitate manual screening."
+        },
+        {
+          "element_id": "prisma_2020_8_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of crowdsourcing platforms used in study selection."
+        },
+        {
+          "element_id": "prisma_2020_8_e11",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of previously screened datasets used to eliminate records."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_8_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 8,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_9",
+    "item_label": "9",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_9\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_9_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We used the Checklist for Critical Appraisal and Data Extraction for Systematic Reviews of Prediction Modeling Studies (CHARMS) for data extraction (Moons et al., 2014).\",\n      \"reason\": \"The Data Extraction section describes the CHARMS tool and piloting but never states how many reviewers collected data from each report. The two-reviewer statement in text_8 refers to screening/selection, not data extraction.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We customized and tested the data extraction framework on several initial articles to ensure comprehensiveness and consistency.\",\n      \"reason\": \"No statement about whether data extractors worked independently; independence is only reported for the screening stage (text_8).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"For each study, we also documented the final variables used to develop the ML models.\",\n      \"reason\": \"No process for resolving disagreements during data extraction is described; the third-reviewer disagreement process in text_8 applies to screening/selection only.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e4\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_28\",\n      \"quote\": \"Due to the extent and variability of missing data, we did not impute values or contact study authors but instead chose to retain these studies and highlight the issue as a gap and a limitation in the current literature.\",\n      \"reason\": \"The authors explicitly state they did not contact study investigators, which addresses (by negation) the process for obtaining/confirming data from investigators, though this appears in the Limitations section rather than Methods.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We used the Checklist for Critical Appraisal and Data Extraction for Systematic Reviews of Prediction Modeling Studies (CHARMS) for data extraction\",\n      \"reason\": \"No automation tools used for data collection are described; Covidence is mentioned only for screening/selection (text_8).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence about translation of articles for data collection is provided in the retrieved text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No software or method for extracting data from figures is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e8\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No decision rules for selecting data from multiple reports of the same study or resolving inconsistencies across reports are described.\"\n    }\n  ],\n  \"confidence\": 88\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_9",
+      "elements": [
+        {
+          "element_id": "prisma_2020_9_e1",
+          "status": "MISSING",
+          "chunk_id": "text_9",
+          "quote": "We used the Checklist for Critical Appraisal and Data Extraction for Systematic Reviews of Prediction Modeling Studies (CHARMS) for data extraction (Moons et al., 2014).",
+          "reason": "The Data Extraction section describes the CHARMS tool and piloting but never states how many reviewers collected data from each report. The two-reviewer statement in text_8 refers to screening/selection, not data extraction."
+        },
+        {
+          "element_id": "prisma_2020_9_e2",
+          "status": "MISSING",
+          "chunk_id": "text_9",
+          "quote": "We customized and tested the data extraction framework on several initial articles to ensure comprehensiveness and consistency.",
+          "reason": "No statement about whether data extractors worked independently; independence is only reported for the screening stage (text_8)."
+        },
+        {
+          "element_id": "prisma_2020_9_e3",
+          "status": "MISSING",
+          "chunk_id": "text_9",
+          "quote": "For each study, we also documented the final variables used to develop the ML models.",
+          "reason": "No process for resolving disagreements during data extraction is described; the third-reviewer disagreement process in text_8 applies to screening/selection only."
+        },
+        {
+          "element_id": "prisma_2020_9_e4",
+          "status": "PARTIAL",
+          "chunk_id": "text_28",
+          "quote": "Due to the extent and variability of missing data, we did not impute values or contact study authors but instead chose to retain these studies and highlight the issue as a gap and a limitation in the current literature.",
+          "reason": "The authors explicitly state they did not contact study investigators, which addresses (by negation) the process for obtaining/confirming data from investigators, though this appears in the Limitations section rather than Methods."
+        },
+        {
+          "element_id": "prisma_2020_9_e5",
+          "status": "MISSING",
+          "chunk_id": "text_9",
+          "quote": "We used the Checklist for Critical Appraisal and Data Extraction for Systematic Reviews of Prediction Modeling Studies (CHARMS) for data extraction",
+          "reason": "No automation tools used for data collection are described; Covidence is mentioned only for screening/selection (text_8)."
+        },
+        {
+          "element_id": "prisma_2020_9_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence about translation of articles for data collection is provided in the retrieved text."
+        },
+        {
+          "element_id": "prisma_2020_9_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No software or method for extracting data from figures is reported."
+        },
+        {
+          "element_id": "prisma_2020_9_e8",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No decision rules for selecting data from multiple reports of the same study or resolving inconsistencies across reports are described."
+        }
+      ],
+      "confidence": 88,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_9_e1",
+        "prisma_2020_9_e2",
+        "prisma_2020_9_e3",
+        "prisma_2020_9_e4",
+        "prisma_2020_9_e5",
+        "prisma_2020_9_e6",
+        "prisma_2020_9_e7",
+        "prisma_2020_9_e8"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10a",
+    "item_label": "10a",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_10a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_10a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Outcome: The primary outcome of interest was the incidence of new AF diagnoses following the application of ML methods. Secondary outcomes included those related to patients (e.g., clinical outcomes, functional improvements, quality of life, patient satisfaction, and patient knowledge), healthcare providers (e.g., performance measures, provider satisfaction, skill enhancement, and patient-provider relationship quality), and healthcare systems (e.g., access to care, cost-efficiency, safety metrics, equity, healthcare utilization, and population health indicators).\",\n      \"reason\": \"Outcome domains (primary and secondary patient-, provider-, and system-related) are listed and defined in the eligibility criteria, and data extraction categories are further specified in text_9 (CHARMS outcomes, model performance, clinical outcomes).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The Methods do not specify a time frame of measurement for each outcome domain. A time range (6 months to 5 years) is only mentioned retrospectively in the Results (text_16), not as a pre-specified data item.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No statement indicates whether all compatible results within each outcome domain (all measures, time points, analyses) were sought.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report that only a subset of compatible results was sought, so no selection process needed to be described; no evidence supports applicability.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of changes to outcome-domain inclusion, definitions, or importance during the review is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of changes to processes for selecting results within outcome domains is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e7\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"we identified model discrimination-the ability to accurately distinguish between individuals with and without AF-as a key metric to measure the performance of ML models.\",\n      \"reason\": \"Model discrimination is identified as a key metric with a brief definition, but the rationale for prioritising it over other outcomes for interpreting conclusions is not fully elaborated.\"\n    }\n  ],\n  \"confidence\": 82\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_10a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_10a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Outcome: The primary outcome of interest was the incidence of new AF diagnoses following the application of ML methods. Secondary outcomes included those related to patients (e.g., clinical outcomes, functional improvements, quality of life, patient satisfaction, and patient knowledge), healthcare providers (e.g., performance measures, provider satisfaction, skill enhancement, and patient-provider relationship quality), and healthcare systems (e.g., access to care, cost-efficiency, safety metrics, equity, healthcare utilization, and population health indicators).",
+          "reason": "Outcome domains (primary and secondary patient-, provider-, and system-related) are listed and defined in the eligibility criteria, and data extraction categories are further specified in text_9 (CHARMS outcomes, model performance, clinical outcomes)."
+        },
+        {
+          "element_id": "prisma_2020_10a_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The Methods do not specify a time frame of measurement for each outcome domain. A time range (6 months to 5 years) is only mentioned retrospectively in the Results (text_16), not as a pre-specified data item."
+        },
+        {
+          "element_id": "prisma_2020_10a_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No statement indicates whether all compatible results within each outcome domain (all measures, time points, analyses) were sought."
+        },
+        {
+          "element_id": "prisma_2020_10a_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report that only a subset of compatible results was sought, so no selection process needed to be described; no evidence supports applicability."
+        },
+        {
+          "element_id": "prisma_2020_10a_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of changes to outcome-domain inclusion, definitions, or importance during the review is reported."
+        },
+        {
+          "element_id": "prisma_2020_10a_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of changes to processes for selecting results within outcome domains is reported."
+        },
+        {
+          "element_id": "prisma_2020_10a_e7",
+          "status": "PARTIAL",
+          "chunk_id": "text_9",
+          "quote": "we identified model discrimination-the ability to accurately distinguish between individuals with and without AF-as a key metric to measure the performance of ML models.",
+          "reason": "Model discrimination is identified as a key metric with a brief definition, but the rationale for prioritising it over other outcomes for interpreting conclusions is not fully elaborated."
+        }
+      ],
+      "confidence": 82,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_10a_e2",
+        "prisma_2020_10a_e3",
+        "prisma_2020_10a_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 8,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10b",
+    "item_label": "10b",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_10b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_10b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"Key categories extracted included study information (e.g., data source), participant details (e.g., population characteristics), outcomes (e.g., outcome type and blinding of assessment), candidate predictors (e.g., predictor type), model development (e.g., sample size, handling of missing data, and predictor selection), model performance (e.g., calibration, classification measures), and model evaluation (e.g., internal vs. external validation). In addition to these criteria, we captured further details on study design, such as the clinical question, ML method, control groups, intended use of results, validation processes, and clinical outcomes (e.g., patient-related, provider-related, and healthcare system-related). For each study, we also documented the final variables used to develop the ML models.\",\n      \"reason\": \"The Data Extraction section lists the categories of variables sought (study information, participant details, outcomes, predictors, model development, performance, evaluation, and additional study design details), each defined with illustrative examples, plus the final model variables documented per study.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_28\",\n      \"quote\": \"Regarding missing data, we recorded unreported items as 'not reported' or 'unclear' in our extraction sheet. Due to the extent and variability of missing data, we did not impute values or contact study authors but instead chose to retain these studies and highlight the issue as a gap and a limitation in the current literature.\",\n      \"reason\": \"The manuscript explicitly describes the assumptions/handling for missing or unclear study information: unreported items were recorded as 'not reported' or 'unclear', with no imputation and no author contact, and studies were retained despite missing data.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We used the Checklist for Critical Appraisal and Data Extraction for Systematic Reviews of Prediction Modeling Studies (CHARMS) for data extraction (Moons et al., 2014).\",\n      \"reason\": \"The CHARMS checklist is explicitly cited as the tool used to determine which data items to collect during extraction.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_10b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_10b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "Key categories extracted included study information (e.g., data source), participant details (e.g., population characteristics), outcomes (e.g., outcome type and blinding of assessment), candidate predictors (e.g., predictor type), model development (e.g., sample size, handling of missing data, and predictor selection), model performance (e.g., calibration, classification measures), and model evaluation (e.g., internal vs. external validation). In addition to these criteria, we captured further details on study design, such as the clinical question, ML method, control groups, intended use of results, validation processes, and clinical outcomes (e.g., patient-related, provider-related, and healthcare system-related). For each study, we also documented the final variables used to develop the ML models.",
+          "reason": "The Data Extraction section lists the categories of variables sought (study information, participant details, outcomes, predictors, model development, performance, evaluation, and additional study design details), each defined with illustrative examples, plus the final model variables documented per study."
+        },
+        {
+          "element_id": "prisma_2020_10b_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_28",
+          "quote": "Regarding missing data, we recorded unreported items as 'not reported' or 'unclear' in our extraction sheet. Due to the extent and variability of missing data, we did not impute values or contact study authors but instead chose to retain these studies and highlight the issue as a gap and a limitation in the current literature.",
+          "reason": "The manuscript explicitly describes the assumptions/handling for missing or unclear study information: unreported items were recorded as 'not reported' or 'unclear', with no imputation and no author contact, and studies were retained despite missing data."
+        },
+        {
+          "element_id": "prisma_2020_10b_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "We used the Checklist for Critical Appraisal and Data Extraction for Systematic Reviews of Prediction Modeling Studies (CHARMS) for data extraction (Moons et al., 2014).",
+          "reason": "The CHARMS checklist is explicitly cited as the tool used to determine which data items to collect during extraction."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 5,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_11",
+    "item_label": "11",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_11\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_11_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"We used the Prediction Model Risk of Bias Assessment Tool (PROBAST) for quality assessment [18].\",\n      \"reason\": \"The risk-of-bias tool (PROBAST) is explicitly named; CONSORT-AI and MI-CLAIM were also applied for quality/reporting assessment.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"PROBAST, which evaluates risk of bias and applicability in prognostic model studies across four domains: participants (e.g., selection bias), model predictors (e.g., bias from inconsistencies in predictor definitions and selection), outcome (e.g., bias due to outcome misclassification), and analysis (e.g., bias from inappropriate statistical methods in model development).\",\n      \"reason\": \"The four PROBAST domains and example bias components assessed are specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e3\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_20\",\n      \"quote\": \"Among the 15 studies, the overall risk of bias was high in 8 studies (53%)... Only one study (7%) was rated as having a low risk of bias. The remaining six studies (40%) were deemed to have an unclear risk of bias\",\n      \"reason\": \"Overall risk-of-bias judgements were made and reported, but the explicit rules used to derive the overall judgement (e.g., how domain ratings combine) are not described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"To streamline this process, we implemented the ready-to-use template by Fernandez-Felix et al., 2023 [19].\",\n      \"reason\": \"An adaptation/implementation of PROBAST using a published ready-to-use template is described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No newly developed risk-of-bias tool was used; only existing tools (PROBAST, MI-CLAIM, CONSORT-AI) were applied.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The retrieved evidence does not report how many reviewers assessed risk of bias, whether they worked independently, or how disagreements were resolved.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence that risk-of-bias information was sought from study investigators; the process described relied on published reports only.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No automation tools for risk-of-bias assessment are reported; assessment was performed manually using PROBAST.\"\n    }\n  ],\n  \"confidence\": 88\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_11",
+      "elements": [
+        {
+          "element_id": "prisma_2020_11_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "We used the Prediction Model Risk of Bias Assessment Tool (PROBAST) for quality assessment [18].",
+          "reason": "The risk-of-bias tool (PROBAST) is explicitly named; CONSORT-AI and MI-CLAIM were also applied for quality/reporting assessment."
+        },
+        {
+          "element_id": "prisma_2020_11_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "PROBAST, which evaluates risk of bias and applicability in prognostic model studies across four domains: participants (e.g., selection bias), model predictors (e.g., bias from inconsistencies in predictor definitions and selection), outcome (e.g., bias due to outcome misclassification), and analysis (e.g., bias from inappropriate statistical methods in model development).",
+          "reason": "The four PROBAST domains and example bias components assessed are specified."
+        },
+        {
+          "element_id": "prisma_2020_11_e3",
+          "status": "PARTIAL",
+          "chunk_id": "text_20",
+          "quote": "Among the 15 studies, the overall risk of bias was high in 8 studies (53%)... Only one study (7%) was rated as having a low risk of bias. The remaining six studies (40%) were deemed to have an unclear risk of bias",
+          "reason": "Overall risk-of-bias judgements were made and reported, but the explicit rules used to derive the overall judgement (e.g., how domain ratings combine) are not described."
+        },
+        {
+          "element_id": "prisma_2020_11_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "To streamline this process, we implemented the ready-to-use template by Fernandez-Felix et al., 2023 [19].",
+          "reason": "An adaptation/implementation of PROBAST using a published ready-to-use template is described."
+        },
+        {
+          "element_id": "prisma_2020_11_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No newly developed risk-of-bias tool was used; only existing tools (PROBAST, MI-CLAIM, CONSORT-AI) were applied."
+        },
+        {
+          "element_id": "prisma_2020_11_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The retrieved evidence does not report how many reviewers assessed risk of bias, whether they worked independently, or how disagreements were resolved."
+        },
+        {
+          "element_id": "prisma_2020_11_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence that risk-of-bias information was sought from study investigators; the process described relied on published reports only."
+        },
+        {
+          "element_id": "prisma_2020_11_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No automation tools for risk-of-bias assessment are reported; assessment was performed manually using PROBAST."
+        }
+      ],
+      "confidence": 88,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_11_e3",
+        "prisma_2020_11_e6"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 8,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_12",
+    "item_label": "12",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_12\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_12_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"tabulating key effectiveness measures, with a particular focus on model performance metrics such as sensitivity, specificity, positive predictive value, accuracy, ROC-AUC, PRC-AUC, and F1 score\",\n      \"reason\": \"The synthesis methods specify the measures used to present results for the model performance outcomes (sensitivity, specificity, PPV, accuracy, ROC-AUC, PRC-AUC, F1), and text_22 adds discrimination (AUC/C-index), calibration, and NNS.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_22\",\n      \"quote\": \"Both metrics range from 0 to 1, with higher values (closer to 1.0) indicating better performance. C-index above 0.75 suggests strong discrimination [39]. However, for utility in clinical practice, discrimination above 0.9 is required for regulatory considerations [40,41]. ... High performance: AUC ≥ 0.9 and superiority to control. Moderate performance: AUC ≥ 0.9 or superiority to control (but not both).\",\n      \"reason\": \"Thresholds for interpreting effect sizes (AUC/C-index 0.75 and 0.9; performance classification rules) are reported with cited rationale.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis.\",\n      \"reason\": \"No meta-analysis or quantitative synthesis was performed, so no re-expression of synthesized results into another effect measure was needed; the manuscript explicitly states meta-analysis was not feasible.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e4\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_22\",\n      \"quote\": \"For a thorough evaluation of predictive models' performance, two key metrics-calibration and discrimination-are essential. Calibration assesses how well predicted probabilities align with observed outcomes, while discrimination, often measured by AUC or C-index, reflects a model's ability to differentiate between high- and low-risk individuals\",\n      \"reason\": \"The choice of discrimination/calibration metrics is explained in the discussion, but a methods-section justification for choosing these specific effect measures over alternatives (e.g., risk ratios) is not fully provided; the narrative mainly justifies why meta-analysis was not done.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_12",
+      "elements": [
+        {
+          "element_id": "prisma_2020_12_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "tabulating key effectiveness measures, with a particular focus on model performance metrics such as sensitivity, specificity, positive predictive value, accuracy, ROC-AUC, PRC-AUC, and F1 score",
+          "reason": "The synthesis methods specify the measures used to present results for the model performance outcomes (sensitivity, specificity, PPV, accuracy, ROC-AUC, PRC-AUC, F1), and text_22 adds discrimination (AUC/C-index), calibration, and NNS."
+        },
+        {
+          "element_id": "prisma_2020_12_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_22",
+          "quote": "Both metrics range from 0 to 1, with higher values (closer to 1.0) indicating better performance. C-index above 0.75 suggests strong discrimination [39]. However, for utility in clinical practice, discrimination above 0.9 is required for regulatory considerations [40,41]. ... High performance: AUC ≥ 0.9 and superiority to control. Moderate performance: AUC ≥ 0.9 or superiority to control (but not both).",
+          "reason": "Thresholds for interpreting effect sizes (AUC/C-index 0.75 and 0.9; performance classification rules) are reported with cited rationale."
+        },
+        {
+          "element_id": "prisma_2020_12_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis.",
+          "reason": "No meta-analysis or quantitative synthesis was performed, so no re-expression of synthesized results into another effect measure was needed; the manuscript explicitly states meta-analysis was not feasible."
+        },
+        {
+          "element_id": "prisma_2020_12_e4",
+          "status": "PARTIAL",
+          "chunk_id": "text_22",
+          "quote": "For a thorough evaluation of predictive models' performance, two key metrics-calibration and discrimination-are essential. Calibration assesses how well predicted probabilities align with observed outcomes, while discrimination, often measured by AUC or C-index, reflects a model's ability to differentiate between high- and low-risk individuals",
+          "reason": "The choice of discrimination/calibration metrics is explained in the discussion, but a methods-section justification for choosing these specific effect measures over alternatives (e.g., risk ratios) is not fully provided; the narrative mainly justifies why meta-analysis was not done."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_12_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13a",
+    "item_label": "13a",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis. This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures\",\n      \"reason\": \"The synthesis methods section describes how studies were grouped and tabulated for the narrative synthesis, explaining which studies were eligible for the single (narrative) synthesis by grouping on study characteristics and performance metrics.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis. This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures",
+          "reason": "The synthesis methods section describes how studies were grouped and tabulated for the narrative synthesis, explaining which studies were eligible for the single (narrative) synthesis by grouping on study characteristics and performance metrics."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 7,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13b",
+    "item_label": "13b",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_28\",\n      \"quote\": \"Regarding missing data, we recorded unreported items as 'not reported' or 'unclear' in our extraction sheet. Due to the extent and variability of missing data, we did not impute values or contact study authors but instead chose to retain these studies and highlight the issue as a gap and a limitation in the current literature.\",\n      \"reason\": \"The manuscript describes data preparation for synthesis: handling of missing summary statistics (recording unreported items as 'not reported'/'unclear', no imputation, per text_28) and the synthesis/tabulation approach including grouping, clustering, and tabulating performance metrics (sensitivity, specificity, ROC-AUC, etc.) in text_12. No data conversions were needed given the narrative synthesis, and the methods for preparing data are adequately described.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_28",
+          "quote": "Regarding missing data, we recorded unreported items as 'not reported' or 'unclear' in our extraction sheet. Due to the extent and variability of missing data, we did not impute values or contact study authors but instead chose to retain these studies and highlight the issue as a gap and a limitation in the current literature.",
+          "reason": "The manuscript describes data preparation for synthesis: handling of missing summary statistics (recording unreported items as 'not reported'/'unclear', no imputation, per text_28) and the synthesis/tabulation approach including grouping, clustering, and tabulating performance metrics (sensitivity, specificity, ROC-AUC, etc.) in text_12. No data conversions were needed given the narrative synthesis, and the methods for preparing data are adequately described."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 7,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13c",
+    "item_label": "13c",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures, with a particular focus on model performance metrics such as sensitivity, specificity, positive predictive value, accuracy, ROC-AUC, PRC-AUC, and F1 score.\",\n      \"reason\": \"Methods describe tabulating key effectiveness measures and specify the data included in the tables.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No methods-section description of graphical display methods (e.g., figures, plots) used to present results; figures appear only in Results without methods description.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"grouping and clustering by relevant characteristics\",\n      \"reason\": \"The basis for grouping studies in the synthesis (relevant characteristics) is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_20\",\n      \"quote\": \"To visualize how often models achieved in terms of predictive performance and clinical applicability, we developed a matrix mapping these two dimensions (Table 5).\",\n      \"reason\": \"Rationale for the non-standard matrix mapping display is provided.\"\n    }\n  ],\n  \"confidence\": 82\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures, with a particular focus on model performance metrics such as sensitivity, specificity, positive predictive value, accuracy, ROC-AUC, PRC-AUC, and F1 score.",
+          "reason": "Methods describe tabulating key effectiveness measures and specify the data included in the tables."
+        },
+        {
+          "element_id": "prisma_2020_13c_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No methods-section description of graphical display methods (e.g., figures, plots) used to present results; figures appear only in Results without methods description."
+        },
+        {
+          "element_id": "prisma_2020_13c_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "grouping and clustering by relevant characteristics",
+          "reason": "The basis for grouping studies in the synthesis (relevant characteristics) is reported."
+        },
+        {
+          "element_id": "prisma_2020_13c_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_20",
+          "quote": "To visualize how often models achieved in terms of predictive performance and clinical applicability, we developed a matrix mapping these two dimensions (Table 5).",
+          "reason": "Rationale for the non-standard matrix mapping display is provided."
+        }
+      ],
+      "confidence": 82,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13c_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 9,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13d",
+    "item_label": "13d",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13d_e1\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis.\",\n      \"reason\": \"No meta-analysis or statistical synthesis was performed, so no statistical software/packages apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis. This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures\",\n      \"reason\": \"The alternative narrative/descriptive synthesis is described with rationale (heterogeneity, diverse metrics).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible\",\n      \"reason\": \"No meta-analysis was performed, so no model to report.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible\",\n      \"reason\": \"No meta-analysis was performed, so no statistical method to report.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible\",\n      \"reason\": \"No meta-analysis; heterogeneity was a reason for not pooling, not statistically quantified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible\",\n      \"reason\": \"No random-effects meta-analysis was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible\",\n      \"reason\": \"No random-effects meta-analysis was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible\",\n      \"reason\": \"No random-effects meta-analysis was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible\",\n      \"reason\": \"No Bayesian meta-analysis was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible\",\n      \"reason\": \"No statistical synthesis, so no dependency handling methods apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e11\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_22\",\n      \"quote\": \"A meta-analysis was not feasible due to high risk of bias in many studies and substantial heterogeneity in both performance metrics and the datasets used to develop ML models. As a result, cross-study comparisons were inappropriate.\",\n      \"reason\": \"The planned meta-analysis was identified as infeasible and reasons (risk of bias, heterogeneity) are reported.\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13d_e1",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis.",
+          "reason": "No meta-analysis or statistical synthesis was performed, so no statistical software/packages apply."
+        },
+        {
+          "element_id": "prisma_2020_13d_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis. This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures",
+          "reason": "The alternative narrative/descriptive synthesis is described with rationale (heterogeneity, diverse metrics)."
+        },
+        {
+          "element_id": "prisma_2020_13d_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible",
+          "reason": "No meta-analysis was performed, so no model to report."
+        },
+        {
+          "element_id": "prisma_2020_13d_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible",
+          "reason": "No meta-analysis was performed, so no statistical method to report."
+        },
+        {
+          "element_id": "prisma_2020_13d_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible",
+          "reason": "No meta-analysis; heterogeneity was a reason for not pooling, not statistically quantified."
+        },
+        {
+          "element_id": "prisma_2020_13d_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible",
+          "reason": "No random-effects meta-analysis was performed."
+        },
+        {
+          "element_id": "prisma_2020_13d_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible",
+          "reason": "No random-effects meta-analysis was performed."
+        },
+        {
+          "element_id": "prisma_2020_13d_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible",
+          "reason": "No random-effects meta-analysis was performed."
+        },
+        {
+          "element_id": "prisma_2020_13d_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible",
+          "reason": "No Bayesian meta-analysis was performed."
+        },
+        {
+          "element_id": "prisma_2020_13d_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible",
+          "reason": "No statistical synthesis, so no dependency handling methods apply."
+        },
+        {
+          "element_id": "prisma_2020_13d_e11",
+          "status": "PRESENT",
+          "chunk_id": "text_22",
+          "quote": "A meta-analysis was not feasible due to high risk of bias in many studies and substantial heterogeneity in both performance metrics and the datasets used to develop ML models. As a result, cross-study comparisons were inappropriate.",
+          "reason": "The planned meta-analysis was identified as infeasible and reasons (risk of bias, heterogeneity) are reported."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 8,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13e",
+    "item_label": "13e",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13e\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13e_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"We also explored sources of variation across studies, including differences in study design, methodology, populations, interventions, control groups, and outcomes.\",\n      \"reason\": \"Methods to explore heterogeneity are described: narrative/descriptive synthesis with grouping/clustering and exploration of sources of variation, since meta-analysis was not feasible.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No subgroup analysis or meta-regression was performed; meta-analysis was not feasible, so factor levels and expected direction of effect modification do not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No subgroup analyses or meta-regression were conducted, so the study-level vs within-study contrast distinction does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No formal subgroup comparisons were undertaken; only narrative comparison of model performance against within-study controls.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e5\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures... We also explored sources of variation across studies, including differences in study design, methodology, populations, interventions, control groups, and outcomes.\",\n      \"reason\": \"Informal narrative exploration of heterogeneity is described with factors listed (design, methodology, populations, interventions, controls, outcomes), but specific factor levels are not detailed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not identify whether heterogeneity explorations were pre-specified or post-hoc.\"\n    }\n  ],\n  \"confidence\": 82\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13e",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13e_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "We also explored sources of variation across studies, including differences in study design, methodology, populations, interventions, control groups, and outcomes.",
+          "reason": "Methods to explore heterogeneity are described: narrative/descriptive synthesis with grouping/clustering and exploration of sources of variation, since meta-analysis was not feasible."
+        },
+        {
+          "element_id": "prisma_2020_13e_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No subgroup analysis or meta-regression was performed; meta-analysis was not feasible, so factor levels and expected direction of effect modification do not apply."
+        },
+        {
+          "element_id": "prisma_2020_13e_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No subgroup analyses or meta-regression were conducted, so the study-level vs within-study contrast distinction does not apply."
+        },
+        {
+          "element_id": "prisma_2020_13e_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No formal subgroup comparisons were undertaken; only narrative comparison of model performance against within-study controls."
+        },
+        {
+          "element_id": "prisma_2020_13e_e5",
+          "status": "PARTIAL",
+          "chunk_id": "text_12",
+          "quote": "This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures... We also explored sources of variation across studies, including differences in study design, methodology, populations, interventions, control groups, and outcomes.",
+          "reason": "Informal narrative exploration of heterogeneity is described with factors listed (design, methodology, populations, interventions, controls, outcomes), but specific factor levels are not detailed."
+        },
+        {
+          "element_id": "prisma_2020_13e_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not identify whether heterogeneity explorations were pre-specified or post-hoc."
+        }
+      ],
+      "confidence": 82,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13e_e5",
+        "prisma_2020_13e_e6"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 7,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13f",
+    "item_label": "13f",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13f\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13f_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis.\",\n      \"reason\": \"No sensitivity analyses are described anywhere in the methods or results; the synthesis was narrative/descriptive with no mention of sensitivity analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13f_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Since no sensitivity analyses are reported at all, there is no identification of any analysis as non-pre-specified.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13f",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13f_e1",
+          "status": "MISSING",
+          "chunk_id": "text_12",
+          "quote": "Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis.",
+          "reason": "No sensitivity analyses are described anywhere in the methods or results; the synthesis was narrative/descriptive with no mention of sensitivity analyses."
+        },
+        {
+          "element_id": "prisma_2020_13f_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Since no sensitivity analyses are reported at all, there is no identification of any analysis as non-pre-specified."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13f_e1",
+        "prisma_2020_13f_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_14",
+    "item_label": "14",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_14\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_14_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript describes PROBAST for assessing risk of bias within individual studies, but no methods for assessing risk of bias due to missing results in a synthesis (reporting biases, e.g., funnel plots, selective outcome reporting checks) are reported anywhere in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No existing reporting-bias assessment tool was used; PROBAST was used for study-level risk of bias, not for reporting bias due to missing results, so this conditional element does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No reporting-bias tool was adapted; the manuscript only adapted a PROBAST template for study-level risk of bias assessment, which is outside the scope of this item.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No newly developed reporting-bias tool is described or referenced in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The number of reviewers, their independence, and disagreement-resolution procedures for assessing reporting bias due to missing results are not reported; no such assessment was described at all.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_28\",\n      \"quote\": \"Due to the extent and variability of missing data, we did not impute values or contact study authors but instead chose to retain these studies and highlight the issue as a gap and a limitation in the current literature.\",\n      \"reason\": \"The authors explicitly state they did not contact study investigators, so no process for obtaining or confirming information from investigators applies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No automation tools for reporting-bias assessment are mentioned in the retrieved evidence.\"\n    }\n  ],\n  \"confidence\": 88\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_14",
+      "elements": [
+        {
+          "element_id": "prisma_2020_14_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript describes PROBAST for assessing risk of bias within individual studies, but no methods for assessing risk of bias due to missing results in a synthesis (reporting biases, e.g., funnel plots, selective outcome reporting checks) are reported anywhere in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_14_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No existing reporting-bias assessment tool was used; PROBAST was used for study-level risk of bias, not for reporting bias due to missing results, so this conditional element does not apply."
+        },
+        {
+          "element_id": "prisma_2020_14_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No reporting-bias tool was adapted; the manuscript only adapted a PROBAST template for study-level risk of bias assessment, which is outside the scope of this item."
+        },
+        {
+          "element_id": "prisma_2020_14_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No newly developed reporting-bias tool is described or referenced in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_14_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The number of reviewers, their independence, and disagreement-resolution procedures for assessing reporting bias due to missing results are not reported; no such assessment was described at all."
+        },
+        {
+          "element_id": "prisma_2020_14_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_28",
+          "quote": "Due to the extent and variability of missing data, we did not impute values or contact study authors but instead chose to retain these studies and highlight the issue as a gap and a limitation in the current literature.",
+          "reason": "The authors explicitly state they did not contact study investigators, so no process for obtaining or confirming information from investigators applies."
+        },
+        {
+          "element_id": "prisma_2020_14_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No automation tools for reporting-bias assessment are mentioned in the retrieved evidence."
+        }
+      ],
+      "confidence": 88,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_14_e1",
+        "prisma_2020_14_e5"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 7,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_15",
+    "item_label": "15",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16a",
+    "item_label": "16a",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"Our initial search across seven databases yielded 4,536 references... After removing duplicates, 2361 unique records remained for title and abstract screening. Following the first round of screening, 122 studies were selected for full-text review.\",\n      \"reason\": \"Numbers identified (4,536), removed before screening (duplicates), screened (2,361), and excluded after initial screening (2,239 per Fig 1) are reported in text and flow diagram.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_15\",\n      \"quote\": \"Studies sought for retrieval (n = 122) ... Studies not retrieved (n = 27) ... Studies assessed for eligibility (n = 95) ... Studies excluded (n = 79) with reasons: Not in primary care (n = 38), Wrong outcomes (n = 12) ...\",\n      \"reason\": \"The PRISMA flow diagram (Fig 1) reports reports sought (122), not retrieved (27), assessed for eligibility (95), and excluded with primary reasons (79 with categorized reasons).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"Ultimately, 16 articles met the eligibility criteria and were included for data extraction.\",\n      \"reason\": \"Number of included studies (16) is reported in text and in the flow diagram (Studies included in review, n = 16).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No ongoing studies or associated reports are mentioned anywhere in the retrieved evidence; the flow diagram shows no ongoing studies section.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence this review is an update of a previous review; it is registered prospectively (PROSPERO CRD42023390603) with no prior review referenced.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_15\",\n      \"quote\": \"Duplicates identified manually (n = 6), Duplicates identified by Covidence (n = 2170), Marked as ineligible by automation tools (n = 0)\",\n      \"reason\": \"The flow diagram distinguishes removals by automation tools (Covidence) from manual removals, and reports automation-tool exclusions (n = 0).\"\n    }\n  ],\n  \"confidence\": 92\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "Our initial search across seven databases yielded 4,536 references... After removing duplicates, 2361 unique records remained for title and abstract screening. Following the first round of screening, 122 studies were selected for full-text review.",
+          "reason": "Numbers identified (4,536), removed before screening (duplicates), screened (2,361), and excluded after initial screening (2,239 per Fig 1) are reported in text and flow diagram."
+        },
+        {
+          "element_id": "prisma_2020_16a_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_15",
+          "quote": "Studies sought for retrieval (n = 122) ... Studies not retrieved (n = 27) ... Studies assessed for eligibility (n = 95) ... Studies excluded (n = 79) with reasons: Not in primary care (n = 38), Wrong outcomes (n = 12) ...",
+          "reason": "The PRISMA flow diagram (Fig 1) reports reports sought (122), not retrieved (27), assessed for eligibility (95), and excluded with primary reasons (79 with categorized reasons)."
+        },
+        {
+          "element_id": "prisma_2020_16a_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "Ultimately, 16 articles met the eligibility criteria and were included for data extraction.",
+          "reason": "Number of included studies (16) is reported in text and in the flow diagram (Studies included in review, n = 16)."
+        },
+        {
+          "element_id": "prisma_2020_16a_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No ongoing studies or associated reports are mentioned anywhere in the retrieved evidence; the flow diagram shows no ongoing studies section."
+        },
+        {
+          "element_id": "prisma_2020_16a_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence this review is an update of a previous review; it is registered prospectively (PROSPERO CRD42023390603) with no prior review referenced."
+        },
+        {
+          "element_id": "prisma_2020_16a_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_15",
+          "quote": "Duplicates identified manually (n = 6), Duplicates identified by Covidence (n = 2170), Marked as ineligible by automation tools (n = 0)",
+          "reason": "The flow diagram distinguishes removals by automation tools (Covidence) from manual removals, and reports automation-tool exclusions (n = 0)."
+        }
+      ],
+      "confidence": 92,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 12,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16b",
+    "item_label": "16b",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The Results (text_13) report study selection counts and state only that 'Fig 1 provides a breakdown of exclusion reasons', deferring exclusion information to the PRISMA flow diagram (whose image bytes are not provided; figure_10 in text_15 is caption-only). No retrieved text cites specific studies that appeared eligible but were excluded, and no study-by-study exclusion rationale is reported. Other evidence (text_7, text_8) describes eligibility criteria and the screening process generically, and text_20's exclusion ('one clinical trial was excluded as it did not meet the criteria for PROBAST evaluation') concerns bias-assessment applicability, not exclusion from the review. Thus, the requirement to cite excluded studies and explain each exclusion is not met in the retrieved evidence.\"\n    }\n  ],\n  \"confidence\": 88\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The Results (text_13) report study selection counts and state only that 'Fig 1 provides a breakdown of exclusion reasons', deferring exclusion information to the PRISMA flow diagram (whose image bytes are not provided; figure_10 in text_15 is caption-only). No retrieved text cites specific studies that appeared eligible but were excluded, and no study-by-study exclusion rationale is reported. Other evidence (text_7, text_8) describes eligibility criteria and the screening process generically, and text_20's exclusion ('one clinical trial was excluded as it did not meet the criteria for PROBAST evaluation') concerns bias-assessment applicability, not exclusion from the review. Thus, the requirement to cite excluded studies and explain each exclusion is not met in the retrieved evidence."
+        }
+      ],
+      "confidence": 88,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_16b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 11,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_17",
+    "item_label": "17",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_17\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_17_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"table_1\",\n      \"quote\": \"Table 2. Studies Characteristics. | Elkin 2021 [26] | ... | Hill 2022 [36] |\",\n      \"reason\": \"Table 2 cites included studies with reference numbers, but only 15 studies are listed while the text states 16 articles were included (text_14: 'Of the 16 articles...'), so at least one included study is not cited in the characteristics table.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"table_1\",\n      \"quote\": \"Table 2. Studies Characteristics. | First author | Clinical setting | Country | Study design | Dataset used for ML development | AI type | Control Group | Outcome |\",\n      \"reason\": \"Table 2 presents key characteristics (setting, country, design, dataset, AI type, comparator, outcome) in a format supporting comparison, but it covers only 15 of the 16 included articles, so characteristics of every study are not fully presented.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_14\",\n      \"quote\": \"Intervention (ML Models characteristics): Among the 16 articles reviewed, a total of 13 unique models were identified... Random forest classifiers were the most commonly used algorithm (n = 7, 54%). Additionally, deep learning models (n = 4, 31%) were employed\",\n      \"reason\": \"Intervention (ML model) details for the included studies are summarised, with per-study AI type given in Table 2 and further model detail in the text and taxonomy (Table 3).\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_17",
+      "elements": [
+        {
+          "element_id": "prisma_2020_17_e1",
+          "status": "PARTIAL",
+          "chunk_id": "table_1",
+          "quote": "Table 2. Studies Characteristics. | Elkin 2021 [26] | ... | Hill 2022 [36] |",
+          "reason": "Table 2 cites included studies with reference numbers, but only 15 studies are listed while the text states 16 articles were included (text_14: 'Of the 16 articles...'), so at least one included study is not cited in the characteristics table."
+        },
+        {
+          "element_id": "prisma_2020_17_e2",
+          "status": "PARTIAL",
+          "chunk_id": "table_1",
+          "quote": "Table 2. Studies Characteristics. | First author | Clinical setting | Country | Study design | Dataset used for ML development | AI type | Control Group | Outcome |",
+          "reason": "Table 2 presents key characteristics (setting, country, design, dataset, AI type, comparator, outcome) in a format supporting comparison, but it covers only 15 of the 16 included articles, so characteristics of every study are not fully presented."
+        },
+        {
+          "element_id": "prisma_2020_17_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_14",
+          "quote": "Intervention (ML Models characteristics): Among the 16 articles reviewed, a total of 13 unique models were identified... Random forest classifiers were the most commonly used algorithm (n = 7, 54%). Additionally, deep learning models (n = 4, 31%) were employed",
+          "reason": "Intervention (ML model) details for the included studies are summarised, with per-study AI type given in Table 2 and further model detail in the text and taxonomy (Table 3)."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_17_e1",
+        "prisma_2020_17_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 10,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_18",
+    "item_label": "18",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_18\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_18_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_20\",\n      \"quote\": \"Among the 15 studies, the overall risk of bias was high in 8 studies (53%)... 12 studies (80%) exhibited an unclear risk of bias in the analysis domain... Fig 6 summarizes overall risk of bias across articles. S1 Table summarizes the individual results of the critical appraisal in each article.\",\n      \"reason\": \"Domain-level and overall PROBAST risk-of-bias judgements are reported in text, summarized in Fig 6 (bar chart showing Low/High/Unclear ROB by domain: Participants, Predictors, Outcome, Analysis, Overall), and per-study results are provided in S1 Table.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_20\",\n      \"quote\": \"primarily due to issues with participant selection methods... largely due to insufficient information about how the analysis was conducted, particularly the handling of missing data\",\n      \"reason\": \"Aggregate justifications for risk-of-bias judgements are given (e.g., participant selection, missing data handling), but study-specific justifications for each judgement are only referenced as residing in supplementary S1 Table, not presented in the manuscript text; completeness cannot be verified from the evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence shows outcome-specific risk-of-bias judgements displayed alongside individual study results; risk of bias is reported only in aggregate and in a separate figure/supplementary table, not alongside study performance results.\"\n    }\n  ],\n  \"confidence\": 82\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_18",
+      "elements": [
+        {
+          "element_id": "prisma_2020_18_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_20",
+          "quote": "Among the 15 studies, the overall risk of bias was high in 8 studies (53%)... 12 studies (80%) exhibited an unclear risk of bias in the analysis domain... Fig 6 summarizes overall risk of bias across articles. S1 Table summarizes the individual results of the critical appraisal in each article.",
+          "reason": "Domain-level and overall PROBAST risk-of-bias judgements are reported in text, summarized in Fig 6 (bar chart showing Low/High/Unclear ROB by domain: Participants, Predictors, Outcome, Analysis, Overall), and per-study results are provided in S1 Table."
+        },
+        {
+          "element_id": "prisma_2020_18_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_20",
+          "quote": "primarily due to issues with participant selection methods... largely due to insufficient information about how the analysis was conducted, particularly the handling of missing data",
+          "reason": "Aggregate justifications for risk-of-bias judgements are given (e.g., participant selection, missing data handling), but study-specific justifications for each judgement are only referenced as residing in supplementary S1 Table, not presented in the manuscript text; completeness cannot be verified from the evidence."
+        },
+        {
+          "element_id": "prisma_2020_18_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence shows outcome-specific risk-of-bias judgements displayed alongside individual study results; risk of bias is reported only in aggregate and in a separate figure/supplementary table, not alongside study performance results."
+        }
+      ],
+      "confidence": 82,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_18_e2",
+        "prisma_2020_18_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 9,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_19",
+    "item_label": "19",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_19\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_19_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_6\",\n      \"quote\": \"Internal validation: Mean C-index: CIROC-AF-20 = 0.78 + /- 0.01 vs CHARGE-AF = 0.71 + /- 0.02 AUCs at 1-, 2- and 3-years: CIROC-AF-20 = 0.80, 0.79, and 0.78 vs CHARGE-AF = 0.72, 0.71 and 0.70\",\n      \"reason\": \"Table 4 reports per-study performance metrics for AI and control groups, providing group-level summary statistics in structured tabular form.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"table_6\",\n      \"quote\": \"Internal validation: AUC = 0.948 [95% (CI) 0.947-0.949) vs 0.671 (95% CI 0.666-0.676). F1 score = 0.968.\",\n      \"reason\": \"Effect estimates with precision (95% CIs) are reported for some studies/outcomes (e.g., AUCs), but other metrics (F1, precision, recall, ORs with P values only) lack confidence intervals, so precision is not consistently reported for all outcomes.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"tabulating key effectiveness measures, with a particular focus on model performance metrics such as sensitivity, specificity, positive predictive value, accuracy, ROC-AUC, PRC-AUC, and F1 score\",\n      \"reason\": \"Results are presented in structured tables (Table 4 for study-level performance, Table 5 for effectiveness/applicability mapping), satisfying the tabular display requirement.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_14\",\n      \"quote\": \"Table 2 provides an overview of the characteristics of studies included in this review including detailed comparisons of datasets and model characteristics. Data source : Among the 16 articles reviewed, 12 (92%) developed models exclusively using readily available EHR data.\",\n      \"reason\": \"Study-level data sources are reported in text and Table 2, including studies using additional data modalities (ECG, imaging) integrated with EHR data.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence indicates which results were computed or estimated by the review authors rather than directly reported by primary studies.\"\n    }\n  ],\n  \"confidence\": 78\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_19",
+      "elements": [
+        {
+          "element_id": "prisma_2020_19_e1",
+          "status": "PRESENT",
+          "chunk_id": "table_6",
+          "quote": "Internal validation: Mean C-index: CIROC-AF-20 = 0.78 + /- 0.01 vs CHARGE-AF = 0.71 + /- 0.02 AUCs at 1-, 2- and 3-years: CIROC-AF-20 = 0.80, 0.79, and 0.78 vs CHARGE-AF = 0.72, 0.71 and 0.70",
+          "reason": "Table 4 reports per-study performance metrics for AI and control groups, providing group-level summary statistics in structured tabular form."
+        },
+        {
+          "element_id": "prisma_2020_19_e2",
+          "status": "PARTIAL",
+          "chunk_id": "table_6",
+          "quote": "Internal validation: AUC = 0.948 [95% (CI) 0.947-0.949) vs 0.671 (95% CI 0.666-0.676). F1 score = 0.968.",
+          "reason": "Effect estimates with precision (95% CIs) are reported for some studies/outcomes (e.g., AUCs), but other metrics (F1, precision, recall, ORs with P values only) lack confidence intervals, so precision is not consistently reported for all outcomes."
+        },
+        {
+          "element_id": "prisma_2020_19_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "tabulating key effectiveness measures, with a particular focus on model performance metrics such as sensitivity, specificity, positive predictive value, accuracy, ROC-AUC, PRC-AUC, and F1 score",
+          "reason": "Results are presented in structured tables (Table 4 for study-level performance, Table 5 for effectiveness/applicability mapping), satisfying the tabular display requirement."
+        },
+        {
+          "element_id": "prisma_2020_19_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_14",
+          "quote": "Table 2 provides an overview of the characteristics of studies included in this review including detailed comparisons of datasets and model characteristics. Data source : Among the 16 articles reviewed, 12 (92%) developed models exclusively using readily available EHR data.",
+          "reason": "Study-level data sources are reported in text and Table 2, including studies using additional data modalities (ECG, imaging) integrated with EHR data."
+        },
+        {
+          "element_id": "prisma_2020_19_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence indicates which results were computed or estimated by the review authors rather than directly reported by primary studies."
+        }
+      ],
+      "confidence": 78,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_19_e2",
+        "prisma_2020_19_e5"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20a",
+    "item_label": "20a",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_20\",\n      \"quote\": \"Among the 15 studies, the overall risk of bias was high in 8 studies (53%), primarily due to issues with participant selection methods. Only one study (7%) was rated as having a low risk of bias. The remaining six studies (40%) were deemed to have an unclear risk of bias\",\n      \"reason\": \"The Results summarize study characteristics (validation approaches, feature selection, sample sizes, performance metrics) and risk of bias (PROBAST results with figures) for contributing studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20a_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_20\",\n      \"quote\": \"Out of the 16 articles included in this review, 15 were assessed using the PROBAST tool, while one clinical trial was excluded as it did not meet the criteria for PROBAST evaluation.\",\n      \"reason\": \"Studies contributing to each synthesis are identified, with per-study detail in S1 Table and counts of contributing studies reported throughout the Results.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_20",
+          "quote": "Among the 15 studies, the overall risk of bias was high in 8 studies (53%), primarily due to issues with participant selection methods. Only one study (7%) was rated as having a low risk of bias. The remaining six studies (40%) were deemed to have an unclear risk of bias",
+          "reason": "The Results summarize study characteristics (validation approaches, feature selection, sample sizes, performance metrics) and risk of bias (PROBAST results with figures) for contributing studies."
+        },
+        {
+          "element_id": "prisma_2020_20a_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_20",
+          "quote": "Out of the 16 articles included in this review, 15 were assessed using the PROBAST tool, while one clinical trial was excluded as it did not meet the criteria for PROBAST evaluation.",
+          "reason": "Studies contributing to each synthesis are identified, with per-study detail in S1 Table and counts of contributing studies reported throughout the Results."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 7,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20b",
+    "item_label": "20b",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_22\",\n      \"quote\": \"In this review, 81% of studies (n = 13) reported an AUC above 0.75, demonstrating strong discrimination... half of the models (50%, n = 8) in this review outperformed the controls with supervised models accounting for 63% (n = 5) of these superior models.\",\n      \"reason\": \"The narrative/descriptive synthesis results are reported, including performance metrics, comparisons to controls, and risk-of-bias synthesis results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis.\",\n      \"reason\": \"No meta-analysis was conducted, so no summary estimates or precision to report.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible\",\n      \"reason\": \"No meta-analysis was performed, so heterogeneity measures do not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_22\",\n      \"quote\": \"When compared to the performance (discrimination) of control groups, half of the models (50%, n = 8) in this review outperformed the controls with supervised models accounting for 63% (n = 5) of these superior models.\",\n      \"reason\": \"The narrative synthesis reports synthesized results (counts, percentages, AUC thresholds) with question-consistent interpretation.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_22\",\n      \"quote\": \"These findings underscore the considerable potential of ML models for AF screening in primary care.\",\n      \"reason\": \"Relevant statistics (percentages, AUCs, NNS, QALYs) are reported with question-consistent interpretation of the narrative synthesis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_22\",\n      \"quote\": \"half of the models (50%, n = 8) in this review outperformed the controls... ML models in this review demonstrated superior diagnostic performance\",\n      \"reason\": \"Direction of effect is described when comparing ML models against control groups.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis\",\n      \"reason\": \"No mean-difference syntheses were conducted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis\",\n      \"reason\": \"No standardized mean differences were re-expressed.\"\n    }\n  ],\n  \"confidence\": 88\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_22",
+          "quote": "In this review, 81% of studies (n = 13) reported an AUC above 0.75, demonstrating strong discrimination... half of the models (50%, n = 8) in this review outperformed the controls with supervised models accounting for 63% (n = 5) of these superior models.",
+          "reason": "The narrative/descriptive synthesis results are reported, including performance metrics, comparisons to controls, and risk-of-bias synthesis results."
+        },
+        {
+          "element_id": "prisma_2020_20b_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis.",
+          "reason": "No meta-analysis was conducted, so no summary estimates or precision to report."
+        },
+        {
+          "element_id": "prisma_2020_20b_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible",
+          "reason": "No meta-analysis was performed, so heterogeneity measures do not apply."
+        },
+        {
+          "element_id": "prisma_2020_20b_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_22",
+          "quote": "When compared to the performance (discrimination) of control groups, half of the models (50%, n = 8) in this review outperformed the controls with supervised models accounting for 63% (n = 5) of these superior models.",
+          "reason": "The narrative synthesis reports synthesized results (counts, percentages, AUC thresholds) with question-consistent interpretation."
+        },
+        {
+          "element_id": "prisma_2020_20b_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_22",
+          "quote": "These findings underscore the considerable potential of ML models for AF screening in primary care.",
+          "reason": "Relevant statistics (percentages, AUCs, NNS, QALYs) are reported with question-consistent interpretation of the narrative synthesis."
+        },
+        {
+          "element_id": "prisma_2020_20b_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_22",
+          "quote": "half of the models (50%, n = 8) in this review outperformed the controls... ML models in this review demonstrated superior diagnostic performance",
+          "reason": "Direction of effect is described when comparing ML models against control groups."
+        },
+        {
+          "element_id": "prisma_2020_20b_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis",
+          "reason": "No mean-difference syntheses were conducted."
+        },
+        {
+          "element_id": "prisma_2020_20b_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis",
+          "reason": "No standardized mean differences were re-expressed."
+        }
+      ],
+      "confidence": 88,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 12,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20c",
+    "item_label": "20c",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20c_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"We also explored sources of variation across studies, including differences in study design, methodology, populations, interventions, control groups, and outcomes.\",\n      \"reason\": \"The review narratively explored sources of variation (heterogeneity) across studies, but because no meta-analysis was performed, no formal heterogeneity investigation results (e.g., statistics, tests) are reported; only descriptive/narrative exploration is presented.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis.\",\n      \"reason\": \"No meta-analysis or formal subgroup analyses were conducted, so identification of studies contributing to each subgroup does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e3\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_22\",\n      \"quote\": \"A meta-analysis was not feasible due to high risk of bias in many studies and substantial heterogeneity in both performance metrics and the datasets used to develop ML models. As a result, cross-study comparisons were inappropriate.\",\n      \"reason\": \"The authors acknowledge heterogeneity and risk of bias when interpreting cross-study comparisons, but there is no explicit discussion of the observational nature of heterogeneity analyses or confounding in subgroup/exploratory comparisons.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis\",\n      \"reason\": \"No subgroup analyses with interaction tests were performed; the synthesis was narrative and descriptive only.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis\",\n      \"reason\": \"No formal subgroup effect estimates or their precision were computed, as no quantitative meta-analysis was undertaken.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis\",\n      \"reason\": \"No meta-regression was conducted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis\",\n      \"reason\": \"No meta-regression was performed, so no scatterplots apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e8\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures\",\n      \"reason\": \"Informal heterogeneity investigation is described (grouping/clustering studies by characteristics, exploring sources of variation), and results are presented narratively (e.g., taxonomy, performance vs applicability matrix), but results of these explorations are not systematically reported for all characteristics.\"\n    }\n  ],\n  \"confidence\": 82\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20c_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_12",
+          "quote": "We also explored sources of variation across studies, including differences in study design, methodology, populations, interventions, control groups, and outcomes.",
+          "reason": "The review narratively explored sources of variation (heterogeneity) across studies, but because no meta-analysis was performed, no formal heterogeneity investigation results (e.g., statistics, tests) are reported; only descriptive/narrative exploration is presented."
+        },
+        {
+          "element_id": "prisma_2020_20c_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis.",
+          "reason": "No meta-analysis or formal subgroup analyses were conducted, so identification of studies contributing to each subgroup does not apply."
+        },
+        {
+          "element_id": "prisma_2020_20c_e3",
+          "status": "PARTIAL",
+          "chunk_id": "text_22",
+          "quote": "A meta-analysis was not feasible due to high risk of bias in many studies and substantial heterogeneity in both performance metrics and the datasets used to develop ML models. As a result, cross-study comparisons were inappropriate.",
+          "reason": "The authors acknowledge heterogeneity and risk of bias when interpreting cross-study comparisons, but there is no explicit discussion of the observational nature of heterogeneity analyses or confounding in subgroup/exploratory comparisons."
+        },
+        {
+          "element_id": "prisma_2020_20c_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis",
+          "reason": "No subgroup analyses with interaction tests were performed; the synthesis was narrative and descriptive only."
+        },
+        {
+          "element_id": "prisma_2020_20c_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis",
+          "reason": "No formal subgroup effect estimates or their precision were computed, as no quantitative meta-analysis was undertaken."
+        },
+        {
+          "element_id": "prisma_2020_20c_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis",
+          "reason": "No meta-regression was conducted."
+        },
+        {
+          "element_id": "prisma_2020_20c_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis",
+          "reason": "No meta-regression was performed, so no scatterplots apply."
+        },
+        {
+          "element_id": "prisma_2020_20c_e8",
+          "status": "PARTIAL",
+          "chunk_id": "text_12",
+          "quote": "This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures",
+          "reason": "Informal heterogeneity investigation is described (grouping/clustering studies by characteristics, exploring sources of variation), and results are presented narratively (e.g., taxonomy, performance vs applicability matrix), but results of these explorations are not systematically reported for all characteristics."
+        }
+      ],
+      "confidence": 82,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_20c_e1",
+        "prisma_2020_20c_e3",
+        "prisma_2020_20c_e8"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 12,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20d",
+    "item_label": "20d",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20d_e1\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis.\",\n      \"reason\": \"The review used a narrative/descriptive synthesis with no meta-analysis, and no sensitivity analyses are reported anywhere in the retrieved evidence; therefore there are no sensitivity-analysis results to report.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis\",\n      \"reason\": \"No sensitivity analyses were conducted, so robustness of a main synthesis in light of sensitivity analyses is not applicable; the retrieved evidence contains no such discussion.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures\",\n      \"reason\": \"Tables present main synthesis and risk-of-bias results, but no sensitivity analyses were performed, so comparison tables of original vs sensitivity-analysis results do not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_22\",\n      \"quote\": \"A meta-analysis was not feasible due to high risk of bias in many studies and substantial heterogeneity\",\n      \"reason\": \"No meta-analysis or sensitivity analyses were conducted, so no forest plots of sensitivity-analysis results exist; figures shown relate to risk of bias and applicability only.\"\n    }\n  ],\n  \"confidence\": 78\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20d_e1",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis.",
+          "reason": "The review used a narrative/descriptive synthesis with no meta-analysis, and no sensitivity analyses are reported anywhere in the retrieved evidence; therefore there are no sensitivity-analysis results to report."
+        },
+        {
+          "element_id": "prisma_2020_20d_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis",
+          "reason": "No sensitivity analyses were conducted, so robustness of a main synthesis in light of sensitivity analyses is not applicable; the retrieved evidence contains no such discussion."
+        },
+        {
+          "element_id": "prisma_2020_20d_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures",
+          "reason": "Tables present main synthesis and risk-of-bias results, but no sensitivity analyses were performed, so comparison tables of original vs sensitivity-analysis results do not apply."
+        },
+        {
+          "element_id": "prisma_2020_20d_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_22",
+          "quote": "A meta-analysis was not feasible due to high risk of bias in many studies and substantial heterogeneity",
+          "reason": "No meta-analysis or sensitivity analyses were conducted, so no forest plots of sensitivity-analysis results exist; figures shown relate to risk of bias and applicability only."
+        }
+      ],
+      "confidence": 78,
+      "overall_status": "NOT_APPLICABLE",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 7,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_21",
+    "item_label": "21",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_21\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_21_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_23\",\n      \"quote\": \"This oversight is a common issue in ML predictive model development... which can introduce significant non-reporting bias and undermine model reliability.\",\n      \"reason\": \"The review discusses non-reporting bias and missing data handling (e.g., only 31% reported missing-data approaches) and PROBAST-based unclear ratings tied to missing data, but no formal assessment of risk of bias due to missing results is presented for each synthesis; the synthesis was narrative, not meta-analytic.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No dedicated tool was applied to assess risk of bias due to missing results (reporting biases); PROBAST was used for model risk of bias generally, not for missing-result reporting bias.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis.\",\n      \"reason\": \"No meta-analysis was performed, so no funnel plot was used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis\",\n      \"reason\": \"No funnel-plot asymmetry test was possible or reported since no meta-analysis was conducted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No sensitivity analyses examining missing results or comparing them with the primary analysis are reported in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No study-by-synthesis matrix displaying selective non-reporting assessments is presented; S1 Table covers PROBAST/CHARMS data, not missing-results reporting bias per synthesis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No forest plots exist (no meta-analysis), and no table specifically displaying studies with missing results beneath plots or otherwise is reported.\"\n    }\n  ],\n  \"confidence\": 82\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_21",
+      "elements": [
+        {
+          "element_id": "prisma_2020_21_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_23",
+          "quote": "This oversight is a common issue in ML predictive model development... which can introduce significant non-reporting bias and undermine model reliability.",
+          "reason": "The review discusses non-reporting bias and missing data handling (e.g., only 31% reported missing-data approaches) and PROBAST-based unclear ratings tied to missing data, but no formal assessment of risk of bias due to missing results is presented for each synthesis; the synthesis was narrative, not meta-analytic."
+        },
+        {
+          "element_id": "prisma_2020_21_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No dedicated tool was applied to assess risk of bias due to missing results (reporting biases); PROBAST was used for model risk of bias generally, not for missing-result reporting bias."
+        },
+        {
+          "element_id": "prisma_2020_21_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis.",
+          "reason": "No meta-analysis was performed, so no funnel plot was used."
+        },
+        {
+          "element_id": "prisma_2020_21_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis",
+          "reason": "No funnel-plot asymmetry test was possible or reported since no meta-analysis was conducted."
+        },
+        {
+          "element_id": "prisma_2020_21_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No sensitivity analyses examining missing results or comparing them with the primary analysis are reported in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_21_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No study-by-synthesis matrix displaying selective non-reporting assessments is presented; S1 Table covers PROBAST/CHARMS data, not missing-results reporting bias per synthesis."
+        },
+        {
+          "element_id": "prisma_2020_21_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No forest plots exist (no meta-analysis), and no table specifically displaying studies with missing results beneath plots or otherwise is reported."
+        }
+      ],
+      "confidence": 82,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_21_e1",
+        "prisma_2020_21_e5",
+        "prisma_2020_21_e6",
+        "prisma_2020_21_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 7,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_22",
+    "item_label": "22",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_22\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_22_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No assessments of certainty or confidence (e.g., GRADE) in the body of evidence are reported for any outcome. The review only reports PROBAST risk of bias and applicability, which are study-level quality assessments, not certainty of evidence ratings.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No certainty ratings or reasons for downgrading/upgrading certainty are provided anywhere in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Results are reported without any accompanying certainty/confidence judgments; only risk of bias (Fig 6) and applicability (Fig 7) assessments are presented.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No GRADE Summary of Findings table is included; since no certainty assessment was performed and meta-analysis was not feasible ('A meta-analysis was not feasible due to high risk of bias in many studies and substantial heterogeneity'), a GRADE SoF table requirement does not apply.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_22",
+      "elements": [
+        {
+          "element_id": "prisma_2020_22_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No assessments of certainty or confidence (e.g., GRADE) in the body of evidence are reported for any outcome. The review only reports PROBAST risk of bias and applicability, which are study-level quality assessments, not certainty of evidence ratings."
+        },
+        {
+          "element_id": "prisma_2020_22_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No certainty ratings or reasons for downgrading/upgrading certainty are provided anywhere in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_22_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Results are reported without any accompanying certainty/confidence judgments; only risk of bias (Fig 6) and applicability (Fig 7) assessments are presented."
+        },
+        {
+          "element_id": "prisma_2020_22_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No GRADE Summary of Findings table is included; since no certainty assessment was performed and meta-analysis was not feasible ('A meta-analysis was not feasible due to high risk of bias in many studies and substantial heterogeneity'), a GRADE SoF table requirement does not apply."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_22_e1",
+        "prisma_2020_22_e2",
+        "prisma_2020_22_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23a",
+    "item_label": "23a",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_24\",\n      \"quote\": \"We emphasize the need for using representative datasets to the intended clinical context when developing ML models inline with previous research. To enhance clinical relevance, ML models should be developed using datasets that accurately reflect the target care setting, as emphasized in prior research [46].\",\n      \"reason\": \"The Discussion interprets the review's findings (limited applicability of ML models in primary care) in the context of other evidence, explicitly referencing prior research and citations (e.g., [46]) to situate the results.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_24",
+          "quote": "We emphasize the need for using representative datasets to the intended clinical context when developing ML models inline with previous research. To enhance clinical relevance, ML models should be developed using datasets that accurately reflect the target care setting, as emphasized in prior research [46].",
+          "reason": "The Discussion interprets the review's findings (limited applicability of ML models in primary care) in the context of other evidence, explicitly referencing prior research and citations (e.g., [46]) to situate the results."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 7,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23b",
+    "item_label": "23b",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\"item_id\":\"PRISMA_2020_23b\",\"elements\":[{\"element_id\":\"prisma_2020_23b_e1\",\"status\":\"PRESENT\",\"chunk_id\":\"text_28\",\"quote\":\"This study has several limitations. Our search strategy excluded ML methods that rely on ECG, imaging, laboratory tests, and wearable devices... A meta-analysis was not possible due to substantial variations in performance metrics and follow-up durations, limiting cross-study comparisons. Furthermore, the predominance of retrospective single-center cohort designs and North American data registries also restricted the generalizability of our findings.\",\"reason\":\"A dedicated Limitations section discusses limitations of the review and the included evidence, including risk of bias issues, lack of meta-analysis, and generalizability constraints (also supported by text_23 discussing bias risks in included studies).\"}],\"confidence\":95}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_28",
+          "quote": "This study has several limitations. Our search strategy excluded ML methods that rely on ECG, imaging, laboratory tests, and wearable devices... A meta-analysis was not possible due to substantial variations in performance metrics and follow-up durations, limiting cross-study comparisons. Furthermore, the predominance of retrospective single-center cohort designs and North American data registries also restricted the generalizability of our findings.",
+          "reason": "A dedicated Limitations section discusses limitations of the review and the included evidence, including risk of bias issues, lack of meta-analysis, and generalizability constraints (also supported by text_23 discussing bias risks in included studies)."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 7,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23c",
+    "item_label": "23c",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_28\",\n      \"quote\": \"This study has several limitations. Our search strategy excluded ML methods that rely on ECG, imaging, laboratory tests, and wearable devices, which may have narrowed the scope of our analysis. A meta-analysis was not possible due to substantial variations in performance metrics and follow-up durations, limiting cross-study comparisons.\",\n      \"reason\": \"A dedicated Limitations section explicitly discusses limitations of the review processes, including search scope restrictions, inability to meta-analyze, and handling of missing data.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_28\",\n      \"quote\": \"which may have narrowed the scope of our analysis... limiting cross-study comparisons... also restricted the generalizability of our findings\",\n      \"reason\": \"Each limitation is paired with its potential impact: narrowed scope, limited cross-study comparisons, and restricted generalizability of findings.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_28",
+          "quote": "This study has several limitations. Our search strategy excluded ML methods that rely on ECG, imaging, laboratory tests, and wearable devices, which may have narrowed the scope of our analysis. A meta-analysis was not possible due to substantial variations in performance metrics and follow-up durations, limiting cross-study comparisons.",
+          "reason": "A dedicated Limitations section explicitly discusses limitations of the review processes, including search scope restrictions, inability to meta-analyze, and handling of missing data."
+        },
+        {
+          "element_id": "prisma_2020_23c_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_28",
+          "quote": "which may have narrowed the scope of our analysis... limiting cross-study comparisons... also restricted the generalizability of our findings",
+          "reason": "Each limitation is paired with its potential impact: narrowed scope, limited cross-study comparisons, and restricted generalizability of findings."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 7,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23d",
+    "item_label": "23d",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23d_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_26\",\n      \"quote\": \"This is particularly important in clinical settings, where accurate risk estimates guide decisions about screening and treatment... developing models that prioritize clinically accessible predictors over ECG or imaging variables, will enable seamless integration into routine primary care workflows without adding to the burden on healthcare providers.\",\n      \"reason\": \"Practice implications are touched upon (integration into primary care workflows, clinical decision-making), but there is no dedicated, explicit discussion of implications for practice beyond these remarks within future research recommendations.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23d_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence in the retrieved text discusses implications of the results for policy.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23d_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_26\",\n      \"quote\": \"To enhance the effectiveness and applicability of ML methods in AF screening, future research should prioritize several key areas. First, consistent and transparent reporting of calibration metrics... Fourth, prospective cohort designs are recommended to reduce selection and recall bias.\",\n      \"reason\": \"The Future Directions section provides explicit, detailed recommendations for future research (calibration reporting, missing data handling, external validation, prospective designs, reproducibility).\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23d_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_26",
+          "quote": "This is particularly important in clinical settings, where accurate risk estimates guide decisions about screening and treatment... developing models that prioritize clinically accessible predictors over ECG or imaging variables, will enable seamless integration into routine primary care workflows without adding to the burden on healthcare providers.",
+          "reason": "Practice implications are touched upon (integration into primary care workflows, clinical decision-making), but there is no dedicated, explicit discussion of implications for practice beyond these remarks within future research recommendations."
+        },
+        {
+          "element_id": "prisma_2020_23d_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence in the retrieved text discusses implications of the results for policy."
+        },
+        {
+          "element_id": "prisma_2020_23d_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_26",
+          "quote": "To enhance the effectiveness and applicability of ML methods in AF screening, future research should prioritize several key areas. First, consistent and transparent reporting of calibration metrics... Fourth, prospective cohort designs are recommended to reduce selection and recall bias.",
+          "reason": "The Future Directions section provides explicit, detailed recommendations for future research (calibration reporting, missing data handling, external validation, prospective designs, reproducibility)."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_23d_e1",
+        "prisma_2020_23d_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24a",
+    "item_label": "24a",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The protocol for this systematic review was informed by the Joanna-Briggs Institute (JBI) guidelines [15] and registered on the International Prospective Register of Systematic Reviews (PROSPERO; ID: CRD42023390603) found in S1 Protocol.\",\n      \"reason\": \"The register name (PROSPERO) and registration number (CRD42023390603) are explicitly reported in the Methods, and also confirmed in the abstract and supporting information.\"\n    }\n  ],\n  \"confidence\": 98\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "The protocol for this systematic review was informed by the Joanna-Briggs Institute (JBI) guidelines [15] and registered on the International Prospective Register of Systematic Reviews (PROSPERO; ID: CRD42023390603) found in S1 Protocol.",
+          "reason": "The register name (PROSPERO) and registration number (CRD42023390603) are explicitly reported in the Methods, and also confirmed in the abstract and supporting information."
+        }
+      ],
+      "confidence": 98,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 5,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24b",
+    "item_label": "24b",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The protocol for this systematic review was informed by the Joanna-Briggs Institute (JBI) guidelines [15] and registered on the International Prospective Register of Systematic Reviews (PROSPERO; ID: CRD42023390603) found in S1 Protocol.\",\n      \"reason\": \"The manuscript reports the PROSPERO registration ID (CRD42023390603) and states the full registered protocol is available as S1 Protocol, satisfying the requirement to indicate where the protocol can be accessed.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "The protocol for this systematic review was informed by the Joanna-Briggs Institute (JBI) guidelines [15] and registered on the International Prospective Register of Systematic Reviews (PROSPERO; ID: CRD42023390603) found in S1 Protocol.",
+          "reason": "The manuscript reports the PROSPERO registration ID (CRD42023390603) and states the full registered protocol is available as S1 Protocol, satisfying the requirement to indicate where the protocol can be accessed."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24c",
+    "item_label": "24c",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24c_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The protocol for this systematic review was informed by the Joanna-Briggs Institute (JBI) guidelines [15] and registered on the International Prospective Register of Systematic Reviews (PROSPERO; ID: CRD42023390603) found in S1 Protocol.\",\n      \"reason\": \"The manuscript reports protocol registration but no amendments to the registration or protocol are described anywhere in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No reasons for amendments are reported; no amendments are mentioned at all.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No stage of implementation of amendments is reported; no amendments are mentioned.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24c_e1",
+          "status": "MISSING",
+          "chunk_id": "text_5",
+          "quote": "The protocol for this systematic review was informed by the Joanna-Briggs Institute (JBI) guidelines [15] and registered on the International Prospective Register of Systematic Reviews (PROSPERO; ID: CRD42023390603) found in S1 Protocol.",
+          "reason": "The manuscript reports protocol registration but no amendments to the registration or protocol are described anywhere in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_24c_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No reasons for amendments are reported; no amendments are mentioned at all."
+        },
+        {
+          "element_id": "prisma_2020_24c_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No stage of implementation of amendments is reported; no amendments are mentioned."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_24c_e1",
+        "prisma_2020_24c_e2",
+        "prisma_2020_24c_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 5,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_25",
+    "item_label": "25",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_25\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_25_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Funding: The author(s) received no specific funding for this work.\",\n      \"reason\": \"The manuscript explicitly states absence of specific funding; competing interests also disclose non-financial/personal support (salary support, grants).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_25_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Competing interests: Dr. AbbasgholizadehRahimi is Canada Research Chair (Tier II) in AI and Advanced Digital Primary Health Care, received salary support from a Research Scholar Junior 1 Career Development Award from the Fonds de Recherche du Québec-Santé (FRQS)... her research program is supported by the Natural Sciences Research Council (NSERC) Discovery (grant 2020-05246).\",\n      \"reason\": \"The role of funders/sponsors is addressed via the funding statement (no specific funding) and detailed disclosure of authors' salary support and research program funding with grant identifiers.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_25",
+      "elements": [
+        {
+          "element_id": "prisma_2020_25_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Funding: The author(s) received no specific funding for this work.",
+          "reason": "The manuscript explicitly states absence of specific funding; competing interests also disclose non-financial/personal support (salary support, grants)."
+        },
+        {
+          "element_id": "prisma_2020_25_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Competing interests: Dr. AbbasgholizadehRahimi is Canada Research Chair (Tier II) in AI and Advanced Digital Primary Health Care, received salary support from a Research Scholar Junior 1 Career Development Award from the Fonds de Recherche du Québec-Santé (FRQS)... her research program is supported by the Natural Sciences Research Council (NSERC) Discovery (grant 2020-05246).",
+          "reason": "The role of funders/sponsors is addressed via the funding statement (no specific funding) and detailed disclosure of authors' salary support and research program funding with grant identifiers."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 10,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_26",
+    "item_label": "26",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_26\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_26_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Competing interests: Dr. AbbasgholizadehRahimi is Canada Research Chair (Tier II) in AI and Advanced Digital Primary Health Care, received salary support from a Research Scholar Junior 1 Career Development Award from the Fonds de Recherche du Québec-Santé (FRQS) during a portion of this study, and her research program is supported by the Natural Sciences Research Council (NSERC) Discovery (grant 2020-05246). Dr Sharma has received support from the Fonds de Recherche Santé Québec (FRSQ) Junior 2 clinician scholars' program, Canadian Institute of Health Research (Grant #175095), Roche Diagnostics, Boehringer-Ingelheim, Novartis, Janssen, Novo Nordisk, Servier, Novartis, AstraZeneca, and Takeda.\",\n      \"reason\": \"A competing interests statement discloses author relationships and support, including industry support for one author.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_26_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Competing interests are declared but no statement describes how they were managed in the review processes.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_26",
+      "elements": [
+        {
+          "element_id": "prisma_2020_26_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Competing interests: Dr. AbbasgholizadehRahimi is Canada Research Chair (Tier II) in AI and Advanced Digital Primary Health Care, received salary support from a Research Scholar Junior 1 Career Development Award from the Fonds de Recherche du Québec-Santé (FRQS) during a portion of this study, and her research program is supported by the Natural Sciences Research Council (NSERC) Discovery (grant 2020-05246). Dr Sharma has received support from the Fonds de Recherche Santé Québec (FRSQ) Junior 2 clinician scholars' program, Canadian Institute of Health Research (Grant #175095), Roche Diagnostics, Boehringer-Ingelheim, Novartis, Janssen, Novo Nordisk, Servier, Novartis, AstraZeneca, and Takeda.",
+          "reason": "A competing interests statement discloses author relationships and support, including industry support for one author."
+        },
+        {
+          "element_id": "prisma_2020_26_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Competing interests are declared but no statement describes how they were managed in the review processes."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_26_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 10,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_27",
+    "item_label": "27",
+    "model": "z-ai/glm-5.3-flash",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_27\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_27_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No statement reports the public availability of data-collection forms, extracted data, analysis data, analytic code, or other review materials. Supporting information files are listed (text_30) but their public availability is not explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_27_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No locations (e.g., repositories or URLs) are reported for publicly available review materials such as extracted data or analytic code.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_27_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No materials are reported as available on request, so no contact or sharing conditions need to be reported.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_27",
+      "elements": [
+        {
+          "element_id": "prisma_2020_27_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No statement reports the public availability of data-collection forms, extracted data, analysis data, analytic code, or other review materials. Supporting information files are listed (text_30) but their public availability is not explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_27_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No locations (e.g., repositories or URLs) are reported for publicly available review materials such as extracted data or analytic code."
+        },
+        {
+          "element_id": "prisma_2020_27_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No materials are reported as available on request, so no contact or sharing conditions need to be reported."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_27_e1",
+        "prisma_2020_27_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 7,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  }
+]

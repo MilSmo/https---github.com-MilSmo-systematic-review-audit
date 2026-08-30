@@ -1,0 +1,267 @@
+{
+  "item_id": "PRISMA_2020_24c",
+  "item_label": "24c",
+  "checklist_item": "Describe and explain any amendments to information provided at registration or in the protocol.",
+  "semantic_query": "Registration and protocol. Describe and explain any amendments to information provided at registration or in the protocol. the authors describe and explain amendments/changes from the registered protocol (or state none). Description of amendments OR explicit statement that no amendments occurred\nDescribe and explain any amendments to information provided at registration or in the protocol.\nRelevant terminology: changed from protocol; changes to protocol; protocol deviation; no amendments; no deviations; post hoc; modification; amendments; deviations; amendment; deviation; changed",
+  "top_evidence": [
+    {
+      "chunk_id": "text_5",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Methods",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 68,
+      "faiss_score": 0.13701757788658142,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.28701757788658144,
+      "adjusted_retrieval_score_norm": 1.0,
+      "rerank_score": 0.0772971659898758,
+      "rerank_score_norm": 1.0,
+      "final_score": 1.0,
+      "text": "The protocol for this systematic review was informed by the Joanna-Briggs Institute (JBI) guidelines [15] and registered on the International Prospective Register of Systematic Reviews (PROSPERO; ID: CRD42023390603) found in S1 Protocol. The PICOS (population, intervention, comparator, outcome) framework [16] was used to develop the inclusion and exclusion criteria for suitable studies. This systematic review followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) checklist [17].",
+      "images": []
+    },
+    {
+      "chunk_id": "table_7",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "table",
+      "section": "Ml Methods Are Effective In Detecting Af Using Ehr In Primary Care",
+      "merged_headings": [],
+      "pages": [
+        18
+      ],
+      "word_count": 63,
+      "faiss_score": 0.10678878426551819,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.2567887842655182,
+      "adjusted_retrieval_score_norm": 0.9068088008779492,
+      "rerank_score": -4.353734016418457,
+      "rerank_score_norm": 0.4105472003295972,
+      "final_score": 0.733117240686026,
+      "text": "Table 5.  Matrix mapping study-level performance against PROBAST-rated applicability: number (percentage).\n\n|               |                 | Performance   | Moderate   | Low     |\n|---------------|-----------------|---------------|------------|---------|\n| Applicability | High concern    | 1 (6%)        | 5 (31%)    | 3 (19%) |\n| (PROBAST)     | Unclear concern | 1 (6%)        | 2 (12%)    | 0       |\n|               | Low concern     | 3 (19%)       | 1 (6%)     | 0       |",
+      "images": []
+    },
+    {
+      "chunk_id": "text_22",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Ml Methods Are Effective In Detecting Af Using Ehr In Primary Care",
+      "merged_headings": [],
+      "pages": [
+        18,
+        19
+      ],
+      "word_count": 459,
+      "faiss_score": 0.12937094271183014,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.27937094271183016,
+      "adjusted_retrieval_score_norm": 0.9764264790015508,
+      "rerank_score": -6.412572860717773,
+      "rerank_score_norm": 0.1366632507739082,
+      "final_score": 0.6825093491218759,
+      "text": "For a thorough evaluation of predictive models' performance, two key metrics-calibration and discrimination-are essential. Calibration assesses how well predicted probabilities align with observed outcomes, while discrimination, often measured by AUC or C-index, reflects a model's ability to differentiate between high- and low-risk individuals [39]. Both metrics range from 0 to 1, with higher values (closer to 1.0) indicating better performance. C-index above 0.75 suggests strong discrimination [39]. However, for utility in clinical practice, discrimination above 0.9 is required for regulatory considerations [40,41]. In this review, 81% of studies (n = 13) reported an AUC above 0.75, demonstrating strong discrimination. However, the lack of reported calibration metrics limits a comprehensive assessment of model accuracy. A meta-analysis was not feasible due to high risk of bias in many studies and substantial heterogeneity in both performance metrics and the datasets used to develop ML models. As a result, cross-study comparisons were inappropriate. Instead, we evaluated model performance relative to control groups within each study. When compared to the performance (discrimination) of control groups, half of the models (50%, n = 8) in this review outperformed the controls with supervised models accounting for 63% (n = 5) of these superior models. In contrast, models based on unsupervised learning methods or deep learning models showed only moderate performance. Notably, combining machine learning models (both supervised and unsupervised) with clinical tools, such as CHARGE-AF or ICD codes for AF, significantly improved model performance (discrimination). This indicates that optimal results are achieved when predictive models are used in conjunction with established clinical tools. Table 5. Matrix mapping study-level performance against PROBAST-rated applicability: number (percentage). Performance was classified as high, moderate, or low based on Area-Under-Curve and demonstrated superiority to control. High performance: AUC ≥ 0.9 and superiority to control. Moderate performance: AUC ≥ 0.9 or superiority to control (but not both). Low performance: Neither AUC ≥ 0.9 nor superiority demonstrated. Applicability tiers were derived from PROBAST. https://doi.org/10.1371/journal.pdig.0001009.t005 These findings underscore the considerable potential of ML models for AF screening in primary care. Compared to traditional models like CHADS2 (C-index 0.674) and CHARGE-AF (C-index 0.71) [7] or in head-to-head comparisons with control groups, ML models in this review demonstrated superior diagnostic performance, improving the identification of high-risk patients and contributing to better clinical outcomes. For the healthcare system, ML models in this review significantly reduced the NNS to 12, as shown in the prospective clinical trial in this review, Hill et al.'s [36], compared to 70 with conventional methods [7]. At a population level, applying such models could improve resource utilization and reduce the burden on primary care. Hill et al. [42] further demonstrated this, in another article, through cost-effectiveness analyses, showing substantial health benefits with an incremental gain of 80,669 QALYs, linked to fewer AF-related complications.",
+      "images": [
+        {
+          "image_id": "figure_28",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\pdig.0001009\\images\\figure_028_Ml_Methods_Are_Effective_In_Detecting_Af_Using_Ehr.png",
+          "relative_path": "images\\figure_028_Ml_Methods_Are_Effective_In_Detecting_Af_Using_Ehr.png",
+          "caption": "",
+          "section": "Ml Methods Are Effective In Detecting Af Using Ehr In Primary Care",
+          "page_number": 19
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_21",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Discussion",
+      "merged_headings": [],
+      "pages": [
+        18
+      ],
+      "word_count": 44,
+      "faiss_score": 0.1754777878522873,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.1754777878522873,
+      "adjusted_retrieval_score_norm": 0.6561382199561284,
+      "rerank_score": -2.1014814376831055,
+      "rerank_score_norm": 0.7101606612709549,
+      "final_score": 0.6750460744163177,
+      "text": "We conducted a systematic review to assess the effectiveness of ML methods in detecting new cases of AF using EHR in primary care settings. Additionally, we evaluated the quality and practical applicability of these models. The key findings from our review are summarized below.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_8",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Articles Screening And Selection Process",
+      "merged_headings": [],
+      "pages": [
+        4,
+        5
+      ],
+      "word_count": 68,
+      "faiss_score": 0.1560671478509903,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.1560671478509903,
+      "adjusted_retrieval_score_norm": 0.5962978955249583,
+      "rerank_score": -2.0402636528015137,
+      "rerank_score_norm": 0.7183043626358507,
+      "final_score": 0.6390001590137706,
+      "text": "Two independent reviewers (DC & CS) screened all the articles' titles and abstracts using the predetermined eligibility criteria. After excluding irrelevant articles and duplicates, selected articles were moved to full-text review to further assess their relevance. Reviewers conducted their assessments independently, with decisions blinded from one another. Any disagreements were resolved by consulting a third reviewer (SAR). Covidence software was used to facilitate the screening and selection process.",
+      "images": [
+        {
+          "image_id": "figure_7",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\pdig.0001009\\images\\figure_007_Articles_Screening_And_Selection_Process.png",
+          "relative_path": "images\\figure_007_Articles_Screening_And_Selection_Process.png",
+          "caption": "",
+          "section": "Articles Screening And Selection Process",
+          "page_number": 5
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_1",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Research Article > Are Machine Learning Methods Effective In Detecting Undiagnosed Atrial Fibrillation In Primary Care Settings Using Electronic Health Records? A Systematic Review",
+      "merged_headings": [],
+      "pages": [
+        1
+      ],
+      "word_count": 96,
+      "faiss_score": 0.0336417481303215,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.1836417481303215,
+      "adjusted_retrieval_score_norm": 0.6813065828564815,
+      "rerank_score": -3.6722872257232666,
+      "rerank_score_norm": 0.501198947533816,
+      "final_score": 0.6182689104935486,
+      "text": "Mhd Diaa Chalati 1,2 , Chetan Shirvankar 2,3 , Genevieve Gore 4 , Abhinav Sharma 5 , Samira Abbasgholizadeh-Rahimi 2,3,6 * 1 Department of Family Medicine, McGill University, Montreal, Quebec, Canada, 2 Mila-Quebec AI Institute, Montreal, Quebec, Canada, 3 Faculty of Dental Medicine and Oral Health Sciences, McGill University, Montreal, Quebec, Canada, 4 Schulich Library of Physical Sciences, Life Sciences, and Engineering, McGill University, Montreal, Quebec, Canada, 5 Research Institute of the McGill University Health Centre, McGill University, Montreal, Quebec, Canada, 6 Lady Davis Institute for Medical Research, Jewish General Hospital, Montreal, Quebec, Canada * samira.rahimi@mcgill.ca",
+      "images": [
+        {
+          "image_id": "figure_2",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\pdig.0001009\\images\\figure_002_Are_Machine_Learning_Methods_Effective_In_Detectin.png",
+          "relative_path": "images\\figure_002_Are_Machine_Learning_Methods_Effective_In_Detectin.png",
+          "caption": "",
+          "section": "Are Machine Learning Methods Effective In Detecting Undiagnosed Atrial Fibrillation In Primary Care Settings Using Electronic Health Records? A Systematic Review",
+          "page_number": 1
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_30",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Supporting Information > S1 Appendix. Search Strategy.",
+      "merged_headings": [],
+      "pages": [
+        21
+      ],
+      "word_count": 58,
+      "faiss_score": 0.13366767764091492,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.13366767764091492,
+      "adjusted_retrieval_score_norm": 0.5272434200224668,
+      "rerank_score": -1.7685412168502808,
+      "rerank_score_norm": 0.7544511519522064,
+      "final_score": 0.6067661261978756,
+      "text": "(DOCX) S1 Fig. Summary of MICLAIM checklist. (DOCX) S1 Table. Data extraction (CHARMS) and risk of bias evaluations (PROBAST) for each study. (XLSX) S2 Table. Summary of atrial fibrillation predictors included across the reviewed ML models. (DOCX) S1 Protocol. Full registered protocol for the review (PROSPERO CRD42023390603). (PDF) S1 Checklist. Completed PRISMA 2020 checklist for systematic reviews. (DOCX)",
+      "images": []
+    },
+    {
+      "chunk_id": "text_27",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Strengths",
+      "merged_headings": [],
+      "pages": [
+        20
+      ],
+      "word_count": 68,
+      "faiss_score": 0.15546825528144836,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.15546825528144836,
+      "adjusted_retrieval_score_norm": 0.5944515923809912,
+      "rerank_score": -2.735424280166626,
+      "rerank_score_norm": 0.6258282862661319,
+      "final_score": 0.6054334352407904,
+      "text": "This review provides a comprehensive analysis of the effectiveness of EHR-based ML models for AF detection in primary care, alongside a rigorous evaluation of bias sources and applicability limitations. It offers valuable insights for primary care providers to critically assess these tools, which have the potential to surpass current standard practices, and presents actionable recommendations to address existing gaps and support their practical integration into primary care workflows.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_6",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Search Strategy",
+      "merged_headings": [],
+      "pages": [
+        3,
+        4
+      ],
+      "word_count": 65,
+      "faiss_score": 0.1153368204832077,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.1153368204832077,
+      "adjusted_retrieval_score_norm": 0.4707319170866882,
+      "rerank_score": -1.4192856550216675,
+      "rerank_score_norm": 0.8009120456461303,
+      "final_score": 0.5862949620824929,
+      "text": "An information specialist/librarian (GC) developed the search strategy and conducted a comprehensive search of electronic databases from the date of inception to May 2023. The search strategy was applied to Ovid-MEDLINE and https://doi.org/10.1371/journal.pdig.0001009.t001 translated to other databases (Ovid-MEDLINE, Embase, CINAHL, Cochrane CENTRAL, Web of Science, IEEE Xplore, Scopus) after validation and revision with the team. The relevant search strategy can be found in S1 Appendix.",
+      "images": [
+        {
+          "image_id": "figure_6",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\pdig.0001009\\images\\figure_006_Search_Strategy.png",
+          "relative_path": "images\\figure_006_Search_Strategy.png",
+          "caption": "",
+          "section": "Search Strategy",
+          "page_number": 4
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_12",
+      "document_title": "Are Machine Learning methods effective in detecting undiagnosed atrial fibrillation in primary care settings using electronic health records? A systematic review",
+      "type": "text",
+      "section": "Data Synthesis And Analysis",
+      "merged_headings": [],
+      "pages": [
+        5,
+        6
+      ],
+      "word_count": 103,
+      "faiss_score": 0.13781076669692993,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.13781076669692993,
+      "adjusted_retrieval_score_norm": 0.5400159918306403,
+      "rerank_score": -2.5516583919525146,
+      "rerank_score_norm": 0.6502743605166975,
+      "final_score": 0.5786064208707604,
+      "text": "Given the heterogeneity among studies and the diversity in performance metrics reported, a meta-analysis was not feasible; instead, we conducted a narrative and descriptive synthesis. This involved using textual descriptions of each study, grouping and clustering by relevant characteristics, and tabulating key effectiveness measures, with a particular focus on model performance metrics such as sensitivity, specificity, positive predictive value, accuracy, ROC-AUC, PRC-AUC, and F1 score. We also explored sources of variation across studies, including differences in study design, methodology, populations, interventions, control groups, and outcomes. Bias assessment was reported in accordance with PROBAST, utilizing the template developed by Fernandez-Felix et al., 2023 [19].",
+      "images": [
+        {
+          "image_id": "figure_8",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\FinalEval2_results\\pdig.0001009\\images\\figure_008_Data_Synthesis_And_Analysis.png",
+          "relative_path": "images\\figure_008_Data_Synthesis_And_Analysis.png",
+          "caption": "",
+          "section": "Data Synthesis And Analysis",
+          "page_number": 6
+        }
+      ]
+    }
+  ]
+}

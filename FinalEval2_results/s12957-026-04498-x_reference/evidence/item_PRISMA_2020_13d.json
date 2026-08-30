@@ -1,0 +1,218 @@
+{
+  "item_id": "PRISMA_2020_13d",
+  "item_label": "13d",
+  "checklist_item": "Describe any methods used to synthesise results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used.",
+  "semantic_query": "Synthesis methods. Describe any methods used to synthesise results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used. the authors describe synthesis methods and rationale, and if meta-analysis was done: models, heterogeneity assessment, and software. Synthesis method + rationale; if meta-analysis, model/heterogeneity/software explicitly stated\nDescribe any methods used to synthesise results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used.\nRelevant terminology: synthesis methods; inverse variance; random effects; data synthesis; fixed effect; Cochran Q; Mantel-Haenszel; random-effects; meta-analysis; heterogeneity; Hartung-Knapp; fixed-effect",
+  "top_evidence": [
+    {
+      "chunk_id": "text_10",
+      "document_title": "Conversion hepatectomy and survival in initially unresectable hepatocellular carcinoma: a systematic review and meta-analysis with quantitative bias analysis",
+      "type": "text",
+      "section": "Sensitivity And Influence Analyses",
+      "merged_headings": [],
+      "pages": [
+        8
+      ],
+      "word_count": 119,
+      "faiss_score": 0.4981474280357361,
+      "keyword_bonus": 0.06,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.5581474280357361,
+      "adjusted_retrieval_score_norm": 1.0,
+      "rerank_score": -1.286903977394104,
+      "rerank_score_norm": 1.0,
+      "final_score": 1.0,
+      "text": "Regimen-based subgroup meta-analysis was not planned because treatment regimens were heterogeneous and sparsely represented within comparable hepatectomy contrasts. Prespecified descriptive diagnostics included leave-one-out analysis, exclusion of Kaplan-Meier-derived estimates, exclusion of extreme HRs, adjusted or time-dependent estimates only, directly reported HRs only where applicable, and influence diagnostics. Because the OS synthesis included 14 estimates, we assessed small-study effects and reporting-bias risk for OS using a contour-enhanced funnel plot, SE-based Egger regression, sample-size-based Peters-type regression, and rankcorrelation testing. The PFS/EFS synthesis included 10 estimates and combined related but nonidentical endpoints; therefore, its funnel plot and regression diagnostics were treated as descriptive only. These analyses were used to inform GRADE publication-bias judgments rather than to redefine the main synthesis. ARTICLE IN PRESS",
+      "images": []
+    },
+    {
+      "chunk_id": "text_6",
+      "document_title": "Conversion hepatectomy and survival in initially unresectable hepatocellular carcinoma: a systematic review and meta-analysis with quantitative bias analysis",
+      "type": "text",
+      "section": "Statistical Synthesis Of Survival Hrs",
+      "merged_headings": [],
+      "pages": [
+        7
+      ],
+      "word_count": 187,
+      "faiss_score": 0.34796571731567383,
+      "keyword_bonus": 0.06,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.5579657173156738,
+      "adjusted_retrieval_score_norm": 0.9996355548577947,
+      "rerank_score": -2.578542947769165,
+      "rerank_score_norm": 0.7452838064037571,
+      "final_score": 0.9106124428988815,
+      "text": "Endpoint-specific HRs were synthesized on the log-HR scale. For each HR, the standard error was calculated from the reported 95% CI as SE = [log(upper limit) - log(lower limit)] / 3.92. Separate random-effects meta-analyses were performed for OS and PFS/EFS using restricted maximum likelihood estimation. Pooled estimates were back-transformed and reported as HRs with 95% CIs. Between-study heterogeneity was summarized using I² and τ², and 95% prediction intervals were calculated to describe the expected range of effects in comparable future settings. PFS and EFS were grouped pragmatically because both capture progression- or event-related milestones prior to death; original endpoint labels were retained in study-level tables. 2.8 E-value analysis For protective associations, the inverse HR was used before applying the standard E-value formula. Confidence-limit E-values were calculated using the confidence bound closest to the null [16, 17]. ARTICLE IN PRESS E-values were interpreted as the minimum strength of association that an unmeasured confounder would need to have with both receipt of hepatectomy and the survival outcome, conditional on measured covariates, to move the observed association to the null. This framework specifically addresses residual confounding rather than timing-related mechanisms.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_11",
+      "document_title": "Conversion hepatectomy and survival in initially unresectable hepatocellular carcinoma: a systematic review and meta-analysis with quantitative bias analysis",
+      "type": "text",
+      "section": "Software And Reproducibility",
+      "merged_headings": [],
+      "pages": [
+        8
+      ],
+      "word_count": 65,
+      "faiss_score": 0.38568904995918274,
+      "keyword_bonus": 0.09,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4756890499591827,
+      "adjusted_retrieval_score_norm": 0.8346186988097191,
+      "rerank_score": -1.7626430988311768,
+      "rerank_score_norm": 0.9061824078271,
+      "final_score": 0.8596659969658025,
+      "text": "Analyses were performed in R version 4.5.3 using prespecified analysis code. Random-effects meta-analysis, prediction intervals, leave-one-out analysis, influence diagnostics, and small-studyeffect tests were implemented with the metafor package [15]. E-value calculations, deterministic tipping-point QBA, probabilistic QBA, timing-bias scenario analyses, and funnel-plot diagnostics were applied to the extracted comparative HR dataset. Package versions, session information, extraction tables, and analysis code were archived to support reproducibility [21].",
+      "images": []
+    },
+    {
+      "chunk_id": "text_18",
+      "document_title": "Conversion hepatectomy and survival in initially unresectable hepatocellular carcinoma: a systematic review and meta-analysis with quantitative bias analysis",
+      "type": "text",
+      "section": "Small-Study Effects And Reporting-Bias Assessment",
+      "merged_headings": [],
+      "pages": [
+        10
+      ],
+      "word_count": 112,
+      "faiss_score": 0.40027284622192383,
+      "keyword_bonus": 0.06,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4602728462219238,
+      "adjusted_retrieval_score_norm": 0.8036994412041988,
+      "rerank_score": -2.3936715126037598,
+      "rerank_score_norm": 0.7817411674388867,
+      "final_score": 0.7960140453863396,
+      "text": "For OS (k = 14), the contour-enhanced funnel plot showed asymmetry, with several smaller estimates falling in statistically significant protective contours. SE-based Egger regression (t = - 3.71, p = 0.003) and rank-correlation testing (Kendall's tau = -0.47, p = 0.019) supported funnelplot asymmetry, whereas the sample-size-based Peters-type regression was not significant (t = 0.77, p = 0.456). This pattern suggests possible small-study effects, selective reporting, or true betweenstudy heterogeneity, but it does not prove publication bias. For PFS/EFS (k = 10), the funnel plot and regression diagnostics were treated as descriptive because the synthesis was at the minimum threshold and combined related but non-identical endpoints ( Figure S5 and Table S15).",
+      "images": []
+    },
+    {
+      "chunk_id": "text_2",
+      "document_title": "Conversion hepatectomy and survival in initially unresectable hepatocellular carcinoma: a systematic review and meta-analysis with quantitative bias analysis",
+      "type": "text",
+      "section": "Methods > Study Design And Protocol",
+      "merged_headings": [],
+      "pages": [
+        4
+      ],
+      "word_count": 70,
+      "faiss_score": 0.3059771656990051,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.45597716569900515,
+      "adjusted_retrieval_score_norm": 0.7950838796208932,
+      "rerank_score": -2.5169191360473633,
+      "rerank_score_norm": 0.7574362600821336,
+      "final_score": 0.7819072127823273,
+      "text": "The protocol was prospectively registered in PROSPERO (CRD420261382843). This systematic review was conducted in accordance with the Cochrane Handbook for Systematic Reviews of Interventions and reported according to the PRISMA 2020 statement [11,14]. The literature search was updated during manuscript revision without changes to the prespecified PICO framework. No substantive amendments to the registered protocol were made. The complete database-specific search strategies are provided in Additional file 1 (Table S1).",
+      "images": []
+    },
+    {
+      "chunk_id": "text_25",
+      "document_title": "Conversion hepatectomy and survival in initially unresectable hepatocellular carcinoma: a systematic review and meta-analysis with quantitative bias analysis",
+      "type": "text",
+      "section": "Availability Of Data And Materials",
+      "merged_headings": [],
+      "pages": [
+        14
+      ],
+      "word_count": 39,
+      "faiss_score": 0.35935738682746887,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.35935738682746887,
+      "adjusted_retrieval_score_norm": 0.6012999958819109,
+      "rerank_score": -1.8664772510528564,
+      "rerank_score_norm": 0.8857059119750748,
+      "final_score": 0.7008420665145182,
+      "text": "The datasets supporting the conclusions of this article are included within the article and its additional files. Extracted study-level and endpoint-level data are provided in Additional file 1. Analysis code is available from the corresponding author upon reasonable request.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_7",
+      "document_title": "Conversion hepatectomy and survival in initially unresectable hepatocellular carcinoma: a systematic review and meta-analysis with quantitative bias analysis",
+      "type": "text",
+      "section": "Deterministic Tipping-Point Qba",
+      "merged_headings": [],
+      "pages": [
+        7
+      ],
+      "word_count": 48,
+      "faiss_score": 0.3333134353160858,
+      "keyword_bonus": 0.03,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.36331343531608584,
+      "adjusted_retrieval_score_norm": 0.6092343800146174,
+      "rerank_score": -2.1004738807678223,
+      "rerank_score_norm": 0.8395608728407736,
+      "final_score": 0.6898486525037721,
+      "text": "Deterministic tipping-point quantitative bias analysis was performed using the endpoint-specific pooled HRs from the random-effects syntheses as observed inputs, applying the standard maximum bias-factor approach for unmeasured confounding [18]. Full details of the bias-factor calculation and the clinical plausibility grid are provided in Additional file 1 (Methods S3).",
+      "images": []
+    },
+    {
+      "chunk_id": "text_23",
+      "document_title": "Conversion hepatectomy and survival in initially unresectable hepatocellular carcinoma: a systematic review and meta-analysis with quantitative bias analysis",
+      "type": "text",
+      "section": "Supplementary Files",
+      "merged_headings": [],
+      "pages": [
+        14
+      ],
+      "word_count": 112,
+      "faiss_score": 0.31403324007987976,
+      "keyword_bonus": 0.03,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.3440332400798798,
+      "adjusted_retrieval_score_norm": 0.5705653708763808,
+      "rerank_score": -1.762123703956604,
+      "rerank_score_norm": 0.9062848345024009,
+      "final_score": 0.6880671831454879,
+      "text": "Additional file: Supplementary methods, tables and figures. This file contains database-specific search strategies, study characteristics, extracted endpoint-level HRs, ROBINS-I-informed judgments, E-value analyses, QBA assumptions and outputs, sensitivity analyses, small-studyeffect and reporting-bias diagnostics (Table S15 and Figure S5), GRADE certainty assessment, a structured comparison with prior systematic reviews (Table S13), and key full-text reports that appeared potentially eligible but were excluded from quantitative synthesis (Table S14). PRISMA 2020 checklist: Completed PRISMA 2020 checklist with manuscript locations for each reporting item. Declarations Ethics approval and consent to participate This systematic review used data from published studies and did not involve new recruitment of human participants, human tissue, or individual patient-level data. ARTICLE IN PRESS",
+      "images": []
+    },
+    {
+      "chunk_id": "text_13",
+      "document_title": "Conversion hepatectomy and survival in initially unresectable hepatocellular carcinoma: a systematic review and meta-analysis with quantitative bias analysis",
+      "type": "text",
+      "section": "Study And Estimand Characteristics",
+      "merged_headings": [],
+      "pages": [
+        9
+      ],
+      "word_count": 227,
+      "faiss_score": 0.3899974226951599,
+      "keyword_bonus": 0.06,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4499974226951599,
+      "adjusted_retrieval_score_norm": 0.7830907055877915,
+      "rerank_score": -4.024968147277832,
+      "rerank_score_norm": 0.46004317059857447,
+      "final_score": 0.6700240683415656,
+      "text": "The 14 studies included analytic cohorts ranging from 36 to 1262 patients. Treatment contexts included tyrosine kinase inhibitor- and immune checkpoint inhibitor-based combinations, HAICbased strategies, TACE/HAIC-containing multimodal therapy, and real-world immune-based conversion regimens. Comparator definitions generally contrasted patients undergoing conversion or salvage hepatectomy with patients managed without hepatectomy after conversion-intent therapy. Time origin varied across studies. Some estimates were anchored at treatment initiation, some were conditional on response or conversion eligibility, and one study used a time-dependent Cox framework. Study characteristics are summarized in Table 1, with full study details in Additional file 1: Table S2. Endpoint-specific HRs with corresponding E-values are listed in Table 2, and the complete extraction table is provided in Additional file 1: Table S3. 3.3 Overall survival synthesis Fourteen OS-specific HRs were included. Conversion hepatectomy was associated with a lower hazard of death than non-surgical management (HR 0.33, 95% CI 0.22-0.48). Heterogeneity was substantial (I² = 65.7%; τ² = 0.307), and the 95% prediction interval included the null value (0.101.04) (Figure 2 and Table 3). 3.4 Progression/event-free survival synthesis ARTICLE IN PRESS Ten PFS/EFS-specific HRs were included. Conversion hepatectomy was associated with a lower hazard of progression or qualifying event than non-surgical management (HR 0.41, 95% CI 0.280.59). Heterogeneity was substantial (I² = 64.3%; τ² = 0.197), and the 95% prediction interval included the null value (0.16-1.05) (Figure 3 and Table 3).",
+      "images": []
+    },
+    {
+      "chunk_id": "text_5",
+      "document_title": "Conversion hepatectomy and survival in initially unresectable hepatocellular carcinoma: a systematic review and meta-analysis with quantitative bias analysis",
+      "type": "text",
+      "section": "Certainty Of Evidence Assessment",
+      "merged_headings": [],
+      "pages": [
+        6
+      ],
+      "word_count": 101,
+      "faiss_score": 0.30101844668388367,
+      "keyword_bonus": 0.03,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.3310184466838837,
+      "adjusted_retrieval_score_norm": 0.5444624627576419,
+      "rerank_score": -2.034994125366211,
+      "rerank_score_norm": 0.852473733505444,
+      "final_score": 0.6522664075193726,
+      "text": "We assessed the certainty of the body of evidence for each synthesized outcome using an adapted GRADE framework. Certainty was judged separately for OS and PFS/EFS, considering study design, risk of bias, inconsistency, indirectness, imprecision, publication bias, and potential upgrading factors. ROBINS-I-informed domain judgments were used to inform the risk-of-bias domain, while heterogeneity statistics, prediction intervals, endpoint definitions, time-origin variability, and QBA findings informed the remaining domains. Because all included estimates came from non-randomized comparisons in which hepatectomy was usually assigned after treatment initiation, the GRADE assessment was specifically adapted to evaluate the certainty of these comparative prognostic and therapeutic associations.",
+      "images": []
+    }
+  ]
+}
