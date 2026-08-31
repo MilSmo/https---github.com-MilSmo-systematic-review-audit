@@ -1,0 +1,1554 @@
+[
+  {
+    "item_id": "PRISMA_2020_1",
+    "item_label": "1",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_1\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_1_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": null,\n      \"quote\": \"Models for malaria control optimization-a systematic review\",\n      \"reason\": \"The document title explicitly identifies the report as a systematic review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": null,\n      \"quote\": \"Models for malaria control optimization-a systematic review\",\n      \"reason\": \"The title provides key information about the population (malaria control) and the intervention/exposure (optimization models).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The title does not provide supplementary information such as analysis method, included study designs (beyond systematic review), update status, or living-review status.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_1",
+      "elements": [
+        {
+          "element_id": "prisma_2020_1_e1",
+          "status": "PRESENT",
+          "chunk_id": null,
+          "quote": "Models for malaria control optimization-a systematic review",
+          "reason": "The document title explicitly identifies the report as a systematic review."
+        },
+        {
+          "element_id": "prisma_2020_1_e2",
+          "status": "PRESENT",
+          "chunk_id": null,
+          "quote": "Models for malaria control optimization-a systematic review",
+          "reason": "The title provides key information about the population (malaria control) and the intervention/exposure (optimization models)."
+        },
+        {
+          "element_id": "prisma_2020_1_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The title does not provide supplementary information such as analysis method, included study designs (beyond systematic review), update status, or living-review status."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_1_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_2",
+    "item_label": "2",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_2\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_2_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"This systematic review aimed to identify and characterise models for malaria control optimization for resource allocation in limited resource settings and assess their strengths and limitations.\",\n      \"reason\": \"The abstract explicitly identifies the report as a systematic review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"This systematic review aimed to identify and characterise models for malaria control optimization for resource allocation in limited resource settings and assess their strengths and limitations.\",\n      \"reason\": \"The abstract provides an explicit statement of the main objective.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Editorials, commentaries, opinion papers, conference abstracts, media reports, letters, bulletins, pre-prints, grey literature, non-English language studies, systematic reviews and meta-analyses were excluded from the search.\",\n      \"reason\": \"The abstract specifies exclusion criteria and implies inclusion criteria (peer-reviewed literature).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"a comprehensive search across PubMed and Embase databases was performed of peer-reviewed literature published from inception until June 2024.\",\n      \"reason\": \"The abstract identifies information sources (PubMed, Embase) and the search date (June 2024).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"assess their strengths and limitations\",\n      \"reason\": \"The abstract mentions assessing strengths and limitations but does not specify the method or tool used to assess risk of bias.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Results The search yielded 2950 records, of which 15 met the inclusion criteria.\",\n      \"reason\": \"The abstract presents results but does not explicitly specify the methods used to synthesize the results (e.g., narrative synthesis).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e7\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"The search yielded 2950 records, of which 15 met the inclusion criteria. The studies were carried out mainly in countries in Africa (53.3%)...\",\n      \"reason\": \"The abstract reports the total number of included studies (15) and summarizes relevant study characteristics (geography).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e8\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"The most used interventions for analyses were insecticide-treated bed nets (93.3%), IRS (80.0%)... The methods used for estimating health benefits were compartmental models (40.0%)...\",\n      \"reason\": \"The abstract presents results for main outcomes and characteristics of the included studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"null\",\n      \"reason\": \"No meta-analysis was conducted or reported in the abstract.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"null\",\n      \"reason\": \"No group comparisons were made in the abstract.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e11\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"The findings highlighted the need for country-specific analysis...\",\n      \"reason\": \"The abstract summarizes implications but does not explicitly summarize limitations of the included evidence (e.g., risk of bias, inconsistency).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e12\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Conclusion This review identified available optimization models for malaria resource allocation. The findings highlighted the need for country-specific analysis...\",\n      \"reason\": \"The abstract provides a general interpretation of the results and their important implications.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e13\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"null\",\n      \"reason\": \"The abstract does not specify the primary source of funding for the review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e14\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Trial registration : PROSPERO Registration number: CRD42023436966\",\n      \"reason\": \"The abstract provides the register name (PROSPERO) and registration number.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_2",
+      "elements": [
+        {
+          "element_id": "prisma_2020_2_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "This systematic review aimed to identify and characterise models for malaria control optimization for resource allocation in limited resource settings and assess their strengths and limitations.",
+          "reason": "The abstract explicitly identifies the report as a systematic review."
+        },
+        {
+          "element_id": "prisma_2020_2_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "This systematic review aimed to identify and characterise models for malaria control optimization for resource allocation in limited resource settings and assess their strengths and limitations.",
+          "reason": "The abstract provides an explicit statement of the main objective."
+        },
+        {
+          "element_id": "prisma_2020_2_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Editorials, commentaries, opinion papers, conference abstracts, media reports, letters, bulletins, pre-prints, grey literature, non-English language studies, systematic reviews and meta-analyses were excluded from the search.",
+          "reason": "The abstract specifies exclusion criteria and implies inclusion criteria (peer-reviewed literature)."
+        },
+        {
+          "element_id": "prisma_2020_2_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "a comprehensive search across PubMed and Embase databases was performed of peer-reviewed literature published from inception until June 2024.",
+          "reason": "The abstract identifies information sources (PubMed, Embase) and the search date (June 2024)."
+        },
+        {
+          "element_id": "prisma_2020_2_e5",
+          "status": "MISSING",
+          "chunk_id": "text_2",
+          "quote": "assess their strengths and limitations",
+          "reason": "The abstract mentions assessing strengths and limitations but does not specify the method or tool used to assess risk of bias."
+        },
+        {
+          "element_id": "prisma_2020_2_e6",
+          "status": "MISSING",
+          "chunk_id": "text_2",
+          "quote": "Results The search yielded 2950 records, of which 15 met the inclusion criteria.",
+          "reason": "The abstract presents results but does not explicitly specify the methods used to synthesize the results (e.g., narrative synthesis)."
+        },
+        {
+          "element_id": "prisma_2020_2_e7",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "The search yielded 2950 records, of which 15 met the inclusion criteria. The studies were carried out mainly in countries in Africa (53.3%)...",
+          "reason": "The abstract reports the total number of included studies (15) and summarizes relevant study characteristics (geography)."
+        },
+        {
+          "element_id": "prisma_2020_2_e8",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "The most used interventions for analyses were insecticide-treated bed nets (93.3%), IRS (80.0%)... The methods used for estimating health benefits were compartmental models (40.0%)...",
+          "reason": "The abstract presents results for main outcomes and characteristics of the included studies."
+        },
+        {
+          "element_id": "prisma_2020_2_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_2",
+          "quote": "null",
+          "reason": "No meta-analysis was conducted or reported in the abstract."
+        },
+        {
+          "element_id": "prisma_2020_2_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_2",
+          "quote": "null",
+          "reason": "No group comparisons were made in the abstract."
+        },
+        {
+          "element_id": "prisma_2020_2_e11",
+          "status": "MISSING",
+          "chunk_id": "text_2",
+          "quote": "The findings highlighted the need for country-specific analysis...",
+          "reason": "The abstract summarizes implications but does not explicitly summarize limitations of the included evidence (e.g., risk of bias, inconsistency)."
+        },
+        {
+          "element_id": "prisma_2020_2_e12",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Conclusion This review identified available optimization models for malaria resource allocation. The findings highlighted the need for country-specific analysis...",
+          "reason": "The abstract provides a general interpretation of the results and their important implications."
+        },
+        {
+          "element_id": "prisma_2020_2_e13",
+          "status": "MISSING",
+          "chunk_id": "text_2",
+          "quote": "null",
+          "reason": "The abstract does not specify the primary source of funding for the review."
+        },
+        {
+          "element_id": "prisma_2020_2_e14",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "Trial registration : PROSPERO Registration number: CRD42023436966",
+          "reason": "The abstract provides the register name (PROSPERO) and registration number."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_2_e5",
+        "prisma_2020_2_e6",
+        "prisma_2020_2_e11",
+        "prisma_2020_2_e13"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_3",
+    "item_label": "3",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_4",
+    "item_label": "4",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_4\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_4_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"The research question for this review was ' Are there English-language publications in peer-reviewed scientific journals describing how models have been used to allocate resources for malaria interventions in limited resource settings?' The main aim of this review was to identify and characterize models for malaria control optimization for resource allocation in malaria control and elimination settings and to identify their strengths and limitations.\",\n      \"reason\": \"The manuscript explicitly states the research question and main aim in the text, fulfilling the requirement for explicit objectives or questions.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_4_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review focuses on characterizing mathematical models for optimization rather than synthesizing intervention effects directly; therefore, the requirement for PICO comparisons for intervention effects does not apply.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_4",
+      "elements": [
+        {
+          "element_id": "prisma_2020_4_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "The research question for this review was ' Are there English-language publications in peer-reviewed scientific journals describing how models have been used to allocate resources for malaria interventions in limited resource settings?' The main aim of this review was to identify and characterize models for malaria control optimization for resource allocation in malaria control and elimination settings and to identify their strengths and limitations.",
+          "reason": "The manuscript explicitly states the research question and main aim in the text, fulfilling the requirement for explicit objectives or questions."
+        },
+        {
+          "element_id": "prisma_2020_4_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review focuses on characterizing mathematical models for optimization rather than synthesizing intervention effects directly; therefore, the requirement for PICO comparisons for intervention effects does not apply."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_5",
+    "item_label": "5",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "\n\n{\n  \"item_id\": \"PRISMA_2020_5\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_5_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Each record in the search were included if they met all of the following criteria: (1) Were scientific peer-reviewed journals written in English; (2) Were published before 30th June 2024; (3) Studies were included irrespective of the targeted geographical regions; (4) Studies were included irrespective of the population subgroups; (5) Studies containing an optimization model (mathematical or statistical); (6) All studies with human Plasmodium species; (7) Studies with two or more interventions; (8) Cost data were used in combination with the model outputs; (9) Outcomes/health benefits were clearly stated and/or measured.\",\n      \"reason\": \"Specifies study characteristics, designs, settings, and populations, but does not explicitly mention follow-up requirements.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Each record in the search were included if they met all of the following criteria: (1) Were scientific peer-reviewed journals written in English; (2) Were published before 30th June 2024;\",\n      \"reason\": \"Specifies language (English), publication status (peer-reviewed journals), and dissemination year (before 30th June 2024).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"The following records were excluded: (1) Editorials, commentaries, opinion papers, conference abstracts, media reports, letters, bulletins, pre-prints, grey literature; (2) Non-English language studies; (3) Systematic reviews, meta-analyses.\",\n      \"reason\": \"The exclusion criteria and PRISMA diagram do not distinguish between exclusion due to outcomes not measured versus outcomes not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"The manuscript describes the synthesis performed but does not explicitly specify the groups used for synthesis or link",
+    "parsed": {
+      "raw_response": "\n\n{\n  \"item_id\": \"PRISMA_2020_5\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_5_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Each record in the search were included if they met all of the following criteria: (1) Were scientific peer-reviewed journals written in English; (2) Were published before 30th June 2024; (3) Studies were included irrespective of the targeted geographical regions; (4) Studies were included irrespective of the population subgroups; (5) Studies containing an optimization model (mathematical or statistical); (6) All studies with human Plasmodium species; (7) Studies with two or more interventions; (8) Cost data were used in combination with the model outputs; (9) Outcomes/health benefits were clearly stated and/or measured.\",\n      \"reason\": \"Specifies study characteristics, designs, settings, and populations, but does not explicitly mention follow-up requirements.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Each record in the search were included if they met all of the following criteria: (1) Were scientific peer-reviewed journals written in English; (2) Were published before 30th June 2024;\",\n      \"reason\": \"Specifies language (English), publication status (peer-reviewed journals), and dissemination year (before 30th June 2024).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"The following records were excluded: (1) Editorials, commentaries, opinion papers, conference abstracts, media reports, letters, bulletins, pre-prints, grey literature; (2) Non-English language studies; (3) Systematic reviews, meta-analyses.\",\n      \"reason\": \"The exclusion criteria and PRISMA diagram do not distinguish between exclusion due to outcomes not measured versus outcomes not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"The manuscript describes the synthesis performed but does not explicitly specify the groups used for synthesis or link",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_6",
+    "item_label": "6",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_7",
+    "item_label": "7",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_8",
+    "item_label": "8",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_9",
+    "item_label": "9",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_9\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_9_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"All extracted data were double checked for errors by a second independent reviewer (SP) and discrepancies in entries were settled by appropriate discussion among both reviewers (RN and SP).\",\n      \"reason\": \"Explicitly states two reviewers (RN and SP) were involved in data extraction and checking.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"All extracted data were double checked for errors by a second independent reviewer (SP)\",\n      \"reason\": \"Explicitly states the second reviewer was independent.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"discrepancies in entries were settled by appropriate discussion among both reviewers (RN and SP)\",\n      \"reason\": \"Describes discussion as the method to resolve discrepancies between reviewers.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Missing or unclear data which were considered relevant triggered an email query to the corresponding authors of the respective studies\",\n      \"reason\": \"Describes the process of emailing authors to obtain missing or unclear data.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e5\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"extracted from the selected studies into a Microsoft Excel Office 365 spreadsheet\",\n      \"reason\": \"Mentions the tool (Excel) used but does not provide details on training or validation.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"The research question for this review was ' Are there English-language publications in peer-reviewed scientific journals describing how models have been used...'\",\n      \"reason\": \"The review restricted inclusion to English-language publications, making translation methods unnecessary.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No mention of software used to extract data from figures.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e8\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No mention of decision rules for selecting data from multiple reports of the same study.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_9",
+      "elements": [
+        {
+          "element_id": "prisma_2020_9_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "All extracted data were double checked for errors by a second independent reviewer (SP) and discrepancies in entries were settled by appropriate discussion among both reviewers (RN and SP).",
+          "reason": "Explicitly states two reviewers (RN and SP) were involved in data extraction and checking."
+        },
+        {
+          "element_id": "prisma_2020_9_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "All extracted data were double checked for errors by a second independent reviewer (SP)",
+          "reason": "Explicitly states the second reviewer was independent."
+        },
+        {
+          "element_id": "prisma_2020_9_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "discrepancies in entries were settled by appropriate discussion among both reviewers (RN and SP)",
+          "reason": "Describes discussion as the method to resolve discrepancies between reviewers."
+        },
+        {
+          "element_id": "prisma_2020_9_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Missing or unclear data which were considered relevant triggered an email query to the corresponding authors of the respective studies",
+          "reason": "Describes the process of emailing authors to obtain missing or unclear data."
+        },
+        {
+          "element_id": "prisma_2020_9_e5",
+          "status": "PARTIAL",
+          "chunk_id": "text_10",
+          "quote": "extracted from the selected studies into a Microsoft Excel Office 365 spreadsheet",
+          "reason": "Mentions the tool (Excel) used but does not provide details on training or validation."
+        },
+        {
+          "element_id": "prisma_2020_9_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_6",
+          "quote": "The research question for this review was ' Are there English-language publications in peer-reviewed scientific journals describing how models have been used...'",
+          "reason": "The review restricted inclusion to English-language publications, making translation methods unnecessary."
+        },
+        {
+          "element_id": "prisma_2020_9_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No mention of software used to extract data from figures."
+        },
+        {
+          "element_id": "prisma_2020_9_e8",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No mention of decision rules for selecting data from multiple reports of the same study."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_9_e5",
+        "prisma_2020_9_e7",
+        "prisma_2020_9_e8"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10a",
+    "item_label": "10a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10b",
+    "item_label": "10b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_10b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_10b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Data including (1) the first author and publication year; (2) geographic focus; (3) interventions used in analysis; (4) administrative level in the analysis; (5) populations considered; (6) time horizon of analysis; (7) method used to estimate health benefits (model structure); (8) Plasmodium species; (9) types of constraints; (10) data sources; (11) optimization goal; (12) epidemiological optimization, (13) cost optimization, (14) estimated time to elimination; (15) equity considerations in resource allocation; (16) conclusion of the article; were extracted from the selected studies into a Microsoft Excel Office 365 spreadsheet (Additional file 3).\",\n      \"reason\": \"The manuscript explicitly lists and defines 16 variables for which data were sought in the Data Extraction And Synthesis section.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Missing or unclear data which were considered relevant triggered an email query to the corresponding authors of the respective studies and any additional information was included in the data extraction sheet if provided.\",\n      \"reason\": \"The manuscript describes the procedure for handling missing or unclear information (emailing authors) in the Data Extraction And Synthesis section.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"into a Microsoft Excel Office 365 spreadsheet (Additional file 3)\",\n      \"reason\": \"The extraction tool (Microsoft Excel spreadsheet) is identified and cited via reference to Additional file 3.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_10b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_10b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Data including (1) the first author and publication year; (2) geographic focus; (3) interventions used in analysis; (4) administrative level in the analysis; (5) populations considered; (6) time horizon of analysis; (7) method used to estimate health benefits (model structure); (8) Plasmodium species; (9) types of constraints; (10) data sources; (11) optimization goal; (12) epidemiological optimization, (13) cost optimization, (14) estimated time to elimination; (15) equity considerations in resource allocation; (16) conclusion of the article; were extracted from the selected studies into a Microsoft Excel Office 365 spreadsheet (Additional file 3).",
+          "reason": "The manuscript explicitly lists and defines 16 variables for which data were sought in the Data Extraction And Synthesis section."
+        },
+        {
+          "element_id": "prisma_2020_10b_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Missing or unclear data which were considered relevant triggered an email query to the corresponding authors of the respective studies and any additional information was included in the data extraction sheet if provided.",
+          "reason": "The manuscript describes the procedure for handling missing or unclear information (emailing authors) in the Data Extraction And Synthesis section."
+        },
+        {
+          "element_id": "prisma_2020_10b_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "into a Microsoft Excel Office 365 spreadsheet (Additional file 3)",
+          "reason": "The extraction tool (Microsoft Excel spreadsheet) is identified and cited via reference to Additional file 3."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_11",
+    "item_label": "11",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_11\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_11_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"The quality of all included studies was assessed using the joint International Society for Pharmacoeconomics and Outcomes Research-Society for Medical Decision Making Modelling Good Research Practices Task Force (ISPOR) [19].\",\n      \"reason\": \"The specific risk-of-bias tool (ISPOR) is explicitly named.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"The following criteria from ISPOR were used for quality assessment: conceptualising the model, dynamic transmission models, parameter estimation and uncertainty, and model transparency and validation\",\n      \"reason\": \"The domains and components assessed by the tool are explicitly listed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Regarding the quality of the studies included in this review, all the studies included the statement of decision problem...\",\n      \"reason\": \"The text describes the results of the quality assessment (criteria met) but does not explicitly state whether an overall risk-of-bias judgement was made or the rules used to derive it.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"The following criteria from ISPOR were used for quality assessment\",\n      \"reason\": \"The standard ISPOR tool was used without mention of adaptations, so the requirement to describe adaptations does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"The quality of all included studies was assessed using the joint International Society for Pharmacoeconomics and Outcomes Research-Society for Medical Decision Making Modelling Good Research Practices Task Force (ISPOR)\",\n      \"reason\": \"An existing tool (ISPOR) was used, not a newly developed one, so this requirement does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"Each record was screened by two independent reviewers... The two reviewers then reviewed the full texts...\",\n      \"reason\": \"The text describes reviewers for screening and data extraction, but does not explicitly state the number of reviewers or independence for the risk-of-bias/quality assessment process.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Missing or unclear data which were considered relevant triggered an email query to the corresponding authors...\",\n      \"reason\": \"The text describes contacting authors for data extraction, but does not explicitly link this process to obtaining or confirming risk-of-bias information.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"Each record was screened by two independent reviewers using the Rayyan software.\",\n      \"reason\": \"No automation tools are described for risk-of-bias assessment; Rayyan was used for screening. Thus, the requirement does not apply.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_11",
+      "elements": [
+        {
+          "element_id": "prisma_2020_11_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "The quality of all included studies was assessed using the joint International Society for Pharmacoeconomics and Outcomes Research-Society for Medical Decision Making Modelling Good Research Practices Task Force (ISPOR) [19].",
+          "reason": "The specific risk-of-bias tool (ISPOR) is explicitly named."
+        },
+        {
+          "element_id": "prisma_2020_11_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "The following criteria from ISPOR were used for quality assessment: conceptualising the model, dynamic transmission models, parameter estimation and uncertainty, and model transparency and validation",
+          "reason": "The domains and components assessed by the tool are explicitly listed."
+        },
+        {
+          "element_id": "prisma_2020_11_e3",
+          "status": "MISSING",
+          "chunk_id": "text_10",
+          "quote": "Regarding the quality of the studies included in this review, all the studies included the statement of decision problem...",
+          "reason": "The text describes the results of the quality assessment (criteria met) but does not explicitly state whether an overall risk-of-bias judgement was made or the rules used to derive it."
+        },
+        {
+          "element_id": "prisma_2020_11_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_8",
+          "quote": "The following criteria from ISPOR were used for quality assessment",
+          "reason": "The standard ISPOR tool was used without mention of adaptations, so the requirement to describe adaptations does not apply."
+        },
+        {
+          "element_id": "prisma_2020_11_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_8",
+          "quote": "The quality of all included studies was assessed using the joint International Society for Pharmacoeconomics and Outcomes Research-Society for Medical Decision Making Modelling Good Research Practices Task Force (ISPOR)",
+          "reason": "An existing tool (ISPOR) was used, not a newly developed one, so this requirement does not apply."
+        },
+        {
+          "element_id": "prisma_2020_11_e6",
+          "status": "MISSING",
+          "chunk_id": "text_6",
+          "quote": "Each record was screened by two independent reviewers... The two reviewers then reviewed the full texts...",
+          "reason": "The text describes reviewers for screening and data extraction, but does not explicitly state the number of reviewers or independence for the risk-of-bias/quality assessment process."
+        },
+        {
+          "element_id": "prisma_2020_11_e7",
+          "status": "MISSING",
+          "chunk_id": "text_10",
+          "quote": "Missing or unclear data which were considered relevant triggered an email query to the corresponding authors...",
+          "reason": "The text describes contacting authors for data extraction, but does not explicitly link this process to obtaining or confirming risk-of-bias information."
+        },
+        {
+          "element_id": "prisma_2020_11_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_6",
+          "quote": "Each record was screened by two independent reviewers using the Rayyan software.",
+          "reason": "No automation tools are described for risk-of-bias assessment; Rayyan was used for screening. Thus, the requirement does not apply."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_11_e3",
+        "prisma_2020_11_e6",
+        "prisma_2020_11_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_12",
+    "item_label": "12",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_12\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_12_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"The text describes a narrative synthesis of study characteristics but does not specify the effect measure(s) (e.g., risk ratio, mean difference) used for the synthesis or presentation of outcome results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"No thresholds or ranges used to interpret effect size are reported in the provided evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"No methods used to re-express synthesized results using another effect measure are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"No justification for the choice of effect measure is provided in the text.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_12",
+      "elements": [
+        {
+          "element_id": "prisma_2020_12_e1",
+          "status": "MISSING",
+          "chunk_id": "text_10",
+          "quote": "A narrative synthesis of the study characteristics was performed.",
+          "reason": "The text describes a narrative synthesis of study characteristics but does not specify the effect measure(s) (e.g., risk ratio, mean difference) used for the synthesis or presentation of outcome results."
+        },
+        {
+          "element_id": "prisma_2020_12_e2",
+          "status": "MISSING",
+          "chunk_id": "text_10",
+          "quote": "A narrative synthesis of the study characteristics was performed.",
+          "reason": "No thresholds or ranges used to interpret effect size are reported in the provided evidence."
+        },
+        {
+          "element_id": "prisma_2020_12_e3",
+          "status": "MISSING",
+          "chunk_id": "text_10",
+          "quote": "A narrative synthesis of the study characteristics was performed.",
+          "reason": "No methods used to re-express synthesized results using another effect measure are described."
+        },
+        {
+          "element_id": "prisma_2020_12_e4",
+          "status": "MISSING",
+          "chunk_id": "text_10",
+          "quote": "A narrative synthesis of the study characteristics was performed.",
+          "reason": "No justification for the choice of effect measure is provided in the text."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_12_e1",
+        "prisma_2020_12_e2",
+        "prisma_2020_12_e3",
+        "prisma_2020_12_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13a",
+    "item_label": "13a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Each record in the search were included if they met all of the following criteria: (1) Were scientific peer-reviewed journals written in English; (2) Were published before 30th June 2024; (3) Studies were included irrespective of the targeted geographical regions; (4) Studies were included irrespective of the population subgroups; (5) Studies containing an optimization model (mathematical or statistical); (6) All studies with human Plasmodium species; (7) Studies with two or more interventions; (8) Cost data were used in combination with the model outputs; (9) Outcomes/health benefits were clearly stated and/or measured.\",\n      \"reason\": \"The manuscript explicitly lists the inclusion criteria used to determine which studies were eligible for the review, describing the decision process for eligibility.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Each record in the search were included if they met all of the following criteria: (1) Were scientific peer-reviewed journals written in English; (2) Were published before 30th June 2024; (3) Studies were included irrespective of the targeted geographical regions; (4) Studies were included irrespective of the population subgroups; (5) Studies containing an optimization model (mathematical or statistical); (6) All studies with human Plasmodium species; (7) Studies with two or more interventions; (8) Cost data were used in combination with the model outputs; (9) Outcomes/health benefits were clearly stated and/or measured.",
+          "reason": "The manuscript explicitly lists the inclusion criteria used to determine which studies were eligible for the review, describing the decision process for eligibility."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13b",
+    "item_label": "13b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Data including (1) the first author and publication year; (2) geographic focus; (3) interventions used in analysis; (4) administrative level in the analysis; (5) populations considered; (6) time horizon of analysis; (7) method used to estimate health benefits (model structure); (8) Plasmodium species; (9) types of constraints; (10) data sources; (11) optimization goal; (12) epidemiological optimization, (13) cost optimization, (14) estimated time to elimination; (15) equity considerations in resource allocation; (16) conclusion of the article; were extracted from the selected studies into a Microsoft Excel Office 365 spreadsheet (Additional file 3). Missing or unclear data which were considered relevant triggered an email query to the corresponding authors of the respective studies and any additional information was included in the data extraction sheet if provided. All extracted data were double checked for errors by a second independent reviewer (SP) and discrepancies in entries were settled by appropriate discussion among both reviewers (RN and SP).\",\n      \"reason\": \"The text explicitly describes the methods used to prepare collected data for synthesis, including data extraction into a spreadsheet, handling of missing data via email queries, and verification of data by independent reviewers.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Data including (1) the first author and publication year; (2) geographic focus; (3) interventions used in analysis; (4) administrative level in the analysis; (5) populations considered; (6) time horizon of analysis; (7) method used to estimate health benefits (model structure); (8) Plasmodium species; (9) types of constraints; (10) data sources; (11) optimization goal; (12) epidemiological optimization, (13) cost optimization, (14) estimated time to elimination; (15) equity considerations in resource allocation; (16) conclusion of the article; were extracted from the selected studies into a Microsoft Excel Office 365 spreadsheet (Additional file 3). Missing or unclear data which were considered relevant triggered an email query to the corresponding authors of the respective studies and any additional information was included in the data extraction sheet if provided. All extracted data were double checked for errors by a second independent reviewer (SP) and discrepancies in entries were settled by appropriate discussion among both reviewers (RN and SP).",
+          "reason": "The text explicitly describes the methods used to prepare collected data for synthesis, including data extraction into a spreadsheet, handling of missing data via email queries, and verification of data by independent reviewers."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13c",
+    "item_label": "13c",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_1\",\n      \"quote\": \"Table 2 Summary of models for malaria control optimization studies\\n\\n| Field | Frequency (%) | References | ... |\",\n      \"reason\": \"The manuscript describes the tabular structures (Table 2 and Table 3) and the specific data fields included (e.g., Region, Interventions, Species) in the text and table content.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Fig. 1 PRISMA diagram multinational and subnational (46.7%), and subnational only (13.3%). ... (Fig. 2). ... (Fig. 3).\",\n      \"reason\": \"The manuscript describes the graphical methods used, including the PRISMA diagram and figures showing model types and quality assessment.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_1\",\n      \"quote\": \"Table 2 Summary of models for malaria control optimization studies... | Region of focus | ... | Number of interventions per article | ... | Plasmodium species | ...\",\n      \"reason\": \"The basis for grouping studies within the table (e.g., by region, intervention type, species) is clearly reported in the table headers and text description.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report using non-standard graphs, so the rationale for doing so is not applicable.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13c_e1",
+          "status": "PRESENT",
+          "chunk_id": "table_1",
+          "quote": "Table 2 Summary of models for malaria control optimization studies\n\n| Field | Frequency (%) | References | ... |",
+          "reason": "The manuscript describes the tabular structures (Table 2 and Table 3) and the specific data fields included (e.g., Region, Interventions, Species) in the text and table content."
+        },
+        {
+          "element_id": "prisma_2020_13c_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Fig. 1 PRISMA diagram multinational and subnational (46.7%), and subnational only (13.3%). ... (Fig. 2). ... (Fig. 3).",
+          "reason": "The manuscript describes the graphical methods used, including the PRISMA diagram and figures showing model types and quality assessment."
+        },
+        {
+          "element_id": "prisma_2020_13c_e3",
+          "status": "PRESENT",
+          "chunk_id": "table_1",
+          "quote": "Table 2 Summary of models for malaria control optimization studies... | Region of focus | ... | Number of interventions per article | ... | Plasmodium species | ...",
+          "reason": "The basis for grouping studies within the table (e.g., by region, intervention type, species) is clearly reported in the table headers and text description."
+        },
+        {
+          "element_id": "prisma_2020_13c_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report using non-standard graphs, so the rationale for doing so is not applicable."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13d",
+    "item_label": "13d",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13e",
+    "item_label": "13e",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13e\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13e_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript states a narrative synthesis was performed but does not describe specific methods used to explore causes of heterogeneity.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"The review is a narrative synthesis without subgroup analysis or meta-regression, making this element not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"The review is a narrative synthesis without subgroup analysis or meta-regression, making this element not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"The review is a narrative synthesis without subgroup analysis or meta-regression, making this element not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While heterogeneity is described in the discussion, no informal methods used to explore it are explicitly described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"No heterogeneity analyses were reported, so pre-specification identification is not applicable.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13e",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13e_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript states a narrative synthesis was performed but does not describe specific methods used to explore causes of heterogeneity."
+        },
+        {
+          "element_id": "prisma_2020_13e_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_10",
+          "quote": "A narrative synthesis of the study characteristics was performed.",
+          "reason": "The review is a narrative synthesis without subgroup analysis or meta-regression, making this element not applicable."
+        },
+        {
+          "element_id": "prisma_2020_13e_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_10",
+          "quote": "A narrative synthesis of the study characteristics was performed.",
+          "reason": "The review is a narrative synthesis without subgroup analysis or meta-regression, making this element not applicable."
+        },
+        {
+          "element_id": "prisma_2020_13e_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_10",
+          "quote": "A narrative synthesis of the study characteristics was performed.",
+          "reason": "The review is a narrative synthesis without subgroup analysis or meta-regression, making this element not applicable."
+        },
+        {
+          "element_id": "prisma_2020_13e_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While heterogeneity is described in the discussion, no informal methods used to explore it are explicitly described."
+        },
+        {
+          "element_id": "prisma_2020_13e_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_10",
+          "quote": "A narrative synthesis of the study characteristics was performed.",
+          "reason": "No heterogeneity analyses were reported, so pre-specification identification is not applicable."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13e_e1",
+        "prisma_2020_13e_e5"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13f",
+    "item_label": "13f",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_14",
+    "item_label": "14",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_15",
+    "item_label": "15",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_15\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_15_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"The quality of all included studies was assessed using the joint International Society for Pharmacoeconomics and Outcomes Research-Society for Medical Decision Making Modelling Good Research Practices Task Force (ISPOR) [19].\",\n      \"reason\": \"The tool (ISPOR-SMDM Modelling Good Research Practices Task Force) is explicitly specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"The following criteria from ISPOR were used for quality assessment: conceptualising the model, dynamic transmission models, parameter estimation and uncertainty, and model transparency and validation (Additional file 4).\",\n      \"reason\": \"Specific factors and criteria used for assessment are listed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No decision rules for deriving an overall certainty level or interpretation of levels are described in the provided text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"",
+    "parsed": {
+      "raw_response": "{\n  \"item_id\": \"PRISMA_2020_15\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_15_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"The quality of all included studies was assessed using the joint International Society for Pharmacoeconomics and Outcomes Research-Society for Medical Decision Making Modelling Good Research Practices Task Force (ISPOR) [19].\",\n      \"reason\": \"The tool (ISPOR-SMDM Modelling Good Research Practices Task Force) is explicitly specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"The following criteria from ISPOR were used for quality assessment: conceptualising the model, dynamic transmission models, parameter estimation and uncertainty, and model transparency and validation (Additional file 4).\",\n      \"reason\": \"Specific factors and criteria used for assessment are listed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No decision rules for deriving an overall certainty level or interpretation of levels are described in the provided text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16a",
+    "item_label": "16a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Records identified: Embase (Ovid) (n = 581) PubMed (n = 2369)... Records removed before screening: Duplicate records removed (n = 407)... Records screened for title and abstract. (n = 2543)... Records excluded after title and abstract screening. (n = 2417)\",\n      \"reason\": \"The flow diagram (Fig. 1) explicitly reports the number of records identified (2950), removed before screening (407), screened (2543), and excluded after initial screening (2417).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Full text articles assessed for eligibility. (n = 126)... Full text articles excluded: 66 No optimisation model 24 Conference abstracts 8 Reviews 6 One intervention only 5 Non-human population 3 Preprints\",\n      \"reason\": \"The numbers of reports assessed for eligibility (126) and excluded with primary reasons are reported in the flow diagram. However, the numbers of reports sought and not retrieved are not explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Studies included in qualitative synthesis. (n = 15)\",\n      \"reason\": \"The flow diagram reports the number of studies included in the qualitative synthesis (15).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence in the retrieved text or figures indicating that ongoing studies were searched for or identified; thus, reporting is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence in the retrieved text or figures indicating that this is a review update; thus, reporting is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Duplicate records removed (n = 407)... Records excluded after title and abstract screening. (n = 2417)\",\n      \"reason\": \"The flow diagram distinguishes records removed by automation (duplicate records removed) from those excluded by humans (title and abstract screening).\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Records identified: Embase (Ovid) (n = 581) PubMed (n = 2369)... Records removed before screening: Duplicate records removed (n = 407)... Records screened for title and abstract. (n = 2543)... Records excluded after title and abstract screening. (n = 2417)",
+          "reason": "The flow diagram (Fig. 1) explicitly reports the number of records identified (2950), removed before screening (407), screened (2543), and excluded after initial screening (2417)."
+        },
+        {
+          "element_id": "prisma_2020_16a_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_10",
+          "quote": "Full text articles assessed for eligibility. (n = 126)... Full text articles excluded: 66 No optimisation model 24 Conference abstracts 8 Reviews 6 One intervention only 5 Non-human population 3 Preprints",
+          "reason": "The numbers of reports assessed for eligibility (126) and excluded with primary reasons are reported in the flow diagram. However, the numbers of reports sought and not retrieved are not explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_16a_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Studies included in qualitative synthesis. (n = 15)",
+          "reason": "The flow diagram reports the number of studies included in the qualitative synthesis (15)."
+        },
+        {
+          "element_id": "prisma_2020_16a_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence in the retrieved text or figures indicating that ongoing studies were searched for or identified; thus, reporting is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_16a_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence in the retrieved text or figures indicating that this is a review update; thus, reporting is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_16a_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Duplicate records removed (n = 407)... Records excluded after title and abstract screening. (n = 2417)",
+          "reason": "The flow diagram distinguishes records removed by automation (duplicate records removed) from those excluded by humans (title and abstract screening)."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_16a_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16b",
+    "item_label": "16b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_17",
+    "item_label": "17",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_17\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_17_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A full summary of all included articles can be found in Table 3.\",\n      \"reason\": \"The text explicitly states that a full summary of all included articles is available in Table 3, implying citations are present.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A full summary of all included articles can be found in Table 3.\",\n      \"reason\": \"The text confirms that key characteristics (full summary) of included articles are presented in Table 3.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"The main aim of this review was to identify and characterize models for malaria control optimization\",\n      \"reason\": \"The review focuses on characterizing models rather than being an intervention review, making this conditional element not applicable.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_17",
+      "elements": [
+        {
+          "element_id": "prisma_2020_17_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "A full summary of all included articles can be found in Table 3.",
+          "reason": "The text explicitly states that a full summary of all included articles is available in Table 3, implying citations are present."
+        },
+        {
+          "element_id": "prisma_2020_17_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "A full summary of all included articles can be found in Table 3.",
+          "reason": "The text confirms that key characteristics (full summary) of included articles are presented in Table 3."
+        },
+        {
+          "element_id": "prisma_2020_17_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_6",
+          "quote": "The main aim of this review was to identify and characterize models for malaria control optimization",
+          "reason": "The review focuses on characterizing models rather than being an intervention review, making this conditional element not applicable."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_18",
+    "item_label": "18",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_18\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_18_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Regarding the quality of the studies included in this review, all the studies included the statement of decision problem, the statement of modelling objective, describing health and other outcomes, labelling and describing parameters and initial values, describing cost inputs and transmission dynamics (Fig. 3).\",\n      \"reason\": \"The manuscript presents an aggregate quality assessment (Figure 3) showing the proportion of studies meeting certain criteria, but does not present domain-level and overall risk-of-bias judgements for each included study individually in a table or figure.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Regarding the quality of the studies included in this review, all the studies included the statement of decision problem...\",\n      \"reason\": \"Justifications for individual risk-of-bias judgements are not presented; the text provides general summaries of quality criteria adherence without justifying specific assessments for each study.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Outcome-specific risk-of-bias judgements are not displayed alongside study results, as individual study risk-of-bias assessments are not provided.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_18",
+      "elements": [
+        {
+          "element_id": "prisma_2020_18_e1",
+          "status": "MISSING",
+          "chunk_id": "text_10",
+          "quote": "Regarding the quality of the studies included in this review, all the studies included the statement of decision problem, the statement of modelling objective, describing health and other outcomes, labelling and describing parameters and initial values, describing cost inputs and transmission dynamics (Fig. 3).",
+          "reason": "The manuscript presents an aggregate quality assessment (Figure 3) showing the proportion of studies meeting certain criteria, but does not present domain-level and overall risk-of-bias judgements for each included study individually in a table or figure."
+        },
+        {
+          "element_id": "prisma_2020_18_e2",
+          "status": "MISSING",
+          "chunk_id": "text_10",
+          "quote": "Regarding the quality of the studies included in this review, all the studies included the statement of decision problem...",
+          "reason": "Justifications for individual risk-of-bias judgements are not presented; the text provides general summaries of quality criteria adherence without justifying specific assessments for each study."
+        },
+        {
+          "element_id": "prisma_2020_18_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Outcome-specific risk-of-bias judgements are not displayed alongside study results, as individual study risk-of-bias assessments are not provided."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_18_e1",
+        "prisma_2020_18_e2",
+        "prisma_2020_18_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_19",
+    "item_label": "19",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20a",
+    "item_label": "20a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Regarding the quality of the studies included in this review, all the studies included the statement of decision problem, the statement of modelling objective, describing health and other outcomes, labelling and describing parameters and initial values, describing cost inputs and transmission dynamics (Fig. 3). A few parameters that were not well explored by most studies were: the perspective of the analysis; and tabulating the parameters and cost inputs.\",\n      \"reason\": \"The manuscript summarizes the characteristics (interventions, model types, region) and risk of bias/quality (ISPOR criteria, parameter exploration) of the contributing studies in the Results section, supported by the PRISMA diagram (Image 1) and model distribution chart (Image 2).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20a_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"In total, 14 articles from the database search and 1 article from bibliography were included in the final analysis (Fig. 1).\",\n      \"reason\": \"The text explicitly identifies the number of studies included (15) and references the PRISMA diagram (Image 1) which details the flow of studies, and Table 2 lists the specific references contributing to the synthesis.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Regarding the quality of the studies included in this review, all the studies included the statement of decision problem, the statement of modelling objective, describing health and other outcomes, labelling and describing parameters and initial values, describing cost inputs and transmission dynamics (Fig. 3). A few parameters that were not well explored by most studies were: the perspective of the analysis; and tabulating the parameters and cost inputs.",
+          "reason": "The manuscript summarizes the characteristics (interventions, model types, region) and risk of bias/quality (ISPOR criteria, parameter exploration) of the contributing studies in the Results section, supported by the PRISMA diagram (Image 1) and model distribution chart (Image 2)."
+        },
+        {
+          "element_id": "prisma_2020_20a_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "In total, 14 articles from the database search and 1 article from bibliography were included in the final analysis (Fig. 1).",
+          "reason": "The text explicitly identifies the number of studies included (15) and references the PRISMA diagram (Image 1) which details the flow of studies, and Table 2 lists the specific references contributing to the synthesis."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20b",
+    "item_label": "20b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20c",
+    "item_label": "20c",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20d",
+    "item_label": "20d",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_21",
+    "item_label": "21",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_21\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_21_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"The quality of all included studies was assessed using the joint International Society for Pharmacoeconomics and Outcomes Research-Society for Medical Decision Making Modelling Good Research Practices Task Force (ISPOR) [19].\",\n      \"reason\": \"The manuscript reports a quality assessment using ISPOR guidelines for model transparency and validation, but does not present an assessment of risk of bias due to missing results (reporting biases).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"The review utilized a narrative synthesis, implying no tool for reporting bias assessment was used for a quantitative synthesis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"The review utilized a narrative synthesis, indicating no funnel plots were generated or reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"The review utilized a narrative synthesis, indicating no funnel-plot asymmetry tests were conducted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"The review utilized a narrative synthesis, indicating no sensitivity analyses examining missing results were reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"The review utilized a narrative synthesis, indicating no selective non-reporting assessments in a study-by-synthesis matrix were displayed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A narrative synthesis of the study characteristics was performed.\",\n      \"reason\": \"The review utilized a narrative synthesis, indicating no forest plots or tables displaying studies with missing results were included.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_21",
+      "elements": [
+        {
+          "element_id": "prisma_2020_21_e1",
+          "status": "MISSING",
+          "chunk_id": "text_8",
+          "quote": "The quality of all included studies was assessed using the joint International Society for Pharmacoeconomics and Outcomes Research-Society for Medical Decision Making Modelling Good Research Practices Task Force (ISPOR) [19].",
+          "reason": "The manuscript reports a quality assessment using ISPOR guidelines for model transparency and validation, but does not present an assessment of risk of bias due to missing results (reporting biases)."
+        },
+        {
+          "element_id": "prisma_2020_21_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_10",
+          "quote": "A narrative synthesis of the study characteristics was performed.",
+          "reason": "The review utilized a narrative synthesis, implying no tool for reporting bias assessment was used for a quantitative synthesis."
+        },
+        {
+          "element_id": "prisma_2020_21_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_10",
+          "quote": "A narrative synthesis of the study characteristics was performed.",
+          "reason": "The review utilized a narrative synthesis, indicating no funnel plots were generated or reported."
+        },
+        {
+          "element_id": "prisma_2020_21_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_10",
+          "quote": "A narrative synthesis of the study characteristics was performed.",
+          "reason": "The review utilized a narrative synthesis, indicating no funnel-plot asymmetry tests were conducted."
+        },
+        {
+          "element_id": "prisma_2020_21_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_10",
+          "quote": "A narrative synthesis of the study characteristics was performed.",
+          "reason": "The review utilized a narrative synthesis, indicating no sensitivity analyses examining missing results were reported."
+        },
+        {
+          "element_id": "prisma_2020_21_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_10",
+          "quote": "A narrative synthesis of the study characteristics was performed.",
+          "reason": "The review utilized a narrative synthesis, indicating no selective non-reporting assessments in a study-by-synthesis matrix were displayed."
+        },
+        {
+          "element_id": "prisma_2020_21_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_10",
+          "quote": "A narrative synthesis of the study characteristics was performed.",
+          "reason": "The review utilized a narrative synthesis, indicating no forest plots or tables displaying studies with missing results were included."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_21_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_22",
+    "item_label": "22",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_22\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_22_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The document assesses the quality of included studies using ISPOR criteria (text_8) but does not report an overall certainty or confidence level for the body of evidence for outcomes.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No reasons for rating certainty down or up are explained, as no certainty ratings are reported in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Certainty is not communicated in the results or discussion sections; only study quality (model reporting) is discussed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence summary tables such as GRADE Summary of Findings tables are included in the retrieved evidence.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_22",
+      "elements": [
+        {
+          "element_id": "prisma_2020_22_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The document assesses the quality of included studies using ISPOR criteria (text_8) but does not report an overall certainty or confidence level for the body of evidence for outcomes."
+        },
+        {
+          "element_id": "prisma_2020_22_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No reasons for rating certainty down or up are explained, as no certainty ratings are reported in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_22_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Certainty is not communicated in the results or discussion sections; only study quality (model reporting) is discussed."
+        },
+        {
+          "element_id": "prisma_2020_22_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence summary tables such as GRADE Summary of Findings tables are included in the retrieved evidence."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_22_e1",
+        "prisma_2020_22_e2",
+        "prisma_2020_22_e3",
+        "prisma_2020_22_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23a",
+    "item_label": "23a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23a_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text from the Discussion section (text_12) summarizes the characteristics of the included studies (e.g., number of articles, geographic focus, interventions, data sources) but does not explicitly interpret these results in the context of other relevant evidence or the broader literature.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23a_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text from the Discussion section (text_12) summarizes the characteristics of the included studies (e.g., number of articles, geographic focus, interventions, data sources) but does not explicitly interpret these results in the context of other relevant evidence or the broader literature."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_23a_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23b",
+    "item_label": "23b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23b_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"The studies included in this review exhibit various strengths and limitations, which will be outlined and examined below.\",\n      \"reason\": \"The Discussion section explicitly states that strengths and limitations of the included studies will be outlined, but the detailed textual discussion of evidence limitations (e.g., 'A few parameters that were not well explored') is found in the 'Data Extraction And Synthesis' section (text_10), while the Discussion section primarily references the quality assessment figure (Fig. 3).\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23b_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_12",
+          "quote": "The studies included in this review exhibit various strengths and limitations, which will be outlined and examined below.",
+          "reason": "The Discussion section explicitly states that strengths and limitations of the included studies will be outlined, but the detailed textual discussion of evidence limitations (e.g., 'A few parameters that were not well explored') is found in the 'Data Extraction And Synthesis' section (text_10), while the Discussion section primarily references the quality assessment figure (Fig. 3)."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_23b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23c",
+    "item_label": "23c",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_17\",\n      \"quote\": \"However, the review has certain limitations, which are outlined below: The review did not include abstracts from scientific conferences or other scientific meetings...\",\n      \"reason\": \"The manuscript explicitly identifies limitations of the review process in the 'Limitations' section, specifically noting the exclusion of conference abstracts and grey literature.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_17\",\n      \"quote\": \"...potentially omitting important modelling studies conducted by national malaria control programs (NMCPs) to inform resource allocation decisions. ... the findings from this manuscript may not fully represent the actual use of models for malaria control optimization worldwide. The absence of these studies from the review limits the comprehensiveness of the findings...\",\n      \"reason\": \"The manuscript discusses the potential impact of the identified limitations, stating that excluding conference abstracts may lead to omission of important studies and limit the comprehensiveness of the findings regarding global model usage.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_17",
+          "quote": "However, the review has certain limitations, which are outlined below: The review did not include abstracts from scientific conferences or other scientific meetings...",
+          "reason": "The manuscript explicitly identifies limitations of the review process in the 'Limitations' section, specifically noting the exclusion of conference abstracts and grey literature."
+        },
+        {
+          "element_id": "prisma_2020_23c_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_17",
+          "quote": "...potentially omitting important modelling studies conducted by national malaria control programs (NMCPs) to inform resource allocation decisions. ... the findings from this manuscript may not fully represent the actual use of models for malaria control optimization worldwide. The absence of these studies from the review limits the comprehensiveness of the findings...",
+          "reason": "The manuscript discusses the potential impact of the identified limitations, stating that excluding conference abstracts may lead to omission of important studies and limit the comprehensiveness of the findings regarding global model usage."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23d",
+    "item_label": "23d",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23d_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_16\",\n      \"quote\": \"Such efforts should include all efficient prevention and treatment interventions, and surveillance and vaccination to inform context-specific control and elimination efforts respectively.\",\n      \"reason\": \"The conclusion section explicitly recommends including specific interventions to inform control efforts, addressing implications for practice.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23d_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_16\",\n      \"quote\": \"Efforts towards developing publicly available applications of the models and sharing source codes to facilitate translation for policy engagement will enhance transparency, reproducibility and adaptability, and pave a way towards more harmonized models for malaria control optimization in the future.\",\n      \"reason\": \"The text explicitly mentions facilitating translation for policy engagement, addressing implications for policy.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23d_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_16\",\n      \"quote\": \"It is critical that the future modelling efforts account for equity considerations and target at risk malaria populations that are hard-to-reach to maximize impact.\",\n      \"reason\": \"The text explicitly calls for future modelling efforts to account for equity, providing explicit recommendations for future research.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23d_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_16",
+          "quote": "Such efforts should include all efficient prevention and treatment interventions, and surveillance and vaccination to inform context-specific control and elimination efforts respectively.",
+          "reason": "The conclusion section explicitly recommends including specific interventions to inform control efforts, addressing implications for practice."
+        },
+        {
+          "element_id": "prisma_2020_23d_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_16",
+          "quote": "Efforts towards developing publicly available applications of the models and sharing source codes to facilitate translation for policy engagement will enhance transparency, reproducibility and adaptability, and pave a way towards more harmonized models for malaria control optimization in the future.",
+          "reason": "The text explicitly mentions facilitating translation for policy engagement, addressing implications for policy."
+        },
+        {
+          "element_id": "prisma_2020_23d_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_16",
+          "quote": "It is critical that the future modelling efforts account for equity considerations and target at risk malaria populations that are hard-to-reach to maximize impact.",
+          "reason": "The text explicitly calls for future modelling efforts to account for equity, providing explicit recommendations for future research."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24a",
+    "item_label": "24a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The protocol for the systematic review was registered with the international Prospective Register of Systematic Reviews (PROSPERO) with the registration number CRD42023436966.\",\n      \"reason\": \"The manuscript explicitly reports the review register name (PROSPERO) and the registration number (CRD42023436966) in the Methods section.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "The protocol for the systematic review was registered with the international Prospective Register of Systematic Reviews (PROSPERO) with the registration number CRD42023436966.",
+          "reason": "The manuscript explicitly reports the review register name (PROSPERO) and the registration number (CRD42023436966) in the Methods section."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24b",
+    "item_label": "24b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The protocol for the systematic review was registered with the international Prospective Register of Systematic Reviews (PROSPERO) with the registration number CRD42023436966.\",\n      \"reason\": \"The manuscript explicitly states that the protocol was registered with PROSPERO and provides the registration number, satisfying the requirement to indicate where the review protocol can be accessed.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "The protocol for the systematic review was registered with the international Prospective Register of Systematic Reviews (PROSPERO) with the registration number CRD42023436966.",
+          "reason": "The manuscript explicitly states that the protocol was registered with PROSPERO and provides the registration number, satisfying the requirement to indicate where the review protocol can be accessed."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24c",
+    "item_label": "24c",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24c_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"Amendments made to the protocol were documented and justified accordingly.\",\n      \"reason\": \"The text states amendments were documented but does not describe the specific amendments in the provided evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"Amendments made to the protocol were documented and justified accordingly.\",\n      \"reason\": \"The text states amendments were justified but does not report the specific reasons for the amendments.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"Amendments made to the protocol were documented and justified accordingly.\",\n      \"reason\": \"The text does not report the stage of the review at which amendments were implemented.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24c_e1",
+          "status": "MISSING",
+          "chunk_id": "text_5",
+          "quote": "Amendments made to the protocol were documented and justified accordingly.",
+          "reason": "The text states amendments were documented but does not describe the specific amendments in the provided evidence."
+        },
+        {
+          "element_id": "prisma_2020_24c_e2",
+          "status": "MISSING",
+          "chunk_id": "text_5",
+          "quote": "Amendments made to the protocol were documented and justified accordingly.",
+          "reason": "The text states amendments were justified but does not report the specific reasons for the amendments."
+        },
+        {
+          "element_id": "prisma_2020_24c_e3",
+          "status": "MISSING",
+          "chunk_id": "text_5",
+          "quote": "Amendments made to the protocol were documented and justified accordingly.",
+          "reason": "The text does not report the stage of the review at which amendments were implemented."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_24c_e1",
+        "prisma_2020_24c_e2",
+        "prisma_2020_24c_e3"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_25",
+    "item_label": "25",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_25\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_25_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_38\",\n      \"quote\": \"This work was supported, in whole or in part, by the Li Ka Shing grant, University of Oxford and the Bill & Melinda Gates Foundation [INV047-048].\",\n      \"reason\": \"The text explicitly describes the sources of financial support (Li Ka Shing grant, Bill & Melinda Gates Foundation) and includes relevant grant identifiers ([INV047-048]).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_25_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_38\",\n      \"quote\": \"Under the grant conditions of the Foundation, a Creative Commons Attribution 4.0 Generic License has already been assigned to the Author Accepted Manuscript version that might arise from this submission.\",\n      \"reason\": \"The text describes the role/conditions of the funder (Bill & Melinda Gates Foundation) regarding the review's publication and licensing, indicating their involvement in the review process.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_25",
+      "elements": [
+        {
+          "element_id": "prisma_2020_25_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_38",
+          "quote": "This work was supported, in whole or in part, by the Li Ka Shing grant, University of Oxford and the Bill & Melinda Gates Foundation [INV047-048].",
+          "reason": "The text explicitly describes the sources of financial support (Li Ka Shing grant, Bill & Melinda Gates Foundation) and includes relevant grant identifiers ([INV047-048])."
+        },
+        {
+          "element_id": "prisma_2020_25_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_38",
+          "quote": "Under the grant conditions of the Foundation, a Creative Commons Attribution 4.0 Generic License has already been assigned to the Author Accepted Manuscript version that might arise from this submission.",
+          "reason": "The text describes the role/conditions of the funder (Bill & Melinda Gates Foundation) regarding the review's publication and licensing, indicating their involvement in the review process."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_26",
+    "item_label": "26",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "\n\n{\n  \"item_id\": \"PRISMA_2020_26\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_26_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_19\",\n      \"quote\": \"The authors declare no competing interests.\",\n      \"reason\": \"The manuscript explicitly states that the authors declare no competing interests in the Competing Interests section.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_26_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_19\",\n      \"quote\": \"The authors declare no competing interests.\",\n      \"reason\": \"No competing interests were declared, so the requirement to report management of existing interests does not apply.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_26",
+      "elements": [
+        {
+          "element_id": "prisma_2020_26_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_19",
+          "quote": "The authors declare no competing interests.",
+          "reason": "The manuscript explicitly states that the authors declare no competing interests in the Competing Interests section."
+        },
+        {
+          "element_id": "prisma_2020_26_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_19",
+          "quote": "The authors declare no competing interests.",
+          "reason": "No competing interests were declared, so the requirement to report management of existing interests does not apply."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_27",
+    "item_label": "27",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_27\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_27_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_39\",\n      \"quote\": \"The data that support the findings of this study were deposited into the Dataverse database and are available from the corresponding author upon reasonable request.\",\n      \"reason\": \"The text explicitly states that data supporting the study findings are deposited and available, addressing the public availability of data.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_27_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_39\",\n      \"quote\": \"The data that support the findings of this study were deposited into the Dataverse database and are available from the corresponding author upon reasonable request.\",\n      \"reason\": \"The text identifies the location of the data as the 'Dataverse database' and provides an alternative location via the 'corresponding author'.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_27_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_39\",\n      \"quote\": \"The data that support the findings of this study were deposited into the Dataverse database and are available from the corresponding author upon reasonable request.\",\n      \"reason\": \"The text specifies the responsible contact ('corresponding author') and the conditions for sharing ('upon reasonable request').\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_27",
+      "elements": [
+        {
+          "element_id": "prisma_2020_27_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_39",
+          "quote": "The data that support the findings of this study were deposited into the Dataverse database and are available from the corresponding author upon reasonable request.",
+          "reason": "The text explicitly states that data supporting the study findings are deposited and available, addressing the public availability of data."
+        },
+        {
+          "element_id": "prisma_2020_27_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_39",
+          "quote": "The data that support the findings of this study were deposited into the Dataverse database and are available from the corresponding author upon reasonable request.",
+          "reason": "The text identifies the location of the data as the 'Dataverse database' and provides an alternative location via the 'corresponding author'."
+        },
+        {
+          "element_id": "prisma_2020_27_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_39",
+          "quote": "The data that support the findings of this study were deposited into the Dataverse database and are available from the corresponding author upon reasonable request.",
+          "reason": "The text specifies the responsible contact ('corresponding author') and the conditions for sharing ('upon reasonable request')."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  }
+]
