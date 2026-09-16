@@ -1,0 +1,203 @@
+## REVIEW ARTICLE
+
+## Socio-economic, environmental and demographic determinants of rise in obesity among Pakistani women: A Systematic Review
+
+Beenish Mehboob, Nilofer Fatimi Safdar, Sidra Zaheer
+
+## Abstract
+
+Nutrition transition is a shift in eating and disease patterns towards diet-nutrition-related noncommunicable diseases (NR-NCDs). This shift in many developing countries has been accompanied with changes in behaviours, lifestyles, diets, physical inactivity, smoking and alcohol consumption. In addition to the burden of under-nutrition, nutrition transition has caused a sudden rise in overweight/obesity-related chronic diseases in developing countries. Little research has been done in Pakistan to explore nutrition transition, and its associated nutrition challenges. The current study attempted to investigate the socio-economic, environmental and demographic determinants of rise in obesity among women of reproductive years (15-49 years) in Pakistan. A review of related published literature for a period of 10 years (2005-2015) was carried out. Also, data from National Nutrition Survey (NNS-2011) and Pakistan Demographic and Health Survey (PDHS 2012-13) was reviewed and used to supplement the published researches from Pakistan. For this purpose, a computerbased search was performed on PubMed and PubGet to retrieve relevant articles. The major socio-economic and environmental risk factors contributing to the risk of obesity among Pakistani women were sedentary lifestyle, lack of awareness, higher rates of urbanisation along with shift in dietary pattern from high-fibre diet to low-fibre, and high-calorie diet. The results of this review highlight the need for designing and implementing of national nutrition policy focussed on improving the awareness of determinants and consequences of nutrition-related illness in Pakistan.
+
+Keywords: Obesity, Nutrition transition, Southeast Asia.
+
+## Introduction
+
+Recent shifts in dietary patterns and increased consumption of energy-dense, high-sugar diets and refined carbohydrates accompanied by reduce energy expenditure and sedentary lifestyle have resulted in rapid
+
+School of Public Health, Dow University of Health Sciences, OJHA Campus, Karachi, Pakistan.
+
+Correspondence:
+
+Beenish Mehboob. Email: beenish.mehboob@duhs.edu.pk
+
+nutrition transition, along with subsequent rise in prevalence of overweight and obesity throughout the world. 1 According to a recently published article, more than 50 percent of the 671 million individuals classified as obese in the world live in 10 countries listed in descending order as the USA, China, India, Russia, Brazil, Mexico, Egypt, Germany, Pakistan, and Indonesia. 2 Overweight status and obesity are well-known risk factors for various diseases such as diabetes, hypertension, osteoarthritis and poor health in general. 3 A review of studies and survey reports published over the last decade suggests that there is a steady rise in non-communicable diseases (NCDs) burden in low-income countries (LICs), including Pakistan. 4 The National Health Survey (NHS 1990-94) of Pakistan estimated that hypertension affected18 percent of adults and 33 percent of these adults were more than 45 years old. 5 Data from nutrition and demographic surveys from other developing countries also show the evidence of rapid nutrition transition as evident through coexistence of both underand over-nutrition in low socio-economic status (SES) groups in the country. Increased urbanisation, dietary shifts, and economic growth are some of the factors that have contributed to rapid nutrition transition in low- and middle-income countries (LMICs). 6
+
+Pakistan currently ranks 6th among the most populous countries of the world, and its growth rate is highest in Asia i.e. 2.8%. 7 Recent data from both the National Nutrition survey (NNS-2011) and Pakistan Demographic and Health Survey (PDHS2012-13) showed a persistent high prevalence of under-nutrition and anaemia among women coexisting with significant proportion of overweight and obese women. 8,9 A small-scale study conducted in women over 25 years of age living in a lowincome community revealed a higher prevalence of 42% overweight and 8% obesity among women with upperbody obesity carrying higher risk of cardiovascular disease (CVD). 10 Pakistan's National Health Survey (NHS 1990-94) found that the prevalence of obesity for adults between age 25 to 64 from low, middle and high SES was 9%, 15% and 27% for rural areas and 21%, 27% and 42% for urban areas respectively. 11 Another community population-based intervention study, Metroville Health Study (MHS), also showed high prevalence of obesity in both genders, that is 27% in men and 29% in women. Furthermore, the prevalence of obesity was more than twice as high in women as in men. 12 As rates of overweight and obesity rise, Pakistan is beginning to experience an increased burden of chronic diseases like diabetes, hypertension and cardiovascular diseases.
+
+Although the issue of growing prevalence of obesity among women of reproductive age has been previously addressed in many LMICs, such as Bangladesh, Sri Lanka and India, the problem has been underestimated in Pakistan because of scarcity of relevant data and lack of focussed policy in place. To date, fewer studies in published literature have focussed on examining in depth the socio-demographic, environmental, lifestyle and dietary patterns and other factors contributing to nutrition transition in Pakistan mainly in the women of reproductive years. This review article was planned to highlight the nutrition transition in Pakistan by exploring the factors contributing to rise in overweight and obesity among women of reproductive age (15-49 years), and possible policy recommendation for policy-makers to deal with this challenge.
+
+Table-1: Articles related to nutrition transition, including overweight and obesity.
+
+|   S. No | Title of article                                                                                                                                      | Name of Journal and year of publication           | Study design                                             | Study Site                              | Key findings                                                                                                                                                                                                                                                                                                                      |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|----------------------------------------------------------|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|       1 | Prevalence of hypertension and obesity among women over age 25 in a low income area in Karachi, Pakistan.                                             | Journal of Pakistan Medical Association JPMA 1996 | Cross sectional study                                    | Karachi, Pakistan                       | Eight percent of women surveyed were classified as obese and forty two percent were classified as overweight. The results of the study indicate that most of these overweight and obese women had an upper body type obesity, which is positively associated with increased cardiovascular risk.                                  |
+|       2 | Non-communicable diseases and injuries in Pakistan: strategic priorities                                                                              | The Lancet 2013                                   | Secondary analysis of Global Burden of Disease 2010 data | Pakistan                                | Pakistan has the sixth highest number of people in the world with diabetes. Every fourth adult is overweight or obese, cigarettes are cheap and antismoking and road safety laws are poorly enforced; and a mixed public-private health-care system provides suboptimal care                                                      |
+|       3 | Socioeconomic status and obesity in adult populations of developing countries: a review.                                                              | Bulletin of the World Health Organization 2004    | Literature review                                        | Developing countries                    | The shift of obesity towards women with low SES apparently occurs at an earlier stage of economic development than it does for men. The shift towards higher rates of obesity among women of low SES is found at a GNP per capita of about US$ 2500, the mid-point value for lower- middle-income economies.                      |
+|       4 | Socioeconomic status and obesity                                                                                                                      | Epidemiologic reviews 2007                        | review of the literature                                 | Both developed and developing countries | Negative associations (lower SES associated with larger body size) for women in highly developed countries were most common with education and occupation, while positive associations for women in medium- and low-development countries were most common with income and material possessions.                                  |
+|       5 | Why are nutritionally stunted children at increased risk of obesity? Studies of metabolic rate and fat oxidation in shantytown children from          | The American journal of clinical nutrition, 2000  | Case-Control study                                       | Sao Paulo, Brazil                       | This study found that childhood nutritional stunting is associated with impaired fat oxidation, a factor that predicted obesity in other at-risk populations. This finding may help explain recent increases in body fatness and the prevalence of obesity among stunted adults and adolescents dwelling in developing countries. |
+|       6 | Sao Paulo, Brazil Association of Household and Community Socioeconomic Position and Urbanicity with Underweight and Overweight amongWomen in Pakistan | Plos One Journal, 2015                            | Research article                                         | Pakistan                                | A shift wards higher prevalence of overweight and obesity than underweight in Pakistan is associated with high household wealth as well as residing in urban areas.                                                                                                                                                               |
+
+## Materials and Methods
+
+We systemically reviewed the published literature to identify studies regarding nutrition transition, including overweight and obesity, for a period of 10 years from 2005 to 2015.PubMed and PubGet were used as resource database. Search key terms were "Socioeconomic status", "nutrition", "middle and low income countries",
+
+Figure-1: Flow chart for the syntheses of systematic review.
+
+<!-- image -->
+
+Figure-2: Malnutrition among women based on National Nutrition Survey (NNS) 2010-11.
+
+<!-- image -->
+
+"Association, Pakistan" and "nutrition transition". These terms were employed simultaneously in both search engines. We included all papers published in the English
+
+## Results
+
+Socio-economic, environmental and demographic
+
+language, having an abstract and describing factors contributing towards overweight and obesity.
+
+From PubGet search we found 15 articles, while PubMed search produced 16 articles. After going through all the articles and sorting out those which were common to both the databases, final search comprised 27 articles (Figure1). Out of these, 20(74%) studies were excluded as 8(29%) did not report results stratified by SES; 2(7.5%) restricted to adolescents; 10(37%) did not include body mass index (BMI) as an outcome. One (3.7%) study was further excluded restricted to obesity in males. Finally, 6(22.2%) studies met the eligibility criteria and were entered in data extraction form (Table-1). In addition, data and reports from NNS-2011 (Figure-2) and PDHS 2012-13 (Figure-3) were also reviewed and used to supplement the published researches from Pakistan. Ever married women aged between 15 and 49 years were interviewed. PDHS 201213: 14569 women were eligible, and 13558(93.1%) completed the interview, and after final selection of women according to availability of BMI data, a total of 4676(34.5%) women were eligible for data analysis. We used the World Health Organisation (WHO) recommended BMI cut-offs to categorise BMI into following groups: &lt;18.5 as underweight, 18.5-24.9 as normal, 25-29.9 as overweight and &gt;29.9 as obese. 13
+
+Figure-3: Malnutrition among women based on Pakistan Demographic and Health Survey (PDHS) 2012-13.
+
+<!-- image -->
+
+Figure-4: Overweight/obesity rates for adults by gender National Nutrition Survey (NNS) (2010-11).
+
+<!-- image -->
+
+determinants PDHS 2012-13 survey showed a direct relationship between SES and obesity among women in Pakistan. Women living in households with highest SES were more likely to be obese (23.3%) and overweight (34.8%) compared to women living in households with lowest socioeconomic status (LES) in which only (3.9%) womenwereobeseand(16.9%)wereoverweight(Table-2). In contrast, a review of literature from developed countries showed a strong inverse relationship between SES and obesity among women living in developed societies. 14 There is also evidence from literature that women living in high SES societies in developed countries have greater access to healthier food and greater proportion of fruits in their diet. 15 However, studies in LICs show that higher SES is a contributing factor towards obesity presumably because of moremoneyspentonfood, use of better transport for commuting, sedentary living behaviours etc. 16 Moreover, studies also showed a recent shift in obesity towards groups of LES in LICs as their gross domestic product (GDP) rises. 17 This is consistent with our finding of growing trend of obesity and overweight among females living in households with LES. Some studies also explored the relationship between psychosocial stress and risk of obesity among women, but no casual association was found. 18 Another recent study in Pakistan among dental students explored the determinants of rise in obesity which was found to be higher among female students (60.8%) compared to males (44.4%). The study found lack of sleep and skipping of breakfast were the major factors contributing towards rise in obesity among female dental students. 19
+
+Studies and NNS2011 from Pakistan also
+
+reported a higher prevalence of obesity in women (48.7%) compared to men (34.1%) (Figure-4). There are many factors that may have contributed to this finding. A crosssectional study from Pakistan showed that a female child born in a poor household is three times more likely to be stunted compared to a male child in the same household. 20 Research shows that under-nutrition during first six months of life increases the risk of stunting and stunted children have a higher risk of being obese in later life. 21 This might explain the fact that in countries undergoing rapid nutrition transition, like Pakistan, stunting and adolescent obesity may coexist in LES groups. Our review of PDHS 2012-13 data and report also
+
+Table-2: Socio demographics according to body mass index (BMI) among Pakistani women of reproductive age (15-49) PDHS 2012-13.
+
+| Demographics    | BMI - Underweight (< 18.5) n (%)   | BMI - Normal (18.5-24.9) n (%)   | BMI - Overweight (25-29.9) n (%)   | BMI - Obese (>29.9 ) n (%)   | BMI - *p-value   |
+|-----------------|------------------------------------|----------------------------------|------------------------------------|------------------------------|------------------|
+| Education Level |                                    |                                  |                                    |                              |                  |
+| No education    | 313 (12.0)                         | 1383 (52.9)                      | 638 (24.4)                         | 282 (10.8)                   | <0.01            |
+| Primary         | 69 (10.0)                          | 326 (47.2)                       | 170 (24.6)                         | 126 (18.2)                   |                  |
+| Secondary       | 68 (8.2)                           | 384 (46.5)                       | 233 (28.2)                         | 141 (17.1)                   |                  |
+| Higher          | 29 (5.3)                           | 232 (42.7)                       | 185 (34.1)                         | 97 (17.9)                    |                  |
+| Wealth Index    |                                    |                                  |                                    |                              |                  |
+| Poorest         | 141 (16.6)                         | 530 (62.6)                       | 143 (16.9)                         | 33 (3.9)                     | <0.01            |
+| Poorer          | 108 (11.7)                         | 556 (60.3)                       | 192 (20.8)                         | 66 (7.2)                     |                  |
+| Middle          | 113 (12.9)                         | 432 (49.5)                       | 216 (24.7)                         | 112 (12.8)                   |                  |
+| Richer          | 72 (7.4)                           | 405 (41.8)                       | 304 (31.4)                         | 187 (19.3)                   |                  |
+| Richest         | 45 (4.2)                           | 402 (37.7)                       | 371 (34.8)                         | 248 (23.3)                   |                  |
+
+*p-value calculated by using Chi-square test.
+
+Table-3: Determinants for body mass index, multinomial logistic regression (n=4676).
+
+| Demographics                | Underweight/ Normal (< 24.9) OR (95% CI) - Reference   | BMI Overweight (25-29.9) - aOR (95% CI)   | Obese - OR (95% CI)   | >29.9 ) - aOR (95% CI)   |
+|-----------------------------|--------------------------------------------------------|-------------------------------------------|-----------------------|--------------------------|
+| Residence                   |                                                        |                                           |                       |                          |
+| Rural                       | 1                                                      | 1                                         | 1                     | 1                        |
+| Urban                       | 1.86 (1.62-2.13)*                                      | 1.14 (0.97-1.34)                          | 2.62 (2.20-3.13)*     | 1.25 (1.01-1.53)*        |
+| Education Level             |                                                        |                                           |                       |                          |
+| No education                | 1                                                      | 1                                         | 1                     | 1                        |
+| Primary                     | 1.14 (0.93-1.40)                                       | 0.81 (0.63-1.04)                          | 1.91 (1.51-2.43)*     | 1.02 (0.79-1.32)         |
+| Secondary                   | 1.37 (1.14-1.64)*                                      | 0.71 (0.57-0.87)*                         | 1.87 (1.49-2.35)*     | 0.70 (0.54-0.90)*        |
+| Higher                      | 1.88 (1.52-2.32)*                                      | 0.75 (0.60-0.93)*                         | 2.23 (1.71-2.91)*     | 0.67 (0.49-0.91)*        |
+| Wealth Index                |                                                        |                                           |                       |                          |
+| Poorest                     | 1                                                      | 1                                         | 1                     | 1                        |
+| Poorer                      | 1.35 (1.06-1.72)*                                      | 1.39 (1.09-1.77)*                         | 2.02 (1.31-3.11)*     | 1.93 (1.25-2.98)*        |
+| Middle                      | 1.86 (1.46-2.36)*                                      | 1.94 (1.51-2.50)*                         | 4.17 (2.78-6.26)*     | 3.92 (2.58-5.94)*        |
+| Richer                      | 2.99 (2.37-3.76)*                                      | 3.26 (2.51-4.25)*                         | 7.97 (5.40-11.75)*    | 7.59 (4.99-11.54)*       |
+| Richest                     | 3.89 (3.10-4.88)*                                      | 4.30 (3.21-5.75)*                         | 11.28 (7.69-16.53)*   | 11.41 (7.33-17.74)*      |
+| Respondent's working status |                                                        |                                           |                       |                          |
+| Yes                         | 1                                                      |                                           | 1                     |                          |
+| No                          | 1.18 (1.00-1.39)*                                      | 0.99 (0.84-1.18)                          | 1.85 (1.46-2.35)*     | 1.39 (1.08-1.79)*        |
+
+indicated that education is also a predictor of being obese or overweight among women (Table-2). Women with no education were less overweight (24.4%) and obese (10.8%) compared to women with some education which had higher number of women classified as overweight (34.1%) and obese (17.9%). These results indicated that the level of education does not significantly impacts the risk of being overweight or obese. The similar percentages of obesity was prevalent in all three levels of education i.e. primary (18.2%), secondary (17.1%) and higher education
+
+(17.9%). This finding indicated that the status of education has no significant role in obesity prevalence in women of reproductive age group in Pakistan.
+
+A recently published study found that age is also a strong predicator for obesity among Pakistani women during reproductive years. 22 According to this study, older women (40-49 years) were more likely to be obese (21%) compared to younger women (15-24 years) who were classified as obese. Although we did not have good measure to explore the factors leading to over-nutrition in older age, but we hypothesise that sedentary lifestyle, lower rate of employment and greater likelihood of consuming diets rich in fat might have increased in their susceptibility to malnutrition compared to younger women.
+
+According to both demographic survey reports and data, women living in urban areas were more likely to be classified as obese (22%) compared to rural areas (11%). Urbanisation is often accompanied by adaptation to western lifestyle, which might be a contributing factor towards rise in obesity among people living in urban areas. 23 Economic growth and urbanisation have helped many developing countries to shift from famine to foodsufficient stage. However, it has also accelerated the shift towards consumption of high fat, refined sugar diet or Western-style dietary patterns accompanied with sedentary lifestyle such as watching TV, less walking and using modern means of transport to commute. This is contributing towards a rise in obesity. 24 Research data showed that migration rates from rural to urban areas in Pakistan have increased significantly over the last few decades. 25 The urban areas are growing rapidly in Pakistan, but healthcare and education infrastructure to handle rapid urbanisation is not in place. Obesity resulting from rapid urbanisation and obesity-related diseases can place an enormous burden on existing health infrastructure. Also, according to Popkin's perspective, living in urban environment and difference in lifestyle and not urban residence per se is the contributing factor towards rise in obesity among population living in urban areas. 26 Similar results were reported by a study published in the year 2002 by secondary analysis of Pakistan's NHS data 1994 which also concluded that increasing obesity is associated with SES regardless of place of residence. 27 Over the last few decades in Pakistan, changes in SES, increased urbanisation, improved access to health facilities, rise in per capita income and education have contributed towards decline in under-nutrition. However, due to the lack of comprehensive nutrition policy in place in developing countries, another form of malnutrition, that is overweight and obesity, is on the rise, especially in women of reproductive age. 28 Our review indicated that Pakistan is at an early stage of nutrition transition with coexistence of both underand overnutrition among women belonging to both middle and low socioeconomic groups.
+
+In addition, univariate logistic regression analysis was also done (Table-3) which showed that women who lived in urban areas were 1.86 times more likely to be overweight (odds ratio [OR]=1.86, 95% confidence interval [CI] 1.62-
+
+2.13) and 2.62 times obese (OR=2.62, 95% CI 2.62 (2.203.13). Furthermore, women who had higher education (OR = 2.23, 95% CI 1.71-2.91), were richest (OR = 11.28, 95% CI 7.69-16.53) and working (OR = 1.85, 95% CI 1.462.35) and were significantly more likely to be obese. However, after adjusting for confounding factors, higher education has a significant protective effect over risk of being obese (OR = 0.67, 95 % CI 0.49-0.91). After multivariate adjustments, women who were richest (OR = 4.30, 95 % CI 3.21-5.75), and those who had urban residence (OR = 1.41, 95 % CI 0.97-1.34) were significantly more likely to be overweight. Similarly after adjusting for other factors, higher education seems to have a protective effect on risk of being overweight (OR=0.75, 95% CI 0.60-0.93). This, finding also suggests that increasing education attainment might also help in lowering risk of being obese and overweight. We also recommend, additional research to explore this finding in detail.
+
+Furthermore, in this paper, we used the WHO recommended BMI criteria for reviewing published data which classifies &lt;18.5 underweight, 18.5-24.9 Normal, 2529.9 as overweight and &gt;29.9 as obese. Similarly, recent demographic and nutrition surveys of Pakistan have used the same criteria to evaluate body size. However, recent research shows that South Asian population is more prone to NCDs related to obesity at a much lower BMI (below cutoff point for overweight i.e. 25kg/m 2 ) compared to Europeans and other populations. 3 Literature review of studies based on secondary analysis of PDHS 2012-13 data showed dual burden of under- and over-weight shifting more towards overweight and obesity 54% (BMI&gt;23) among Pakistani women, and, hence, there is a strong need to revise WHO criteria specific for South Asian population which may be prone to the risk of obesity-related complications at a lower BMI than Europeans or other populations. 29
+
+## Health and economic consequences
+
+Obesity-related NCDs like CVD, type 2 diabetes, high blood pressure, and stroke have contributed towards increasing the double disease burden on already overwhelmed and poor healthcare infrastructure in Pakistan. Jafar et al. projected 3·87 million premature deaths by 2025 from NCDs such as CVDs, cancers, and chronic respiratory diseases in people aged 30-69 years in Pakistan, which will have serious economic consequences. 30
+
+There is a strong need for preventive care, public health education and promotion along with a focussed strategy to address this challenge. Pakistan is simultaneously experiencing double burden of disease due to steady rise in both infectious or communicable diseases and NCDs and individual care for NCDs is highly expensive which in turn can have a devastating impact on Pakistan's economy. Therefore, a multi-sectoral approach is strongly needed to address its determinants and strengthening of primary health care system in Pakistan.
+
+Alimitation of our review is that many lifestyle and dietary patterns of various ethnic groups living in Pakistan were not explored. Both survey reports and relevant data did not have any information on physical activity and energy uptake. We had very few studies that have data on fruit and vegetable consumption. We recommend further research in this area to explore these factors and its association with the emergence of nutrition transition in detail.
+
+The consequences of emerging nutrition transition in Pakistan can be detrimental in the long run. Obesity is a known risk factor for many NCDs. Poor tertiary care system in Pakistan is currently facing an overburden of diseases that are both infectious and NCDs.
+
+## Conclusion and Policy Recommendations
+
+Pakistan is undergoing a rapid nutrition transition. This review article highlighted some of the impacts of nutrition transition on the emergence of nutrition-related non-communicable diseases (NR-NCDs) in Pakistan. It is highly expected that the economic and health cost associated with nutrition transition will be felt more severely in the coming decades. Given the emerging epidemic of NR-NCDs, the health system in Pakistan is at a risk of facing double burden of disease. Further research is needed to gain insight into the disease-specific social, demographic and economic determinants of NR-NCDs in order to design and implement more effective policies to tackle them in the long run. In conclusion this study proposes the adoption of certain policies to address this emerging challenge of NR-NCDs in Pakistan. For instance, national food and nutrition policy must focus on improving awareness among general population for making healthier food choice and to increase their access to nutritious food. Both strong political will and governmental support is required to make these policies functional. In addition, it is the prime responsibility of food regulatory institutions to regulate and enhance the food standards and to ensure food industries follow these regulations.
+
+Also, poor health infrastructure and lack of resources to manage NR-NCDs are major hindrances to the growing need of managing double burden of disease in developing and low-income countries like Pakistan.
+
+Addressing NR-NCDs will therefore require a considerable strengthening of primary healthcare system.
+
+Further, physical activity programmes for schools and workplace must be designed and implemented to reduce both childhood and adult obesity. Publicity of junk food should be reduced or banned completely, and efforts shall be made to integrate nutrition awareness course in the main curriculum of children's education.
+
+Besides, increasing awareness through use of social media such as targeted campaigns to increase public awareness, providing educational and information brochures and diet-related articles in newspapers, TV channels and radio may help to encourage healthy eating behaviours. Health policy-makers should design policies to reduce the harmful behaviours such as reducing smoking, alcoholism, and use of trans-fat diet and consumption of junk food.
+
+Finally, public-private partnership must be encouraged to promote research and to conduct studies to determine determinants of overweight and obesity.
+
+## Acknowledgement
+
+Weare grateful to all DUHS personnel for logistic support, and to Professor Henry Mc Ardle for his useful suggestions and comments for improving this paper.
+
+Disclosure:
+
+No
+
+Conflict of Interest:
+
+No
+
+Funding Sources:
+
+No
+
+## References
+
+1. Popkin BM. The nutrition transition and obesity in the developing world. J Nutr 2001; 131: 871S-3.
+2. NgM,FlemingT, Robinson M,Thomson B, Graetz N, Margono C, et al.. Global, regional, and national prevalence of overweight and obesity in children and adults during 1980-2013: a systematic analysis for the Global Burden of Disease Study 2013. The Lancet 2014; 384: 766-81
+3. Reilly JJ, Methven E, McDowell ZC, Hacking B, Alexander D, Stewart L, et al. Health consequences of obesity. Arch Dis Childhood 2003; 88: 748-52
+4. Alwan A. Global status report on noncommunicable diseases 2010. World Health Organization; 2011.
+5. National Health Survey of Pakistan 1990-94. Islamabad: Pakistan Medical Research Council; 1998.
+6. Popkin BM, Adair LS, Ng SW. Global nutrition transition and the pandemic of obesity in developing countries. Nutr Rev 2012; 70: 3-21.
+7. Programme, U.N.D. About Pakistan. [online] [cited 2015 Nov 8]. Available from: URL: http://www.pk.undp.org/content/pakistan/ en/home/countryinfo.html.
+8. NNSP. National Nutrition Survey of Pakistan. Nutrition Wing, Cabinet Division, Government of Pakistan, Islamabad; 2011
+9. NIPS II. Pakistan Demographic and Health Survey 2012-13. Islamabad. [online] 2013 [cited 2015 Nov 8]. Available from: URL:
+
+- http://www.nips.org.pk/abstract\_files/Priliminary%20Report%20 Final.pdf..
+10. Akatsu H, Aslam A. Prevalence of hypertension and obesity among women over age 25 in a low income area in Karachi, Pakistan. Prevalence, 1996.
+11. Ahmad K, Jafar TH, Chaturvedi N. Self-rated health in Pakistan: results of a national health survey. BMC Public Health 2005; 5: 51..
+12. Dennis B, Aziz K, She L, Faruqui AM, Davis CE, Manolio TA, et.al.. High rates of obesity and cardiovascular disease risk factors in lower middle class community in Pakistan: the Metroville Health Study. J Pak Med Assoc 2006; 56: 267-72.
+13. WHOEC. Appropriate body-mass index for Asian populations and its implications for policy and intervention strategies. Lancet 2004; 363: 157-63
+14. McLaren L. Socioeconomic status and obesity. Epidemiol Rev 2007; 29: 29-48.
+15. Power EM. Determinants of healthy eating among low-income Canadians. Can J Public Health 2005: 96 Suppl 3:S37-42, S42-8.
+16. Villamor E, Msamanga G, Urassa W, Petraro P, Spiegelman D, Hunter DJ, e al. Trends in obesity, underweight, and wasting amongwomenattendingprenatal clinics in urbanTanzania, 19952004. Am J Clin Nutr 2006; 83: 1387-94.
+17. Monteiro CA, Moura EC, Conde WL, Popkin BM. Socioeconomic status and obesity in adult populations of developing countries: a review. Bull World Health Organ 2004; 82: 940-6.
+18. Rosengren A, Teo K, Rangarajan S, Kabali C, Khumalo I, Kutty VR, et al. Psychosocial factors and obesity in 17 high-, middle-and lowincome countries: The Prospective Urban Rural Epidemiologic study. Int J Obes (Lond) 2015; 39: 1217-23.
+19. Hingorjo MR, Syed S, Qureshi MA. Overweight and obesity in students of a dental college of Karachi: lifestyle influence and measurement by an appropriate anthropometric index. J Pak Med Assoc 2009; 59: 528-32
+20. Baig-Ansari N, Rahbar MH, Bhutta ZA, Badruddin SH. Child's gender and household food insecurity are associated with stunting among young Pakistani children residing in urban squatter settlements. Food Nutr Bull 2006; 27: 114-27.
+21. Hoffman DJ, Sawaya AL, Verreschi I, Tucker KL, Roberts SB. Why are nutritionally stunted children at increased risk of obesity? Studies of metabolic rate and fat oxidation in shantytown children from Sao Paulo, Brazil. Am J Clin Nutr 2000; 72: 702-7
+22. Janjua NZ, Mahmood B, Bhatti JA, Khan MI. Association of Household and Community Socioeconomic Position and Urbanicity with Underweight and Overweight among Women in Pakistan. PloS one 2015; 10: e0122314
+23. James WP. The fundamental drivers of the obesity epidemic. Obesity Rev 2008; 9(s1): 6-13.
+24. Malik VS, Willett WC, Hu FB. Global obesity: trends, risk factors and policy implications. Nature Reviews Endocrinology, 2013; 9(1): p. 13-27.
+25. Jamil A, Mohyuddin A. Rural urban migration for education. (A case study of district Bahawalpur, Pakistan). Sci Int (Lahore) 2015; 27: 4819-24.
+26. Popkin B. Population and development overview: The nutrition transition. The encyclopedia of human nutrition. London: Academic; 1998: pp 1562-73..
+27. Nanan DJ. The obesity pandemic-implications for Pakistan. J Pak Med Assoc 2002; 52: 342-6.
+28. World Health Organization. Global nutrition policy review: what does it take to scale up nutrition action?. World Health Organization; 2013.
+29. GuptaM,Brister S,Verma S. Is South Asian ethnicity an independent cardiovascular risk factor? Can J Cardiol 2006; 22: 193-7.
+30. Jafar TH, Haaland BA, Rahman A, Razzak JA, Bilger M, Naghavi M, et al. Non-communicable diseases and injuries in Pakistan: strategic priorities. The Lancet 2013; 381: 2281-90.

@@ -1,0 +1,232 @@
+{
+  "item_id": "PRISMA_2020_10b",
+  "item_label": "10b",
+  "checklist_item": "List and define all other variables for which data were sought (e.g. participant and intervention characteristics, funding sources). Describe any assumptions made about any missing or unclear information.",
+  "semantic_query": "Data items. List and define all other variables for which data were sought (e.g. participant and intervention characteristics, funding sources). Describe any assumptions made about any missing or unclear information. the authors list/define additional variables extracted (e.g., participant/intervention characteristics, funding) and describe assumptions for missing/unclear information. Variables list/definitions; stated assumptions for missing/unclear data\nList and define all other variables for which data were sought (e.g. participant and intervention characteristics, funding sources). Describe any assumptions made about any missing or unclear information.\nRelevant terminology: intervention characteristics; participant characteristics; comparator characteristics; exposure characteristics; patient characteristics; study characteristics; unclear information; funding source; missing data; not reported; sample size; data items",
+  "top_evidence": [
+    {
+      "chunk_id": "text_13",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Data Collection",
+      "merged_headings": [],
+      "pages": [
+        2
+      ],
+      "word_count": 130,
+      "faiss_score": 0.4653281569480896,
+      "keyword_bonus": 0.28,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.7453281569480896,
+      "adjusted_retrieval_score_norm": 1.0,
+      "rerank_score": -0.5092779397964478,
+      "rerank_score_norm": 1.0,
+      "final_score": 1.0,
+      "text": "For each eligible trial, following training and calibration exercises, pairs of reviewers extracted data independently using a standardised, pilot tested data extraction form. Reviewers collected information on trial characteristics (trial registration, publication status, study status, design), participant characteristics (country, age, sex, comorbidities), exposure characteristics (exposure status, exposureduration,highriskgroup)andoutcomesofinterest(means or medians and measures of variability for continuous outcomes and the number of participants analysed and the number of participants who experienced an event for dichotomous outcomes). Reviewers resolved discrepancies by discussion and, when necessary, with adjudication by a third party. Weexcluded randomised trials published only as press releases and trials that evaluated vaccination, nutrition, and non-drug supportive care interventions. We synthesised randomised trials that evaluated drugs, and antibody and cellular therapies for treatment of covid-19 in separate living network meta-analyses. 8 9",
+      "images": []
+    },
+    {
+      "chunk_id": "text_16",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Statistical Analysis",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 161,
+      "faiss_score": 0.4143555462360382,
+      "keyword_bonus": 0.11,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.5243555462360382,
+      "adjusted_retrieval_score_norm": 0.6141850783283113,
+      "rerank_score": -0.9430985450744629,
+      "rerank_score_norm": 0.9036347419439379,
+      "final_score": 0.7154924605937806,
+      "text": "For outcomes with sufficient data, we performed random effects network meta-analysis using the R package gemtc 21 andusedthree Markov chains with 100 000 iterations after an initial burn-in of 10 000 and a thinning of 10. Node splitting models provided methods to obtain indirect estimates and to assess local heterogeneity. 22 We performed analyses in RStudio version 3.5.3 (R Studio, Boston, MA, USA). 23 Wechoseanon-informativepriorforthevarianceparameter and a uniform prior for the effect parameter. 24 Outcomes were analysed regardless of whether they were pre-specified in a protocol or trial registration. The foundational R codes are publicly available at https://github.com/covid19lnma/prophylaxis_NMA. Because of inconsistent reporting across trials, when possible, we preferentially extracted participant characteristics and outcome data for participants with a polymerase chain reaction (PCR) test that was negative for SARS-CoV-2 infection at baseline. If authors did not report data separately for those who were PCR-negative for SARS-CoV-2 infection at baseline, we extracted data from all participants, regardless of their PCR status at baseline.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_8",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Methods",
+      "merged_headings": [],
+      "pages": [
+        1
+      ],
+      "word_count": 47,
+      "faiss_score": 0.3758724331855774,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.5258724331855774,
+      "adjusted_retrieval_score_norm": 0.6168335405867579,
+      "rerank_score": -1.2888855934143066,
+      "rerank_score_norm": 0.8268245173019833,
+      "final_score": 0.6903303824370868,
+      "text": "After duplicate data abstraction, we conducted random-effects bayesian network meta-analysis. We assessed risk of bias of the included studies using a modification of the Cochrane risk of bias 2.0 tool andassessed the certainty of the evidence using the grading of recommendations assessment, development and evaluation (GRADE) approach.",
+      "images": []
+    },
+    {
+      "chunk_id": "table_0",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "table",
+      "section": "Subgroup And Sensitivity Analysis",
+      "merged_headings": [],
+      "pages": [
+        7
+      ],
+      "word_count": 460,
+      "faiss_score": 0.4725787043571472,
+      "keyword_bonus": 0.16999999999999998,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.6425787043571471,
+      "adjusted_retrieval_score_norm": 0.8206009700684531,
+      "rerank_score": -3.060868263244629,
+      "rerank_score_norm": 0.43321120071081193,
+      "final_score": 0.6850145507932787,
+      "text": "Table 1 | Study characteristics\n\n| Study                          | Publication status. Registration   |   No of participants | Country               |   Mean age |   %Male | Exposure status   | Vaccinated (%)   | Treatments                                | Outcomes                                                                                                                                                                 |\n|--------------------------------|------------------------------------|----------------------|-----------------------|------------|---------|-------------------|------------------|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Abella, 2020 28 PATCH          | Published NCT04329923              |                  132 | United States         |         33 |   31.06 | Pre-exposure      | 0*               | Hydroxychloroquine; placebo               | Mortality, infection with covid-19 (laboratory confirmed), admission to hospital, adverse effects leading to                                                             |\n| Almanza-Reyes, 2021 55         | Published NCT04894409              |                  231 | Mexico                |         34 |   35.06 | NR                | 0*               | ARGOVIT AgNPs                             | discontinuation Infection with covid-19 (lab confirmed), adverse effects leading to discontinuation                                                                      |\n| Amat-Santos, 2020 41 RASTAVI   | Published NCT03201185              |                  102 | Spain                 |       83.3 |   56.86 | Pre-exposure      | 0*               | Rampiril; standard care                   | Mortality, infection with covid-19 (lab confirmed), admission to hospital                                                                                                |\n| Barnabas,2020 29               | Published NCT04328961              |                  829 | United States         |         39 |    40.2 | Post-exposure     | 0*               | Hydroxychloroquine; placebo               | Infection with covid-19 (lab confirmed), admission to                                                                                                                    |\n| Boulware, 2020 30              | Published NCT04308668              |                  821 | United States, Canada |         40 |   48.36 | Post-exposure     | 0*               | Hydroxychloroquine; placebo               | hospital Mortality, infection with covid-19 (lab confirmed or lab confirmed, probable, and suspected), admission to hospital, adverse effects leading to discontinuation |\n| Chahla, 2021 42 Ivercar-Tuc    | Pre-print NCT04701710              |                  234 | Argentina             |       38.5 |   42.73 | Pre-exposure      | NR               | Iota-carrageenan; ivermectin              | Infection with covid-19 (lab confirmed), adverse effects leading to discontinuation                                                                                      |\n| Cohen, 2021 43 BLAZE-2         | Published NCT04497987              |                 1175 | United States         |       52.8 |   25.26 | NR                | NR               | Bamlanivimab                              | Mortality, infection with covid-19 (lab confirmed)                                                                                                                       |\n| Fernández-Ferreiro, 2021 44    | Published NCT04756466              |                  200 | Spain                 |       83.1 |   36.87 | NR                | 100 (2 doses)    | Loigolactobacillus coryniformis K8 strain | Mortality, infection with covid-19 (lab confirmed), adverse effects leading to discontinuation, time to symptom resolution                                               |\n| Figueroa, 2021 45 CARR-COV-02  | Published NCT04521322              |                  394 | Argentina             |       38.6 |   24.87 | Pre-exposure      | 0*               | Iota-carrageenan                          | Mortality, infection with covid-19 (lab confirmed), admission to hospital, adverse effects leading to discontinuation                                                    |\n| Frumkin, 2022 57               | Pre-print NCT04567810              |                   24 | Australia             |       25.2 |    54.2 | Pre-exposure      | NR               | Anti-SARS-CoV-2 RBD IgY                   | Adverse effects leading to discontinuation                                                                                                                               |\n| Frumkin, 2022 57               | Pre-print NCT04567810              |                   24 | Australia             |       26.6 |      25 | Pre-exposure      | NR               | Anti-SARS-CoV-2 RBD IgY                   | Adverse effects leading to discontinuation                                                                                                                               |\n| García-García, 2022 46 MeCOVID | Published NCT04353128              |                  314 | Spain                 |         40 |   18.79 | Pre-exposure      | 0*               | Melatonin                                 | Infection with covid-19 (lab confirmed), admission to hospital                                                                                                           |",
+      "images": []
+    },
+    {
+      "chunk_id": "table_2",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "table",
+      "section": "Subgroup And Sensitivity Analysis",
+      "merged_headings": [],
+      "pages": [
+        9
+      ],
+      "word_count": 421,
+      "faiss_score": 0.4688257575035095,
+      "keyword_bonus": 0.16999999999999998,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.6388257575035095,
+      "adjusted_retrieval_score_norm": 0.8140483801718661,
+      "rerank_score": -3.023662805557251,
+      "rerank_score_norm": 0.44147570794610197,
+      "final_score": 0.6836479448928487,
+      "text": "Table 1 | Study characteristics (Continued)\n\n| Study                                              | Publication status. Registration   |   No of participants | Country                         |   Mean age |   %Male | Exposure status                | Vaccinated (%)   | Treatments                                                      | Outcomes                                                                                                                               |\n|----------------------------------------------------|------------------------------------|----------------------|---------------------------------|------------|---------|--------------------------------|------------------|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|\n| O'Brien, 2021 52 Covid-19 Phase 3 Prevention Trial | Published NCT04452318              |                 2475 | United States, Romania, Moldova |       42.9 |    45.9 | Post-exposure                  | 0                | Casirivimab, imdevimab                                          | Mortality, infection with covid-19 (lab confirmed), admission to hospital, adverse effects leading to discontinuation, time to symptom |\n| Polo, 2022 40 EPICOS                               | Pre-print NCT04334928              |                  907 | Bolivia, Spain, Venezuela       |       38.3 |   37.49 | Pre-exposure                   | NR               | Hydroxychloroquine, tenofovir disoproxil fumarate/emtricitabine | resolution Infection with covid-19 (lab confirmed), admission to hospital, adverse effects leading to discontinuation                  |\n| Rajasingham, 2020 35 COVID PREP                    | Published NCT04328467              |                 1483 | United States, Canada           |         41 |   48.82 | Pre-exposure                   | 0*               | Hydroxychloroquine; placebo                                     | Mortality, infection with covid-19 (lab confirmed or lab confirmed, probable, and suspected), admission to hospital                    |\n| Rojas-Serrano, 2021 36 PHYDRA                      | Published NCT04318015              |                      | Mexico                          |       31.1 |    44.1 | Pre-exposure                   | 0*               | Hydroxychloroquine                                              | Infection with covid-19 (lab confirmed), admission to hospital, adverse effects leading to discontinuation                             |\n| Seet, 2021 37                                      | Published NCT04446104              |                 2745 | Singapore                       |         33 |     100 | Pre-exposure and post-exposure | NR               | Hydroxychloroquine                                              | Mortality, infection with covid-19 (lab confirmed), admission to hospital, adverse effects leading to discontinuation                  |\n| Shoham, 2021 53                                    | Pre-print NCT04323800              |                  180 | United States                   |         47 |      55 | Post-exposure                  | 0                | Convalescent plasma                                             | Mortality, infection with covid-19 (lab confirmed), admission to hospital                                                              |\n| Shouman, 2021 56                                   | Published NCT04422561              |                  340 | Egypt                           |       38.7 |   51.32 | Post-exposure                  | 0*               | Ivermectin                                                      | Mortality, infection with covid-19 (lab confirmed, probable, and suspected)                                                            |\n| Syed, 2021 38 CHEER                                | Published NCT04359537              |                  200 | Pakistan                        |       30.6 |    54.5 | Pre-exposure                   | NR               | Hydroxychloroquine                                              | Mortality, infection with covid-19 (lab confirmed), admission to hospital, adverse effects leading to discontinuation                  |\n| Vijayaraghavan 39 HOPE                             | Pre-print CTRI/2020/05/025067      |                  416 | India                           |       32.1 |   52.64 | NR                             | NR               | Hydroxychloroquine                                              | Mortality, infection with covid-19 (lab confirmed or lab confirmed, probable, and suspected), admission to hospital, adverse           |\n| Wang, 2021 54                                      | Published                          |                  200 | China                           |       35.9 |   29.02 | Pre-exposure                   | 0*               | Bactoblis oropharyngeal probiotic                               | effects leading to discontinuation Infection with covid-19 (lab confirmed)                                                             |",
+      "images": []
+    },
+    {
+      "chunk_id": "table_1",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "table",
+      "section": "Subgroup And Sensitivity Analysis",
+      "merged_headings": [],
+      "pages": [
+        8
+      ],
+      "word_count": 423,
+      "faiss_score": 0.4683605432510376,
+      "keyword_bonus": 0.16999999999999998,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.6383605432510375,
+      "adjusted_retrieval_score_norm": 0.8132361229432457,
+      "rerank_score": -3.030019760131836,
+      "rerank_score_norm": 0.44006362755946854,
+      "final_score": 0.6826257495589237,
+      "text": "Table 1 | Study characteristics (Continued)\n\n| Study                          | Publication status. Registration   |   No of participants | Country                                               |   Mean age |   %Male | Exposure status                | Vaccinated (%)   | Treatments                     | Outcomes                                                                                                                                                        |\n|--------------------------------|------------------------------------|----------------------|-------------------------------------------------------|------------|---------|--------------------------------|------------------|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Grau-Pujol, 2020 31            | Published NCT04331834              |                  269 | Spain                                                 |       39.9 |   26.77 | Pre-exposure                   | NR               | Hydroxychloroquine; placebo    | Infection with covid-19 (lab confirmed), adverse effects leading to discontinuation                                                                             |\n| Gutiérrez-García, 2021 47      | Published RPCEC00000357            |                  170 | Mexico                                                |       42.4 |   26.38 | NR                             | 0*               | Neutral electrolysed water     | Infection with covid-19 (lab confirmed), adverse effects leading to discontinuation                                                                             |\n| Hosseinzadeh, 2021 48          | Pre-print I RCT2 0200727 048217N   |                  232 | Iran                                                  |       37.2 |   37.93 | Pre-exposure                   | NR               | Dimethyl sulfoxide nasal spray | Infection with covid-19 (lab confirmed)                                                                                                                         |\n| Isa, 2021 58                   | Pre-print NCT04519437              |                  969 | United States                                         |         48 |   55.11 | Pre-exposure                   | 0                | Casirivimab, imdevimab         | Mortality, infection with covid-19 (lab confirmed or lab confirmed, probable, and suspected), adverse effects leading to                                        |\n| Labhardt, 2021 49 COPEP        | Pre-print NCT04364022              |                  321 | Brazil, Switzerland                                   |       39.7 |   50.63 | Post-exposure                  | 0                | Lopinavir-ritonavir            | discontinuation Mortality, infection with covid-19 (lab confirmed)                                                                                              |\n| Levin, 2021 50 PROVENT         | Published NCT04625725              |                 5197 | Belgium, France, Spain, United Kingdom, United States |       53.5 |      54 | Pre-exposure                   | 0                | Cilgavimab, tixagevimab        | Mortality, infection with covid-19 (lab confirmed, probable, and suspected)                                                                                     |\n| McKinnon,2021 32 WHIP COVID-19 | Published NCT04341441              |                  598 | United States                                         |       44.9 |   41.87 | Pre-exposure and post-exposure | 0*               | Hydroxychloroquine             | Infection with covid-19 (lab confirmed or lab confirmed, probable, and suspected), admission to hospital                                                        |\n| Mikhaylov, 2021 51             | Published NCT04405999              |                   50 | Russia                                                |       40.6 |      42 | Pre-exposure                   | 0                | Bromhexine hydrochloride       | Mortality, infection with covid-19 (lab confirmed or lab confirmed, probable, and suspected), admission to hospital, adverse effects leading to discontinuation |\n| Mitja, 2020 33 BCN PEP-COV     | Published NCT04304053              |                 2525 | Spain                                                 |       48.7 |   27.05 | Post-exposure                  | 0*               | Hydroxychloroquine             | Mortality, infection with covid-19 (lab confirmed or lab confirmed, probable, and suspected), admission to hospital, adverse effects leading to discontinuation |\n| Naggie, 2021 34 HERO-HCQ       | Pre-print NCT04334148              |                 1360 | United States                                         |       43.7 |   34.66 | Pre-exposure                   | NR               | Hydroxychloroquine             | Mortality, infection with covid-19 (lab confirmed or lab confirmed, probable, and suspected), adverse effects leading to discontinuation                        |",
+      "images": []
+    },
+    {
+      "chunk_id": "text_10",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Methods",
+      "merged_headings": [],
+      "pages": [
+        2
+      ],
+      "word_count": 149,
+      "faiss_score": 0.37287527322769165,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.5228752732276917,
+      "adjusted_retrieval_score_norm": 0.6116005434715812,
+      "rerank_score": -1.614245891571045,
+      "rerank_score_norm": 0.7545517190263493,
+      "final_score": 0.6616334549157501,
+      "text": "The protocol provides detailed methods of this systematic review (see supplementary file). We report this living systematic review following the guidelines of the preferred reporting items for systematicreviewsandnetworkmeta-analyses(PRISMA)checklist. 11 A living systematic review is a cumulative synthesis updated regularly as new evidence becomes available. 4 12 The linked WHO living guideline methods team provided input on formulation of questions and other elements of data synthesis to allow evidence summaries to inform subsequent recommendations made by the Guideline Development Group. Wemonitoredlivingevidenceretrievalservicesonanongoingbasis. These included the Living Overview of the Evidence (L-OVE) COVID-19 Repository by the Epistemonikos Foundation 16 and the Systematic and Living Map on COVID-19 Evidence by the Norwegian Institute of Public Health, in collaboration with the Cochrane Canada Centre at McMaster University. 17 Wesearched all English information sources from 1 December 2019 to 4 March 2022, and the Chinese literature from conception of the databases to 20 February 2021.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_24",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Risk Of Bias In Included Studies",
+      "merged_headings": [],
+      "pages": [
+        10,
+        11
+      ],
+      "word_count": 222,
+      "faiss_score": 0.4832032322883606,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4832032322883606,
+      "adjusted_retrieval_score_norm": 0.5423337446667768,
+      "rerank_score": -1.419325351715088,
+      "rerank_score_norm": 0.7978497272240207,
+      "final_score": 0.6317643385618121,
+      "text": "Figure 2 summarises the assessment of risk of bias of the 32 included studies for each outcome. Thirteen studies proved at high risk of bias overall due to lack of blinding. 33 37 -39 41 42 47 -49 51 54 -56 Of these 13 studies, eight had insufficient detail regarding allocation concealment, 38 41 42 47 51 54 -56 and one terminated early due to benefit. 56 The supplementary material presents further details regarding the assessment of risk of bias. RBDIgY, 57 and enrolling 926 participants in total, were not included 100participants and observed less than 20 events in the prophylaxis Factor Randomisation Deviations from the intended intervention Missingoutcome data Measurement of outcome Selection of the reported results Competingrisks Total number of participants in trials Percentage of participants across trials with a low or probably low risk of bias Outcome Mortality resolution to discontinuation Time to symptom Laboratory confirmed SARS-CoV-2 infection Laboratory suspected SARS-CoV-2 infection Admission to hospital Adverse events leading Fig 2 | Summary of risk of bias relative and absolute effect estimates, and certainty of the evidence for all comparisons and outcomes. We did not detect statistical incoherence in any of the comparisons or outcomes. Figure 3 presents a summary of the effects of prophylactic drugs on the outcomes when compared with standard care/placebo, and we describe these results herein.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_22",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Subgroup And Sensitivity Analysis",
+      "merged_headings": [],
+      "pages": [
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "word_count": 300,
+      "faiss_score": 0.42240285873413086,
+      "keyword_bonus": 0.11,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.5324028587341308,
+      "adjusted_retrieval_score_norm": 0.6282355673509759,
+      "rerank_score": -2.3025498390197754,
+      "rerank_score_norm": 0.6016576731697763,
+      "final_score": 0.618933304387556,
+      "text": "The analysis plan includes performing subgroup analyses of pre-exposure versus post-exposure studies, preprints versus peer-reviewed studies and high versus low risk of bias studies when there are at least two studies in each subgroup. We plan to perform networkmeta-regression to explore if duration of prophylactic drug use may modify the relative effect of the drug on adverse effects leading to discontinuation hypothesising that, if the drug is active at the time of exposure, it will have a greater relative effect. The linked independent WHOguidelinepanelsmaydirect,inthefuture, additional subgroup analyses; in the first version, the panel provided direction to perform subgroup analyses by drug prophylaxisdurationanddose.TheCredibilityofEffectModification Analyses in randomised controlled trials and meta-analyses (ICEMAN) tool provides the methodology for, whenever statistical evidence of a subgroup effect exists, assessing subgroup hypothesis credibility. 27 Fig 1 | Study selection Of the 32 eligible randomised trials, 22 (69%) were published in peer reviewed journals and 10 (31%) only as preprint. All trials were published in English. Almost all trials were registered (31, 97%) and evaluated prophylactic drugs against standard care or placebo (30, 94%). Among the 27 randomised trials that reported covid-19 exposure status of participants, 18 evaluated prophylactic drugs in participants without documented exposure to covid-19 (pre-exposure) and seven evaluated prophylactic drugs in participants with documented exposure to covid-19 (post-exposure). Two randomised trials evaluated prophylactic drugs in both participants pre-exposure and post-exposure to covid-19. Of the 21 trials for which the covid-19 vaccination status of the study population was reported or could be inferred, one was conducted among participants who received two doses of a covid-19 vaccine. 44 Table 1 presents the characteristics of the 32 included studies. Table 1 | Study characteristics Table 1 | Study characteristics (Continued) Table 1 | Study characteristics (Continued) * Inferred based on date range of patient enrolment when possible.",
+      "images": [
+        {
+          "image_id": "figure_2",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\nowySet_results\\bmj.n949.full\\images\\figure_002_Subgroup_And_Sensitivity_Analysis.png",
+          "relative_path": "images\\figure_002_Subgroup_And_Sensitivity_Analysis.png",
+          "caption": "Fig 1 | Study selection",
+          "section": "Subgroup And Sensitivity Analysis",
+          "page_number": 5
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_7",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Study Selection",
+      "merged_headings": [],
+      "pages": [
+        1
+      ],
+      "word_count": 27,
+      "faiss_score": 0.48415082693099976,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.48415082693099976,
+      "adjusted_retrieval_score_norm": 0.5439882309474441,
+      "rerank_score": -1.7874534130096436,
+      "rerank_score_norm": 0.7160768579948295,
+      "final_score": 0.6042192504140289,
+      "text": "Randomisedtrials in which people at risk of covid-19 were allocated to prophylaxis or no prophylaxis (standard care or placebo). Pairs of reviewers independently screened potentially eligible articles.",
+      "images": []
+    }
+  ]
+}

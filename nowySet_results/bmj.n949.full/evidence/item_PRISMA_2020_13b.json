@@ -1,0 +1,218 @@
+{
+  "item_id": "PRISMA_2020_13b",
+  "item_label": "13b",
+  "checklist_item": "Describe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions.",
+  "semantic_query": "Synthesis methods. Describe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions. the authors describe data preparation methods (handling missing stats, conversions, transformations) used before synthesis. Explicit description of conversions/handling missing summary statistics if performed\nDescribe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions.\nRelevant terminology: missing summary statistics; confidence interval; standard deviation; data harmonization; data preparation; unit conversion; standard error; median to mean; prepared data; missing data; transformation; imputation",
+  "top_evidence": [
+    {
+      "chunk_id": "text_18",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Data Synthesis",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 138,
+      "faiss_score": 0.30347102880477905,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.4534710288047791,
+      "adjusted_retrieval_score_norm": 1.0,
+      "rerank_score": -1.7728314399719238,
+      "rerank_score_norm": 0.7453499682035436,
+      "final_score": 0.9108724888712403,
+      "text": "Werated the certainty of no important effect for the outcomes laboratory confirmed infection; suspected, probable or laboratory confirmed infection; admission to hospital; and mortality. Pending datafromquantitativestudiesofpatientvalues,wechosethresholds of small but important effects of 0.1% for mortality; 2% for adverse events leading to discontinuation and laboratory confirmed infection; 3% for suspected, probable, or laboratory confirmed infection; and 1% for admission to hospital. We rated the certainty that there is an increase or decrease in adverse effects leading to discontinuation using the null effect as a threshold. We created GRADE evidence summaries (Summary of Findings tables), developed in the MAGIC Authoring and Publication Platform (www.magicapp.org),toprovideuserfriendly formats for clinicians and patients, and allow re-use in the context of clinical practice guidelines for covid-19, such as the WHO living guidelines. 56 Interim updates and additional study data will appear on our website (www.covid19lnma.com).",
+      "images": []
+    },
+    {
+      "chunk_id": "text_10",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Methods",
+      "merged_headings": [],
+      "pages": [
+        2
+      ],
+      "word_count": 149,
+      "faiss_score": 0.170530766248703,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.320530766248703,
+      "adjusted_retrieval_score_norm": 0.6629551830776254,
+      "rerank_score": 0.2980593144893646,
+      "rerank_score_norm": 1.0,
+      "final_score": 0.7809208690004565,
+      "text": "The protocol provides detailed methods of this systematic review (see supplementary file). We report this living systematic review following the guidelines of the preferred reporting items for systematicreviewsandnetworkmeta-analyses(PRISMA)checklist. 11 A living systematic review is a cumulative synthesis updated regularly as new evidence becomes available. 4 12 The linked WHO living guideline methods team provided input on formulation of questions and other elements of data synthesis to allow evidence summaries to inform subsequent recommendations made by the Guideline Development Group. Wemonitoredlivingevidenceretrievalservicesonanongoingbasis. These included the Living Overview of the Evidence (L-OVE) COVID-19 Repository by the Epistemonikos Foundation 16 and the Systematic and Living Map on COVID-19 Evidence by the Norwegian Institute of Public Health, in collaboration with the Cochrane Canada Centre at McMaster University. 17 Wesearched all English information sources from 1 December 2019 to 4 March 2022, and the Chinese literature from conception of the databases to 20 February 2021.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_8",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Methods",
+      "merged_headings": [],
+      "pages": [
+        1
+      ],
+      "word_count": 47,
+      "faiss_score": 0.16282477974891663,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.31282477974891665,
+      "adjusted_retrieval_score_norm": 0.6434181161342588,
+      "rerank_score": -0.8097783327102661,
+      "rerank_score_norm": 0.8637731654955965,
+      "final_score": 0.720542383410727,
+      "text": "After duplicate data abstraction, we conducted random-effects bayesian network meta-analysis. We assessed risk of bias of the included studies using a modification of the Cochrane risk of bias 2.0 tool andassessed the certainty of the evidence using the grading of recommendations assessment, development and evaluation (GRADE) approach.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_16",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Statistical Analysis",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 161,
+      "faiss_score": 0.1337505280971527,
+      "keyword_bonus": 0.03,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.3137505280971527,
+      "adjusted_retrieval_score_norm": 0.6457651754566052,
+      "rerank_score": -2.3436522483825684,
+      "rerank_score_norm": 0.6751581743106481,
+      "final_score": 0.6560527250555201,
+      "text": "For outcomes with sufficient data, we performed random effects network meta-analysis using the R package gemtc 21 andusedthree Markov chains with 100 000 iterations after an initial burn-in of 10 000 and a thinning of 10. Node splitting models provided methods to obtain indirect estimates and to assess local heterogeneity. 22 We performed analyses in RStudio version 3.5.3 (R Studio, Boston, MA, USA). 23 Wechoseanon-informativepriorforthevarianceparameter and a uniform prior for the effect parameter. 24 Outcomes were analysed regardless of whether they were pre-specified in a protocol or trial registration. The foundational R codes are publicly available at https://github.com/covid19lnma/prophylaxis_NMA. Because of inconsistent reporting across trials, when possible, we preferentially extracted participant characteristics and outcome data for participants with a polymerase chain reaction (PCR) test that was negative for SARS-CoV-2 infection at baseline. If authors did not report data separately for those who were PCR-negative for SARS-CoV-2 infection at baseline, we extracted data from all participants, regardless of their PCR status at baseline.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_13",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Data Collection",
+      "merged_headings": [],
+      "pages": [
+        2
+      ],
+      "word_count": 130,
+      "faiss_score": 0.24515706300735474,
+      "keyword_bonus": 0.03,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.27515706300735476,
+      "adjusted_retrieval_score_norm": 0.5479187659077737,
+      "rerank_score": -2.648392677307129,
+      "rerank_score_norm": 0.6376853333372032,
+      "final_score": 0.579337064508074,
+      "text": "For each eligible trial, following training and calibration exercises, pairs of reviewers extracted data independently using a standardised, pilot tested data extraction form. Reviewers collected information on trial characteristics (trial registration, publication status, study status, design), participant characteristics (country, age, sex, comorbidities), exposure characteristics (exposure status, exposureduration,highriskgroup)andoutcomesofinterest(means or medians and measures of variability for continuous outcomes and the number of participants analysed and the number of participants who experienced an event for dichotomous outcomes). Reviewers resolved discrepancies by discussion and, when necessary, with adjudication by a third party. Weexcluded randomised trials published only as press releases and trials that evaluated vaccination, nutrition, and non-drug supportive care interventions. We synthesised randomised trials that evaluated drugs, and antibody and cellular therapies for treatment of covid-19 in separate living network meta-analyses. 8 9",
+      "images": []
+    },
+    {
+      "chunk_id": "text_4",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Systematic Review Registration",
+      "merged_headings": [],
+      "pages": [
+        1
+      ],
+      "word_count": 15,
+      "faiss_score": 0.19738292694091797,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.19738292694091797,
+      "adjusted_retrieval_score_norm": 0.35073719767707395,
+      "rerank_score": -1.750180959701538,
+      "rerank_score_norm": 0.7481352167776815,
+      "final_score": 0.4898265043622866,
+      "text": "This review was not registered. The protocol established a priori is included as a supplement.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_7",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Study Selection",
+      "merged_headings": [],
+      "pages": [
+        1
+      ],
+      "word_count": 27,
+      "faiss_score": 0.19070279598236084,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.19070279598236084,
+      "adjusted_retrieval_score_norm": 0.3338009928535378,
+      "rerank_score": -2.0249013900756836,
+      "rerank_score_norm": 0.7143538276922342,
+      "final_score": 0.4669944850470816,
+      "text": "Randomisedtrials in which people at risk of covid-19 were allocated to prophylaxis or no prophylaxis (standard care or placebo). Pairs of reviewers independently screened potentially eligible articles.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_12",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Study Selection",
+      "merged_headings": [],
+      "pages": [
+        2
+      ],
+      "word_count": 33,
+      "faiss_score": 0.18820911645889282,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.18820911645889282,
+      "adjusted_retrieval_score_norm": 0.32747874147317946,
+      "rerank_score": -1.9356904029846191,
+      "rerank_score_norm": 0.7253237838091335,
+      "final_score": 0.4667245062907634,
+      "text": "Usingasystematicreviewsoftware, Covidence, 18 following training andcalibration exercises, pairs of reviewers independently screened all titles and abstracts, followed by full texts of trials that were identified as potentially eligible. A third reviewer adjudicated conflicts.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_19",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Summary Measures",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 167,
+      "faiss_score": 0.13737866282463074,
+      "keyword_bonus": 0.08,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.21737866282463075,
+      "adjusted_retrieval_score_norm": 0.4014325928160096,
+      "rerank_score": -4.298720359802246,
+      "rerank_score_norm": 0.4347504388157985,
+      "final_score": 0.41309383891593576,
+      "text": "Wesummarised the effect of prophylactic drugs on laboratory confirmed infection and on laboratory confirmed, suspected, and probable infection using odds ratios (ORs) and corresponding 95% credible intervals (CrIs). Due to low number of events in most studies, we summarised all other dichotomous outcomes using risk differences (RDs) and corresponding 95% credible intervals (CrIs). To mitigate the risk of obtaining results with highly implausible and extremely imprecise effect estimates, the analyses included only prophylactic drugs with at least 100 participants or 20 events, regardless of the number of studies in which the drug was assessed or the number of participants who received the drug in each study. 9 The supplementary file presents results from a sensitivity analysis demonstrating that the estimated relative effects and their confidence intervals for comparisons between treatments with at least 100 patients or 20 events were similar regardless of whether or not treatments with fewer patients and events were included in the network meta-analysis. The analysis plan included, data permitting, adjustment for cluster randomisation.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_15",
+      "document_title": "Prophylaxis against covid-19: living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Treatment Nodes",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 83,
+      "faiss_score": 0.19851481914520264,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.19851481914520264,
+      "adjusted_retrieval_score_norm": 0.35360689564090986,
+      "rerank_score": -3.7438268661499023,
+      "rerank_score_norm": 0.5029837077595165,
+      "final_score": 0.4058887798824222,
+      "text": "Wecreated nodes for each prophylactic drug (or combination of drugs), independent of dose or duration. Standard care and placebo arms across included trials were combined into a single node for analyses. We used the networkplot command of Stata version 15.1 (StataCorp, College Station, TX) to create network plots in which the inverse variance of the direct comparison was proportional to the thickness of lines between nodes and the number of participants randomised to the intervention was proportional to the size of nodes. 20",
+      "images": []
+    }
+  ]
+}

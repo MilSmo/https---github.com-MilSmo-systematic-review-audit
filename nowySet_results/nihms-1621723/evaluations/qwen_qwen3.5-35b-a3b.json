@@ -1,0 +1,2047 @@
+[
+  {
+    "item_id": "PRISMA_2020_1",
+    "item_label": "1",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_1\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_1_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": null,\n      \"quote\": \"Systematic Review and Meta-Analysis\",\n      \"reason\": \"The document title explicitly identifies the report as a systematic review and meta-analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": null,\n      \"quote\": \"Effectiveness of Non-Pharmacological Interventions for Treating Post-Stroke Depressive Symptoms\",\n      \"reason\": \"The title specifies the intervention (Non-Pharmacological Interventions) and the population/condition (Post-Stroke Depressive Symptoms).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": null,\n      \"quote\": \"Systematic Review and Meta-Analysis of Randomized Controlled Trials\",\n      \"reason\": \"The title provides supplementary information regarding the analysis method (Systematic Review and Meta-Analysis) and included study designs (Randomized Controlled Trials).\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_1",
+      "elements": [
+        {
+          "element_id": "prisma_2020_1_e1",
+          "status": "PRESENT",
+          "chunk_id": null,
+          "quote": "Systematic Review and Meta-Analysis",
+          "reason": "The document title explicitly identifies the report as a systematic review and meta-analysis."
+        },
+        {
+          "element_id": "prisma_2020_1_e2",
+          "status": "PRESENT",
+          "chunk_id": null,
+          "quote": "Effectiveness of Non-Pharmacological Interventions for Treating Post-Stroke Depressive Symptoms",
+          "reason": "The title specifies the intervention (Non-Pharmacological Interventions) and the population/condition (Post-Stroke Depressive Symptoms)."
+        },
+        {
+          "element_id": "prisma_2020_1_e3",
+          "status": "PRESENT",
+          "chunk_id": null,
+          "quote": "Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+          "reason": "The title provides supplementary information regarding the analysis method (Systematic Review and Meta-Analysis) and included study designs (Randomized Controlled Trials)."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_2",
+    "item_label": "2",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_2\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_2_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": null,\n      \"reason\": \"The abstract text (text_2) does not explicitly state that the report is a systematic review, although the document title does.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Objective: To compare the effectiveness of non-pharmacological interventions on depressive symptoms in people after stroke.\",\n      \"reason\": \"The abstract explicitly states the objective in the 'Objective' section.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e3\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Study Selection: We included randomized controlled trials comparing non-pharmacological interventions to control conditions for depressive symptoms in people following stroke.\",\n      \"reason\": \"The abstract specifies inclusion criteria but does not explicitly state exclusion criteria.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Data Sources: A literature search was performed through the following databases from January 2000 to August 2018: MEDLINE; CINAHL Plus; Scopus; Academic Search Complete; Cochrane Central Register of Controlled Trials; Scopus; and Library, Information Science and Technology Abstracts.\",\n      \"reason\": \"The abstract identifies the databases used and the date range of the search.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": null,\n      \"reason\": \"The abstract does not mention the methods used to assess risk of bias in the included studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n     ",
+    "parsed": {
+      "raw_response": "{\n  \"item_id\": \"PRISMA_2020_2\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_2_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": null,\n      \"reason\": \"The abstract text (text_2) does not explicitly state that the report is a systematic review, although the document title does.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Objective: To compare the effectiveness of non-pharmacological interventions on depressive symptoms in people after stroke.\",\n      \"reason\": \"The abstract explicitly states the objective in the 'Objective' section.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e3\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Study Selection: We included randomized controlled trials comparing non-pharmacological interventions to control conditions for depressive symptoms in people following stroke.\",\n      \"reason\": \"The abstract specifies inclusion criteria but does not explicitly state exclusion criteria.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Data Sources: A literature search was performed through the following databases from January 2000 to August 2018: MEDLINE; CINAHL Plus; Scopus; Academic Search Complete; Cochrane Central Register of Controlled Trials; Scopus; and Library, Information Science and Technology Abstracts.\",\n      \"reason\": \"The abstract identifies the databases used and the date range of the search.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": null,\n      \"reason\": \"The abstract does not mention the methods used to assess risk of bias in the included studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n     ",
+      "parse_error": true
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_3",
+    "item_label": "3",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "\n\n{\n  \"item_id\": \"PRISMA_2020_3\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_3_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Stroke is the most common cause of complex disability. 1 Neuropsychiatric symptoms are often associated with stroke; among them, depression is the most prevalent. Prevalence of major depression in people after stroke is 25% at the acute stage and 31% at 3 months poststroke 2 ; however, few individuals receive effective management for depressive symptoms post-stroke. 3 ... Three meta-analyses have been conducted to provide synthesized evidence on the effectiveness of pharmacological interventions for depressive symptoms following stroke, but results were mixed. 5,6,9 ... However, none of these reviews quantitatively demonstrated the effectiveness of different types of NPIs.\",\n      \"reason\": \"The text describes the prevalence and impact of post-stroke depression, notes the mixed results of existing pharmacological meta-analyses, and highlights the lack of quantitative evidence for non-pharmacological interventions, thereby describing the current state of knowledge and uncertainties.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Unaddressed depressive symptoms can lead to devastating effects... For these reasons, an alternative, or addition, to pharmaceutical options is essential to ensure effective management of depressive symptoms after stroke. ... Therefore, to address this research gap, this study aimed to conduct a meta-analysis to synthesize and compare the available evidence regarding the effectiveness of various NPIs for treating depression in people following stroke.\",\n      \"reason\": \"The text explains the negative consequences of unaddressed depression, the limitations of pharmacological options, and explicitly states the study's aim to address the research gap, explaining the importance and need for the review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Three meta-analyses have been conducted to provide synthesized evidence on the effectiveness of pharmacological interventions for depressive symptoms following stroke, but results were mixed. 5,6,9 ... Three reviews have identified several NPIs for post-stroke depression and have qualitatively provided evidence. 8,11,14 ... However, none of these reviews quantitatively demonstrated the effectiveness of different types of NPIs. Therefore, to address this research gap, this study aimed to conduct a meta-analysis...\",\n      \"reason\": \"The text identifies existing systematic reviews (citing authors like Chen et al., Hackett et al.), explains the limitations of those reviews (mixed results, qualitative only), and justifies the current review as a quantitative synthesis to fill that gap.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The text defines NPIs as 'science-based and non-invasive interventions' but does not describe the specific biological or psychological mechanism of action by which these interventions ameliorate depressive symptoms.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of a logic model or hypothesised relationships between intervention components and outcomes in the provided Introduction text.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_3",
+      "elements": [
+        {
+          "element_id": "prisma_2020_3_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Stroke is the most common cause of complex disability. 1 Neuropsychiatric symptoms are often associated with stroke; among them, depression is the most prevalent. Prevalence of major depression in people after stroke is 25% at the acute stage and 31% at 3 months poststroke 2 ; however, few individuals receive effective management for depressive symptoms post-stroke. 3 ... Three meta-analyses have been conducted to provide synthesized evidence on the effectiveness of pharmacological interventions for depressive symptoms following stroke, but results were mixed. 5,6,9 ... However, none of these reviews quantitatively demonstrated the effectiveness of different types of NPIs.",
+          "reason": "The text describes the prevalence and impact of post-stroke depression, notes the mixed results of existing pharmacological meta-analyses, and highlights the lack of quantitative evidence for non-pharmacological interventions, thereby describing the current state of knowledge and uncertainties."
+        },
+        {
+          "element_id": "prisma_2020_3_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Unaddressed depressive symptoms can lead to devastating effects... For these reasons, an alternative, or addition, to pharmaceutical options is essential to ensure effective management of depressive symptoms after stroke. ... Therefore, to address this research gap, this study aimed to conduct a meta-analysis to synthesize and compare the available evidence regarding the effectiveness of various NPIs for treating depression in people following stroke.",
+          "reason": "The text explains the negative consequences of unaddressed depression, the limitations of pharmacological options, and explicitly states the study's aim to address the research gap, explaining the importance and need for the review."
+        },
+        {
+          "element_id": "prisma_2020_3_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Three meta-analyses have been conducted to provide synthesized evidence on the effectiveness of pharmacological interventions for depressive symptoms following stroke, but results were mixed. 5,6,9 ... Three reviews have identified several NPIs for post-stroke depression and have qualitatively provided evidence. 8,11,14 ... However, none of these reviews quantitatively demonstrated the effectiveness of different types of NPIs. Therefore, to address this research gap, this study aimed to conduct a meta-analysis...",
+          "reason": "The text identifies existing systematic reviews (citing authors like Chen et al., Hackett et al.), explains the limitations of those reviews (mixed results, qualitative only), and justifies the current review as a quantitative synthesis to fill that gap."
+        },
+        {
+          "element_id": "prisma_2020_3_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The text defines NPIs as 'science-based and non-invasive interventions' but does not describe the specific biological or psychological mechanism of action by which these interventions ameliorate depressive symptoms."
+        },
+        {
+          "element_id": "prisma_2020_3_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of a logic model or hypothesised relationships between intervention components and outcomes in the provided Introduction text."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_3_e4",
+        "prisma_2020_3_e5"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_4",
+    "item_label": "4",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "\n\n{\n  \"item_id\": \"PRISMA_2020_4\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_4_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Objective: To compare the effectiveness of non-pharmacological interventions on depressive symptoms in people after stroke.\",\n      \"reason\": \"The abstract explicitly states the objective of the review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_4_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"The PICOS (Participants, Interventions, Comparisons, Outcomes, Study Designs) checklist was used to identify the inclusion criteria in this review.\",\n      \"reason\": \"The manuscript explicitly states the use of the PICOS framework to define inclusion criteria, detailing Participants, Interventions, Comparisons, Outcomes, and Study Designs.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_4",
+      "elements": [
+        {
+          "element_id": "prisma_2020_4_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Objective: To compare the effectiveness of non-pharmacological interventions on depressive symptoms in people after stroke.",
+          "reason": "The abstract explicitly states the objective of the review."
+        },
+        {
+          "element_id": "prisma_2020_4_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "The PICOS (Participants, Interventions, Comparisons, Outcomes, Study Designs) checklist was used to identify the inclusion criteria in this review.",
+          "reason": "The manuscript explicitly states the use of the PICOS framework to define inclusion criteria, detailing Participants, Interventions, Comparisons, Outcomes, and Study Designs."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_5",
+    "item_label": "5",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_5\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_5_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"The PICOS (Participants, Interventions, Comparisons, Outcomes, Study Designs) checklist was used to identify the inclusion criteria in this review. 17 Participants (P): This review included trials if they targeted persons with stroke (ischemic and hemorrhagic), regardless of comorbidities and any previous treatments, but excluded those with manic or psychotic episodes/symptoms in order to reduce biases associated with non-target symptoms. Participants were included whether or not they received pharmacological interventions (any dosage or duration) for depression or other illnesses. Interventions (I) and controls (C): This review considered trials that compared the effects of NPIs for post-stroke individuals with depressive symptoms (eg, music therapy, massage therapy, behavioral therapy, or physical exercise with any frequency, intensity, or duration) to control conditions, such as usual treatment. Outcomes (O): The primary outcome of this review was depressive symptoms, measured by any validated depression scale. Study designs (S): This review considered any RCT with a pre-post design, meaning that outcomes were measured at pre-intervention, post-intervention, and follow-up.\",\n      \"reason\": \"The study explicitly specifies all PICOS components, including participants (stroke), interventions (NPIs), comparisons (control), outcomes (depressive symptoms), and study designs (RCT with pre-post/follow-up).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"The search was restricted to randomized controlled trials (RCTs) written in English and published in peer-reviewed journals.\",\n      \"reason\": \"The manuscript specifies language (English) and publication status (peer-reviewed journals). The dissemination year (January 2000 to August 2018) is specified in text_5.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript states 25 articles were excluded for not meeting inclusion criteria but does not explicitly distinguish between exclusion due to outcomes not being measured versus outcomes not being reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"These trials were grouped into four types: CAT (n = 5), exercise (n = 4), psychosocial therapy (n = 2), and multifactorial therapy (n = 2) (Table 2).\",\n      \"reason\": \"The groups used in synthesis (CAT, exercise, psychosocial, multifactorial) are specified and linked to the NPI comparisons defined in the objectives.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"Trials published between January 2000 and August 2018 were considered for inclusion; this date range reflects findings from an initial search in MEDLINE and CINAHL, which showed no relevant trials before 2000.\",\n      \"reason\": \"A rationale is provided for the year restriction (reflects findings from an initial search). Additionally, text_6 provides a rationale for excluding participants with manic or psychotic episodes.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_5",
+      "elements": [
+        {
+          "element_id": "prisma_2020_5_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "The PICOS (Participants, Interventions, Comparisons, Outcomes, Study Designs) checklist was used to identify the inclusion criteria in this review. 17 Participants (P): This review included trials if they targeted persons with stroke (ischemic and hemorrhagic), regardless of comorbidities and any previous treatments, but excluded those with manic or psychotic episodes/symptoms in order to reduce biases associated with non-target symptoms. Participants were included whether or not they received pharmacological interventions (any dosage or duration) for depression or other illnesses. Interventions (I) and controls (C): This review considered trials that compared the effects of NPIs for post-stroke individuals with depressive symptoms (eg, music therapy, massage therapy, behavioral therapy, or physical exercise with any frequency, intensity, or duration) to control conditions, such as usual treatment. Outcomes (O): The primary outcome of this review was depressive symptoms, measured by any validated depression scale. Study designs (S): This review considered any RCT with a pre-post design, meaning that outcomes were measured at pre-intervention, post-intervention, and follow-up.",
+          "reason": "The study explicitly specifies all PICOS components, including participants (stroke), interventions (NPIs), comparisons (control), outcomes (depressive symptoms), and study designs (RCT with pre-post/follow-up)."
+        },
+        {
+          "element_id": "prisma_2020_5_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "The search was restricted to randomized controlled trials (RCTs) written in English and published in peer-reviewed journals.",
+          "reason": "The manuscript specifies language (English) and publication status (peer-reviewed journals). The dissemination year (January 2000 to August 2018) is specified in text_5."
+        },
+        {
+          "element_id": "prisma_2020_5_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript states 25 articles were excluded for not meeting inclusion criteria but does not explicitly distinguish between exclusion due to outcomes not being measured versus outcomes not being reported."
+        },
+        {
+          "element_id": "prisma_2020_5_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "These trials were grouped into four types: CAT (n = 5), exercise (n = 4), psychosocial therapy (n = 2), and multifactorial therapy (n = 2) (Table 2).",
+          "reason": "The groups used in synthesis (CAT, exercise, psychosocial, multifactorial) are specified and linked to the NPI comparisons defined in the objectives."
+        },
+        {
+          "element_id": "prisma_2020_5_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "Trials published between January 2000 and August 2018 were considered for inclusion; this date range reflects findings from an initial search in MEDLINE and CINAHL, which showed no relevant trials before 2000.",
+          "reason": "A rationale is provided for the year restriction (reflects findings from an initial search). Additionally, text_6 provides a rationale for excluding participants with manic or psychotic episodes."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_5_e3"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_6",
+    "item_label": "6",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_7",
+    "item_label": "7",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_7\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_7_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_17\",\n      \"quote\": \"Appendix A.: Medical Subject Headings (Mesh) Terms > Academic Search Complete ... (TI (depres* OR mood OR negative affect*) OR AB (depres* OR mood OR negative affect*)) AND (TI (stroke* OR 'stroke survivor*') OR AB (stroke* OR 'stroke survivor*')) ...\",\n      \"reason\": \"The search strategy is reported for Academic Search Complete (text_17), but the text_5 indicates multiple databases were searched (Academic Search Complete, CINAHL Plus, MEDLINE, Cochrane, Scopus, LISA) without providing the specific strategies for all of them in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"Trials published between January 2000 and August 2018 were considered for inclusion; this date range reflects findings from an initial search in MEDLINE and CINAHL, which showed no relevant trials before 2000.\",\n      \"reason\": \"The text explicitly describes the date limits (January 2000 to August 2018) and provides justification for this limit based on an initial search.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"This review followed the procedures outlined in the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidleines 15,16 (Figure 1).\",\n      \"reason\": \"While PRISMA guidelines are cited, no specific published search approaches or filters used to develop the search strategy are cited or described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The search strategy utilized in this review consisted of three parts. First, an initial search of MEDLINE and CINAHL was performed...\",\n      \"reason\": \"There is no mention of natural-language processing or text-analysis tools used to identify or refine search terms.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"Next, a second search using all identified interventions was performed across the following major online databases...\",\n      \"reason\": \"There is no mention of tools used to translate search strings between sources.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"All search processes were performed with the assistance of an academic librarian.\",\n      \"reason\": \"There is no description of validation of the search strategy, including the validation process or validation studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"All search processes were performed with the assistance of an academic librarian.\",\n      \"reason\": \"There is no description of peer review of the search strategy, such as using the PRESS checklist.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The search strategy for the second search included a combination of population, intervention, and outcome keywords and Medical Subject Heading (MeSH) terms (Appendix A).\",\n      \"reason\": \"The search strategy explicitly mentions population, intervention, and outcome keywords, indicating it was based on PICO, so the condition for this element (when not based on PICO) does not apply.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_7",
+      "elements": [
+        {
+          "element_id": "prisma_2020_7_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_17",
+          "quote": "Appendix A.: Medical Subject Headings (Mesh) Terms > Academic Search Complete ... (TI (depres* OR mood OR negative affect*) OR AB (depres* OR mood OR negative affect*)) AND (TI (stroke* OR 'stroke survivor*') OR AB (stroke* OR 'stroke survivor*')) ...",
+          "reason": "The search strategy is reported for Academic Search Complete (text_17), but the text_5 indicates multiple databases were searched (Academic Search Complete, CINAHL Plus, MEDLINE, Cochrane, Scopus, LISA) without providing the specific strategies for all of them in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_7_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "Trials published between January 2000 and August 2018 were considered for inclusion; this date range reflects findings from an initial search in MEDLINE and CINAHL, which showed no relevant trials before 2000.",
+          "reason": "The text explicitly describes the date limits (January 2000 to August 2018) and provides justification for this limit based on an initial search."
+        },
+        {
+          "element_id": "prisma_2020_7_e3",
+          "status": "MISSING",
+          "chunk_id": "text_5",
+          "quote": "This review followed the procedures outlined in the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidleines 15,16 (Figure 1).",
+          "reason": "While PRISMA guidelines are cited, no specific published search approaches or filters used to develop the search strategy are cited or described."
+        },
+        {
+          "element_id": "prisma_2020_7_e4",
+          "status": "MISSING",
+          "chunk_id": "text_5",
+          "quote": "The search strategy utilized in this review consisted of three parts. First, an initial search of MEDLINE and CINAHL was performed...",
+          "reason": "There is no mention of natural-language processing or text-analysis tools used to identify or refine search terms."
+        },
+        {
+          "element_id": "prisma_2020_7_e5",
+          "status": "MISSING",
+          "chunk_id": "text_5",
+          "quote": "Next, a second search using all identified interventions was performed across the following major online databases...",
+          "reason": "There is no mention of tools used to translate search strings between sources."
+        },
+        {
+          "element_id": "prisma_2020_7_e6",
+          "status": "MISSING",
+          "chunk_id": "text_5",
+          "quote": "All search processes were performed with the assistance of an academic librarian.",
+          "reason": "There is no description of validation of the search strategy, including the validation process or validation studies."
+        },
+        {
+          "element_id": "prisma_2020_7_e7",
+          "status": "MISSING",
+          "chunk_id": "text_5",
+          "quote": "All search processes were performed with the assistance of an academic librarian.",
+          "reason": "There is no description of peer review of the search strategy, such as using the PRESS checklist."
+        },
+        {
+          "element_id": "prisma_2020_7_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_5",
+          "quote": "The search strategy for the second search included a combination of population, intervention, and outcome keywords and Medical Subject Heading (MeSH) terms (Appendix A).",
+          "reason": "The search strategy explicitly mentions population, intervention, and outcome keywords, indicating it was based on PICO, so the condition for this element (when not based on PICO) does not apply."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_7_e1",
+        "prisma_2020_7_e3",
+        "prisma_2020_7_e4",
+        "prisma_2020_7_e5",
+        "prisma_2020_7_e6",
+        "prisma_2020_7_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_8",
+    "item_label": "8",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_8\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_8_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The entire procedure of selecting included trials was independently carried out by two reviewers (YL & BC)\",\n      \"reason\": \"The text explicitly states that two reviewers carried out the selection procedure.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The entire procedure of selecting included trials was independently carried out by two reviewers (YL & BC)\",\n      \"reason\": \"The text explicitly states the procedure was carried out independently by two reviewers.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"any discrepancies between the two reviewers were resolved by a third reviewer (AW)\",\n      \"reason\": \"The text describes the process for resolving discrepancies between reviewers.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The text mentions contacting authors for insufficient data during data extraction (text_8), but does not describe processes for obtaining eligibility information from investigators during selection.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"The search was restricted to randomized controlled trials (RCTs) written in English\",\n      \"reason\": \"The review restricted inclusion to English articles, making translation methods not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of automation tools used in the selection process in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of externally derived classifiers in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e8\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of internally derived classifiers in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e9\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of machine-learning prioritisation tools in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e10\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of crowdsourcing platforms in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e11\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of previously screened datasets in the retrieved evidence.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_8",
+      "elements": [
+        {
+          "element_id": "prisma_2020_8_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "The entire procedure of selecting included trials was independently carried out by two reviewers (YL & BC)",
+          "reason": "The text explicitly states that two reviewers carried out the selection procedure."
+        },
+        {
+          "element_id": "prisma_2020_8_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "The entire procedure of selecting included trials was independently carried out by two reviewers (YL & BC)",
+          "reason": "The text explicitly states the procedure was carried out independently by two reviewers."
+        },
+        {
+          "element_id": "prisma_2020_8_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "any discrepancies between the two reviewers were resolved by a third reviewer (AW)",
+          "reason": "The text describes the process for resolving discrepancies between reviewers."
+        },
+        {
+          "element_id": "prisma_2020_8_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The text mentions contacting authors for insufficient data during data extraction (text_8), but does not describe processes for obtaining eligibility information from investigators during selection."
+        },
+        {
+          "element_id": "prisma_2020_8_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_6",
+          "quote": "The search was restricted to randomized controlled trials (RCTs) written in English",
+          "reason": "The review restricted inclusion to English articles, making translation methods not applicable."
+        },
+        {
+          "element_id": "prisma_2020_8_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of automation tools used in the selection process in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_8_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of externally derived classifiers in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_8_e8",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of internally derived classifiers in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_8_e9",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of machine-learning prioritisation tools in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_8_e10",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of crowdsourcing platforms in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_8_e11",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of previously screened datasets in the retrieved evidence."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_8_e4",
+        "prisma_2020_8_e6",
+        "prisma_2020_8_e7",
+        "prisma_2020_8_e8",
+        "prisma_2020_8_e9",
+        "prisma_2020_8_e10",
+        "prisma_2020_8_e11"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_9",
+    "item_label": "9",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_9\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_9_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Details of the eligible trials were extracted and summarized independently by two reviewers\",\n      \"reason\": \"Explicitly states two reviewers were involved in data extraction.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Details of the eligible trials were extracted and summarized independently by two reviewers\",\n      \"reason\": \"Explicitly states reviewers worked independently.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"any discrepancies in data abstraction between the two reviewers were resolved via discussion with the third reviewer\",\n      \"reason\": \"Describes the process for resolving disagreements (discussion with third reviewer).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"If the study reported insufficient data, the corresponding author was contacted to obtain further details\",\n      \"reason\": \"Describes the process for obtaining/confirming data from investigators.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Data were extracted from the included trials using the standardized data extraction tool from JBI-MAStARI\",\n      \"reason\": \"Mentions a standardized tool but no automation tools (software/scripts) for data collection are described; requirement is conditional on use.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": null,\n      \"reason\": \"No mention of translating articles; search strategy implies English language focus.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": null,\n      \"reason\": \"No mention of software used to extract data from figures.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Finally, 22 original trials were included in this review\",\n      \"reason\": \"Implies no multiple reports from the same study were handled, making decision rules for such cases not applicable.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_9",
+      "elements": [
+        {
+          "element_id": "prisma_2020_9_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Details of the eligible trials were extracted and summarized independently by two reviewers",
+          "reason": "Explicitly states two reviewers were involved in data extraction."
+        },
+        {
+          "element_id": "prisma_2020_9_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Details of the eligible trials were extracted and summarized independently by two reviewers",
+          "reason": "Explicitly states reviewers worked independently."
+        },
+        {
+          "element_id": "prisma_2020_9_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "any discrepancies in data abstraction between the two reviewers were resolved via discussion with the third reviewer",
+          "reason": "Describes the process for resolving disagreements (discussion with third reviewer)."
+        },
+        {
+          "element_id": "prisma_2020_9_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "If the study reported insufficient data, the corresponding author was contacted to obtain further details",
+          "reason": "Describes the process for obtaining/confirming data from investigators."
+        },
+        {
+          "element_id": "prisma_2020_9_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_8",
+          "quote": "Data were extracted from the included trials using the standardized data extraction tool from JBI-MAStARI",
+          "reason": "Mentions a standardized tool but no automation tools (software/scripts) for data collection are described; requirement is conditional on use."
+        },
+        {
+          "element_id": "prisma_2020_9_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_8",
+          "quote": null,
+          "reason": "No mention of translating articles; search strategy implies English language focus."
+        },
+        {
+          "element_id": "prisma_2020_9_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_8",
+          "quote": null,
+          "reason": "No mention of software used to extract data from figures."
+        },
+        {
+          "element_id": "prisma_2020_9_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_10",
+          "quote": "Finally, 22 original trials were included in this review",
+          "reason": "Implies no multiple reports from the same study were handled, making decision rules for such cases not applicable."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10a",
+    "item_label": "10a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_10a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_10a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"The primary outcome of this review was depressive symptoms, measured by any validated depression scale.\",\n      \"reason\": \"The outcome domain (depressive symptoms) is listed and defined in the Study Selection section.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"outcomes were measured at pre-intervention, post-intervention, and follow-up.\",\n      \"reason\": \"The time frames for measurement (pre-intervention, post-intervention, follow-up) are specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Extracted data included specific details about interventions (eg, names, intensity, contents), participants (eg, age, stroke type), study methods, and significant outcomes.\",\n      \"reason\": \"The text specifies that 'significant outcomes' were extracted, indicating whether all results were sought.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Of 22 included trials, we excluded three trials indicating publication bias and six trials reporting insufficient data.\",\n      \"reason\": \"The process for selecting results for meta-analysis (excluding trials with bias or insufficient data) is described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence in the retrieved text that changes to outcome-domain inclusion, definitions, or importance were made during the review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence in the retrieved text that changes to processes for selecting results were made during the review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While the primary outcome is identified, the rationale for its prioritisation is not reported in the retrieved evidence.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_10a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_10a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "The primary outcome of this review was depressive symptoms, measured by any validated depression scale.",
+          "reason": "The outcome domain (depressive symptoms) is listed and defined in the Study Selection section."
+        },
+        {
+          "element_id": "prisma_2020_10a_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "outcomes were measured at pre-intervention, post-intervention, and follow-up.",
+          "reason": "The time frames for measurement (pre-intervention, post-intervention, follow-up) are specified."
+        },
+        {
+          "element_id": "prisma_2020_10a_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Extracted data included specific details about interventions (eg, names, intensity, contents), participants (eg, age, stroke type), study methods, and significant outcomes.",
+          "reason": "The text specifies that 'significant outcomes' were extracted, indicating whether all results were sought."
+        },
+        {
+          "element_id": "prisma_2020_10a_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Of 22 included trials, we excluded three trials indicating publication bias and six trials reporting insufficient data.",
+          "reason": "The process for selecting results for meta-analysis (excluding trials with bias or insufficient data) is described."
+        },
+        {
+          "element_id": "prisma_2020_10a_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence in the retrieved text that changes to outcome-domain inclusion, definitions, or importance were made during the review."
+        },
+        {
+          "element_id": "prisma_2020_10a_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence in the retrieved text that changes to processes for selecting results were made during the review."
+        },
+        {
+          "element_id": "prisma_2020_10a_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While the primary outcome is identified, the rationale for its prioritisation is not reported in the retrieved evidence."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_10a_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10b",
+    "item_label": "10b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "\n\n{\n  \"item_id\": \"PRISMA_2020_10b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_10b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Extracted data included specific details about interventions (eg, names, intensity, contents), participants (eg, age, stroke type), study methods, and significant outcomes.\",\n      \"reason\": \"The manuscript explicitly lists and defines the variables sought for extraction, including intervention details, participant characteristics, study methods, and outcomes.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"If the study reported insufficient data, the corresponding author was contacted to obtain further details.\",\n      \"reason\": \"The manuscript describes the procedure for handling missing data (contacting authors), but does not explicitly state any assumptions made about missing or unclear information.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Data were extracted from the included trials using the standardized data extraction tool from JBI-MAStARI.\",\n      \"reason\": \"The manuscript cites the specific tool (JBI-MAStARI) used to determine and collect data items.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_10b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_10b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Extracted data included specific details about interventions (eg, names, intensity, contents), participants (eg, age, stroke type), study methods, and significant outcomes.",
+          "reason": "The manuscript explicitly lists and defines the variables sought for extraction, including intervention details, participant characteristics, study methods, and outcomes."
+        },
+        {
+          "element_id": "prisma_2020_10b_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_8",
+          "quote": "If the study reported insufficient data, the corresponding author was contacted to obtain further details.",
+          "reason": "The manuscript describes the procedure for handling missing data (contacting authors), but does not explicitly state any assumptions made about missing or unclear information."
+        },
+        {
+          "element_id": "prisma_2020_10b_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Data were extracted from the included trials using the standardized data extraction tool from JBI-MAStARI.",
+          "reason": "The manuscript cites the specific tool (JBI-MAStARI) used to determine and collect data items."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_10b_e2"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_11",
+    "item_label": "11",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "\n\n{\n  \"item_id\": \"PRISMA_2020_11\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_11_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).\",\n      \"reason\": \"The specific risk-of-bias tool (JBI-MAStARI) is explicitly named.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"inclusion required 'yes' answers to five mandatory questions on the JBIMAStARI standardized critical appraisal instrument. The five mandatory questions were Q5, Q6, Q8, Q9, and Q10.\",\n      \"reason\": \"Specific items/domains (Q5, Q6, Q8, Q9, Q10) assessed by the tool are specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Our reviewers established minimal requirements to qualify a study for inclusion in the review and progression to data extraction; inclusion required 'yes' answers to five mandatory questions on the JBIMAStARI standardized critical appraisal instrument.\",\n      \"reason\": \"Rules for deriving the inclusion judgement based on risk of bias are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).\",\n      \"reason\": \"The tool is described as 'standardized' with no evidence of modifications or adaptations.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).\",\n      \"reason\": \"An existing tool was used, not a newly developed one.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"assessed for methodological rigor prior to inclusion by two reviewers... Any disagreements between the reviewers were resolved through discussion with the third reviewer.\",\n      \"reason\": \"Number of reviewers (two), independence (implied by process), and disagreement-resolution procedures are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence is provided regarding processes to obtain or confirm risk-of-bias information from study investigators (contacting authors is mentioned for data extraction, not specifically for RoB).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No automation tools are mentioned for risk-of-bias assessment.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_11",
+      "elements": [
+        {
+          "element_id": "prisma_2020_11_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).",
+          "reason": "The specific risk-of-bias tool (JBI-MAStARI) is explicitly named."
+        },
+        {
+          "element_id": "prisma_2020_11_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "inclusion required 'yes' answers to five mandatory questions on the JBIMAStARI standardized critical appraisal instrument. The five mandatory questions were Q5, Q6, Q8, Q9, and Q10.",
+          "reason": "Specific items/domains (Q5, Q6, Q8, Q9, Q10) assessed by the tool are specified."
+        },
+        {
+          "element_id": "prisma_2020_11_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Our reviewers established minimal requirements to qualify a study for inclusion in the review and progression to data extraction; inclusion required 'yes' answers to five mandatory questions on the JBIMAStARI standardized critical appraisal instrument.",
+          "reason": "Rules for deriving the inclusion judgement based on risk of bias are reported."
+        },
+        {
+          "element_id": "prisma_2020_11_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_7",
+          "quote": "standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).",
+          "reason": "The tool is described as 'standardized' with no evidence of modifications or adaptations."
+        },
+        {
+          "element_id": "prisma_2020_11_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_7",
+          "quote": "standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).",
+          "reason": "An existing tool was used, not a newly developed one."
+        },
+        {
+          "element_id": "prisma_2020_11_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "assessed for methodological rigor prior to inclusion by two reviewers... Any disagreements between the reviewers were resolved through discussion with the third reviewer.",
+          "reason": "Number of reviewers (two), independence (implied by process), and disagreement-resolution procedures are reported."
+        },
+        {
+          "element_id": "prisma_2020_11_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence is provided regarding processes to obtain or confirm risk-of-bias information from study investigators (contacting authors is mentioned for data extraction, not specifically for RoB)."
+        },
+        {
+          "element_id": "prisma_2020_11_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No automation tools are mentioned for risk-of-bias assessment."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_11_e7"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_12",
+    "item_label": "12",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_12\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_12_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We computed standardized mean differences (SMDs) based on between-group comparisons of pre-post (or follow-up) change in scores and pre-test SDs.\",\n      \"reason\": \"The effect measure (standardized mean differences) is explicitly specified for the synthesis of depressive symptoms outcomes.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"The effect sizes of 0.2, 0.5, and 0.8 were classified as small, medium, and large, respectively.\",\n      \"reason\": \"Thresholds for effect size interpretation are reported, but the rationale for selecting these specific thresholds is not explicitly stated.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": null,\n      \"reason\": \"The text describes the calculation of SMDs but does not mention any re-expression of results to another effect measure, indicating the method was not used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We used pre-test SD because it does not account for the effect of interventions across different outcome measures, regardless of the experimental design. In other words, this approach is a more consistent estimate of variance between groups.\",\n      \"reason\": \"The choice of effect measure (SMD) and calculation method (pre-test SD) is justified by the need to handle various outcome measures and ensure consistent variance estimation.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_12",
+      "elements": [
+        {
+          "element_id": "prisma_2020_12_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "We computed standardized mean differences (SMDs) based on between-group comparisons of pre-post (or follow-up) change in scores and pre-test SDs.",
+          "reason": "The effect measure (standardized mean differences) is explicitly specified for the synthesis of depressive symptoms outcomes."
+        },
+        {
+          "element_id": "prisma_2020_12_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_9",
+          "quote": "The effect sizes of 0.2, 0.5, and 0.8 were classified as small, medium, and large, respectively.",
+          "reason": "Thresholds for effect size interpretation are reported, but the rationale for selecting these specific thresholds is not explicitly stated."
+        },
+        {
+          "element_id": "prisma_2020_12_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_9",
+          "quote": null,
+          "reason": "The text describes the calculation of SMDs but does not mention any re-expression of results to another effect measure, indicating the method was not used."
+        },
+        {
+          "element_id": "prisma_2020_12_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "We used pre-test SD because it does not account for the effect of interventions across different outcome measures, regardless of the experimental design. In other words, this approach is a more consistent estimate of variance between groups.",
+          "reason": "The choice of effect measure (SMD) and calculation method (pre-test SD) is justified by the need to handle various outcome measures and ensure consistent variance estimation."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_12_e2"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13a",
+    "item_label": "13a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13b",
+    "item_label": "13b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "\n\n{\n  \"item_id\": \"PRISMA_2020_13b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"Where the pre-test SD was not available, we used the change in SDs. In cases in which the study only reported standard errors (SEs), the SD was calculated using the following formula 23 : SD = SE × number of participants .\",\n      \"reason\": \"The manuscript explicitly describes methods for handling missing summary statistics (e.g., calculating SD from SE, using change in SD if pre-test SD missing) and data conversions (e.g., calculating effect sizes, SMDs) in the Meta-Analysis And Data Synthesis section.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "Where the pre-test SD was not available, we used the change in SDs. In cases in which the study only reported standard errors (SEs), the SD was calculated using the following formula 23 : SD = SE × number of participants .",
+          "reason": "The manuscript explicitly describes methods for handling missing summary statistics (e.g., calculating SD from SE, using change in SD if pre-test SD missing) and data conversions (e.g., calculating effect sizes, SMDs) in the Meta-Analysis And Data Synthesis section."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13c",
+    "item_label": "13c",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Table 1 shows details of the included trials. ... Table 2 shows detailed descriptions of the NPIs used in the included studies.\",\n      \"reason\": \"The manuscript explicitly describes the tabular structures (Table 1 and Table 2) and the data included within them (participant characteristics and intervention details).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We visually inspected the potential of publication bias by a funnel plot, examining asymmetry of the graph.\",\n      \"reason\": \"The manuscript describes the graphical method (funnel plot) used to display results and assess publication bias.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"These trials were grouped into four types: CAT (n = 5), exercise (n = 4), psychosocial therapy (n = 2), and multifactorial therapy (n = 2) (Table 2).\",\n      \"reason\": \"The manuscript reports the basis for grouping studies within tables and figures (intervention type).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Standard funnel plots were used to display results; there is no evidence of non-standard graphs requiring a rationale.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Table 1 shows details of the included trials. ... Table 2 shows detailed descriptions of the NPIs used in the included studies.",
+          "reason": "The manuscript explicitly describes the tabular structures (Table 1 and Table 2) and the data included within them (participant characteristics and intervention details)."
+        },
+        {
+          "element_id": "prisma_2020_13c_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "We visually inspected the potential of publication bias by a funnel plot, examining asymmetry of the graph.",
+          "reason": "The manuscript describes the graphical method (funnel plot) used to display results and assess publication bias."
+        },
+        {
+          "element_id": "prisma_2020_13c_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "These trials were grouped into four types: CAT (n = 5), exercise (n = 4), psychosocial therapy (n = 2), and multifactorial therapy (n = 2) (Table 2).",
+          "reason": "The manuscript reports the basis for grouping studies within tables and figures (intervention type)."
+        },
+        {
+          "element_id": "prisma_2020_13c_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Standard funnel plots were used to display results; there is no evidence of non-standard graphs requiring a rationale."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13d",
+    "item_label": "13d",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13d_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"For the meta-analysis, we calculated effect sizes and statistical heterogeneity using Review Manager (RevMan) 5.3 software (Nordic Cochrane Centre, Cochrane Collaboration, Copenhagen 2014).\",\n      \"reason\": \"Software name (Review Manager), version (5.3), and provider are explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"For the meta-analysis, we calculated effect sizes and statistical heterogeneity using Review Manager (RevMan) 5.3 software...\",\n      \"reason\": \"Meta-analysis was performed, so the condition for reporting an alternative method when meta-analysis was not possible does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We applied the random effect model in all calculations of effect size because all included trials had variations in study design, intervention methods, and population characteristics.\",\n      \"reason\": \"Model (random effect) and rationale (variations in design/methods/population) are explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We computed standardized mean differences (SMDs) based on between-group comparisons of pre-post (or follow-up) change in scores and pre-test SDs.\",\n      \"reason\": \"Statistical method (SMD, Cohen's d) is explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"The Chi-square test (Cochran's Q) and I 2 statistics were used to identify heterogeneity among the included trials.\",\n      \"reason\": \"Methods to identify/quantify heterogeneity (Q test, I2) are explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We applied the random effect model in all calculations of effect size...\",\n      \"reason\": \"Specific between-study variance estimator (e.g., DerSimonian-Laird) is not explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"95% confidence intervals (CIs) were estimated...\",\n      \"reason\": \"Specific method for calculating confidence intervals is not explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e8\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We applied the random effect model in all calculations of effect size...\",\n      \"reason\": \"No other relevant random-effects implementation details are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We applied the random effect model...\",\n      \"reason\": \"No Bayesian meta-analysis was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e10\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We computed standardized mean differences (SMDs) based on between-group comparisons...\",\n      \"reason\": \"No methods to account for statistical dependency among multiple estimates are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e11\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.\",\n      \"reason\": \"A planned synthesis (meta-regression) was identified as not run with a reason (low heterogeneity).\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13d_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "For the meta-analysis, we calculated effect sizes and statistical heterogeneity using Review Manager (RevMan) 5.3 software (Nordic Cochrane Centre, Cochrane Collaboration, Copenhagen 2014).",
+          "reason": "Software name (Review Manager), version (5.3), and provider are explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_9",
+          "quote": "For the meta-analysis, we calculated effect sizes and statistical heterogeneity using Review Manager (RevMan) 5.3 software...",
+          "reason": "Meta-analysis was performed, so the condition for reporting an alternative method when meta-analysis was not possible does not apply."
+        },
+        {
+          "element_id": "prisma_2020_13d_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "We applied the random effect model in all calculations of effect size because all included trials had variations in study design, intervention methods, and population characteristics.",
+          "reason": "Model (random effect) and rationale (variations in design/methods/population) are explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "We computed standardized mean differences (SMDs) based on between-group comparisons of pre-post (or follow-up) change in scores and pre-test SDs.",
+          "reason": "Statistical method (SMD, Cohen's d) is explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "The Chi-square test (Cochran's Q) and I 2 statistics were used to identify heterogeneity among the included trials.",
+          "reason": "Methods to identify/quantify heterogeneity (Q test, I2) are explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e6",
+          "status": "MISSING",
+          "chunk_id": "text_9",
+          "quote": "We applied the random effect model in all calculations of effect size...",
+          "reason": "Specific between-study variance estimator (e.g., DerSimonian-Laird) is not explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e7",
+          "status": "MISSING",
+          "chunk_id": "text_9",
+          "quote": "95% confidence intervals (CIs) were estimated...",
+          "reason": "Specific method for calculating confidence intervals is not explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e8",
+          "status": "MISSING",
+          "chunk_id": "text_9",
+          "quote": "We applied the random effect model in all calculations of effect size...",
+          "reason": "No other relevant random-effects implementation details are reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_9",
+          "quote": "We applied the random effect model...",
+          "reason": "No Bayesian meta-analysis was performed."
+        },
+        {
+          "element_id": "prisma_2020_13d_e10",
+          "status": "MISSING",
+          "chunk_id": "text_9",
+          "quote": "We computed standardized mean differences (SMDs) based on between-group comparisons...",
+          "reason": "No methods to account for statistical dependency among multiple estimates are described."
+        },
+        {
+          "element_id": "prisma_2020_13d_e11",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.",
+          "reason": "A planned synthesis (meta-regression) was identified as not run with a reason (low heterogeneity)."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13d_e6",
+        "prisma_2020_13d_e7",
+        "prisma_2020_13d_e8",
+        "prisma_2020_13d_e10"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13e",
+    "item_label": "13e",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13e\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13e_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.\",\n      \"reason\": \"The manuscript explicitly states that meta-regression was not performed to explore heterogeneity causes due to low heterogeneity, specifying the methodological approach taken.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"These trials were grouped into four types: CAT (n = 5), exercise (n = 4), psychosocial therapy (n = 2), and multifactorial therapy (n = 2)... In particular, beneficial effects favoring CAT... and psychosocial therapy... were observed... we divided CAT into two types: acupuncture... and music therapy...\",\n      \"reason\": \"Subgroup analysis was performed by intervention type and subtype, with factors (intervention type), levels (CAT, exercise, etc.), and expected direction of effect (beneficial effects favoring...) reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not specify whether the subgroup analyses utilized study-level variables, within-study contrasts, or both.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While subgroup results are reported, the manuscript does not describe the specific statistical methods used to compare effects between subgroups (e.g., interaction tests).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Thus, 13 trials were included in the final metaanalysis.\",\n      \"reason\": \"Meta-analysis was conducted and deemed suitable (low heterogeneity), so informal methods for unsuitable meta-analysis do not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not identify whether the subgroup analyses were pre-specified or post-hoc.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13e",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13e_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.",
+          "reason": "The manuscript explicitly states that meta-regression was not performed to explore heterogeneity causes due to low heterogeneity, specifying the methodological approach taken."
+        },
+        {
+          "element_id": "prisma_2020_13e_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "These trials were grouped into four types: CAT (n = 5), exercise (n = 4), psychosocial therapy (n = 2), and multifactorial therapy (n = 2)... In particular, beneficial effects favoring CAT... and psychosocial therapy... were observed... we divided CAT into two types: acupuncture... and music therapy...",
+          "reason": "Subgroup analysis was performed by intervention type and subtype, with factors (intervention type), levels (CAT, exercise, etc.), and expected direction of effect (beneficial effects favoring...) reported."
+        },
+        {
+          "element_id": "prisma_2020_13e_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not specify whether the subgroup analyses utilized study-level variables, within-study contrasts, or both."
+        },
+        {
+          "element_id": "prisma_2020_13e_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While subgroup results are reported, the manuscript does not describe the specific statistical methods used to compare effects between subgroups (e.g., interaction tests)."
+        },
+        {
+          "element_id": "prisma_2020_13e_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Thus, 13 trials were included in the final metaanalysis.",
+          "reason": "Meta-analysis was conducted and deemed suitable (low heterogeneity), so informal methods for unsuitable meta-analysis do not apply."
+        },
+        {
+          "element_id": "prisma_2020_13e_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not identify whether the subgroup analyses were pre-specified or post-hoc."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13e_e3",
+        "prisma_2020_13e_e4",
+        "prisma_2020_13e_e6"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13f",
+    "item_label": "13f",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "\n\n{\n  \"item_id\": \"PRISMA_2020_13f\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13f_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Of 22 included trials, we excluded three trials indicating publication bias and six trials reporting insufficient data... We excluded these trials from the final meta-analysis.\",\n      \"reason\": \"The manuscript discusses meta-analysis and trial exclusions but does not explicitly mention or describe any sensitivity analyses conducted to assess robustness.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13f_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No sensitivity analyses were reported in the manuscript, so there are no analyses to identify as pre-specified or not.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13f",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13f_e1",
+          "status": "MISSING",
+          "chunk_id": "text_12",
+          "quote": "Of 22 included trials, we excluded three trials indicating publication bias and six trials reporting insufficient data... We excluded these trials from the final meta-analysis.",
+          "reason": "The manuscript discusses meta-analysis and trial exclusions but does not explicitly mention or describe any sensitivity analyses conducted to assess robustness."
+        },
+        {
+          "element_id": "prisma_2020_13f_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No sensitivity analyses were reported in the manuscript, so there are no analyses to identify as pre-specified or not."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13f_e1"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_14",
+    "item_label": "14",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_14\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_14_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We visually inspected the potential of publication bias by a funnel plot, examining asymmetry of the graph.\",\n      \"reason\": \"The manuscript explicitly states the method used to assess publication bias (visual inspection of funnel plots).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No existing assessment tool with domains or items was used; the assessment relied on visual inspection of funnel plots.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No existing reporting-bias tool was used, so no adaptations were made.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No newly developed reporting-bias tool was described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The number of reviewers, their independence, and disagreement-resolution procedures specifically for the reporting bias assessment are not explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While authors were contacted for insufficient data (data extraction), processes to obtain or confirm information specifically for reporting bias assessment are not",
+    "parsed": {
+      "raw_response": "{\n  \"item_id\": \"PRISMA_2020_14\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_14_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We visually inspected the potential of publication bias by a funnel plot, examining asymmetry of the graph.\",\n      \"reason\": \"The manuscript explicitly states the method used to assess publication bias (visual inspection of funnel plots).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No existing assessment tool with domains or items was used; the assessment relied on visual inspection of funnel plots.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No existing reporting-bias tool was used, so no adaptations were made.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No newly developed reporting-bias tool was described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The number of reviewers, their independence, and disagreement-resolution procedures specifically for the reporting bias assessment are not explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While authors were contacted for insufficient data (data extraction), processes to obtain or confirm information specifically for reporting bias assessment are not",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_15",
+    "item_label": "15",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_15\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_15_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"The trials selected for potential inclusion were assessed for methodological rigor prior to inclusion by two reviewers using standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).\",\n      \"reason\": \"The manuscript describes assessing methodological quality/risk of bias for study inclusion, but does not specify a tool or system used to assess certainty or confidence in the body of evidence for outcomes.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"The five mandatory questions were chosen to avoid potential detection bias (Q5, Q8, Q9), decrease selection bias (Q6), and ensure the use of appropriate statistical analysis (Q10).\",\n      \"reason\": \"Factors and criteria reported are for study inclusion (methodological quality), not for assessing factors of certainty/confidence in the body of evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"inclusion required 'yes' answers to five mandatory questions on the JBIMAStARI standardized critical appraisal instrument.\",\n      \"reason\": \"Decision rules reported are for study inclusion, not for deriving an overall certainty level or interpreting levels of certainty for outcomes.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"The trials selected for potential inclusion were assessed for methodological rigor prior to inclusion by two reviewers using standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).\",\n      \"reason\": \"No review-specific certainty considerations, thresholds, or rationales are reported; the text focuses on methodological quality for inclusion.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"JBI-MAStARI is an analytic module in the JBI System for the Unified Management, Assessment and Review of Information package.\",\n      \"reason\": \"No adaptations to an existing certainty-assessment system are described; the text describes using JBI-MAStARI for methodological quality assessment.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Any disagreements between the reviewers were resolved through discussion with the third reviewer.\",\n      \"reason\": \"Reviewers and disagreement procedures are reported for methodological quality assessment (risk of bias), not for certainty assessment of the body of evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"If the study reported insufficient data, the corresponding author was contacted to obtain further details.\",\n      \"reason\": \"Processes to obtain information are described for data extraction, not for confirming relevant information for certainty assessment.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e8\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"The trials selected for potential inclusion were assessed for methodological rigor prior to inclusion by two reviewers using standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).\",\n      \"reason\": \"No automation tools used to support certainty assessment are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e9\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"The trials selected for potential inclusion were assessed for methodological rigor prior to inclusion by two reviewers using standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).\",\n      \"reason\": \"No methods to report certainty-assessment results, such as Summary of Findings tables, are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e10\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"The trials selected for potential inclusion were assessed for methodological rigor prior to inclusion by two reviewers using standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).\",\n      \"reason\": \"No intended interpretation or source guidance for standard phrases incorporating certainty are reported.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_15",
+      "elements": [
+        {
+          "element_id": "prisma_2020_15_e1",
+          "status": "MISSING",
+          "chunk_id": "text_7",
+          "quote": "The trials selected for potential inclusion were assessed for methodological rigor prior to inclusion by two reviewers using standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).",
+          "reason": "The manuscript describes assessing methodological quality/risk of bias for study inclusion, but does not specify a tool or system used to assess certainty or confidence in the body of evidence for outcomes."
+        },
+        {
+          "element_id": "prisma_2020_15_e2",
+          "status": "MISSING",
+          "chunk_id": "text_7",
+          "quote": "The five mandatory questions were chosen to avoid potential detection bias (Q5, Q8, Q9), decrease selection bias (Q6), and ensure the use of appropriate statistical analysis (Q10).",
+          "reason": "Factors and criteria reported are for study inclusion (methodological quality), not for assessing factors of certainty/confidence in the body of evidence."
+        },
+        {
+          "element_id": "prisma_2020_15_e3",
+          "status": "MISSING",
+          "chunk_id": "text_7",
+          "quote": "inclusion required 'yes' answers to five mandatory questions on the JBIMAStARI standardized critical appraisal instrument.",
+          "reason": "Decision rules reported are for study inclusion, not for deriving an overall certainty level or interpreting levels of certainty for outcomes."
+        },
+        {
+          "element_id": "prisma_2020_15_e4",
+          "status": "MISSING",
+          "chunk_id": "text_7",
+          "quote": "The trials selected for potential inclusion were assessed for methodological rigor prior to inclusion by two reviewers using standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).",
+          "reason": "No review-specific certainty considerations, thresholds, or rationales are reported; the text focuses on methodological quality for inclusion."
+        },
+        {
+          "element_id": "prisma_2020_15_e5",
+          "status": "MISSING",
+          "chunk_id": "text_7",
+          "quote": "JBI-MAStARI is an analytic module in the JBI System for the Unified Management, Assessment and Review of Information package.",
+          "reason": "No adaptations to an existing certainty-assessment system are described; the text describes using JBI-MAStARI for methodological quality assessment."
+        },
+        {
+          "element_id": "prisma_2020_15_e6",
+          "status": "MISSING",
+          "chunk_id": "text_7",
+          "quote": "Any disagreements between the reviewers were resolved through discussion with the third reviewer.",
+          "reason": "Reviewers and disagreement procedures are reported for methodological quality assessment (risk of bias), not for certainty assessment of the body of evidence."
+        },
+        {
+          "element_id": "prisma_2020_15_e7",
+          "status": "MISSING",
+          "chunk_id": "text_8",
+          "quote": "If the study reported insufficient data, the corresponding author was contacted to obtain further details.",
+          "reason": "Processes to obtain information are described for data extraction, not for confirming relevant information for certainty assessment."
+        },
+        {
+          "element_id": "prisma_2020_15_e8",
+          "status": "MISSING",
+          "chunk_id": "text_7",
+          "quote": "The trials selected for potential inclusion were assessed for methodological rigor prior to inclusion by two reviewers using standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).",
+          "reason": "No automation tools used to support certainty assessment are described."
+        },
+        {
+          "element_id": "prisma_2020_15_e9",
+          "status": "MISSING",
+          "chunk_id": "text_7",
+          "quote": "The trials selected for potential inclusion were assessed for methodological rigor prior to inclusion by two reviewers using standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).",
+          "reason": "No methods to report certainty-assessment results, such as Summary of Findings tables, are described."
+        },
+        {
+          "element_id": "prisma_2020_15_e10",
+          "status": "MISSING",
+          "chunk_id": "text_7",
+          "quote": "The trials selected for potential inclusion were assessed for methodological rigor prior to inclusion by two reviewers using standardized critical appraisal instruments from the Joanna Briggs Institute Meta-Analysis of Statistics Assessment and Review Instrument (JBIMAStARI).",
+          "reason": "No intended interpretation or source guidance for standard phrases incorporating certainty are reported."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_15_e1",
+        "prisma_2020_15_e2",
+        "prisma_2020_15_e3",
+        "prisma_2020_15_e4",
+        "prisma_2020_15_e5",
+        "prisma_2020_15_e6",
+        "prisma_2020_15_e7",
+        "prisma_2020_15_e8",
+        "prisma_2020_15_e9",
+        "prisma_2020_15_e10"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16a",
+    "item_label": "16a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"A total of 1703 potentially relevant articles were identified through the search. Of those, 933 were duplicates. Of the remaining 770 articles, 660 were excluded after title and abstract assessment.\",\n      \"reason\": \"The text explicitly reports the number of records identified (1703), removed before screening (933 duplicates), screened (770), and excluded after initial screening (660).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"From the 110 remaining articles, 25 were excluded, as full-text analysis revealed that they did not meet the inclusion criteria.\",\n      \"reason\": \"The text reports the number assessed for eligibility (110) and excluded (25), but does not explicitly report the numbers of reports sought or not retrieved.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Finally, 22 original trials were included in this review.\",\n      \"reason\": \"The text explicitly reports the number of included studies (22).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The text does not report on ongoing studies or associated reports.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence in the manuscript that this is a review update; no previous review is mentioned.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The text does not distinguish between records excluded by humans and automation tools, and the flow diagram (Figure 1) is not provided in the evidence.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "A total of 1703 potentially relevant articles were identified through the search. Of those, 933 were duplicates. Of the remaining 770 articles, 660 were excluded after title and abstract assessment.",
+          "reason": "The text explicitly reports the number of records identified (1703), removed before screening (933 duplicates), screened (770), and excluded after initial screening (660)."
+        },
+        {
+          "element_id": "prisma_2020_16a_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_10",
+          "quote": "From the 110 remaining articles, 25 were excluded, as full-text analysis revealed that they did not meet the inclusion criteria.",
+          "reason": "The text reports the number assessed for eligibility (110) and excluded (25), but does not explicitly report the numbers of reports sought or not retrieved."
+        },
+        {
+          "element_id": "prisma_2020_16a_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Finally, 22 original trials were included in this review.",
+          "reason": "The text explicitly reports the number of included studies (22)."
+        },
+        {
+          "element_id": "prisma_2020_16a_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The text does not report on ongoing studies or associated reports."
+        },
+        {
+          "element_id": "prisma_2020_16a_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence in the manuscript that this is a review update; no previous review is mentioned."
+        },
+        {
+          "element_id": "prisma_2020_16a_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The text does not distinguish between records excluded by humans and automation tools, and the flow diagram (Figure 1) is not provided in the evidence."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_16a_e2",
+        "prisma_2020_16a_e4",
+        "prisma_2020_16a_e6"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16b",
+    "item_label": "16b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"From the 110 remaining articles, 25 were excluded, as full-text analysis revealed that they did not meet the inclusion criteria.\",\n      \"reason\": \"The manuscript reports aggregate numbers of excluded studies (e.g., 25 excluded at full-text, 63 excluded at quality assessment) and general reasons for exclusion, but does not cite specific studies that were excluded during the selection process or provide individual explanations for why specific excluded studies were rejected.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16b_e1",
+          "status": "MISSING",
+          "chunk_id": "text_10",
+          "quote": "From the 110 remaining articles, 25 were excluded, as full-text analysis revealed that they did not meet the inclusion criteria.",
+          "reason": "The manuscript reports aggregate numbers of excluded studies (e.g., 25 excluded at full-text, 63 excluded at quality assessment) and general reasons for exclusion, but does not cite specific studies that were excluded during the selection process or provide individual explanations for why specific excluded studies were rejected."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_16b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_17",
+    "item_label": "17",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_17\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_17_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Table 1 shows details of the included trials.\",\n      \"reason\": \"The text confirms a table exists for trial details, but the provided evidence does not explicitly list citations for all 22 included studies in the text body (only some are cited by number in text_12).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Table 1 shows details of the included trials.\",\n      \"reason\": \"The text explicitly states that Table 1 presents details of the included trials, indicating key characteristics are presented in a table.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Table 2 shows detailed descriptions of the NPIs used in the included studies.\",\n      \"reason\": \"The text explicitly states that Table 2 provides detailed descriptions of the interventions, satisfying the requirement for intervention details in an additional table.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_17",
+      "elements": [
+        {
+          "element_id": "prisma_2020_17_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_10",
+          "quote": "Table 1 shows details of the included trials.",
+          "reason": "The text confirms a table exists for trial details, but the provided evidence does not explicitly list citations for all 22 included studies in the text body (only some are cited by number in text_12)."
+        },
+        {
+          "element_id": "prisma_2020_17_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Table 1 shows details of the included trials.",
+          "reason": "The text explicitly states that Table 1 presents details of the included trials, indicating key characteristics are presented in a table."
+        },
+        {
+          "element_id": "prisma_2020_17_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Table 2 shows detailed descriptions of the NPIs used in the included studies.",
+          "reason": "The text explicitly states that Table 2 provides detailed descriptions of the interventions, satisfying the requirement for intervention details in an additional table."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_17_e1"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_18",
+    "item_label": "18",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_18\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_18_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"Appendix B illustrates the results of the methodological quality assessment of the included 22 trials.\",\n      \"reason\": \"The text states that results are in Appendix B, but the appendix containing the domain-level and overall risk-of-bias judgements for each study is not included in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"More detailed definitions of each question are provided in Appendix B.\",\n      \"reason\": \"Justifications for risk-of-bias judgements are referenced as being in Appendix B, which is not provided in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"Methodological quality was measured using the JBI-MAStARI, with a total range of possible scores from 0 - 10.\",\n      \"reason\": \"The retrieved evidence describes overall methodological quality assessment but does not report outcome-specific risk-of-bias judgements displayed alongside study results.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_18",
+      "elements": [
+        {
+          "element_id": "prisma_2020_18_e1",
+          "status": "MISSING",
+          "chunk_id": "text_11",
+          "quote": "Appendix B illustrates the results of the methodological quality assessment of the included 22 trials.",
+          "reason": "The text states that results are in Appendix B, but the appendix containing the domain-level and overall risk-of-bias judgements for each study is not included in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_18_e2",
+          "status": "MISSING",
+          "chunk_id": "text_7",
+          "quote": "More detailed definitions of each question are provided in Appendix B.",
+          "reason": "Justifications for risk-of-bias judgements are referenced as being in Appendix B, which is not provided in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_18_e3",
+          "status": "MISSING",
+          "chunk_id": "text_11",
+          "quote": "Methodological quality was measured using the JBI-MAStARI, with a total range of possible scores from 0 - 10.",
+          "reason": "The retrieved evidence describes overall methodological quality assessment but does not report outcome-specific risk-of-bias judgements displayed alongside study results."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_18_e1",
+        "prisma_2020_18_e2",
+        "prisma_2020_18_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_19",
+    "item_label": "19",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_19\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_19_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Overall results, combining the outcomes of all included NPIs, showed a significant effect size on depressive symptoms post-intervention (SMD: -0.24; 95% CI: -0.37 to -0.11; p = 0.0004; I 2 = 0%)\",\n      \"reason\": \"The text reports aggregated results for groups of studies (e.g., CAT, exercise) rather than summary statistics for each individual study. Tables are mentioned but their content is not provided in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"In particular, beneficial effects favoring CAT (SMD: -0.29; 95% CI: -0.55 to -0.02; p = 0.03; I 2 = 0%) and psychosocial therapy (SMD: - 0.33; 95% CI: -0.60 to -0.06; p < 0.02; I 2 = 42%) were observed\",\n      \"reason\": \"The text reports effect estimates and precision for intervention groups (e.g., CAT, psychosocial therapy) rather than for each individual study. Figure 2 is mentioned but not visible.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Table 1 shows details of the included trials. Interventions: Table 2 shows detailed descriptions of the NPIs used in the included studies.\",\n      \"reason\": \"The text mentions tables for trial characteristics and interventions, but does not explicitly state that a tabular display is provided for the results of individual studies. Results are presented in text and Figure 2.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Data were extracted from the included trials using the standardized data extraction tool from JBI-MAStARI.\",\n      \"reason\": \"The evidence describes extracting data from included trials and contacting authors for insufficient data, but does not report using multiple distinct data sources (e.g., registry vs publication) for the same study.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"Where the pre-test SD was not available, we used the change in SDs. In cases in which the study only reported standard errors (SEs), the SD was calculated using the following formula\",\n      \"reason\": \"The text explicitly identifies that summary statistics (SDs, changes) were computed or estimated rather than directly reported when data was insufficient.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_19",
+      "elements": [
+        {
+          "element_id": "prisma_2020_19_e1",
+          "status": "MISSING",
+          "chunk_id": "text_12",
+          "quote": "Overall results, combining the outcomes of all included NPIs, showed a significant effect size on depressive symptoms post-intervention (SMD: -0.24; 95% CI: -0.37 to -0.11; p = 0.0004; I 2 = 0%)",
+          "reason": "The text reports aggregated results for groups of studies (e.g., CAT, exercise) rather than summary statistics for each individual study. Tables are mentioned but their content is not provided in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_19_e2",
+          "status": "MISSING",
+          "chunk_id": "text_12",
+          "quote": "In particular, beneficial effects favoring CAT (SMD: -0.29; 95% CI: -0.55 to -0.02; p = 0.03; I 2 = 0%) and psychosocial therapy (SMD: - 0.33; 95% CI: -0.60 to -0.06; p < 0.02; I 2 = 42%) were observed",
+          "reason": "The text reports effect estimates and precision for intervention groups (e.g., CAT, psychosocial therapy) rather than for each individual study. Figure 2 is mentioned but not visible."
+        },
+        {
+          "element_id": "prisma_2020_19_e3",
+          "status": "MISSING",
+          "chunk_id": "text_10",
+          "quote": "Table 1 shows details of the included trials. Interventions: Table 2 shows detailed descriptions of the NPIs used in the included studies.",
+          "reason": "The text mentions tables for trial characteristics and interventions, but does not explicitly state that a tabular display is provided for the results of individual studies. Results are presented in text and Figure 2."
+        },
+        {
+          "element_id": "prisma_2020_19_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_8",
+          "quote": "Data were extracted from the included trials using the standardized data extraction tool from JBI-MAStARI.",
+          "reason": "The evidence describes extracting data from included trials and contacting authors for insufficient data, but does not report using multiple distinct data sources (e.g., registry vs publication) for the same study."
+        },
+        {
+          "element_id": "prisma_2020_19_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "Where the pre-test SD was not available, we used the change in SDs. In cases in which the study only reported standard errors (SEs), the SD was calculated using the following formula",
+          "reason": "The text explicitly identifies that summary statistics (SDs, changes) were computed or estimated rather than directly reported when data was insufficient."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_19_e1",
+        "prisma_2020_19_e2",
+        "prisma_2020_19_e3"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20a",
+    "item_label": "20a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Participants: Our search identified 22 trials. The total sample size of all trials was 2090, ranging from 24-411 per study with a median of 61. All included trials demonstrated similar between-group baseline characteristics, including baseline depressive outcomes. ... Stroke stage was acute in four trials, subacute in three trials, and chronic in six trials.\",\n      \"reason\": \"The manuscript provides a summary of participant characteristics (sample size, age, stroke stage) in the 'Study Characteristics' section of the Results. Additionally, risk of bias is summarized in text_11 ('Methodological Quality') with mean scores and domain assessments.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20a_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Thus, 13 trials were included in the final metaanalysis. These trials were grouped into four types: CAT (n = 5), exercise (n = 4), psychosocial therapy (n = 2), and multifactorial therapy (n = 2) (Table 2).\",\n      \"reason\": \"The manuscript explicitly identifies the number of trials contributing to the meta-analysis (13) and categorizes them by intervention type, referencing Table 2 which lists the specific studies (authors and years).\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Participants: Our search identified 22 trials. The total sample size of all trials was 2090, ranging from 24-411 per study with a median of 61. All included trials demonstrated similar between-group baseline characteristics, including baseline depressive outcomes. ... Stroke stage was acute in four trials, subacute in three trials, and chronic in six trials.",
+          "reason": "The manuscript provides a summary of participant characteristics (sample size, age, stroke stage) in the 'Study Characteristics' section of the Results. Additionally, risk of bias is summarized in text_11 ('Methodological Quality') with mean scores and domain assessments."
+        },
+        {
+          "element_id": "prisma_2020_20a_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Thus, 13 trials were included in the final metaanalysis. These trials were grouped into four types: CAT (n = 5), exercise (n = 4), psychosocial therapy (n = 2), and multifactorial therapy (n = 2) (Table 2).",
+          "reason": "The manuscript explicitly identifies the number of trials contributing to the meta-analysis (13) and categorizes them by intervention type, referencing Table 2 which lists the specific studies (authors and years)."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20b",
+    "item_label": "20b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Overall results, combining the outcomes of all included NPIs, showed a significant effect size on depressive symptoms post-intervention (SMD: -0.24; 95% CI: -0.37 to -0.11; p = 0.0004; I 2 = 0%)... Overall results showed a significant but small effect size on depressive symptoms at follow-up (SMD: -0.22; 95% CI: -0.36 to -0.07; p = 0.004; I 2 = 0%)\",\n      \"reason\": \"Results for all reported meta-analyses (overall, subgroups, follow-up) are explicitly provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Overall results, combining the outcomes of all included NPIs, showed a significant effect size on depressive symptoms post-intervention (SMD: -0.24; 95% CI: -0.37 to -0.11...)\",\n      \"reason\": \"Summary estimates (SMD) and precision (95% CI) are reported for the meta-analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Overall results, combining the outcomes of all included NPIs, showed a significant effect size on depressive symptoms post-intervention (... I 2 = 0%)\",\n      \"reason\": \"Measures of statistical heterogeneity (I2) are reported for the meta-analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The study only reports meta-analyses; no other statistical synthesis methods were used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"All reported syntheses provide effect estimates; no synthesis methods without effect estimates were used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"A negative effect size indicated that NPIs had better effects on outcomes than control conditions.\",\n      \"reason\": \"The direction of effect is explicitly described in the methods and results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The study uses Standardized Mean Differences (SMDs), not Mean Differences (MDs).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The study reports SMDs directly without re-expressing them to a specific target instrument.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Overall results, combining the outcomes of all included NPIs, showed a significant effect size on depressive symptoms post-intervention (SMD: -0.24; 95% CI: -0.37 to -0.11; p = 0.0004; I 2 = 0%)... Overall results showed a significant but small effect size on depressive symptoms at follow-up (SMD: -0.22; 95% CI: -0.36 to -0.07; p = 0.004; I 2 = 0%)",
+          "reason": "Results for all reported meta-analyses (overall, subgroups, follow-up) are explicitly provided."
+        },
+        {
+          "element_id": "prisma_2020_20b_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Overall results, combining the outcomes of all included NPIs, showed a significant effect size on depressive symptoms post-intervention (SMD: -0.24; 95% CI: -0.37 to -0.11...)",
+          "reason": "Summary estimates (SMD) and precision (95% CI) are reported for the meta-analyses."
+        },
+        {
+          "element_id": "prisma_2020_20b_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Overall results, combining the outcomes of all included NPIs, showed a significant effect size on depressive symptoms post-intervention (... I 2 = 0%)",
+          "reason": "Measures of statistical heterogeneity (I2) are reported for the meta-analyses."
+        },
+        {
+          "element_id": "prisma_2020_20b_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The study only reports meta-analyses; no other statistical synthesis methods were used."
+        },
+        {
+          "element_id": "prisma_2020_20b_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "All reported syntheses provide effect estimates; no synthesis methods without effect estimates were used."
+        },
+        {
+          "element_id": "prisma_2020_20b_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "A negative effect size indicated that NPIs had better effects on outcomes than control conditions.",
+          "reason": "The direction of effect is explicitly described in the methods and results."
+        },
+        {
+          "element_id": "prisma_2020_20b_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The study uses Standardized Mean Differences (SMDs), not Mean Differences (MDs)."
+        },
+        {
+          "element_id": "prisma_2020_20b_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The study reports SMDs directly without re-expressing them to a specific target instrument."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20c",
+    "item_label": "20c",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20c_e1\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.\",\n      \"reason\": \"Authors explicitly stated they did not conduct investigations into causes of heterogeneity due to low heterogeneity (I^2 = 0%), so reporting results of such investigations is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.\",\n      \"reason\": \"No subgroup analyses were conducted specifically to investigate causes of heterogeneity; subgroups reported were for efficacy comparison, and heterogeneity was low.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.\",\n      \"reason\": \"No heterogeneity investigations were performed, so interpretation of such results is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.\",\n      \"reason\": \"No subgroup analyses for heterogeneity causes were conducted, so interaction-test P values are not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.\",\n      \"reason\": \"No subgroup analyses for heterogeneity causes were conducted, so difference between subgroup effects is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.\",\n      \"reason\": \"Authors explicitly stated they did not run meta-regression analyses, so coefficient P values are not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.\",\n      \"reason\": \"Authors explicitly stated they did not run meta-regression analyses, so scatterplots are not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.\",\n      \"reason\": \"No informal investigations of heterogeneity causes were described; potential causes were only mentioned in limitations.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20c_e1",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.",
+          "reason": "Authors explicitly stated they did not conduct investigations into causes of heterogeneity due to low heterogeneity (I^2 = 0%), so reporting results of such investigations is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_20c_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.",
+          "reason": "No subgroup analyses were conducted specifically to investigate causes of heterogeneity; subgroups reported were for efficacy comparison, and heterogeneity was low."
+        },
+        {
+          "element_id": "prisma_2020_20c_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.",
+          "reason": "No heterogeneity investigations were performed, so interpretation of such results is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_20c_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.",
+          "reason": "No subgroup analyses for heterogeneity causes were conducted, so interaction-test P values are not applicable."
+        },
+        {
+          "element_id": "prisma_2020_20c_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.",
+          "reason": "No subgroup analyses for heterogeneity causes were conducted, so difference between subgroup effects is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_20c_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.",
+          "reason": "Authors explicitly stated they did not run meta-regression analyses, so coefficient P values are not applicable."
+        },
+        {
+          "element_id": "prisma_2020_20c_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.",
+          "reason": "Authors explicitly stated they did not run meta-regression analyses, so scatterplots are not applicable."
+        },
+        {
+          "element_id": "prisma_2020_20c_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "Due to low heterogeneity, we did not run meta-regression analyses to understand the cause of heterogeneity.",
+          "reason": "No informal investigations of heterogeneity causes were described; potential causes were only mentioned in limitations."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_APPLICABLE",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20d",
+    "item_label": "20d",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_21",
+    "item_label": "21",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_21\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_21_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Publication bias: To assess any potential publication bias, we constructed a funnel plot for the primary outcome (ie, depressive symptoms), and we visually inspected the symmetry of the plot.\",\n      \"reason\": \"Assessment of risk of bias due to missing results (publication bias) is presented for the primary outcome, but not explicitly for the follow-up synthesis assessed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"To assess any potential publication bias, we constructed a funnel plot for the primary outcome (ie, depressive symptoms), and we visually inspected the symmetry of the plot.\",\n      \"reason\": \"No specific tool (e.g., Egger's test, JBI tool) was used; only visual inspection of a funnel plot was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e3\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_24\",\n      \"quote\": \"Appendix D.: Funnel plots: (a) a funnel plot including all included trials; (b) a funnel plot excluding three trials that showed publication bias on plot (a)\",\n      \"reason\": \"Funnel plots are provided (Figure 2/Appendix D) with effect estimates (SMD) and precision (SE), but contour milestones are not explicitly visible or reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"To assess any potential publication bias, we constructed a funnel plot for the primary outcome (ie, depressive symptoms), and we visually inspected the symmetry of the plot.\",\n      \"reason\": \"No funnel-plot asymmetry test (e.g., Egger's regression) was used; only visual inspection was conducted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"In the plot, three notable outliers were observed... which caused asymmetry of the funnel plot (Appendix D). We excluded these trials from the final meta-analysis.\",\n      \"reason\": \"Trials were excluded prior to the final analysis, but no sensitivity analysis comparing results with and without these trials is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No study-by-synthesis matrix displaying selective non-reporting assessments is found in the evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e7\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"table_6\",\n      \"quote\": \"| Included in meta-analysis | Yes | ... | No (insufficient data) | ... | No (publication bias) | ...\",\n      \"reason\": \"Table 2 displays studies with missing results (insufficient data, publication bias) in a table format, though not beneath forest plots.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_21",
+      "elements": [
+        {
+          "element_id": "prisma_2020_21_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_12",
+          "quote": "Publication bias: To assess any potential publication bias, we constructed a funnel plot for the primary outcome (ie, depressive symptoms), and we visually inspected the symmetry of the plot.",
+          "reason": "Assessment of risk of bias due to missing results (publication bias) is presented for the primary outcome, but not explicitly for the follow-up synthesis assessed."
+        },
+        {
+          "element_id": "prisma_2020_21_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "To assess any potential publication bias, we constructed a funnel plot for the primary outcome (ie, depressive symptoms), and we visually inspected the symmetry of the plot.",
+          "reason": "No specific tool (e.g., Egger's test, JBI tool) was used; only visual inspection of a funnel plot was performed."
+        },
+        {
+          "element_id": "prisma_2020_21_e3",
+          "status": "PARTIAL",
+          "chunk_id": "text_24",
+          "quote": "Appendix D.: Funnel plots: (a) a funnel plot including all included trials; (b) a funnel plot excluding three trials that showed publication bias on plot (a)",
+          "reason": "Funnel plots are provided (Figure 2/Appendix D) with effect estimates (SMD) and precision (SE), but contour milestones are not explicitly visible or reported."
+        },
+        {
+          "element_id": "prisma_2020_21_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_12",
+          "quote": "To assess any potential publication bias, we constructed a funnel plot for the primary outcome (ie, depressive symptoms), and we visually inspected the symmetry of the plot.",
+          "reason": "No funnel-plot asymmetry test (e.g., Egger's regression) was used; only visual inspection was conducted."
+        },
+        {
+          "element_id": "prisma_2020_21_e5",
+          "status": "MISSING",
+          "chunk_id": "text_12",
+          "quote": "In the plot, three notable outliers were observed... which caused asymmetry of the funnel plot (Appendix D). We excluded these trials from the final meta-analysis.",
+          "reason": "Trials were excluded prior to the final analysis, but no sensitivity analysis comparing results with and without these trials is reported."
+        },
+        {
+          "element_id": "prisma_2020_21_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No study-by-synthesis matrix displaying selective non-reporting assessments is found in the evidence."
+        },
+        {
+          "element_id": "prisma_2020_21_e7",
+          "status": "PARTIAL",
+          "chunk_id": "table_6",
+          "quote": "| Included in meta-analysis | Yes | ... | No (insufficient data) | ... | No (publication bias) | ...",
+          "reason": "Table 2 displays studies with missing results (insufficient data, publication bias) in a table format, though not beneath forest plots."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_21_e1",
+        "prisma_2020_21_e3",
+        "prisma_2020_21_e5",
+        "prisma_2020_21_e6",
+        "prisma_2020_21_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_22",
+    "item_label": "22",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_22\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_22_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript assesses methodological quality of individual trials (JBI-MAStARI) but does not report overall certainty or confidence levels for the outcomes (e.g., using GRADE).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No reasons for rating certainty down or up are explained, as no certainty ratings are provided for the outcomes.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Certainty is not communicated in the results section or elsewhere; only statistical results and heterogeneity are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No GRADE Summary of Findings table or similar evidence summary table is included in the retrieved evidence.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_22",
+      "elements": [
+        {
+          "element_id": "prisma_2020_22_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript assesses methodological quality of individual trials (JBI-MAStARI) but does not report overall certainty or confidence levels for the outcomes (e.g., using GRADE)."
+        },
+        {
+          "element_id": "prisma_2020_22_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No reasons for rating certainty down or up are explained, as no certainty ratings are provided for the outcomes."
+        },
+        {
+          "element_id": "prisma_2020_22_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Certainty is not communicated in the results section or elsewhere; only statistical results and heterogeneity are reported."
+        },
+        {
+          "element_id": "prisma_2020_22_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No GRADE Summary of Findings table or similar evidence summary table is included in the retrieved evidence."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_22_e1",
+        "prisma_2020_22_e2",
+        "prisma_2020_22_e3",
+        "prisma_2020_22_e4"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23a",
+    "item_label": "23a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"Our study is consistent with previous strokespecific reviews that have qualitatively supported the effect of NPIs in reducing the severity of depressive symptoms. 8,11,13\",\n      \"reason\": \"The authors explicitly interpret their results by comparing them to previous systematic reviews, stating consistency with prior qualitative support for non-pharmacological interventions, thereby fulfilling the requirement to provide a general interpretation in the context of other evidence.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "Our study is consistent with previous strokespecific reviews that have qualitatively supported the effect of NPIs in reducing the severity of depressive symptoms. 8,11,13",
+          "reason": "The authors explicitly interpret their results by comparing them to previous systematic reviews, stating consistency with prior qualitative support for non-pharmacological interventions, thereby fulfilling the requirement to provide a general interpretation in the context of other evidence."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23b",
+    "item_label": "23b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "\n\n{\n  \"item_id\": \"PRISMA_2020_23b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_14\",\n      \"quote\": \"This review provides meaningful evidence in clinical research and practice; however, it has a few limitations resulting from the research design of the included trials. First, the majority of the included trials narrowed their selection criteria to people without communication problems/aphasia, cognitive impairments, and other neurological or psychiatric disorders. Considering the high prevalence of aphasia, cognitive impairments, and/or other comorbid conditions among people after stroke, this narrow selection criteria may cause study bias and limit the generalizability of study findings. ... Second, study characteristics, such as the number of intervention sessions, interventions for the control conditions, and the stage of stroke recovery, varied across all included studies. ... Last, the number of trials used to test the effects of specific intervention types may be inadequate.\",\n      \"reason\": \"The manuscript explicitly includes a section titled 'Study Limitations' which details specific limitations regarding selection criteria, heterogeneity, and the number of trials, directly fulfilling the requirement to discuss limitations of the evidence included in the review.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_14",
+          "quote": "This review provides meaningful evidence in clinical research and practice; however, it has a few limitations resulting from the research design of the included trials. First, the majority of the included trials narrowed their selection criteria to people without communication problems/aphasia, cognitive impairments, and other neurological or psychiatric disorders. Considering the high prevalence of aphasia, cognitive impairments, and/or other comorbid conditions among people after stroke, this narrow selection criteria may cause study bias and limit the generalizability of study findings. ... Second, study characteristics, such as the number of intervention sessions, interventions for the control conditions, and the stage of stroke recovery, varied across all included studies. ... Last, the number of trials used to test the effects of specific intervention types may be inadequate.",
+          "reason": "The manuscript explicitly includes a section titled 'Study Limitations' which details specific limitations regarding selection criteria, heterogeneity, and the number of trials, directly fulfilling the requirement to discuss limitations of the evidence included in the review."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23c",
+    "item_label": "23c",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_14\",\n      \"quote\": \"This review attempted to group many disparate and diverse therapeutic interventions into one category of NPI. This review also compared evidence-based interventions to those that have not been empirically validated, which likely decreases the power of detecting the real effect.\",\n      \"reason\": \"The text explicitly identifies limitations of the review process, such as grouping diverse interventions and the number of trials included.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_14\",\n      \"quote\": \"This review also compared evidence-based interventions to those that have not been empirically validated, which likely decreases the power of detecting the real effect.\",\n      \"reason\": \"The text explicitly discusses the potential impact of the limitations, such as decreased power to detect real effects and the need for cautious interpretation.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_14",
+          "quote": "This review attempted to group many disparate and diverse therapeutic interventions into one category of NPI. This review also compared evidence-based interventions to those that have not been empirically validated, which likely decreases the power of detecting the real effect.",
+          "reason": "The text explicitly identifies limitations of the review process, such as grouping diverse interventions and the number of trials included."
+        },
+        {
+          "element_id": "prisma_2020_23c_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_14",
+          "quote": "This review also compared evidence-based interventions to those that have not been empirically validated, which likely decreases the power of detecting the real effect.",
+          "reason": "The text explicitly discusses the potential impact of the limitations, such as decreased power to detect real effects and the need for cautious interpretation."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23d",
+    "item_label": "23d",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23d_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_15\",\n      \"quote\": \"Rehabilitation professionals should consider incorporating psychosocial therapy-such as motivational interviewing, problemsolving therapy, or CBT-into the treatment plan to increases skills in the management of emotional problems and, eventually, improve functional independence and quality of life in people after stroke.\",\n      \"reason\": \"The conclusion section explicitly discusses implications for clinical practice by recommending specific therapies for rehabilitation professionals.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23d_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The retrieved text discusses clinical practice and research but does not explicitly mention implications for policy, guidelines, or healthcare systems.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23d_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_15\",\n      \"quote\": \"Future studies are needed to identify personalized interventions for persons experiencing specific vulnerable conditions such as cognitive impairments, communication problems/aphasia, or those presenting differing depressive symptoms after stroke.\",\n      \"reason\": \"The conclusion and discussion sections explicitly provide recommendations for future research, including the need for personalized interventions and further meta-analyses.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23d_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_15",
+          "quote": "Rehabilitation professionals should consider incorporating psychosocial therapy-such as motivational interviewing, problemsolving therapy, or CBT-into the treatment plan to increases skills in the management of emotional problems and, eventually, improve functional independence and quality of life in people after stroke.",
+          "reason": "The conclusion section explicitly discusses implications for clinical practice by recommending specific therapies for rehabilitation professionals."
+        },
+        {
+          "element_id": "prisma_2020_23d_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The retrieved text discusses clinical practice and research but does not explicitly mention implications for policy, guidelines, or healthcare systems."
+        },
+        {
+          "element_id": "prisma_2020_23d_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_15",
+          "quote": "Future studies are needed to identify personalized interventions for persons experiencing specific vulnerable conditions such as cognitive impairments, communication problems/aphasia, or those presenting differing depressive symptoms after stroke.",
+          "reason": "The conclusion and discussion sections explicitly provide recommendations for future research, including the need for personalized interventions and further meta-analyses."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_23d_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24a",
+    "item_label": "24a",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24a_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided evidence, including the Abstract (text_2) and Methods sections (text_5), does not report a review register name, registration number, or explicitly state that the review was not registered.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24a_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided evidence, including the Abstract (text_2) and Methods sections (text_5), does not report a review register name, registration number, or explicitly state that the review was not registered."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_24a_e1"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24b",
+    "item_label": "24b",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The retrieved text describes the search strategy, study selection, and data extraction methods but does not mention a review protocol registration, a link to a protocol, or a statement that no protocol was prepared.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The retrieved text describes the search strategy, study selection, and data extraction methods but does not mention a review protocol registration, a link to a protocol, or a statement that no protocol was prepared."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_24b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24c",
+    "item_label": "24c",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_25",
+    "item_label": "25",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_25\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_25_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_16\",\n      \"quote\": \"Funding: This study was supported by the National Institute of Child Health and Human Development/National Center for Medical Rehabilitation Research [K01HD095388].\",\n      \"reason\": \"The text explicitly describes the source of financial support and includes the grant identifier.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_25_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_16\",\n      \"quote\": \"The contents of this article do not necessarily represent the policies of the funding agency.\",\n      \"reason\": \"The text describes the role of the funding agency, stating that their policies do not dictate the article's content.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_25",
+      "elements": [
+        {
+          "element_id": "prisma_2020_25_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_16",
+          "quote": "Funding: This study was supported by the National Institute of Child Health and Human Development/National Center for Medical Rehabilitation Research [K01HD095388].",
+          "reason": "The text explicitly describes the source of financial support and includes the grant identifier."
+        },
+        {
+          "element_id": "prisma_2020_25_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_16",
+          "quote": "The contents of this article do not necessarily represent the policies of the funding agency.",
+          "reason": "The text describes the role of the funding agency, stating that their policies do not dictate the article's content."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_26",
+    "item_label": "26",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "\n\n{\n  \"item_id\": \"PRISMA_2020_26\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_26_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_16\",\n      \"quote\": \"Conflict of interest disclosures: AW reported grants from the National Institutes of Health (NIH) during the conduct of the study; grants from the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR), and Craig H. Neilsen Foundation outside of the submitted work. JL reported grants from the NIH outside of the submitted work. GN reported grants from the NIH, Washington University Center for Diabetes Translational Research & Institute for Clinical Translational Science, Alkermes, and Otuska American, Inc. She also serves as a consultant for Sunovion, Alkermes, and Supernus Pharmaceuticals, Patient-Centered Outcomes Research Institute, McKnight Brain Research Foundation, Taylor Family Institute for Innovative Psychiatric Research, Barnes Jewish Foundation, MagStim, Takeda, Johnson & Johnson, and Lundbeck outside of the submitted work; grants and personal fees from Janssen, and personal fees from Jazz Pharmaceuticals outside of the submitted work. EL reported grants from the NIH, US Food and Drug Administration, Patient-Centered Outcomes Research Institute, McKnight Brain Research Foundation, Taylor Family Institute for Innovative Psychiatric Research, Barnes Jewish Foundation, Takeda, Alkermes, Aptinyx, Johnson & Johnson, and Lundbeck outside of the submitted work; grants and personal fees from Janssen, and personal fees from Jazz Pharmaceuticals outside of the submitted work. CB reported grants from the National Center for Advancing Translational Sciences and Schultz Family Support Fund outside of the submitted work. YL, BC, MF, and LC reported the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. No other disclosures were reported.\",\n      \"reason\": \"The manuscript explicitly discloses conflicts of interest for all authors in the Acknowledgements section, listing specific grants, consulting roles, and financial relationships.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_26_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While conflicts of interest are disclosed, the manuscript does not report how these interests were managed during the review processes (e.g., reviewer exclusion, oversight mechanisms).\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_26",
+      "elements": [
+        {
+          "element_id": "prisma_2020_26_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_16",
+          "quote": "Conflict of interest disclosures: AW reported grants from the National Institutes of Health (NIH) during the conduct of the study; grants from the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR), and Craig H. Neilsen Foundation outside of the submitted work. JL reported grants from the NIH outside of the submitted work. GN reported grants from the NIH, Washington University Center for Diabetes Translational Research & Institute for Clinical Translational Science, Alkermes, and Otuska American, Inc. She also serves as a consultant for Sunovion, Alkermes, and Supernus Pharmaceuticals, Patient-Centered Outcomes Research Institute, McKnight Brain Research Foundation, Taylor Family Institute for Innovative Psychiatric Research, Barnes Jewish Foundation, MagStim, Takeda, Johnson & Johnson, and Lundbeck outside of the submitted work; grants and personal fees from Janssen, and personal fees from Jazz Pharmaceuticals outside of the submitted work. EL reported grants from the NIH, US Food and Drug Administration, Patient-Centered Outcomes Research Institute, McKnight Brain Research Foundation, Taylor Family Institute for Innovative Psychiatric Research, Barnes Jewish Foundation, Takeda, Alkermes, Aptinyx, Johnson & Johnson, and Lundbeck outside of the submitted work; grants and personal fees from Janssen, and personal fees from Jazz Pharmaceuticals outside of the submitted work. CB reported grants from the National Center for Advancing Translational Sciences and Schultz Family Support Fund outside of the submitted work. YL, BC, MF, and LC reported the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. No other disclosures were reported.",
+          "reason": "The manuscript explicitly discloses conflicts of interest for all authors in the Acknowledgements section, listing specific grants, consulting roles, and financial relationships."
+        },
+        {
+          "element_id": "prisma_2020_26_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While conflicts of interest are disclosed, the manuscript does not report how these interests were managed during the review processes (e.g., reviewer exclusion, oversight mechanisms)."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_26_e2"
+      ]
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_27",
+    "item_label": "27",
+    "model": "qwen/qwen3.5-35b-a3b",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  }
+]

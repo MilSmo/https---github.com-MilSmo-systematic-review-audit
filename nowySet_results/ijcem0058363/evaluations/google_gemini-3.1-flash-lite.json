@@ -1,0 +1,2350 @@
+[
+  {
+    "item_id": "PRISMA_2020_1",
+    "item_label": "1",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_1\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_1_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The title does not contain the phrase 'systematic review', which is required to explicitly identify the report as such.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": null,\n      \"quote\": \"The effect of acupuncture on Bell's palsy: an overall and cumulative meta-analysis of randomized controlled trials\",\n      \"reason\": \"The title clearly identifies the intervention ('acupuncture') and the population ('Bell's palsy').\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": null,\n      \"quote\": \"an overall and cumulative meta-analysis of randomized controlled trials\",\n      \"reason\": \"The title includes the analysis method ('overall and cumulative meta-analysis') and the included study designs ('randomized controlled trials').\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_1",
+      "elements": [
+        {
+          "element_id": "prisma_2020_1_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The title does not contain the phrase 'systematic review', which is required to explicitly identify the report as such."
+        },
+        {
+          "element_id": "prisma_2020_1_e2",
+          "status": "PRESENT",
+          "chunk_id": null,
+          "quote": "The effect of acupuncture on Bell's palsy: an overall and cumulative meta-analysis of randomized controlled trials",
+          "reason": "The title clearly identifies the intervention ('acupuncture') and the population ('Bell's palsy')."
+        },
+        {
+          "element_id": "prisma_2020_1_e3",
+          "status": "PRESENT",
+          "chunk_id": null,
+          "quote": "an overall and cumulative meta-analysis of randomized controlled trials",
+          "reason": "The title includes the analysis method ('overall and cumulative meta-analysis') and the included study designs ('randomized controlled trials')."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_1_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 11,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_2",
+    "item_label": "2",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_2\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_2_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_0\",\n      \"quote\": \"An overall and cumulative meta-analysis was conducted to evaluate and quantify this efficacy.\",\n      \"reason\": \"The abstract explicitly identifies the report as a meta-analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_0\",\n      \"quote\": \"Objectives: An overall and cumulative meta-analysis was conducted to evaluate and quantify this efficacy.\",\n      \"reason\": \"The abstract provides an explicit statement of the objective.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not specify the inclusion and exclusion criteria.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_0\",\n      \"quote\": \"Searches of PubMed, EMBASE, Wanfang data - base and the Cochrane Central Register of Controlled Trials were performed up to July 2016\",\n      \"reason\": \"The abstract identifies the information sources and the date of the last search.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not mention the methods used to assess risk of bias.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_0\",\n      \"quote\": \"a random-effect model was used to yield summary relative risks (RRs).\",\n      \"reason\": \"The abstract specifies the method used for synthesis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not report the total number of included studies or participants.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e8\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_0\",\n      \"quote\": \"Compared to conventional treatments, RRs for total effective rate and cured rate of acupuncture are 1.11 (95% confidence interval (CI)=1.05-1.17) and 1.56 (95% CI=1.30 - 1.87), respectively.\",\n      \"reason\": \"The abstract reports results for the main outcomes but fails to include the number of included studies and participants for each outcome.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e9\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_0\",\n      \"quote\": \"RRs for total effective rate and cured rate of acupuncture are 1.11 (95% confidence interval (CI)=1.05-1.17) and 1.56 (95% CI=1.30 - 1.87), respectively.\",\n      \"reason\": \"The abstract reports the summary estimates and confidence intervals for the meta-analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e10\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_0\",\n      \"quote\": \"Compared to conventional treatments, RRs for total effective rate and cured rate of acupuncture are 1.11 (95% confidence interval (CI)=1.05-1.17) and 1.56 (95% CI=1.30 - 1.87), respectively.\",\n      \"reason\": \"The abstract indicates the direction of effect (RR > 1) favoring acupuncture.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e11\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_0\",\n      \"quote\": \"we failed to draw a conclusion that the acupuncture is effective for facial paralysis since these limited methodological quality studies and potential biases\",\n      \"reason\": \"The abstract summarizes important limitations.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e12\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_0\",\n      \"quote\": \"there need to be validated by more well designed and large sample size RCTs.\",\n      \"reason\": \"The abstract provides an interpretation and implication.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e13\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not specify the primary source of funding.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e14\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not provide a registration number.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_2",
+      "elements": [
+        {
+          "element_id": "prisma_2020_2_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_0",
+          "quote": "An overall and cumulative meta-analysis was conducted to evaluate and quantify this efficacy.",
+          "reason": "The abstract explicitly identifies the report as a meta-analysis."
+        },
+        {
+          "element_id": "prisma_2020_2_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_0",
+          "quote": "Objectives: An overall and cumulative meta-analysis was conducted to evaluate and quantify this efficacy.",
+          "reason": "The abstract provides an explicit statement of the objective."
+        },
+        {
+          "element_id": "prisma_2020_2_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not specify the inclusion and exclusion criteria."
+        },
+        {
+          "element_id": "prisma_2020_2_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_0",
+          "quote": "Searches of PubMed, EMBASE, Wanfang data - base and the Cochrane Central Register of Controlled Trials were performed up to July 2016",
+          "reason": "The abstract identifies the information sources and the date of the last search."
+        },
+        {
+          "element_id": "prisma_2020_2_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not mention the methods used to assess risk of bias."
+        },
+        {
+          "element_id": "prisma_2020_2_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_0",
+          "quote": "a random-effect model was used to yield summary relative risks (RRs).",
+          "reason": "The abstract specifies the method used for synthesis."
+        },
+        {
+          "element_id": "prisma_2020_2_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not report the total number of included studies or participants."
+        },
+        {
+          "element_id": "prisma_2020_2_e8",
+          "status": "PARTIAL",
+          "chunk_id": "text_0",
+          "quote": "Compared to conventional treatments, RRs for total effective rate and cured rate of acupuncture are 1.11 (95% confidence interval (CI)=1.05-1.17) and 1.56 (95% CI=1.30 - 1.87), respectively.",
+          "reason": "The abstract reports results for the main outcomes but fails to include the number of included studies and participants for each outcome."
+        },
+        {
+          "element_id": "prisma_2020_2_e9",
+          "status": "PRESENT",
+          "chunk_id": "text_0",
+          "quote": "RRs for total effective rate and cured rate of acupuncture are 1.11 (95% confidence interval (CI)=1.05-1.17) and 1.56 (95% CI=1.30 - 1.87), respectively.",
+          "reason": "The abstract reports the summary estimates and confidence intervals for the meta-analysis."
+        },
+        {
+          "element_id": "prisma_2020_2_e10",
+          "status": "PRESENT",
+          "chunk_id": "text_0",
+          "quote": "Compared to conventional treatments, RRs for total effective rate and cured rate of acupuncture are 1.11 (95% confidence interval (CI)=1.05-1.17) and 1.56 (95% CI=1.30 - 1.87), respectively.",
+          "reason": "The abstract indicates the direction of effect (RR > 1) favoring acupuncture."
+        },
+        {
+          "element_id": "prisma_2020_2_e11",
+          "status": "PRESENT",
+          "chunk_id": "text_0",
+          "quote": "we failed to draw a conclusion that the acupuncture is effective for facial paralysis since these limited methodological quality studies and potential biases",
+          "reason": "The abstract summarizes important limitations."
+        },
+        {
+          "element_id": "prisma_2020_2_e12",
+          "status": "PRESENT",
+          "chunk_id": "text_0",
+          "quote": "there need to be validated by more well designed and large sample size RCTs.",
+          "reason": "The abstract provides an interpretation and implication."
+        },
+        {
+          "element_id": "prisma_2020_2_e13",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not specify the primary source of funding."
+        },
+        {
+          "element_id": "prisma_2020_2_e14",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not provide a registration number."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_2_e3",
+        "prisma_2020_2_e5",
+        "prisma_2020_2_e7",
+        "prisma_2020_2_e8",
+        "prisma_2020_2_e13",
+        "prisma_2020_2_e14"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_3",
+    "item_label": "3",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_3\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_3_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_0\",\n      \"quote\": \"Whether acupuncture is effective for Bell's palsy is controversial, and potential modifiers exist according to previous studies.\",\n      \"reason\": \"The abstract explicitly states the current state of knowledge (controversy regarding acupuncture's effectiveness) and uncertainties (potential modifiers).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_0\",\n      \"quote\": \"An overall and cumulative meta-analysis was conducted to evaluate and quantify this efficacy.\",\n      \"reason\": \"The authors explain the need for the review: to evaluate and quantify the efficacy of acupuncture for Bell's palsy, addressing the controversy mentioned.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"Our study revealed a more convincing positive association between acupuncture and treatment of Bell's palsy, because we contained new researched literature published after 2009 which previous studies did not, and we conducted a cumulative meta-analysis trial according to chronological order.\",\n      \"reason\": \"The authors acknowledge previous studies and explain the need for their current review by highlighting that they included newer literature and used a cumulative meta-analysis approach.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"The mechanism of acupuncture treatment could be explained in terms of neurology [55] and microcirculation theories [53, 54] such as activation of receptors, transmission of signals along afferent nerve fibers, projecting into central nervous systems, efferent control mechanisms, improving microcirculation, elimination of inflammation, absorption of edema, strengthening the body resistance and so on.\",\n      \"reason\": \"The authors provide a brief description of the proposed mechanism of action for acupuncture in the Discussion section.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review does not involve a complex intervention or delivery context that necessitates a formal logic model, and none is provided.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_3",
+      "elements": [
+        {
+          "element_id": "prisma_2020_3_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_0",
+          "quote": "Whether acupuncture is effective for Bell's palsy is controversial, and potential modifiers exist according to previous studies.",
+          "reason": "The abstract explicitly states the current state of knowledge (controversy regarding acupuncture's effectiveness) and uncertainties (potential modifiers)."
+        },
+        {
+          "element_id": "prisma_2020_3_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_0",
+          "quote": "An overall and cumulative meta-analysis was conducted to evaluate and quantify this efficacy.",
+          "reason": "The authors explain the need for the review: to evaluate and quantify the efficacy of acupuncture for Bell's palsy, addressing the controversy mentioned."
+        },
+        {
+          "element_id": "prisma_2020_3_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "Our study revealed a more convincing positive association between acupuncture and treatment of Bell's palsy, because we contained new researched literature published after 2009 which previous studies did not, and we conducted a cumulative meta-analysis trial according to chronological order.",
+          "reason": "The authors acknowledge previous studies and explain the need for their current review by highlighting that they included newer literature and used a cumulative meta-analysis approach."
+        },
+        {
+          "element_id": "prisma_2020_3_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "The mechanism of acupuncture treatment could be explained in terms of neurology [55] and microcirculation theories [53, 54] such as activation of receptors, transmission of signals along afferent nerve fibers, projecting into central nervous systems, efferent control mechanisms, improving microcirculation, elimination of inflammation, absorption of edema, strengthening the body resistance and so on.",
+          "reason": "The authors provide a brief description of the proposed mechanism of action for acupuncture in the Discussion section."
+        },
+        {
+          "element_id": "prisma_2020_3_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review does not involve a complex intervention or delivery context that necessitates a formal logic model, and none is provided."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_4",
+    "item_label": "4",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_4\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_4_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not contain an explicit statement of the review's objectives or research questions. While the title mentions the topic, the introduction or objective section is not provided in the evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_4_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not contain an explicit statement of the planned comparisons using PICO or an appropriate variant.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_4",
+      "elements": [
+        {
+          "element_id": "prisma_2020_4_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not contain an explicit statement of the review's objectives or research questions. While the title mentions the topic, the introduction or objective section is not provided in the evidence."
+        },
+        {
+          "element_id": "prisma_2020_4_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not contain an explicit statement of the planned comparisons using PICO or an appropriate variant."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_4_e1",
+        "prisma_2020_4_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_5",
+    "item_label": "5",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_5\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_5_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Two investigators (Fu-ming Wang and Sha-sha Yu) independently selected the suitable publications according to following inclusion criteria: (1) Participants: subjects diagnosed with Bell's palsy. (2) Intervention: manual acupuncture or electric acupuncture. (3) Control: other therapy regimens except acupuncture. (4) Outcome: Adjusted risk estimates with 95% confidence interval (CI) on the association of acupuncture and efficacy of Bell's palsy included cured rate and effective rate. (5) Study design: RCTs.\",\n      \"reason\": \"The manuscript specifies the inclusion criteria covering participants, interventions, comparators, outcomes, and study design.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not specify eligibility criteria regarding report characteristics such as language, publication status, or publication date range.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report excluding studies based on whether outcomes were measured versus reported, so this conditional requirement does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"To identify potential modifiers, the study-level subgroup analysis was performed stratified by age, contrast design, acupuncture design, sample size, therapy period, disease stage, respectively\",\n      \"reason\": \"The manuscript specifies how studies were grouped for synthesis (subgroup analyses) based on various study characteristics.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There are no notable restrictions on study eligibility that require a specific rationale beyond standard inclusion criteria.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_5",
+      "elements": [
+        {
+          "element_id": "prisma_2020_5_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "Two investigators (Fu-ming Wang and Sha-sha Yu) independently selected the suitable publications according to following inclusion criteria: (1) Participants: subjects diagnosed with Bell's palsy. (2) Intervention: manual acupuncture or electric acupuncture. (3) Control: other therapy regimens except acupuncture. (4) Outcome: Adjusted risk estimates with 95% confidence interval (CI) on the association of acupuncture and efficacy of Bell's palsy included cured rate and effective rate. (5) Study design: RCTs.",
+          "reason": "The manuscript specifies the inclusion criteria covering participants, interventions, comparators, outcomes, and study design."
+        },
+        {
+          "element_id": "prisma_2020_5_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not specify eligibility criteria regarding report characteristics such as language, publication status, or publication date range."
+        },
+        {
+          "element_id": "prisma_2020_5_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report excluding studies based on whether outcomes were measured versus reported, so this conditional requirement does not apply."
+        },
+        {
+          "element_id": "prisma_2020_5_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "To identify potential modifiers, the study-level subgroup analysis was performed stratified by age, contrast design, acupuncture design, sample size, therapy period, disease stage, respectively",
+          "reason": "The manuscript specifies how studies were grouped for synthesis (subgroup analyses) based on various study characteristics."
+        },
+        {
+          "element_id": "prisma_2020_5_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There are no notable restrictions on study eligibility that require a specific rationale beyond standard inclusion criteria."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_5_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_6",
+    "item_label": "6",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_6\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_6_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Systematic literature searches of PubMed, EMBASE, Wanfang database and the Cochrane Central Register of Controlled Trials were conducted up to July 2016.\",\n      \"reason\": \"The manuscript explicitly states the date (July 2016) up to which the systematic literature searches were conducted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Systematic literature searches of PubMed, EMBASE, Wanfang database and the Cochrane Central Register of Controlled Trials were conducted up to July 2016.\",\n      \"reason\": \"The authors list the databases searched (PubMed, EMBASE, Wanfang database, Cochrane Central Register of Controlled Trials), but they do not report the search interface/platform or the available coverage dates for these databases.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not indicate that any study registers, regulatory databases, or online repositories were searched.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not indicate that any websites, search engines, or other online sources were searched.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not indicate that any organizations or manufacturers were contacted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"If necessary, the original authors were contacted to obtain extra information via e-mails.\",\n      \"reason\": \"The authors mention contacting original authors to obtain extra information.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e7\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"We checked the reference lists of included studies and previous meta-analysis [15, 18] for additionally eligible studies.\",\n      \"reason\": \"The authors specify that they checked the reference lists of included studies and previous meta-analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of backward or forward citation searching being performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of consulting specific journals or conference proceedings.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_6",
+      "elements": [
+        {
+          "element_id": "prisma_2020_6_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Systematic literature searches of PubMed, EMBASE, Wanfang database and the Cochrane Central Register of Controlled Trials were conducted up to July 2016.",
+          "reason": "The manuscript explicitly states the date (July 2016) up to which the systematic literature searches were conducted."
+        },
+        {
+          "element_id": "prisma_2020_6_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_2",
+          "quote": "Systematic literature searches of PubMed, EMBASE, Wanfang database and the Cochrane Central Register of Controlled Trials were conducted up to July 2016.",
+          "reason": "The authors list the databases searched (PubMed, EMBASE, Wanfang database, Cochrane Central Register of Controlled Trials), but they do not report the search interface/platform or the available coverage dates for these databases."
+        },
+        {
+          "element_id": "prisma_2020_6_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not indicate that any study registers, regulatory databases, or online repositories were searched."
+        },
+        {
+          "element_id": "prisma_2020_6_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not indicate that any websites, search engines, or other online sources were searched."
+        },
+        {
+          "element_id": "prisma_2020_6_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not indicate that any organizations or manufacturers were contacted."
+        },
+        {
+          "element_id": "prisma_2020_6_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "If necessary, the original authors were contacted to obtain extra information via e-mails.",
+          "reason": "The authors mention contacting original authors to obtain extra information."
+        },
+        {
+          "element_id": "prisma_2020_6_e7",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "We checked the reference lists of included studies and previous meta-analysis [15, 18] for additionally eligible studies.",
+          "reason": "The authors specify that they checked the reference lists of included studies and previous meta-analyses."
+        },
+        {
+          "element_id": "prisma_2020_6_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of backward or forward citation searching being performed."
+        },
+        {
+          "element_id": "prisma_2020_6_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of consulting specific journals or conference proceedings."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_6_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_7",
+    "item_label": "7",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_7\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_7_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_18\",\n      \"quote\": \"The search strategy is showed in the Supplementary List 1 in detail.\",\n      \"reason\": \"The manuscript explicitly states that the search strategy is in Supplementary List 1. The retrieved evidence includes text chunks (text_18, text_20, text_22, text_23) that provide the specific search strings used for PubMed, Embase, Cochrane Library, and Wanfang, which covers the databases mentioned in the methods section.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_18\",\n      \"quote\": \"#10: 'Search ((acupuncture [Title/Abstract]) OR acupuncture therapy [Title/Abstract]) AND ((((Bell's palsy [Title/Abstract]) OR facial paralysis [Title/Abstract]) OR idiopathic facial paralysis [Title/Abstract]) OR herpetic Facial Paralysis [Title/Abstract]) Filters: Randomized Controlled Trial' #11: 'Search ((acupuncture [Title/Abstract]) OR acupuncture therapy [Title/Abstract]) AND ((((Bell's palsy [Title/Abstract]) OR facial paralysis [Title/Abstract]) OR idiopathic facial paralysis [Title/Abstract]) OR herpetic Facial Paralysis [Title/Abstract]) Filters: Randomized Controlled Trial; Clinical Trial'.\",\n      \"reason\": \"The search strategies provided in the supplementary evidence (e.g., text_18 for PubMed, text_20 for Embase) explicitly include filters such as 'Randomized Controlled Trial' and 'Clinical Trial', which are consistent with the eligibility criteria for the meta-analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that the authors used a published search approach or filter (e.g., a validated hedge) that required citation or description of adaptations.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that natural-language processing or text-analysis tools were used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that tools were used to translate search strings between sources.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that the search strategy was validated.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that the search strategy underwent peer review (e.g., PRESS).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The search structure appears to be based on PICO (Population: Bell's palsy/facial paralysis; Intervention: acupuncture), so this conditional element does not apply.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_7",
+      "elements": [
+        {
+          "element_id": "prisma_2020_7_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_18",
+          "quote": "The search strategy is showed in the Supplementary List 1 in detail.",
+          "reason": "The manuscript explicitly states that the search strategy is in Supplementary List 1. The retrieved evidence includes text chunks (text_18, text_20, text_22, text_23) that provide the specific search strings used for PubMed, Embase, Cochrane Library, and Wanfang, which covers the databases mentioned in the methods section."
+        },
+        {
+          "element_id": "prisma_2020_7_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_18",
+          "quote": "#10: 'Search ((acupuncture [Title/Abstract]) OR acupuncture therapy [Title/Abstract]) AND ((((Bell's palsy [Title/Abstract]) OR facial paralysis [Title/Abstract]) OR idiopathic facial paralysis [Title/Abstract]) OR herpetic Facial Paralysis [Title/Abstract]) Filters: Randomized Controlled Trial' #11: 'Search ((acupuncture [Title/Abstract]) OR acupuncture therapy [Title/Abstract]) AND ((((Bell's palsy [Title/Abstract]) OR facial paralysis [Title/Abstract]) OR idiopathic facial paralysis [Title/Abstract]) OR herpetic Facial Paralysis [Title/Abstract]) Filters: Randomized Controlled Trial; Clinical Trial'.",
+          "reason": "The search strategies provided in the supplementary evidence (e.g., text_18 for PubMed, text_20 for Embase) explicitly include filters such as 'Randomized Controlled Trial' and 'Clinical Trial', which are consistent with the eligibility criteria for the meta-analysis."
+        },
+        {
+          "element_id": "prisma_2020_7_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that the authors used a published search approach or filter (e.g., a validated hedge) that required citation or description of adaptations."
+        },
+        {
+          "element_id": "prisma_2020_7_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that natural-language processing or text-analysis tools were used."
+        },
+        {
+          "element_id": "prisma_2020_7_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that tools were used to translate search strings between sources."
+        },
+        {
+          "element_id": "prisma_2020_7_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that the search strategy was validated."
+        },
+        {
+          "element_id": "prisma_2020_7_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that the search strategy underwent peer review (e.g., PRESS)."
+        },
+        {
+          "element_id": "prisma_2020_7_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The search structure appears to be based on PICO (Population: Bell's palsy/facial paralysis; Intervention: acupuncture), so this conditional element does not apply."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 8,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_8",
+    "item_label": "8",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_8\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_8_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Two investigators (Fu-ming Wang and Sha-sha Yu) independently selected the suitable publications\",\n      \"reason\": \"The text explicitly states that two investigators performed the selection of publications.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Two investigators (Fu-ming Wang and Sha-sha Yu) independently selected the suitable publications\",\n      \"reason\": \"The text confirms that the two investigators worked independently during the selection process.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not describe the process used to resolve disagreements between the two reviewers during the study selection phase. While it mentions resolving controversies for data extraction and quality assessment (text_4), it does not mention resolution for study selection.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"If necessary, the original authors were contacted to obtain extra information via e-mails.\",\n      \"reason\": \"The manuscript mentions contacting original authors to obtain extra information if necessary.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that translation was required or performed for eligibility assessment.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No automation tools were reported as being used in the selection process.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No externally derived classifiers were used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No internally derived classifiers were used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No machine-learning prioritization tools were used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No crowdsourcing platforms were used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e11\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No previously screened datasets were used.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_8",
+      "elements": [
+        {
+          "element_id": "prisma_2020_8_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "Two investigators (Fu-ming Wang and Sha-sha Yu) independently selected the suitable publications",
+          "reason": "The text explicitly states that two investigators performed the selection of publications."
+        },
+        {
+          "element_id": "prisma_2020_8_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "Two investigators (Fu-ming Wang and Sha-sha Yu) independently selected the suitable publications",
+          "reason": "The text confirms that the two investigators worked independently during the selection process."
+        },
+        {
+          "element_id": "prisma_2020_8_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not describe the process used to resolve disagreements between the two reviewers during the study selection phase. While it mentions resolving controversies for data extraction and quality assessment (text_4), it does not mention resolution for study selection."
+        },
+        {
+          "element_id": "prisma_2020_8_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "If necessary, the original authors were contacted to obtain extra information via e-mails.",
+          "reason": "The manuscript mentions contacting original authors to obtain extra information if necessary."
+        },
+        {
+          "element_id": "prisma_2020_8_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that translation was required or performed for eligibility assessment."
+        },
+        {
+          "element_id": "prisma_2020_8_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No automation tools were reported as being used in the selection process."
+        },
+        {
+          "element_id": "prisma_2020_8_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No externally derived classifiers were used."
+        },
+        {
+          "element_id": "prisma_2020_8_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No internally derived classifiers were used."
+        },
+        {
+          "element_id": "prisma_2020_8_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No machine-learning prioritization tools were used."
+        },
+        {
+          "element_id": "prisma_2020_8_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No crowdsourcing platforms were used."
+        },
+        {
+          "element_id": "prisma_2020_8_e11",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No previously screened datasets were used."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_8_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 9,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_9",
+    "item_label": "9",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_9\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_9_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Data extraction was conducted by one investigator (Fu-ming Wang), the n independently checked by another investigator (Sha-sha Yu) for the accuracy.\",\n      \"reason\": \"The text specifies that two investigators (Fu-ming Wang and Sha-sha Yu) were involved in the data extraction process.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Data extraction was conducted by one investigator (Fu-ming Wang), the n independently checked by another investigator (Sha-sha Yu) for the accuracy.\",\n      \"reason\": \"The text explicitly states that the second investigator independently checked the data extraction.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Any controversies on the results of data extraction and quality assessment were resolved by further discussion.\",\n      \"reason\": \"The text describes the process for resolving disagreements (controversies) between the data collectors.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"If necessary, the original authors were contacted to obtain extra information via e-mails.\",\n      \"reason\": \"The text describes the process for obtaining extra information from study investigators.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of automation tools used for data collection.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of translation methods for data collection.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of software used to extract data from figures.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of specific decision rules for selecting data from multiple reports or resolving inconsistencies beyond the general discussion mentioned in e3.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_9",
+      "elements": [
+        {
+          "element_id": "prisma_2020_9_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Data extraction was conducted by one investigator (Fu-ming Wang), the n independently checked by another investigator (Sha-sha Yu) for the accuracy.",
+          "reason": "The text specifies that two investigators (Fu-ming Wang and Sha-sha Yu) were involved in the data extraction process."
+        },
+        {
+          "element_id": "prisma_2020_9_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Data extraction was conducted by one investigator (Fu-ming Wang), the n independently checked by another investigator (Sha-sha Yu) for the accuracy.",
+          "reason": "The text explicitly states that the second investigator independently checked the data extraction."
+        },
+        {
+          "element_id": "prisma_2020_9_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Any controversies on the results of data extraction and quality assessment were resolved by further discussion.",
+          "reason": "The text describes the process for resolving disagreements (controversies) between the data collectors."
+        },
+        {
+          "element_id": "prisma_2020_9_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "If necessary, the original authors were contacted to obtain extra information via e-mails.",
+          "reason": "The text describes the process for obtaining extra information from study investigators."
+        },
+        {
+          "element_id": "prisma_2020_9_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of automation tools used for data collection."
+        },
+        {
+          "element_id": "prisma_2020_9_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of translation methods for data collection."
+        },
+        {
+          "element_id": "prisma_2020_9_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of software used to extract data from figures."
+        },
+        {
+          "element_id": "prisma_2020_9_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of specific decision rules for selecting data from multiple reports or resolving inconsistencies beyond the general discussion mentioned in e3."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10a",
+    "item_label": "10a",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_10a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_10a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"We defined total cure rate and total effective rate as our end-points.\",\n      \"reason\": \"The authors explicitly define the primary outcome domains (total cure rate and total effective rate) used in the meta-analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not specify the time frame of measurement for the outcomes (e.g., at what point post-treatment the efficacy was assessed).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The authors do not state whether all results compatible with the outcome domains were sought from the included studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"As the authors did not specify the process for selecting results, this conditional element is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no report of changes to outcome-domain inclusion, definitions, or importance.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no report of changes to processes for selecting results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The authors do not report on the prioritization of outcomes for interpreting conclusions.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_10a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_10a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "We defined total cure rate and total effective rate as our end-points.",
+          "reason": "The authors explicitly define the primary outcome domains (total cure rate and total effective rate) used in the meta-analysis."
+        },
+        {
+          "element_id": "prisma_2020_10a_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not specify the time frame of measurement for the outcomes (e.g., at what point post-treatment the efficacy was assessed)."
+        },
+        {
+          "element_id": "prisma_2020_10a_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The authors do not state whether all results compatible with the outcome domains were sought from the included studies."
+        },
+        {
+          "element_id": "prisma_2020_10a_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "As the authors did not specify the process for selecting results, this conditional element is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_10a_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no report of changes to outcome-domain inclusion, definitions, or importance."
+        },
+        {
+          "element_id": "prisma_2020_10a_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no report of changes to processes for selecting results."
+        },
+        {
+          "element_id": "prisma_2020_10a_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The authors do not report on the prioritization of outcomes for interpreting conclusions."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_10a_e2",
+        "prisma_2020_10a_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10b",
+    "item_label": "10b",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_10b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_10b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"The following information was extracted: first author, publication year, study location, sample size, mean age, disease stage.\",\n      \"reason\": \"The authors explicitly list the variables for which data were sought during the extraction process.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not describe any assumptions made about missing or unclear information (e.g., how they handled missing data in the included studies, or if they contacted authors for missing data, although they mention contacting authors for 'extra information' in text_2, they do not describe assumptions made for missing data).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The authors did not report using a specific tool (like a standardized data extraction form template) to determine which data items to collect.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_10b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_10b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "The following information was extracted: first author, publication year, study location, sample size, mean age, disease stage.",
+          "reason": "The authors explicitly list the variables for which data were sought during the extraction process."
+        },
+        {
+          "element_id": "prisma_2020_10b_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not describe any assumptions made about missing or unclear information (e.g., how they handled missing data in the included studies, or if they contacted authors for missing data, although they mention contacting authors for 'extra information' in text_2, they do not describe assumptions made for missing data)."
+        },
+        {
+          "element_id": "prisma_2020_10b_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The authors did not report using a specific tool (like a standardized data extraction form template) to determine which data items to collect."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_10b_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 5,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_11",
+    "item_label": "11",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_11\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_11_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Two investigators (Fu-ming Wang and Shasha Yu) independently assessed the quality of included studies using the Cochrane Handbook for Systematic Reviews of Interventions [19].\",\n      \"reason\": \"The manuscript specifies the tool used for risk of bias assessment (Cochrane Handbook for Systematic Reviews of Interventions).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Seven aspects were evaluated as following: 1) Selection bias: random sequence generation, allocation concealment; 2) Performance bias: Using blind method to researchers and subjects; 3) Detection bias: The evaluation results of the study by the method for the blind; 4) Attrition bias: The data results integrity; 5) Reporting bias: Report the results of the study selectively; 6) Other bias: In addition to the above bias, the information provided can whether evaluate other causes of bias or not.\",\n      \"reason\": \"The manuscript lists the specific domains/aspects assessed during the risk of bias evaluation.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"The 'high', 'moderate', 'low' was allocated for each item.\",\n      \"reason\": \"The manuscript reports the judgment categories ('high', 'moderate', 'low') used for each item.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No adaptations to an existing tool were reported; the authors used the Cochrane Handbook criteria.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No newly developed risk-of-bias tool was used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Two investigators (Fu-ming Wang and Shasha Yu) independently assessed the quality of included studies... Any controversies on the results of data extraction and quality assessment were resolved by further discussion.\",\n      \"reason\": \"The manuscript reports the number of reviewers (two), their independence, and the procedure for resolving disagreements.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no indication that the authors attempted to contact study investigators to obtain or confirm risk-of-bias information.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No automation tools were used for the risk-of-bias assessment.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_11",
+      "elements": [
+        {
+          "element_id": "prisma_2020_11_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Two investigators (Fu-ming Wang and Shasha Yu) independently assessed the quality of included studies using the Cochrane Handbook for Systematic Reviews of Interventions [19].",
+          "reason": "The manuscript specifies the tool used for risk of bias assessment (Cochrane Handbook for Systematic Reviews of Interventions)."
+        },
+        {
+          "element_id": "prisma_2020_11_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Seven aspects were evaluated as following: 1) Selection bias: random sequence generation, allocation concealment; 2) Performance bias: Using blind method to researchers and subjects; 3) Detection bias: The evaluation results of the study by the method for the blind; 4) Attrition bias: The data results integrity; 5) Reporting bias: Report the results of the study selectively; 6) Other bias: In addition to the above bias, the information provided can whether evaluate other causes of bias or not.",
+          "reason": "The manuscript lists the specific domains/aspects assessed during the risk of bias evaluation."
+        },
+        {
+          "element_id": "prisma_2020_11_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "The 'high', 'moderate', 'low' was allocated for each item.",
+          "reason": "The manuscript reports the judgment categories ('high', 'moderate', 'low') used for each item."
+        },
+        {
+          "element_id": "prisma_2020_11_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No adaptations to an existing tool were reported; the authors used the Cochrane Handbook criteria."
+        },
+        {
+          "element_id": "prisma_2020_11_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No newly developed risk-of-bias tool was used."
+        },
+        {
+          "element_id": "prisma_2020_11_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Two investigators (Fu-ming Wang and Shasha Yu) independently assessed the quality of included studies... Any controversies on the results of data extraction and quality assessment were resolved by further discussion.",
+          "reason": "The manuscript reports the number of reviewers (two), their independence, and the procedure for resolving disagreements."
+        },
+        {
+          "element_id": "prisma_2020_11_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no indication that the authors attempted to contact study investigators to obtain or confirm risk-of-bias information."
+        },
+        {
+          "element_id": "prisma_2020_11_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No automation tools were used for the risk-of-bias assessment."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 10,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_12",
+    "item_label": "12",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_12\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_12_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"In this meta-analysis, relative risk (RR) with 95% confidence intervals (CI) was considered as common measure of the association between acupuncture therapy and total effective rate or total cured rate.\",\n      \"reason\": \"The authors explicitly state that relative risk (RR) was used as the effect measure for the primary outcomes (total effective rate and total cured rate).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report using specific thresholds or ranges to interpret effect sizes beyond standard statistical significance (p-values) and confidence intervals.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that the authors re-expressed synthesized results using another effect measure.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While the authors specify the effect measure used (RR), they do not provide a justification for why this specific measure was chosen for these outcomes.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_12",
+      "elements": [
+        {
+          "element_id": "prisma_2020_12_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "In this meta-analysis, relative risk (RR) with 95% confidence intervals (CI) was considered as common measure of the association between acupuncture therapy and total effective rate or total cured rate.",
+          "reason": "The authors explicitly state that relative risk (RR) was used as the effect measure for the primary outcomes (total effective rate and total cured rate)."
+        },
+        {
+          "element_id": "prisma_2020_12_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report using specific thresholds or ranges to interpret effect sizes beyond standard statistical significance (p-values) and confidence intervals."
+        },
+        {
+          "element_id": "prisma_2020_12_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that the authors re-expressed synthesized results using another effect measure."
+        },
+        {
+          "element_id": "prisma_2020_12_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While the authors specify the effect measure used (RR), they do not provide a justification for why this specific measure was chosen for these outcomes."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_12_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 5,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13a",
+    "item_label": "13a",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"All the selected 20 studies were used to calculate the pooled estimate for assessing the total effective rate. ... A total of 15 RCTs were used to calculate the pooled estimate for assessing the cured rate. ... All studies used total effective rate as an outcome measure. Meanwhile, fifteen studies used the cured rate [29-33, 35-40, 42, 46-48] and one study used the course of cured patient [31] as an outcome measure.\",\n      \"reason\": \"The authors describe the process used to determine eligibility for each synthesis by explicitly stating that studies were included in the meta-analysis for a specific outcome (total effective rate or cured rate) based on whether they reported that specific outcome measure.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "All the selected 20 studies were used to calculate the pooled estimate for assessing the total effective rate. ... A total of 15 RCTs were used to calculate the pooled estimate for assessing the cured rate. ... All studies used total effective rate as an outcome measure. Meanwhile, fifteen studies used the cured rate [29-33, 35-40, 42, 46-48] and one study used the course of cured patient [31] as an outcome measure.",
+          "reason": "The authors describe the process used to determine eligibility for each synthesis by explicitly stating that studies were included in the meta-analysis for a specific outcome (total effective rate or cured rate) based on whether they reported that specific outcome measure."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13b",
+    "item_label": "13b",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13b_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"In this meta-analysis, relative risk (RR) with 95% confidence intervals (CI) was considered as common measure of the association between acupuncture therapy and total effective rate or total cured rate. A random-effect model [20] was used to pool RRs to obtain the overall effect size.\",\n      \"reason\": \"The manuscript describes the choice of effect measure (RR) and the statistical model used for synthesis (random-effects). However, it fails to describe methods for preparing data, such as how missing summary statistics were handled or if any data conversions were performed (e.g., converting continuous data to dichotomous, or calculating standard deviations from standard errors/confidence intervals).\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13b_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_5",
+          "quote": "In this meta-analysis, relative risk (RR) with 95% confidence intervals (CI) was considered as common measure of the association between acupuncture therapy and total effective rate or total cured rate. A random-effect model [20] was used to pool RRs to obtain the overall effect size.",
+          "reason": "The manuscript describes the choice of effect measure (RR) and the statistical model used for synthesis (random-effects). However, it fails to describe methods for preparing data, such as how missing summary statistics were handled or if any data conversions were performed (e.g., converting continuous data to dichotomous, or calculating standard deviations from standard errors/confidence intervals)."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13c",
+    "item_label": "13c",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Table 1. Characteristics of 20 eligible RCTs\",\n      \"reason\": \"The manuscript mentions Table 1, which displays the characteristics of the included studies. While the specific content of the table is not fully detailed in the text, the existence and purpose of the table are explicitly stated.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"Additionally, cumulative meta-analysis was conducted to evaluate the efficacy of acupunc - ture therapy. Eligible studies were added 1 at a\",\n      \"reason\": \"The manuscript describes the use of cumulative meta-analysis, which is a graphical method for displaying results over time. Additionally, the text references 'Supplementary Figures 2 and 3' in chunk text_10, which are sensitivity analysis plots.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"Eligible studies were added 1 at a time in order of year of publication, and the results were summarized sequentially.\",\n      \"reason\": \"The manuscript explicitly states the basis for ordering studies in the cumulative meta-analysis (in order of year of publication).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not use non-standard graphs; it uses standard meta-analysis plots (forest plots, sensitivity analysis plots, cumulative meta-analysis plots), so this requirement does not apply.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Table 1. Characteristics of 20 eligible RCTs",
+          "reason": "The manuscript mentions Table 1, which displays the characteristics of the included studies. While the specific content of the table is not fully detailed in the text, the existence and purpose of the table are explicitly stated."
+        },
+        {
+          "element_id": "prisma_2020_13c_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "Additionally, cumulative meta-analysis was conducted to evaluate the efficacy of acupunc - ture therapy. Eligible studies were added 1 at a",
+          "reason": "The manuscript describes the use of cumulative meta-analysis, which is a graphical method for displaying results over time. Additionally, the text references 'Supplementary Figures 2 and 3' in chunk text_10, which are sensitivity analysis plots."
+        },
+        {
+          "element_id": "prisma_2020_13c_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "Eligible studies were added 1 at a time in order of year of publication, and the results were summarized sequentially.",
+          "reason": "The manuscript explicitly states the basis for ordering studies in the cumulative meta-analysis (in order of year of publication)."
+        },
+        {
+          "element_id": "prisma_2020_13c_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not use non-standard graphs; it uses standard meta-analysis plots (forest plots, sensitivity analysis plots, cumulative meta-analysis plots), so this requirement does not apply."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13d",
+    "item_label": "13d",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13d_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"All analyses were conducted using STATA version12.0 (StataCorp, College Station, TX) and RevMan 5.3 (The Nordic Cochrane Centre, Copenhagen, Denmark).\",\n      \"reason\": \"The manuscript explicitly reports the software packages (STATA and RevMan) and their version numbers used for the analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Meta-analysis was performed, so this element regarding alternative methods is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"A random-effect model [20] was used to pool RRs to obtain the overall effect size.\",\n      \"reason\": \"The manuscript states that a random-effects model was used to pool the results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"In this meta-analysis, relative risk (RR) with 95% confidence intervals (CI) was considered as common measure of the association between acupuncture therapy and total effective rate or total cured rate.\",\n      \"reason\": \"The manuscript describes the statistical method used (Relative Risk with 95% CI).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The between-study heterogeneity was assessed by Q statistic ( P Heterogeneity <0.10 suggesting statistically significant) and the I 2 [21] (high heterogeneity, I 2 ≥75%; moderate het - erogeneity, 50.0%<I 2 <75%; low heterogeneity, I 2 <50% [22]).\",\n      \"reason\": \"The manuscript describes the methods used to identify (Q statistic) and quantify (I^2) statistical heterogeneity.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While a random-effects model is mentioned, the specific between-study variance estimator (e.g., DerSimonian-Laird) is not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not specify the method used to calculate confidence intervals for the summary effect (e.g., Wald-type, profile likelihood, etc.).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No other specific random-effects implementation details were required or reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"This was not a Bayesian meta-analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that the study addressed statistical dependency among multiple estimates from the same study (e.g., multi-arm trials or multiple outcomes from one study) beyond standard meta-analysis procedures.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e11\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"We were unable to perform doseresponse meta-analysis due to insufficient data\",\n      \"reason\": \"The authors explicitly identify a planned synthesis (dose-response meta-analysis) that was judged impossible due to insufficient data.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13d_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "All analyses were conducted using STATA version12.0 (StataCorp, College Station, TX) and RevMan 5.3 (The Nordic Cochrane Centre, Copenhagen, Denmark).",
+          "reason": "The manuscript explicitly reports the software packages (STATA and RevMan) and their version numbers used for the analysis."
+        },
+        {
+          "element_id": "prisma_2020_13d_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Meta-analysis was performed, so this element regarding alternative methods is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_13d_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "A random-effect model [20] was used to pool RRs to obtain the overall effect size.",
+          "reason": "The manuscript states that a random-effects model was used to pool the results."
+        },
+        {
+          "element_id": "prisma_2020_13d_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "In this meta-analysis, relative risk (RR) with 95% confidence intervals (CI) was considered as common measure of the association between acupuncture therapy and total effective rate or total cured rate.",
+          "reason": "The manuscript describes the statistical method used (Relative Risk with 95% CI)."
+        },
+        {
+          "element_id": "prisma_2020_13d_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "The between-study heterogeneity was assessed by Q statistic ( P Heterogeneity <0.10 suggesting statistically significant) and the I 2 [21] (high heterogeneity, I 2 ≥75%; moderate het - erogeneity, 50.0%<I 2 <75%; low heterogeneity, I 2 <50% [22]).",
+          "reason": "The manuscript describes the methods used to identify (Q statistic) and quantify (I^2) statistical heterogeneity."
+        },
+        {
+          "element_id": "prisma_2020_13d_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While a random-effects model is mentioned, the specific between-study variance estimator (e.g., DerSimonian-Laird) is not reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not specify the method used to calculate confidence intervals for the summary effect (e.g., Wald-type, profile likelihood, etc.)."
+        },
+        {
+          "element_id": "prisma_2020_13d_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No other specific random-effects implementation details were required or reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "This was not a Bayesian meta-analysis."
+        },
+        {
+          "element_id": "prisma_2020_13d_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that the study addressed statistical dependency among multiple estimates from the same study (e.g., multi-arm trials or multiple outcomes from one study) beyond standard meta-analysis procedures."
+        },
+        {
+          "element_id": "prisma_2020_13d_e11",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "We were unable to perform doseresponse meta-analysis due to insufficient data",
+          "reason": "The authors explicitly identify a planned synthesis (dose-response meta-analysis) that was judged impossible due to insufficient data."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13d_e6",
+        "prisma_2020_13d_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13e",
+    "item_label": "13e",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13e\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13e_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"To identify potential modifiers, the study-level subgroup analysis was performed stratified by age, contrast design, acupuncture design, sample size, therapy period, disease stage, respectively, and a P interaction between subgroups was calculated by meta-regression [23].\",\n      \"reason\": \"The authors explicitly specify the methods used to explore heterogeneity, including subgroup analysis and meta-regression.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"the study-level subgroup analysis was performed stratified by age, contrast design, acupuncture design, sample size, therapy period, disease stage, respectively\",\n      \"reason\": \"The authors report the factors used for subgroup analysis, but they do not report the expected direction of effect modification for these factors.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"the study-level subgroup analysis was performed\",\n      \"reason\": \"The authors specify that the analyses used study-level variables.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"a P interaction between subgroups was calculated by meta-regression [23].\",\n      \"reason\": \"The authors describe the method used to compare subgroup effects (meta-regression to calculate P interaction).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Meta-analysis was performed, so informal methods for when meta-analysis is unsuitable are not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not state whether the analyses of heterogeneity were pre-specified or post-hoc.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13e",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13e_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "To identify potential modifiers, the study-level subgroup analysis was performed stratified by age, contrast design, acupuncture design, sample size, therapy period, disease stage, respectively, and a P interaction between subgroups was calculated by meta-regression [23].",
+          "reason": "The authors explicitly specify the methods used to explore heterogeneity, including subgroup analysis and meta-regression."
+        },
+        {
+          "element_id": "prisma_2020_13e_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_5",
+          "quote": "the study-level subgroup analysis was performed stratified by age, contrast design, acupuncture design, sample size, therapy period, disease stage, respectively",
+          "reason": "The authors report the factors used for subgroup analysis, but they do not report the expected direction of effect modification for these factors."
+        },
+        {
+          "element_id": "prisma_2020_13e_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "the study-level subgroup analysis was performed",
+          "reason": "The authors specify that the analyses used study-level variables."
+        },
+        {
+          "element_id": "prisma_2020_13e_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "a P interaction between subgroups was calculated by meta-regression [23].",
+          "reason": "The authors describe the method used to compare subgroup effects (meta-regression to calculate P interaction)."
+        },
+        {
+          "element_id": "prisma_2020_13e_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Meta-analysis was performed, so informal methods for when meta-analysis is unsuitable are not applicable."
+        },
+        {
+          "element_id": "prisma_2020_13e_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not state whether the analyses of heterogeneity were pre-specified or post-hoc."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13e_e2",
+        "prisma_2020_13e_e6"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13f",
+    "item_label": "13f",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13f\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13f_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"To further analysis the heterogeneity between eligible studies and check the stability of pooled results, three sensitivity analyses were conducted as following: omitting a single study in turn; repeating analyses by the fixedeffects model; and employing various eligibility criteria.\",\n      \"reason\": \"The authors explicitly describe three specific sensitivity analyses performed to assess the robustness of the results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13f_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript describes the sensitivity analyses as part of the planned methodology, and there is no evidence or mention of any post-hoc (non-pre-specified) sensitivity analyses being conducted.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13f",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13f_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "To further analysis the heterogeneity between eligible studies and check the stability of pooled results, three sensitivity analyses were conducted as following: omitting a single study in turn; repeating analyses by the fixedeffects model; and employing various eligibility criteria.",
+          "reason": "The authors explicitly describe three specific sensitivity analyses performed to assess the robustness of the results."
+        },
+        {
+          "element_id": "prisma_2020_13f_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript describes the sensitivity analyses as part of the planned methodology, and there is no evidence or mention of any post-hoc (non-pre-specified) sensitivity analyses being conducted."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_14",
+    "item_label": "14",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_14\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_14_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"Potential publication bias was assessed by Begg rank correlation test [24] and Egger linear regression test [25].\",\n      \"reason\": \"The authors specified the use of Begg rank correlation test and Egger linear regression test to assess publication bias, which is a method for assessing risk of bias due to missing results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Two investigators (Fu-ming Wang and Shasha Yu) independently assessed the quality of included studies using the Cochrane Handbook for Systematic Reviews of Interventions [19]. Seven aspects were evaluated as following: ... 5) Reporting bias: Report the results of the study selectively; ... The 'high', 'moderate', 'low' was allocated for each item.\",\n      \"reason\": \"The authors used the Cochrane Handbook for Systematic Reviews of Interventions to assess reporting bias (selective reporting) as one of seven domains, and described the process for deriving judgments (allocating 'high', 'moderate', 'low').\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No adaptations to an existing reporting-bias tool were reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No newly developed reporting-bias tool was reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Two investigators (Fu-ming Wang and Shasha Yu) independently assessed the quality of included studies using the Cochrane Handbook for Systematic Reviews of Interventions [19]. ... Any controversies on the results of data extraction and quality assessment were resolved by further discussion.\",\n      \"reason\": \"The authors reported the number of reviewers (two), their independence, and the procedure for resolving disagreements regarding the quality assessment, which included the assessment of reporting bias.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No specific processes for obtaining or confirming information from study investigators regarding reporting bias were described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No automation tools were used for reporting-bias assessment.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_14",
+      "elements": [
+        {
+          "element_id": "prisma_2020_14_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "Potential publication bias was assessed by Begg rank correlation test [24] and Egger linear regression test [25].",
+          "reason": "The authors specified the use of Begg rank correlation test and Egger linear regression test to assess publication bias, which is a method for assessing risk of bias due to missing results."
+        },
+        {
+          "element_id": "prisma_2020_14_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Two investigators (Fu-ming Wang and Shasha Yu) independently assessed the quality of included studies using the Cochrane Handbook for Systematic Reviews of Interventions [19]. Seven aspects were evaluated as following: ... 5) Reporting bias: Report the results of the study selectively; ... The 'high', 'moderate', 'low' was allocated for each item.",
+          "reason": "The authors used the Cochrane Handbook for Systematic Reviews of Interventions to assess reporting bias (selective reporting) as one of seven domains, and described the process for deriving judgments (allocating 'high', 'moderate', 'low')."
+        },
+        {
+          "element_id": "prisma_2020_14_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No adaptations to an existing reporting-bias tool were reported."
+        },
+        {
+          "element_id": "prisma_2020_14_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No newly developed reporting-bias tool was reported."
+        },
+        {
+          "element_id": "prisma_2020_14_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Two investigators (Fu-ming Wang and Shasha Yu) independently assessed the quality of included studies using the Cochrane Handbook for Systematic Reviews of Interventions [19]. ... Any controversies on the results of data extraction and quality assessment were resolved by further discussion.",
+          "reason": "The authors reported the number of reviewers (two), their independence, and the procedure for resolving disagreements regarding the quality assessment, which included the assessment of reporting bias."
+        },
+        {
+          "element_id": "prisma_2020_14_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No specific processes for obtaining or confirming information from study investigators regarding reporting bias were described."
+        },
+        {
+          "element_id": "prisma_2020_14_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No automation tools were used for reporting-bias assessment."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_15",
+    "item_label": "15",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_15\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_15_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript describes risk of bias assessment (Cochrane Handbook) but does not describe methods for assessing the certainty or confidence in the body of evidence (e.g., GRADE).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No methods for assessing certainty in the body of evidence are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No decision rules for certainty levels are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Certainty assessment was not performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Certainty assessment was not performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No certainty assessment was performed, so reviewer processes for this specific task are not applicable/reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Certainty assessment was not performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Certainty assessment was not performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e9\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No certainty assessment results or reporting methods (e.g., Summary of Findings tables) are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Certainty assessment was not performed.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_15",
+      "elements": [
+        {
+          "element_id": "prisma_2020_15_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript describes risk of bias assessment (Cochrane Handbook) but does not describe methods for assessing the certainty or confidence in the body of evidence (e.g., GRADE)."
+        },
+        {
+          "element_id": "prisma_2020_15_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No methods for assessing certainty in the body of evidence are reported."
+        },
+        {
+          "element_id": "prisma_2020_15_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No decision rules for certainty levels are reported."
+        },
+        {
+          "element_id": "prisma_2020_15_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Certainty assessment was not performed."
+        },
+        {
+          "element_id": "prisma_2020_15_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Certainty assessment was not performed."
+        },
+        {
+          "element_id": "prisma_2020_15_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No certainty assessment was performed, so reviewer processes for this specific task are not applicable/reported."
+        },
+        {
+          "element_id": "prisma_2020_15_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Certainty assessment was not performed."
+        },
+        {
+          "element_id": "prisma_2020_15_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Certainty assessment was not performed."
+        },
+        {
+          "element_id": "prisma_2020_15_e9",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No certainty assessment results or reporting methods (e.g., Summary of Findings tables) are described."
+        },
+        {
+          "element_id": "prisma_2020_15_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Certainty assessment was not performed."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_15_e1",
+        "prisma_2020_15_e2",
+        "prisma_2020_15_e3",
+        "prisma_2020_15_e6",
+        "prisma_2020_15_e9"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16a",
+    "item_label": "16a",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"ly relevant articles from PubMed (48), EMBASE (41) and the Cochrane Central Register of Controlled Trials (155) . Of these, only 21 articles were retained for further review through removing 81 duplications and 142 articles of which themes were not relevant.\",\n      \"reason\": \"The text explicitly reports the number of records identified (48+41+155=244), the number of duplicates removed (81), and the number of articles excluded as irrelevant (142). This is also visually supported by the PRISMA flow diagram in Figure 1.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"After browsing the full text for more details, three articles were excluded: one study with mixed interventions both of acupuncture group and the control group [26]; two studies compared different types of the efficacy of acupuncture [27, 28].\",\n      \"reason\": \"The text reports the number of reports assessed for eligibility (21) and the number excluded with primary reasons (3).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Therefore, of the 21 full-text publications obtained, only 18 [29-46] RCTs met our inclusion criteria. By referring to previous meta-analysis and related reviews, the another 2 [47, 48] RCTs were included. Finally, a total of 20 studies were included in our meta-analysis.\",\n      \"reason\": \"The text clearly states the number of included studies (20).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of ongoing studies in the manuscript.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"This is not a review update.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report the use of automation tools for screening.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "ly relevant articles from PubMed (48), EMBASE (41) and the Cochrane Central Register of Controlled Trials (155) . Of these, only 21 articles were retained for further review through removing 81 duplications and 142 articles of which themes were not relevant.",
+          "reason": "The text explicitly reports the number of records identified (48+41+155=244), the number of duplicates removed (81), and the number of articles excluded as irrelevant (142). This is also visually supported by the PRISMA flow diagram in Figure 1."
+        },
+        {
+          "element_id": "prisma_2020_16a_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "After browsing the full text for more details, three articles were excluded: one study with mixed interventions both of acupuncture group and the control group [26]; two studies compared different types of the efficacy of acupuncture [27, 28].",
+          "reason": "The text reports the number of reports assessed for eligibility (21) and the number excluded with primary reasons (3)."
+        },
+        {
+          "element_id": "prisma_2020_16a_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Therefore, of the 21 full-text publications obtained, only 18 [29-46] RCTs met our inclusion criteria. By referring to previous meta-analysis and related reviews, the another 2 [47, 48] RCTs were included. Finally, a total of 20 studies were included in our meta-analysis.",
+          "reason": "The text clearly states the number of included studies (20)."
+        },
+        {
+          "element_id": "prisma_2020_16a_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of ongoing studies in the manuscript."
+        },
+        {
+          "element_id": "prisma_2020_16a_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "This is not a review update."
+        },
+        {
+          "element_id": "prisma_2020_16a_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report the use of automation tools for screening."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16b",
+    "item_label": "16b",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While the PRISMA flow diagram (Figure 1) indicates that full-text articles were excluded (n=3), the manuscript does not provide a list of these excluded studies or the specific reasons for their exclusion.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While the PRISMA flow diagram (Figure 1) indicates that full-text articles were excluded (n=3), the manuscript does not provide a list of these excluded studies or the specific reasons for their exclusion."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_16b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_17",
+    "item_label": "17",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_17\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_17_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Therefore, of the 21 full-text publications obtained, only 18 [29-46] RCTs met our inclusion criteria. By referring to previous meta-analysis and related reviews, the another 2 [47, 48] RCTs were included. Finally, a total of 20 studies were included in our meta-analysis.\",\n      \"reason\": \"The manuscript explicitly states that 20 studies were included and provides citations for all of them (references 29-48).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_0\",\n      \"quote\": \"Table 1. Characteristics of 20 eligible RCTs\",\n      \"reason\": \"Table 1 presents key characteristics (Sample Size, Bell's Palsy ascertainment, Efficacy assessment, Acupuncture type, Comparison, Outcome Assessment) for the 20 included studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_0\",\n      \"quote\": \"Table 1. Characteristics of 20 eligible RCTs\",\n      \"reason\": \"Table 1 provides detailed intervention information (Acupuncture type and Comparison) for every included study, which is sufficient for an intervention review.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_17",
+      "elements": [
+        {
+          "element_id": "prisma_2020_17_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Therefore, of the 21 full-text publications obtained, only 18 [29-46] RCTs met our inclusion criteria. By referring to previous meta-analysis and related reviews, the another 2 [47, 48] RCTs were included. Finally, a total of 20 studies were included in our meta-analysis.",
+          "reason": "The manuscript explicitly states that 20 studies were included and provides citations for all of them (references 29-48)."
+        },
+        {
+          "element_id": "prisma_2020_17_e2",
+          "status": "PRESENT",
+          "chunk_id": "table_0",
+          "quote": "Table 1. Characteristics of 20 eligible RCTs",
+          "reason": "Table 1 presents key characteristics (Sample Size, Bell's Palsy ascertainment, Efficacy assessment, Acupuncture type, Comparison, Outcome Assessment) for the 20 included studies."
+        },
+        {
+          "element_id": "prisma_2020_17_e3",
+          "status": "PRESENT",
+          "chunk_id": "table_0",
+          "quote": "Table 1. Characteristics of 20 eligible RCTs",
+          "reason": "Table 1 provides detailed intervention information (Acupuncture type and Comparison) for every included study, which is sufficient for an intervention review."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 5,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_18",
+    "item_label": "18",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_18\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_18_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_23\",\n      \"quote\": \"Supplementary Figure 1. Risk of bias summary: review authors' judgments about each risk of bias item for each included study.\",\n      \"reason\": \"The manuscript provides a 'Risk of bias summary' figure (Supplementary Figure 1, visible in the attached image for chunk_id text_23) which presents domain-level risk-of-bias judgements for each included study.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While the manuscript presents a summary figure of risk-of-bias judgements, it does not provide the specific justifications (e.g., text explaining why a study was rated 'high', 'low', or 'unclear' for a specific domain) for these judgements.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not present outcome-specific risk-of-bias judgements alongside study results; it uses a single summary figure for the overall risk of bias assessment.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_18",
+      "elements": [
+        {
+          "element_id": "prisma_2020_18_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_23",
+          "quote": "Supplementary Figure 1. Risk of bias summary: review authors' judgments about each risk of bias item for each included study.",
+          "reason": "The manuscript provides a 'Risk of bias summary' figure (Supplementary Figure 1, visible in the attached image for chunk_id text_23) which presents domain-level risk-of-bias judgements for each included study."
+        },
+        {
+          "element_id": "prisma_2020_18_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While the manuscript presents a summary figure of risk-of-bias judgements, it does not provide the specific justifications (e.g., text explaining why a study was rated 'high', 'low', or 'unclear' for a specific domain) for these judgements."
+        },
+        {
+          "element_id": "prisma_2020_18_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not present outcome-specific risk-of-bias judgements alongside study results; it uses a single summary figure for the overall risk of bias assessment."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_18_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 10,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_19",
+    "item_label": "19",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_19\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_19_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript reports pooled summary statistics (e.g., total cured rates in acupuncture and control groups) but does not provide group-level summary statistics (e.g., raw counts or percentages for each group) for each individual study.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Figure 2. Meta-analysis on acupuncture for total effective rate of Bell's palsy... The horizontal line across each square represents the 95% confidence interval. The diamond represents the summary relative risk of total effective rate on acupuncture, with width representing 95% confidence interval.\",\n      \"reason\": \"The forest plots (Figures 2 and 3) provide the effect estimate (RR) and precision (95% CI) for each individual study included in the meta-analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Figure 2. Meta-analysis on acupuncture for total effective rate of Bell's palsy... Figure 3. Meta-analysis on acupuncture for cured rate on Bell's palsy...\",\n      \"reason\": \"The results are presented visually using forest plots (Figures 2 and 3), which serve as the required tabular/visual display of study-level effect estimates and precision.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not indicate that multiple data sources were used for the same study; therefore, reporting the source of study-level data is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that results were computed or estimated from other sources rather than directly reported from the included studies.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_19",
+      "elements": [
+        {
+          "element_id": "prisma_2020_19_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript reports pooled summary statistics (e.g., total cured rates in acupuncture and control groups) but does not provide group-level summary statistics (e.g., raw counts or percentages for each group) for each individual study."
+        },
+        {
+          "element_id": "prisma_2020_19_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Figure 2. Meta-analysis on acupuncture for total effective rate of Bell's palsy... The horizontal line across each square represents the 95% confidence interval. The diamond represents the summary relative risk of total effective rate on acupuncture, with width representing 95% confidence interval.",
+          "reason": "The forest plots (Figures 2 and 3) provide the effect estimate (RR) and precision (95% CI) for each individual study included in the meta-analysis."
+        },
+        {
+          "element_id": "prisma_2020_19_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Figure 2. Meta-analysis on acupuncture for total effective rate of Bell's palsy... Figure 3. Meta-analysis on acupuncture for cured rate on Bell's palsy...",
+          "reason": "The results are presented visually using forest plots (Figures 2 and 3), which serve as the required tabular/visual display of study-level effect estimates and precision."
+        },
+        {
+          "element_id": "prisma_2020_19_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not indicate that multiple data sources were used for the same study; therefore, reporting the source of study-level data is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_19_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that results were computed or estimated from other sources rather than directly reported from the included studies."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_19_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 5,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20a",
+    "item_label": "20a",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"The characteristics of the 20 included RCTs were summarized in Table 1 , where they were stratified by chronological order. ... Potential risk of bias was found by reviews' judgment's about each risk of bias item for each included study (Supplementary Figure 1).\",\n      \"reason\": \"The manuscript summarizes the characteristics of the included studies (Table 1) and provides information on the risk of bias (Supplementary Figure 1, referenced in text_8 and shown in figure_15).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20a_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Finally, a total of 20 studies were included in our meta-analysis. The characteristics of the 20 included RCTs were summarized in Table 1 , where they were stratified by chronological order.\",\n      \"reason\": \"The manuscript identifies the studies contributing to the synthesis by stating that 20 studies were included and referencing Table 1 for their characteristics.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "The characteristics of the 20 included RCTs were summarized in Table 1 , where they were stratified by chronological order. ... Potential risk of bias was found by reviews' judgment's about each risk of bias item for each included study (Supplementary Figure 1).",
+          "reason": "The manuscript summarizes the characteristics of the included studies (Table 1) and provides information on the risk of bias (Supplementary Figure 1, referenced in text_8 and shown in figure_15)."
+        },
+        {
+          "element_id": "prisma_2020_20a_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Finally, a total of 20 studies were included in our meta-analysis. The characteristics of the 20 included RCTs were summarized in Table 1 , where they were stratified by chronological order.",
+          "reason": "The manuscript identifies the studies contributing to the synthesis by stating that 20 studies were included and referencing Table 1 for their characteristics."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 10,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20b",
+    "item_label": "20b",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"A random-effect model was applied to pool the results ( Figure 2 ): acupuncture therapy was associated with an increased total effective response rate (RR=1.11, 95% CI: 1.051.17), with significant heterogeneity (I 2 =77.1%, P Heterogeneity <0.001). A cumulative meta-analysis was conducted to evaluate the total effective rate in chronological order ( Figure 3 ). ... A random-effect model was used to estimate the results ( Figure 4 ): Overall, the total cured rates in the acupuncture and control groups were 61.64% and 38.28%, respectively. Acupuncture therapy was associated with an increased total cured rate (RR=1.56, 95% CI: 1.30 - 1.87, P<0.000), with significant heterogeneity among the included studies (I 2 =69.5%, P Heterogeneity <0.001).\",\n      \"reason\": \"The manuscript reports the results of the primary meta-analyses (total effective rate and total cured rate) and cumulative meta-analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"acupuncture therapy was associated with an increased total effective response rate (RR=1.11, 95% CI: 1.051.17)... Acupuncture therapy was associated with an increased total cured rate (RR=1.56, 95% CI: 1.30 - 1.87, P<0.000)\",\n      \"reason\": \"The summary estimates (RR) and their precision (95% CI) are reported for the meta-analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"with significant heterogeneity (I 2 =77.1%, P Heterogeneity <0.001)... with significant heterogeneity among the included studies (I 2 =69.5%, P Heterogeneity <0.001).\",\n      \"reason\": \"Measures of statistical heterogeneity (I-squared and P-values) are reported for the meta-analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Except for electro-acupuncture and acupuncture with moxibustion or He-Ne laser radiation versus medicines subgroups, significant associations between acu - puncture and total effective rate or cured rate for Bell's palsy remained in the rest subgroups ( Table 2 ).\",\n      \"reason\": \"The results of subgroup analyses are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"All statistical syntheses reported in the manuscript provided effect estimates (RR), so this element is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"acupuncture therapy was associated with an increased total effective response rate... Acupuncture therapy was associated with an increased total cured rate\",\n      \"reason\": \"The direction of the effect (increased rate) is explicitly described for the comparisons.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The study performed meta-analysis using Relative Risk (RR), not mean differences, so this requirement is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The study did not use re-expressed standardized mean differences.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "A random-effect model was applied to pool the results ( Figure 2 ): acupuncture therapy was associated with an increased total effective response rate (RR=1.11, 95% CI: 1.051.17), with significant heterogeneity (I 2 =77.1%, P Heterogeneity <0.001). A cumulative meta-analysis was conducted to evaluate the total effective rate in chronological order ( Figure 3 ). ... A random-effect model was used to estimate the results ( Figure 4 ): Overall, the total cured rates in the acupuncture and control groups were 61.64% and 38.28%, respectively. Acupuncture therapy was associated with an increased total cured rate (RR=1.56, 95% CI: 1.30 - 1.87, P<0.000), with significant heterogeneity among the included studies (I 2 =69.5%, P Heterogeneity <0.001).",
+          "reason": "The manuscript reports the results of the primary meta-analyses (total effective rate and total cured rate) and cumulative meta-analyses."
+        },
+        {
+          "element_id": "prisma_2020_20b_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "acupuncture therapy was associated with an increased total effective response rate (RR=1.11, 95% CI: 1.051.17)... Acupuncture therapy was associated with an increased total cured rate (RR=1.56, 95% CI: 1.30 - 1.87, P<0.000)",
+          "reason": "The summary estimates (RR) and their precision (95% CI) are reported for the meta-analyses."
+        },
+        {
+          "element_id": "prisma_2020_20b_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "with significant heterogeneity (I 2 =77.1%, P Heterogeneity <0.001)... with significant heterogeneity among the included studies (I 2 =69.5%, P Heterogeneity <0.001).",
+          "reason": "Measures of statistical heterogeneity (I-squared and P-values) are reported for the meta-analyses."
+        },
+        {
+          "element_id": "prisma_2020_20b_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Except for electro-acupuncture and acupuncture with moxibustion or He-Ne laser radiation versus medicines subgroups, significant associations between acu - puncture and total effective rate or cured rate for Bell's palsy remained in the rest subgroups ( Table 2 ).",
+          "reason": "The results of subgroup analyses are reported."
+        },
+        {
+          "element_id": "prisma_2020_20b_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "All statistical syntheses reported in the manuscript provided effect estimates (RR), so this element is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_20b_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "acupuncture therapy was associated with an increased total effective response rate... Acupuncture therapy was associated with an increased total cured rate",
+          "reason": "The direction of the effect (increased rate) is explicitly described for the comparisons."
+        },
+        {
+          "element_id": "prisma_2020_20b_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The study performed meta-analysis using Relative Risk (RR), not mean differences, so this requirement is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_20b_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The study did not use re-expressed standardized mean differences."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20c",
+    "item_label": "20c",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_2\",\n      \"quote\": \"Table 2. Subgroup analyses\",\n      \"reason\": \"The manuscript reports results of subgroup analyses (Table 2) investigating potential modifiers (age, sample size, therapy period, disease stage, comparison, acupuncture type, acupuncture with Deqi) of heterogeneity, reporting results regardless of significance.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While the manuscript reports subgroup analysis results in Table 2, it does not explicitly list or identify which specific studies contributed to each subgroup.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"In respect to contrast design, of the studies with acupuncture plus drug versus only drug treatment, heterogeneity in total effective rate decreased by about 43% while not showed in cured rate, whose comparison is more reasonable [62]. As for sample size and therapy period, we only observed significant decline of heterogeneity in total effective rate or cured rate since limited sample size, methodology defects and mixed treatment restrict our analyses.\",\n      \"reason\": \"The discussion section interprets the heterogeneity analyses, acknowledging limitations such as methodology defects and mixed treatments that may confound the results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_2\",\n      \"quote\": \"Table 2. Subgroup analyses... P interaction\",\n      \"reason\": \"Table 2 provides subgroup estimates (HR and 95% CI), heterogeneity (I^2 and P heterogeneity), and interaction-test P values (P interaction) for the subgroup analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report the difference between subgroup effects and its precision (e.g., difference in effect sizes between subgroups).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript mentions using meta-regression to calculate P interaction values, but does not report the specific coefficient P values or precision for the meta-regression models themselves.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No meta-regression scatterplots are presented in the provided evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e8\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Omitting a single study in turn did not significantly change the summary risk estimate of either effective rate or cured rate (Supplementary Figures 2 and 3). Repeating meta-analyses according to various inclusion or exclusion criteria did not change our results, either (Supplementary Table 1).\",\n      \"reason\": \"The manuscript describes the results of sensitivity analyses (informal heterogeneity investigations) conducted to check the stability of pooled results.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20c_e1",
+          "status": "PRESENT",
+          "chunk_id": "table_2",
+          "quote": "Table 2. Subgroup analyses",
+          "reason": "The manuscript reports results of subgroup analyses (Table 2) investigating potential modifiers (age, sample size, therapy period, disease stage, comparison, acupuncture type, acupuncture with Deqi) of heterogeneity, reporting results regardless of significance."
+        },
+        {
+          "element_id": "prisma_2020_20c_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While the manuscript reports subgroup analysis results in Table 2, it does not explicitly list or identify which specific studies contributed to each subgroup."
+        },
+        {
+          "element_id": "prisma_2020_20c_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "In respect to contrast design, of the studies with acupuncture plus drug versus only drug treatment, heterogeneity in total effective rate decreased by about 43% while not showed in cured rate, whose comparison is more reasonable [62]. As for sample size and therapy period, we only observed significant decline of heterogeneity in total effective rate or cured rate since limited sample size, methodology defects and mixed treatment restrict our analyses.",
+          "reason": "The discussion section interprets the heterogeneity analyses, acknowledging limitations such as methodology defects and mixed treatments that may confound the results."
+        },
+        {
+          "element_id": "prisma_2020_20c_e4",
+          "status": "PRESENT",
+          "chunk_id": "table_2",
+          "quote": "Table 2. Subgroup analyses... P interaction",
+          "reason": "Table 2 provides subgroup estimates (HR and 95% CI), heterogeneity (I^2 and P heterogeneity), and interaction-test P values (P interaction) for the subgroup analyses."
+        },
+        {
+          "element_id": "prisma_2020_20c_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report the difference between subgroup effects and its precision (e.g., difference in effect sizes between subgroups)."
+        },
+        {
+          "element_id": "prisma_2020_20c_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript mentions using meta-regression to calculate P interaction values, but does not report the specific coefficient P values or precision for the meta-regression models themselves."
+        },
+        {
+          "element_id": "prisma_2020_20c_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No meta-regression scatterplots are presented in the provided evidence."
+        },
+        {
+          "element_id": "prisma_2020_20c_e8",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Omitting a single study in turn did not significantly change the summary risk estimate of either effective rate or cured rate (Supplementary Figures 2 and 3). Repeating meta-analyses according to various inclusion or exclusion criteria did not change our results, either (Supplementary Table 1).",
+          "reason": "The manuscript describes the results of sensitivity analyses (informal heterogeneity investigations) conducted to check the stability of pooled results."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_20c_e2",
+        "prisma_2020_20c_e5",
+        "prisma_2020_20c_e6",
+        "prisma_2020_20c_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20d",
+    "item_label": "20d",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20d_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Omitting a single study in turn did not significantly change the summary risk estimate of either effective rate or cured rate (Supplementary Figures 2 and 3). Repeating meta-analyses according to various inclusion or exclusion criteria did not change our results, either (Supplementary Table 1).\",\n      \"reason\": \"The manuscript reports the results of three types of sensitivity analyses: omitting a single study, repeating analyses with a fixed-effects model, and employing various eligibility criteria.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Omitting a single study in turn did not significantly change the summary risk estimate of either effective rate or cured rate (Supplementary Figures 2 and 3). Repeating meta-analyses according to various inclusion or exclusion criteria did not change our results, either (Supplementary Table 1).\",\n      \"reason\": \"The authors explicitly state that the sensitivity analyses did not change the results, indicating the robustness of the main analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_3\",\n      \"quote\": \"Supplementary Table 1. Sensitivity Analysis\",\n      \"reason\": \"The manuscript provides a table (Supplementary Table 1) that compares the results of the main analysis (Random effect model) with various sensitivity analyses (Fixed effect model, and different inclusion criteria like 'Using facial paralysis or House-Brackmann scoring', 'Reported both effective rate and cured rate', etc.).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_23\",\n      \"quote\": \"Supplementary Figure 2. Sensitivity analysis on acupuncture for total effective rate of Bell's palsy. Supplementary Figure 3. Sensitivity analysis on acupuncture for cured rate of Bell's palsy.\",\n      \"reason\": \"The manuscript includes forest plots (labeled as Supplementary Figures 2 and 3, and visible in the provided images for chunk_id text_23) that display the results of the 'omitting a single study' sensitivity analysis.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20d_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Omitting a single study in turn did not significantly change the summary risk estimate of either effective rate or cured rate (Supplementary Figures 2 and 3). Repeating meta-analyses according to various inclusion or exclusion criteria did not change our results, either (Supplementary Table 1).",
+          "reason": "The manuscript reports the results of three types of sensitivity analyses: omitting a single study, repeating analyses with a fixed-effects model, and employing various eligibility criteria."
+        },
+        {
+          "element_id": "prisma_2020_20d_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Omitting a single study in turn did not significantly change the summary risk estimate of either effective rate or cured rate (Supplementary Figures 2 and 3). Repeating meta-analyses according to various inclusion or exclusion criteria did not change our results, either (Supplementary Table 1).",
+          "reason": "The authors explicitly state that the sensitivity analyses did not change the results, indicating the robustness of the main analysis."
+        },
+        {
+          "element_id": "prisma_2020_20d_e3",
+          "status": "PRESENT",
+          "chunk_id": "table_3",
+          "quote": "Supplementary Table 1. Sensitivity Analysis",
+          "reason": "The manuscript provides a table (Supplementary Table 1) that compares the results of the main analysis (Random effect model) with various sensitivity analyses (Fixed effect model, and different inclusion criteria like 'Using facial paralysis or House-Brackmann scoring', 'Reported both effective rate and cured rate', etc.)."
+        },
+        {
+          "element_id": "prisma_2020_20d_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_23",
+          "quote": "Supplementary Figure 2. Sensitivity analysis on acupuncture for total effective rate of Bell's palsy. Supplementary Figure 3. Sensitivity analysis on acupuncture for cured rate of Bell's palsy.",
+          "reason": "The manuscript includes forest plots (labeled as Supplementary Figures 2 and 3, and visible in the provided images for chunk_id text_23) that display the results of the 'omitting a single study' sensitivity analysis."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_21",
+    "item_label": "21",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_21\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_21_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Substantial publication bias was found in acupuncture-Bell's palsy association ( P for Begg test=0.03; P for Egger test=0.001) for total effective rate, while no evidence of publication bias was found in cured rate (all P >0.1).\",\n      \"reason\": \"The authors assessed publication bias (a form of reporting bias/missing results) for the two main syntheses (total effective rate and cured rate) using Begg and Egger tests.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"Two investigators (Fu-ming Wang and Shasha Yu) independently assessed the quality of included studies using the Cochrane Handbook for Systematic Reviews of Interventions [19]. Seven aspects were evaluated as following: ... 5) Reporting bias: Report the results of the study selectively;\",\n      \"reason\": \"The authors explicitly included 'Reporting bias' as one of the seven aspects evaluated in their risk of bias assessment for the included studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report using funnel plots.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Substantial publication bias was found in acupuncture-Bell's palsy association ( P for Begg test=0.03; P for Egger test=0.001) for total effective rate, while no evidence of publication bias was found in cured rate (all P >0.1).\",\n      \"reason\": \"The authors reported the P values for both Begg and Egger tests used to assess publication bias.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Omitting a single study in turn did not significantly change the summa - ry risk estimate of either effective rate or cured rate (Supplementary Figures 2 and 3).\",\n      \"reason\": \"The authors conducted sensitivity analyses (omitting a single study) to check the stability of the results, which is a method to examine the impact of potentially missing or influential results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_23\",\n      \"quote\": \"Supplementary Figure 1. Risk of bias summary: review authors' judgments about each risk of bias item for each included study.\",\n      \"reason\": \"The authors provided a risk of bias summary (Figure 15, chunk text_23) which includes a column for 'Selective reporting (reporting bias)' for each study.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that the authors displayed studies with missing results beneath forest plots or in a specific table for that purpose.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_21",
+      "elements": [
+        {
+          "element_id": "prisma_2020_21_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Substantial publication bias was found in acupuncture-Bell's palsy association ( P for Begg test=0.03; P for Egger test=0.001) for total effective rate, while no evidence of publication bias was found in cured rate (all P >0.1).",
+          "reason": "The authors assessed publication bias (a form of reporting bias/missing results) for the two main syntheses (total effective rate and cured rate) using Begg and Egger tests."
+        },
+        {
+          "element_id": "prisma_2020_21_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_4",
+          "quote": "Two investigators (Fu-ming Wang and Shasha Yu) independently assessed the quality of included studies using the Cochrane Handbook for Systematic Reviews of Interventions [19]. Seven aspects were evaluated as following: ... 5) Reporting bias: Report the results of the study selectively;",
+          "reason": "The authors explicitly included 'Reporting bias' as one of the seven aspects evaluated in their risk of bias assessment for the included studies."
+        },
+        {
+          "element_id": "prisma_2020_21_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report using funnel plots."
+        },
+        {
+          "element_id": "prisma_2020_21_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Substantial publication bias was found in acupuncture-Bell's palsy association ( P for Begg test=0.03; P for Egger test=0.001) for total effective rate, while no evidence of publication bias was found in cured rate (all P >0.1).",
+          "reason": "The authors reported the P values for both Begg and Egger tests used to assess publication bias."
+        },
+        {
+          "element_id": "prisma_2020_21_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Omitting a single study in turn did not significantly change the summa - ry risk estimate of either effective rate or cured rate (Supplementary Figures 2 and 3).",
+          "reason": "The authors conducted sensitivity analyses (omitting a single study) to check the stability of the results, which is a method to examine the impact of potentially missing or influential results."
+        },
+        {
+          "element_id": "prisma_2020_21_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_23",
+          "quote": "Supplementary Figure 1. Risk of bias summary: review authors' judgments about each risk of bias item for each included study.",
+          "reason": "The authors provided a risk of bias summary (Figure 15, chunk text_23) which includes a column for 'Selective reporting (reporting bias)' for each study."
+        },
+        {
+          "element_id": "prisma_2020_21_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that the authors displayed studies with missing results beneath forest plots or in a specific table for that purpose."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_22",
+    "item_label": "22",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_22\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_22_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report assessments of certainty or confidence (e.g., GRADE) for the outcomes assessed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report assessments of certainty, therefore no reasons for rating certainty up or down are provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report assessments of certainty, therefore it cannot be communicated alongside results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence summary tables (e.g., GRADE Summary of Findings tables) are included in the manuscript.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_22",
+      "elements": [
+        {
+          "element_id": "prisma_2020_22_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report assessments of certainty or confidence (e.g., GRADE) for the outcomes assessed."
+        },
+        {
+          "element_id": "prisma_2020_22_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report assessments of certainty, therefore no reasons for rating certainty up or down are provided."
+        },
+        {
+          "element_id": "prisma_2020_22_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report assessments of certainty, therefore it cannot be communicated alongside results."
+        },
+        {
+          "element_id": "prisma_2020_22_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence summary tables (e.g., GRADE Summary of Findings tables) are included in the manuscript."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_22_e1",
+        "prisma_2020_22_e2",
+        "prisma_2020_22_e3",
+        "prisma_2020_22_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 5,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23a",
+    "item_label": "23a",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Superior efficacy for Bell's palsy being suggested in previous meta-analyses [15] can't explain the high heterogeneity between studies, further analyses were carried out, such as subgroup analyses and sensitivity analyses.\",\n      \"reason\": \"The authors interpret their findings by comparing them with previous meta-analyses and discussing the context of conventional medical treatments for Bell's palsy.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Superior efficacy for Bell's palsy being suggested in previous meta-analyses [15] can't explain the high heterogeneity between studies, further analyses were carried out, such as subgroup analyses and sensitivity analyses.",
+          "reason": "The authors interpret their findings by comparing them with previous meta-analyses and discussing the context of conventional medical treatments for Bell's palsy."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23b",
+    "item_label": "23b",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"We acknowledge several limitations of our analysis. Firstly, poor methodological quality of eligible studies raised concerns of reliability for our results, what's more, increasing bias risk. Then, definitions of efficacy in different studies varied, and we cannot exclude misclassifica - tion. In addition, many variables had influenced on outcomes, such as course or duration of treatment, characteristic of subjects and disease stages. We were unable to perform doseresponse meta-analysis due to insufficient data and Bell's palsy is a self-limited disease affecting observation of efficacy. Lastly, publi - cation bias existed in our meta-analysis.\",\n      \"reason\": \"The authors explicitly discuss several limitations of the included evidence, such as poor methodological quality, variation in efficacy definitions, confounding variables, insufficient data for dose-response analysis, the self-limiting nature of the disease, and publication bias.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "We acknowledge several limitations of our analysis. Firstly, poor methodological quality of eligible studies raised concerns of reliability for our results, what's more, increasing bias risk. Then, definitions of efficacy in different studies varied, and we cannot exclude misclassifica - tion. In addition, many variables had influenced on outcomes, such as course or duration of treatment, characteristic of subjects and disease stages. We were unable to perform doseresponse meta-analysis due to insufficient data and Bell's palsy is a self-limited disease affecting observation of efficacy. Lastly, publi - cation bias existed in our meta-analysis.",
+          "reason": "The authors explicitly discuss several limitations of the included evidence, such as poor methodological quality, variation in efficacy definitions, confounding variables, insufficient data for dose-response analysis, the self-limiting nature of the disease, and publication bias."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 10,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23c",
+    "item_label": "23c",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"We were unable to perform doseresponse meta-analysis due to insufficient data... Lastly, publi - cation bias existed in our meta-analysis.\",\n      \"reason\": \"The authors discuss limitations of the review process, specifically the inability to perform a dose-response meta-analysis due to insufficient data and the presence of publication bias (which is a consequence of the search strategy described in the methods).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"We were unable to perform doseresponse meta-analysis due to insufficient data... Lastly, publi - cation bias existed in our meta-analysis.\",\n      \"reason\": \"The authors discuss the impact of these review process limitations: the inability to perform a dose-response analysis and the presence of publication bias in the meta-analysis results.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "We were unable to perform doseresponse meta-analysis due to insufficient data... Lastly, publi - cation bias existed in our meta-analysis.",
+          "reason": "The authors discuss limitations of the review process, specifically the inability to perform a dose-response meta-analysis due to insufficient data and the presence of publication bias (which is a consequence of the search strategy described in the methods)."
+        },
+        {
+          "element_id": "prisma_2020_23c_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "We were unable to perform doseresponse meta-analysis due to insufficient data... Lastly, publi - cation bias existed in our meta-analysis.",
+          "reason": "The authors discuss the impact of these review process limitations: the inability to perform a dose-response analysis and the presence of publication bias in the meta-analysis results."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23d",
+    "item_label": "23d",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23d_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"In summary, different comparisons, acupuncture regimens and disease stages showed opposite results on efficacy of Bell's palsy. Therefore, RCTs should not combine these when examining acupuncture's efficacy.\",\n      \"reason\": \"The authors discuss the implications for practice by advising that different acupuncture regimens and disease stages should not be combined when examining efficacy, implying a need for more specific clinical approaches.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23d_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no discussion regarding the implications of the results for health policy.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23d_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"Meanwhile, we can't draw a conclusion since these findings should be interpreted with caution due to limited methodological quality studies and potential biases, and need to be validated by more well designed and large sample size RCTs.\",\n      \"reason\": \"The authors explicitly recommend that future research should involve more well-designed and large sample size RCTs to validate the findings.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23d_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "In summary, different comparisons, acupuncture regimens and disease stages showed opposite results on efficacy of Bell's palsy. Therefore, RCTs should not combine these when examining acupuncture's efficacy.",
+          "reason": "The authors discuss the implications for practice by advising that different acupuncture regimens and disease stages should not be combined when examining efficacy, implying a need for more specific clinical approaches."
+        },
+        {
+          "element_id": "prisma_2020_23d_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no discussion regarding the implications of the results for health policy."
+        },
+        {
+          "element_id": "prisma_2020_23d_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "Meanwhile, we can't draw a conclusion since these findings should be interpreted with caution due to limited methodological quality studies and potential biases, and need to be validated by more well designed and large sample size RCTs.",
+          "reason": "The authors explicitly recommend that future research should involve more well-designed and large sample size RCTs to validate the findings."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_23d_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24a",
+    "item_label": "24a",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24a_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not contain information regarding the registration of the review, nor does it explicitly state that the review was not registered.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24a_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not contain information regarding the registration of the review, nor does it explicitly state that the review was not registered."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_24a_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 9,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24b",
+    "item_label": "24b",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not contain any information regarding the existence or accessibility of a review protocol, nor does it state that no protocol was prepared.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not contain any information regarding the existence or accessibility of a review protocol, nor does it state that no protocol was prepared."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_24b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 7,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24c",
+    "item_label": "24c",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24c_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not mention whether the review was registered or if there was a protocol, nor does it describe any amendments to such documents.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not mention whether the review was registered or if there was a protocol, nor does it describe any amendments or reasons for amendments.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not mention whether the review was registered or if there was a protocol, nor does it describe any amendments or the stage at which they were implemented.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24c_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not mention whether the review was registered or if there was a protocol, nor does it describe any amendments to such documents."
+        },
+        {
+          "element_id": "prisma_2020_24c_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not mention whether the review was registered or if there was a protocol, nor does it describe any amendments or reasons for amendments."
+        },
+        {
+          "element_id": "prisma_2020_24c_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not mention whether the review was registered or if there was a protocol, nor does it describe any amendments or the stage at which they were implemented."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_24c_e1",
+        "prisma_2020_24c_e2",
+        "prisma_2020_24c_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 8,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_25",
+    "item_label": "25",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_25\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_25_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not contain any statement regarding financial or non-financial support for the review, nor does it explicitly state that there was no support.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_25_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not describe the role of any funders or sponsors, nor does it declare a lack of involvement.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_25",
+      "elements": [
+        {
+          "element_id": "prisma_2020_25_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not contain any statement regarding financial or non-financial support for the review, nor does it explicitly state that there was no support."
+        },
+        {
+          "element_id": "prisma_2020_25_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not describe the role of any funders or sponsors, nor does it declare a lack of involvement."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_25_e1",
+        "prisma_2020_25_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 6,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_26",
+    "item_label": "26",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_26\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_26_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not contain a declaration of competing interests for the review authors.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_26_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"As there is no declaration of competing interests, this conditional element is not applicable.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_26",
+      "elements": [
+        {
+          "element_id": "prisma_2020_26_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not contain a declaration of competing interests for the review authors."
+        },
+        {
+          "element_id": "prisma_2020_26_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "As there is no declaration of competing interests, this conditional element is not applicable."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_26_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 8,
+    "images_sent": 6,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_27",
+    "item_label": "27",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_27\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_27_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report the availability of data-collection forms, extracted data, analysis data, analytic code, or other review materials.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_27_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report the location of any publicly available materials.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_27_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not state that materials are available on request, so reporting a contact or conditions for sharing is not applicable.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_27",
+      "elements": [
+        {
+          "element_id": "prisma_2020_27_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report the availability of data-collection forms, extracted data, analysis data, analytic code, or other review materials."
+        },
+        {
+          "element_id": "prisma_2020_27_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report the location of any publicly available materials."
+        },
+        {
+          "element_id": "prisma_2020_27_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not state that materials are available on request, so reporting a contact or conditions for sharing is not applicable."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_27_e1",
+        "prisma_2020_27_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  }
+]

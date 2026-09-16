@@ -1,0 +1,2005 @@
+[
+  {
+    "item_id": "PRISMA_2020_1",
+    "item_label": "1",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_1\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_1_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Title not explicitly reported in retrieved evidence; no chunk contains the title text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Title not found in retrieved evidence, so key information about objective or question cannot be assessed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Title not present in retrieved evidence, so supplementary information cannot be evaluated.\"\n    }\n  ],\n  \"confidence\": 80\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_1",
+      "elements": [
+        {
+          "element_id": "prisma_2020_1_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Title not explicitly reported in retrieved evidence; no chunk contains the title text."
+        },
+        {
+          "element_id": "prisma_2020_1_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Title not found in retrieved evidence, so key information about objective or question cannot be assessed."
+        },
+        {
+          "element_id": "prisma_2020_1_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Title not present in retrieved evidence, so supplementary information cannot be evaluated."
+        }
+      ],
+      "confidence": 80,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_1_e1",
+        "prisma_2020_1_e2",
+        "prisma_2020_1_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_2",
+    "item_label": "2",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_2\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_2_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"systematic review\",\n      \"reason\": \"Explicitly identified in the abstract title and text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"The aim of this systematic review is to examine the epidemiological knowledge and gaps in understanding of the potential causes of chronic kidney disease of undetermined cause (CKDu) in Meso-America.\",\n      \"reason\": \"Clear statement of the main objective.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Inclusion and exclusion criteria not specified in the abstract.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"A systematic literature search of epidemiological studies of CKDu was conducted in PubMed, Embase and Web of Science from January 2000 to January 2017.\",\n      \"reason\": \"Information sources and search period are identified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Study quality was assessed by adapting the tool from Higgins et al. for observational studies.\",\n      \"reason\": \"Method for assessing risk of bias is specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Where applicable, the summary prevalence odds ratio (POR) and 95% confidence interval (CI) were calculated using a random effects model.\",\n      \"reason\": \"Methods for synthesis are specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e7\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Twenty-five epidemiological studies were included in the analysis of risk factors for CKDu.\",\n      \"reason\": \"Reports number of studies but not participants or detailed characteristics.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e8\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"The PORs for CKDu were males versus females 2.42 (95% CI 1.76-3.08), family history of CKD (versus none) 1.84 (95% CI 1.37-2.30), high water intake (versus low) 1.61 (95% CI 1.01-2.21) and low altitude (versus highland) 2.09 (95% CI 1.00-3.17).\",\n      \"reason\": \"Presents results for main outcomes but lacks number of studies and participants per outcome.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e9\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"The PORs for CKDu were males versus females 2.42 (95% CI 1.76-3.08), family history of CKD (versus none) 1.84 (95% CI 1.37-2.30), high water intake (versus low) 1.61 (95% CI 1.01-2.21) and low altitude (versus highland) 2.09 (95% CI 1.00-3.17).\",\n      \"reason\": \"Summary estimates and confidence intervals are reported for meta-analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e10\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"males versus females 2.42\",\n      \"reason\": \"Direction of effect and favored group (males) are indicated for comparisons.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e11\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No limitations of the evidence are summarized in the abstract.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e12\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"Conclusion: Our meta-analysis showed positive associations for males (versus females) and family history of CKD, water intake, lowland altitude and CKDu. There were no significant associations with pesticide exposure, non-steroidal antiinflammatory drugs intake, heat stress and alcohol consumption.\",\n      \"reason\": \"General interpretation of results and implications provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e13\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Primary source of funding not specified in the abstract.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e14\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Register name and registration number not provided in the abstract.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_2",
+      "elements": [
+        {
+          "element_id": "prisma_2020_2_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "systematic review",
+          "reason": "Explicitly identified in the abstract title and text."
+        },
+        {
+          "element_id": "prisma_2020_2_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "The aim of this systematic review is to examine the epidemiological knowledge and gaps in understanding of the potential causes of chronic kidney disease of undetermined cause (CKDu) in Meso-America.",
+          "reason": "Clear statement of the main objective."
+        },
+        {
+          "element_id": "prisma_2020_2_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Inclusion and exclusion criteria not specified in the abstract."
+        },
+        {
+          "element_id": "prisma_2020_2_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "A systematic literature search of epidemiological studies of CKDu was conducted in PubMed, Embase and Web of Science from January 2000 to January 2017.",
+          "reason": "Information sources and search period are identified."
+        },
+        {
+          "element_id": "prisma_2020_2_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Study quality was assessed by adapting the tool from Higgins et al. for observational studies.",
+          "reason": "Method for assessing risk of bias is specified."
+        },
+        {
+          "element_id": "prisma_2020_2_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Where applicable, the summary prevalence odds ratio (POR) and 95% confidence interval (CI) were calculated using a random effects model.",
+          "reason": "Methods for synthesis are specified."
+        },
+        {
+          "element_id": "prisma_2020_2_e7",
+          "status": "PARTIAL",
+          "chunk_id": "text_2",
+          "quote": "Twenty-five epidemiological studies were included in the analysis of risk factors for CKDu.",
+          "reason": "Reports number of studies but not participants or detailed characteristics."
+        },
+        {
+          "element_id": "prisma_2020_2_e8",
+          "status": "PARTIAL",
+          "chunk_id": "text_2",
+          "quote": "The PORs for CKDu were males versus females 2.42 (95% CI 1.76-3.08), family history of CKD (versus none) 1.84 (95% CI 1.37-2.30), high water intake (versus low) 1.61 (95% CI 1.01-2.21) and low altitude (versus highland) 2.09 (95% CI 1.00-3.17).",
+          "reason": "Presents results for main outcomes but lacks number of studies and participants per outcome."
+        },
+        {
+          "element_id": "prisma_2020_2_e9",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "The PORs for CKDu were males versus females 2.42 (95% CI 1.76-3.08), family history of CKD (versus none) 1.84 (95% CI 1.37-2.30), high water intake (versus low) 1.61 (95% CI 1.01-2.21) and low altitude (versus highland) 2.09 (95% CI 1.00-3.17).",
+          "reason": "Summary estimates and confidence intervals are reported for meta-analysis."
+        },
+        {
+          "element_id": "prisma_2020_2_e10",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "males versus females 2.42",
+          "reason": "Direction of effect and favored group (males) are indicated for comparisons."
+        },
+        {
+          "element_id": "prisma_2020_2_e11",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No limitations of the evidence are summarized in the abstract."
+        },
+        {
+          "element_id": "prisma_2020_2_e12",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "Conclusion: Our meta-analysis showed positive associations for males (versus females) and family history of CKD, water intake, lowland altitude and CKDu. There were no significant associations with pesticide exposure, non-steroidal antiinflammatory drugs intake, heat stress and alcohol consumption.",
+          "reason": "General interpretation of results and implications provided."
+        },
+        {
+          "element_id": "prisma_2020_2_e13",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Primary source of funding not specified in the abstract."
+        },
+        {
+          "element_id": "prisma_2020_2_e14",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Register name and registration number not provided in the abstract."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_2_e3",
+        "prisma_2020_2_e7",
+        "prisma_2020_2_e8",
+        "prisma_2020_2_e11",
+        "prisma_2020_2_e13",
+        "prisma_2020_2_e14"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_3",
+    "item_label": "3",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_3\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_3_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"In the last 10 years, several narrative reviews about CKDu have been published [6-9]. None of these have conducted a formal meta-analysis and there was no systematic assessment of the quality of the available evidence considering inherent limitations within the design and analyses of available epidemiological studies.\",\n      \"reason\": \"Explicitly describes existing knowledge (narrative reviews) and uncertainties (lack of meta-analysis and systematic quality assessment).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Meso-American nephropathy (MeN), also known as chronic kidney disease of undetermined aetiology (CKDu), is a growing public health problem... The purpose of this study is therefore to formally examine the epidemiological knowledge and gaps in understanding of the potential causes of CKD of undetermined cause in Meso-America.\",\n      \"reason\": \"Explains the importance (public health problem) and need (to examine knowledge and gaps) for conducting the review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The evidence mentions narrative reviews, not systematic reviews, so the conditional requirement for explaining need relative to similar systematic reviews does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review is epidemiological, assessing risk factors, not intervention effects, so the conditional element does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review does not involve interventions, complex or otherwise, so the conditional element does not apply.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_3",
+      "elements": [
+        {
+          "element_id": "prisma_2020_3_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "In the last 10 years, several narrative reviews about CKDu have been published [6-9]. None of these have conducted a formal meta-analysis and there was no systematic assessment of the quality of the available evidence considering inherent limitations within the design and analyses of available epidemiological studies.",
+          "reason": "Explicitly describes existing knowledge (narrative reviews) and uncertainties (lack of meta-analysis and systematic quality assessment)."
+        },
+        {
+          "element_id": "prisma_2020_3_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "Meso-American nephropathy (MeN), also known as chronic kidney disease of undetermined aetiology (CKDu), is a growing public health problem... The purpose of this study is therefore to formally examine the epidemiological knowledge and gaps in understanding of the potential causes of CKD of undetermined cause in Meso-America.",
+          "reason": "Explains the importance (public health problem) and need (to examine knowledge and gaps) for conducting the review."
+        },
+        {
+          "element_id": "prisma_2020_3_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The evidence mentions narrative reviews, not systematic reviews, so the conditional requirement for explaining need relative to similar systematic reviews does not apply."
+        },
+        {
+          "element_id": "prisma_2020_3_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review is epidemiological, assessing risk factors, not intervention effects, so the conditional element does not apply."
+        },
+        {
+          "element_id": "prisma_2020_3_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review does not involve interventions, complex or otherwise, so the conditional element does not apply."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_4",
+    "item_label": "4",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_4\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_4_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"The purpose of this study is therefore to formally examine the epidemiological knowledge and gaps in understanding of the potential causes of CKD of undetermined cause in Meso-America.\",\n      \"reason\": \"Explicit statement of the review's objective is provided in the introduction.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_4_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review is not of intervention effects; it is an epidemiological review of risk factors.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_4",
+      "elements": [
+        {
+          "element_id": "prisma_2020_4_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "The purpose of this study is therefore to formally examine the epidemiological knowledge and gaps in understanding of the potential causes of CKD of undetermined cause in Meso-America.",
+          "reason": "Explicit statement of the review's objective is provided in the introduction."
+        },
+        {
+          "element_id": "prisma_2020_4_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review is not of intervention effects; it is an epidemiological review of risk factors."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_5",
+    "item_label": "5",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_5\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_5_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"The search was limited to 'adolescent and adult human beings' and only papers published in English and Spanish languages were considered. The search was restricted to studies conducted in Meso-America (Central America and Mexico). The exposures of interest included heat stress, dehydration, pesticide, non-steroidal anti-inflammatory drugs (NSAIDs), workplace conditions, environmental toxins and infectious diseases. The outcomes of interest included the reduced estimated glomerular filtration rate (eGFR), elevated serum creatinine (SCr) and CKD of undetermined cause. A wide range of study designs were assessed, including cross-sectional studies, case-control studies, retrospective or prospective cohort studies and ecological studies.\",\n      \"reason\": \"Specifies population, settings, exposures, outcomes, and study designs, but lacks explicit mention of follow-up requirements and question-framework components.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_5, text_4\",\n      \"quote\": \"only papers published in English and Spanish languages were considered. | published between January 2005 and January 2017\",\n      \"reason\": \"Specifies language and dissemination year, but does not mention publication status (e.g., whether unpublished reports were included).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence found distinguishing exclusion based on outcomes not measured versus not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8, text_9\",\n      \"quote\": \"Where there were several studies with similar exposure definitions, data were included in a random effects meta-analysis for the respective exposure and CKDu. | Sufficient data for meta-analysis were available for a subset of risk factors: male sex, family history of CKD, water intake, pesticide exposure, alcohol consumption, self-medication with NSAIDs, heat stress and altitude. These were from 10 crosssectional community studies and 3 case-control community studies.\",\n      \"reason\": \"Specifies groups used in synthesis (e.g., studies with similar exposure definitions) and links to the risk factors being compared.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence provided for rationales behind eligibility restrictions.\"\n    }\n  ],\n  \"confidence\": 70\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_5",
+      "elements": [
+        {
+          "element_id": "prisma_2020_5_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_5",
+          "quote": "The search was limited to 'adolescent and adult human beings' and only papers published in English and Spanish languages were considered. The search was restricted to studies conducted in Meso-America (Central America and Mexico). The exposures of interest included heat stress, dehydration, pesticide, non-steroidal anti-inflammatory drugs (NSAIDs), workplace conditions, environmental toxins and infectious diseases. The outcomes of interest included the reduced estimated glomerular filtration rate (eGFR), elevated serum creatinine (SCr) and CKD of undetermined cause. A wide range of study designs were assessed, including cross-sectional studies, case-control studies, retrospective or prospective cohort studies and ecological studies.",
+          "reason": "Specifies population, settings, exposures, outcomes, and study designs, but lacks explicit mention of follow-up requirements and question-framework components."
+        },
+        {
+          "element_id": "prisma_2020_5_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_5, text_4",
+          "quote": "only papers published in English and Spanish languages were considered. | published between January 2005 and January 2017",
+          "reason": "Specifies language and dissemination year, but does not mention publication status (e.g., whether unpublished reports were included)."
+        },
+        {
+          "element_id": "prisma_2020_5_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence found distinguishing exclusion based on outcomes not measured versus not reported."
+        },
+        {
+          "element_id": "prisma_2020_5_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_8, text_9",
+          "quote": "Where there were several studies with similar exposure definitions, data were included in a random effects meta-analysis for the respective exposure and CKDu. | Sufficient data for meta-analysis were available for a subset of risk factors: male sex, family history of CKD, water intake, pesticide exposure, alcohol consumption, self-medication with NSAIDs, heat stress and altitude. These were from 10 crosssectional community studies and 3 case-control community studies.",
+          "reason": "Specifies groups used in synthesis (e.g., studies with similar exposure definitions) and links to the risk factors being compared."
+        },
+        {
+          "element_id": "prisma_2020_5_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence provided for rationales behind eligibility restrictions."
+        }
+      ],
+      "confidence": 70,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_5_e1",
+        "prisma_2020_5_e2",
+        "prisma_2020_5_e3",
+        "prisma_2020_5_e5"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_6",
+    "item_label": "6",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_6\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_6_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"published between January 2005 and January 2017\",\n      \"reason\": \"Date range provided indicating search up to January 2017, but not explicitly stated as last search date for each source.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_4\",\n      \"quote\": \"We searched on PubMed, MEDLINE, Embase and Web Science\",\n      \"reason\": \"Database names specified, but search interface/platform and available coverage dates not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of study registers, regulatory databases, or online repositories being searched.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of websites, search engines, or other online sources being searched.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of organisations or manufacturers contacted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of individuals contacted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e7\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_5\",\n      \"quote\": \"However, systematic reviews were used to manually search for references.\",\n      \"reason\": \"Specifies that reference lists from systematic reviews were examined.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of backward or forward citation searching.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of journals or conference proceedings consulted.\"\n    }\n  ],\n  \"confidence\": 80\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_6",
+      "elements": [
+        {
+          "element_id": "prisma_2020_6_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_4",
+          "quote": "published between January 2005 and January 2017",
+          "reason": "Date range provided indicating search up to January 2017, but not explicitly stated as last search date for each source."
+        },
+        {
+          "element_id": "prisma_2020_6_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_4",
+          "quote": "We searched on PubMed, MEDLINE, Embase and Web Science",
+          "reason": "Database names specified, but search interface/platform and available coverage dates not reported."
+        },
+        {
+          "element_id": "prisma_2020_6_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of study registers, regulatory databases, or online repositories being searched."
+        },
+        {
+          "element_id": "prisma_2020_6_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of websites, search engines, or other online sources being searched."
+        },
+        {
+          "element_id": "prisma_2020_6_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of organisations or manufacturers contacted."
+        },
+        {
+          "element_id": "prisma_2020_6_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of individuals contacted."
+        },
+        {
+          "element_id": "prisma_2020_6_e7",
+          "status": "PRESENT",
+          "chunk_id": "text_5",
+          "quote": "However, systematic reviews were used to manually search for references.",
+          "reason": "Specifies that reference lists from systematic reviews were examined."
+        },
+        {
+          "element_id": "prisma_2020_6_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of backward or forward citation searching."
+        },
+        {
+          "element_id": "prisma_2020_6_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of journals or conference proceedings consulted."
+        }
+      ],
+      "confidence": 80,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_6_e1",
+        "prisma_2020_6_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_7",
+    "item_label": "7",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_8",
+    "item_label": "8",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_8\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_8_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"All titles and abstracts were examined by one reviewer (M.G.-Q.)... A second reviewer (D.N.) checked a sample of 45 titles and abstracts selected randomly after duplicated articles were removed. All full-text articles were assessed independently using the same criteria and included if both reviewers recommended inclusion.\",\n      \"reason\": \"Number of reviewers specified for each screening stage: one for initial titles/abstracts, second checked a sample, and two for full-text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"After review of the titles and abstract were independently reviewed by two authors (M.G.-Q. and D.N.). All full-text articles were assessed independently...\",\n      \"reason\": \"Independence reported for titles/abstracts and full-text screening stages.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"Any disagreement of some marginal cases were discussed between M.G.-Q., B.C. and D.N.\",\n      \"reason\": \"Process for resolving disagreements described as discussion among reviewers.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of obtaining or confirming eligibility information from investigators; not mentioned in the selection process.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of translation methods for eligibility assessment; search was limited to English and Spanish, but no translation processes described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of automation tools used in the selection process; manual methods described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of externally derived classifiers or their use; manual screening described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of internally derived classifiers or their use; manual methods employed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of machine-learning prioritisation tools or screening rules; manual process described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of crowdsourcing platforms; selection done by authors.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e11\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of previously screened datasets used to eliminate records; manual screening described.\"\n    }\n  ],\n  \"confidence\": 80\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_8",
+      "elements": [
+        {
+          "element_id": "prisma_2020_8_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "All titles and abstracts were examined by one reviewer (M.G.-Q.)... A second reviewer (D.N.) checked a sample of 45 titles and abstracts selected randomly after duplicated articles were removed. All full-text articles were assessed independently using the same criteria and included if both reviewers recommended inclusion.",
+          "reason": "Number of reviewers specified for each screening stage: one for initial titles/abstracts, second checked a sample, and two for full-text."
+        },
+        {
+          "element_id": "prisma_2020_8_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "After review of the titles and abstract were independently reviewed by two authors (M.G.-Q. and D.N.). All full-text articles were assessed independently...",
+          "reason": "Independence reported for titles/abstracts and full-text screening stages."
+        },
+        {
+          "element_id": "prisma_2020_8_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_6",
+          "quote": "Any disagreement of some marginal cases were discussed between M.G.-Q., B.C. and D.N.",
+          "reason": "Process for resolving disagreements described as discussion among reviewers."
+        },
+        {
+          "element_id": "prisma_2020_8_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of obtaining or confirming eligibility information from investigators; not mentioned in the selection process."
+        },
+        {
+          "element_id": "prisma_2020_8_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of translation methods for eligibility assessment; search was limited to English and Spanish, but no translation processes described."
+        },
+        {
+          "element_id": "prisma_2020_8_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of automation tools used in the selection process; manual methods described."
+        },
+        {
+          "element_id": "prisma_2020_8_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of externally derived classifiers or their use; manual screening described."
+        },
+        {
+          "element_id": "prisma_2020_8_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of internally derived classifiers or their use; manual methods employed."
+        },
+        {
+          "element_id": "prisma_2020_8_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of machine-learning prioritisation tools or screening rules; manual process described."
+        },
+        {
+          "element_id": "prisma_2020_8_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of crowdsourcing platforms; selection done by authors."
+        },
+        {
+          "element_id": "prisma_2020_8_e11",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of previously screened datasets used to eliminate records; manual screening described."
+        }
+      ],
+      "confidence": 80,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_9",
+    "item_label": "9",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_9\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_9_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"A standardized data extraction form was used by M.G.-Q. to extract study characteristics\",\n      \"reason\": \"Explicitly states that one reviewer (M.G.-Q.) collected data from each report.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No information provided on whether multiple data collectors worked independently for data extraction.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Any difficulty in data extraction was discussed by joint review of the original papers.\",\n      \"reason\": \"Describes a process for resolving disagreements through joint discussion.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of processes to obtain or confirm data from investigators, and it is not mentioned, so likely not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No mention of automation tools for data collection, so likely not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Inclusion was limited to English and Spanish papers, with no mention of translation methods, so likely not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No mention of software for extracting data from figures, so likely not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e8\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No description of decision rules for selecting data from multiple reports or resolving inconsistencies, despite mention of duplicate studies.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_9",
+      "elements": [
+        {
+          "element_id": "prisma_2020_9_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "A standardized data extraction form was used by M.G.-Q. to extract study characteristics",
+          "reason": "Explicitly states that one reviewer (M.G.-Q.) collected data from each report."
+        },
+        {
+          "element_id": "prisma_2020_9_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No information provided on whether multiple data collectors worked independently for data extraction."
+        },
+        {
+          "element_id": "prisma_2020_9_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Any difficulty in data extraction was discussed by joint review of the original papers.",
+          "reason": "Describes a process for resolving disagreements through joint discussion."
+        },
+        {
+          "element_id": "prisma_2020_9_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of processes to obtain or confirm data from investigators, and it is not mentioned, so likely not applicable."
+        },
+        {
+          "element_id": "prisma_2020_9_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No mention of automation tools for data collection, so likely not applicable."
+        },
+        {
+          "element_id": "prisma_2020_9_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Inclusion was limited to English and Spanish papers, with no mention of translation methods, so likely not applicable."
+        },
+        {
+          "element_id": "prisma_2020_9_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No mention of software for extracting data from figures, so likely not applicable."
+        },
+        {
+          "element_id": "prisma_2020_9_e8",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No description of decision rules for selecting data from multiple reports or resolving inconsistencies, despite mention of duplicate studies."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_9_e2",
+        "prisma_2020_9_e8"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10a",
+    "item_label": "10a",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10b",
+    "item_label": "10b",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_10b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_10b_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"A standardized data extraction form was used by M.G.-Q. to extract study characteristics: authors, study design, year, country, sample size, altitude, exposure and outcome definitions, main findings, strengths and limitations and confounding factors.\",\n      \"reason\": \"Variables are listed but not defined.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No description of assumptions found in the evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No tool used to determine data items is mentioned or cited in the evidence.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_10b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_10b_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_7",
+          "quote": "A standardized data extraction form was used by M.G.-Q. to extract study characteristics: authors, study design, year, country, sample size, altitude, exposure and outcome definitions, main findings, strengths and limitations and confounding factors.",
+          "reason": "Variables are listed but not defined."
+        },
+        {
+          "element_id": "prisma_2020_10b_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No description of assumptions found in the evidence."
+        },
+        {
+          "element_id": "prisma_2020_10b_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No tool used to determine data items is mentioned or cited in the evidence."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_10b_e1",
+        "prisma_2020_10b_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_11",
+    "item_label": "11",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_11\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_11_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"using standard quality assessment tools for trials [10] that we adapted for observational studies\",\n      \"reason\": \"Tool is referenced but not explicitly named or versioned\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"selection bias, non-differential measurement error for exposure and outcome, information bias in exposure and outcome, confounding and reverse causation\",\n      \"reason\": \"Domains assessed are specified\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Studies were assigned a high, low or uncertain risk according to the following criteria\",\n      \"reason\": \"Overall judgement and criteria for derivation are reported\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e4\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"that we adapted for observational studies\",\n      \"reason\": \"Adaptations are mentioned but not described in detail\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of a newly developed tool; existing tool was adapted\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence on number of reviewers, independence, or disagreement resolution for risk-of-bias assessment\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of processes to obtain information from study investigators\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of automation tools used for risk-of-bias assessment\"\n    }\n  ],\n  \"confidence\": 80\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_11",
+      "elements": [
+        {
+          "element_id": "prisma_2020_11_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_7",
+          "quote": "using standard quality assessment tools for trials [10] that we adapted for observational studies",
+          "reason": "Tool is referenced but not explicitly named or versioned"
+        },
+        {
+          "element_id": "prisma_2020_11_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "selection bias, non-differential measurement error for exposure and outcome, information bias in exposure and outcome, confounding and reverse causation",
+          "reason": "Domains assessed are specified"
+        },
+        {
+          "element_id": "prisma_2020_11_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Studies were assigned a high, low or uncertain risk according to the following criteria",
+          "reason": "Overall judgement and criteria for derivation are reported"
+        },
+        {
+          "element_id": "prisma_2020_11_e4",
+          "status": "PARTIAL",
+          "chunk_id": "text_7",
+          "quote": "that we adapted for observational studies",
+          "reason": "Adaptations are mentioned but not described in detail"
+        },
+        {
+          "element_id": "prisma_2020_11_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of a newly developed tool; existing tool was adapted"
+        },
+        {
+          "element_id": "prisma_2020_11_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence on number of reviewers, independence, or disagreement resolution for risk-of-bias assessment"
+        },
+        {
+          "element_id": "prisma_2020_11_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of processes to obtain information from study investigators"
+        },
+        {
+          "element_id": "prisma_2020_11_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of automation tools used for risk-of-bias assessment"
+        }
+      ],
+      "confidence": 80,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_11_e1",
+        "prisma_2020_11_e4",
+        "prisma_2020_11_e6"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_12",
+    "item_label": "12",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_12\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_12_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_2\",\n      \"quote\": \"the summary prevalence odds ratio (POR) and 95% confidence interval (CI) were calculated using a random effects model.\",\n      \"reason\": \"POR is explicitly stated as the effect measure for outcomes in the synthesis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No thresholds or ranges for interpreting effect size are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The evidence does not indicate that results were re-expressed using another effect measure.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No justification for the choice of effect measure is provided.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_12",
+      "elements": [
+        {
+          "element_id": "prisma_2020_12_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_2",
+          "quote": "the summary prevalence odds ratio (POR) and 95% confidence interval (CI) were calculated using a random effects model.",
+          "reason": "POR is explicitly stated as the effect measure for outcomes in the synthesis."
+        },
+        {
+          "element_id": "prisma_2020_12_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No thresholds or ranges for interpreting effect size are reported."
+        },
+        {
+          "element_id": "prisma_2020_12_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The evidence does not indicate that results were re-expressed using another effect measure."
+        },
+        {
+          "element_id": "prisma_2020_12_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No justification for the choice of effect measure is provided."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_12_e2",
+        "prisma_2020_12_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13a",
+    "item_label": "13a",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13b",
+    "item_label": "13b",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No description of methods for data preparation, such as handling missing statistics or data conversions, is found in the retrieved evidence.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No description of methods for data preparation, such as handling missing statistics or data conversions, is found in the retrieved evidence."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13c",
+    "item_label": "13c",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13c_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No description of tabular structures or data included in tables found in methods section\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"data were included in a random effects meta-analysis for the respective exposure and CKDu and displayed in a forest plot. Funnel plot analysis and Egger's test were performed\",\n      \"reason\": \"Describes use of forest plots and funnel plots for graphical display of results\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No description of basis for ordering or grouping studies in methods section, despite evidence of grouping in results\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No non-standard graphs mentioned or used; standard meta-analysis graphs like forest plots are employed\"\n    }\n  ],\n  \"confidence\": 80\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13c_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No description of tabular structures or data included in tables found in methods section"
+        },
+        {
+          "element_id": "prisma_2020_13c_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "data were included in a random effects meta-analysis for the respective exposure and CKDu and displayed in a forest plot. Funnel plot analysis and Egger's test were performed",
+          "reason": "Describes use of forest plots and funnel plots for graphical display of results"
+        },
+        {
+          "element_id": "prisma_2020_13c_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No description of basis for ordering or grouping studies in methods section, despite evidence of grouping in results"
+        },
+        {
+          "element_id": "prisma_2020_13c_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No non-standard graphs mentioned or used; standard meta-analysis graphs like forest plots are employed"
+        }
+      ],
+      "confidence": 80,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13c_e1",
+        "prisma_2020_13c_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13d",
+    "item_label": "13d",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13d_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"All analyses were performed using Stata version 14 (StataCorp, College Station, TX, USA).\",\n      \"reason\": \"Software and version are explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No description of alternative synthesis methods when meta-analysis was not possible.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e3\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"data were included in a random effects meta-analysis for the respective exposure and CKDu and displayed in a forest plot.\",\n      \"reason\": \"Model is reported, but rationale for choosing random effects is not explicitly provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"prevalence odds ratio [POR] 2.42 [95% confidence interval (CI) 1.76-3.08]\",\n      \"reason\": \"Statistical method (prevalence odds ratio) is reported for meta-analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"The across-study heterogeneity was estimated by using Cochran's Q -statistic and calculating the proportion of total variability explained by heterogeneity ( I 2 ) described by Higgins et al . [10].\",\n      \"reason\": \"Methods for quantifying heterogeneity are explicitly reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Between-study variance estimator for random-effects meta-analysis is not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Method for calculating confidence intervals is not specified.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e8\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No other random-effects implementation details are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Bayesian meta-analysis was not performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No indication of statistical dependency among estimates, and no methods described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e11\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"It was not possible to report an age-standardized CKDu prevalence because a breakdown of the findings by age was not available for most studies.\",\n      \"reason\": \"Reasons for impossible syntheses are reported.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13d_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "All analyses were performed using Stata version 14 (StataCorp, College Station, TX, USA).",
+          "reason": "Software and version are explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No description of alternative synthesis methods when meta-analysis was not possible."
+        },
+        {
+          "element_id": "prisma_2020_13d_e3",
+          "status": "PARTIAL",
+          "chunk_id": "text_8",
+          "quote": "data were included in a random effects meta-analysis for the respective exposure and CKDu and displayed in a forest plot.",
+          "reason": "Model is reported, but rationale for choosing random effects is not explicitly provided."
+        },
+        {
+          "element_id": "prisma_2020_13d_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "prevalence odds ratio [POR] 2.42 [95% confidence interval (CI) 1.76-3.08]",
+          "reason": "Statistical method (prevalence odds ratio) is reported for meta-analyses."
+        },
+        {
+          "element_id": "prisma_2020_13d_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "The across-study heterogeneity was estimated by using Cochran's Q -statistic and calculating the proportion of total variability explained by heterogeneity ( I 2 ) described by Higgins et al . [10].",
+          "reason": "Methods for quantifying heterogeneity are explicitly reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Between-study variance estimator for random-effects meta-analysis is not reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Method for calculating confidence intervals is not specified."
+        },
+        {
+          "element_id": "prisma_2020_13d_e8",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No other random-effects implementation details are reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Bayesian meta-analysis was not performed."
+        },
+        {
+          "element_id": "prisma_2020_13d_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No indication of statistical dependency among estimates, and no methods described."
+        },
+        {
+          "element_id": "prisma_2020_13d_e11",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "It was not possible to report an age-standardized CKDu prevalence because a breakdown of the findings by age was not available for most studies.",
+          "reason": "Reasons for impossible syntheses are reported."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13d_e2",
+        "prisma_2020_13d_e3",
+        "prisma_2020_13d_e6",
+        "prisma_2020_13d_e7",
+        "prisma_2020_13d_e8"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13e",
+    "item_label": "13e",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13e\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13e_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No methods specified for exploring causes of heterogeneity; only estimation of heterogeneity using Cochran's Q and I² is mentioned, without subgroup analysis or meta-regression.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No subgroup analysis or meta-regression methods were described in the methods section to explore heterogeneity, so this element does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Since no subgroup analysis or meta-regression methods were reported, this element does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No methods for comparing subgroup effects were reported, as no subgroup analysis was specified, so this element does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No informal methods to explore heterogeneity when meta-analysis was unsuitable were described in the methods section, so this element does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No analyses of heterogeneity exploration were described, and there is no mention of pre-specification, so this element does not apply.\"\n    }\n  ],\n  \"confidence\": 80\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13e",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13e_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No methods specified for exploring causes of heterogeneity; only estimation of heterogeneity using Cochran's Q and I² is mentioned, without subgroup analysis or meta-regression."
+        },
+        {
+          "element_id": "prisma_2020_13e_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No subgroup analysis or meta-regression methods were described in the methods section to explore heterogeneity, so this element does not apply."
+        },
+        {
+          "element_id": "prisma_2020_13e_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Since no subgroup analysis or meta-regression methods were reported, this element does not apply."
+        },
+        {
+          "element_id": "prisma_2020_13e_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No methods for comparing subgroup effects were reported, as no subgroup analysis was specified, so this element does not apply."
+        },
+        {
+          "element_id": "prisma_2020_13e_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No informal methods to explore heterogeneity when meta-analysis was unsuitable were described in the methods section, so this element does not apply."
+        },
+        {
+          "element_id": "prisma_2020_13e_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No analyses of heterogeneity exploration were described, and there is no mention of pre-specification, so this element does not apply."
+        }
+      ],
+      "confidence": 80,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13e_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13f",
+    "item_label": "13f",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_14",
+    "item_label": "14",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_15",
+    "item_label": "15",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_15\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_15_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No method or tool for assessing certainty in the body of evidence is described in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Factors and criteria for assessing certainty in the body of evidence are not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Decision rules for deriving overall certainty levels and their interpretation are not described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of review-specific certainty considerations; certainty assessment methods are not described, making this element not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No adaptations to a certainty-assessment system are described, as such methods are not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Number of reviewers, independence, and disagreement-resolution for certainty assessment are not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No processes to obtain or confirm information from investigators are described, and certainty assessment methods are not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No automation tools for certainty assessment are mentioned in the evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e9\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Methods to report certainty-assessment results, such as Summary of Findings tables, are not described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No standard phrases incorporating certainty are used or described in the evidence.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_15",
+      "elements": [
+        {
+          "element_id": "prisma_2020_15_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No method or tool for assessing certainty in the body of evidence is described in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_15_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Factors and criteria for assessing certainty in the body of evidence are not reported."
+        },
+        {
+          "element_id": "prisma_2020_15_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Decision rules for deriving overall certainty levels and their interpretation are not described."
+        },
+        {
+          "element_id": "prisma_2020_15_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of review-specific certainty considerations; certainty assessment methods are not described, making this element not applicable."
+        },
+        {
+          "element_id": "prisma_2020_15_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No adaptations to a certainty-assessment system are described, as such methods are not reported."
+        },
+        {
+          "element_id": "prisma_2020_15_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Number of reviewers, independence, and disagreement-resolution for certainty assessment are not reported."
+        },
+        {
+          "element_id": "prisma_2020_15_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No processes to obtain or confirm information from investigators are described, and certainty assessment methods are not reported."
+        },
+        {
+          "element_id": "prisma_2020_15_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No automation tools for certainty assessment are mentioned in the evidence."
+        },
+        {
+          "element_id": "prisma_2020_15_e9",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Methods to report certainty-assessment results, such as Summary of Findings tables, are not described."
+        },
+        {
+          "element_id": "prisma_2020_15_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No standard phrases incorporating certainty are used or described in the evidence."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_15_e1",
+        "prisma_2020_15_e2",
+        "prisma_2020_15_e3",
+        "prisma_2020_15_e6",
+        "prisma_2020_15_e9"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16a",
+    "item_label": "16a",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16a_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We identified 131 epidemiological studies on CKDu, of which 43% (56 papers) were duplicate studies using the same dataset. In addition, 53 studies did not meet the inclusion criteria and 3 were included by manual search, leaving 25 studies for the present systematic review\",\n      \"reason\": \"Reports identified (131), duplicates (56), and excluded after screening (53) are mentioned, but numbers removed before screening and screened are not explicitly stated.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence for numbers of reports sought, not retrieved, assessed for eligibility, or excluded with reasons.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"leaving 25 studies for the present systematic review\",\n      \"reason\": \"Number of included studies (25) is reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of ongoing studies, and the review does not appear to include them.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"This is not a review update, as no previous review is mentioned.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No distinction between human and automation exclusions is made or applicable.\"\n    }\n  ],\n  \"confidence\": 80\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16a_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_9",
+          "quote": "We identified 131 epidemiological studies on CKDu, of which 43% (56 papers) were duplicate studies using the same dataset. In addition, 53 studies did not meet the inclusion criteria and 3 were included by manual search, leaving 25 studies for the present systematic review",
+          "reason": "Reports identified (131), duplicates (56), and excluded after screening (53) are mentioned, but numbers removed before screening and screened are not explicitly stated."
+        },
+        {
+          "element_id": "prisma_2020_16a_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence for numbers of reports sought, not retrieved, assessed for eligibility, or excluded with reasons."
+        },
+        {
+          "element_id": "prisma_2020_16a_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "leaving 25 studies for the present systematic review",
+          "reason": "Number of included studies (25) is reported."
+        },
+        {
+          "element_id": "prisma_2020_16a_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of ongoing studies, and the review does not appear to include them."
+        },
+        {
+          "element_id": "prisma_2020_16a_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "This is not a review update, as no previous review is mentioned."
+        },
+        {
+          "element_id": "prisma_2020_16a_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No distinction between human and automation exclusions is made or applicable."
+        }
+      ],
+      "confidence": 80,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_16a_e1",
+        "prisma_2020_16a_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16b",
+    "item_label": "16b",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No specific excluded studies are cited with individual explanations; only general counts and broad reasons are provided.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No specific excluded studies are cited with individual explanations; only general counts and broad reasons are provided."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_16b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_17",
+    "item_label": "17",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_17\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_17_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"One involved follow-up of eGFR measurements in the subgroup that previously had abnormal SCr results, thus incident disease was not captured [16]. For the other study, only baseline data are available [17].\",\n      \"reason\": \"Multiple included studies are cited by reference numbers throughout the text, demonstrating citation of each study.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"Occupational studies mainly assessed how occupational risk factors in the workplace were associated with an eGFR crosssectionally or a subsequent decline of eGFR across harvest or a single cross-shift in younger sugarcane workers (Table 1). ... Most of the community-based studies were of cross-sectional design and recruited participants from different age groups and explored a variety of exposures. ... (Table 2).\",\n      \"reason\": \"Tables 1 and 2 present key characteristics of all included studies (occupational and community-based), supporting comparison.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"This is not an intervention review; it is an observational epidemiological review of risk factors, so intervention details are not applicable.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_17",
+      "elements": [
+        {
+          "element_id": "prisma_2020_17_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "One involved follow-up of eGFR measurements in the subgroup that previously had abnormal SCr results, thus incident disease was not captured [16]. For the other study, only baseline data are available [17].",
+          "reason": "Multiple included studies are cited by reference numbers throughout the text, demonstrating citation of each study."
+        },
+        {
+          "element_id": "prisma_2020_17_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "Occupational studies mainly assessed how occupational risk factors in the workplace were associated with an eGFR crosssectionally or a subsequent decline of eGFR across harvest or a single cross-shift in younger sugarcane workers (Table 1). ... Most of the community-based studies were of cross-sectional design and recruited participants from different age groups and explored a variety of exposures. ... (Table 2).",
+          "reason": "Tables 1 and 2 present key characteristics of all included studies (occupational and community-based), supporting comparison."
+        },
+        {
+          "element_id": "prisma_2020_17_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "This is not an intervention review; it is an observational epidemiological review of risk factors, so intervention details are not applicable."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_18",
+    "item_label": "18",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_18\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_18_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Table 3. Quality assessment of occupational studies ( n ¼ 5) a Table 4. Quality assessment of community-based studies ( n ¼ 20) a a Green bars: low risk of bias; yellow bars: medium risk of bias; red bars: high risk of bias.\",\n      \"reason\": \"Tables 3 and 4 present domain-level and overall risk-of-bias judgements for all included studies using color-coded bars.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"The quality of three longitudinal occupational studies was affected by severe loss of follow-up (up to 50%) during the study period... One cross-sectional occupational study [15] and crosssectional community-based studies [23-25, 31, 32] had incomplete adjustment for confounding and reverse causation. One case-control study suffered from selection bias of participants...\",\n      \"reason\": \"Justifications for risk-of-bias judgements are provided for specific studies in the text, with references to supplementary data for more details.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Risk-of-bias judgements are presented per study in tables, not outcome-specific, and no evidence suggests outcome-specific judgements are displayed alongside results.\"\n    }\n  ],\n  \"confidence\": 85\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_18",
+      "elements": [
+        {
+          "element_id": "prisma_2020_18_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Table 3. Quality assessment of occupational studies ( n ¼ 5) a Table 4. Quality assessment of community-based studies ( n ¼ 20) a a Green bars: low risk of bias; yellow bars: medium risk of bias; red bars: high risk of bias.",
+          "reason": "Tables 3 and 4 present domain-level and overall risk-of-bias judgements for all included studies using color-coded bars."
+        },
+        {
+          "element_id": "prisma_2020_18_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_9",
+          "quote": "The quality of three longitudinal occupational studies was affected by severe loss of follow-up (up to 50%) during the study period... One cross-sectional occupational study [15] and crosssectional community-based studies [23-25, 31, 32] had incomplete adjustment for confounding and reverse causation. One case-control study suffered from selection bias of participants...",
+          "reason": "Justifications for risk-of-bias judgements are provided for specific studies in the text, with references to supplementary data for more details."
+        },
+        {
+          "element_id": "prisma_2020_18_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Risk-of-bias judgements are presented per study in tables, not outcome-specific, and no evidence suggests outcome-specific judgements are displayed alongside results."
+        }
+      ],
+      "confidence": 85,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_18_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_19",
+    "item_label": "19",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_19\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_19_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No group-level summary statistics for individual studies reported in text or tables; only pooled estimates and study characteristics are provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Individual study effect estimates and precision are not reported in text; only pooled meta-analysis results are given, and visual evidence from figures is not accessible for verification.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No tabular display of results is provided; results are presented in text and figures, but tables present study characteristics only.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Source of study-level data is not reported despite identification of duplicate studies using the same dataset, indicating potential multiple data sources.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"the summary prevalence odds ratio (POR) and 95% confidence interval (CI) were calculated using a random effects model\",\n      \"reason\": \"It is explicitly stated that results were computed using a statistical model.\"\n    }\n  ],\n  \"confidence\": 80\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_19",
+      "elements": [
+        {
+          "element_id": "prisma_2020_19_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No group-level summary statistics for individual studies reported in text or tables; only pooled estimates and study characteristics are provided."
+        },
+        {
+          "element_id": "prisma_2020_19_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Individual study effect estimates and precision are not reported in text; only pooled meta-analysis results are given, and visual evidence from figures is not accessible for verification."
+        },
+        {
+          "element_id": "prisma_2020_19_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No tabular display of results is provided; results are presented in text and figures, but tables present study characteristics only."
+        },
+        {
+          "element_id": "prisma_2020_19_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Source of study-level data is not reported despite identification of duplicate studies using the same dataset, indicating potential multiple data sources."
+        },
+        {
+          "element_id": "prisma_2020_19_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "the summary prevalence odds ratio (POR) and 95% confidence interval (CI) were calculated using a random effects model",
+          "reason": "It is explicitly stated that results were computed using a statistical model."
+        }
+      ],
+      "confidence": 80,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_19_e1",
+        "prisma_2020_19_e2",
+        "prisma_2020_19_e3",
+        "prisma_2020_19_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20a",
+    "item_label": "20a",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20b",
+    "item_label": "20b",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"Sufficient data for meta-analysis were available for a subset of risk factors: male sex, family history of CKD, water intake, pesticide exposure, alcohol consumption, self-medication with NSAIDs, heat stress and altitude. These were from 10 crosssectional community studies and 3 case-control community studies. In the meta-analysis, eight cross-sectional community studies showed positive associations between male and eGFR < 60mL/min/1.73 m² {prevalence odds ratio [POR] 2.42 [95% confidence interval (CI) 1.76-3.08]; Cochran's Q-statistic P = 0.056, I² = 49.0%}. Three studies showed strong associations between family history of kidney disease and eGFR < 60mL/ min/1.73 m² [POR 1.84 (95% CI 1.37-2.30); Cochran's Q-statistic P = 0.947, I² = 0.0%]. For high water intake and eGFR < 60mL/ min/1.73 m² the POR was 1.61 (95% CI: 1.01-2.21; Cochran's Q- statistic P = 0.511, I² = 0.0%) and for lowland altitude (versus highland) it was 2.09 (95% CI 1.00-3.17; Cochran's Q-statistic P = 0.272, I² = 23.3%). The pooled POR for pesticide exposure was 1.17 (95% CI 0.87-1.46; Cochran's Q-statistic P = 0.537, I² = 0.0%) (Fig. 3). The summary estimate for alcohol consumption (yes versus no) was 1.34 (95% CI 0.84-1.84; Cochran's Q-statistic P = 0.088, I² = 45.5%), for NSAIDs intake (yes versus no) and eGFR < 60mL/min it was close to 1 [POR 0.99 (95% CI 0.60-1.39); Cochran's Q-statistic P = 0.399, I² = 0.0%] and for heat stress exposure (yes versus no) it was 1.52 (95% CI -0.91 to 3.95; Cochran's Q-statistic P = 0.065, I² = 70.6%)\",\n      \"reason\": \"Results of all pre-specified meta-analyses for risk factors are reported with summary estimates and heterogeneity measures.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"POR 2.42 [95% CI 1.76-3.08]\",\n      \"reason\": \"Summary estimate (POR) and precision (95% CI) are reported for each meta-analysis, as shown for male sex and other risk factors.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"Cochran's Q-statistic P = 0.056, I² = 49.0%\",\n      \"reason\": \"Measures of statistical heterogeneity (Cochran's Q and I²) are reported for each meta-analysis, as exemplified for male sex.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"The funnel plot for studies that have assessed the above risk factors provides evidence for potential publication bias for pesticide exposure and alcohol consumption (P < 0.014 and P < 0.048, respectively)\",\n      \"reason\": \"Results of publication bias synthesis (Egger's test) are reported with P-values as measures of precision.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No other statistical synthesis methods without an effect estimate are mentioned or reported in the evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"showed positive associations\",\n      \"reason\": \"Direction of effect is described when groups are compared, e.g., for male sex versus female.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No mean-difference syntheses were conducted; all syntheses use prevalence odds ratio for binary outcomes.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No re-expressed standardized mean differences were used in the syntheses.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "Sufficient data for meta-analysis were available for a subset of risk factors: male sex, family history of CKD, water intake, pesticide exposure, alcohol consumption, self-medication with NSAIDs, heat stress and altitude. These were from 10 crosssectional community studies and 3 case-control community studies. In the meta-analysis, eight cross-sectional community studies showed positive associations between male and eGFR < 60mL/min/1.73 m² {prevalence odds ratio [POR] 2.42 [95% confidence interval (CI) 1.76-3.08]; Cochran's Q-statistic P = 0.056, I² = 49.0%}. Three studies showed strong associations between family history of kidney disease and eGFR < 60mL/ min/1.73 m² [POR 1.84 (95% CI 1.37-2.30); Cochran's Q-statistic P = 0.947, I² = 0.0%]. For high water intake and eGFR < 60mL/ min/1.73 m² the POR was 1.61 (95% CI: 1.01-2.21; Cochran's Q- statistic P = 0.511, I² = 0.0%) and for lowland altitude (versus highland) it was 2.09 (95% CI 1.00-3.17; Cochran's Q-statistic P = 0.272, I² = 23.3%). The pooled POR for pesticide exposure was 1.17 (95% CI 0.87-1.46; Cochran's Q-statistic P = 0.537, I² = 0.0%) (Fig. 3). The summary estimate for alcohol consumption (yes versus no) was 1.34 (95% CI 0.84-1.84; Cochran's Q-statistic P = 0.088, I² = 45.5%), for NSAIDs intake (yes versus no) and eGFR < 60mL/min it was close to 1 [POR 0.99 (95% CI 0.60-1.39); Cochran's Q-statistic P = 0.399, I² = 0.0%] and for heat stress exposure (yes versus no) it was 1.52 (95% CI -0.91 to 3.95; Cochran's Q-statistic P = 0.065, I² = 70.6%)",
+          "reason": "Results of all pre-specified meta-analyses for risk factors are reported with summary estimates and heterogeneity measures."
+        },
+        {
+          "element_id": "prisma_2020_20b_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "POR 2.42 [95% CI 1.76-3.08]",
+          "reason": "Summary estimate (POR) and precision (95% CI) are reported for each meta-analysis, as shown for male sex and other risk factors."
+        },
+        {
+          "element_id": "prisma_2020_20b_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "Cochran's Q-statistic P = 0.056, I² = 49.0%",
+          "reason": "Measures of statistical heterogeneity (Cochran's Q and I²) are reported for each meta-analysis, as exemplified for male sex."
+        },
+        {
+          "element_id": "prisma_2020_20b_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "The funnel plot for studies that have assessed the above risk factors provides evidence for potential publication bias for pesticide exposure and alcohol consumption (P < 0.014 and P < 0.048, respectively)",
+          "reason": "Results of publication bias synthesis (Egger's test) are reported with P-values as measures of precision."
+        },
+        {
+          "element_id": "prisma_2020_20b_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No other statistical synthesis methods without an effect estimate are mentioned or reported in the evidence."
+        },
+        {
+          "element_id": "prisma_2020_20b_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "showed positive associations",
+          "reason": "Direction of effect is described when groups are compared, e.g., for male sex versus female."
+        },
+        {
+          "element_id": "prisma_2020_20b_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No mean-difference syntheses were conducted; all syntheses use prevalence odds ratio for binary outcomes."
+        },
+        {
+          "element_id": "prisma_2020_20b_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No re-expressed standardized mean differences were used in the syntheses."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20c",
+    "item_label": "20c",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20d",
+    "item_label": "20d",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20d_e1\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of sensitivity analyses being conducted or reported in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of sensitivity analyses being conducted or reported in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of sensitivity analyses being conducted or reported in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of sensitivity analyses being conducted or reported in the retrieved evidence.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20d_e1",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of sensitivity analyses being conducted or reported in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_20d_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of sensitivity analyses being conducted or reported in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_20d_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of sensitivity analyses being conducted or reported in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_20d_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of sensitivity analyses being conducted or reported in the retrieved evidence."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_APPLICABLE",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_21",
+    "item_label": "21",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_21\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_21_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"We tested for publication bias for sex, pesticide exposure and alcohol consumption risk factors. The funnel plot for studies that have assessed the above risk factors provides evidence for potential publication bias for pesticide exposure and alcohol consumption (P < 0.014 and P < 0.048, respectively) (Supplementary data, Fig. 2).\",\n      \"reason\": \"Publication bias assessments are presented for some syntheses (sex, pesticide, alcohol) but not for all syntheses assessed (e.g., family history, water intake, altitude, NSAIDs, heat stress).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of a tool used specifically for assessing risk of bias due to missing results; statistical tests were used instead.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Funnel plot was used but not displayed or described in detail in the retrieved evidence; it is referenced in supplementary data not provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e4\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"P < 0.014 and P < 0.048\",\n      \"reason\": \"Approximate P values are reported for some funnel-plot asymmetry tests, but exact P values and relevant statistics are not fully provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of sensitivity analyses examining missing results reported in the retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of selective non-reporting assessments displayed in a study-by-synthesis matrix.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of studies with missing results displayed beneath forest plots or in a table.\"\n    }\n  ],\n  \"confidence\": 80\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_21",
+      "elements": [
+        {
+          "element_id": "prisma_2020_21_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_9",
+          "quote": "We tested for publication bias for sex, pesticide exposure and alcohol consumption risk factors. The funnel plot for studies that have assessed the above risk factors provides evidence for potential publication bias for pesticide exposure and alcohol consumption (P < 0.014 and P < 0.048, respectively) (Supplementary data, Fig. 2).",
+          "reason": "Publication bias assessments are presented for some syntheses (sex, pesticide, alcohol) but not for all syntheses assessed (e.g., family history, water intake, altitude, NSAIDs, heat stress)."
+        },
+        {
+          "element_id": "prisma_2020_21_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of a tool used specifically for assessing risk of bias due to missing results; statistical tests were used instead."
+        },
+        {
+          "element_id": "prisma_2020_21_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Funnel plot was used but not displayed or described in detail in the retrieved evidence; it is referenced in supplementary data not provided."
+        },
+        {
+          "element_id": "prisma_2020_21_e4",
+          "status": "PARTIAL",
+          "chunk_id": "text_9",
+          "quote": "P < 0.014 and P < 0.048",
+          "reason": "Approximate P values are reported for some funnel-plot asymmetry tests, but exact P values and relevant statistics are not fully provided."
+        },
+        {
+          "element_id": "prisma_2020_21_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of sensitivity analyses examining missing results reported in the retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_21_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of selective non-reporting assessments displayed in a study-by-synthesis matrix."
+        },
+        {
+          "element_id": "prisma_2020_21_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of studies with missing results displayed beneath forest plots or in a table."
+        }
+      ],
+      "confidence": 80,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_21_e1",
+        "prisma_2020_21_e3",
+        "prisma_2020_21_e4",
+        "prisma_2020_21_e5",
+        "prisma_2020_21_e6",
+        "prisma_2020_21_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_22",
+    "item_label": "22",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23a",
+    "item_label": "23a",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23b",
+    "item_label": "23b",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"The quality of cross-sectional studies was medium due to the potential for reverse causality, incomplete adjustment for confounding factors and the use of a single SCr measurement.\",\n      \"reason\": \"The text explicitly discusses limitations in the evidence from included studies, such as issues with study design and measurement.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "The quality of cross-sectional studies was medium due to the potential for reverse causality, incomplete adjustment for confounding factors and the use of a single SCr measurement.",
+          "reason": "The text explicitly discusses limitations in the evidence from included studies, such as issues with study design and measurement."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23c",
+    "item_label": "23c",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"The main limitations of the review are that the available evidence on CKDu is overall patchy and inconclusive.\",\n      \"reason\": \"Limitations of the review processes are explicitly discussed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"The main limitations of the review are that the available evidence on CKDu is overall patchy and inconclusive. In summary, apart from male sex, positive family history, high water intake and lowland altitude, existing studies have been inconclusive with regards to potential risk factors for CKDu, such as pesticide use, NSAIDs, heavy metals, alcohol consumption, heat stress and dehydration. Longitudinal community-based studies are needed to address problems of reverse causality (as per existing cross-sectional studies) as well as differential loss to follow-up (as per existing occupational studies).\",\n      \"reason\": \"The potential impact of the review-process limitation is discussed, indicating inconclusive findings and the need for future studies due to patchy evidence.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "The main limitations of the review are that the available evidence on CKDu is overall patchy and inconclusive.",
+          "reason": "Limitations of the review processes are explicitly discussed."
+        },
+        {
+          "element_id": "prisma_2020_23c_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "The main limitations of the review are that the available evidence on CKDu is overall patchy and inconclusive. In summary, apart from male sex, positive family history, high water intake and lowland altitude, existing studies have been inconclusive with regards to potential risk factors for CKDu, such as pesticide use, NSAIDs, heavy metals, alcohol consumption, heat stress and dehydration. Longitudinal community-based studies are needed to address problems of reverse causality (as per existing cross-sectional studies) as well as differential loss to follow-up (as per existing occupational studies).",
+          "reason": "The potential impact of the review-process limitation is discussed, indicating inconclusive findings and the need for future studies due to patchy evidence."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23d",
+    "item_label": "23d",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24a",
+    "item_label": "24a",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24a_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No mention of review registration details or statement of non-registration found in the provided evidence.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24a_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No mention of review registration details or statement of non-registration found in the provided evidence."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_24a_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24b",
+    "item_label": "24b",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "",
+    "parsed": {
+      "raw_response": "",
+      "parse_error": true
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24c",
+    "item_label": "24c",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24c_e1\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No registration or protocol information reported in evidence, so amendments are not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No registration or protocol information reported, therefore no amendments to explain.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No registration or protocol information reported, so stage of amendments is not applicable.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24c_e1",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No registration or protocol information reported in evidence, so amendments are not applicable."
+        },
+        {
+          "element_id": "prisma_2020_24c_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No registration or protocol information reported, therefore no amendments to explain."
+        },
+        {
+          "element_id": "prisma_2020_24c_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No registration or protocol information reported, so stage of amendments is not applicable."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_APPLICABLE",
+      "missing_elements": []
+    },
+    "images_available": false,
+    "images_available_count": 0,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_25",
+    "item_label": "25",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_25\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_25_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"The study has been supported by a grant (CF/03/14) from the UK Colt Foundation.\",\n      \"reason\": \"Financial support is described with grant identifier, but non-financial support is not mentioned or its absence stated.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_25_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence found describing the role of funders or sponsors or declaring lack of involvement.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_25",
+      "elements": [
+        {
+          "element_id": "prisma_2020_25_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_13",
+          "quote": "The study has been supported by a grant (CF/03/14) from the UK Colt Foundation.",
+          "reason": "Financial support is described with grant identifier, but non-financial support is not mentioned or its absence stated."
+        },
+        {
+          "element_id": "prisma_2020_25_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence found describing the role of funders or sponsors or declaring lack of involvement."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_25_e1",
+        "prisma_2020_25_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_26",
+    "item_label": "26",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_26\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_26_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of disclosure of author relationships or activities relevant to the review found in retrieved evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_26_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence of competing interests or their management reported in retrieved evidence.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_26",
+      "elements": [
+        {
+          "element_id": "prisma_2020_26_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of disclosure of author relationships or activities relevant to the review found in retrieved evidence."
+        },
+        {
+          "element_id": "prisma_2020_26_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence of competing interests or their management reported in retrieved evidence."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_26_e1",
+        "prisma_2020_26_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_27",
+    "item_label": "27",
+    "model": "deepseek/deepseek-chat-v3.1",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_27\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_27_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Supplementary data are available at ckj online.\",\n      \"reason\": \"Availability of supplementary data is reported, which may include some review materials, but not all specified items (e.g., data-collection forms, analytic code) are explicitly addressed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_27_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"Supplementary data are available at ckj online.\",\n      \"reason\": \"Location for publicly available supplementary data is reported as 'ckj online'.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_27_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence indicates that any materials are available on request; all mentioned are publicly available online.\"\n    }\n  ],\n  \"confidence\": 75\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_27",
+      "elements": [
+        {
+          "element_id": "prisma_2020_27_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_12",
+          "quote": "Supplementary data are available at ckj online.",
+          "reason": "Availability of supplementary data is reported, which may include some review materials, but not all specified items (e.g., data-collection forms, analytic code) are explicitly addressed."
+        },
+        {
+          "element_id": "prisma_2020_27_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "Supplementary data are available at ckj online.",
+          "reason": "Location for publicly available supplementary data is reported as 'ckj online'."
+        },
+        {
+          "element_id": "prisma_2020_27_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence indicates that any materials are available on request; all mentioned are publicly available online."
+        }
+      ],
+      "confidence": 75,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_27_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 0,
+    "image_input_supported": false,
+    "reasoning_effort": "low",
+    "multimodal_used": false,
+    "multimodal_fallback_error": null
+  }
+]

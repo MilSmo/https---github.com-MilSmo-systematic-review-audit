@@ -1,0 +1,232 @@
+{
+  "item_id": "PRISMA_2020_13d",
+  "item_label": "13d",
+  "checklist_item": "Describe any methods used to synthesise results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used.",
+  "semantic_query": "Synthesis methods. Describe any methods used to synthesise results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used. the authors describe synthesis methods and rationale, and if meta-analysis was done: models, heterogeneity assessment, and software. Synthesis method + rationale; if meta-analysis, model/heterogeneity/software explicitly stated\nDescribe any methods used to synthesise results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used.\nRelevant terminology: synthesis methods; inverse variance; random effects; data synthesis; fixed effect; Cochran Q; Mantel-Haenszel; random-effects; meta-analysis; heterogeneity; Hartung-Knapp; fixed-effect",
+  "top_evidence": [
+    {
+      "chunk_id": "text_17",
+      "document_title": "Accuracy of novel antigen rapid diagnostics for SARS-CoV-2: A living systematic review and meta-analysis",
+      "type": "text",
+      "section": "Statistical Analysis And Data Synthesis",
+      "merged_headings": [],
+      "pages": [
+        5,
+        6
+      ],
+      "word_count": 485,
+      "faiss_score": 0.48778027296066284,
+      "keyword_bonus": 0.2,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.8377802729606628,
+      "adjusted_retrieval_score_norm": 1.0,
+      "rerank_score": -0.6946432590484619,
+      "rerank_score_norm": 0.8612535146325931,
+      "final_score": 0.9514387301214076,
+      "text": "Weextracted raw data from the studies and recalculated performance estimates where possible based on the extracted data. The raw data can be found in S2 Table. We prepared forest plots for the sensitivity and specificity of each test and visually evaluated the heterogeneity between studies. If 4 or more datasets were available with at least 20 positive RT-PCR samples per dataset for a predefined analysis, a meta-analysis was performed. We report point estimates of sensitivity and specificity for SARS-CoV-2 detection compared to the reference standard along with 95% confidence intervals (CIs) using a bivariate model (implemented with the 'reitsma' command from the R package 'mada,' version 0.5.10). When there were fewer than 4 studies for an index test, only a descriptive analysis was performed, and accuracy ranges are reported. In subgroup analyses where papers presented data only on sensitivity, a univariate randomeffects inverse variance meta-analysis was performed (using the 'metagen' command from the R package 'meta,' version 4.11-0). We predefined subgroups for meta-analysis based on the following characteristics: Ct value range, sampling and testing procedure in accordance with manufacturer's instructions as detailed in the instructions for use (IFU) (henceforth called IFU-conforming) versus not IFU-conforming, age ( < 18 versus � 18 years), sample type, presence or absence of symptoms, symptom duration ( < 7 days versus � 7 days), viral load, and type of RT-PCR used. In an effort to use as much of the heterogeneous data as possible, the cutoffs for the Ct value groups were relaxed by 2-3 points within each range. The < 20 group included values reported up to � 20, the < 25 group included values reported as � 24 or < 25 or 20-25, and the < 30 group included values from � 29 to � 33 and 25-30. The � 25 group included values reported as � 25 or 25-30, and the � 30 group included values from � 30 to � 35. For the same reason, when categorizing by age, the age group < 18 years (children) included samples from persons whose age was reported as < 16 or < 18 years, whereas the age group � 18 years (adults) included samples from persons whose age was reported as � 16 years or � 18. For categorization by sample type, we assessed (1) nasopharyngeal (NP) alone or combined with other (e.g., oropharyngeal [OP]), (2) OP alone, (3) anterior nasal (AN) or mid-turbinate (MT), (4) a combination of bronchoalveolar lavage and throat wash (BAL/TW), or (5) saliva. Analyses were preformed using R 4.0.3 (R Foundation for Statistical Computing, Vienna, Austria). Weaimed to do meta-regression to examine the impact of covariates including symptom duration and Ct value range. We also performed the Deeks test for funnel-plot asymmetry as recommended to investigate publication bias for diagnostic test accuracy meta-analyses [18] (using the 'midas' command in Stata, version 15); a p -value < 0.10 for the slope coefficient indicates significant asymmetry.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_14",
+      "document_title": "Accuracy of novel antigen rapid diagnostics for SARS-CoV-2: A living systematic review and meta-analysis",
+      "type": "text",
+      "section": "Study Types",
+      "merged_headings": [],
+      "pages": [
+        5
+      ],
+      "word_count": 81,
+      "faiss_score": 0.44295910000801086,
+      "keyword_bonus": 0.03,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4729591000080109,
+      "adjusted_retrieval_score_norm": 0.4828785318661972,
+      "rerank_score": -0.00023600086569786072,
+      "rerank_score_norm": 1.0,
+      "final_score": 0.6638710457130281,
+      "text": "Wedifferentiated between clinical accuracy studies (performed on clinical samples) and analytical accuracy studies (performed on spiked samples with a known quantity of virus). Analytical accuracy studies can differ widely in methodology, impeding an aggregation of their results. Thus, while we extracted the data for both kinds of studies, we only considered data from clinical accuracy studies as eligible for the meta-analysis. Separately, we summarized the results of analytical studies and compared them with the results of the meta-analysis for individual tests.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_2",
+      "document_title": "Accuracy of novel antigen rapid diagnostics for SARS-CoV-2: A living systematic review and meta-analysis",
+      "type": "text",
+      "section": "Methods And Findings",
+      "merged_headings": [],
+      "pages": [
+        1,
+        2
+      ],
+      "word_count": 525,
+      "faiss_score": 0.306719034910202,
+      "keyword_bonus": 0.09,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.546719034910202,
+      "adjusted_retrieval_score_norm": 0.5874307033242533,
+      "rerank_score": -2.405808448791504,
+      "rerank_score_norm": 0.5193530618907645,
+      "final_score": 0.5636035288225323,
+      "text": "July 14, 2021 Weregistered the review on PROSPERO (registration number: CRD42020225140). We systematically searched multiple databases (PubMed, Web of Science Core Collection, medRvix, bioRvix, and FIND) for publications evaluating the accuracy of Ag-RDTs for SARS-CoV-2 up until 30 April 2021. Descriptive analyses of all studies were performed, and when more than 4 studies were available, a random-effects meta-analysis was used to estimate pooled sensitivity and specificity in comparison to reverse transcription polymerase chain reaction (RT-PCR) testing. We assessed heterogeneity by subgroup analyses, and rated study quality and risk of bias using the QUADAS-2 assessment tool. From a total of 14,254 articles, we included 133 analytical and clinical studies resulting in 214 clinical accuracy datasets with 112,323 samples. Across all meta-analyzed samples, the pooled AgRDTsensitivity and specificity were 71.2% (95% CI 68.2% to 74.0%) and 98.9% (95% CI 98.6% to 99.1%), respectively. Sensitivity increased to 76.3% (95% CI 73.1% to 79.2%) if analysis was restricted to studies that followed the Ag-RDT manufacturers' instructions. LumiraDx showed the highest sensitivity, with 88.2% (95% CI 59.0% to 97.5%). Of instrument-free Ag-RDTs, Standard Q nasal performed best, with 80.2% sensitivity (95% CI Peer Review History: PLOS recognizes the benefits of transparency in the peer review process; therefore, we enable the publication of all of the content of peer review and author responses alongside final, published articles. The editorial history of this article is available here: https://doi.org/10.1371/journal.pmed.1003735 Data Availability Statement: All raw data is publicly available under https://zenodo.org/record/ 4924035#.YMSDOS2230o. 70.3% to 87.4%). Across all Ag-RDTs, sensitivity was markedly better on samples with lower RT-PCR cycle threshold (Ct) values, i.e., < 20 (96.5%, 95% CI 92.6% to 98.4%) and < 25 (95.8%, 95% CI 92.3% to 97.8%), in comparison to those with Ct � 25 (50.7%, 95% CI 35.6% to 65.8%) and � 30 (20.9%, 95% CI 12.5% to 32.8%). Testing in the first week from symptom onset resulted in substantially higher sensitivity (83.8%, 95% CI 76.3% to 89.2%) compared to testing after 1 week (61.5%, 95% CI 52.2% to 70.0%). The best Ag-RDT sensitivity was found with anterior nasal sampling (75.5%, 95% CI 70.4% to 79.9%), in comparison to other sample types (e.g., nasopharyngeal, 71.6%, 95% CI 68.1% to 74.9%), although CIs were overlapping. Concerns of bias were raised across all datasets, and financial support from the manufacturer was reported in 24.1% of datasets. Our analysis was limited by the included studies' heterogeneity in design and reporting. Funding: The study was supported by the Ministry of Science, Research and Arts of the State of Baden-Wuerttemberg, Germany (no grant number; https://mwk.baden-wuerttemberg.de/de/startseite/) and internal funds from the Heidelberg University Hospital (no grant number; https://www. heidelberg-university-hospital.com/de/) to CMD. Further, this project was funded by United Kingdom (UK) aid from the British people (grant number: 300341-102; Foreign, Commonwealth & Development Office (FCMO), former UK Department of International Development (DFID); www.gov.uk/fcdo), and supported by a grant from the World Health Organization (WHO; no grant number; https://www.who.int) and a grant from Unitaid (grant number: 2019-32-FIND MDR; https://unitaid.org) to Foundation of New Diagnostics (FIND; JAS, SC, SO, AM). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_8",
+      "document_title": "Accuracy of novel antigen rapid diagnostics for SARS-CoV-2: A living systematic review and meta-analysis",
+      "type": "text",
+      "section": "Methods",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 36,
+      "faiss_score": 0.32666999101638794,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.47666999101638796,
+      "adjusted_retrieval_score_norm": 0.488138592270053,
+      "rerank_score": -2.0718331336975098,
+      "rerank_score_norm": 0.5860832128543767,
+      "final_score": 0.5224192094745663,
+      "text": "Wedeveloped a study protocol following standard guidelines for systematic reviews [14,15], which is available in S1 Text. We also completed the PRISMA checklist (S1 PRISMA Checklist). Furthermore, we registered the review on PROSPERO (registration number: CRD42020225140).",
+      "images": []
+    },
+    {
+      "chunk_id": "text_19",
+      "document_title": "Accuracy of novel antigen rapid diagnostics for SARS-CoV-2: A living systematic review and meta-analysis",
+      "type": "text",
+      "section": "Results > Summary Of Studies",
+      "merged_headings": [],
+      "pages": [
+        6,
+        7,
+        8
+      ],
+      "word_count": 618,
+      "faiss_score": 0.3500621020793915,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.5000621020793915,
+      "adjusted_retrieval_score_norm": 0.5212961053544685,
+      "rerank_score": -3.078651189804077,
+      "rerank_score_norm": 0.3849152886382612,
+      "final_score": 0.4735628195037959,
+      "text": "The systematic search resulted in 14,254 articles. After removing duplicates, 8,921 articles were screened, and 266 papers were considered eligible for full-text review. Of these, 148 were excluded because they did not present primary data [13,19-131] or the Ag-RDT was not commercially available [16,132-164], leaving 133 studies to be included in the systematic review (Fig 1) [4,165-296]. At the end of the data extraction process, 37 studies were still in preprint form [4,171,173,174,177,180,190,192,201,204,205,207,211,214-216,218,220,222,223,225,227,231, 233,234,238,240,244,247,253,257,265,267,284,287,290,293]. All studies were written in English, except for 2 in Spanish [175,280]. Out of the 133 studies, 9 reported analytical accuracy [173,191,198,208,227,256,274,275,282], and the remaining 124 reported clinical accuracy. The clinical accuracy studies were divided into 214 datasets, while the 9 analytical accuracy studies accounted for 63 datasets. A total of 61 different Ag-RDTs were evaluated (48 lateral flow with visual readout and 12 requiring an automated reader), with 56 being assessed in a clinical accuracy study. Thirty-nine studies reported data for more than 1 test, and 19 of these studies conducted a head-to-head assessment, i.e., testing at least 2 Ag-RDTs on the same sample or participant. The reference method was RT-PCR in all except 1 study, which used viral culture [281]. The most common reasons for testing were the occurrence of symptoms (55/19.9% of datasets), screening independent of symptoms (19/6.9%), and close contact with a SARS-CoV-2 confirmed case (10/3.6%). In 79 (28.6%) of the datasets, persons were tested due to more than 1 of these reasons, and for 163 datasets (59.1%), the reason for testing was unclear. Fig 1. PRISMA flow diagram. Based on Page et al. [297]. Ag-RDT, antigen rapid diagnostic test; IFU, instructions for use; sens., sensitivity; spec., specificity. https://doi.org/10.1371/journal.pmed.1003735.g001 In total, 113,242 Ag-RDTs were performed, 112,323 (99.2%) in clinical accuracy studies and 919 (0.8%) in analytical accuracy studies. In the clinical accuracy studies, the mean number of samples per study was 525 (range 16 to 6,954). Only 4,752 (4.2%) tests were performed on pediatric (age group < 18 years) samples, and 21,351 (18.9%) on samples from adults (age group � 18 years). For the remaining 87,139 (76.9%) samples, the age of the persons tested was not specified. Symptomatic patients comprised 36,981 (32.7%) samples; 32,799 (29.0%) samples originated from asymptomatic patients, and for 42,462 (38.4%) samples, the patient's symptom status could not be identified. The most common sample type evaluated was NP and mixed NP/OP (67,036 samples, 59.2%), followed by AN/MT (27,045 samples, 23.9%). There was substantially less testing done for the other sample types, with 6,254 (5.5%) tests done from OP samples, 1,351 (1.2%) from saliva, and 219 (0.2%) from BAL/TW, and for 11,337 (10.0%) tests, we could not identify the type of sample. Of the datasets assessing clinical accuracy, 89 (41.6%) involved testing according to the manufacturers' recommendations (i.e., IFU-conforming), while 100 (46.7%) were not IFUconforming, and for 25 (11.7%) it was unclear. The most common deviations from the IFU were (1) use of samples that were prediluted in transport media not recommended by the manufacturer (80 datasets; 7 unclear), (2) use of banked samples (60 datasets; 14 unclear), and (3) use of a sample type that was not recommended for the Ag-RDT (17 datasets; 8 unclear). Asummary of the tests evaluated in clinical accuracy studies, including study identification, sample size, sample type, sample condition, and IFU conformity, can be found in Table 1. The Panbio test by Abbott (Germany; henceforth called Panbio) was reported the most frequently, with 39 (18.2%) datasets and 28,089 (25.0%) tests, while the Standard Q test by SD Biosensor (South Korea; distributed in Europe by Roche, Germany; henceforth called Standard Q) was assessed in 37 (17.3%) datasets, with 16,820 (15.0%) tests performed. Detailed results for each clinical accuracy study are available in S1 Fig.",
+      "images": [
+        {
+          "image_id": "figure_3",
+          "path": "C:\\Users\\bsmolka\\Documents\\MILENA MGR\\https---github.com-MilSmo-systematic-review-audit\\nowySet_results\\journal.pmed.1003735\\images\\figure_003_Summary_Of_Studies.png",
+          "relative_path": "images\\figure_003_Summary_Of_Studies.png",
+          "caption": "Fig 1. PRISMA flow diagram. Based on Page et al. [297]. Ag-RDT, antigen rapid diagnostic test; IFU, instructions for use; sens., sensitivity; spec., specificity.",
+          "section": "Summary Of Studies",
+          "page_number": 7
+        }
+      ]
+    },
+    {
+      "chunk_id": "text_13",
+      "document_title": "Accuracy of novel antigen rapid diagnostics for SARS-CoV-2: A living systematic review and meta-analysis",
+      "type": "text",
+      "section": "Study Selection And Data Extraction",
+      "merged_headings": [],
+      "pages": [
+        4
+      ],
+      "word_count": 169,
+      "faiss_score": 0.43016868829727173,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.43016868829727173,
+      "adjusted_retrieval_score_norm": 0.42222459463218925,
+      "rerank_score": -2.2843990325927734,
+      "rerank_score_norm": 0.5436113477735555,
+      "final_score": 0.4647099582316674,
+      "text": "Two reviewers (LEB and CE, LEB and SS, or LEB and MB) reviewed the titles and abstracts of all publications identified by the search algorithm independently, followed by a full-text review for those eligible, to select the articles for inclusion in the systematic review. Any disputes were solved by discussion or by a third reviewer (CMD). Afull list of the parameters extracted is included in S1 Table, and the data extraction file is available at https://zenodo.org/record/4924035#.YOlzWS223RZ. Studies that assessed multiple Ag-RDTs or presented results based on differing parameters (e.g., various sample types) were considered as individual datasets. At first, 4 authors (SK, CE, SS, and MB) extracted 5 randomly selected papers in parallel to align data extraction methods. Afterwards, data extraction and the assessment of methodological quality and independence from test manufacturers (see below) was performed by 1 author per paper (SK, CE, SS, or MB) and controlled by a second (LEB, SK, SS, or MB). Any differences were resolved by discussion or by consulting a third author (CMD).",
+      "images": []
+    },
+    {
+      "chunk_id": "text_18",
+      "document_title": "Accuracy of novel antigen rapid diagnostics for SARS-CoV-2: A living systematic review and meta-analysis",
+      "type": "text",
+      "section": "Sensitivity Analysis",
+      "merged_headings": [],
+      "pages": [
+        6
+      ],
+      "word_count": 49,
+      "faiss_score": 0.34816834330558777,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.34816834330558777,
+      "adjusted_retrieval_score_norm": 0.30599192522217855,
+      "rerank_score": -1.7310701608657837,
+      "rerank_score_norm": 0.6541695761039201,
+      "final_score": 0.4278541030307881,
+      "text": "Two types of sensitivity analyses were planned: estimation of sensitivity and specificity excluding case-control studies, and estimation of sensitivity and specificity excluding nonpeer-reviewed studies. We compared the results of each sensitivity analysis against the overall results to assess the potential bias introduced by considering case-control studies and non-peer-reviewed studies.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_33",
+      "document_title": "Accuracy of novel antigen rapid diagnostics for SARS-CoV-2: A living systematic review and meta-analysis",
+      "type": "text",
+      "section": "Supporting Information",
+      "merged_headings": [],
+      "pages": [
+        23,
+        24
+      ],
+      "word_count": 141,
+      "faiss_score": 0.41375449299812317,
+      "keyword_bonus": 0.03,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4437544929981232,
+      "adjusted_retrieval_score_norm": 0.4414820056421452,
+      "rerank_score": -3.573761463165283,
+      "rerank_score_norm": 0.28598946450742624,
+      "final_score": 0.3870596162449935,
+      "text": "S1 Fig. Detailed results of the QUADAS-2 assessment. (PDF) S2 Fig. Hierarchical summary receiver operating characteristic curve for Standard Q AgRDT. (PDF) S3 Fig. Forest plots of all Ag-RDTs. (PDF) S4 Fig. Forest plots for subgroup analysis by Ct value. (PDF) S5 Fig. Forest plots for subgroup analysis by Ct value per test. (PDF) S6 Fig. Forest plots for subgroup analysis by IFU versus non-IFU. (PDF) S7 Fig. Forest plots for subgroup analysis by sample type. (PDF) S8 Fig. Forest plots for subgroup analysis by symptomatic versus asymptomatic. (PDF) S9 Fig. Forest plots for subgroup analysis by symptom duration. (PDF) S10 Fig. Funnel plot test for all datasets included in the meta-analysis. (PDF) S1 PRISMA Checklist. (DOCX) S1 Table. List of data items extracted from studies. (XLSX) S2 Table. List of original data. (XLSX) S3 Table. Summary of analytical studies. (XLSX)",
+      "images": []
+    },
+    {
+      "chunk_id": "text_29",
+      "document_title": "Accuracy of novel antigen rapid diagnostics for SARS-CoV-2: A living systematic review and meta-analysis",
+      "type": "text",
+      "section": "Comparison With Analytical Studies",
+      "merged_headings": [],
+      "pages": [
+        21
+      ],
+      "word_count": 265,
+      "faiss_score": 0.31385910511016846,
+      "keyword_bonus": 0.03,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.3438591051101685,
+      "adjusted_retrieval_score_norm": 0.29988372825510534,
+      "rerank_score": -2.280222177505493,
+      "rerank_score_norm": 0.544445906969791,
+      "final_score": 0.3854804908052453,
+      "text": "The 9 analytical studies were divided into 63 datasets, evaluating 23 different Ag-RDTs. Only 7 studies reported a sample size, for which 833 (90.6%) samples originated from NP swabs, while for 86 (9.4%) the sample type was unclear. One of the 2 studies not reporting sample size used saliva samples [198], while the other used the sample type specified in the respective Ag-RDT's IFU [173]. Overall, the reported analytical sensitivity (limit of detection [LOD]) in the studies resembled the results of the meta-analysis presented above. Rapigen (LOD, in log10 copies per swab: 10.2) and Coris (LOD 7.46) were found to perform worse than Panbio (LOD 6.6 to 6.1) and Standard Q (LOD 6.8 to 6.0), whereas Clinitest (LOD 6.0) and BinaxNOW by Abbott (LOD 4.6 to 4.9) performed better [191,256,282]. Similar results were found in another study, where Standard Q showed the lowest LOD (detecting virus up to what is an equivalent Ct value of 26.3 to 28.7), compared to that of Rapigen and Coris (detecting virus up to what is an equivalent Ct value of only 18.4 for both) [208,274,275]. However, another study found Panbio, Standard Q, Coris, and BinaxNOW to have a similar LOD values of 5.0 × 10 3 plaque forming units (PFU)/mL, but the ESPLINE SARS-CoV-2 by Fujirebio (Japan), the COVID-19 Rapid Antigen Test by Mologic (UK), and the Sure Status COVID-19 Antigen Card Test by Premier Medical Corporation (India) performed markedly better (LOD 2.5 × 10 2 to 5.0 × 10 2 PFU/mL) [173]. An overview of all LOD values reported in the studies can be found in S3 Table.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_1",
+      "document_title": "Accuracy of novel antigen rapid diagnostics for SARS-CoV-2: A living systematic review and meta-analysis",
+      "type": "text",
+      "section": "Abstract > Background",
+      "merged_headings": [],
+      "pages": [
+        1
+      ],
+      "word_count": 45,
+      "faiss_score": 0.25534167885780334,
+      "keyword_bonus": 0.03,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.28534167885780337,
+      "adjusted_retrieval_score_norm": 0.21693728868822765,
+      "rerank_score": -1.772404432296753,
+      "rerank_score_norm": 0.6459107556225824,
+      "final_score": 0.36707800211525177,
+      "text": "SARS-CoV-2 antigen rapid diagnostic tests (Ag-RDTs) are increasingly being integrated in testing strategies around the world. Studies of the Ag-RDTs have shown variable performance. In this systematic review and meta-analysis, we assessed the clinical accuracy (sensitivity and specificity) of commercially available Ag-RDTs. February 26, 2021",
+      "images": []
+    }
+  ]
+}

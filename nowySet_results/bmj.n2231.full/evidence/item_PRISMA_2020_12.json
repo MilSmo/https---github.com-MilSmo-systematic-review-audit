@@ -1,0 +1,220 @@
+{
+  "item_id": "PRISMA_2020_12",
+  "item_label": "12",
+  "checklist_item": "Specify for each outcome the effect measure(s) (e.g. risk ratio, mean difference) used in the synthesis or presentation of results.",
+  "semantic_query": "Effect measures. Specify for each outcome the effect measure(s) (e.g. risk ratio, mean difference) used in the synthesis or presentation of results. the authors specify effect measures for each outcome (e.g., RR, OR, MD, SMD) used in synthesis/presentation. Explicit effect measure(s) stated per outcome or clearly for outcomes analyzed\nSpecify for each outcome the effect measure(s) (e.g. risk ratio, mean difference) used in the synthesis or presentation of results.\nRelevant terminology: standardized mean difference; confidence interval; credible interval; mean difference; risk difference; effect measures; effect measure; relative risk; hazard ratio; effect size; risk ratio; odds ratio",
+  "top_evidence": [
+    {
+      "chunk_id": "text_22",
+      "document_title": "Antibody and cellular therapies for treatment of covid-19: a living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Presentation And Interpretation Of Results > Summary Measures",
+      "merged_headings": [],
+      "pages": [
+        3,
+        4
+      ],
+      "word_count": 259,
+      "faiss_score": 0.40718573331832886,
+      "keyword_bonus": 0.32,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.8771857333183289,
+      "adjusted_retrieval_score_norm": 1.0,
+      "rerank_score": 2.2670416831970215,
+      "rerank_score_norm": 1.0,
+      "final_score": 1.0,
+      "text": "To facilitate interpretation of results of dichotomous outcomes, we calculated absolute effects per 1000 patients. To inform the risk of mortality in the standard care group in patients with severe or critical disease, we used data from the CDC on hospitalised patients with covid-19. 39 40 For mechanical ventilation and duration of hospitalisation, we used baseline risks as reported from the International Severe Acute Respiratory and Emerging Infections Consortium (ISARIC) covid-19 database. 41 For all other outcomes, we used the median event rate in the standard care arm, weighing each study equally. Wesummarisedtheeffectofinterventionsondichotomousoutcomes using odds ratios and their corresponding 95% credible interval (CI). For outcomes with extremely rare events, we summarised the effect of interventions using risk difference and 95% CI. For continuous outcomes, specifically duration of hospital stay, we used the mean difference and corresponding 95% CI because we expect similar durations across randomised trials. For time to symptom resolution, time to viral clearance, and duration of mechanical ventilation, we performed the analyses using ratio of means and corresponding 95% CI before calculating the mean difference in days, as we expect substantial between-study. 31 To mitigate highly implausible results or extreme imprecision, we limited our analyses to interventions with at least 100 participants or 20 events across studies. 11 Table 1 | Characteristics of studies included in review of antibody and cellular therapies for treatment of covid-19. Values are numbers (percentages) of studies unless specified otherwise Results for all comparisons are also presented in an interactive format online (https://www.covid19lnma.com), which will be updated regularly as new data arises.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_20",
+      "document_title": "Antibody and cellular therapies for treatment of covid-19: a living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Data Synthesis",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 31,
+      "faiss_score": 0.3790386915206909,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.5290386915206909,
+      "adjusted_retrieval_score_norm": 0.554221300477208,
+      "rerank_score": 1.3648120164871216,
+      "rerank_score_norm": 0.8899421398882339,
+      "final_score": 0.6717235942710671,
+      "text": "Weperformed bayesian random-effects network meta-analysis for outcomes with sufficient data, and synthesise all other outcomes using pairwise bayesian random-effects meta-analyses if there was only one comparison for a specific outcome. 29",
+      "images": []
+    },
+    {
+      "chunk_id": "text_17",
+      "document_title": "Antibody and cellular therapies for treatment of covid-19: a living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Statistical Analysis",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 147,
+      "faiss_score": 0.32937583327293396,
+      "keyword_bonus": 0.08,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.5593758332729339,
+      "adjusted_retrieval_score_norm": 0.5930659551028077,
+      "rerank_score": -0.2427850365638733,
+      "rerank_score_norm": 0.6938405283928287,
+      "final_score": 0.6283370557543151,
+      "text": "Weperformed a random-effects bayesian meta-analysis using the bayesmeta package 29 in RStudio version 3.5.3 (R Studio, Boston, MA, USA). As suggested in an empirical study, we used a plausible prior for the variance parameter and a uniform prior for the effect parameter. 33 For outcomes where the median risk of an event in the control group was 0 (that is, TACO, TRALI, adverse events leading to discontinuation), we performed network meta-analysis with risk difference and fixed effects rather than odd ratios and random effects. Network meta-analysis was performed using the R package gemtc. Weused three Markov chains with 100 000 iterations after an initial burn-in of 10 000 and a thinning of 10. Node splitting models were used to obtain indirect estimates and to assess local heterogeneity. 34 Wedid not perform any adjustments for interventions with zero events. The R code used is available publicly at https://github.com/covid19lnma/covid19_lnma/.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_6",
+      "document_title": "Antibody and cellular therapies for treatment of covid-19: a living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Methods",
+      "merged_headings": [],
+      "pages": [
+        1
+      ],
+      "word_count": 65,
+      "faiss_score": 0.30634284019470215,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.45634284019470217,
+      "adjusted_retrieval_score_norm": 0.46113918811033683,
+      "rerank_score": 0.4935670495033264,
+      "rerank_score_norm": 0.7836639268817289,
+      "final_score": 0.5740228466803241,
+      "text": "After duplicate data abstraction, we performed random effects bayesian meta-analysis, including network meta-analysis for outcomes with sufficient data. We assessed risk of bias using a modification of the Cochrane risk of bias 2.0 tool. The certainty of the evidence was assessed using the grading of recommendations assessment, development, and evaluation (GRADE) approach. We meta-analysed interventions with ≥100 patients randomised or ≥20 events per treatment arm.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_27",
+      "document_title": "Antibody and cellular therapies for treatment of covid-19: a living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Effects Of The Interventions",
+      "merged_headings": [],
+      "pages": [
+        4
+      ],
+      "word_count": 50,
+      "faiss_score": 0.4306235909461975,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.4306235909461975,
+      "adjusted_retrieval_score_norm": 0.428207431966434,
+      "rerank_score": 0.9761775732040405,
+      "rerank_score_norm": 0.8425348368791917,
+      "final_score": 0.5732220236858991,
+      "text": "Figure 2 presents a summary of the effects of interventions on important efficacy and safety outcomes. The supplementary data include network plots and forest plots of pairwise meta-analyses for all outcomes, as well as detailed relative and absolute effect estimates and the certainty of evidence for all comparisons and outcomes.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_19",
+      "document_title": "Antibody and cellular therapies for treatment of covid-19: a living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Certainty Of The Evidence",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 188,
+      "faiss_score": 0.41928601264953613,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.41928601264953613,
+      "adjusted_retrieval_score_norm": 0.4136904310959765,
+      "rerank_score": 0.07248198240995407,
+      "rerank_score_norm": 0.7322981570347735,
+      "final_score": 0.5252031351745554,
+      "text": "Weassessed the certainty of evidence using the grading of recommendations assessment, development, and evaluation (GRADE) approach, 35 -37 including specific guidance for network meta-analyses. 14 Two methodologists with experience in using GRADE rated each domain for each comparison independently, resolving discrepancies by discussion. We rated the certainty for each comparison and outcome as high, moderate, low, or very low, taking into consideration risk of bias, inconsistency, indirectness, publication bias, imprecision, incoherence (differences between direct and indirect effect estimates), and intransitivity (differences in study characteristics that may modify the treatment effect in the direct comparisons that form the basis for the indirect estimate). 1436 Weused a minimally contextualised approach with a null effect threshold to rate the certainty that there is a benefit or a harm. 38 Whenthepointestimateisbetweenthenulleffectandtheminimally important difference, we rated the certainty that there is a trivial to no effect. 38 In the absence of data from quantitative studies of patient values, the review team chose thresholds of small but important effects by consensus: 1% for mortality, 2% for mechanical ventilation, 1% for hospitalisation, 1 day for duration of hospitalisation, and 2% for all adverse effects. 38",
+      "images": []
+    },
+    {
+      "chunk_id": "text_18",
+      "document_title": "Antibody and cellular therapies for treatment of covid-19: a living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Risk Of Bias Within Individual Studies",
+      "merged_headings": [],
+      "pages": [
+        3
+      ],
+      "word_count": 203,
+      "faiss_score": 0.38578000664711,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.38578000664711,
+      "adjusted_retrieval_score_norm": 0.370788260493458,
+      "rerank_score": -0.022904492914676666,
+      "rerank_score_norm": 0.7206625040018655,
+      "final_score": 0.4932442457214006,
+      "text": "For each eligible trial and outcome, reviewers, following training and calibration exercises, use a revision of the Cochrane tool for assessing risk of bias in randomised trials (RoB 2.0) 28 to rate trials as ( a ) at low risk of bias; ( b ) some concerns, probably at low risk of bias; ( c ) some concerns, probably at high risk of bias; or ( d ) high risk of bias, across the following domains: bias arising from the randomisation process; bias owing to departures from the intended intervention; bias from missing outcome data; bias in measurement of the outcome; bias in selection of the reported results, including deviations from the registered protocol; bias due to competing risks; and bias arising from early termination for benefit. We rate trials at high risk of bias overall if one or more domains were rated as (c) someconcerns, probably high risk of bias or as (d) high risk of bias, and as low risk of bias overall if all domains were rated as ( b ) some concerns, probably low risk of bias or ( a ) low risk of bias. Reviewers resolve discrepancies by discussion and, when necessary, with adjudication by a third party.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_28",
+      "document_title": "Antibody and cellular therapies for treatment of covid-19: a living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Non-Severe Disease",
+      "merged_headings": [],
+      "pages": [
+        4,
+        5
+      ],
+      "word_count": 575,
+      "faiss_score": 0.19956476986408234,
+      "keyword_bonus": 0.32,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.5195647698640824,
+      "adjusted_retrieval_score_norm": 0.542090585668726,
+      "rerank_score": -3.1782827377319336,
+      "rerank_score_norm": 0.33575587736190043,
+      "final_score": 0.46987343776133705,
+      "text": "Admission to hospitalSix trials including 8444 patients reported onadmissiontohospital(supplementarydata).Patientsrandomised to four monoclonal antibody combinations had a lower risk of hospitalisation: casirivimab-imdevimab (odds ratio (OR) 0.29 (95% CI 0.17 to 0.47); moderate certainty), bamlanivimab (OR 0.24 (0.06 to 0.86); low certainty), bamlanivimab-etesevimab (OR 0.31 (0.11 to 0.81); low certainty), and sotrovimab (OR 0.17 (0.04 to 0.57), low certainty) (fig 2). The certainty of all evidence was rated down due to imprecision (serious for casirivimab-imdevimab and very serious for the others because there were few events in the studies). The effect of CT-P59 monoclonal antibody was less certain (OR 0.48 (0.14 to 1.60), low certainty). Mechanical ventilationEight trials including 840 patients reported need for mechanical ventilation (supplementary data). Neither convalescent plasma (OR 0.92 (95% CI 0.46 to 1.68); very low certainty) nor IVIg (OR 0.67 (0.29 to 1.45); very low certainty) reduced mechanical ventilation. Duration of hospitalisationTwenty trials including 24 529 patients reported duration of hospitalisation (supplementary data). Neither convalescent plasma (mean difference -0.7 days (95% CI -2.3 to 1.0); low certainty) nor IVIg (mean difference -2.1 days (-5.8 to 1.6); very low certainty) reduced duration of hospitalisation. MortalityEleven trials including 10 683 patients reported mortality closest to 90 days (supplementary data). The risk of mortality is very low in patients with non-severe disease; as a result, no intervention was found to result in an important reduction in mortality. The effects of the interventions are: Duration of mechanical ventilationNo interventions included at least 100 patients and thus no network meta-analysis was conducted. casirivimab-imdevimab (OR 0.58 (95% CI 0.26 to 1.22); moderate certainty), bamlanivimab (OR 0.46 (0.01 to 27.79); low certainty), bamlanivimab-etesevimab (OR 0.05 (0.00 to 1.01); low certainty), sotrovimab (OR 0.33 (0.01 to 10.16), low certainty), CT-P59 (OR 0.51 (0.01 to 30.40); low certainty), and convalescent plasma (OR 0.83 (0.43 to 1.46); moderate certainty) (fig 2). Ventilator-free daysThree trials including 2857 patients reported ventilator-free days (supplementary data). Convalescent plasma maynotaffect ventilator-free days (mean difference -0.7 days (95% CI -1.8 to 0.4); low certainty). Time to symptom resolutionOne trial including 333 patients reported time to symptom resolution. 89 The study found that convalescent plasma may not affect time to complete resolution of physical function (subhazard ratio 0.89 (95% CI 0.66 to 1.18)) or time to improvement of two categories in the WHO ordinal scale (hazard ratio 1.00 (0.76 to 1.32)). Mechanical ventilationSix trials including 5775 patients reported need for mechanical ventilation (supplementary data). The risk of mechanical ventilation is very low in patients with non-severe disease. No intervention was found to result in an important reduction in mechanical ventilation: casirivimab-imdevimab (OR 0.21 (95% CI 0.02 to 1.20); very low certainty), sotrovimab (OR 0.20 (0.01 to 5.07); very low certainty), and convalescent plasma (OR 0.71 (0.18 to 1.77); very low certainty). ICU length of stayTwo trials including 914 patients reported ICU length of stay. One of these trials analysed at least 100 patients in each arm. 64 Convalescent plasma may not affect ICU length of stay (mean difference 0.6 days (95% CI -0.44 to 1.64); low certainty). Time to symptom resolutionFour trials including 5646 patients reported time to symptom resolution (supplementary data). Casirivimab-imdevimab (ratio of means 0.72 (95% CI 0.58 to 0.92); moderate certainty) probably reduces duration of symptoms. The credible interval included no effect for bamlanivimab (ratio of means 0.92 (95% CI 0.64 to 1.32); low certainty), bamlanivimab-etesevimab (ratio of means 0.89 (0.68 to 1.16); moderate certainty), and CT-P59 (ratio of means 0.66 (0.42 to 1.05); moderate certainty).",
+      "images": []
+    },
+    {
+      "chunk_id": "text_26",
+      "document_title": "Antibody and cellular therapies for treatment of covid-19: a living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Risk Of Bias In Included Studies",
+      "merged_headings": [],
+      "pages": [
+        4
+      ],
+      "word_count": 81,
+      "faiss_score": 0.35383981466293335,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.0,
+      "adjusted_retrieval_score": 0.35383981466293335,
+      "adjusted_retrieval_score_norm": 0.3298910086549931,
+      "rerank_score": 0.014364797621965408,
+      "rerank_score_norm": 0.7252087725581902,
+      "final_score": 0.46825222602111205,
+      "text": "The supplementary data present the assessment of risk of bias of the included studies for each outcome. Twelve trials 50 54 56 60 65 67 72 86 proved at low risk of bias for all domains. All other studies proved at probably high or high risk of bias for at least one domain. Table 1 presents the characteristics of the included studies. The supplementary data on bmj.com present additional study characteristics, outcome data, and risk of bias assessments for each study.",
+      "images": []
+    },
+    {
+      "chunk_id": "text_13",
+      "document_title": "Antibody and cellular therapies for treatment of covid-19: a living systematic review and network meta-analysis",
+      "type": "text",
+      "section": "Methods",
+      "merged_headings": [],
+      "pages": [
+        2
+      ],
+      "word_count": 98,
+      "faiss_score": 0.2930232882499695,
+      "keyword_bonus": 0.0,
+      "section_bonus": 0.15,
+      "adjusted_retrieval_score": 0.4430232882499695,
+      "adjusted_retrieval_score_norm": 0.4440844042652958,
+      "rerank_score": -1.7982597351074219,
+      "rerank_score_norm": 0.5040970261602182,
+      "final_score": 0.46508882192851864,
+      "text": "Aprotocol provides the detailed methods of this systematic review, including all updates (see supplementary data on bmj.com). We report this living systematic review following the guidelines of the preferred reporting items for systematic reviews and meta-analyses (PRISMA) checklist for pairwise 18 19 and network meta-analyses. 20 Aliving systematic review is a cumulative synthesis that is updated regularly as new evidence becomes available. 21 The WHO living guideline panel provided guidance on decisions relevant to data synthesis. Wesearched WHO information sources from 1 December 2019 to 21 July 2021, and the Chinese literature from inception to 20 February 2021.",
+      "images": []
+    }
+  ]
+}
