@@ -1,0 +1,245 @@
+## REVIEW ARTICLE
+
+## Effect of Oral Care with Povidone-Iodine in the Prevention of Ventilator-Associated Pneumonia; a Systematic Review and Meta-Analysis
+
+Amir Emami Zeydi 1 , Arman Parvizi 2 , Soudabeh Haddadi 2 , Samad Karkhah 3,4 , Seyed Javad Hosseini 5 , Amirabbas Mollaei 3,4 , Mahbobeh Firooz 5 , Shahin Ramezani 6 , Joseph Osuji 7 , Pooyan Ghorbani Vajargah 3,4 / , Shadi Dehghanzadeh 8 †
+
+1. Department of Medical-Surgical Nursing, Nasibeh School of Nursing and Midwifery, Mazandaran University of Medical Sciences, Sari, Iran.
+2. Anesthesiology Research Center, Department of Anesthesiology, Alzahra Hospital, Guilan University of Medical Sciences, Rasht, Iran.
+3. Department of Medical-Surgical Nursing, School of Nursing and Midwifery, Guilan University of Medical Sciences, Rasht, Iran.
+4. Burn and Regenerative Medicine Research Center, Guilan University of Medical Sciences, Rasht, Iran.
+5. Department of Nursing, Esfarayen Faculty of Medical Sciences, Esfarayen, Iran.
+6. Student Research Committee, School of Nursing and Midwifery, Guilan University of Medical Sciences, Rasht, Iran.
+7. School of Nursing and Midwifery, Faculty of Health, Community, and Education, Mount Royal University, Calgary, Ab, Canada.
+8. Department of Nursing, College of Nursing and Midwifery, Rasht Branch, Islamic Azad University, Rasht, Iran.
+
+Received: January 2023; Accepted: February 2023; Published online: 4 April 2023
+
+Abstract: Introduction: Ventilator-associated pneumonia (VAP) is one of the most common nosocomial infections affecting onethird of patients with mechanical ventilation. This study aimed to synthesize available evidence regarding the effect of treatment with povidone-iodine (PI) among adult patients admitted to intensive care units (ICUs) for the prevention of VAP . Methods: An extensive search was conducted in online databases, including PubMed, Web of Science and Scopus, from the earliest records until January 1, 2023. STATA software v14 was used for statistical analysis. Publication bias was assessed via funnel plot, Begg's and Egger's tests. A P-value less than 0.1 was considered statistically significant for publication bias value. Results: Four studies were included in the meta-analysis. Three studies showed rhat PI decreased VAP compared to the placebo group, but it was not statistically significant (RR: 0.61, 95%CI: 0.25 to 1.47, Z=1.10, P=0.27, I 2 :71.5%). One study compared the effect of PI with chlorhexidine on the rate of VAP , the difference between which was not statistically significant (RR: 1.50, 95%CI: 0.46 to 4.87, Z=0.67, P=0.50, I 2 :0). Two studies demonstrated that the use of PI intervention compared to placebo decreased the average length of stay in ICU; however, it was not statistically significant (WMD: -0.35, 95%CI:-3.90 to 3.20, Z=0.19, P=0.85, I 2 :0). Also, three studies showed that using PI had almost no effect on mortality rate compared to placebo (RR: 1.05, 95%CI: 0.66 to 1.53, Z=0.8, P=0.27, I 2 :29.0%). Conclusion: More rigorously designed randomized clinical trials and further evidence are required to make a better decision/comparison about using PI as a suitable choice for preventing VAP among adult patients admitted to the ICU.
+
+Keywords: Oral hygiene; pneumonia, ventilator-associated; primary prevention; povidone-iodine; meta-analysis
+
+Cite this article as: Emami Zeydi A, Parvizi A, Haddadi S, Karkhah S, et al. Effect of Oral Care with Povidone-Iodine in the Prevention of Ventilator-Associated Pneumonia; a Systematic Review and Meta-Analysis. Arch Acad Emerg Med. 2023; 11(1): e31. https://doi.org/10.22037/aaem.v11i1.1874.
+
+/ Corresponding Author: Pooyan Ghorbani Vajargah; Nursing and Midwifery School of Shahid Dr Beheshti, Hamidyan Shahrak, Shahid Dr Beheshti Ave., Rasht, Guilan, Iran. Email: poyan.ghorbani@gmail.com, ORCID: https://orcid.org/0000-0003-3365-2681.
+
+† Corresponding Author: Shadi Dehghanzadeh; Department of Nursing, College of Nursing and Midwifery, Rasht Branch, Islamic Azad University, Rasht,
+
+Iran. Email: dehghanzadeh@iaurasht.ac.ir, ORCID: https://orcid.org/00000001-5979-590X.
+
+<!-- image -->
+
+## 1. Introduction
+
+Ventilator-associated pneumonia (VAP) is one of the most common nosocomial infections in intensive care units (ICUs), affecting one-third of patients with mechanical ventilation (1, 2). Despite advances in diagnosis, treatment, and nursing care, VAP is still a major cause of mortality and morbidity in mechanically ventilated ICU patients, potentially increasing the length of ICU and hospital stay and healthcare costs (3). Therefore, preventing VAP is highly desirable and is of utmost importance for improving the quality of care and patient outcomes (4).
+
+Oral care interventions effectively prevent and treat VAP in critically ill mechanically ventilated patients (2, 5). Previous evidence suggests a wide range of oral preventive measures, from brushing to using various topical/oral antimicrobial agents such as sodium bicarbonate, chlorhexidine, and povidone-iodine (PI) (2, 6-9). Among these, PI has been suggested as one of the best antimicrobial agents in reducing the incidence of respiratory infections such as VAP (10, 11). However, there is limited and sometimes contradictory evidence about the efficacy of oral care with PI in the prevention of VAP (6, 10, 12, 13). For example, a randomized controlled trial (RCT) study in France found that in comparison with placebo, using oropharyngeal PI preventive oral care was not associated with a significant reduction in the incidence of VAP , as well as the length of ICU and hospital stay, and 90day mortality in mechanically ventilated patients (6). In contrast, another RCT study in France showed that oropharyngeal decontamination using PI was associated with a significant reduction in the incidence of VAP compared with the use of normal saline and placebo (10).
+
+Based on the above-metioned points, this study aimed to synthesize available evidence regarding the effect of treatment with PI in preventing VAP among adult patients admitted to the ICU with mechanical ventilation.
+
+## 2. Methods
+
+## 2.1. Study registration and reporting
+
+This systematic review and meta-analysis was performed in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) checklist (14). Population, intervention, comparison, and outcomes (PICO) of the study are presented in Table 1. Based on PICO, the present meta-analysis assessed the effect of treatment with PI compared with control groups (including both placebo and chlorhexidine) in preventing VAP among adult patients admitted to the ICU with mechanical ventilation.
+
+## 2.2. Search strategy
+
+An extensive search was conducted in online databases, including PubMed, Web of Science and Scopus, using the keywords extracted from Medical Subject Headings (MeSH) "Ventilator-associated pneumonia", "Pneumonia", "Intubation", "Mechanical ventilation", "Oral hygiene", "Oral health", "Oral care", "Mouth care", "Antiseptic decontamination", "Prevention", "Intensive care unit", "Critical care", "ICU", "Povidone-Iodine", and "betadine", from the earliest records up to January 1, 2023. The search strategy is presented in Table 1. The gray literature, such as conference presentations, expert opinions, dissertations, research and committee reports, and ongoing research, were sought in the present meta-analysis. Gray literature refers to papers not controlled by commercial publishers but produced in print and electronic formats (15).
+
+## 2.3. Inclusion and exclusion criteria
+
+Full-length, peer-reviewed published studies with RCT design with a primary focus on evaluating the clinical efficacy of oral care with PI compared with control groups (including using placebo or other antibacterial mouth rinses or methods for oral care) in prevention of VAP among adult patients admitted to the ICU with mechanical ventilation were included. Letters to the editor, opinions, case reports, conference abstracts, reviews, and studies lacking sufficient information for calculating desired parameters were excluded from the study.
+
+## 2.4. Study selection
+
+The study selection process was performed using the EndNote X8 software. Two researchers independently performed steps 1) removing duplicate articles, 2) screening all the studies by title and abstract, and 3) evaluating the full text of the articles. The researchers assessed a list of included studies' references to prevent any relevant references from being missed in the database searches. Any disagreements between researchers were resolved during discussions with the entire research team.
+
+## 2.5. Data extraction and risk of bias
+
+Version 2 of the Cochrane risk-of-bias tool for randomized trials (Rob 2) was used to assess risk of bias of included studies. This tool involves random allocation sequence items, random sequence generation, allocation concealment, the blinding of participants and personnel, the blinding of outcome assessment, incomplete outcome data, selective reporting, and other biases. The risk of bias was divided into three categories: high, low, and, unclear (16). Information such as first author's name, year of publication, location, patient types, number of patients, type/number of controls, To widen search results and avoid missing data, terms for comparison and outcomes were not included in the search strategy.
+
+Table 1: Search strategy terms
+
+| PICO         | Keywords                                                                                      | #*   | Search Terms                                                                                                                |
+|--------------|-----------------------------------------------------------------------------------------------|------|-----------------------------------------------------------------------------------------------------------------------------|
+| Population   | Patients admitted to the ICU with mechanical ventilation with ventilator-associated pneumonia | 1    | 'Intubation' OR'Mechanical ventilation'OR 'Prevention' OR'Intensive care unit' OR'Critical care' OR'ICU'                    |
+| Intervention | Povidone-iodine                                                                               | 2    | "Povidone-iodine" OR"Betadine" OR'Oral care'OR 'Mouth care' OR'Oral hygiene' OR'Oral health'OR 'Antiseptic decontamination' |
+| Comparison   | Control groups including placebo and chlorhexidine                                            | -    | -                                                                                                                           |
+| Outcome      | Clinical effectiveness, Mortality, and duration of ICU admission                              | 3    | 'Ventilator associated pneumonia' OR'Pneumonia' OR'VAP'                                                                     |
+
+ICU: intensive care unit.
+
+number of cases, mean age, length of stay in the ICU, mortality, and treatment outcome were extracted from included studies using a predesigned extraction form. Data extraction and quality assessment of included studies were performed by two authors, independently.
+
+## 2.6. Targeted outcomes
+
+Targeted outcomes were the clinical efficacy of oral care with PI compared with control groups (including using placebo or other antibacterial mouth rinses or methods for oral care) in prevention of VAP , reducing length of stay in the ICU, and decreasing patients' mortality among adult patients admitted to the ICU with mechanical ventilation.
+
+## 2.7. Data synthesis
+
+The STATA software, v14, was used for statistical analysis. Outcome estimation was performed using risk ratio (RR) for VAP incidence and mortality rate and weighted mean difference (WMD) for the average length of stay in ICU with 95%confidentinterval (CI). After extracting data from studies such as RR, lower and upper confidence intervals, and natural log (Ln), each of them was calculated. Then, the pooled effect size of VAP and mortality incidences were reported based on the random effect model with the inverse variance (IV) method. WMD as the pooled effect size of an average length of stay in ICU was reported based on means, standard deviations, and sample sizes of VAP intervention and placebo groups via fixed effect model and IV method. An I 2 value of 25% was considered a low heterogeneity, 50% a moderate heterogeneity, and 75% a high heterogeneity. Publication bias was assessed via funnel plot, and Begg's and Egger's tests. AP-value less than 0.1 was considered statistically significant for publication bias. Sensitivity analysis was performed for the primary outcome (VAP) based on three studies that compared PI and placebo groups.
+
+## 3. Results
+
+## 3.1. Study selection
+
+A total of 1,912 articles were obtained through database searches, and one was obtained via hand-searching of the references. Then, 94 duplicate records were removed. After screening the titles and abstracts of the articles, 1,477 studies were not in line with the purpose of the present study, and 318 studies were non-interventional. After evaluating the full text of the remaining 13 articles, 8 studies were removed due to inappropriate study design or outcomes, and one was removed due to a lack of desired information. Finally, this systematic review and meta-analysis included four studies (6, 10, 12, 13) (Figure 1).
+
+## 3.2. Included studies characteristics
+
+Four studies (6, 10, 12, 13) were included in the final analysis. All included studies (6, 10, 12, 13) had RCT design. Out of 377 patients, 178 were in the intervention group, and 199 were in the control group. Placebo and chlorhexidine were used in the control groups in three (6, 10, 12) and one (13) studies, respectively. Most patients (62.10%) were male, with a mean age of 47.07 ± 15.71 years. The basic characteristics of the included studies are shown in Table 2.
+
+## 3.3. Risk of bias or quality of included studies
+
+The generation of a randomization sequence was low risk in two studies (12, 13), while two did not mention generating a randomization sequence (6, 10). The included articles did not determine random allocation concealment. Two studies were double-blind (6, 12), and two did not highlight this issue (10, 13). Two studies did not mention the loss of samples (12, 13), and another two had low risk of bias (6, 10). Also, the study results were correctly reported, and the tools used to measure them were appropriate. In one study, the sample size was found insufficient, and therefore it was considered T/I/C: Total/Intervention/Control; PI: Povidone-iodine; VAP: Ventilator-associated pneumonia; RCT: Randomized Clinical Trial; ICU: intensive care unit; N/A: not available; SD: standard deviation.
+
+Table 2: Basic characteristics of the studies included in the systematic review and Meta-analysis
+
+| First Au- thor/year                 | Design   | Patient types                                          |   No. Pa- tients |   No. pa- tients in the inter- ven- tion group |   No. pa- tients in the con- trol group | Type of control/ Interven- tion                  | M/F ratio    | Age (mean± SD)   | Mortality (T/I/C)          | Duration of ICU admission (I/C) (mean± SD)           | VAP incidence T/I/C   | Key results                                                                                                                              |
+|-------------------------------------|----------|--------------------------------------------------------|------------------|------------------------------------------------|-----------------------------------------|--------------------------------------------------|--------------|------------------|----------------------------|------------------------------------------------------|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| Chua et al., 2004 (12) Philip- pine | RCT      | Mechanically- ventilated intubated ICU patients        |               42 |                                             22 |                                      20 | Placebo/ 1% PI                                   | 40.48/ 59.52 | 53.00 (SD=16.22) | 52.38/ 54.54/50            | N/A                                                  | 33.33/ 27.27/40       | No significant effect on VAP amd mortality rate, and length of ICU stay                                                                  |
+| Seguin et al., 2006 (10) France     | RCT      | Head trauma                                            |               98 |                                             36 |                                      62 | Saline group (n=31) Placebo group (n=31)/PI 10%. | 76.53/ 23.47 | 39.00 (SD=17.00) | 22.45/ 16.67/ 32.26/ 19.35 | 15.00 (SD=14.00)/ 14.00 (SD=12.00)/ 19.00 (SD=15.00) | 28.57/ 8.33/ 40.32    | (P>0.05). Significant effect on the prevention of VAP (P<0.05). No significant effect on mortality rate and length of ICU stays (P>0.05) |
+| Gupta et al., 2014 (13) India       | RCT      | Mechanically- ventilated intubated ICU patients        |               70 |                                             35 |                                      35 | Chlorhex- idine /PI                              | 57.14/ 42.86 | 48.28 (SD=11.14) | N/A                        | N/A                                                  | 14.29/ 17.14/ 11.43   | PI was more effective than chlorhexi- dine in prevention of VAP , but the difference was not significant (P>0.05).                       |
+| Seguin et al., 2014 (6) France      | RCT      | Severely Brain-Injured or Cerebral Hemorrhage Patients |              167 |                                             85 |                                      82 | Placebo/PI 10%                                   | 74.25/ 25.75 | 48.00 (SD=18.50) | 29.34/ 32.94/ 25.61        | 15.00 (SD=13.00)/ 16.00 (SD=14.00)                   | 29.33/ 30.77/ 27.78   | No significant effect on on VAP amd mortality rate, and length of ICU stay (P>0.05).                                                     |
+
+to have a high risk of bias (12) (Figure 2).
+
+## 3.4. Treatment outcome
+
+A total of four studies (6, 10, 12, 13) were included in the meta-analysis. In three studies, the effect of PI was compared with the placebo group and, in one study, with chlorhexidine.
+
+Figure 1: Flow diagram of study selection.
+
+<!-- image -->
+
+Figure 2: Risk of bias based on Version 2 of the Cochrane risk-of-bias tool for randomized trials (Rob 2).
+
+| Study                                 | Rob II - Random sequence generation   | Rob II - Allocation concealment       | Rob II - information Blinding of participation and personal   | Rob II - Blinding of outcome assessment   | Rob II - Incomplete outcome data      | Rob II - Selective reporting          | Rob II - Other biases                 |
+|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------------------------------|-------------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
+| Gupta et al., 2014                    | 十                                     | ?                                     | ?                                                             | ?                                         | ?                                     | 十                                     | 十                                     |
+| Seguin et al., 2014                   | ?                                     | ?                                     | 十                                                             | 十                                         | 十                                     | 十                                     | 十                                     |
+| Seguin et al., 2006                   | ?                                     | ?                                     | ?                                                             | ?                                         | 十                                     | 十                                     |                                       |
+| Chua et al., 2004                     |                                       | ?                                     | 十                                                             |                                           | ?                                     |                                       |                                       |
+| ?: Unclear/ +: Low risk/ -: High risk | ?: Unclear/ +: Low risk/ -: High risk | ?: Unclear/ +: Low risk/ -: High risk | ?: Unclear/ +: Low risk/ -: High risk                         | ?: Unclear/ +: Low risk/ -: High risk     | ?: Unclear/ +: Low risk/ -: High risk | ?: Unclear/ +: Low risk/ -: High risk | ?: Unclear/ +: Low risk/ -: High risk |
+
+Theresults of the sub-group analysis showed that using PI intervention reduced the incidence of VAP , but it was not statistically significant (RR: 0.61, 95% CI: 0.25 to 1.47, Z=1.10, P=0.27, I 2 : 71.5%). Also, in one study, the incidence of VAP in the PI group was higher than in the chlorhexidine group. However, this difference was not statistically significant (RR:
+
+1.50, 95% CI: 0.46 to 4.87, Z=0.67, P=0.50, I 2 : 0). In general, PI intervention decreased the rate of VAP when compared with placebo and chlorhexidine interventions, but it was not statistically significant (RR: 0.74, 95% CI: 0.36 to 1.51, Z=0.82, P= 0.41, I 2 : 62%) (Figure 3).
+
+<!-- image -->
+
+Figure 3: Forest plot for pooled risk ratios regarding povidone-iodine (PI) regimen compared to chlorhexidine and placebo groups on incidence of Ventilator-associated pneumonia (VAP). CI: confidence interval.
+
+| Study ID                                       | ES (95%CI)                                     | Weight %                                       |
+|------------------------------------------------|------------------------------------------------|------------------------------------------------|
+| 1- Placebo                                     |                                                |                                                |
+| Seguin (2014)                                  | 1.11 (0.67, 1.82)                              | 34.55                                          |
+| Seguin (2006)                                  | 0.21 (0.07, 0.69)                              | 20.08                                          |
+| Chua (2004)                                    | 0.68 (0.29, 1.62)                              | 25.92                                          |
+| Subtotal (I-squared = 71.5%, p = 0.030)        | 0.61 (0.25, 1.47)                              | 80.54                                          |
+| 2- Chlorhexedine                               |                                                |                                                |
+| Gupta (2014)                                   | 1.50 (0.46, 4.86)                              | 19.46                                          |
+| Subtotal (I-squared = .%, p = .)               | 1.50 (0.46, 4.87)                              | 19.46                                          |
+| Overall (I-squared = 62.4%, p = 0.047)         | 0.74 (0.36, 1.51)                              | 100.00                                         |
+| NOTE: Weights are from random effects analysis | NOTE: Weights are from random effects analysis | NOTE: Weights are from random effects analysis |
+| .07 1 14.3                                     |                                                |                                                |
+
+Figure 4: Forest plot for pooled weighted mean difference (WMD) of length of stay in the intensive care unit (day) regarding povidone-iodine (PI) regimen compared to placebo. CI: confidence interval.
+
+<!-- image -->
+
+## 3.5. Length of ICU stay and mortality
+
+The results of two studies showed that using PI intervention
+
+## compared to placebo reduced the average length of stay in
+
+ICU; however, it was not statistically significant (WMD: -0.35,
+
+<!-- image -->
+
+Figure 5: Forest plot for pooled risk ratio of mortality regarding povidone-iodine (PI) regimen compared to placebo. CI: confidence interval; ES: effect size.
+
+| Study ID                               | ES (95% CI)       |   Weight |
+|----------------------------------------|-------------------|----------|
+| Seguin (2014)                          | 1.23 (0.77, 1.96) |    52.16 |
+| Seguin (2006)                          | 0.52 (0.21, 1.26) |    14.15 |
+| Chua (2004)                            | 1.09 (0.61, 1.95) |    33.68 |
+| Overall (I-squared = 29.0%, p = 0.245) | 1.05 (0.75, 1.46) |   100.00 |
+| .21                                    | 1 4.76            |          |
+
+<!-- image -->
+
+95%CI:-3.90 to 3.20, Z=0.19, P=0.85, I 2 : 0) (Figure 4). The results of three studies showed that PI intervention compared to placebo had almost same effect on the incidence of mortality (RR: 1.05, 95% CI: 0.66 to 1.53, Z=0.8, P=0.27, I 2 : 29.0%) (Figure 5).
+
+## 3.6. Sensitivity analysis
+
+Sensitivity analysis showed that the overall effect size regarding the effect of PI intervention compared to placebo on VAP did not depend on a single study (CI: -2.27 to 0.98).
+
+## 3.7. Publication bias
+
+Cochrane guidelines did not recommend assessing the publication bias if the number of studies included in the metaanalysis was less than ten. However, the publication bias assessment was performed in the current study. Based on the visual inspection of the funnel plot, we found an asymmetry; however, when we did the Begg (P= 0.30) and Egger's regression tests (P= 0.19), no significant publication bias was seen for the effects of PI intervention on VAP compared to placebo (Figure 6).
+
+## 4. Discussion
+
+Nosocomial infection preventive measures for patients in ICU with mechanical ventilation can be divided into two categories: prevention of VAP by controlling the aspiration of infected oropharyngeal secretions into the lower respiratory tract and reduction of bacteria that cause VAP . One of the mostimportantfactors in the occurrence of VAP is the aspiration of oropharyngeal fluid containing pathogenic microorganisms. Therefore, researchers have tried to reduce the risk of developing VAP through oral care (17), showing that the incidence of VAP can be reduced through oral care with PI and chlorhexidine (18-21).
+
+The present systematic review and meta-analysis assessed the effect of oral care with PI in preventing VAP , improving the length of ICU stay, and on the mortality rate among mechanically-ventilated ICU patients. This systematic review and meta-analysis indicated that the use of PI decreased VAP incidence and the average length of ICU stay compared to the placebo group. However, these differences were not statistically significant. Results showed that the use of PI had an effect similar to the placebo group on the mortality rate. A study in France showed that PI does not affect the incidence of VAP and length of stay in the ICU (6). However, another study in France showed that the use of PI significantly prevents VAP (10). To justify this difference in studies, we can point to the differences in the study population and the type and nature of the underlying diseases that can affect the risk of VAP . On the other hand, the results of a systematic review and meta-analysis to evaluate the efficacy of different solutions for oral care in preventing VAP showed that due to the high probability of bias in studies, more investigations are needed to provide additional empirical information (21). In addition, some studies have assessed combined oral care interventions for VAP prevention. A study in Japan found that using a PI gargle swab, brushing teeth, and irrigating with 300 ml of acidic water reduced the risk of VAP among mechanically ventilated patients (17). Also, the results of a meta-analysis showed that brushing with PI and fluorouracil are the best interventions for preventing VAP (21). However, this systematic review and meta-analysis indicated that PI decreased VAP incidence and average length of ICU stay compared to the placebo group. However, these differences were not statistically significant. Also, results showed that PI had an effect similar to placebo on the mortality rate. Some causes of similar effect on mortality can be attributed to the insignificant effect of the PI on the mentioned outcomes, such as the concentration of PI used in the studies and the limited capacity to remain chemically active on tissues long after its administration (6). The CDC guidelines recommend the use of iodine before wound closure during surgery. However, it is not recommended as routine care in critically ill patients in ICU. In some countries, such as Japan, chlorhexidine use is limited because of reports of anaphylactic shock; PI was proposed as a substitute substance. PI has some adverse effects, such as cytotoxic effects, so prolonged use was not recommended. The studies included in this review did not report adverse effects related to PI use; however, morestudies are recommended to explore this (8). Therefore, further well-designed randomized clinical trials are required to evaluate the potential efficacy of oral care using PI to prevent VAP in ICU-ventilated patients.
+
+## 5. Limitations
+
+A major limitation of the present meta-analysis was the limited number of studies and the geographical dispersion, which makes the generalizability of the findings of this study difficult. Future RCTs might influence the outcomes of this meta-analysis, with more studies included.
+
+## 6. Conclusion
+
+In conclusion, this meta-analysis showed that using PI decreased VAP incidence and average length of stay in ICU for adult patients admitted to the ICU with mechanical ventilation. The use of PI did not reduce the mortality compared to the placebo group. However, these differences were not statistically significant. More rigorously designed RCTs and more evidence are required to make a better decision about using PI as a suitable protocol for preventing VAP among adult patients admitted to the ICU.
+
+## 7. Declarations
+
+7.1. Acknowledgments
+
+None.
+
+## 7.2. Conflict of interest
+
+The authors declare no conflict of interest.
+
+## 7.3. Fundings and supports
+
+None.
+
+## 7.4. Authors' contribution
+
+Study concept and design by all authors; Data acquisition by all authors; Data interpretation by all authors; drafting of the manuscript by all authors; Revision of the manuscript by all authors; the final version of the manuscript is approved by all authors.
+
+## 7.5. Data availability
+
+The datasets generated and analyzed during the current study are available from the corresponding author upon reasonable request.
+
+## References
+
+1. Papazian L, Klompas M, Luyt C-E. Ventilator-associated pneumonia in adults: a narrative review. Intensive Care Med. 2020;46(5):888-906.
+2. Zhao T, Wu X, Zhang Q, Li C, Worthington HV, Hua F . Oral hygiene care for critically ill patients to prevent ventilator-associated pneumonia. Cochrane Database Syst Rev. 2020;12:1-139.
+3. Spalding MC, Cripps MW, Minshall CT. Ventilatorassociated pneumonia: new definitions. Crit Care Clin. 2017;33(2):277.
+4. Oliveira J, Zagalo C, Cavaco-Silva P . Prevention of ventilator-associated pneumonia. Rev Port Pneumol. 2014;20(3):152-61.
+5. Satheeshkumar PS, Papatheodorou S, Sonis S. Enhanced oral hygiene interventions as a risk mitigation strategy
+
+for the prevention of non-ventilator-associated pneumonia: a systematic review and meta-analysis. Br Dent J. 2020;228(8):615-22.
+
+6. Seguin P , Laviolle B, Dahyot-Fizelier C, Dumont R, Veber B, Gergaud S, et al. Effect of oropharyngeal povidoneiodine preventive oral care on ventilator-associated pneumonia in severely brain-injured or cerebral hemorrhage patients: a multicenter, randomized controlled trial. Crit Care Med. 2014;42(1):1-8.
+7. de Lacerda Vidal CF , de Lacerda Vidal AK, de Moura Monteiro JG, Cavalcanti A, da Costa Henriques AP , Oliveira M, et al. Impact of oral hygiene involving toothbrushing versus chlorhexidine in the prevention of ventilatorassociated pneumonia: a randomized study. BMC Infect Dis. 2017;17(1):112.
+8. Tsuda S, Soutome S, Hayashida S, Funahara M, Yanamoto S, Umeda M. Topical povidone iodine inhibits bacterial growth in the oral cavity of patients on mechanical ventilation: a randomized controlled study. BMCOral Health. 2020;20(1):62.
+9. Evans L, Rhodes A, Alhazzani W, Antonelli M, Coopersmith CM, French C, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063e143.
+10. Seguin P , Tanguy M, Laviolle B, Tirel O, Mallédant Y. Effect of oropharyngeal decontamination by povidoneiodine on ventilator-associated pneumonia in patients with head trauma. Crit Care Med. 2006;34(5):1514-9.
+11. Challacombe S, Kirk-Bayley J, Sunkaraneni V, Combes J. Povidone iodine. Br Dent J. 2020;228(9):656-7.
+12. Chua JV, Dominguez EA, Sison CMC, Berba RP . The efficacy of povidone-iodine oral rinse in preventing ventilator-associated pneumonia: a randomized, double-blind, placebo-controlled (VAPOR) trial: preliminary report. Philipp J Microbiol Infect Dis. 2004;33(153):e61.
+13. Gupta P , Jethava D. Comparison of the Effectiveness of Oral Care with Chlorhexidine and Povidone iodine on the Incidence of Ventilator Associated Pneumonia in ICU-A prospective randomized controlled study. J Dent Med Sci. 2014;13(11):70-4.
+14. Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ. 2021;372:n71.
+15. Paez A. Gray literature: An important resource in systematic reviews. J Evid Based Med. 2017;10(3):233-40.
+16. Sterne JA, Savovi´ c J, Page MJ, Elbers RG, Blencowe NS, Boutron I, et al. RoB 2: a revised tool for assessing risk of bias in randomised trials. BMJ. 2019;366.
+17. Mori H, Hirasawa H, Oda S, Shiga H, Matsuda K, Nakamura M. Oral care reduces incidence of ventilatorassociated pneumonia in ICU populations. Intensive Care Med. 2006;32(2):230-6.
+18. Khezri HD, Zeydi AE, Firouzian A, Baradari AG, Mahmoodi G, Kiabi FH, et al. The importance of oral hygiene in prevention of ventilator-associated pneumonia (VAP): a literature review. Int J Caring Sci. 2014;7(1):12-23.
+19. Klarin B, Adolfsson A, Torstensson A, Larsson A. Can probiotics be an alternative to chlorhexidine for oral care in the mechanically ventilated patient? A multicentre, prospective, randomised controlled open trial. Crit Care. 2018;22(1):1-10.
+20. Akbiyik A, Hepçivici Z, E¸ ser I, Uyar M, Çetin P . The effect of oropharyngeal aspiration before position change on reducing the incidence of ventilator-associated pneumonia. Eur J Clin Microbiol Infect Dis. 2021;40(3):615-22.
+21. Sankaran SP , Sonis S. Network meta-analysis from a pairwise meta-analysis design: to assess the comparative effectiveness of oral care interventions in preventing ventilator-associated pneumonia in critically ill patients. Clin Oral Investig. 2021:1-9.

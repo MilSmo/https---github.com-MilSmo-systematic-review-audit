@@ -1,0 +1,2372 @@
+[
+  {
+    "item_id": "PRISMA_2020_1",
+    "item_label": "1",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_1\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_1_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Meta-analysis of the clinical efficacy of laparoscopic appendectomy in the treatment of acute appendicitis\",\n      \"reason\": \"The title explicitly identifies the report as a \\\"Meta-analysis\\\", which is a type of systematic review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Meta-analysis of the clinical efficacy of laparoscopic appendectomy in the treatment of acute appendicitis\",\n      \"reason\": \"The title identifies the intervention (laparoscopic appendectomy) and the population/condition (acute appendicitis).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_1_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The title does not include supplementary information such as the study designs included or the update status.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_1",
+      "elements": [
+        {
+          "element_id": "prisma_2020_1_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "Meta-analysis of the clinical efficacy of laparoscopic appendectomy in the treatment of acute appendicitis",
+          "reason": "The title explicitly identifies the report as a \"Meta-analysis\", which is a type of systematic review."
+        },
+        {
+          "element_id": "prisma_2020_1_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "Meta-analysis of the clinical efficacy of laparoscopic appendectomy in the treatment of acute appendicitis",
+          "reason": "The title identifies the intervention (laparoscopic appendectomy) and the population/condition (acute appendicitis)."
+        },
+        {
+          "element_id": "prisma_2020_1_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The title does not include supplementary information such as the study designs included or the update status."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_1_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_2",
+    "item_label": "2",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_2\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_2_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not explicitly state that the report is a systematic review, although it mentions performing a meta-analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Background: This paper compares the postoperative recovery of patients with acute appendicitis (AA) after laparoscopic appendectomy (LA) and open appendectomy (OA), aiming to determine the optimal diagnosis and treatment plan for appendectomy.\",\n      \"reason\": \"The abstract clearly states the objective of comparing postoperative recovery between LA and OA.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not specify the inclusion and exclusion criteria.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e4\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Related literature was retrieved from PubMed, Web of Science, Embase, CNKI and Wanfang databases.\",\n      \"reason\": \"The abstract identifies the information sources but fails to report when each source was last searched.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not mention the methods used to assess the risk of bias in the included studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Besides, Stata16.0 was used for meta-analysis.\",\n      \"reason\": \"The abstract specifies the software used for the meta-analysis, which implies the method of synthesis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e7\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"A total of 777 articles were retrieved, and 16 of them were finally selected. Totally, 1251 patients underwent LA, while 898 patients received OA.\",\n      \"reason\": \"The abstract reports the total number of included studies (16) and participants (1251 LA, 898 OA).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e8\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"According to the results of meta-analysis, LA was associated with lower incidence of adverse reactions [OR = 0.257, 95% CI (0.162, 0.408), P < 0.001], shorter operation time (SMD = - 1.802, 95% CI - 2.435, - 1.169; P < 0.001) and hospitalization (SMD = - 1.184, 95% CI - 1.512, - 0.856; P < 0.001).\",\n      \"reason\": \"The abstract presents results for main outcomes.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e9\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"LA was associated with lower incidence of adverse reactions [OR = 0.257, 95% CI (0.162, 0.408), P < 0.001], shorter operation time (SMD = - 1.802, 95% CI - 2.435, - 1.169; P < 0.001) and hospitalization (SMD = - 1.184, 95% CI - 1.512, - 0.856; P < 0.001).\",\n      \"reason\": \"The abstract reports summary estimates and confidence intervals for the meta-analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e10\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Compared with the OA group, LA was found with less intraoperative blood loss (SMD = - 3.650, 95% CI - 5.088, - 2.212; P < 0.001) and shorter recovery time of gastrointestinal function (SMD = - 3.010, 95% CI - 3.816, - 2.203; P < 0.001).\",\n      \"reason\": \"The abstract indicates the direction of effect (LA is better/shorter/less) compared to the OA group.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e11\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not summarize important limitations of the included evidence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e12\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Conclusion: Compared with OA, LA boasts the advantages of less adverse reactions, shorter operation time and hospitalization, fewer complications, and lower inflammatory response, evidencing its safety and feasibility of applying in the treatment of AA.\",\n      \"reason\": \"The abstract provides a general interpretation of the results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e13\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not specify the primary source of funding.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_2_e14\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The abstract does not provide a registration name or number.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_2",
+      "elements": [
+        {
+          "element_id": "prisma_2020_2_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not explicitly state that the report is a systematic review, although it mentions performing a meta-analysis."
+        },
+        {
+          "element_id": "prisma_2020_2_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "Background: This paper compares the postoperative recovery of patients with acute appendicitis (AA) after laparoscopic appendectomy (LA) and open appendectomy (OA), aiming to determine the optimal diagnosis and treatment plan for appendectomy.",
+          "reason": "The abstract clearly states the objective of comparing postoperative recovery between LA and OA."
+        },
+        {
+          "element_id": "prisma_2020_2_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not specify the inclusion and exclusion criteria."
+        },
+        {
+          "element_id": "prisma_2020_2_e4",
+          "status": "PARTIAL",
+          "chunk_id": "text_3",
+          "quote": "Related literature was retrieved from PubMed, Web of Science, Embase, CNKI and Wanfang databases.",
+          "reason": "The abstract identifies the information sources but fails to report when each source was last searched."
+        },
+        {
+          "element_id": "prisma_2020_2_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not mention the methods used to assess the risk of bias in the included studies."
+        },
+        {
+          "element_id": "prisma_2020_2_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "Besides, Stata16.0 was used for meta-analysis.",
+          "reason": "The abstract specifies the software used for the meta-analysis, which implies the method of synthesis."
+        },
+        {
+          "element_id": "prisma_2020_2_e7",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "A total of 777 articles were retrieved, and 16 of them were finally selected. Totally, 1251 patients underwent LA, while 898 patients received OA.",
+          "reason": "The abstract reports the total number of included studies (16) and participants (1251 LA, 898 OA)."
+        },
+        {
+          "element_id": "prisma_2020_2_e8",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "According to the results of meta-analysis, LA was associated with lower incidence of adverse reactions [OR = 0.257, 95% CI (0.162, 0.408), P < 0.001], shorter operation time (SMD = - 1.802, 95% CI - 2.435, - 1.169; P < 0.001) and hospitalization (SMD = - 1.184, 95% CI - 1.512, - 0.856; P < 0.001).",
+          "reason": "The abstract presents results for main outcomes."
+        },
+        {
+          "element_id": "prisma_2020_2_e9",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "LA was associated with lower incidence of adverse reactions [OR = 0.257, 95% CI (0.162, 0.408), P < 0.001], shorter operation time (SMD = - 1.802, 95% CI - 2.435, - 1.169; P < 0.001) and hospitalization (SMD = - 1.184, 95% CI - 1.512, - 0.856; P < 0.001).",
+          "reason": "The abstract reports summary estimates and confidence intervals for the meta-analysis."
+        },
+        {
+          "element_id": "prisma_2020_2_e10",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "Compared with the OA group, LA was found with less intraoperative blood loss (SMD = - 3.650, 95% CI - 5.088, - 2.212; P < 0.001) and shorter recovery time of gastrointestinal function (SMD = - 3.010, 95% CI - 3.816, - 2.203; P < 0.001).",
+          "reason": "The abstract indicates the direction of effect (LA is better/shorter/less) compared to the OA group."
+        },
+        {
+          "element_id": "prisma_2020_2_e11",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not summarize important limitations of the included evidence."
+        },
+        {
+          "element_id": "prisma_2020_2_e12",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "Conclusion: Compared with OA, LA boasts the advantages of less adverse reactions, shorter operation time and hospitalization, fewer complications, and lower inflammatory response, evidencing its safety and feasibility of applying in the treatment of AA.",
+          "reason": "The abstract provides a general interpretation of the results."
+        },
+        {
+          "element_id": "prisma_2020_2_e13",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not specify the primary source of funding."
+        },
+        {
+          "element_id": "prisma_2020_2_e14",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The abstract does not provide a registration name or number."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_2_e1",
+        "prisma_2020_2_e3",
+        "prisma_2020_2_e4",
+        "prisma_2020_2_e5",
+        "prisma_2020_2_e11",
+        "prisma_2020_2_e13",
+        "prisma_2020_2_e14"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_3",
+    "item_label": "3",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_3\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_3_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"LA was first brought up by Kurt semm in 1983, and since then, numerous studies have focused on the comparison of LA\",\n      \"reason\": \"The text describes the historical context of the intervention (LA) and implies that while numerous studies exist, there is a need to compare it with OA to determine the optimal treatment plan.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"This paper compares the postoperative recovery of patients with acute appendicitis (AA) after laparoscopic appendectomy (LA) and open appendectomy (OA), aiming to determine the optimal diagnosis and treatment plan for appendectomy.\",\n      \"reason\": \"The authors explicitly state the aim of the review is to compare these two surgical approaches to determine the optimal treatment plan, establishing the need for the review.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not mention the existence of previous systematic reviews, so this conditional requirement does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review compares two surgical procedures (laparoscopic vs. open appendectomy). While these are interventions, they are surgical techniques rather than pharmacological or complex interventions with a specific 'mechanism of action' in the sense typically required by this PRISMA item (which usually refers to biological or psychological mechanisms). The rationale focuses on clinical efficacy and recovery outcomes rather than a mechanism of action.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_3_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The intervention (surgical appendectomy) is not a complex intervention or delivery context requiring a logic model.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_3",
+      "elements": [
+        {
+          "element_id": "prisma_2020_3_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "LA was first brought up by Kurt semm in 1983, and since then, numerous studies have focused on the comparison of LA",
+          "reason": "The text describes the historical context of the intervention (LA) and implies that while numerous studies exist, there is a need to compare it with OA to determine the optimal treatment plan."
+        },
+        {
+          "element_id": "prisma_2020_3_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "This paper compares the postoperative recovery of patients with acute appendicitis (AA) after laparoscopic appendectomy (LA) and open appendectomy (OA), aiming to determine the optimal diagnosis and treatment plan for appendectomy.",
+          "reason": "The authors explicitly state the aim of the review is to compare these two surgical approaches to determine the optimal treatment plan, establishing the need for the review."
+        },
+        {
+          "element_id": "prisma_2020_3_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not mention the existence of previous systematic reviews, so this conditional requirement does not apply."
+        },
+        {
+          "element_id": "prisma_2020_3_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review compares two surgical procedures (laparoscopic vs. open appendectomy). While these are interventions, they are surgical techniques rather than pharmacological or complex interventions with a specific 'mechanism of action' in the sense typically required by this PRISMA item (which usually refers to biological or psychological mechanisms). The rationale focuses on clinical efficacy and recovery outcomes rather than a mechanism of action."
+        },
+        {
+          "element_id": "prisma_2020_3_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The intervention (surgical appendectomy) is not a complex intervention or delivery context requiring a logic model."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_4",
+    "item_label": "4",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_4\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_4_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"Background: This paper compares the postoperative recovery of patients with acute appendicitis (AA) after laparoscopic appendectomy (LA) and open appendectomy (OA), aiming to determine the optimal diagnosis and treatment plan for appendectomy.\",\n      \"reason\": \"The objective is explicitly stated in the abstract, identifying the comparison (postoperative recovery of patients with AA after LA vs OA) and the aim (to determine the optimal diagnosis and treatment plan).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_4_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_3\",\n      \"quote\": \"This paper compares the postoperative recovery of patients with acute appendicitis (AA) after laparoscopic appendectomy (LA) and open appendectomy (OA)\",\n      \"reason\": \"The review clearly defines the intervention (laparoscopic appendectomy) and the comparator (open appendectomy) for the population (patients with acute appendicitis), which constitutes a PICO-like structure for an intervention review.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_4",
+      "elements": [
+        {
+          "element_id": "prisma_2020_4_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "Background: This paper compares the postoperative recovery of patients with acute appendicitis (AA) after laparoscopic appendectomy (LA) and open appendectomy (OA), aiming to determine the optimal diagnosis and treatment plan for appendectomy.",
+          "reason": "The objective is explicitly stated in the abstract, identifying the comparison (postoperative recovery of patients with AA after LA vs OA) and the aim (to determine the optimal diagnosis and treatment plan)."
+        },
+        {
+          "element_id": "prisma_2020_4_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_3",
+          "quote": "This paper compares the postoperative recovery of patients with acute appendicitis (AA) after laparoscopic appendectomy (LA) and open appendectomy (OA)",
+          "reason": "The review clearly defines the intervention (laparoscopic appendectomy) and the comparator (open appendectomy) for the population (patients with acute appendicitis), which constitutes a PICO-like structure for an intervention review."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_5",
+    "item_label": "5",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_5\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_5_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Inclusion criteria: (1) Study subjects: AA patients undergoing LA and OA, without age limit; (2) Intervention: LA and OA; (3) Outcome measures: at least any of the followings: incidence of adverse reactions after treatment, postoperative white blood cell count (WBC), postoperative neutrophil count (NEUT), postoperative C-reactive protein (CPR), operation time, intraoperative blood loss; ... (4)Study design: randomized controlled trials (RCTs) or case-control studies.\",\n      \"reason\": \"The manuscript specifies the study subjects, interventions, outcome measures, and study designs used to determine eligibility.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"Electronic databases such as PubMed, Web of Science and Embase, China National Knowledge Infrastructure, and Wanfang were searched for literature published between 2010 and 2021.\",\n      \"reason\": \"The manuscript specifies the dissemination year range (2010-2021), but does not specify language restrictions or publication status.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not distinguish between studies excluded because outcomes were not measured and studies excluded because outcome results were not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Inclusion criteria: (1) Study subjects: AA patients undergoing LA and OA, without age limit; (2) Intervention: LA and OA\",\n      \"reason\": \"The groups used in the synthesis (Laparoscopic Appendectomy vs Open Appendectomy) are clearly defined in the inclusion criteria.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_5_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not provide rationales for the restrictions on study eligibility (e.g., the specific date range or study design limitations).\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_5",
+      "elements": [
+        {
+          "element_id": "prisma_2020_5_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Inclusion criteria: (1) Study subjects: AA patients undergoing LA and OA, without age limit; (2) Intervention: LA and OA; (3) Outcome measures: at least any of the followings: incidence of adverse reactions after treatment, postoperative white blood cell count (WBC), postoperative neutrophil count (NEUT), postoperative C-reactive protein (CPR), operation time, intraoperative blood loss; ... (4)Study design: randomized controlled trials (RCTs) or case-control studies.",
+          "reason": "The manuscript specifies the study subjects, interventions, outcome measures, and study designs used to determine eligibility."
+        },
+        {
+          "element_id": "prisma_2020_5_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_6",
+          "quote": "Electronic databases such as PubMed, Web of Science and Embase, China National Knowledge Infrastructure, and Wanfang were searched for literature published between 2010 and 2021.",
+          "reason": "The manuscript specifies the dissemination year range (2010-2021), but does not specify language restrictions or publication status."
+        },
+        {
+          "element_id": "prisma_2020_5_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not distinguish between studies excluded because outcomes were not measured and studies excluded because outcome results were not reported."
+        },
+        {
+          "element_id": "prisma_2020_5_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Inclusion criteria: (1) Study subjects: AA patients undergoing LA and OA, without age limit; (2) Intervention: LA and OA",
+          "reason": "The groups used in the synthesis (Laparoscopic Appendectomy vs Open Appendectomy) are clearly defined in the inclusion criteria."
+        },
+        {
+          "element_id": "prisma_2020_5_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not provide rationales for the restrictions on study eligibility (e.g., the specific date range or study design limitations)."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_5_e2",
+        "prisma_2020_5_e3",
+        "prisma_2020_5_e5"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_6",
+    "item_label": "6",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_6\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_6_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript specifies the range of publication dates for the literature searched (2010-2021) but does not report the specific date on which the electronic databases were last searched or consulted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"Electronic databases such as PubMed, Web of Science and Embase, China National Knowledge Infrastructure, and Wanfang were searched\",\n      \"reason\": \"The names of the bibliographic databases searched are provided. However, the search interface/platform and available coverage dates for each specific database are not reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that study registers, regulatory databases, or online repositories were searched.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that websites, search engines, or other online sources were searched.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that organisations or manufacturers were contacted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that individuals were contacted to identify studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that reference lists were examined.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that backward or forward citation searching was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_6_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that journals or conference proceedings were specifically consulted.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_6",
+      "elements": [
+        {
+          "element_id": "prisma_2020_6_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript specifies the range of publication dates for the literature searched (2010-2021) but does not report the specific date on which the electronic databases were last searched or consulted."
+        },
+        {
+          "element_id": "prisma_2020_6_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_6",
+          "quote": "Electronic databases such as PubMed, Web of Science and Embase, China National Knowledge Infrastructure, and Wanfang were searched",
+          "reason": "The names of the bibliographic databases searched are provided. However, the search interface/platform and available coverage dates for each specific database are not reported."
+        },
+        {
+          "element_id": "prisma_2020_6_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that study registers, regulatory databases, or online repositories were searched."
+        },
+        {
+          "element_id": "prisma_2020_6_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that websites, search engines, or other online sources were searched."
+        },
+        {
+          "element_id": "prisma_2020_6_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that organisations or manufacturers were contacted."
+        },
+        {
+          "element_id": "prisma_2020_6_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that individuals were contacted to identify studies."
+        },
+        {
+          "element_id": "prisma_2020_6_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that reference lists were examined."
+        },
+        {
+          "element_id": "prisma_2020_6_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that backward or forward citation searching was performed."
+        },
+        {
+          "element_id": "prisma_2020_6_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that journals or conference proceedings were specifically consulted."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_6_e1",
+        "prisma_2020_6_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_7",
+    "item_label": "7",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_7\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_7_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript provides only a list of keywords used for searching, not the full, reproducible search strategy (including Boolean operators, field tags, or syntax) for any of the databases mentioned.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e2\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_6\",\n      \"quote\": \"Electronic databases such as PubMed, Web of Science and Embase, China National Knowledge Infrastructure, and Wanfang were searched for literature published between 2010 and 2021.\",\n      \"reason\": \"The authors report a date limit (2010-2021), but they do not provide a justification for this limit in relation to the eligibility criteria.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No published search approaches or filters were cited.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No natural-language processing or text-analysis tools were reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No tools for translating search strings were reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No validation of the search strategy was reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No peer review of the search strategy was reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_7_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The search structure appears to be based on keywords related to the PICO elements (laparoscopic/open appendectomy and appendicitis), so this conditional element does not apply.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_7",
+      "elements": [
+        {
+          "element_id": "prisma_2020_7_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript provides only a list of keywords used for searching, not the full, reproducible search strategy (including Boolean operators, field tags, or syntax) for any of the databases mentioned."
+        },
+        {
+          "element_id": "prisma_2020_7_e2",
+          "status": "PARTIAL",
+          "chunk_id": "text_6",
+          "quote": "Electronic databases such as PubMed, Web of Science and Embase, China National Knowledge Infrastructure, and Wanfang were searched for literature published between 2010 and 2021.",
+          "reason": "The authors report a date limit (2010-2021), but they do not provide a justification for this limit in relation to the eligibility criteria."
+        },
+        {
+          "element_id": "prisma_2020_7_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No published search approaches or filters were cited."
+        },
+        {
+          "element_id": "prisma_2020_7_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No natural-language processing or text-analysis tools were reported."
+        },
+        {
+          "element_id": "prisma_2020_7_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No tools for translating search strings were reported."
+        },
+        {
+          "element_id": "prisma_2020_7_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No validation of the search strategy was reported."
+        },
+        {
+          "element_id": "prisma_2020_7_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No peer review of the search strategy was reported."
+        },
+        {
+          "element_id": "prisma_2020_7_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The search structure appears to be based on keywords related to the PICO elements (laparoscopic/open appendectomy and appendicitis), so this conditional element does not apply."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_7_e1",
+        "prisma_2020_7_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_8",
+    "item_label": "8",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_8\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_8_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Research selection was independently performed by two evaluators.\",\n      \"reason\": \"The text explicitly states that two evaluators performed the research selection.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Research selection was independently performed by two evaluators.\",\n      \"reason\": \"The text confirms that the two evaluators worked independently.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Should any disagreement arises, a third evaluator would be introduced for joint consultation or the two discussed with each other to achieve consensus.\",\n      \"reason\": \"The process for resolving disagreements (discussion or third evaluator) is described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of contacting study investigators to obtain or confirm eligibility information.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of translation methods for abstracts or full articles.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_9\",\n      \"quote\": \"Finally 16 studies were considered qualified after removing 141 repeated articles, 197 unqualified articles marked by automated tools\",\n      \"reason\": \"The text mentions that automated tools were used to mark unqualified articles.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While automated tools are mentioned, the specific version, reference, or description of the classifier used is not provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No internally derived classifiers are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No machine-learning prioritization tools or stopping rules are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No crowdsourcing platforms are mentioned.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_8_e11\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No previously screened datasets are mentioned.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_8",
+      "elements": [
+        {
+          "element_id": "prisma_2020_8_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Research selection was independently performed by two evaluators.",
+          "reason": "The text explicitly states that two evaluators performed the research selection."
+        },
+        {
+          "element_id": "prisma_2020_8_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Research selection was independently performed by two evaluators.",
+          "reason": "The text confirms that the two evaluators worked independently."
+        },
+        {
+          "element_id": "prisma_2020_8_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "Should any disagreement arises, a third evaluator would be introduced for joint consultation or the two discussed with each other to achieve consensus.",
+          "reason": "The process for resolving disagreements (discussion or third evaluator) is described."
+        },
+        {
+          "element_id": "prisma_2020_8_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of contacting study investigators to obtain or confirm eligibility information."
+        },
+        {
+          "element_id": "prisma_2020_8_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of translation methods for abstracts or full articles."
+        },
+        {
+          "element_id": "prisma_2020_8_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_9",
+          "quote": "Finally 16 studies were considered qualified after removing 141 repeated articles, 197 unqualified articles marked by automated tools",
+          "reason": "The text mentions that automated tools were used to mark unqualified articles."
+        },
+        {
+          "element_id": "prisma_2020_8_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While automated tools are mentioned, the specific version, reference, or description of the classifier used is not provided."
+        },
+        {
+          "element_id": "prisma_2020_8_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No internally derived classifiers are described."
+        },
+        {
+          "element_id": "prisma_2020_8_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No machine-learning prioritization tools or stopping rules are described."
+        },
+        {
+          "element_id": "prisma_2020_8_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No crowdsourcing platforms are mentioned."
+        },
+        {
+          "element_id": "prisma_2020_8_e11",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No previously screened datasets are mentioned."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_8_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_9",
+    "item_label": "9",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_9\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_9_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript describes the number of reviewers for research selection, but does not specify the number of reviewers who collected data from the reports.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript describes independent work for research selection, but does not specify if data collection was performed independently.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript describes disagreement resolution for research selection, but does not describe processes for resolving disagreements during data collection.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that the authors attempted to obtain or confirm data from study investigators.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Automation tools were mentioned for screening/selection, but not for data collection.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No information regarding article translation is provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No software for extracting data from figures is mentioned.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_9_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No decision rules for selecting data from multiple reports are described.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_9",
+      "elements": [
+        {
+          "element_id": "prisma_2020_9_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript describes the number of reviewers for research selection, but does not specify the number of reviewers who collected data from the reports."
+        },
+        {
+          "element_id": "prisma_2020_9_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript describes independent work for research selection, but does not specify if data collection was performed independently."
+        },
+        {
+          "element_id": "prisma_2020_9_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript describes disagreement resolution for research selection, but does not describe processes for resolving disagreements during data collection."
+        },
+        {
+          "element_id": "prisma_2020_9_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that the authors attempted to obtain or confirm data from study investigators."
+        },
+        {
+          "element_id": "prisma_2020_9_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Automation tools were mentioned for screening/selection, but not for data collection."
+        },
+        {
+          "element_id": "prisma_2020_9_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No information regarding article translation is provided."
+        },
+        {
+          "element_id": "prisma_2020_9_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No software for extracting data from figures is mentioned."
+        },
+        {
+          "element_id": "prisma_2020_9_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No decision rules for selecting data from multiple reports are described."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_9_e1",
+        "prisma_2020_9_e2",
+        "prisma_2020_9_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10a",
+    "item_label": "10a",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_10a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_10a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Outcome measures: at least any of the followings: incidence of adverse reactions after treatment, postoperative white blood cell count (WBC), postoperative neutrophil count (NEUT), postoperative C-reactive protein (CPR), operation time, intraoperative blood loss; ... recovery time of gastrointestinal function, hospitalization duration\",\n      \"reason\": \"The authors list the outcome measures in the 'Screening Criteria' section.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not specify the time frame of measurement for the outcome domains (e.g., when postoperative WBC or recovery time was measured).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not state whether all results compatible with each outcome domain were sought.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Since the authors did not report on the process for selecting results (or lack thereof), this conditional element is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no report of changes to outcome-domain inclusion or definitions.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no report of changes to processes for selecting results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10a_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The authors do not report which outcomes were considered most important for interpreting conclusions or the rationale for prioritization.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_10a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_10a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Outcome measures: at least any of the followings: incidence of adverse reactions after treatment, postoperative white blood cell count (WBC), postoperative neutrophil count (NEUT), postoperative C-reactive protein (CPR), operation time, intraoperative blood loss; ... recovery time of gastrointestinal function, hospitalization duration",
+          "reason": "The authors list the outcome measures in the 'Screening Criteria' section."
+        },
+        {
+          "element_id": "prisma_2020_10a_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not specify the time frame of measurement for the outcome domains (e.g., when postoperative WBC or recovery time was measured)."
+        },
+        {
+          "element_id": "prisma_2020_10a_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not state whether all results compatible with each outcome domain were sought."
+        },
+        {
+          "element_id": "prisma_2020_10a_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Since the authors did not report on the process for selecting results (or lack thereof), this conditional element is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_10a_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no report of changes to outcome-domain inclusion or definitions."
+        },
+        {
+          "element_id": "prisma_2020_10a_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no report of changes to processes for selecting results."
+        },
+        {
+          "element_id": "prisma_2020_10a_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The authors do not report which outcomes were considered most important for interpreting conclusions or the rationale for prioritization."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_10a_e2",
+        "prisma_2020_10a_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_10b",
+    "item_label": "10b",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_10b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_10b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"The following data were extracted from the selected articles: title, country, study design, baseline characteristics of participants and outcome measures.\",\n      \"reason\": \"The manuscript lists the categories of data extracted (title, country, study design, baseline characteristics, outcome measures). While specific definitions for every variable are not provided in a glossary, the categories are listed, and the specific outcome measures are further detailed in the 'Screening Criteria' section (chunk_id: text_7) and Table 1.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not describe any assumptions made about missing or unclear information in the included studies (e.g., how missing data were handled, or if any assumptions were made to include studies with incomplete data).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_10b_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not indicate that a specific tool (such as a standardized data extraction form template) was used to determine which data items to collect.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_10b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_10b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_8",
+          "quote": "The following data were extracted from the selected articles: title, country, study design, baseline characteristics of participants and outcome measures.",
+          "reason": "The manuscript lists the categories of data extracted (title, country, study design, baseline characteristics, outcome measures). While specific definitions for every variable are not provided in a glossary, the categories are listed, and the specific outcome measures are further detailed in the 'Screening Criteria' section (chunk_id: text_7) and Table 1."
+        },
+        {
+          "element_id": "prisma_2020_10b_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not describe any assumptions made about missing or unclear information in the included studies (e.g., how missing data were handled, or if any assumptions were made to include studies with incomplete data)."
+        },
+        {
+          "element_id": "prisma_2020_10b_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not indicate that a specific tool (such as a standardized data extraction form template) was used to determine which data items to collect."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_10b_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_11",
+    "item_label": "11",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_11\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_11_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not specify the risk-of-bias tool used to assess the included studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not describe the domains, components, or items assessed by any risk-of-bias tool.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report whether an overall risk-of-bias judgement was made or the rules used to derive it.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No risk-of-bias tool was reported, so adaptations cannot be described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No newly developed risk-of-bias tool was reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e6\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_8\",\n      \"quote\": \"Research selection was independently performed by two evaluators. Should any disagreement arises, a third evaluator would be introduced for joint consultation or the two discussed with each other to achieve consensus.\",\n      \"reason\": \"The manuscript reports the number of reviewers and the disagreement-resolution procedure for 'Research selection', but it does not explicitly state that this process was applied to the risk-of-bias assessment.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not describe processes used to obtain or confirm risk-of-bias information from study investigators.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_11_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No automation tools were reported for risk-of-bias assessment.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_11",
+      "elements": [
+        {
+          "element_id": "prisma_2020_11_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not specify the risk-of-bias tool used to assess the included studies."
+        },
+        {
+          "element_id": "prisma_2020_11_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not describe the domains, components, or items assessed by any risk-of-bias tool."
+        },
+        {
+          "element_id": "prisma_2020_11_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report whether an overall risk-of-bias judgement was made or the rules used to derive it."
+        },
+        {
+          "element_id": "prisma_2020_11_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No risk-of-bias tool was reported, so adaptations cannot be described."
+        },
+        {
+          "element_id": "prisma_2020_11_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No newly developed risk-of-bias tool was reported."
+        },
+        {
+          "element_id": "prisma_2020_11_e6",
+          "status": "PARTIAL",
+          "chunk_id": "text_8",
+          "quote": "Research selection was independently performed by two evaluators. Should any disagreement arises, a third evaluator would be introduced for joint consultation or the two discussed with each other to achieve consensus.",
+          "reason": "The manuscript reports the number of reviewers and the disagreement-resolution procedure for 'Research selection', but it does not explicitly state that this process was applied to the risk-of-bias assessment."
+        },
+        {
+          "element_id": "prisma_2020_11_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not describe processes used to obtain or confirm risk-of-bias information from study investigators."
+        },
+        {
+          "element_id": "prisma_2020_11_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No automation tools were reported for risk-of-bias assessment."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_11_e1",
+        "prisma_2020_11_e2",
+        "prisma_2020_11_e3",
+        "prisma_2020_11_e6",
+        "prisma_2020_11_e7"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_12",
+    "item_label": "12",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_12\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_12_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Odds ratios (ORs) or standardized mean differences (SMDs) were calculated with 95% confidence intervals\",\n      \"reason\": \"The manuscript specifies that Odds ratios (ORs) or standardized mean differences (SMDs) were used as the effect measures for the outcomes.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report using specific thresholds or ranges to interpret effect sizes (e.g., interpreting the magnitude of an SMD), so this is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that the authors re-expressed synthesized results using another effect measure; they used ORs and SMDs consistently.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_12_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not provide a justification for the choice of effect measures (ORs and SMDs).\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_12",
+      "elements": [
+        {
+          "element_id": "prisma_2020_12_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Odds ratios (ORs) or standardized mean differences (SMDs) were calculated with 95% confidence intervals",
+          "reason": "The manuscript specifies that Odds ratios (ORs) or standardized mean differences (SMDs) were used as the effect measures for the outcomes."
+        },
+        {
+          "element_id": "prisma_2020_12_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report using specific thresholds or ranges to interpret effect sizes (e.g., interpreting the magnitude of an SMD), so this is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_12_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that the authors re-expressed synthesized results using another effect measure; they used ORs and SMDs consistently."
+        },
+        {
+          "element_id": "prisma_2020_12_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not provide a justification for the choice of effect measures (ORs and SMDs)."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_12_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13a",
+    "item_label": "13a",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13a_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript describes the general inclusion and exclusion criteria for the review (chunk_id: text_7) and the data extraction process (chunk_id: text_8), but it does not describe the specific processes used to decide which studies were eligible for each individual synthesis (e.g., how studies were grouped or selected for specific meta-analyses).\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13a_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript describes the general inclusion and exclusion criteria for the review (chunk_id: text_7) and the data extraction process (chunk_id: text_8), but it does not describe the specific processes used to decide which studies were eligible for each individual synthesis (e.g., how studies were grouped or selected for specific meta-analyses)."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13a_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13b",
+    "item_label": "13b",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript describes the statistical models used (random-effects vs. fixed-effects) and the effect measures calculated (ORs or SMDs), but it does not describe methods for preparing data for synthesis, such as how missing summary statistics were handled or how data were converted (e.g., from medians/ranges to means/SDs).\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript describes the statistical models used (random-effects vs. fixed-effects) and the effect measures calculated (ORs or SMDs), but it does not describe methods for preparing data for synthesis, such as how missing summary statistics were handled or how data were converted (e.g., from medians/ranges to means/SDs)."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13c",
+    "item_label": "13c",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"The characteristics of each included study are summarized in Table 1.\",\n      \"reason\": \"The manuscript explicitly describes the use of a table (Table 1) to summarize the characteristics of the included studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"No significant bias in the incidence of adverse reactions was identified in the funnel plot for publication bias detection (Fig. 2B). Besides, the sensitivity analysis displayed little change in the combined result after removing the included studies one by one, indicating comparatively strong stability of the result of metaanalysis (Fig. 2C). 口 Fig. 3 Forest plots comparing the recovery of patients with acute appendicitis after LA and OA.\",\n      \"reason\": \"The manuscript describes the use of graphical methods, specifically forest plots (Fig. 3, Fig. 2A), funnel plots (Fig. 2B), and sensitivity analysis plots (Fig. 2C) to display results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While tables and figures are presented, the manuscript does not explicitly describe the basis for ordering or grouping studies within these tables or graphs.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13c_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript uses standard meta-analysis graphical methods (forest plots, funnel plots, sensitivity analysis plots), so no non-standard graphs requiring a rationale were used.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "The characteristics of each included study are summarized in Table 1.",
+          "reason": "The manuscript explicitly describes the use of a table (Table 1) to summarize the characteristics of the included studies."
+        },
+        {
+          "element_id": "prisma_2020_13c_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "No significant bias in the incidence of adverse reactions was identified in the funnel plot for publication bias detection (Fig. 2B). Besides, the sensitivity analysis displayed little change in the combined result after removing the included studies one by one, indicating comparatively strong stability of the result of metaanalysis (Fig. 2C). 口 Fig. 3 Forest plots comparing the recovery of patients with acute appendicitis after LA and OA.",
+          "reason": "The manuscript describes the use of graphical methods, specifically forest plots (Fig. 3, Fig. 2A), funnel plots (Fig. 2B), and sensitivity analysis plots (Fig. 2C) to display results."
+        },
+        {
+          "element_id": "prisma_2020_13c_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While tables and figures are presented, the manuscript does not explicitly describe the basis for ordering or grouping studies within these tables or graphs."
+        },
+        {
+          "element_id": "prisma_2020_13c_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript uses standard meta-analysis graphical methods (forest plots, funnel plots, sensitivity analysis plots), so no non-standard graphs requiring a rationale were used."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13c_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13d",
+    "item_label": "13d",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13d_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Data analysis was performed using Stata16.0 software.\",\n      \"reason\": \"The manuscript explicitly reports the software used for statistical analysis (Stata 16.0).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Meta-analysis was performed, so this requirement for alternative synthesis methods does not apply.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"When P < 0.05 and ­ I 2 > 50%, the random-effects model would be used for meta-analysis; otherwise, the fixed-effects model would be adopted.\",\n      \"reason\": \"The manuscript describes the criteria for choosing between fixed-effects and random-effects models.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Odds ratios (ORs) or standardized mean differences (SMDs) were calculated with 95% confidence intervals\",\n      \"reason\": \"The statistical methods (ORs and SMDs) used for the meta-analysis are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"The heterogeneity of all studies was tested by means of Q test and ­ I 2 statistic.\",\n      \"reason\": \"The methods used to identify and quantify statistical heterogeneity (Q test and I^2 statistic) are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report the specific between-study variance estimator used for the random-effects meta-analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e7\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not specify the method used to calculate confidence intervals for the summary effect (e.g., Wald, Hartung-Knapp).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e8\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No other implementation details for the random-effects model are provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e9\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The study did not perform a Bayesian meta-analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e10\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not describe methods used to account for statistical dependency among multiple estimates from the same study.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13d_e11\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no indication that any planned syntheses were judged impossible or inappropriate.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13d_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Data analysis was performed using Stata16.0 software.",
+          "reason": "The manuscript explicitly reports the software used for statistical analysis (Stata 16.0)."
+        },
+        {
+          "element_id": "prisma_2020_13d_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Meta-analysis was performed, so this requirement for alternative synthesis methods does not apply."
+        },
+        {
+          "element_id": "prisma_2020_13d_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "When P < 0.05 and ­ I 2 > 50%, the random-effects model would be used for meta-analysis; otherwise, the fixed-effects model would be adopted.",
+          "reason": "The manuscript describes the criteria for choosing between fixed-effects and random-effects models."
+        },
+        {
+          "element_id": "prisma_2020_13d_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Odds ratios (ORs) or standardized mean differences (SMDs) were calculated with 95% confidence intervals",
+          "reason": "The statistical methods (ORs and SMDs) used for the meta-analysis are reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "The heterogeneity of all studies was tested by means of Q test and ­ I 2 statistic.",
+          "reason": "The methods used to identify and quantify statistical heterogeneity (Q test and I^2 statistic) are reported."
+        },
+        {
+          "element_id": "prisma_2020_13d_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report the specific between-study variance estimator used for the random-effects meta-analysis."
+        },
+        {
+          "element_id": "prisma_2020_13d_e7",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not specify the method used to calculate confidence intervals for the summary effect (e.g., Wald, Hartung-Knapp)."
+        },
+        {
+          "element_id": "prisma_2020_13d_e8",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No other implementation details for the random-effects model are provided."
+        },
+        {
+          "element_id": "prisma_2020_13d_e9",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The study did not perform a Bayesian meta-analysis."
+        },
+        {
+          "element_id": "prisma_2020_13d_e10",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not describe methods used to account for statistical dependency among multiple estimates from the same study."
+        },
+        {
+          "element_id": "prisma_2020_13d_e11",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no indication that any planned syntheses were judged impossible or inappropriate."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13d_e6",
+        "prisma_2020_13d_e7",
+        "prisma_2020_13d_e8",
+        "prisma_2020_13d_e10"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13e",
+    "item_label": "13e",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13e\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13e_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"The heterogeneity of all studies was tested by means of Q test and ­ I 2 statistic. When P < 0.05 and ­ I 2 > 50%, the random-effects model would be used for meta-analysis; otherwise, the fixed-effects model would be adopted.\",\n      \"reason\": \"The authors specify the methods used to assess heterogeneity (Q test and I^2 statistic) and the decision rule for choosing between random-effects and fixed-effects models based on these statistics.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report performing subgroup analysis or meta-regression to explore heterogeneity; therefore, reporting factors, levels, and expected directions is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report using study-level variables or within-study contrasts for heterogeneity exploration.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report performing subgroup analyses, so methods to compare subgroup effects are not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"Since there was significant heterogeneity in the included studies, we conducted sensitivity analyses. The pooled effect size was re-analyzed after removing the included studies one by one\",\n      \"reason\": \"The authors describe using sensitivity analysis (removing studies one by one) as an informal method to explore the impact of heterogeneity on the results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13e_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not identify any analyses of heterogeneity as post-hoc or non-pre-specified.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13e",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13e_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "The heterogeneity of all studies was tested by means of Q test and ­ I 2 statistic. When P < 0.05 and ­ I 2 > 50%, the random-effects model would be used for meta-analysis; otherwise, the fixed-effects model would be adopted.",
+          "reason": "The authors specify the methods used to assess heterogeneity (Q test and I^2 statistic) and the decision rule for choosing between random-effects and fixed-effects models based on these statistics."
+        },
+        {
+          "element_id": "prisma_2020_13e_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report performing subgroup analysis or meta-regression to explore heterogeneity; therefore, reporting factors, levels, and expected directions is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_13e_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report using study-level variables or within-study contrasts for heterogeneity exploration."
+        },
+        {
+          "element_id": "prisma_2020_13e_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report performing subgroup analyses, so methods to compare subgroup effects are not applicable."
+        },
+        {
+          "element_id": "prisma_2020_13e_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "Since there was significant heterogeneity in the included studies, we conducted sensitivity analyses. The pooled effect size was re-analyzed after removing the included studies one by one",
+          "reason": "The authors describe using sensitivity analysis (removing studies one by one) as an informal method to explore the impact of heterogeneity on the results."
+        },
+        {
+          "element_id": "prisma_2020_13e_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not identify any analyses of heterogeneity as post-hoc or non-pre-specified."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_13f",
+    "item_label": "13f",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_13f\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_13f_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"The pooled effect size was re-analyzed after removing the included studies one by one, but the new combined results did not change much from the previous ones, suggesting low sensitivity and stability and credibility of the meta-analysis results\",\n      \"reason\": \"The authors describe the method used for sensitivity analysis (removing studies one by one) and report the results of these analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_13f_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not state whether the sensitivity analyses were pre-specified or not, failing to identify those that were not pre-specified.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_13f",
+      "elements": [
+        {
+          "element_id": "prisma_2020_13f_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "The pooled effect size was re-analyzed after removing the included studies one by one, but the new combined results did not change much from the previous ones, suggesting low sensitivity and stability and credibility of the meta-analysis results",
+          "reason": "The authors describe the method used for sensitivity analysis (removing studies one by one) and report the results of these analyses."
+        },
+        {
+          "element_id": "prisma_2020_13f_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not state whether the sensitivity analyses were pre-specified or not, failing to identify those that were not pre-specified."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_13f_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_14",
+    "item_label": "14",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_14\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_14_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Funnel plots were used to detect publication bias\",\n      \"reason\": \"The manuscript specifies the use of funnel plots to detect publication bias, which is a method for assessing risk of bias due to missing results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The authors used funnel plots, which is a visual tool rather than a structured assessment tool with domains and overall judgment processes.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No existing reporting-bias tool was adapted; funnel plots were used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No newly developed reporting-bias tool was used.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e5\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report the number of reviewers, their independence, or disagreement-resolution procedures specifically for the assessment of reporting bias (publication bias).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that the authors attempted to obtain or confirm information from study investigators regarding missing results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_14_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No automation tools were described for the assessment of reporting bias.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_14",
+      "elements": [
+        {
+          "element_id": "prisma_2020_14_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Funnel plots were used to detect publication bias",
+          "reason": "The manuscript specifies the use of funnel plots to detect publication bias, which is a method for assessing risk of bias due to missing results."
+        },
+        {
+          "element_id": "prisma_2020_14_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The authors used funnel plots, which is a visual tool rather than a structured assessment tool with domains and overall judgment processes."
+        },
+        {
+          "element_id": "prisma_2020_14_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No existing reporting-bias tool was adapted; funnel plots were used."
+        },
+        {
+          "element_id": "prisma_2020_14_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No newly developed reporting-bias tool was used."
+        },
+        {
+          "element_id": "prisma_2020_14_e5",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report the number of reviewers, their independence, or disagreement-resolution procedures specifically for the assessment of reporting bias (publication bias)."
+        },
+        {
+          "element_id": "prisma_2020_14_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that the authors attempted to obtain or confirm information from study investigators regarding missing results."
+        },
+        {
+          "element_id": "prisma_2020_14_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No automation tools were described for the assessment of reporting bias."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_14_e5"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_15",
+    "item_label": "15",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_15\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_15_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not describe any methods used to assess the certainty or confidence in the body of evidence (e.g., GRADE).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No factors or criteria for assessing certainty are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No decision rules for deriving certainty levels are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No certainty assessment was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No certainty assessment was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e6\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No certainty assessment was performed, so no reviewer procedures for this task are reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No certainty assessment was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No certainty assessment was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e9\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No methods for reporting certainty assessment results (e.g., Summary of Findings tables) are described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_15_e10\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No certainty assessment was performed.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_15",
+      "elements": [
+        {
+          "element_id": "prisma_2020_15_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not describe any methods used to assess the certainty or confidence in the body of evidence (e.g., GRADE)."
+        },
+        {
+          "element_id": "prisma_2020_15_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No factors or criteria for assessing certainty are reported."
+        },
+        {
+          "element_id": "prisma_2020_15_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No decision rules for deriving certainty levels are described."
+        },
+        {
+          "element_id": "prisma_2020_15_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No certainty assessment was performed."
+        },
+        {
+          "element_id": "prisma_2020_15_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No certainty assessment was performed."
+        },
+        {
+          "element_id": "prisma_2020_15_e6",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No certainty assessment was performed, so no reviewer procedures for this task are reported."
+        },
+        {
+          "element_id": "prisma_2020_15_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No certainty assessment was performed."
+        },
+        {
+          "element_id": "prisma_2020_15_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No certainty assessment was performed."
+        },
+        {
+          "element_id": "prisma_2020_15_e9",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No methods for reporting certainty assessment results (e.g., Summary of Findings tables) are described."
+        },
+        {
+          "element_id": "prisma_2020_15_e10",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No certainty assessment was performed."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_15_e1",
+        "prisma_2020_15_e2",
+        "prisma_2020_15_e3",
+        "prisma_2020_15_e6",
+        "prisma_2020_15_e9"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16a",
+    "item_label": "16a",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Records identified from: Databases (n=777 ) ... Records removed before screening: Duplicate records removed (n = 141) Records marked as ineligible by automation tools (n=197) Records excluded through title/abstract examination (n =254) ... Records screened (n =185) ... Records excluded (n=76)\",\n      \"reason\": \"The flow diagram (Fig. 1) explicitly provides the number of records identified (777), removed before screening (141 duplicates, 197 automation, 254 title/abstract), and the number screened (185) and excluded (76).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Reports sought for retrieval (n=109) ... Reports not retrieved (n=57) ... Reports assessed for eligibility (n=52) ... Reports excluded : Insufficient data (n=25) Not acute appendicitis patients (n=11)\",\n      \"reason\": \"The flow diagram (Fig. 1) provides the number of reports sought (109), not retrieved (57), assessed for eligibility (52), and excluded with reasons (25 insufficient data, 11 not acute appendicitis patients).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Studies included in review (n=16)\",\n      \"reason\": \"The flow diagram (Fig. 1) explicitly states the number of studies included in the review is 16.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no mention of ongoing studies in the provided text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"This is not a review update; it is an original meta-analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_16a_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_7\",\n      \"quote\": \"Records marked as ineligible by automation tools (n=197)\",\n      \"reason\": \"The flow diagram (Fig. 1) explicitly distinguishes records marked as ineligible by automation tools from other exclusion reasons.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Records identified from: Databases (n=777 ) ... Records removed before screening: Duplicate records removed (n = 141) Records marked as ineligible by automation tools (n=197) Records excluded through title/abstract examination (n =254) ... Records screened (n =185) ... Records excluded (n=76)",
+          "reason": "The flow diagram (Fig. 1) explicitly provides the number of records identified (777), removed before screening (141 duplicates, 197 automation, 254 title/abstract), and the number screened (185) and excluded (76)."
+        },
+        {
+          "element_id": "prisma_2020_16a_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Reports sought for retrieval (n=109) ... Reports not retrieved (n=57) ... Reports assessed for eligibility (n=52) ... Reports excluded : Insufficient data (n=25) Not acute appendicitis patients (n=11)",
+          "reason": "The flow diagram (Fig. 1) provides the number of reports sought (109), not retrieved (57), assessed for eligibility (52), and excluded with reasons (25 insufficient data, 11 not acute appendicitis patients)."
+        },
+        {
+          "element_id": "prisma_2020_16a_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Studies included in review (n=16)",
+          "reason": "The flow diagram (Fig. 1) explicitly states the number of studies included in the review is 16."
+        },
+        {
+          "element_id": "prisma_2020_16a_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no mention of ongoing studies in the provided text."
+        },
+        {
+          "element_id": "prisma_2020_16a_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "This is not a review update; it is an original meta-analysis."
+        },
+        {
+          "element_id": "prisma_2020_16a_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_7",
+          "quote": "Records marked as ineligible by automation tools (n=197)",
+          "reason": "The flow diagram (Fig. 1) explicitly distinguishes records marked as ineligible by automation tools from other exclusion reasons."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_16b",
+    "item_label": "16b",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_16b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_16b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While the manuscript provides a summary of the number of excluded studies and general categories for exclusion (e.g., 'unqualified data', 'insufficient in data', 'unsuitable study subjects') in text_9 and Figure 1, it does not cite the specific studies that were excluded. The requirement is to cite the studies that might appear to meet inclusion criteria but were excluded.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_16b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_16b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While the manuscript provides a summary of the number of excluded studies and general categories for exclusion (e.g., 'unqualified data', 'insufficient in data', 'unsuitable study subjects') in text_9 and Figure 1, it does not cite the specific studies that were excluded. The requirement is to cite the studies that might appear to meet inclusion criteria but were excluded."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_16b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_17",
+    "item_label": "17",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_17\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_17_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While the manuscript mentions 16 studies were included and provides a table of characteristics, it does not provide a reference list or citations for these 16 studies. The text mentions '[8-23]' in the context of excluded studies, but the included studies are not explicitly cited or listed in a bibliography.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"table_0\",\n      \"quote\": \"Table1 The basic characteristics of included literature\",\n      \"reason\": \"Table 1 presents key characteristics (Year, Sample time, Cases, Age, Sex, Study design, Outcome measures) for the 16 included studies, allowing for comparison.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_17_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The review compares two surgical interventions (Laparoscopic Appendectomy vs. Open Appendectomy). The intervention details (the procedures themselves) are standard surgical procedures and are adequately described by the study design and outcome measures in Table 1. A separate table for intervention details is not required as the interventions are consistent across studies.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_17",
+      "elements": [
+        {
+          "element_id": "prisma_2020_17_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While the manuscript mentions 16 studies were included and provides a table of characteristics, it does not provide a reference list or citations for these 16 studies. The text mentions '[8-23]' in the context of excluded studies, but the included studies are not explicitly cited or listed in a bibliography."
+        },
+        {
+          "element_id": "prisma_2020_17_e2",
+          "status": "PRESENT",
+          "chunk_id": "table_0",
+          "quote": "Table1 The basic characteristics of included literature",
+          "reason": "Table 1 presents key characteristics (Year, Sample time, Cases, Age, Sex, Study design, Outcome measures) for the 16 included studies, allowing for comparison."
+        },
+        {
+          "element_id": "prisma_2020_17_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The review compares two surgical interventions (Laparoscopic Appendectomy vs. Open Appendectomy). The intervention details (the procedures themselves) are standard surgical procedures and are adequately described by the study design and outcome measures in Table 1. A separate table for intervention details is not required as the interventions are consistent across studies."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_17_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_18",
+    "item_label": "18",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_18\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_18_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not contain any assessment of risk of bias for the included studies. There are no tables or figures presenting risk-of-bias judgements.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No justifications for risk-of-bias judgements are provided in the text.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_18_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No outcome-specific risk-of-bias judgements are displayed.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_18",
+      "elements": [
+        {
+          "element_id": "prisma_2020_18_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not contain any assessment of risk of bias for the included studies. There are no tables or figures presenting risk-of-bias judgements."
+        },
+        {
+          "element_id": "prisma_2020_18_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No justifications for risk-of-bias judgements are provided in the text."
+        },
+        {
+          "element_id": "prisma_2020_18_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No outcome-specific risk-of-bias judgements are displayed."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_18_e1",
+        "prisma_2020_18_e2",
+        "prisma_2020_18_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_19",
+    "item_label": "19",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_19\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_19_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While the manuscript provides forest plots (Figures 2 and 3) that show effect estimates and confidence intervals for each study, it does not provide the raw group-level summary statistics (e.g., means, standard deviations, or event counts/sample sizes per group) for each study and outcome. Table 1 provides basic characteristics (sample sizes, age, sex) but not the outcome-specific summary statistics required.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Odds ratios (ORs) or standardized mean differences (SMDs) were calculated with 95% confidence intervals... Fig. 2 Meta-analysis of the incidence of adverse reactions after appendectomy. A Forest plot comparing the incidence of postoperative adverse reactions between LA and OA in patients with acute appendicitis\",\n      \"reason\": \"The manuscript presents forest plots (Fig 2A, Fig 3A-D) which display the effect estimate (OR or SMD) and precision (95% CI) for each individual study included in the meta-analysis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"The characteristics of each included study are summarized in Table 1.\",\n      \"reason\": \"The manuscript provides tabular displays (Table 1) for study characteristics and forest plots for the meta-analysis results. While the forest plots serve as the primary display for the effect estimates, the requirement is satisfied by the inclusion of these structured visual displays.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence that multiple data sources (e.g., trial registries and published reports) were used for the same study; data were extracted from the selected articles.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_19_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not indicate that any results were computed or estimated from other data (e.g., calculating means from medians); it appears to rely on reported data.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_19",
+      "elements": [
+        {
+          "element_id": "prisma_2020_19_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While the manuscript provides forest plots (Figures 2 and 3) that show effect estimates and confidence intervals for each study, it does not provide the raw group-level summary statistics (e.g., means, standard deviations, or event counts/sample sizes per group) for each study and outcome. Table 1 provides basic characteristics (sample sizes, age, sex) but not the outcome-specific summary statistics required."
+        },
+        {
+          "element_id": "prisma_2020_19_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Odds ratios (ORs) or standardized mean differences (SMDs) were calculated with 95% confidence intervals... Fig. 2 Meta-analysis of the incidence of adverse reactions after appendectomy. A Forest plot comparing the incidence of postoperative adverse reactions between LA and OA in patients with acute appendicitis",
+          "reason": "The manuscript presents forest plots (Fig 2A, Fig 3A-D) which display the effect estimate (OR or SMD) and precision (95% CI) for each individual study included in the meta-analysis."
+        },
+        {
+          "element_id": "prisma_2020_19_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "The characteristics of each included study are summarized in Table 1.",
+          "reason": "The manuscript provides tabular displays (Table 1) for study characteristics and forest plots for the meta-analysis results. While the forest plots serve as the primary display for the effect estimates, the requirement is satisfied by the inclusion of these structured visual displays."
+        },
+        {
+          "element_id": "prisma_2020_19_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence that multiple data sources (e.g., trial registries and published reports) were used for the same study; data were extracted from the selected articles."
+        },
+        {
+          "element_id": "prisma_2020_19_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not indicate that any results were computed or estimated from other data (e.g., calculating means from medians); it appears to rely on reported data."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_19_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20a",
+    "item_label": "20a",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20a_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not provide a summary of the risk of bias for the contributing studies. While some characteristics are mentioned (e.g., sample sizes, age range, study types), there is no assessment or summary of the risk of bias for the studies included in the syntheses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20a_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"All 16 studies were both RCTs and retrospective studies with 10 Chinese articles and 6 English articles. In total, 2149 patients were included, with 1251 patients receiving LA and 898 patients receiving OA. In the included articles, subjects varied in age from 9 to 50 years old and sample sizes ranged from 37 to 531. The characteristics of each included study are summarized in Table 1.\",\n      \"reason\": \"The manuscript identifies the contributing studies collectively (16 studies, RCTs and retrospective, specific patient counts and demographics) and references a Table 1 for individual study characteristics, which satisfies the requirement to identify the studies contributing to the syntheses.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20a_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not provide a summary of the risk of bias for the contributing studies. While some characteristics are mentioned (e.g., sample sizes, age range, study types), there is no assessment or summary of the risk of bias for the studies included in the syntheses."
+        },
+        {
+          "element_id": "prisma_2020_20a_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "All 16 studies were both RCTs and retrospective studies with 10 Chinese articles and 6 English articles. In total, 2149 patients were included, with 1251 patients receiving LA and 898 patients receiving OA. In the included articles, subjects varied in age from 9 to 50 years old and sample sizes ranged from 37 to 531. The characteristics of each included study are summarized in Table 1.",
+          "reason": "The manuscript identifies the contributing studies collectively (16 studies, RCTs and retrospective, specific patient counts and demographics) and references a Table 1 for individual study characteristics, which satisfies the requirement to identify the studies contributing to the syntheses."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_20a_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20b",
+    "item_label": "20b",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20b_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"Meta-analysis results showed that patients in the LA group presented significantly reduced postoperative WBC levels [SMD = - 0.432, 95% CI ( - 0.775, - 0.089), P = 0.013, Fig. 6A], NEUT levels [SMD = - 1.346, 95% CI ( - 2.560, - 0.133), P = 0.030, Fig. 6B] and CPR levels [SMD = - 2.391, 95% CI ( - 3.901, - 0.882), P = 0.002, Fig. 6C] compared with the OA group.\",\n      \"reason\": \"The manuscript reports the results of meta-analyses for all outcomes, including laboratory parameters and clinical efficacy indicators.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"Meta-analysis results showed that patients in the LA group presented significantly reduced postoperative WBC levels [SMD = - 0.432, 95% CI ( - 0.775, - 0.089), P = 0.013, Fig. 6A]\",\n      \"reason\": \"The manuscript reports summary estimates (SMD/OR) and their precision (95% CI) for all meta-analyses conducted.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"The random-effects model was used due to the significant heterogeneity observed in these studies ­ (I 2 > 50%, P < 0.001).\",\n      \"reason\": \"The manuscript reports measures of statistical heterogeneity (I^2 and P-values) for the meta-analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No other statistical synthesis methods were used; only meta-analysis was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"All syntheses performed included effect estimates.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e6\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"By analyzing the above indicators, it was found that LA performed better than OA.\",\n      \"reason\": \"The manuscript explicitly describes the direction of the effect (e.g., LA performed better than OA, reduced levels, shorter time).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e7\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_12\",\n      \"quote\": \"By analyzing the above indicators, it was found that LA performed better than OA.\",\n      \"reason\": \"The manuscript reports the direction of benefit for the mean-difference (SMD) syntheses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20b_e8\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The study did not use re-expressed standardized mean differences.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20b_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "Meta-analysis results showed that patients in the LA group presented significantly reduced postoperative WBC levels [SMD = - 0.432, 95% CI ( - 0.775, - 0.089), P = 0.013, Fig. 6A], NEUT levels [SMD = - 1.346, 95% CI ( - 2.560, - 0.133), P = 0.030, Fig. 6B] and CPR levels [SMD = - 2.391, 95% CI ( - 3.901, - 0.882), P = 0.002, Fig. 6C] compared with the OA group.",
+          "reason": "The manuscript reports the results of meta-analyses for all outcomes, including laboratory parameters and clinical efficacy indicators."
+        },
+        {
+          "element_id": "prisma_2020_20b_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "Meta-analysis results showed that patients in the LA group presented significantly reduced postoperative WBC levels [SMD = - 0.432, 95% CI ( - 0.775, - 0.089), P = 0.013, Fig. 6A]",
+          "reason": "The manuscript reports summary estimates (SMD/OR) and their precision (95% CI) for all meta-analyses conducted."
+        },
+        {
+          "element_id": "prisma_2020_20b_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "The random-effects model was used due to the significant heterogeneity observed in these studies ­ (I 2 > 50%, P < 0.001).",
+          "reason": "The manuscript reports measures of statistical heterogeneity (I^2 and P-values) for the meta-analyses."
+        },
+        {
+          "element_id": "prisma_2020_20b_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No other statistical synthesis methods were used; only meta-analysis was performed."
+        },
+        {
+          "element_id": "prisma_2020_20b_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "All syntheses performed included effect estimates."
+        },
+        {
+          "element_id": "prisma_2020_20b_e6",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "By analyzing the above indicators, it was found that LA performed better than OA.",
+          "reason": "The manuscript explicitly describes the direction of the effect (e.g., LA performed better than OA, reduced levels, shorter time)."
+        },
+        {
+          "element_id": "prisma_2020_20b_e7",
+          "status": "PRESENT",
+          "chunk_id": "text_12",
+          "quote": "By analyzing the above indicators, it was found that LA performed better than OA.",
+          "reason": "The manuscript reports the direction of benefit for the mean-difference (SMD) syntheses."
+        },
+        {
+          "element_id": "prisma_2020_20b_e8",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The study did not use re-expressed standardized mean differences."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20c",
+    "item_label": "20c",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20c_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"Since there was significant heterogeneity in the included studies, we conducted sensitivity analyses. The pooled effect size was re-analyzed after removing the included studies one by one, but the new combined results did not change much from the previous ones, suggesting low sensitivity and stability and credibility of the meta-analysis results (Fig. 7A-C).\",\n      \"reason\": \"The authors report the results of sensitivity analyses conducted to investigate heterogeneity.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report subgroup analyses, so this element is not applicable.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While sensitivity analyses were performed, there is no explicit interpretation regarding the observational nature of heterogeneity analyses or potential confounding.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e4\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No subgroup analyses were performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e5\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No subgroup analyses were performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No meta-regression was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No meta-regression was performed.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20c_e8\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_13\",\n      \"quote\": \"Since there was significant heterogeneity in the included studies, we conducted sensitivity analyses. The pooled effect size was re-analyzed after removing the included studies one by one, but the new combined results did not change much from the previous ones, suggesting low sensitivity and stability and credibility of the meta-analysis results (Fig. 7A-C).\",\n      \"reason\": \"The authors describe the results of sensitivity analyses (an informal investigation of heterogeneity) for the outcomes where heterogeneity was significant.\"\n    }\n  ],\n  \"confidence\": 90\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20c_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "Since there was significant heterogeneity in the included studies, we conducted sensitivity analyses. The pooled effect size was re-analyzed after removing the included studies one by one, but the new combined results did not change much from the previous ones, suggesting low sensitivity and stability and credibility of the meta-analysis results (Fig. 7A-C).",
+          "reason": "The authors report the results of sensitivity analyses conducted to investigate heterogeneity."
+        },
+        {
+          "element_id": "prisma_2020_20c_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report subgroup analyses, so this element is not applicable."
+        },
+        {
+          "element_id": "prisma_2020_20c_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While sensitivity analyses were performed, there is no explicit interpretation regarding the observational nature of heterogeneity analyses or potential confounding."
+        },
+        {
+          "element_id": "prisma_2020_20c_e4",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No subgroup analyses were performed."
+        },
+        {
+          "element_id": "prisma_2020_20c_e5",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No subgroup analyses were performed."
+        },
+        {
+          "element_id": "prisma_2020_20c_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No meta-regression was performed."
+        },
+        {
+          "element_id": "prisma_2020_20c_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No meta-regression was performed."
+        },
+        {
+          "element_id": "prisma_2020_20c_e8",
+          "status": "PRESENT",
+          "chunk_id": "text_13",
+          "quote": "Since there was significant heterogeneity in the included studies, we conducted sensitivity analyses. The pooled effect size was re-analyzed after removing the included studies one by one, but the new combined results did not change much from the previous ones, suggesting low sensitivity and stability and credibility of the meta-analysis results (Fig. 7A-C).",
+          "reason": "The authors describe the results of sensitivity analyses (an informal investigation of heterogeneity) for the outcomes where heterogeneity was significant."
+        }
+      ],
+      "confidence": 90,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_20c_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_20d",
+    "item_label": "20d",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_20d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_20d_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"Besides, the sensitivity analysis displayed little change in the combined result after removing the included studies one by one, indicating comparatively strong stability of the result of metaanalysis (Fig. 2C).\",\n      \"reason\": \"The manuscript reports the results of sensitivity analyses for the incidence of adverse reactions (text_11) and for postoperative laboratory parameters (text_13).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"Besides, the sensitivity analysis displayed little change in the combined result after removing the included studies one by one, indicating comparatively strong stability of the result of metaanalysis (Fig. 2C).\",\n      \"reason\": \"The manuscript discusses the robustness of the main analysis in light of the sensitivity analyses, noting that the results showed 'comparatively strong stability' (text_11) and 'low sensitivity and stability and credibility' (text_13).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not provide a table comparing the original results with the sensitivity-analysis results, assumptions, and contributing studies.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_20d_e4\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_10\",\n      \"quote\": \"Fig. 2 Meta-analysis of the incidence of adverse reactions after appendectomy. ... C Sensitivity analysis of the incidence of adverse reactions.\",\n      \"reason\": \"Sensitivity analysis results are displayed in plots (specifically 'leave-one-out' plots) in Figure 2C (text_10) and Figure 5A-C (referenced in text_13, though the figure label in text_13 is Fig 7A-C, the visual evidence for sensitivity analysis is provided).\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_20d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_20d_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "Besides, the sensitivity analysis displayed little change in the combined result after removing the included studies one by one, indicating comparatively strong stability of the result of metaanalysis (Fig. 2C).",
+          "reason": "The manuscript reports the results of sensitivity analyses for the incidence of adverse reactions (text_11) and for postoperative laboratory parameters (text_13)."
+        },
+        {
+          "element_id": "prisma_2020_20d_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "Besides, the sensitivity analysis displayed little change in the combined result after removing the included studies one by one, indicating comparatively strong stability of the result of metaanalysis (Fig. 2C).",
+          "reason": "The manuscript discusses the robustness of the main analysis in light of the sensitivity analyses, noting that the results showed 'comparatively strong stability' (text_11) and 'low sensitivity and stability and credibility' (text_13)."
+        },
+        {
+          "element_id": "prisma_2020_20d_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not provide a table comparing the original results with the sensitivity-analysis results, assumptions, and contributing studies."
+        },
+        {
+          "element_id": "prisma_2020_20d_e4",
+          "status": "PRESENT",
+          "chunk_id": "text_10",
+          "quote": "Fig. 2 Meta-analysis of the incidence of adverse reactions after appendectomy. ... C Sensitivity analysis of the incidence of adverse reactions.",
+          "reason": "Sensitivity analysis results are displayed in plots (specifically 'leave-one-out' plots) in Figure 2C (text_10) and Figure 5A-C (referenced in text_13, though the figure label in text_13 is Fig 7A-C, the visual evidence for sensitivity analysis is provided)."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_20d_e3"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_21",
+    "item_label": "21",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_21\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_21_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"No significant bias in the incidence of adverse reactions was identified in the funnel plot for publication bias detection (Fig. 2B).\",\n      \"reason\": \"The authors assessed publication bias (a form of reporting bias due to missing results) for the synthesis of adverse reactions using a funnel plot.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The authors did not use a formal risk-of-bias tool (e.g., ROB 2, ROBINS-I) to assess missing results; they relied on funnel plots and sensitivity analyses.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"No significant bias in the incidence of adverse reactions was identified in the funnel plot for publication bias detection (Fig. 2B).\",\n      \"reason\": \"Funnel plots are reported for the synthesis of adverse reactions (Fig 2B) and for other outcomes (Fig 4A-D in text_12).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"While funnel plots are presented, the manuscript does not report the exact P-values or relevant statistics (e.g., Egger's test or Begg's test results) for funnel-plot asymmetry tests.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e5\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_11\",\n      \"quote\": \"Besides, the sensitivity analysis displayed little change in the combined result after removing the included studies one by one, indicating comparatively strong stability of the result of metaanalysis (Fig. 2C).\",\n      \"reason\": \"Sensitivity analyses were performed and reported for the syntheses to examine the stability of results, which is a method to assess the impact of missing results/outliers.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e6\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"A study-by-synthesis matrix for selective non-reporting was not provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_21_e7\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Studies with missing results were not explicitly displayed beneath forest plots or in a dedicated table.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_21",
+      "elements": [
+        {
+          "element_id": "prisma_2020_21_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "No significant bias in the incidence of adverse reactions was identified in the funnel plot for publication bias detection (Fig. 2B).",
+          "reason": "The authors assessed publication bias (a form of reporting bias due to missing results) for the synthesis of adverse reactions using a funnel plot."
+        },
+        {
+          "element_id": "prisma_2020_21_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The authors did not use a formal risk-of-bias tool (e.g., ROB 2, ROBINS-I) to assess missing results; they relied on funnel plots and sensitivity analyses."
+        },
+        {
+          "element_id": "prisma_2020_21_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "No significant bias in the incidence of adverse reactions was identified in the funnel plot for publication bias detection (Fig. 2B).",
+          "reason": "Funnel plots are reported for the synthesis of adverse reactions (Fig 2B) and for other outcomes (Fig 4A-D in text_12)."
+        },
+        {
+          "element_id": "prisma_2020_21_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "While funnel plots are presented, the manuscript does not report the exact P-values or relevant statistics (e.g., Egger's test or Begg's test results) for funnel-plot asymmetry tests."
+        },
+        {
+          "element_id": "prisma_2020_21_e5",
+          "status": "PRESENT",
+          "chunk_id": "text_11",
+          "quote": "Besides, the sensitivity analysis displayed little change in the combined result after removing the included studies one by one, indicating comparatively strong stability of the result of metaanalysis (Fig. 2C).",
+          "reason": "Sensitivity analyses were performed and reported for the syntheses to examine the stability of results, which is a method to assess the impact of missing results/outliers."
+        },
+        {
+          "element_id": "prisma_2020_21_e6",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "A study-by-synthesis matrix for selective non-reporting was not provided."
+        },
+        {
+          "element_id": "prisma_2020_21_e7",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Studies with missing results were not explicitly displayed beneath forest plots or in a dedicated table."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_21_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 4,
+    "images_sent": 4,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_22",
+    "item_label": "22",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_22\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_22_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report assessments of the certainty or confidence in the body of evidence (e.g., GRADE assessments) for any of the outcomes.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No assessments of certainty were performed, therefore no reasons for rating certainty up or down are provided.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e3\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Certainty assessments are not reported alongside the results.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_22_e4\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"No evidence summary tables (e.g., GRADE Summary of Findings tables) are included in the manuscript.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_22",
+      "elements": [
+        {
+          "element_id": "prisma_2020_22_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report assessments of the certainty or confidence in the body of evidence (e.g., GRADE assessments) for any of the outcomes."
+        },
+        {
+          "element_id": "prisma_2020_22_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No assessments of certainty were performed, therefore no reasons for rating certainty up or down are provided."
+        },
+        {
+          "element_id": "prisma_2020_22_e3",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Certainty assessments are not reported alongside the results."
+        },
+        {
+          "element_id": "prisma_2020_22_e4",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "No evidence summary tables (e.g., GRADE Summary of Findings tables) are included in the manuscript."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_22_e1",
+        "prisma_2020_22_e2",
+        "prisma_2020_22_e3",
+        "prisma_2020_22_e4"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23a",
+    "item_label": "23a",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23a_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_14\",\n      \"quote\": \"Operative time was decreased instead of prolonged in the LA group in the above two studies; this trend is different from many RCTs or meta-analyses [28] but similar to the results of our study.\",\n      \"reason\": \"The authors interpret their findings regarding operative time by comparing them to other existing evidence (RCTs and meta-analyses), noting both similarities and differences.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23a_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_14",
+          "quote": "Operative time was decreased instead of prolonged in the LA group in the above two studies; this trend is different from many RCTs or meta-analyses [28] but similar to the results of our study.",
+          "reason": "The authors interpret their findings regarding operative time by comparing them to other existing evidence (RCTs and meta-analyses), noting both similarities and differences."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 5,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23b",
+    "item_label": "23b",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text chunks contain sections on literature retrieval, data extraction, statistical analysis, and results, but there is no section dedicated to the discussion of limitations of the included evidence (e.g., risk of bias, inconsistency, imprecision, or indirectness of the included studies).\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text chunks contain sections on literature retrieval, data extraction, statistical analysis, and results, but there is no section dedicated to the discussion of limitations of the included evidence (e.g., risk of bias, inconsistency, imprecision, or indirectness of the included studies)."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_23b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 3,
+    "images_sent": 3,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23c",
+    "item_label": "23c",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23c_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not contain a discussion of the limitations of the review processes used (e.g., limitations in search strategy, data extraction, or synthesis methods).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23c_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"Since no limitations of the review process were discussed, the potential impact of such limitations is also not discussed.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23c_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not contain a discussion of the limitations of the review processes used (e.g., limitations in search strategy, data extraction, or synthesis methods)."
+        },
+        {
+          "element_id": "prisma_2020_23c_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "Since no limitations of the review process were discussed, the potential impact of such limitations is also not discussed."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_23c_e1",
+        "prisma_2020_23c_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 2,
+    "images_sent": 2,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_23d",
+    "item_label": "23d",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_23d\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_23d_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_15\",\n      \"quote\": \"LA has the advantages of less adverse reactions, shorter operation time and hospital stay, fewer complications, and lower inflammatory response. Hence, it is safe and feasible surgery for AA.\",\n      \"reason\": \"The authors discuss the clinical implications of their findings, concluding that laparoscopic appendectomy is a safe and feasible practice for acute appendicitis.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23d_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_14\",\n      \"quote\": \"Surgical cost of LA is higher than OA, but due to its shorter hospital stay, the amount eventually spent by both approaches is almost equivalent [26, 27].\",\n      \"reason\": \"The authors discuss the economic implications of the surgical approaches, which is relevant to healthcare policy and resource allocation.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_23d_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_14\",\n      \"quote\": \"This study still has some limitation, and more comparable results are required in the future, such as postoperative pain, time to return to normal activities and readmission.\",\n      \"reason\": \"The authors explicitly identify limitations and provide specific recommendations for future research topics.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_23d",
+      "elements": [
+        {
+          "element_id": "prisma_2020_23d_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_15",
+          "quote": "LA has the advantages of less adverse reactions, shorter operation time and hospital stay, fewer complications, and lower inflammatory response. Hence, it is safe and feasible surgery for AA.",
+          "reason": "The authors discuss the clinical implications of their findings, concluding that laparoscopic appendectomy is a safe and feasible practice for acute appendicitis."
+        },
+        {
+          "element_id": "prisma_2020_23d_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_14",
+          "quote": "Surgical cost of LA is higher than OA, but due to its shorter hospital stay, the amount eventually spent by both approaches is almost equivalent [26, 27].",
+          "reason": "The authors discuss the economic implications of the surgical approaches, which is relevant to healthcare policy and resource allocation."
+        },
+        {
+          "element_id": "prisma_2020_23d_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_14",
+          "quote": "This study still has some limitation, and more comparable results are required in the future, such as postoperative pain, time to return to normal activities and readmission.",
+          "reason": "The authors explicitly identify limitations and provide specific recommendations for future research topics."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 5,
+    "images_sent": 5,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24a",
+    "item_label": "24a",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24a\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24a_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not contain any information regarding the registration of the review, nor does it explicitly state that the review was not registered.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24a",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24a_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not contain any information regarding the registration of the review, nor does it explicitly state that the review was not registered."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_24a_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24b",
+    "item_label": "24b",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24b\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24b_e1\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The provided text does not contain any information regarding the existence, registration, or accessibility of a review protocol, nor does it state that no protocol was prepared.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24b",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24b_e1",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The provided text does not contain any information regarding the existence, registration, or accessibility of a review protocol, nor does it state that no protocol was prepared."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_REPORTED",
+      "missing_elements": [
+        "prisma_2020_24b_e1"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_24c",
+    "item_label": "24c",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_24c\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_24c_e1\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence in the provided text that the review was registered or had a protocol, therefore amendments to such cannot be described.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence in the provided text that the review was registered or had a protocol, therefore reasons for amendments cannot be reported.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_24c_e3\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"There is no evidence in the provided text that the review was registered or had a protocol, therefore the stage of implementation for amendments cannot be reported.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_24c",
+      "elements": [
+        {
+          "element_id": "prisma_2020_24c_e1",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence in the provided text that the review was registered or had a protocol, therefore amendments to such cannot be described."
+        },
+        {
+          "element_id": "prisma_2020_24c_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence in the provided text that the review was registered or had a protocol, therefore reasons for amendments cannot be reported."
+        },
+        {
+          "element_id": "prisma_2020_24c_e3",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "There is no evidence in the provided text that the review was registered or had a protocol, therefore the stage of implementation for amendments cannot be reported."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "NOT_APPLICABLE",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_25",
+    "item_label": "25",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_25\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_25_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_18\",\n      \"quote\": \"This study did not receive any funding in any form.\",\n      \"reason\": \"The manuscript explicitly states that the study did not receive any funding, which covers the requirement to describe financial support or state its absence.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_25_e2\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_18\",\n      \"quote\": \"This study did not receive any funding in any form.\",\n      \"reason\": \"By stating that the study did not receive any funding in any form, the authors implicitly declare the lack of involvement of any funders or sponsors.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_25",
+      "elements": [
+        {
+          "element_id": "prisma_2020_25_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_18",
+          "quote": "This study did not receive any funding in any form.",
+          "reason": "The manuscript explicitly states that the study did not receive any funding, which covers the requirement to describe financial support or state its absence."
+        },
+        {
+          "element_id": "prisma_2020_25_e2",
+          "status": "PRESENT",
+          "chunk_id": "text_18",
+          "quote": "This study did not receive any funding in any form.",
+          "reason": "By stating that the study did not receive any funding in any form, the authors implicitly declare the lack of involvement of any funders or sponsors."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_26",
+    "item_label": "26",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_26\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_26_e1\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_22\",\n      \"quote\": \"The authors declare that they have no competing interests.\",\n      \"reason\": \"The authors explicitly state that they have no competing interests, which fulfills the requirement to disclose relevant relationships or activities.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_26_e2\",\n      \"status\": \"NOT_APPLICABLE\",\n      \"chunk_id\": \"text_22\",\n      \"quote\": \"The authors declare that they have no competing interests.\",\n      \"reason\": \"The authors declared that they have no competing interests; therefore, reporting on the management of such interests is not applicable.\"\n    }\n  ],\n  \"confidence\": 100\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_26",
+      "elements": [
+        {
+          "element_id": "prisma_2020_26_e1",
+          "status": "PRESENT",
+          "chunk_id": "text_22",
+          "quote": "The authors declare that they have no competing interests.",
+          "reason": "The authors explicitly state that they have no competing interests, which fulfills the requirement to disclose relevant relationships or activities."
+        },
+        {
+          "element_id": "prisma_2020_26_e2",
+          "status": "NOT_APPLICABLE",
+          "chunk_id": "text_22",
+          "quote": "The authors declare that they have no competing interests.",
+          "reason": "The authors declared that they have no competing interests; therefore, reporting on the management of such interests is not applicable."
+        }
+      ],
+      "confidence": 100,
+      "overall_status": "FULLY_REPORTED",
+      "missing_elements": []
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  },
+  {
+    "item_id": "PRISMA_2020_27",
+    "item_label": "27",
+    "model": "google/gemini-3.1-flash-lite",
+    "raw": "{\n  \"item_id\": \"PRISMA_2020_27\",\n  \"elements\": [\n    {\n      \"element_id\": \"prisma_2020_27_e1\",\n      \"status\": \"PARTIAL\",\n      \"chunk_id\": \"text_19\",\n      \"quote\": \"The data used to support the findings of this study are available from the corresponding author upon request.\",\n      \"reason\": \"The manuscript mentions the availability of 'data used to support the findings' (which implies the data used for analyses), but it fails to report the availability of template data collection forms, extracted data, or analytic code.\"\n    },\n    {\n      \"element_id\": \"prisma_2020_27_e2\",\n      \"status\": \"MISSING\",\n      \"chunk_id\": null,\n      \"quote\": null,\n      \"reason\": \"The manuscript does not report the location of any publicly available materials (e.g., repository links or DOIs).\"\n    },\n    {\n      \"element_id\": \"prisma_2020_27_e3\",\n      \"status\": \"PRESENT\",\n      \"chunk_id\": \"text_19\",\n      \"quote\": \"The data used to support the findings of this study are available from the corresponding author upon request.\",\n      \"reason\": \"The manuscript states that data is available upon request from the corresponding author, which satisfies the requirement for materials available on request.\"\n    }\n  ],\n  \"confidence\": 95\n}",
+    "parsed": {
+      "item_id": "PRISMA_2020_27",
+      "elements": [
+        {
+          "element_id": "prisma_2020_27_e1",
+          "status": "PARTIAL",
+          "chunk_id": "text_19",
+          "quote": "The data used to support the findings of this study are available from the corresponding author upon request.",
+          "reason": "The manuscript mentions the availability of 'data used to support the findings' (which implies the data used for analyses), but it fails to report the availability of template data collection forms, extracted data, or analytic code."
+        },
+        {
+          "element_id": "prisma_2020_27_e2",
+          "status": "MISSING",
+          "chunk_id": null,
+          "quote": null,
+          "reason": "The manuscript does not report the location of any publicly available materials (e.g., repository links or DOIs)."
+        },
+        {
+          "element_id": "prisma_2020_27_e3",
+          "status": "PRESENT",
+          "chunk_id": "text_19",
+          "quote": "The data used to support the findings of this study are available from the corresponding author upon request.",
+          "reason": "The manuscript states that data is available upon request from the corresponding author, which satisfies the requirement for materials available on request."
+        }
+      ],
+      "confidence": 95,
+      "overall_status": "PARTIALLY_REPORTED",
+      "missing_elements": [
+        "prisma_2020_27_e1",
+        "prisma_2020_27_e2"
+      ]
+    },
+    "images_available": true,
+    "images_available_count": 1,
+    "images_sent": 1,
+    "image_input_supported": true,
+    "reasoning_effort": "low",
+    "multimodal_used": true,
+    "multimodal_fallback_error": null
+  }
+]
